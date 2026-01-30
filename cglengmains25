@@ -1,0 +1,1197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DSSSB Sectional Mock Test - English</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+<style>
+/* =========================
+   CORE VARIABLES & THEME
+   ========================= */
+:root {
+  --primary: #2196f3;
+  --primary-dark: #1976d2;
+  --success: #2e7d32;
+  --danger: #c62828;
+  --warning: #f9a825;
+  
+  --bg-body: #f5f7fa;
+  --bg-card: #ffffff;
+  --text-main: #333333;
+  --text-muted: #555555;
+  --border-color: #dddddd;
+  --header-bg: #ffffff;
+  --section-bar-bg: #e3f2fd;
+  --opt-hover: #f0f7ff;
+  --opt-sel-bg: #e3f2fd;
+  --palette-bg: #ffffff;
+  --zoom-bg: rgba(255, 255, 255, 0.95);
+  
+  --font-base: 16px;
+}
+
+/* Dark Mode Overrides */
+body.dark-mode {
+  --primary: #64b5f6;
+  --primary-dark: #42a5f5;
+  --success: #66bb6a;
+  --danger: #ef5350;
+  
+  --bg-body: #121212;
+  --bg-card: #1e1e1e;
+  --text-main: #e0e0e0;
+  --text-muted: #b0b0b0;
+  --border-color: #333333;
+  --header-bg: #1e1e1e;
+  --section-bar-bg: #263238;
+  --opt-hover: #2c3e50;
+  --opt-sel-bg: #1565c0;
+  --palette-bg: #1e1e1e;
+  --zoom-bg: rgba(0, 0, 0, 0.9);
+}
+
+html, body {
+  width: 100%; margin: 0; padding: 0;
+  overflow-x: hidden; font-family: 'Segoe UI', Arial, sans-serif;
+  background: var(--bg-body); color: var(--text-main);
+  height: 100%;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* =========================
+   NEW SOLUTION STYLES
+   ========================= */
+.solution-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-main);
+}
+.hindi-expl {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    color: #333;
+}
+body.dark-mode .hindi-expl {
+    background-color: #3e3820;
+    color: #e0e0e0;
+}
+
+.fact-box {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 15px;
+    color: #155724;
+}
+body.dark-mode .fact-box {
+    background-color: #1b3320;
+    border-color: #2e5c36;
+    color: #a8d6b0;
+}
+.fact-box strong {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+/* =========================
+   LAYOUT GRID
+   ========================= */
+body {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto; 
+  height: 100vh;
+}
+
+/* =========================
+   SCREENS
+   ========================= */
+.full-screen-overlay {
+  position: fixed; inset: 0;
+  background: var(--bg-body);
+  z-index: 2000;
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: center;
+  padding: 20px;
+}
+.start-card {
+  background: var(--bg-card);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  width: 100%; max-width: 500px;
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.inst-list { text-align: left; margin: 15px 0; font-size: 14px; line-height: 1.6; color: var(--text-main); }
+.inst-list li { margin-bottom: 8px; }
+
+.start-input {
+  width: 90%; padding: 12px; margin: 20px 0;
+  border: 2px solid var(--border-color); border-radius: 6px;
+  font-size: 16px; background: var(--bg-body); color: var(--text-main);
+}
+.primary-btn {
+  background: var(--primary); color: #fff;
+  border: none; padding: 12px 30px;
+  font-size: 16px; font-weight: bold;
+  border-radius: 6px; cursor: pointer;
+  transition: 0.2s; width: 100%; margin-top: 10px;
+}
+.primary-btn:disabled { background: #999; cursor: not-allowed; }
+.secondary-btn {
+    background: transparent; color: var(--text-muted); border: 2px solid var(--border-color);
+    margin-top: 10px; width: 100%; padding: 10px; border-radius: 6px; cursor: pointer; font-weight: bold;
+}
+
+/* =========================
+   HEADER & NAV
+   ========================= */
+header {
+  background: var(--header-bg); padding: 10px 15px;
+  display: flex; justify-content: space-between; align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 20;
+  border-bottom: 1px solid var(--border-color);
+}
+.brand { font-weight: bold; font-size: 1.1rem; color: var(--primary); }
+.tools { display: flex; gap: 8px; }
+.tool-btn {
+  background: var(--bg-body); border: 1px solid var(--border-color); 
+  padding: 6px 10px; border-radius: 4px; font-size: 12px; cursor: pointer;
+  font-weight: 600; color: var(--text-main);
+}
+
+/* SUB-HEADER (Subject Name) */
+#subHeader {
+    background: var(--section-bar-bg); padding: 10px 15px;
+    font-weight: bold; color: var(--primary-dark);
+    border-bottom: 1px solid var(--border-color);
+    text-align: center; font-size: 1.1em;
+}
+
+/* =========================
+   MAIN CONTENT
+   ========================= */
+#mainArea {
+  padding: 10px; overflow-y: auto; position: relative;
+  padding-bottom: 80px; display: none;
+}
+.card {
+  background: var(--bg-card); padding: 16px; border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05); margin-bottom: 15px;
+  font-size: var(--font-base); border: 1px solid var(--border-color);
+  color: var(--text-main);
+}
+.passage-box {
+  background: var(--bg-body); border-left: 4px solid var(--primary);
+  padding: 10px; margin-bottom: 15px; font-size: 0.95em;
+  color: var(--text-main); max-height: 200px; overflow-y: auto;
+  border: 1px solid var(--border-color);
+}
+
+/* IMAGE STYLING */
+.q-img {
+    max-width: 100%; height: auto; border: 1px solid var(--border-color); 
+    border-radius: 4px; margin: 10px 0; cursor: zoom-in; transition: transform 0.2s; display: block;
+}
+.q-img:hover { box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+.opt {
+  border: 1px solid var(--border-color); padding: 12px 15px;
+  margin: 8px 0; border-radius: 6px; cursor: pointer;
+  transition: background 0.15s; display: flex; align-items: center;
+  color: var(--text-main);
+}
+.opt:hover { background: var(--opt-hover); border-color: var(--primary); }
+.opt.sel { background: var(--opt-sel-bg); border-color: var(--primary); font-weight: 600; }
+.opt.correct { background: rgba(46, 125, 50, 0.2); border-color: var(--success); }
+.opt.wrong { background: rgba(198, 40, 40, 0.2); border-color: var(--danger); }
+.opt-circle {
+  width: 20px; height: 20px; border-radius: 50%; border: 2px solid var(--text-muted);
+  margin-right: 12px; display: flex; align-items: center; justify-content: center;
+  font-size: 10px; color: var(--text-main);
+}
+.opt.sel .opt-circle { border-color: var(--primary); background: var(--primary); color: #fff; }
+
+footer {
+  background: var(--bg-card); padding: 10px; border-top: 1px solid var(--border-color);
+  display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;
+  position: fixed; bottom: 0; width: 100%;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.05); display: none;
+}
+.nav-btn {
+  padding: 12px; border: none; border-radius: 6px;
+  font-weight: bold; color: #fff; cursor: pointer; font-size: 14px;
+}
+.btn-prev { background: #757575; }
+.btn-next { background: var(--primary); }
+.btn-submit { background: var(--success); }
+.btn-palette { background: var(--bg-card); color: var(--text-main); border: 1px solid var(--border-color); grid-column: span 3; }
+
+#palettePanel {
+  position: fixed; top: 0; right: -100%; width: 85%; max-width: 320px;
+  height: 100%; background: var(--palette-bg); z-index: 100;
+  transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: -5px 0 25px rgba(0,0,0,0.2);
+  display: flex; flex-direction: column; color: var(--text-main);
+}
+#palettePanel.show { right: 0; }
+.p-header { padding: 15px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background: var(--bg-body); }
+.p-grid { padding: 15px; overflow-y: auto; flex: 1; display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; align-content: start; }
+.p-footer { padding: 15px; border-top: 1px solid var(--border-color); }
+
+.qbtn {
+  aspect-ratio: 1; border-radius: 50%; border: none; font-weight: bold; font-size: 12px;
+  cursor: pointer; background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-main);
+}
+.qbtn.visited { background: var(--bg-body); border-color: #bbb; } 
+.qbtn.answered { background: var(--success); color: #fff; border: none; }
+.qbtn.review { background: var(--primary-dark); color: #fff; border-radius: 50%; }
+.qbtn.review-ans { background: var(--primary-dark); color: #fff; position: relative; } 
+.qbtn.review-ans::after { content:'✔'; position: absolute; bottom: -2px; right: -2px; font-size: 8px; background: #fff; color:green; border-radius:50%; padding:1px;} 
+.qbtn.current { box-shadow: 0 0 0 2px var(--text-main); transform: scale(1.1); }
+
+#timer { background: var(--bg-card); padding: 5px 10px; border-radius: 4px; font-weight: bold; color: var(--primary); border: 1px solid var(--primary); }
+#expBox { margin-top: 15px; padding: 15px; background: rgba(46, 125, 50, 0.1); border-left: 4px solid var(--success); border-radius: 4px; font-size: 14px; display: none; color: var(--text-main); }
+.overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 90; display: none; }
+.overlay.show { display: block; }
+
+#qpModal { 
+  position: fixed; top: 5%; left: 5%; width: 90%; height: 90%; 
+  background: var(--bg-card); color: var(--text-main);
+  z-index: 200; border-radius: 8px; display: none; flex-direction: column; 
+  border: 1px solid var(--border-color);
+}
+.chart-container { width: 100%; max-width: 300px; margin: 0 auto 20px auto; }
+
+/* TELEGRAM POPUP */
+#tgPopup{
+  position:fixed; top:50%; left:50%; transform:translate(-50%,-50%);
+  background: var(--bg-card); padding:25px; width:85%; max-width:320px;
+  border-radius:12px; box-shadow:0 20px 60px rgba(0,0,0,0.4);
+  z-index:9999; text-align:center; display:none; color: var(--text-main);
+  border: 1px solid var(--border-color);
+}
+#tgPopup a{ display:block; background:#0088cc; color:#fff; padding:12px; border-radius:8px; text-decoration:none; margin-top:15px; font-weight:bold; }
+.tg-btn-continue { background: var(--bg-body); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 20px; border-radius: 8px; margin-top: 15px; cursor: pointer; font-weight: 600; }
+
+/* ZOOM MODAL */
+#zoomModal {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: var(--zoom-bg); z-index: 5000;
+    display: none; justify-content: center; align-items: center;
+    flex-direction: column;
+}
+#zoomImg {
+    max-width: 90%; max-height: 85vh; border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3); border: 1px solid #fff;
+}
+.close-zoom {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px; color: var(--text-main); cursor: pointer; font-weight: bold;
+}
+
+/* Result Question Box Styling (for PDF) */
+.result-q-box {
+    margin-bottom: 15px; padding: 10px; border: 1px solid var(--border-color);
+    border-radius: 6px; background: var(--bg-card);
+    page-break-inside: avoid;
+}
+.res-opt {
+    padding: 5px; margin: 2px 0; border-radius: 4px; font-size: 14px;
+}
+.res-opt.c { background: rgba(46, 125, 50, 0.2); border: 1px solid var(--success); }
+.res-opt.w { background: rgba(198, 40, 40, 0.2); border: 1px solid var(--danger); text-decoration: line-through; }
+
+/* Responsive */
+@media(min-width: 768px) {
+  body { grid-template-columns: 1fr 300px; grid-template-rows: auto auto 1fr; }
+  header { grid-column: 1 / -1; }
+  #subHeader { grid-column: 1 / 2; }
+  #mainArea { grid-column: 1 / 2; grid-row: 3 / 4; padding-bottom: 20px; }
+  #palettePanel {
+    position: static; width: auto; height: auto; right: auto;
+    grid-column: 2 / 3; grid-row: 2 / 4;
+    border-left: 1px solid var(--border-color); box-shadow: none; z-index: 1;
+  }
+  footer {
+    grid-column: 1 / 2; position: static;
+    display: flex; justify-content: space-between;
+    box-shadow: none; border-top: 1px solid var(--border-color);
+  }
+  .btn-palette { display: none; } 
+  .p-grid { grid-template-columns: repeat(4, 1fr); }
+  #qpModal { width: 60%; left: 20%; }
+}
+</style>
+</head>
+
+<body onload="initApp()">
+
+<div id="zoomModal" onclick="closeZoom()">
+    <span class="close-zoom">&times;</span>
+    <img id="zoomImg" src="">
+    <div style="color:var(--text-main); margin-top:10px;">Click anywhere to close</div>
+</div>
+
+<div id="startScreen" class="full-screen-overlay">
+    <div class="start-card">
+        <h2 style="color:var(--primary); margin-top:0;">Sectional Mock Test</h2>
+        <p style="color:var(--text-muted)">Please enter your name to proceed.</p>
+        <input type="text" id="startNameInput" class="start-input" placeholder="Enter Full Name">
+        <button class="primary-btn" onclick="goToInstructions()">NEXT</button>
+    </div>
+</div>
+
+<div id="instScreen" class="full-screen-overlay" style="display:none;">
+    <div class="start-card" style="max-width:600px; text-align:left;">
+        <h3 style="color:var(--primary); border-bottom:1px solid var(--border-color); padding-bottom:10px;">General Instructions</h3>
+        <div class="inst-list">
+            <b>Subject: English Language (Single Section)</b><br>
+            <b>Marking Scheme:</b>
+            <ul>
+                <li style="color:var(--success)">Correct Answer: +1 Mark</li>
+                <li style="color:var(--danger)">Wrong Answer: -0.25 Mark</li>
+            </ul>
+        </div>
+        <label style="display:flex; align-items:center; cursor:pointer; font-weight:600; font-size:14px; margin-top:20px;">
+            <input type="checkbox" id="instCheck" onchange="toggleStartBtn()" style="width:20px; height:20px; margin-right:10px;">
+            I have read and understood the instructions.
+        </label>
+        <br>
+        <button id="finalStartBtn" class="primary-btn" onclick="startTestFlow()" disabled>I AM READY TO BEGIN</button>
+    </div>
+</div>
+
+<div id="resumeScreen" class="full-screen-overlay" style="display:none;">
+    <div class="start-card">
+        <h3 style="color:var(--primary);">Test In Progress Found</h3>
+        <p style="color:var(--text-muted);">We found a previous unfinished session for <b id="resumeName"></b>.</p>
+        <div style="background:var(--bg-body); padding:10px; margin:10px 0; border-radius:5px;">
+            <small>Last active: <span id="resumeTime"></span> mins elapsed</small>
+        </div>
+        <button class="primary-btn" onclick="resumeTest()">RESUME SESSION</button>
+        <button class="secondary-btn" onclick="startNewTest()">START FRESH</button>
+    </div>
+</div>
+
+<div id="tgPopup">
+ <b>📢 Join DSSSB Smart Notes</b><br><br>
+ Daily CBT Tests • PDFs • Results
+ <a href="https://t.me/DSSSBSmartNotes" target="_blank">Join Telegram</a><br>
+ <button class="tg-btn-continue" onclick="closeTg()">Continue Test</button>
+</div>
+
+<div class="overlay" onclick="togglePalette()" id="bgOverlay"></div>
+
+<header>
+  <div class="brand">DSSSB Mock <span style="font-size:0.8em; color:var(--text-muted)">v2.7</span></div>
+  <div style="display:flex; align-items:center; gap:10px;">
+    <div id="timer">00:00</div>
+    <button class="tool-btn" onclick="pauseTest()" style="color:var(--warning); border-color:var(--warning)">⏸ Pause</button>
+    <button class="tool-btn" onclick="toggleDarkMode()" id="themeBtn">🌙</button>
+    <button class="tool-btn" onclick="toggleLang()" id="langBtn">EN/HI</button>
+    <button class="tool-btn" onclick="toggleFS()">⛶</button>
+    <button class="tool-btn" onclick="openQP()">📄 Paper</button>
+  </div>
+</header>
+
+<div id="subHeader">English Language</div>
+
+<div id="mainArea">
+  <input type="hidden" id="stuName">
+  <div class="card">
+    <div style="display:flex; justify-content:space-between; margin-bottom:10px; color:var(--text-muted); font-size:13px;">
+      <span>Question No. <b id="qNumDisp">1</b></span>
+      <span style="display:flex; gap:10px;">
+        <span style="color:var(--success)">+1.00</span>
+        <span style="color:var(--danger)">-0.25</span>
+      </span>
+    </div>
+    <div style="font-size:14px; text-align:right; margin-bottom:5px;">
+        <button class="tool-btn" onclick="changeFont(1)">A+</button>
+        <button class="tool-btn" onclick="changeFont(-1)">A-</button>
+    </div>
+    <div id="qContent"></div> 
+    <div id="opts"></div>      
+    <div style="display:flex; gap:10px; margin-top:15px; border-top:1px solid var(--border-color); padding-top:15px;">
+        <button class="tool-btn" style="color:orange; border:1px solid orange; background:var(--bg-card)" onclick="markReview()">⭐ Mark for Review</button>
+        <button class="tool-btn" style="color:var(--text-muted);" onclick="clearResponse()">Borrar (Clear)</button>
+    </div>
+    <div id="expBox"></div>
+    <button id="expBtn" onclick="toggleExp()" style="width:100%; padding:10px; margin-top:10px; background:var(--primary); border:none; border-radius:4px; display:none; color:#fff; font-weight:bold;">View Solution</button>
+  </div>
+</div>
+
+<div id="palettePanel">
+  <div class="p-header">
+    <b>Question Palette</b>
+    <button onclick="togglePalette()" style="border:none; background:none; font-size:20px; cursor:pointer; color:var(--text-main)" class="close-pal">&times;</button>
+  </div>
+  <div style="padding:10px; background:var(--bg-card); font-size:12px; display:grid; grid-template-columns: 1fr 1fr; gap:5px;">
+    <div style="display:flex; align-items:center; gap:5px;"><div class="qbtn answered" style="width:20px; height:20px;"></div> Answered</div>
+    <div style="display:flex; align-items:center; gap:5px;"><div class="qbtn visited" style="width:20px; height:20px;"></div> Not Answered</div>
+    <div style="display:flex; align-items:center; gap:5px;"><div class="qbtn review" style="width:20px; height:20px;"></div> Mark Review</div>
+    <div style="display:flex; align-items:center; gap:5px;"><div class="qbtn" style="width:20px; height:20px;"></div> Not Visited</div>
+  </div>
+  <div class="p-grid" id="paletteGrid"></div>
+  <div class="p-footer">
+    <button onclick="submitTest()" style="width:100%; padding:12px; background:var(--success); color:#fff; border:none; border-radius:4px; font-weight:bold; font-size:16px;">SUBMIT TEST</button>
+  </div>
+</div>
+
+<footer>
+  <button class="nav-btn btn-palette" onclick="togglePalette()">Grid</button>
+  <button class="nav-btn btn-prev" onclick="prev()">Previous</button>
+  <button class="nav-btn btn-next" onclick="next()">Next</button>
+</footer>
+
+<div id="qpModal">
+    <div style="padding:15px; border-bottom:1px solid var(--border-color); display:flex; justify-content:space-between;">
+        <b id="modalTitle">Full Question Paper</b>
+        <button onclick="closeQP()" style="border:none; background:none; font-size:20px; color:var(--text-main)">&times;</button>
+    </div>
+    <div id="qpContent" style="padding:20px; overflow-y:auto; flex:1;"></div>
+</div>
+
+<script>
+/* DATA & CONFIG */
+const SECTION_NAME = "English Language"; 
+const NEGATIVE_MARK = 0.25;
+const TELEGRAM_BOT_TOKEN="8486464606:AAFT_Bd0P2HYqKNPjCm3s7TGgfM4HWmOYvs";
+const TELEGRAM_CHAT_ID="@dsssbcbtresult";
+
+/* UPDATED QUESTIONS WITH NEW JSON FORMAT */
+const QUESTIONS = [
+  {
+    "q_hi": "Select the most appropriate option to substitute the highlighted segment in the given sentence. If there is no need to substitute it, select 'No improvement'.<br><br>Tom was <b><u>standing besides the schoolhouse poster</u></b> when the ball rolled towards him.",
+    "op_1": "stand beside the schoolhouse poster",
+    "op_2": "stood beside the schoolhouse poster",
+    "op_3": "No improvement",
+    "op_4": "standing beside the schoolhouse poster",
+    "ans": "4",
+    "solution": "<div class='solution-container'><b>Correct Answer: standing beside the schoolhouse poster</b><br>The error lies in the usage of 'besides'. 'Beside' is a preposition that means 'at the side of' or 'next to'. 'Besides' means 'in addition to' or 'apart from'. Since Tom is positioned next to a poster, 'beside' is the correct word.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>यहाँ <b>'besides'</b> का प्रयोग गलत है। <br>• <b>Beside:</b> इसका अर्थ होता है 'बगल में' या 'समीप'।<br>• <b>Besides:</b> इसका अर्थ होता है 'के अलावा' या 'के अतिरिक्त'।<br>चूंकि टॉम पोस्टर के बगल में खड़ा था, इसलिए सही विकल्प <b>'standing beside...'</b> होगा।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Confusing Pairs:</b> 'Beside' (Place) vs 'Besides' (Addition).</li><li><b>Example:</b> She sat <b>beside</b> me (वह मेरे बगल में बैठी).</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Select the correctly spelt word out of the four alternatives.",
+    "op_1": "Grostasque",
+    "op_2": "Growtesque",
+    "op_3": "Grotesque",
+    "op_4": "Grosteasque",
+    "ans": "3",
+    "solution": "<div class='solution-container'><b>Correct Answer: Grotesque</b><br>'Grotesque' is the correct spelling. It refers to something comically or repulsively ugly or distorted.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>सही स्पेलिंग <b>Grotesque</b> है। इसका अर्थ होता है 'विकृत', 'कुरूप' या 'बेढंगा' (जो देखने में अजीब या डरावना लगे)।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Synonyms:</b> Malformed, Deformed, Bizarre.</li><li><b>Usage:</b> The puppet had a <b>grotesque</b> face.</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Select the wrongly spelt word out of the four alternatives.",
+    "op_1": "Impetuous",
+    "op_2": "Implication",
+    "op_3": "Impetunent",
+    "op_4": "Imperial",
+    "ans": "3",
+    "solution": "<div class='solution-container'><b>Correct Answer: Impetunent</b><br>The word 'Impetunent' is wrongly spelt. The correct word is likely <b>'Impertinent'</b>, which means not showing proper respect; rude.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br><b>'Impetunent'</b> की स्पेलिंग गलत है। सही शब्द <b>'Impertinent'</b> होता है, जिसका अर्थ है 'गुस्ताख़' या 'ढीठ'।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Impetuous:</b> Acting quickly without thought (उतावला)।</li><li><b>Implication:</b> A likely consequence (निहितार्थ)।</li><li><b>Imperial:</b> Relating to an empire (शाही)।</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Choose the option that contains the homonym of the highlighted word in the given sentence.<br><br>Please make sure to write your full home <b>address</b>, including the apartment number and zip code, on the top of the application form.",
+    "op_1": "The delivery driver called me because he was having trouble finding my address on the GPS due to the new construction in the neighborhood.",
+    "op_2": "The celebrity requested that her residential address be kept private and removed from all public search directories for security reasons.",
+    "op_3": "Millions of people tuned in to watch the president's televised address regarding the new economic policies.",
+    "op_4": "After living in the city for ten years, Sarah had to notify the post office that her permanent address was changing to a rural farmhouse.",
+    "ans": "3",
+    "solution": "<div class='solution-container'><b>Correct Answer: Option 3</b><br>In the main sentence, 'address' refers to a physical location (postal address). In option 3, 'address' is used as a homonym/homograph meaning a formal speech. Options 1, 2, and 4 use 'address' with the same meaning as the original sentence (location).<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>मुख्य वाक्य में <b>'address'</b> का अर्थ 'घर का पता' है। विकल्प 3 में 'address' का अर्थ 'भाषण' है। चूँकि शब्द एक ही है पर अर्थ अलग है, इसलिए विकल्प 3 सही 'homonym' वाला वाक्य है।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Homonyms:</b> ऐसे शब्द जिनकी स्पेलिंग और उच्चारण समान हो पर अर्थ अलग हो।</li><li><b>Example:</b> 'Bat' (क्रिकेट का बल्ला) और 'Bat' (चमगादड़)।</li></ul></div></div>"
+  },
+  {
+    "q_hi": "In the following question, out of the four alternatives, choose the one which can be substituted for the given words/sentence.<br><br>Fear of ugliness.",
+    "op_1": "Cacophobia",
+    "op_2": "Arachnophobia",
+    "op_3": "Hydrophobia",
+    "op_4": "Acrophobia",
+    "ans": "1",
+    "solution": "<div class='solution-container'><b>Correct Answer: Cacophobia</b><br>Cacophobia is the irrational fear of ugliness or of becoming ugly.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br><b>Cacophobia</b> का अर्थ है 'कुरुपता' या 'भद्देपन' का डर।<br>• रूट शब्द: Greek 'kakos' (bad/ugly) + 'phobos' (fear).</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Arachnophobia:</b> Fear of spiders (मकड़ियों का डर).</li><li><b>Hydrophobia:</b> Fear of water (पानी का डर).</li><li><b>Acrophobia:</b> Fear of heights (ऊंचाई का डर).</li></ul></div></div>"
+  },
+  {
+    "q_hi": "In the following question, out of the four alternatives, choose the one which gives the meaning of the given idiom or phrase.<br><br>To strain at a gnat and swallow a camel",
+    "op_1": "To be meticulous in everything",
+    "op_2": "To be extremely physically weak",
+    "op_3": "To have a very large appetite",
+    "op_4": "To fuss over trifles while ignoring big issues",
+    "ans": "4",
+    "solution": "<div class='solution-container'><b>Correct Answer: To fuss over trifles while ignoring big issues</b><br>The idiom 'To strain at a gnat and swallow a camel' means to make a fuss about a minor problem (gnat) while accepting or ignoring a much larger and more serious problem (camel).<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>इस मुहावरे का अर्थ है 'छोटी-छोटी बातों पर हंगामा करना लेकिन बड़ी गलतियों को नजरअंदाज कर देना'।<br>• Gnat = एक बहुत छोटा कीड़ा।<br>• Camel = ऊंट (बड़ी समस्या का प्रतीक)।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Origin:</b> यह बाइबिल (Matthew 23:24) से लिया गया है।</li><li><b>Example:</b> Worrying about a ₹10 expense while losing ₹1000 is straining at a gnat and swallowing a camel.</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Select the correct passive form of the given sentence.<br><br>The burglar destroyed several items in the room. Even the carpet has been torn.",
+    "op_1": "Several items in the room were destroyed by the burglar. Even the carpet has been torn.",
+    "op_2": "Including the carpet, several items in the room have been torn by the burglar.",
+    "op_3": "The burglar, being destroyed several items in the room, also carpet has torn.",
+    "op_4": "Several items destroyed in the room by the burglar. Even the carpet he has torn.",
+    "ans": "1",
+    "solution": "<div class='solution-container'><b>Correct Answer: Option 1</b><br>To convert to Passive Voice:<br>1. The object 'Several items' becomes the subject.<br>2. The verb 'destroyed' (Simple Past) changes to 'were destroyed'.<br>3. The second part 'Even the carpet has been torn' is already in passive construction and is retained to maintain meaning.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>Active से Passive बनाने का नियम:<br>• <b>Subject:</b> The burglar → Object बन जाएगा।<br>• <b>Object:</b> Several items → Subject बन जाएगा।<br>• <b>Tense Change:</b> 'destroyed' (Past Indefinite) → 'were destroyed' में बदल जाएगा।<br>अतः विकल्प 1 सही है।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Rule:</b> Past Indefinite (Subject + V2 + Object) changes to (Object + was/were + V3 + by Subject).</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Select the correct indirect form of the given sentence.<br><br>\"Do you suppose you know better than your own father?\" jeered his angry mother.",
+    "op_1": "His angry mother jeered and asked if you suppose you know better than your own father.",
+    "op_2": "His angry mother jeered and asked whether he had supposed he has known better than his own father.",
+    "op_3": "His angry mother jeered and asked whether he supposed he knew better than his own father.",
+    "op_4": "His angry mother jeered that did he suppose he knew better than his own father.",
+    "ans": "3",
+    "solution": "<div class='solution-container'><b>Correct Answer: Option 3</b><br>Rules for Indirect Speech:<br>1. Reporting verb 'jeered' is retained or added with 'asked'.<br>2. For interrogative sentences starting with auxiliary verbs (Do), use conjunction 'if' or 'whether'.<br>3. Tense Change: Simple Present ('suppose', 'know') changes to Simple Past ('supposed', 'knew').<br>4. Pronouns: 'You' becomes 'he'.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>Direct से Indirect बनाने के नियम:<br>• प्रश्नवाचक वाक्य (Interrogative) में 'that' की जगह <b>'if'</b> या <b>'whether'</b> का प्रयोग होता है।<br>• Present Indefinite Tense (suppose/know) को Past Indefinite (supposed/knew) में बदला जाता है।<br>• Pronoun 'You' को 'He' में बदला जाएगा।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Jeered:</b> मज़ाक उड़ाना या ताना मारना।</li><li><b>Structure:</b> Subject + asked + if/whether + Subject + Verb (Past) + ...</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Select the correct indirect form of the given sentence.<br><br>\"Call the first witness,\" said the judge.",
+    "op_1": "The judge ordered that called the first witness.",
+    "op_2": "The judge asked if they would call the first witness.",
+    "op_3": "The judge ordered them to call the first witness.",
+    "op_4": "The judge said that the first witness should be called.",
+    "ans": "3",
+    "solution": "<div class='solution-container'><b>Correct Answer: Option 3</b><br>This is an <b>Imperative Sentence</b> (Command).<br>1. The reporting verb 'said' changes to <b>'ordered'</b> because a judge gives orders.<br>2. The imperative mood is changed to the infinitive mood by placing <b>'to'</b> before the verb ('to call').<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>यह एक आदेशात्मक वाक्य (Imperative Sentence) है।<br>• जज हमेशा आदेश देते हैं, इसलिए 'said' को <b>'ordered'</b> में बदलेंगे।<br>• ऐसे वाक्यों में 'that' नहीं लगता, बल्कि क्रिया (Verb) से पहले <b>'to'</b> लगाकर वाक्य को जोड़ा जाता है (to call the first witness)।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Imperative Rules:</b><br>Order → Ordered<br>Request → Requested<br>Advice → Advised</li><li><b>Structure:</b> Subject + Ordered/Requested + Object + <b>to + V1</b> + ...</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Choose the appropriate synonym of the given word.<br><br><b>Erroneous</b>",
+    "op_1": "Fallacious",
+    "op_2": "Vital",
+    "op_3": "Accurate",
+    "op_4": "Right",
+    "ans": "1",
+    "solution": "<div class='solution-container'><b>Correct Answer: Fallacious</b><br>The word <b>'Erroneous'</b> means incorrect or containing errors. The synonym <b>'Fallacious'</b> means based on a mistaken belief or false.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br><b>Erroneous</b> का अर्थ होता है 'गलत', 'अशुद्ध' या 'त्रुटिपूर्ण'।<br><b>Fallacious</b> का अर्थ भी 'भ्रामक' या 'गलत' होता है, इसलिए यह सही पर्यायवाची है।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Vital:</b> Absolutely necessary (महत्वपूर्ण)।</li><li><b>Accurate:</b> Correct in all details (सटीक)।</li><li><b>Origin:</b> 'Erroneous' लैटिन शब्द <i>errare</i> से बना है जिसका मतलब है 'भटकना' या 'गलती करना' (To err).</li></ul></div></div>"
+  },
+  {
+    "q_hi": "In the following question, out of the four alternatives, choose the one which gives the meaning of the given idiom or phrase.<br><br><b>A stitch in time saves nine</b>",
+    "op_1": "Saving money for the future",
+    "op_2": "Drunk or intoxicated",
+    "op_3": "Timely action prevents more work",
+    "op_4": "Tailoring is a valuable skill",
+    "ans": "3",
+    "solution": "<div class='solution-container'><b>Correct Answer: Timely action prevents more work</b><br>The proverb 'A stitch in time saves nine' means that if you sort out a problem immediately, it may save a lot of extra work later.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>इस कहावत का अर्थ है: 'समय रहते किया गया सुधार भविष्य की बड़ी परेशानी से बचाता है।'<br>जैसे कपड़े में छोटा छेद होने पर तुरंत टांका (stitch) लगा देना चाहिए, वरना बाद में 9 टांके लगाने पड़ेंगे।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Origin:</b> यह मुहावरा सिलाई (Sewing/Mending) से जुड़ा है।</li><li><b>Usage:</b> I fixed the leak in the roof immediately; a stitch in time saves nine.</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Given below are four jumbled sentences. Select the option that gives their correct order.<br><br>A. Here, the picture-perfect French Quarter and heritage laden Tamil streets blend into one another.<br>B. Across many metropolitan cities, there exists a visible conflict in how the old and the new coexist.<br>C. The old and new, like two different worlds, surviving side by side yet never crossing that chasm.<br>D. However, Puducherry stands as a striking exception, where these very contrasts are celebrated rather than endured.",
+    "op_1": "BDAC",
+    "op_2": "BACD",
+    "op_3": "DABC",
+    "op_4": "ABCD",
+    "ans": "1",
+    "solution": "<div class='solution-container'><b>Correct Answer: BDAC</b><br><b>Sequence Logic:</b><br>1. <b>(B)</b> Introduces the general topic: Conflict between old and new in metropolitan cities.<br>2. <b>(D)</b> Introduces the exception: 'However' signals a contrast, introducing Puducherry.<br>3. <b>(A)</b> Elaborates on Puducherry: 'Here' refers back to Puducherry mentioned in D.<br>4. <b>(C)</b> Concludes the comparison by describing the unique blend.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>सही क्रम <b>BDAC</b> है:<br>• <b>B:</b> शहरों में पुराने और नए के बीच संघर्ष की बात करता है।<br>• <b>D:</b> 'However' (हालांकि) के साथ पुडुचेरी को एक अपवाद (Exception) के रूप में पेश करता है।<br>• <b>A:</b> 'Here' (यहाँ) से पुडुचेरी की गलियों का वर्णन करता है।<br>• <b>C:</b> पुराने और नए के मिलन पर बात खत्म करता है।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Tip for Jumbled Sentences:</b> सबसे पहले 'Independent Sentence' ढूंढे जो Topic शुरू करे (यहाँ B)। फिर Connector शब्दों (However, Here) का पालन करें।</li></ul></div></div>"
+  },
+  {
+    "q_hi": "The following sentence has been divided into four parts. Identify the part which contains a grammatical error. If there is no error in the sentence, then select 'No Error'.<br><br>The company will invest more(A) / six hundred crores(B) / in the next five years to expand(C) / its operations in Britain (D).",
+    "op_1": "D",
+    "op_2": "A",
+    "op_3": "C",
+    "op_4": "B",
+    "ans": "2",
+    "solution": "<div class='solution-container'><b>Correct Answer: A</b><br>The error lies in part A. The usage 'invest more six hundred crores' is grammatically incorrect. The correct phrase should be <b>'invest more than'</b> or <b>'invest over'</b> six hundred crores to indicate an amount exceeding that number.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>भाग (A) में त्रुटि है।<br>'Invest more six hundred crores' कहना गलत है। सही व्याकरण के अनुसार इसे <b>'more than'</b> (से अधिक) या <b>'over'</b> होना चाहिए।<br>सही वाक्य: <i>The company will invest <b>more than</b> six hundred crores...</i></div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Usage Rule:</b> When using 'more' with specific numbers to show excess, it must be followed by 'than'. (e.g., 'More than 10 people').</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Choose the appropriate antonym of the given word.<br><br><b>Gullibility</b>",
+    "op_1": "Naivety",
+    "op_2": "Innocence",
+    "op_3": "Skepticism",
+    "op_4": "Trust",
+    "ans": "3",
+    "solution": "<div class='solution-container'><b>Correct Answer: Skepticism</b><br><b>Gullibility</b> means a tendency to be easily persuaded that something is real or true (credulity). The antonym <b>Skepticism</b> means an attitude of doubt or a disposition to incredulity either in general or toward a particular object.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br><b>Gullibility</b> का अर्थ है 'भोलापन' या 'आसानी से किसी बात पर विश्वास कर लेने का गुण'।<br>इसका विलोम (Antonym) <b>Skepticism</b> है, जिसका अर्थ है 'संदेह' या 'शक़ करना'।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Naivety:</b> Lack of experience, wisdom, or judgment (Synonym).</li><li><b>Innocence:</b> Lack of guile or corruption (Synonym).</li><li><b>Etymology:</b> 'Gullible' comes from 'Gull', meaning a person who is easily deceived.</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Select the correct active form of the given sentence.<br><br>The massive exterior wall of the old mansion was being painted by the skilled laborers when it suddenly started raining heavily.",
+    "op_1": "The skilled laborers had been painting the massive exterior wall of the old mansion when it suddenly started raining heavily.",
+    "op_2": "The skilled laborers painted the massive exterior wall of the old mansion when it suddenly started raining heavily.",
+    "op_3": "The skilled laborers were painting the massive exterior wall of the old mansion when it suddenly started raining heavily.",
+    "op_4": "The skilled laborers are painting the massive exterior wall of the old mansion when it suddenly started raining heavily.",
+    "ans": "3",
+    "solution": "<div class='solution-container'><b>Correct Answer: Option 3</b><br>The given sentence is in <b>Past Continuous Passive Voice</b> (was/were + being + V3).<br>To convert it to <b>Active Voice</b>:<br>1. The object 'the skilled laborers' becomes the subject.<br>2. The verb changes from 'was being painted' to <b>'were painting'</b> (Subject + was/were + V1+ing + Object).<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>दिया गया वाक्य <b>Past Continuous Passive</b> में है ('was being painted')।<br>इसे Active में बदलने के लिए:<br>• 'The skilled laborers' (जो पहले 'by' के साथ था) अब Subject बन जाएगा।<br>• क्रिया 'was being painted' बदलकर <b>'were painting'</b> हो जाएगी।<br>अतः विकल्प 3 सही है।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Passive:</b> Object + was/were + being + V3 + by Subject.</li><li><b>Active:</b> Subject + was/were + V1+ing + Object.</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Given below are four jumbled sentences. Select the option that gives their correct order.<br><br>A. Faced with the high cost and scarcity of Indian indigo, European manufacturers were forced to rely on the woad plant for their dyeing needs.<br>B. However, cloth dyers still preferred indigo, as it produced a significantly richer and more vibrant blue than woad ever could.<br>C. Since woad thrived in temperate climates, it was readily available and easily cultivated throughout Europe.<br>D. Indian indigo was prohibitively expensive, and only meager quantities ever reached European markets.",
+    "op_1": "DACB",
+    "op_2": "BCAD",
+    "op_3": "CBAD",
+    "op_4": "ABCD",
+    "ans": "1",
+    "solution": "<div class='solution-container'><b>Correct Answer: DACB</b><br><b>Sequence Logic:</b><br>1. <b>(D)</b> Sets the context: Indian indigo was expensive and scarce.<br>2. <b>(A)</b> Result: Because of the high cost (mentioned in D), manufacturers relied on woad.<br>3. <b>(C)</b> Explanation: Describes why woad was a good alternative (it grew easily).<br>4. <b>(B)</b> Contrast: 'However' introduces the preference for indigo despite the use of woad.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>सही क्रम <b>DACB</b> है:<br>• <b>D:</b> समस्या बताता है (इंडिगो महंगा था)।<br>• <b>A:</b> उसका परिणाम (लोग 'woad' पौधे का इस्तेमाल करने लगे)।<br>• <b>C:</b> 'woad' के बारे में और जानकारी देता है।<br>• <b>B:</b> अंत में 'However' (फिर भी) के साथ बताता है कि रंगरेज अभी भी इंडिगो को ही पसंद करते थे।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Connector Hint:</b> वाक्य A में 'high cost' का जिक्र है जो वाक्य D के 'expensive' से जुड़ता है। इसलिए D के बाद A आना चाहिए।</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Select the correct active form of the given sentence.<br><br>Why was such a letter written by your brother?",
+    "op_1": "Why was your brother writing such a letter?",
+    "op_2": "Why had your brother written such a letter?",
+    "op_3": "Why did your brother write such a letter?",
+    "op_4": "Why does your brother write such a letter?",
+    "ans": "3",
+    "solution": "<div class='solution-container'><b>Correct Answer: Option 3</b><br>The given sentence is in <b>Simple Past Passive Voice</b> (was/were + V3).<br>To convert it to Active Voice:<br>1. The helping verb 'was' changes to <b>'did'</b> for interrogative sentences.<br>2. The verb 'written' (V3) changes to 'write' (V1).<br>3. Structure: Wh-word + did + Subject + V1 + Object?<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>यह वाक्य <b>Simple Past Passive</b> में है ('was written')।<br>इसे Active में बदलने के लिए:<br>• प्रश्नवाचक वाक्यों में 'was/were' की जगह <b>'did'</b> का प्रयोग होता है।<br>• क्रिया की थर्ड फॉर्म (written) को फर्स्ट फॉर्म (write) में बदला जाता है।<br>सही वाक्य: <i>Why did your brother write such a letter?</i></div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Passive:</b> Why + was/were + Object + V3 + by Subject?</li><li><b>Active:</b> Why + did + Subject + V1 + Object?</li></ul></div></div>"
+  },
+  {
+    "q_hi": "The following sentence has been divided into four parts. Identify the part which contains a grammatical error. If there is no error in the sentence, then select 'No Error'.<br><br>The whole family (A)/ would burst into (B)/ peals for laughter. (C)/ No Error (D)",
+    "op_1": "A",
+    "op_2": "C",
+    "op_3": "B",
+    "op_4": "D",
+    "ans": "2",
+    "solution": "<div class='solution-container'><b>Correct Answer: C</b><br>The error is in part C. The correct idiomatic phrase is <b>'peals of laughter'</b>, not 'peals for laughter'.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>भाग (C) में त्रुटि है।<br>सही मुहावरा <b>'peals of laughter'</b> होता है, जिसका अर्थ है 'जोरदार हंसी' या 'ठहाके'। यहाँ 'for' गलत प्रीपोज़िशन है, उसकी जगह 'of' आना चाहिए।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Peals of laughter:</b> A loud and prolonged sound of laughing.</li><li><b>Similar Phrase:</b> 'Peals of thunder' (बादलों की गड़गड़ाहट)।</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Given below are four jumbled parts of a sentence. Select the option that gives their correct order.<br><br>A) by the intricate tapestry of<br>B) the philosopher was captivated<br>C) that define human existence<br>D) moral and ethical dilemmas",
+    "op_1": "BADC",
+    "op_2": "CBAD",
+    "op_3": "ABCD",
+    "op_4": "DBAC",
+    "ans": "1",
+    "solution": "<div class='solution-container'><b>Correct Answer: BADC</b><br><b>Sequence Logic:</b><br>1. <b>(B)</b> Subject: 'The philosopher was captivated' (Starts the sentence).<br>2. <b>(A)</b> Prepositional phrase: Captivated 'by the intricate tapestry of'.<br>3. <b>(D)</b> Object of preposition: Tapestry of 'moral and ethical dilemmas'.<br>4. <b>(C)</b> Relative clause: Dilemmas 'that define human existence'.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>सही क्रम <b>BADC</b> है:<br>• <b>B:</b> वाक्य की शुरुआत करता है (दार्शनिक मोहित था)।<br>• <b>A:</b> बताता है किस चीज़ से मोहित था (intricate tapestry of...)।<br>• <b>D:</b> बताता है वो टेपेस्ट्री किसकी थी (moral and ethical dilemmas)।<br>• <b>C:</b> उस दुविधा के बारे में विस्तार से बताता है।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Tip:</b> हमेशा Subject + Verb (B) को पहले ढूँढें और फिर Prepositions (by, of) के जरिये कड़ियों को जोड़ें।</li></ul></div></div>"
+  },
+  {
+    "q_hi": "Select the correct direct form of the given sentence.<br><br>He inquired whether the boy's name was Ahmed.",
+    "op_1": "He asked, \"The boy's name is Ahmed?\"",
+    "op_2": "He asked, \"Is the boy's name Ahmed?\"",
+    "op_3": "He asked, \"Whether the boy's name was Ahmed?\"",
+    "op_4": "He asked, \"Was the boy's name Ahmed?\"",
+    "ans": "2",
+    "solution": "<div class='solution-container'><b>Correct Answer: Option 2</b><br>Rules for Direct Speech:<br>1. 'Inquired whether' indicates a Yes/No question, so the reported speech will start with a helping verb (Is/Was).<br>2. <b>Backshift Reversal:</b> The past tense 'was' in indirect speech changes back to present tense <b>'is'</b> in direct speech.<br>3. Conjunction 'whether' is removed.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>Indirect से Direct बनाने के नियम:<br>• 'whether' हट जाएगा।<br>• Tense वापस Present में आ जाएगा ('was' → <b>'is'</b>)।<br>• वाक्य प्रश्नवाचक बन जाएगा (Is the boy's name...?)।<br>अतः विकल्प 2 सही है।</div><div class='fact-box'><strong>📚 Extra Facts:</strong><ul><li><b>Rule:</b> Simple Past (Indirect) → Simple Present (Direct).</li><li><b>Check:</b> Option 4 गलत है क्योंकि 'Was' का Indirect 'Had been' होता है।</li></ul></div></div>"
+  },
+ {
+"q_hi": "Given below are four jumbled parts of a sentence. Select the option that gives their correct order.<br>A) has been attributed by many climate scientists<br>B) the unprecedented frequency of extreme weather events<br>C) to the steady rise in global atmospheric temperatures<br>D) observed across various continents over the last decade",
+"op_1": "BDAC",
+"op_2": "ADBC",
+"op_3": "CBAD",
+"op_4": "ABCD",
+"ans": "1",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 1</b><br>Sequence Logic:<br>1. <b>(B)</b> Introduces the subject 'The unprecedented frequency...'.<br>2. <b>(D)</b> Modifies the subject (observed across various continents...).<br>3. <b>(A)</b> Contains the main verb 'has been attributed'.<br>4. <b>(C)</b> Completes the sentence (attributed to what?).<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>सही क्रम <b>BDAC</b> है।<br>• (B) विषय (Subject) की शुरुआत करता है।<br>• (D) विषय का विस्तार है।<br>• (A) क्रिया (Verb) है जो बताती है कि इसका कारण क्या है।<br>• (C) वाक्य को पूरा करता है।</div></div>"
+},
+{
+"q_hi": "Choose the most appropriate option to fill the blank in the given sentence.<br>The tiny deer stood looking at them with ______ eyes.",
+"op_1": "Stationary",
+"op_2": "Arid",
+"op_3": "Luminous",
+"op_4": "Transparent",
+"ans": "3",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 3</b><br>Vocabulary:<br>• <b>Luminous:</b> Bright, shining, or glowing (often used for eyes).<br>• Stationary: Not moving.<br>• Arid: Dry.<br>• Transparent: See-through.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>सही शब्द: <b>Luminous (चमकीला)</b><br>• हिरण की आँखें चमकदार (Luminous) थीं।<br>• Stationary (स्थिर) और Arid (बंजर) यहाँ गलत हैं।</div></div>"
+},
+{
+"q_hi": "Select the correct direct form of the given sentence.<br>I asked Mary if she would lend me a pencil.",
+"op_1": "I said to Mary, \"Can you lent me a pencil?\"",
+"op_2": "I said, \"Mary, will she lend me a pencil?\"",
+"op_3": "I asked to Mary, \"Would you lend me a pencil?\"",
+"op_4": "I said, \"Mary, will you lend me a pencil?\"",
+"ans": "4",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 4</b><br>Rules:<br>• 'Asked' → 'Said'.<br>• 'If' implies a Question.<br>• 'Would' → 'Will'.<br>• 'She' (Mary) → 'You'.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>सही उत्तर Option 4 है।<br>• Indirect 'would' वापस Direct 'will' में बदल जाता है।<br>• Pronoun 'she' बदलकर 'you' हो जाता है।</div></div>"
+},
+{
+"q_hi": "Choose the most appropriate option to fill the blank in the given sentence.<br>Radium ______ rays that can damage the eyes.",
+"op_1": "gives over",
+"op_2": "gives away",
+"op_3": "gives off",
+"op_4": "gives up",
+"ans": "3",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 3</b><br>Phrasal Verbs:<br>• <b>Give off:</b> To emit (smell, light, radiation).<br>• Give up: Quit.<br>• Give away: Distribute.<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>सही उत्तर: <b>Gives off (छोड़ना/निकालना)</b><br>• रेडियम किरणें उत्सर्जित करता है (gives off)।</div></div>"
+},
+{
+"q_hi": "Select the most appropriate option to substitute the highlighted segment in the given sentence. If there is no need to substitute it, select 'No improvement'.<br>Come quickly <b>if you will</b> catch the train.",
+"op_1": "If you have",
+"op_2": "If you want to",
+"op_3": "No improvement",
+"op_4": "If you will have",
+"ans": "2",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 2</b><br>Grammar:<br>• The sentence expresses intent/purpose.<br>• Correct usage: 'If you want to' (desire).<br><br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>सही सुधार: <b>If you want to</b><br>• अर्थ: 'जल्दी आओ यदि तुम ट्रेन पकड़ना <b>चाहते हो</b>।'</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>Pride and Prejudice by Jane Austen is a classic known for its humor and complex characters. The famous first sentence of the book, 'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife,' begins to set up all of the major themes of money, status, and marrying well that are prevalent in 19th-century England. The Bennet family, particularly Elizabeth Bennet, a smart and strong-willed heroine, is the subject of Austen's commentary on the societal imperative for women to marry well and thereby have a stable income.<br>The title itself is quite meaningful, as it first indicates the character flaws that drive much of the conflict in this novel, namely Darcy's pride and Elizabeth's prejudice. In fact, Mr. Fitzwilliam Darcy, being a rich and high-ranking person, first of all shows a haughty character, thereby being very superior by virtue of his class. Elizabeth, having been offended by his initial lack of warmth, as well as having been misled by the deceiving Mr. Wickham, very quickly showed prejudice against him.<br>Traces the story of each as they navigate these weaknesses. Darcy needs to lower his pride to appreciate the value of Elizabeth's inferior standing, though she must see the strength of his superior qualities.<br>Austen employs irony and satire liberally to point out the absurdities of the class structure. Personages like the obsequious Mr. Collins and the imperious Lady Catherine de Bourgh symbolize the hard and silly aspects of class consciousness. The sojourn at Darcy's grand estate, Pemberley, is an important defining instance in which the splendor of the property and the favorable reports of his servants compel Elizabeth to revise her earlier opinion and realize the truth of Darcy's goodness.<br>In the final analysis, the novel promotes love marriages, couples like Jane and Bingley, and Elizabeth and Darcy, who have successful marriages because of love, in contrast to couples who marry for convenience (Charlotte Collins and Mr. Collins) or those who are full of passion but irresponsible (Lydia and Wickham).<br><br><b>Question:</b> What are the major themes expressed by the first line of the novel?",
+"op_1": "Love & War",
+"op_2": "Nature and the countryside",
+"op_3": "Wealth, status, and marriage",
+"op_4": "Education and morality",
+"ans": "3",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 3</b><br>• Passage explicitly states the first line sets up themes of 'money, status, and marrying well'.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>पैसेज के अनुसार पहली लाइन 'धन, रुतबा और शादी' (Wealth, status, and marriage) के विषयों को स्थापित करती है।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>Pride and Prejudice by Jane Austen is a classic known for its humor and complex characters... (Refer to full passage context)... The title itself is quite meaningful, as it first indicates the character flaws that drive much of the conflict in this novel, namely Darcy's pride and Elizabeth's prejudice...<br><br><b>Question:</b> Which defects in character does the name \"Pride and Prejudice\" primarily refer to?",
+"op_1": "Darcy's pride and Elizabeth's prejudice",
+"op_2": "Mr. Bennet's wit and Mrs. Bennet's fussiness",
+"op_3": "Arrogance of Lady Catherine and Mr. Collins's servility",
+"op_4": "Lydia's erratic behavior and Wickham's deceits",
+"ans": "1",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 1</b><br>• The passage directly links the title to 'Darcy's pride and Elizabeth's prejudice'.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>पैसेज में साफ लिखा है कि शीर्षक डार्सी के घमंड (Pride) और एलिजाबेथ के पूर्वाग्रह (Prejudice) को दर्शाता है।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>Pride and Prejudice by Jane Austen is a classic known for its humor and complex characters... (Refer to full passage context)... Personages like the obsequious Mr. Collins and the imperious Lady Catherine de Bourgh symbolize the hard and silly aspects of class consciousness.<br><br><b>Question:</b> How is the character of Lady Catherine de Bourgh employed in the novel as a criticism of society?",
+"op_1": "She symbolizes ideal maternal love and wisdom.",
+"op_2": "She represents social tyranny and class prejudice.",
+"op_3": "She is purely comic relief and has no other significance.",
+"op_4": "She represents the struggle of the working class against the landed gentry.",
+"ans": "2",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 2</b><br>• Lady Catherine is described as 'imperious' (tyrannical) and symbolizing 'hard aspects of class consciousness' (class prejudice).<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>लेडी कैथरीन 'Class consciousness' और 'Imperious' स्वभाव का प्रतीक हैं, जो सामाजिक अत्याचार और वर्ग-भेद (Social tyranny and class prejudice) को दर्शाता है।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>Pride and Prejudice by Jane Austen is a classic known for its humor and complex characters... (Refer to full passage context)... The sojourn at Darcy's grand estate, Pemberley, is an important defining instance in which the splendor of the property and the favorable reports of his servants compel Elizabeth to revise her earlier opinion and realize the truth of Darcy's goodness.<br><br><b>Question:</b> What is the key event that marks a turning point in making Elizabeth change her view of Darcy?",
+"op_1": "Her visit to Pemberley and her reception of Darcy's letter",
+"op_2": "Lydia's elopement with Wickham",
+"op_3": "Rejection of Mr. Collins's Proposal",
+"op_4": "The Netherfield Ball",
+"ans": "1",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 1</b><br>• The passage calls the visit to 'Pemberley' an 'important defining instance' that compelled Elizabeth to 'revise her earlier opinion'.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>पैसेज के अनुसार, 'Pemberley' की यात्रा (Visit) वह मोड़ था जहाँ एलिजाबेथ ने डार्सी के बारे में अपनी राय बदली।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>Pride and Prejudice by Jane Austen is a classic known for its humor and complex characters... (Refer to full passage context)... In the final analysis, the novel promotes love marriages, couples like Jane and Bingley, and Elizabeth and Darcy, who have successful marriages because of love...<br><br><b>Question:</b> What kind of marriage does Jane Austen appear to prize the most, according to the conclusion of the novel?",
+"op_1": "Based on mutual respect, love, and understanding in marriage",
+"op_2": "Marriages for convenience and connections to family",
+"op_3": "Marriages based solely on financial security",
+"op_4": "Marriage contracts entered into by reason of romantic love alone",
+"ans": "1",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 1</b><br>• The conclusion favors marriages 'because of love' (Jane & Bingley, Elizabeth & Darcy) over convenience or mere passion.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>लेखिका उन शादियों को महत्व देती हैं जो आपसी सम्मान और प्रेम (Mutual respect and love) पर आधारित हों।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>The Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin) Act (VB-GRAM G), 2025, has replaced the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA). The goal of this modification is to improve Article 21 of the Indian Constitution, which protects the right to life. MGNREGA has improved socioeconomic conditions by facilitating wage payments, providing unemployment benefits, and promoting equal earnings. There has been sustainable development, and research has confirmed the impact of this program to raise earnings, alleviate poverty, and encourage school enrollment. In the past five years, women have comprised 58% of the workforce, significantly contributing to rural development, particularly during the COVID-19 pandemic. Given these factors, it is important to assess both the benefits and current challenges of the system.<br>Despite MGNREGA's successes, the program has faced implementation challenges, mainly due to inadequate funding, as acknowledged by the Ministry of Finance. Delays in wage payments and fewer work opportunities have resulted from this lack of funds. Recent rules, such as introducing an attendance application that uses photos, have created new problems and made corruption easier. Due to these issues, the VB-GRAM G Act has introduced important changes, including sections 5(1) and 4(5), which give the Union Government greater control over the public works program.<br><br><b>Question:</b> What might be the author's overall purpose for discussing the development from MGNREGA to the VB-GRAM G Act?",
+"op_1": "Emphasize how institutional reforms try to maintain constitutionally provided rights while recognizing administrative weaknesses",
+"op_2": "Argue that technology-based interventions will necessarily increase the levels of transparency and accountability associated with public programs",
+"op_3": "Argue that a transition from a rights-based framework to an AI-based system is necessary to achieve efficient results for rural communities",
+"op_4": "Argue that a decrease in the role of government can logically solve the inherent shortcomings in rural employment patterns",
+"ans": "1",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 1</b><br>• The author discusses reforms (VB-GRAM G) to improve rights (Article 21) while acknowledging weaknesses (funding/implementation).<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>लेखक का उद्देश्य यह दिखाना है कि सुधार (reforms) संवैधानिक अधिकारों (rights) को बचाने और प्रशासनिक कमजोरियों (weaknesses) को ठीक करने के लिए हैं।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>The Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin) Act (VB-GRAM G), 2025... (Refer to full passage context)... Recent rules, such as introducing an attendance application that uses photos, have created new problems and made corruption easier.<br><br><b>Question:</b> The author's tone regarding new rules (e.g., photo-based attendance) is best described as?",
+"op_1": "It is a direct rejection that states tech solutions do not work in rural welfare activities because the officials are illiterate",
+"op_2": "Detachedly descriptive, outlining reforms to procedures without evaluative judgments.",
+"op_3": "Digital interventions will resolve longstanding governance issues.",
+"op_4": "Cautiously critical, admitting the benefits of innovation while pointing out the dangers of abuse in bureaucracies",
+"ans": "4",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 4</b><br>• The author notes that the new rules 'created new problems' and 'made corruption easier', indicating a critical tone despite the innovation.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>लेखक का स्वर 'Cautiously Critical' (सावधानीपूर्वक आलोचनात्मक) है क्योंकि वे बताते हैं कि नए नियमों ने नई समस्याएँ और भ्रष्टाचार पैदा किया है।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>The Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin) Act (VB-GRAM G), 2025... (Refer to full passage context)... In the past five years, women have comprised 58% of the workforce, significantly contributing to rural development, particularly during the COVID-19 pandemic.<br><br><b>Question:</b> What can be reasonably inferred about the relationship between women's participation and rural resilience during the pandemic?",
+"op_1": "Their intensified appearance might have worsened the existing support structures that were failing in the health crisis.",
+"op_2": "The fact that they were active seemingly led to the acceleration of the community's fiscal problems because it resulted in program expenditure being amplified during a time of uncertainty.",
+"op_3": "Their significant involvement contributed to the continuation of the community through the maintenance of the local economy in spite of the general economic disruptions that were happening.",
+"op_4": "Their involvement could have led to a decrease in total program productivity owing to the fact that the local populace was heavily burdened with expanded caregiving during the pandemic.",
+"ans": "3",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 3</b><br>• Women's significant contribution (58% workforce) helped rural development/resilience despite the pandemic.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>महिलाओं की भारी भागीदारी ने महामारी के दौरान भी ग्रामीण अर्थव्यवस्था को बनाए रखने (continuation of community/economy) में मदद की।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>The Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin) Act (VB-GRAM G), 2025... (Refer to full passage context)... Despite MGNREGA's successes, the program has faced implementation challenges, mainly due to inadequate funding...<br><br><b>Question:</b> What does the author's discussion of lack of funding primarily indicate?",
+"op_1": "Resource allocation practices are highly effective but seem problematic due to certain short-term fiscal fluctuations",
+"op_2": "Decentralized authority has caused divergent effects that will certainly lead to a reduction in job guarantees.",
+"op_3": "Administrative inefficiencies and implementation challenges due to a shortage of funding.",
+"op_4": "Local administrations limit opportunities so as to have control over the release of finances.",
+"ans": "3",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 3</b><br>• The passage directly links 'implementation challenges' to 'inadequate funding'.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>फंडिंग की कमी (lack of funding) को सीधे तौर पर प्रशासनिक अक्षमताओं और कार्यान्वयन की चुनौतियों (implementation challenges) से जोड़ा गया है।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>The Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin) Act (VB-GRAM G), 2025... (Refer to full passage context)... There has been sustainable development, and research has confirmed the impact of this program to raise earnings, alleviate poverty, and encourage school enrollment.<br><br><b>Question:</b> What does \"sustainable development\" mean most nearly in the context of the passage?",
+"op_1": "Improvements relating to long-term socioeconomic benefits for rural households via stable program design",
+"op_2": "Strategies that place emphasis mainly on technological diffusion as a principal means of rural transformation",
+"op_3": "Outcomes that emphasize the creation of jobs in the short term, even if there are uncertain long-term consequences for individual welfare",
+"op_4": "Discusses advancements that are characterized by fast infrastructure development without consideration of administrative viability.",
+"ans": "1",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 1</b><br>• Sustainable development implies long-term benefits like poverty alleviation and education, not just short-term jobs.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>'सतत विकास' (Sustainable development) का अर्थ यहाँ दीर्घकालिक सामाजिक-आर्थिक सुधारों (long-term socioeconomic benefits) से है।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>\"Bank failures raise serious concerns about supervisory oversight.\" The case studies of Credit Suisse and Silicon Valley Bank highlight the deficiencies in supervisory supervision. In many instances, supervisors are hesitant to come into conflict with bank management when weaknesses are identified, preferring to do nothing rather than take corrective action at a point in time when key issues are building into a problem.<br>Regulators must adopt an attitude change in which they place more emphasis on the results rather than the details. Overemphasis on trivial matters might lead regulators to overlook more fundamental issues, such as whether financial institutions have adequate capital in case of a shock. Regulating requirements must be simplified. Complex regulation requirements in relation to capital may overlook systemic risk in their approaches when stress tests result in activities gravitating towards less heavily regulated institutions in the non-bank sector.<br>Improved supervisory and bank communications would promote better supervision as a tool for managing risk. Recommendations include being up front about supervisory goals, openness to change within the bank organization, and increased transparency in supervisory contracts as a way of promoting swift problem resolution. These would aid shareholders as well as the overall economy. In conclusion, rather than pursuing a micro-management strategy, a move towards a clearly defined regulation that supports positive incentives is what is needed to ensure that banks behave within frameworks that promote financial stability.<br><br><b>Question:</b> Which of the following is most true in regard to stating the structure of logic found in the author's conclusion?",
+"op_1": "It proposes that bank managers should be given more freedom in setting.",
+"op_2": "It urges a transition from procedural pedantry towards a results-oriented strategic framework.",
+"op_3": "It suggests that the responsibility for assurance should lie with organizations rather than with outsiders.",
+"op_4": "It suggests a complete deregulation of the banking system to promote a competitive world economy.",
+"ans": "2",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 2</b><br>• Conclusion: Move from 'micro-management' (pedantry) to 'regulation that supports positive incentives' (results-oriented).<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>लेखक निष्कर्ष निकालता है कि छोटी-छोटी बातों (pedantry) को छोड़कर परिणामों (results) पर ध्यान देने वाली व्यवस्था अपनानी चाहिए।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>\"Bank failures raise serious concerns about supervisory oversight.\"... (Refer to full passage context)... Complex regulation requirements... may overlook systemic risk... when stress tests result in activities gravitating towards less heavily regulated institutions in the non-bank sector.<br><br><b>Question:</b> The use of \"stress tests\" by the author is an example of illustrating which of the following consequences?",
+"op_1": "The failure of financial institutions to report their internal capital requirements accurately.",
+"op_2": "The movement of risk-related financial activities into industries that are less heavily regulated.",
+"op_3": "The enhanced clarity of communication between shareholders and bank managers.",
+"op_4": "The direct relationship between complex regulatory obligations and long-term stability.",
+"ans": "2",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 2</b><br>• Passage states stress tests cause activities to move to 'less heavily regulated institutions'.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>स्ट्रेस टेस्ट का परिणाम यह होता है कि गतिविधियां कम विनियमित क्षेत्रों (less regulated industries) में चली जाती हैं।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>\"Bank failures raise serious concerns about supervisory oversight.\"... (Refer to full passage context)... supervisors are hesitant to come into conflict with bank management when weaknesses are identified, preferring to do nothing rather than take corrective action...<br><br><b>Question:</b> Why are supervisors often slow to act when banks have problems?",
+"op_1": "They use a secret strategy to keep their contracts private.",
+"op_2": "They do not have the legal power to stop a financial crash.",
+"op_3": "They are confused because modern bank rules are too simple.",
+"op_4": "They prefer to avoid conflict instead of fixing risks early.",
+"ans": "4",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 4</b><br>• Passage says supervisors are 'hesitant to come into conflict' and prefer to 'do nothing'.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>सुपरवाइजर इसलिए कार्रवाई नहीं करते क्योंकि वे संघर्ष (conflict) से बचना चाहते हैं।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>\"Bank failures raise serious concerns about supervisory oversight.\"... (Refer to full passage context)... a clearly defined regulation that supports positive incentives is what is needed to ensure that banks behave within frameworks that promote financial stability.<br><br><b>Question:</b> What would \"positive incentives\" do for the banking system?",
+"op_1": "Help banks behave in a way that keeps the economy stable.",
+"op_2": "Stop banks and regulators from talking to each other often.",
+"op_3": "Bring back micro-management and focus on tiny details.",
+"op_4": "Make bank rules much more complicated and harder to follow.",
+"ans": "1",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 1</b><br>• Positive incentives help banks behave in ways that promote 'financial stability'.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>सकारात्मक प्रोत्साहन (Positive incentives) बैंकों को वित्तीय स्थिरता (stable economy) बनाए रखने में मदद करते हैं।</div></div>"
+},
+{
+"q_hi": "Read the following passage carefully and answer the questions based on the passage:<br><br>\"Bank failures raise serious concerns about supervisory oversight.\"... (Refer to full passage context)... Complex regulation requirements in relation to capital may overlook systemic risk... Regulating requirements must be simplified.<br><br><b>Question:</b> The tone with which the author approaches the current situation of \"complex regulation\" is best described as:",
+"op_1": "Hopeful that it will eventually help find hidden money problems.",
+"op_2": "Critical because complicated rules can actually cause more risk.",
+"op_3": "Uninterested in how these rules change where money is stored.",
+"op_4": "Impressed by how much attention supervisors pay to tiny details.",
+"ans": "2",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 2</b><br>• Tone is 'Critical'—the author argues complex rules overlook risk and should be simplified.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>लेखक का स्वर आलोचनात्मक (Critical) है, उनका मानना है कि जटिल नियम वास्तव में अधिक जोखिम (more risk) पैदा कर सकते हैं।</div></div>"
+},
+{
+"q_hi": "In the following question, some of the words in the passage have been left out. Read the passage carefully and choose the correct word for each blank, out of the four alternatives and fill in the blanks.<br><br>After falling consistently ______ (1) the U.S. dollar for a major part of the year, the rupee has ______ (2) somewhat over the last few weeks. It has risen by almost 5% from its lowest levels ______ (3) in October. Even with this recent improvement, the rupee is still down about 11% since the start of the year. The rupee's performance has been closely ______ (4) to global crude oil prices. This makes sense, as imported oil accounts for about 80% of India's total demand. The value of the rupee dropped when oil prices climbed earlier this year, a trend that lasted until early October. Since then, as global crude prices have fallen, the rupee has ______ (5) against the dollar.<br><br><b>Question:</b> What should come in blank (1)?",
+"op_1": "with",
+"op_2": "of",
+"op_3": "for",
+"op_4": "against",
+"ans": "4",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 4</b><br>• Currencies are valued 'against' each other.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>मुद्राओं की तुलना करते समय 'against' का प्रयोग होता है (falling against the dollar).</div></div>"
+},
+{
+"q_hi": "In the following question, some of the words in the passage have been left out... (Refer to full passage context)... the rupee has ______ (2) somewhat over the last few weeks.<br><br><b>Question:</b> What should come in blank (2)?",
+"op_1": "admire",
+"op_2": "recovered",
+"op_3": "energy",
+"op_4": "ground",
+"ans": "2",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 2</b><br>• After falling, the rupee has 'recovered' (improved).<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>गिरने के बाद, रुपये में सुधार हुआ है, यानी वह 'recovered' हुआ है।</div></div>"
+},
+{
+"q_hi": "In the following question, some of the words in the passage have been left out... (Refer to full passage context)... It has risen by almost 5% from its lowest levels ______ (3) in October.<br><br><b>Question:</b> What should come in blank (3)?",
+"op_1": "render",
+"op_2": "admire",
+"op_3": "reached",
+"op_4": "behind",
+"ans": "3",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 3</b><br>• Prices/Values 'reach' a level.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>रुपया अपने सबसे निचले स्तरों पर 'पहुंचा' (reached) था।</div></div>"
+},
+{
+"q_hi": "In the following question, some of the words in the passage have been left out... (Refer to full passage context)... The rupee's performance has been closely ______ (4) to global crude oil prices.<br><br><b>Question:</b> What should come in blank (4)?",
+"op_1": "morally",
+"op_2": "tied",
+"op_3": "tightly",
+"op_4": "amicably",
+"ans": "2",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 2</b><br>• 'Closely tied to' is the correct idiom for correlation.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>रुपये का प्रदर्शन तेल की कीमतों से 'जुड़ा हुआ' (tied) है।</div></div>"
+},
+{
+"q_hi": "In the following question, some of the words in the passage have been left out... (Refer to full passage context)... Since then, as global crude prices have fallen, the rupee has ______ (5) against the dollar.<br><br><b>Question:</b> What should come in blank (5)?",
+"op_1": "tandem",
+"op_2": "strengthened",
+"op_3": "relating",
+"op_4": "culture",
+"ans": "2",
+"solution": "<div class='solution-container'><b>Correct Answer: Option 2</b><br>• When a currency improves, it 'strengthens'.<br><div class='hindi-expl'><b>🇮🇳 हिंदी में:</b><br>तेल की कीमतें गिरने से रुपया 'मजबूत' (strengthened) हुआ है।</div></div>"
+},
+];
+
+/* STATE */
+let currentIdx = 0;
+let currentLang = "EN"; // Default
+let answers = new Array(QUESTIONS.length).fill(null);
+let reviewStatus = new Array(QUESTIONS.length).fill(false);
+let visitedStatus = new Array(QUESTIONS.length).fill(false);
+let submitted = false;
+let timeElapsed = 0;
+let fontSize = 16;
+let isDarkMode = false;
+let timerInterval;
+
+/* INIT LOGIC */
+function initApp() {
+    if(localStorage.getItem('dsssb_dark_mode') === 'true') toggleDarkMode();
+    const saved = localStorage.getItem('dsssb_cbt_state_eng');
+    if(saved) {
+        const s = JSON.parse(saved);
+        if(s.submitted) { 
+            document.getElementById('startScreen').style.display = 'flex';
+        } else {
+            document.getElementById('resumeName').innerText = s.name || "Student";
+            document.getElementById('resumeTime').innerText = Math.floor((s.time || 0) / 60);
+            document.getElementById('startScreen').style.display = 'none';
+            document.getElementById('resumeScreen').style.display = 'flex';
+        }
+    } else {
+        document.getElementById('startScreen').style.display = 'flex';
+    }
+}
+
+function startNewTest() { localStorage.removeItem('dsssb_cbt_state_eng'); location.reload(); }
+function resumeTest() { document.getElementById('resumeScreen').style.display = 'none'; initExam(); }
+function pauseTest() { if(submitted) return; saveState(); clearInterval(timerInterval); alert("Paused! You can resume later."); location.reload(); }
+
+function goToInstructions() {
+    const name = document.getElementById('startNameInput').value.trim();
+    if(!name) { alert("Enter Name!"); return; }
+    document.getElementById('stuName').value = name;
+    document.getElementById('startScreen').style.display = 'none';
+    document.getElementById('instScreen').style.display = 'flex';
+}
+
+function toggleStartBtn() { document.getElementById('finalStartBtn').disabled = !document.getElementById('instCheck').checked; }
+function startTestFlow() { document.getElementById('instScreen').style.display = 'none'; initExam(); }
+
+function initExam() {
+  document.getElementById('mainArea').style.display = 'block';
+  document.querySelector('footer').style.display = 'flex';
+  document.getElementById('tgPopup').style.display = "block";
+  loadState(); loadQuestion(currentIdx); startTimer();
+  document.addEventListener('keydown', (e) => { if(e.key === "ArrowRight") next(); if(e.key === "ArrowLeft") prev(); });
+}
+
+function closeTg(){ document.getElementById('tgPopup').style.display = "none"; }
+
+/* LOGIC */
+function saveState() {
+  if(submitted) return;
+  const state = {
+    idx: currentIdx, ans: answers, rev: reviewStatus, vis: visitedStatus,
+    time: timeElapsed, name: document.getElementById('stuName').value, submitted: false
+  };
+  localStorage.setItem('dsssb_cbt_state_eng', JSON.stringify(state));
+}
+
+function loadState() {
+  const saved = localStorage.getItem('dsssb_cbt_state_eng');
+  if(saved) {
+    const s = JSON.parse(saved);
+    currentIdx = s.idx || 0; answers = s.ans || answers;
+    reviewStatus = s.rev || reviewStatus; visitedStatus = s.vis || visitedStatus;
+    timeElapsed = s.time || 0;
+    document.getElementById('stuName').value = s.name || "";
+  }
+}
+
+function loadQuestion(idx) {
+  currentIdx = idx; visitedStatus[idx] = true; saveState(); 
+  
+  const q = QUESTIONS[idx];
+  document.getElementById('qNumDisp').innerText = idx + 1;
+  
+  // Use 'q_hi' for both languages since the new format implies single language or embedded text
+  const txt = q.q_hi;
+  
+  // Render text
+  const contentDiv = document.getElementById('qContent');
+  contentDiv.innerHTML = txt;
+  contentDiv.style.fontSize = fontSize + "px";
+  
+  // AUTO-ENABLE ZOOM
+  const imgs = contentDiv.querySelectorAll('img');
+  imgs.forEach(img => {
+      img.classList.add('q-img');
+      img.onclick = () => openZoom(img.src);
+  });
+  
+  // Construct Options Array from the new JSON format (op_1, op_2, etc)
+  const optsArr = [q.op_1, q.op_2, q.op_3, q.op_4];
+  
+  // Convert Answer String ("1", "2") to index (0, 1)
+  const correctIdx = parseInt(q.ans) - 1;
+
+  let html = "";
+  optsArr.forEach((opt, i) => {
+    let cls = "opt";
+    if(submitted) { 
+        if(i === correctIdx) cls += " correct"; 
+        else if(answers[idx] === i) cls += " wrong"; 
+    } 
+    else { if(answers[idx] === i) cls += " sel"; }
+    html += `<div class="${cls}" onclick="selectAnswer(${i})"><div class="opt-circle">${String.fromCharCode(65+i)}</div><div>${opt}</div></div>`;
+  });
+  document.getElementById('opts').innerHTML = html;
+  renderPalette();
+  if(window.MathJax) MathJax.typesetPromise();
+  
+  if(submitted) {
+    // UPDATED: Use innerHTML for rich text solutions
+    document.getElementById('expBox').innerHTML = q.solution || "No explanation.";
+    document.getElementById('expBtn').style.display = "block";
+  }
+}
+
+/* ZOOM FUNCTIONS */
+function openZoom(src) {
+    document.getElementById('zoomImg').src = src;
+    document.getElementById('zoomModal').style.display = 'flex';
+}
+function closeZoom() {
+    document.getElementById('zoomModal').style.display = 'none';
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid'); grid.innerHTML = "";
+  QUESTIONS.forEach((q, k) => {
+    let cls = "qbtn"; if(k === currentIdx) cls += " current";
+    // Convert Answer "1" to index 0 for comparison
+    const qCorrectIdx = parseInt(q.ans) - 1;
+    
+    if(submitted) { 
+        if(answers[k] === qCorrectIdx) cls += " answered"; // Correct (Green)
+        else if(answers[k] !== null) cls += " wrong"; // Wrong (Red) if needed, or keep standard logic
+        // Note: Standard logic often just shows 'answered' status, but here we can customize. 
+        // Keeping original logic structure:
+    } 
+    else { 
+        if(reviewStatus[k] && answers[k] !== null) cls += " review-ans"; 
+        else if(reviewStatus[k]) cls += " review"; 
+        else if(answers[k] !== null) cls += " answered"; 
+        else if(visitedStatus[k]) cls += " visited"; 
+    }
+    const btn = document.createElement('button'); btn.className = cls; btn.innerText = k + 1;
+    btn.onclick = () => { loadQuestion(k); if(window.innerWidth < 768) togglePalette(); };
+    grid.appendChild(btn);
+  });
+}
+
+function selectAnswer(i) { if(!submitted) { answers[currentIdx] = i; loadQuestion(currentIdx); } }
+function clearResponse() { if(!submitted) { answers[currentIdx] = null; reviewStatus[currentIdx]=false; loadQuestion(currentIdx); } }
+function markReview() { if(!submitted) { reviewStatus[currentIdx] = !reviewStatus[currentIdx]; loadQuestion(currentIdx); } }
+function next() { if(currentIdx < QUESTIONS.length - 1) loadQuestion(currentIdx + 1); }
+function prev() { if(currentIdx > 0) loadQuestion(currentIdx - 1); }
+function toggleLang() { currentLang = currentLang === "HI" ? "EN" : "HI"; document.getElementById('langBtn').innerText = currentLang; loadQuestion(currentIdx); }
+function changeFont(d) { fontSize += d; document.getElementById('qContent').style.fontSize = fontSize + "px"; }
+function toggleDarkMode() { isDarkMode = !isDarkMode; document.body.classList.toggle('dark-mode'); document.getElementById('themeBtn').innerText = isDarkMode ? "☀️" : "🌙"; localStorage.setItem('dsssb_dark_mode', isDarkMode); }
+
+/* ================== SUBMIT & RESULT GENERATION ================== */
+function submitTest() {
+  const name = document.getElementById('stuName').value;
+  if(!confirm("Are you sure you want to submit?")) return;
+  
+  submitted = true; clearInterval(timerInterval); localStorage.removeItem('dsssb_cbt_state_eng'); 
+  let scoreData = { c:0, w:0, s:0 };
+  let totalScore = 0;
+
+  QUESTIONS.forEach((q, i) => {
+    const correctIdx = parseInt(q.ans) - 1; // Convert "1" -> 0
+    if(answers[i] === null) { scoreData.s++; }
+    else if(answers[i] === correctIdx) { scoreData.c++; totalScore++; }
+    else { scoreData.w++; totalScore -= NEGATIVE_MARK; }
+  });
+
+  let attempted = scoreData.c + scoreData.w;
+  let accuracy = attempted ? ((scoreData.c/attempted)*100) : 0;
+  let rankScore = (totalScore*100) + accuracy;
+  let estRank = Math.max(1, Math.round(1000 - rankScore));
+  let timeStr = document.getElementById('timer').innerText;
+
+  /* --- 1. SCORE CARD HTML --- */
+  document.getElementById('modalTitle').innerText = "Score Card";
+  let resHTML = `
+  <div style="text-align:center;">
+    <h3>${name}, Test Submitted!</h3>
+    <div style="font-size:24px; color:var(--primary);">Score: <b>${totalScore.toFixed(2)}</b></div>
+    <div class="chart-container"><canvas id="resultChart"></canvas></div>
+  </div>
+  <table border="1" style="width:100%; border-collapse:collapse; text-align:center; font-size:14px; border-color:var(--border-color); margin-bottom:20px;">
+    <tr style="background:var(--bg-body)"><th>Section</th><th>✅</th><th>❌</th><th>⚪</th></tr>
+    <tr><td>${SECTION_NAME}</td><td style="color:var(--success)">${scoreData.c}</td><td style="color:var(--danger)">${scoreData.w}</td><td>${scoreData.s}</td></tr>
+  </table>`;
+
+  /* --- 2. FULL PAPER HTML --- */
+  resHTML += `<h3 style="border-top:1px solid #ccc; padding-top:20px;">Response Sheet</h3>`;
+  QUESTIONS.forEach((q, i) => {
+      const correctIdx = parseInt(q.ans) - 1; // Convert "1" -> 0
+      const isCorrect = answers[i] === correctIdx;
+      const statusColor = answers[i] === null ? '#999' : (isCorrect ? 'green' : 'red');
+      const statusText = answers[i] === null ? 'Skipped' : (isCorrect ? 'Correct' : 'Wrong');
+      const qText = q.q_hi;
+      const opts = [q.op_1, q.op_2, q.op_3, q.op_4]; // Manual array construction
+      const exp = q.solution || "No explanation";
+
+      resHTML += `<div class="result-q-box">
+        <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+            <b>Q.${i+1}</b>
+            <b style="color:${statusColor}">${statusText}</b>
+        </div>
+        <div style="margin-bottom:10px;">${qText}</div>
+        <div>`;
+       
+      opts.forEach((opt, k) => {
+          let optClass = "res-opt";
+          if(k === correctIdx) optClass += " c"; // Correct Answer
+          if(k === answers[i] && k !== correctIdx) optClass += " w"; // User Wrong Answer
+          resHTML += `<div class="${optClass}">${String.fromCharCode(65+k)}. ${opt}</div>`;
+      });
+      
+      // Use innerHTML for explanation to render boxes
+      resHTML += `</div><div style="margin-top:5px; font-size:13px; color:#555; background:#f9f9f9; padding:5px;"><b>Exp:</b> ${exp}</div></div>`;
+  });
+
+  /* --- 3. ACTION BUTTONS --- */
+  resHTML += `
+  <div style="display:flex; gap:10px; justify-content:center; padding-bottom:30px;">
+    <button class="tool-btn" onclick="downloadPDF()" style="background:var(--primary); color:#fff; border:none; padding:10px 20px;">📥 Download Result</button>
+    <button class="tool-btn" onclick="location.reload()" style="background:var(--success); color:#fff; border:none; padding:10px 20px;">Restart Test</button>
+  </div>`;
+
+  document.getElementById('qpContent').innerHTML = resHTML;
+  document.getElementById('qpModal').style.display = "flex";
+  
+  renderChart(scoreData.c, scoreData.w, scoreData.s);
+  if(window.MathJax) MathJax.typesetPromise();
+  sendResultToTelegram(name, totalScore.toFixed(2), scoreData.c, scoreData.w, scoreData.s, timeStr, accuracy, estRank);
+  loadQuestion(currentIdx);
+}
+
+function renderChart(c, w, s) {
+    const ctx = document.getElementById('resultChart').getContext('2d');
+    const txtColor = isDarkMode ? '#e0e0e0' : '#333';
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: { labels: ['Correct', 'Wrong', 'Skipped'], datasets: [{ data: [c, w, s], backgroundColor: ['#2e7d32', '#c62828', '#bdbdbd'], borderWidth: 0 }] },
+        options: { responsive: true, plugins: { legend: { position: 'bottom', labels: { color: txtColor } } } }
+    });
+}
+
+function downloadPDF() {
+    const element = document.getElementById('qpContent');
+    const btns = element.querySelectorAll('button');
+    btns.forEach(b => b.style.display = 'none'); // Hide buttons
+    const opt = {
+        margin: 5, filename: 'Sectional_Mock_Result.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+    html2pdf().set(opt).from(element).save().then(() => {
+        btns.forEach(b => b.style.display = 'inline-block'); // Show buttons
+    });
+}
+
+function sendResultToTelegram(name,score,c,w,s,time,accuracy,estRank){
+ fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,{
+  method:"POST", headers:{"Content-Type":"application/json"},
+  body:JSON.stringify({
+   chat_id:TELEGRAM_CHAT_ID,
+   text:`📘 DSSSB Sectional Mock (English)\n\n👤 Name: ${name}\n⏱ Time: ${time}\n✅ Correct: ${c}\n❌ Wrong: ${w}\n➖ Skipped: ${s}\n🎯 Score: ${score}\n📊 Accuracy: ${accuracy.toFixed(2)}%\n\n🔥 DSSSB Smart Notes`
+  })
+ });
+}
+
+/* UTILS */
+function startTimer() {
+  if(timerInterval) clearInterval(timerInterval);
+  timerInterval = setInterval(() => {
+    timeElapsed++;
+    const m = Math.floor(timeElapsed / 60).toString().padStart(2, '0');
+    const s = (timeElapsed % 60).toString().padStart(2, '0');
+    document.getElementById('timer').innerText = `${m}:${s}`;
+  }, 1000);
+}
+function togglePalette() { document.getElementById('palettePanel').classList.toggle('show'); document.getElementById('bgOverlay').classList.toggle('show'); }
+function toggleFS() { !document.fullscreenElement ? document.documentElement.requestFullscreen() : document.exitFullscreen(); }
+function toggleExp() { const b=document.getElementById('expBox'); b.style.display = b.style.display==="none"?"block":"none"; }
+function openQP() {
+  document.getElementById('modalTitle').innerText = "Full Question Paper";
+  let html = "";
+  QUESTIONS.forEach((q, i) => {
+    // Construct manual options array
+    const opts = [q.op_1, q.op_2, q.op_3, q.op_4];
+    html += `<div style="margin-bottom:20px; border-bottom:1px solid var(--border-color); padding-bottom:10px;">
+        <b>Q.${i+1}</b><br>${q.q_hi}<br>
+        <i style="color:var(--text-muted); font-size:0.9em">Options: ${opts.join(', ')}</i>
+    </div>`;
+  });
+  document.getElementById('qpContent').innerHTML = html;
+  document.getElementById('qpModal').style.display = "flex";
+}
+function closeQP() { document.getElementById('qpModal').style.display = "none"; }
+</script>
+</body>
+</html>
