@@ -456,12 +456,185 @@ const QUESTIONS = [
   },
   
   // --- Reasoning Part 2 (Demo) ---
-  { 
-      section: "Reasoning 2", 
-      q_hi: "(Reasoning Part 2 Demo) आकृति में कितने त्रिभुज हैं?", q_en: "(Reasoning Part 2 Demo) Triangles count?", 
-      op_hi: ["10", "12", "14", "16"], op_en: ["10", "12", "14", "16"], 
-      ans: "2", 
-      solution: "<div class='solution-container'>12 त्रिभुज</div>" 
+  {
+    section: "Reasoning 2",
+    q_hi: "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर कौन सी संख्या आनी चाहिए?<br><br>30, 40, 60, 100, 180, ?",
+    q_en: "Which number should come in place of the question mark (?) in the given series?<br><br>30, 40, 60, 100, 180, ?",
+    op_hi: ["340", "330", "360", "320"],
+    op_en: ["340", "330", "360", "320"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>श्रृंखला में संख्याओं का अंतर दोगुना हो रहा है:<br>30 (+10) = 40; 40 (+20) = 60; 60 (+40) = 100; 100 (+80) = 180; 180 (+160) = <b>340</b>।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर कौन सी संख्या आएगी?<br><br>811, 812, 816, 825, ?",
+    q_en: "Which of the following numbers will replace the question mark (?) in the given series?<br><br>811, 812, 816, 825, ?",
+    op_hi: ["841", "854", "842", "861"],
+    op_en: ["841", "854", "842", "861"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>यहाँ अंतर पूर्ण वर्ग (Squares) हैं:<br>+1 ($1^2$), +4 ($2^2$), +9 ($3^2$), +16 ($4^2$)<br>825 + 16 = <b>841</b>।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "उस सेट का चयन करें जिसमें संख्याएं उसी प्रकार संबंधित हैं जैसे निम्नलिखित सेटों की संख्याएं हैं। (नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना संक्रियाएं करें।)<br><br>(24, 12, 48)<br>(32, 16, 64)",
+    q_en: "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE: Operations should be performed on whole numbers.)<br><br>(24, 12, 48)<br>(32, 16, 64)",
+    op_hi: ["(36, 18, 72)", "(44, 22, 98)", "(25, 12, 50)", "(26, 13, 56)"],
+    op_en: ["(36, 18, 72)", "(44, 22, 98)", "(25, 12, 50)", "(26, 13, 56)"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>तर्क: (संख्या 1 / 2) = संख्या 2; (संख्या 2 x 4) = संख्या 3।<br>36 / 2 = 18; 18 x 4 = 72।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "BAKE - EKBA - BKAE और WORD - DRWO - WROD के समान तर्क वाला विकल्प चुनें।",
+    q_en: "Select the option that follows the same logic as: BAKE - EKBA - BKAE and WORD - DRWO - WROD.",
+    op_hi: ["LIST - TSLI - LSIT", "MEAR - EAMR - EARM", "LACE - ECLA - ACLE", "BEST - BSET - TSEB"],
+    op_en: ["LIST - TSLI - LSIT", "MEAR - EAMR - EARM", "LACE - ECLA - ACLE", "BEST - BSET - TSEB"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>BAKE(1234) -> EKBA(4312) -> BKAE(1324)। यही तर्क LIST में लागू होता है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "विषम अक्षर-समूह का चयन करें: WUR, PNK, SRP, FDA।",
+    q_en: "Select the odd letter-cluster out: WUR, PNK, SRP, FDA.",
+    op_hi: ["WUR", "PNK", "SRP", "FDA"],
+    op_en: ["WUR", "PNK", "SRP", "FDA"],
+    ans: "3",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>WUR, PNK, FDA में अक्षरों का अंतर (-2, -3) है, जबकि SRP में अंतर (-1, -2) है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "COAL - LOCA - OACL और VAST - TAVS - ASVT के समान तर्क वाला विकल्प चुनें।",
+    q_en: "Select the option that follows the same logic as: COAL - LOCA - OACL and VAST - TAVS - ASVT.",
+    op_hi: ["MACK - KAMC - ACMK", "FROM - FORM - MORF", "MUSK - UMSK - KUSM", "REST - TERS - SERT"],
+    op_en: ["MACK - KAMC - ACMK", "FROM - FORM - MORF", "MUSK - UMSK - KUSM", "REST - TERS - SERT"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>पदों का स्थान परिवर्तन (1234) -> (4213) -> (2314)। MACK इस तर्क का पालन करता है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "यदि P=x, Q=&divide;, R=-, S=+ है, तो 115 R (13 P 7) S (56 Q 8) P 4 S 32 = ?",
+    q_en: "If P=x, Q=&divide;, R=-, S=+ then 115 R (13 P 7) S (56 Q 8) P 4 S 32 = ?",
+    op_hi: ["92", "78", "96", "84"],
+    op_en: ["92", "78", "96", "84"],
+    ans: "4",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>115 - (91) + (7 x 4) + 32 = 115 - 91 + 28 + 32 = 84।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "समान पैटर्न वाला विकल्प चुनें: 9 - 81 - 91 - 182; 7 - 49 - 59 - 118",
+    q_en: "Choose the option following the same pattern: 9 - 81 - 91 - 182; 7 - 49 - 59 - 118",
+    op_hi: ["3-9-19-38", "4-16-62-92", "11-121-132-142", "14-164-222-242"],
+    op_en: ["3-9-19-38", "4-16-62-92", "11-121-132-142", "14-164-222-242"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>तर्क: ($n^2$), ($n^2 + 10$), (($n^2 + 10) x 2$)। विकल्प 1 सही है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "X : 100 :: 8 : Y के लिए X और Y का मान क्या होगा? (समान तर्क का पालन करें)",
+    q_en: "What are X and Y for X : 100 :: 8 : Y following the same logic?",
+    op_hi: ["X=5, Y=40", "X=5, Y=80", "X=10, Y=40", "X=10, Y=80"],
+    op_en: ["X=5, Y=40", "X=5, Y=80", "X=10, Y=40", "X=10, Y=80"],
+    ans: "4",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>तर्क: संख्या x 10 = परिणाम। 10 x 10 = 100; 8 x 10 = 80।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "आकृति &rho;&sigma;&omega;&phi; की सही जल छवि (water image) चुनें।",
+    q_en: "Select the correct water image of &rho;&sigma;&omega;&phi;.",
+    op_hi: ["आकृति 1", "आकृति 2", "आकृति 3", "आकृति 4"],
+    op_en: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    ans: "3",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>जल छवि में ऊपर का हिस्सा नीचे हो जाता है। विकल्प 3 सही प्रतिबिंब है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "विषम अक्षर-समूह चुनें: LQU, PUX, CHL, KPT।",
+    q_en: "Odd letter-cluster: LQU, PUX, CHL, KPT.",
+    op_hi: ["LQU", "PUX", "CHL", "KPT"],
+    op_en: ["LQU", "PUX", "CHL", "KPT"],
+    ans: "2",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>LQU, CHL, KPT में अंतर (+5, +4) है, PUX में अंतर (+5, +3) है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "श्रृंखला 180, 200, 210, 220, 240, 240, ? में अगला पद क्या है?",
+    q_en: "Next term in 180, 200, 210, 220, 240, 240, ?",
+    op_hi: ["250", "240", "260", "270"],
+    op_en: ["250", "240", "260", "270"],
+    ans: "4",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>वैकल्पिक श्रृंखला: (180, 210, 240, <b>270</b>) (+30 का अंतर)।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "यदि + = x, - = +, x = &divide;, &divide; = - है, तो 23 - 45 x 5 &divide; 2 + 6 = ?",
+    q_en: "If + = x, - = +, x = &divide;, &divide; = - then 23 - 45 x 5 &divide; 2 + 6 = ?",
+    op_hi: ["26", "32", "20", "38"],
+    op_en: ["26", "32", "20", "38"],
+    ans: "3",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>23 + (45 / 5) - (2 x 6) = 23 + 9 - 12 = 20।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "विषम युग्म चुनें: QO-US, ED-JI, VT-ZX, LJ-PN।",
+    q_en: "Odd pair: QO-US, ED-JI, VT-ZX, LJ-PN.",
+    op_hi: ["QO-US", "ED-JI", "VT-ZX", "LJ-PN"],
+    op_en: ["QO-US", "ED-JI", "VT-ZX", "LJ-PN"],
+    ans: "2",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>ED-JI को छोड़कर अन्य सभी में अक्षरों का अंतर (-2) है और युग्मों के बीच (+4) का संबंध है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "X : 77 :: 13 : Y के लिए X और Y क्या हैं?",
+    q_en: "Values for X and Y in X : 77 :: 13 : Y?",
+    op_hi: ["X=7, Y=144", "X=9, Y=143", "X=7, Y=143", "X=9, Y=142"],
+    op_en: ["X=7, Y=144", "X=9, Y=143", "X=7, Y=143", "X=9, Y=142"],
+    ans: "3",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>तर्क: संख्या x 11 = परिणाम। 7 x 11 = 77; 13 x 11 = 143।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "प्रतीक Q k &lambda; P की सही जल छवि चुनें।",
+    q_en: "Correct water image for Q k &lambda; P.",
+    op_hi: ["आकृति 1", "आकृति 2", "आकृति 3", "आकृति 4"],
+    op_en: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>जल छवि में लंबवत उल्टा (Vertical Inversion) होता है। विकल्प 1 सही है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "4:12 और 9:22 के समान संबंध वाला विकल्प चुनें।",
+    q_en: "Select option with same relation as 4:12 and 9:22.",
+    op_hi: ["18:38", "14:30", "2:8", "6:14"],
+    op_en: ["18:38", "14:30", "2:8", "6:14"],
+    ans: "3",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>तर्क: (n x 2) + 4 = परिणाम। (2 x 2) + 4 = 8।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "यदि + और - तथा x और &divide; बदलें, तो 121 x 11 &divide; 10 - 21 + 31 = ?",
+    q_en: "If + & - and x & &divide; are interchanged, 121 x 11 &divide; 10 - 21 + 31 = ?",
+    op_hi: ["100", "99", "101", "98"],
+    op_en: ["100", "99", "101", "98"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>(121 / 11) x 10 + 21 - 31 = 110 + 21 - 31 = 100।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "LOVE - LEOV - ELVO और CRAW - CWRA - WCAR के समान तर्क वाला विकल्प चुनें।",
+    q_en: "Logic same as: LOVE - LEOV - ELVO and CRAW - CWRA - WCAR.",
+    op_hi: ["CORE - CEOR - ECRO", "CAME - CEAM - ACME", "FOLD - OFLD - DOLF", "WEAR - WAER - RAEW"],
+    op_en: ["CORE - CEOR - ECRO", "CAME - CEAM - ACME", "FOLD - OFLD - DOLF", "WEAR - WAER - RAEW"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>पदों का स्थान परिवर्तन: (1234) -> (1324) -> (4132)। विकल्प 1 सही है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "यदि + = -, - = +, x = &divide;, &divide; = x है, तो 39 + 28 - 90 &divide; 3 x 9 = ?",
+    q_en: "If + = -, - = +, x = &divide;, &divide; = x then 39 + 28 - 90 &divide; 3 x 9 = ?",
+    op_hi: ["-203", "41", "-156", "54"],
+    op_en: ["-203", "41", "-156", "54"],
+    ans: "2",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>39 - 28 + (90 x 3 / 9) = 11 + 30 = 41।</div>"
   },
 
   // --- GK Part 1 ---
