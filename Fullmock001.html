@@ -355,15 +355,15 @@ const QUESTIONS = [
     ans: "4",
     solution: "<div class='solution-container'>मफिन का वह हिस्सा जो केक है, वह पेस्ट्री भी होगा।</div>"
   },
-  {
-    section: "Reasoning 1",
-    q_hi: "8@3#9 के लिए कोड क्या होगा? (शर्त: सम से शुरू और विषम पर अंत हो तो दोनों को © कोड दें)",
-    q_en: "What is the code for 8@3#9? (Condition: If starts with Even and ends with Odd, code both as ©)",
-    op_hi: ["RPZH©", "©PZHV", "RPZHV", "©PZH©"],
-    op_en: ["RPZH©", "©PZHV", "RPZHV", "©PZH©"],
-    ans: "4",
-    solution: "<div class='solution-container'>शर्त 2 लागू होती है: 8 और 9 दोनों © हो जाएंगे।</div>"
-  },
+ {
+  section: "Reasoning 1",
+  q_hi: "नीचे दी गई तालिका और शर्तों के आधार पर समूह को कोडित करें।<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:center;'><tr><td><b>संख्या/प्रतीक</b></td><td>2</td><td>&</td><td>1</td><td>5</td><td>@</td><td>*</td><td>9</td><td>%</td><td>#</td><td>8</td><td>+</td><td>3</td><td>4</td><td>6</td></tr><tr><td><b>कोड</b></td><td>F</td><td>A</td><td>Y</td><td>T</td><td>P</td><td>W</td><td>V</td><td>C</td><td>H</td><td>R</td><td>E</td><td>Z</td><td>M</td><td>U</td></tr></table><br><b>शर्तें:</b><br>1. यदि पहला तत्व एक प्रतीक है और अंतिम तत्व एक संख्या है, तो उनके कोड परस्पर बदल दिए जाएंगे।<br>2. यदि पहला तत्व एक सम संख्या है और अंतिम तत्व एक विषम संख्या है, तो दोनों को © के रूप में कोडित किया जाएगा।<br>3. यदि तीसरा और चौथा दोनों तत्व विषम संख्याएं हैं, तो तीसरे तत्व को दूसरे तत्व के कोड से बदला जाएगा।<br><br><b>8@3#9</b> का कोड क्या होगा?",
+  q_en: "Code the group based on the table and conditions below.<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:center;'><tr><td><b>No/Symbol</b></td><td>2</td><td>&</td><td>1</td><td>5</td><td>@</td><td>*</td><td>9</td><td>%</td><td>#</td><td>8</td><td>+</td><td>3</td><td>4</td><td>6</td></tr><tr><td><b>Code</b></td><td>F</td><td>A</td><td>Y</td><td>T</td><td>P</td><td>W</td><td>V</td><td>C</td><td>H</td><td>R</td><td>E</td><td>Z</td><td>M</td><td>U</td></tr></table><br><b>Conditions:</b><br>1. If first is symbol & last is number, interchange their codes.<br>2. If first is even & last is odd number, code both as ©.<br>3. If 3rd & 4th elements are odd numbers, code 3rd element as the 2nd element's code.<br><br>What is the code for: <b>8@3#9</b>?",
+  op_hi: ["RPZH©", "©PZHV", "RPZHV", "©PZH©"],
+  op_en: ["RPZH©", "©PZHV", "RPZHV", "©PZH©"],
+  ans: "4",
+  solution: "<div class='solution-container'><b>स्टेप-बाय-स्टेप व्याख्या:</b><br>1. समूह <b>8@3#9</b> में पहला तत्व '8' (सम संख्या) और अंतिम तत्व '9' (विषम संख्या) है।<br>2. यहाँ <b>शर्त 2</b> लागू होती है, जिसके अनुसार पहले और अंतिम तत्व को <b>©</b> लिखा जाएगा।<br>3. बीच के तत्वों को तालिका से सीधे कोड किया जाएगा: @ = P, 3 = Z, # = H।<br>4. अंतिम परिणाम: <b>©PZH©</b>।</div>"
+},
   {
     section: "Reasoning 1",
     q_hi: "यदि UGLY = 4716 और DULY = 6478, तो 'D' का कोड क्या है?",
