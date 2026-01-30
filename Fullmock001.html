@@ -274,40 +274,187 @@ const NEGATIVE_MARK = 0.25;
    2. QUESTIONS DATA (UPDATED SECTIONS)
    ========================================= */
 const QUESTIONS = [
-  // --- Reasoning Part 1 ---
-  { 
-    section: "Reasoning 1", 
-    q_hi: "नीचे दी गई आकृति का दर्पण प्रतिबिम्ब चुनें:<br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Small_triangle.svg/100px-Small_triangle.svg.png' alt='Question Image'>", 
-    q_en: "Choose the mirror image of the figure below:<br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Small_triangle.svg/100px-Small_triangle.svg.png' alt='Question Image'>", 
-    op_hi: [
-        "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Small_triangle.svg/50px-Small_triangle.svg.png'>", 
-        "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Small_triangle.svg/50px-Small_triangle.svg.png' style='transform:scaleX(-1)'>", 
-        "C", "D"
-    ], 
-    op_en: [
-        "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Small_triangle.svg/50px-Small_triangle.svg.png'>", 
-        "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Small_triangle.svg/50px-Small_triangle.svg.png' style='transform:scaleX(-1)'>", 
-        "C", "D"
-    ], 
-    ans: "2", 
-    solution: "<div class='solution-container'>दर्पण में बायाँ भाग दायाँ हो जाता है।</div>"
+  {
+    section: "Reasoning 1",
+    q_hi: "एक निश्चित कूट भाषा में, 'lamp at night' को 'vj re ms' के रूप में कोडित किया जाता है और 'lamp of light' को 'ms na bo' के रूप में कोडित किया जाता है। दी गई भाषा में 'lamp' का कोड क्या है?",
+    q_en: "In a certain code language, 'lamp at night' is coded as 'vj re ms' and 'lamp of light' is coded as 'ms na bo'. How is 'lamp' coded in the given language?",
+    op_hi: ["vj", "ms", "re", "bo"],
+    op_en: ["vj", "ms", "re", "bo"],
+    ans: "2",
+    solution: "<div class='solution-container'>दोनों वाक्यों में 'lamp' और कोड 'ms' कॉमन हैं।</div>"
   },
   {
-  section: "Reasoning 1",
-  q_hi: "एक निश्चित कूट भाषा में, 'lamp at night' को 'vj re ms' के रूप में कोडित किया जाता है और 'lamp of light' को 'ms na bo' के रूप में कोडित किया जाता है। दी गई भाषा में 'lamp' का कोड क्या है?",
-  q_en: "In a certain code language, 'lamp at night' is coded as 'vj re ms' and 'lamp of light' is coded as 'ms na bo'. How is 'lamp' coded in the given language?",
-  op_hi: ["vj", "ms", "re", "bo"],
-  op_en: ["vj", "ms", "re", "bo"],
-  ans: "2",
-  solution: "<div class='solution-container'><b>Explanation:</b><br>दिए गए वाक्यों में:<br>1. lamp at night → vj re ms<br>2. lamp of light → ms na bo<br><br>दोनों वाक्यों में उभयनिष्ठ (Common) शब्द: <b>'lamp'</b><br>दोनों कोड्स में उभयनिष्ठ कोड: <b>'ms'</b><br>अतः, 'lamp' का कोड <b>'ms'</b> होगा।</div>"
-  }, 
-  { 
-      section: "Reasoning 1", 
-      q_hi: "विषम चुनें:", q_en: "Find odd one:", 
-      op_hi: ["सेब", "गेंद", "कमल", "गुलाब"], op_en: ["Apple", "Ball", "Lotus", "Rose"], 
-      ans: "2", 
-      solution: "<div class='solution-container'>गेंद कृत्रिम है।</div>" 
+    section: "Reasoning 1",
+    q_hi: "यदि Z का विवाह Q से हुआ है, N, L का पति है, K, Y की माता है, Q, L का पुत्र है, और Y, Z का पिता है, तो Z का N से क्या संबंध है?",
+    q_en: "If Z is married to Q, N is the husband of L, K is the mother of Y, Q is the son of L, and Y is the father of Z, then how is Z related to N?",
+    op_hi: ["पुत्री का पति", "पति का पिता", "पुत्र की पत्नी", "पत्नी का पिता"],
+    op_en: ["Daughter's husband", "Husband's father", "Son's wife", "Wife's father"],
+    ans: "3",
+    solution: "<div class='solution-container'>Z, N के पुत्र Q की पत्नी है, अतः वह 'पुत्र की पत्नी' है।</div>"
   },
+  {
+    section: "Reasoning 1",
+    q_hi: "सात बक्से A, B, C, D, E, F और G एक के ऊपर एक रखे गए हैं। A नीचे से पांचवें स्थान पर है। C नीचे से तीसरे स्थान पर है। F, B और E के बीच में है। A और D के बीच केवल एक बक्सा है। B, D के ठीक नीचे है। F, E के ठीक ऊपर है। F और D के बीच कितने बक्से हैं?",
+    q_en: "Seven boxes A, B, C, D, E, F and G are kept one over the other. A is 5th from bottom. C is 3rd from bottom. F is between B and E. One box between A and D. B is immediately below D. F is immediately above E. How many boxes between F and D?",
+    op_hi: ["दो", "तीन", "एक", "चार"],
+    op_en: ["Two", "Three", "One", "Four"],
+    ans: "4",
+    solution: "<div class='solution-container'>क्रम: D, B, A, G, C, F, E। D और F के बीच 4 बक्से हैं।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "एक कक्षा के सभी 25 छात्र उत्तर की ओर मुख करके एक सीधी रेखा में खड़े हैं। A दाएं छोर से 13वें स्थान पर है जबकि B बाएं छोर से 5वें स्थान पर है। A और B के बीच कितने व्यक्ति खड़े हैं?",
+    q_en: "All 25 students in a class are standing in a straight line facing north. A is 13th from the right end while B is 5th from the left end. How many people stand between A and B?",
+    op_hi: ["चार", "पांच", "छह", "सात"],
+    op_en: ["Four", "Five", "Six", "Seven"],
+    ans: "4",
+    solution: "<div class='solution-container'>A का बाएं से स्थान = $25 - 13 + 1 = 13$। B(5) और A(13) के बीच: $13 - 5 - 1 = 7$।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "कथन: $R \\le E \\ge A \\ge S \\ge O < N$ <br>निष्कर्ष: I. $O < E$, II. $E = O$",
+    q_en: "Statement: $R \\le E \\ge A \\ge S \\ge O < N$ <br>Conclusions: I. $O < E$, II. $E = O$",
+    op_hi: ["केवल II सत्य है", "न तो I और न ही II सत्य है", "केवल I सत्य है", "दोनों सत्य हैं"],
+    op_en: ["Only II is true", "Neither I nor II is true", "Only I is true", "Both are true"],
+    ans: "2",
+    solution: "<div class='solution-container'>कथन से $E \\ge O$ प्राप्त होता है। कोई भी निष्कर्ष अकेले निश्चित सत्य नहीं है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "दाएं से पहले शब्द के दूसरे अक्षर और बाएं से पहले शब्द के दूसरे अक्षर के बीच वर्णमाला में कितने अक्षर हैं? (JOB KEY BUN FRY)",
+    q_en: "How many letters are between the 2nd letter of the 1st word from right and 2nd letter of the 1st word from left? (JOB KEY BUN FRY)",
+    op_hi: ["तीन", "एक", "एक भी नहीं", "दो"],
+    op_en: ["Three", "One", "None", "Two"],
+    ans: "4",
+    solution: "<div class='solution-container'>O और R के बीच P और Q (कुल 2) अक्षर हैं।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "कथन: कुछ मोर हंस हैं। कुछ कौवे बाज हैं। कुछ हंस बाज हैं। निष्कर्ष: (I) सभी हंस मोर हैं। (II) कुछ कौवे हंस हैं।",
+    q_en: "Statements: Some peacocks are swans. Some crows are hawks. Some swans are hawks. Conclusions: (I) All swans are peacocks. (II) Some crows are swans.",
+    op_hi: ["केवल I", "दोनों", "केवल II", "कोई नहीं"],
+    op_en: ["Only I", "Both", "Only II", "Neither"],
+    ans: "4",
+    solution: "<div class='solution-container'>दिए गए संबंधों से कोई भी निष्कर्ष निश्चित रूप से सही नहीं है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "श्रृंखला: A 7 @ 9 @ E 3 # 7 U 4 $ B 3 & 3 # 7 9 @ 3 @ $. ऐसी कितनी संख्याएं हैं जिनके ठीक पहले स्वर और बाद में प्रतीक है?",
+    q_en: "Series: A 7 @ 9 @ E 3 # 7 U 4 $ B 3 & 3 # 7 9 @ 3 @ $. How many numbers preceded by a vowel and followed by a symbol?",
+    op_hi: ["तीन", "चार", "दो", "एक"],
+    op_en: ["Three", "Four", "Two", "One"],
+    ans: "1",
+    solution: "<div class='solution-container'>पैटर्न (V-N-S): A7@, E3#, U4$ (कुल 3)।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "कथन: सभी बेगल मफिन हैं। कुछ मफिन केक हैं। सभी केक पेस्ट्री हैं। निष्कर्ष: (I) कोई बेगल पेस्ट्री नहीं है। (II) कुछ मफिन पेस्ट्री हैं।",
+    q_en: "Statements: All bagels are muffins. Some muffins are cakes. All cakes are pastries. Conclusions: (I) No bagel is a pastry. (II) Some muffins are pastries.",
+    op_hi: ["केवल I", "दोनों", "कोई नहीं", "केवल II"],
+    op_en: ["Only I", "Both", "Neither", "Only II"],
+    ans: "4",
+    solution: "<div class='solution-container'>मफिन का वह हिस्सा जो केक है, वह पेस्ट्री भी होगा।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "8@3#9 के लिए कोड क्या होगा? (शर्त: सम से शुरू और विषम पर अंत हो तो दोनों को © कोड दें)",
+    q_en: "What is the code for 8@3#9? (Condition: If starts with Even and ends with Odd, code both as ©)",
+    op_hi: ["RPZH©", "©PZHV", "RPZHV", "©PZH©"],
+    op_en: ["RPZH©", "©PZHV", "RPZHV", "©PZH©"],
+    ans: "4",
+    solution: "<div class='solution-container'>शर्त 2 लागू होती है: 8 और 9 दोनों © हो जाएंगे।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "यदि UGLY = 4716 और DULY = 6478, तो 'D' का कोड क्या है?",
+    q_en: "If UGLY = 4716 and DULY = 6478, what is the code for 'D'?",
+    op_hi: ["4", "7", "8", "6"],
+    op_en: ["4", "7", "8", "6"],
+    ans: "3",
+    solution: "<div class='solution-container'>DULY में बचा हुआ अक्षर 'D' है और कोड में '8' है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "पांच लड़कियां W, J, M, K, D बेंच पर उत्तर की ओर मुख करके बैठी हैं। क्रम: K, M के दाएं; J, M के बाएं; J, W के दाएं; K, D के बाएं; D दाएं अंत पर। D के बाएं दूसरा कौन है?",
+    q_en: "W, J, M, K, D facing north. K right of M, J left of M, J right of W, K left of D, D at right end. Who is 2nd left of D?",
+    op_hi: ["M", "W", "K", "J"],
+    op_en: ["M", "W", "K", "J"],
+    ans: "1",
+    solution: "<div class='solution-container'>बैठने का क्रम: W, J, M, K, D। D के बाएं दूसरा M है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "संख्याएं: 326 320 680 141 847। सबसे बड़ी संख्या के दूसरे अंक और सबसे छोटी के तीसरे अंक का योग क्या है?",
+    q_en: "Numbers: 326 320 680 141 847. Sum of 2nd digit of highest and 3rd digit of lowest?",
+    op_hi: ["6", "5", "2", "4"],
+    op_en: ["6", "5", "2", "4"],
+    ans: "2",
+    solution: "<div class='solution-container'>847 का 2nd (4) + 141 का 3rd (1) = 5।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "कथन: $F \\le A \\le I = L > E > D$ निष्कर्ष: I. $F < E$ II. $L \\ge F$",
+    q_en: "Statement: $F \\le A \\le I = L > E > D$ Conclusions: I. $F < E$ II. $L \\ge F$",
+    op_hi: ["दोनों", "केवल II", "कोई नहीं", "केवल I"],
+    op_en: ["Both", "Only II", "Neither", "Only I"],
+    ans: "2",
+    solution: "<div class='solution-container'>कथन से $F \\le L$ यानी $L \\ge F$ सत्य है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "यदि Y, J का पुत्र है, P, Q का पिता है, R, J का पिता है, और Q, Y की बहन है, तो P का R से क्या संबंध है?",
+    q_en: "If Y is son of J, P is father of Q, R is father of J, and Q is sister of Y, how is P related to R?",
+    op_hi: ["भाई की पत्नी", "पति का भाई", "पत्नी का पिता", "पुत्री का पति"],
+    op_en: ["Brother's wife", "Husband's brother", "Wife's father", "Daughter's husband"],
+    ans: "4",
+    solution: "<div class='solution-container'>P, R की बेटी J का पति है, अतः दामाद है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "छह व्यक्ति पंक्ति में उत्तर की ओर मुख करके बैठे हैं। I दाएं अंत पर है। J, X और I के बगल में है। F, W और L के बगल में है। W, X का पड़ोसी नहीं है। W के ठीक दाएं कौन है?",
+    q_en: "6 persons facing north. I at right end. J next to X and I. F next to W and L. W not neighbour of X. Who is right of W?",
+    op_hi: ["L", "X", "I", "F"],
+    op_en: ["L", "X", "I", "F"],
+    ans: "4",
+    solution: "<div class='solution-container'>क्रम: W, F, L, X, J, I। W के दाएं F है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "छह मंजिलों पर A-F रहते हैं। D के ऊपर 3 लोग हैं। B और D के बीच 2 लोग हैं। C, D के ठीक नीचे है। F, A के ठीक नीचे है। E के नीचे कितने लोग हैं?",
+    q_en: "A-F live on 6 floors. 3 above D. 2 between B and D. C below D. F below A. How many below E?",
+    op_hi: ["तीन", "दो", "कोई नहीं", "चार"],
+    op_en: ["Three", "Two", "None", "Four"],
+    ans: "3",
+    solution: "<div class='solution-container'>क्रम: B(6), A(5), F(4), D(3), C(2), E(1)। E के नीचे 0 हैं।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "बक्से M-S एक के ऊपर एक हैं। P और R के बीच 5 बक्से हैं। Q नीचे से 5वां है। P और Q के बीच 1 बक्सा है। M, Q के नीचे है। O, S के नीचे है। O और N के बीच 3 बक्से हैं। ऊपर से 5वां कौन है?",
+    q_en: "Boxes M-S. 5 between P and R. Q is 5th from bottom. 1 between P and Q. M below Q. O below S. 3 between O and N. 5th from top?",
+    op_hi: ["O", "R", "N", "S"],
+    op_en: ["O", "R", "N", "S"],
+    ans: "4",
+    solution: "<div class='solution-container'>क्रम (Top-Bottom): P, N, Q, M, S, O, R। 5वां S है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "शब्द: YEN MAT HUE AND। स्वर को +1 और व्यंजन को -1 करें। कितने समूहों में कोई स्वर नहीं होगा?",
+    q_en: "Words: YEN MAT HUE AND. Vowel +1, Consonant -1. How many clusters will have no vowel?",
+    op_hi: ["4", "2", "3", "1"],
+    op_en: ["4", "2", "3", "1"],
+    ans: "1",
+    solution: "<div class='solution-container'>सभी 4 शब्द (XFM, LBS, GVF, BMC) बिना स्वर के हो जाएंगे।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "कथन: सभी कागज किताबें हैं। सभी बैग किताबें हैं। कुछ पर्स बैग हैं। निष्कर्ष: (I) कुछ किताबें कागज हैं। (II) कुछ किताबें पर्स हैं।",
+    q_en: "Statements: All papers are books. All bags are books. Some purses are bags. Conclusions: (I) Some books are papers. (II) Some books are purses.",
+    op_hi: ["कोई नहीं", "केवल I", "दोनों", "केवल II"],
+    op_en: ["Neither", "Only I", "Both", "Only II"],
+    ans: "3",
+    solution: "<div class='solution-container'>दोनों निष्कर्ष वेन डायग्राम से सत्य सिद्ध होते हैं।</div>"
+  }
+];
   
   // --- Reasoning Part 2 (Demo) ---
   { 
