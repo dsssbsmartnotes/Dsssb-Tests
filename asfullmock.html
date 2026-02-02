@@ -1,0 +1,850 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DSSSB CBT Professional Portal (Pro)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+window.MathJax = {
+  tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$']] },
+  svg: { fontCache: 'global' },
+  startup: { typeset: false }
+};
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+<style>
+/* =========================
+   CORE THEME & VARIABLES
+   ========================= */
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1e40af;
+  --success: #16a34a;
+  --danger: #dc2626;
+  --warning: #ca8a04;
+  --bg-body: #f1f5f9;
+  --bg-card: #ffffff;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+  --header-height: 60px;
+  --footer-height: 60px;
+}
+
+body.dark-mode {
+  --primary: #60a5fa;
+  --primary-dark: #3b82f6;
+  --success: #4ade80;
+  --danger: #f87171;
+  --bg-body: #0f172a;
+  --bg-card: #1e293b;
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --border-color: #334155;
+}
+
+* { box-sizing: border-box; outline: none; -webkit-tap-highlight-color: transparent; }
+html, body { width: 100%; height: 100%; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg-body); color: var(--text-main); overflow: hidden; user-select: none; }
+body { display: grid; grid-template-rows: var(--header-height) auto 1fr var(--footer-height); }
+
+/* --- TELEGRAM POPUP STYLES --- */
+#tgPopup {
+  position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%);
+  background: var(--bg-card); padding: 25px; width: 85%; max-width: 320px;
+  border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  z-index: 9999; text-align: center; display: none; color: var(--text-main);
+  border: 1px solid var(--border-color);
+}
+#tgPopup a { display: block; background: #0088cc; color: #fff; padding: 12px; border-radius: 8px; text-decoration: none; margin-top: 15px; font-weight: bold; }
+.tg-btn-continue { background: var(--bg-body); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 20px; border-radius: 8px; margin-top: 15px; cursor: pointer; font-weight: 600; width: 100%; }
+
+/* --- TOAST NOTIFICATIONS --- */
+#toast-container { position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%); z-index: 10000; display: flex; flex-direction: column; gap: 10px; align-items: center; pointer-events: none; width: 90%; max-width: 400px; }
+.toast { background: rgba(30, 41, 59, 0.95); color: #fff; padding: 12px 20px; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: flex; align-items: center; gap: 12px; font-size: 14px; animation: slideUp 0.3s ease-out; pointer-events: auto; backdrop-filter: blur(4px); width: 100%; border-left: 4px solid var(--primary); }
+.toast.success { border-color: var(--success); } .toast.error { border-color: var(--danger); } .toast.warning { border-color: var(--warning); }
+@keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+/* --- LOGIN SCREEN --- */
+.full-overlay { position: fixed; inset: 0; background: var(--bg-body); z-index: 2000; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px; overflow-y: auto; }
+.login-card { background: var(--bg-card); padding: 30px; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.1); width: 100%; max-width: 400px; text-align: center; border: 1px solid var(--border-color); }
+.login-input { width: 100%; padding: 12px; margin: 8px 0; border: 2px solid var(--border-color); border-radius: 8px; background: var(--bg-body); color: var(--text-main); font-size: 16px; }
+.btn-primary { background: var(--primary); color: #fff; border: none; padding: 12px; width: 100%; border-radius: 8px; font-weight: bold; font-size: 16px; cursor: pointer; margin-top: 15px; }
+
+/* --- HEADER --- */
+header { background: var(--bg-card); border-bottom: 1px solid var(--border-color); display: flex; align-items: center; justify-content: space-between; padding: 0 15px; z-index: 50; height: var(--header-height); }
+.brand { font-weight: 800; font-size: 18px; color: var(--primary); display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+.header-tools { display: flex; gap: 8px; align-items: center; }
+.timer-badge { background: rgba(37, 99, 235, 0.1); color: var(--primary); padding: 5px 10px; border-radius: 6px; font-weight: bold; font-family: monospace; font-size: 16px; border: 1px solid rgba(37, 99, 235, 0.2); }
+.nav-btn { padding: 6px 10px; border-radius: 6px; font-weight: 600; cursor: pointer; border: 1px solid var(--border-color); background: var(--bg-card); color: var(--text-main); font-size: 13px; display: flex; align-items: center; justify-content: center; }
+
+/* --- SECTION BAR --- */
+#sectionBar { background: var(--bg-card); border-bottom: 1px solid var(--border-color); display: flex; overflow-x: auto; scrollbar-width: none; white-space: nowrap; height: 50px; align-items: center; }
+.sec-tab { padding: 0 15px; height: 100%; font-size: 13px; font-weight: 600; color: var(--text-muted); display: flex; align-items: center; gap: 5px; border-bottom: 3px solid transparent; transition: 0.2s; opacity: 0.7; }
+.sec-tab.active { color: var(--primary); border-bottom-color: var(--primary); background: rgba(37, 99, 235, 0.05); opacity: 1; }
+.sec-tab.done { color: var(--success); opacity: 1; }
+
+/* --- MAIN LAYOUT --- */
+#mainArea { padding: 15px; overflow-y: auto; display: none; position: relative; background: var(--bg-body); }
+.q-card { background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-color); padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); margin-bottom: 20px; }
+.q-header { display: flex; justify-content: space-between; margin-bottom: 12px; border-bottom: 1px solid var(--border-color); padding-bottom: 8px; font-size: 13px; color: var(--text-muted); }
+.q-text { font-size: 16px; line-height: 1.5; margin-bottom: 15px; font-weight: 500; overflow-x: auto; }
+.q-text img, .opt img { max-width: 100%; height: auto; border-radius: 4px; cursor: zoom-in; }
+
+.opt { display: flex; align-items: center; padding: 10px; border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 8px; cursor: pointer; transition: 0.2s; background: var(--bg-card); font-size: 14px; }
+.opt:hover { background: var(--bg-body); border-color: var(--primary); }
+.opt.sel { background: rgba(37, 99, 235, 0.1); border-color: var(--primary); font-weight: 600; }
+.opt.correct { background: rgba(22, 163, 74, 0.15); border-color: var(--success); }
+.opt.wrong { background: rgba(220, 38, 38, 0.15); border-color: var(--danger); }
+.opt-badge { width: 24px; height: 24px; border-radius: 50%; border: 2px solid var(--border-color); display: flex; align-items: center; justify-content: center; margin-right: 10px; font-size: 11px; font-weight: bold; flex-shrink: 0; }
+.opt.sel .opt-badge { background: var(--primary); border-color: var(--primary); color: #fff; }
+
+/* --- FOOTER --- */
+footer { background: var(--bg-card); padding: 5px 10px; border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; gap: 8px; display: none; z-index: 40; align-items: center; height: var(--footer-height); }
+footer .nav-btn { height: 40px; flex: 1; max-width: 120px; }
+footer .btn-grid { max-width: 80px; }
+.nav-btn.primary { background: var(--primary); color: #fff; border: none; }
+
+/* --- PALETTE PANEL --- */
+#palettePanel { 
+    position: fixed; top: 0; right: 0; bottom: 0;
+    width: 280px; background: var(--bg-card); z-index: 2000; 
+    display: flex; flex-direction: column; 
+    box-shadow: -5px 0 25px rgba(0,0,0,0.2); 
+    transform: translateX(100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+#palettePanel.show { transform: translateX(0); }
+.modal-header { padding: 15px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 16px; }
+.p-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; padding: 15px; overflow-y: auto; flex: 1; align-content: start; }
+.qbtn { aspect-ratio: 1; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-body); font-weight: 600; font-size: 12px; cursor: pointer; color: var(--text-main); }
+.qbtn.current { border: 2px solid var(--text-main); }
+.qbtn.answered { background: var(--success); color: #fff; border: none; }
+.qbtn.review { background: var(--primary); color: #fff; border: none; }
+
+/* --- MOBILE RESPONSIVE TWEAKS --- */
+@media(max-width: 480px) {
+    #palettePanel { width: 85%; } 
+    .brand span { font-size: 20px; } .brand { font-size: 16px; }
+    .timer-badge { font-size: 14px; padding: 4px 8px; }
+    .nav-btn { padding: 5px 8px; font-size: 12px; }
+    .sec-tab { padding: 0 10px; font-size: 12px; }
+    footer { padding: 5px; }
+    .dashboard-grid { grid-template-columns: 1fr; }
+    .big-num { font-size: 24px; }
+}
+
+/* --- ZOOM MODAL --- */
+#zoomModal { position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 5000; display: none; justify-content: center; align-items: center; flex-direction: column; }
+#zoomImg { max-width: 95%; max-height: 80vh; border-radius: 8px; border: 1px solid #fff; }
+
+/* --- MODALS --- */
+.modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 1500; display: none; backdrop-filter: blur(2px); justify-content: center; align-items: center; padding: 10px; }
+.modal-card { background: var(--bg-card); width: 100%; max-width: 800px; max-height: 90vh; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+.modal-body { padding: 15px; overflow-y: auto; }
+.dashboard-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px; }
+.stat-box { background: var(--bg-body); padding: 15px; border-radius: 10px; border: 1px solid var(--border-color); text-align: center; }
+.big-num { font-size: 28px; font-weight: 800; color: var(--primary); }
+.chart-wrapper { position: relative; height: 200px; }
+.sol-section { margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid var(--border-color); }
+.sol-section:last-child { border: none; }
+.sol-label { font-size: 11px; font-weight: bold; color: var(--text-muted); text-transform: uppercase; margin-bottom: 4px; display: block; }
+</style>
+</head>
+
+<body onload="initApp()">
+
+<div id="tgPopup">
+ <b>📢 Join DSSSB Smart Notes</b><br><br>
+ Daily CBT Tests • PDFs • Results
+ <a href="https://t.me/DSSSBSmartNotes" target="_blank">Join Telegram</a><br>
+ <button class="tg-btn-continue" onclick="closeTg()">Continue Test</button>
+</div>
+
+<div id="zoomModal" onclick="closeZoom()">
+    <span style="position:absolute; top:20px; right:20px; font-size:40px; color:#fff; cursor:pointer;">&times;</span>
+    <img id="zoomImg" src="">
+    <div style="color:#fff; margin-top:10px;">Click anywhere to close</div>
+</div>
+
+<div id="paletteOverlay" onclick="togglePalette()" style="position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:1900; display:none;"></div>
+
+<div id="toast-container"></div>
+
+<div id="startScreen" class="full-overlay">
+    <div class="login-card">
+        <div style="font-size:40px; margin-bottom:10px;">🎓</div>
+        <h2 style="margin:0 0 10px 0; color:var(--primary);">DSSSB Pro Portal</h2>
+        <p style="color:var(--text-muted); font-size:14px; margin-bottom:20px;">Secure Computer Based Test System</p>
+        <input type="text" id="startNameInput" class="login-input" placeholder="Enter Full Name">
+        <input type="password" id="examPassInput" class="login-input" placeholder="Password (default: dsssb2406)">
+        <div id="resumeBox" style="display:none; margin-top:15px; background:rgba(255,165,0,0.1); padding:10px; border-radius:6px; border:1px solid orange; color:orange; font-size:13px; text-align:left;">
+            <b>⚠️ Incomplete Test Found</b><br>
+            A previous session was interrupted. 
+            <div style="margin-top:8px; display:flex; gap:10px;">
+                <button onclick="loadState()" style="padding:5px 10px; background:orange; color:white; border:none; border-radius:4px; cursor:pointer;">Resume</button>
+                <button onclick="clearState()" style="padding:5px 10px; background:none; border:1px solid orange; color:orange; border-radius:4px; cursor:pointer;">New Test</button>
+            </div>
+        </div>
+        <button class="btn-primary" onclick="validateLogin()">START EXAM</button>
+    </div>
+</div>
+
+<header>
+    <div class="brand"><span>🛡️</span> DSSSB CBT</div>
+    <div class="header-tools">
+        <div id="timer" class="timer-badge">120:00</div>
+        <button class="nav-btn" onclick="toggleTheme()">🌙</button>
+        <button class="nav-btn" onclick="toggleLang()" id="langBtn">HI</button>
+        <button class="nav-btn" onclick="toggleFS()">⛶</button>
+    </div>
+</header>
+
+<div id="sectionBar"></div>
+
+<div id="mainArea">
+    <div class="q-card">
+        <div class="q-header">
+            <span>Q.<b id="qNumDisp">1</b></span>
+            <span><span style="color:var(--success)">+1.0</span> / <span style="color:var(--danger)">-0.25</span></span>
+        </div>
+        <div id="qContent" class="q-text"></div>
+        <div id="opts"></div>
+        <div style="margin-top:20px; display:flex; gap:10px;">
+            <button class="nav-btn" style="border-color:var(--warning); color:var(--warning); flex:1;" onclick="markReview()">⭐ Review</button>
+            <button class="nav-btn" style="flex:1;" onclick="clearResponse()">Clear</button>
+        </div>
+        <div id="expBox" style="display:none; margin-top:20px; padding:15px; background:rgba(22, 163, 74, 0.1); border-left:4px solid var(--success); border-radius:6px; font-size:14px;"></div>
+    </div>
+    <div style="height:20px;"></div>
+</div>
+
+<div id="palettePanel">
+    <div class="modal-header" style="background:var(--bg-body);">
+        <span>Question Palette</span>
+        <button onclick="togglePalette()" style="border:none; background:none; font-size:24px;">&times;</button>
+    </div>
+    <div class="p-grid" id="paletteGrid"></div>
+    <div style="padding:15px; border-top:1px solid var(--border-color);">
+        <button id="mainSubmitBtn" onclick="submitTest()" class="btn-primary" style="background:var(--danger); display:none;">SUBMIT FINAL EXAM</button>
+    </div>
+</div>
+
+<div id="resultModal" class="modal-overlay">
+    <div class="modal-card">
+        <div class="modal-header">
+            <span>🏆 Score Card</span>
+            <button onclick="closeResult()" style="border:none; background:none; font-size:20px;">&times;</button>
+        </div>
+        <div class="modal-body" id="resultContent"></div>
+    </div>
+</div>
+
+<footer>
+    <button class="nav-btn btn-grid" onclick="togglePalette()">Grid</button>
+    <button class="nav-btn" onclick="prev()">Prev</button>
+    <button class="nav-btn primary" id="nextBtn" onclick="next()">Next</button>
+</footer>
+
+<script>
+/* CONFIGURATION */
+const PASS_ENCODED = "ZHNzc2IyNDA2"; 
+const TOTAL_TIME_MINS = 120;
+const STORAGE_KEY = "dsssb_pro_state_v5";
+const SECTION_MAP = ["Reasoning 1", "Reasoning 2", "GK 1", "GK 2", "Maths 1", "Maths 2", "English 1", "English 2", "Hindi 1", "Hindi 2"];
+const NEGATIVE_MARK = 0.25;
+const TELEGRAM_BOT_TOKEN="8486464606:AAFT_Bd0P2HYqKNPjCm3s7TGgfM4HWmOYvs";
+const TELEGRAM_CHAT_ID="@dsssbcbtresult";
+
+/* QUESTIONS DATA */
+const QUESTIONS = [
+  {
+    section: "Reasoning 1",
+    q_hi: "एक निश्चित कूट भाषा में, 'lamp at night' को 'vj re ms' के रूप में कोडित किया जाता है और 'lamp of light' को 'ms na bo' के रूप में कोडित किया जाता है। दी गई भाषा में 'lamp' का कोड क्या है?",
+    q_en: "In a certain code language, 'lamp at night' is coded as 'vj re ms' and 'lamp of light' is coded as 'ms na bo'. How is 'lamp' coded in the given language?",
+    op_hi: ["vj", "ms", "re", "bo"],
+    op_en: ["vj", "ms", "re", "bo"],
+    ans: "2",
+    solution: "<div class='solution-container'>दोनों वाक्यों में 'lamp' और कोड 'ms' कॉमन हैं।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "यदि Z का विवाह Q से हुआ है, N, L का पति है, K, Y की माता है, Q, L का पुत्र है, और Y, Z का पिता है, तो Z का N से क्या संबंध है?",
+    q_en: "If Z is married to Q, N is the husband of L, K is the mother of Y, Q is the son of L, and Y is the father of Z, then how is Z related to N?",
+    op_hi: ["पुत्री का पति", "पति का पिता", "पुत्र की पत्नी", "पत्नी का पिता"],
+    op_en: ["Daughter's husband", "Husband's father", "Son's wife", "Wife's father"],
+    ans: "3",
+    solution: "<div class='solution-container'>Z, N के पुत्र Q की पत्नी है, अतः वह 'पुत्र की पत्नी' है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "सात बक्से A, B, C, D, E, F और G एक के ऊपर एक रखे गए हैं। A नीचे से पांचवें स्थान पर है। C नीचे से तीसरे स्थान पर है। F, B और E के बीच में है। A और D के बीच केवल एक बक्सा है। B, D के ठीक नीचे है। F, E के ठीक ऊपर है। F और D के बीच कितने बक्से हैं?",
+    q_en: "Seven boxes A, B, C, D, E, F and G are kept one over the other. A is 5th from bottom. C is 3rd from bottom. F is between B and E. One box between A and D. B is immediately below D. F is immediately above E. How many boxes between F and D?",
+    op_hi: ["दो", "तीन", "एक", "चार"],
+    op_en: ["Two", "Three", "One", "Four"],
+    ans: "4",
+    solution: "<div class='solution-container'>क्रम: D, B, A, G, C, F, E। D और F के बीच 4 बक्से हैं।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "एक कक्षा के सभी 25 छात्र उत्तर की ओर मुख करके एक सीधी रेखा में खड़े हैं। A दाएं छोर से 13वें स्थान पर है जबकि B बाएं छोर से 5वें स्थान पर है। A और B के बीच कितने व्यक्ति खड़े हैं?",
+    q_en: "All 25 students in a class are standing in a straight line facing north. A is 13th from the right end while B is 5th from the left end. How many people stand between A and B?",
+    op_hi: ["चार", "पांच", "छह", "सात"],
+    op_en: ["Four", "Five", "Six", "Seven"],
+    ans: "4",
+    solution: "<div class='solution-container'>A का बाएं से स्थान = $25 - 13 + 1 = 13$। B(5) और A(13) के बीच: $13 - 5 - 1 = 7$।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "कथन: $R \\le E \\ge A \\ge S \\ge O < N$ <br>निष्कर्ष: I. $O < E$, II. $E = O$",
+    q_en: "Statement: $R \\le E \\ge A \\ge S \\ge O < N$ <br>Conclusions: I. $O < E$, II. $E = O$",
+    op_hi: ["केवल II सत्य है", "न तो I और न ही II सत्य है", "केवल I सत्य है", "दोनों सत्य हैं"],
+    op_en: ["Only II is true", "Neither I nor II is true", "Only I is true", "Both are true"],
+    ans: "2",
+    solution: "<div class='solution-container'>कथन से $E \\ge O$ प्राप्त होता है। कोई भी निष्कर्ष अकेले निश्चित सत्य नहीं है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "दाएं से पहले शब्द के दूसरे अक्षर और बाएं से पहले शब्द के दूसरे अक्षर के बीच वर्णमाला में कितने अक्षर हैं? (JOB KEY BUN FRY)",
+    q_en: "How many letters are between the 2nd letter of the 1st word from right and 2nd letter of the 1st word from left? (JOB KEY BUN FRY)",
+    op_hi: ["तीन", "एक", "एक भी नहीं", "दो"],
+    op_en: ["Three", "One", "None", "Two"],
+    ans: "4",
+    solution: "<div class='solution-container'>O और R के बीच P और Q (कुल 2) अक्षर हैं।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "कथन: कुछ मोर हंस हैं। कुछ कौवे बाज हैं। कुछ हंस बाज हैं। निष्कर्ष: (I) सभी हंस मोर हैं। (II) कुछ कौवे हंस हैं।",
+    q_en: "Statements: Some peacocks are swans. Some crows are hawks. Some swans are hawks. Conclusions: (I) All swans are peacocks. (II) Some crows are swans.",
+    op_hi: ["केवल I", "दोनों", "केवल II", "कोई नहीं"],
+    op_en: ["Only I", "Both", "Only II", "Neither"],
+    ans: "4",
+    solution: "<div class='solution-container'>दिए गए संबंधों से कोई भी निष्कर्ष निश्चित रूप से सही नहीं है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "श्रृंखला: A 7 @ 9 @ E 3 # 7 U 4 $ B 3 & 3 # 7 9 @ 3 @ $. ऐसी कितनी संख्याएं हैं जिनके ठीक पहले स्वर और बाद में प्रतीक है?",
+    q_en: "Series: A 7 @ 9 @ E 3 # 7 U 4 $ B 3 & 3 # 7 9 @ 3 @ $. How many numbers preceded by a vowel and followed by a symbol?",
+    op_hi: ["तीन", "चार", "दो", "एक"],
+    op_en: ["Three", "Four", "Two", "One"],
+    ans: "1",
+    solution: "<div class='solution-container'>पैटर्न (V-N-S): A7@, E3#, U4$ (कुल 3)।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "कथन: सभी बेगल मफिन हैं। कुछ मफिन केक हैं। सभी केक पेस्ट्री हैं। निष्कर्ष: (I) कोई बेगल पेस्ट्री नहीं है। (II) कुछ मफिन पेस्ट्री हैं।",
+    q_en: "Statements: All bagels are muffins. Some muffins are cakes. All cakes are pastries. Conclusions: (I) No bagel is a pastry. (II) Some muffins are pastries.",
+    op_hi: ["केवल I", "दोनों", "कोई नहीं", "केवल II"],
+    op_en: ["Only I", "Both", "Neither", "Only II"],
+    ans: "4",
+    solution: "<div class='solution-container'>मफिन का वह हिस्सा जो केक है, वह पेस्ट्री भी होगा।</div>"
+  },
+ {
+  section: "Reasoning 1",
+  q_hi: "नीचे दी गई तालिका और शर्तों के आधार पर समूह को कोडित करें।<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:center;'><tr><td><b>संख्या/प्रतीक</b></td><td>2</td><td>&</td><td>1</td><td>5</td><td>@</td><td>*</td><td>9</td><td>%</td><td>#</td><td>8</td><td>+</td><td>3</td><td>4</td><td>6</td></tr><tr><td><b>कोड</b></td><td>F</td><td>A</td><td>Y</td><td>T</td><td>P</td><td>W</td><td>V</td><td>C</td><td>H</td><td>R</td><td>E</td><td>Z</td><td>M</td><td>U</td></tr></table><br><b>शर्तें:</b><br>1. यदि पहला तत्व एक प्रतीक है और अंतिम तत्व एक संख्या है, तो उनके कोड परस्पर बदल दिए जाएंगे।<br>2. यदि पहला तत्व एक सम संख्या है और अंतिम तत्व एक विषम संख्या है, तो दोनों को © के रूप में कोडित किया जाएगा।<br>3. यदि तीसरा और चौथा दोनों तत्व विषम संख्याएं हैं, तो तीसरे तत्व को दूसरे तत्व के कोड से बदला जाएगा।<br><br><b>8@3#9</b> का कोड क्या होगा?",
+  q_en: "Code the group based on the table and conditions below.<br><br><table border='1' style='border-collapse:collapse; width:100%; text-align:center;'><tr><td><b>No/Symbol</b></td><td>2</td><td>&</td><td>1</td><td>5</td><td>@</td><td>*</td><td>9</td><td>%</td><td>#</td><td>8</td><td>+</td><td>3</td><td>4</td><td>6</td></tr><tr><td><b>Code</b></td><td>F</td><td>A</td><td>Y</td><td>T</td><td>P</td><td>W</td><td>V</td><td>C</td><td>H</td><td>R</td><td>E</td><td>Z</td><td>M</td><td>U</td></tr></table><br><b>Conditions:</b><br>1. If first is symbol & last is number, interchange their codes.<br>2. If first is even & last is odd number, code both as ©.<br>3. If 3rd & 4th elements are odd numbers, code 3rd element as the 2nd element's code.<br><br>What is the code for: <b>8@3#9</b>?",
+  op_hi: ["RPZH©", "©PZHV", "RPZHV", "©PZH©"],
+  op_en: ["RPZH©", "©PZHV", "RPZHV", "©PZH©"],
+  ans: "4",
+  solution: "<div class='solution-container'><b>स्टेप-बाय-स्टेप व्याख्या:</b><br>1. समूह <b>8@3#9</b> में पहला तत्व '8' (सम संख्या) और अंतिम तत्व '9' (विषम संख्या) है।<br>2. यहाँ <b>शर्त 2</b> लागू होती है, जिसके अनुसार पहले और अंतिम तत्व को <b>©</b> लिखा जाएगा।<br>3. बीच के तत्वों को तालिका से सीधे कोड किया जाएगा: @ = P, 3 = Z, # = H।<br>4. अंतिम परिणाम: <b>©PZH©</b>।</div>"
+},
+  {
+    section: "Reasoning 1",
+    q_hi: "यदि UGLY = 4716 और DULY = 6478, तो 'D' का कोड क्या है?",
+    q_en: "If UGLY = 4716 and DULY = 6478, what is the code for 'D'?",
+    op_hi: ["4", "7", "8", "6"],
+    op_en: ["4", "7", "8", "6"],
+    ans: "3",
+    solution: "<div class='solution-container'>DULY में बचा हुआ अक्षर 'D' है और कोड में '8' है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "पांच लड़कियां W, J, M, K, D बेंच पर उत्तर की ओर मुख करके बैठी हैं। क्रम: K, M के दाएं; J, M के बाएं; J, W के दाएं; K, D के बाएं; D दाएं अंत पर। D के बाएं दूसरा कौन है?",
+    q_en: "W, J, M, K, D facing north. K right of M, J left of M, J right of W, K left of D, D at right end. Who is 2nd left of D?",
+    op_hi: ["M", "W", "K", "J"],
+    op_en: ["M", "W", "K", "J"],
+    ans: "1",
+    solution: "<div class='solution-container'>बैठने का क्रम: W, J, M, K, D। D के बाएं दूसरा M है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "संख्याएं: 326 320 680 141 847। सबसे बड़ी संख्या के दूसरे अंक और सबसे छोटी के तीसरे अंक का योग क्या है?",
+    q_en: "Numbers: 326 320 680 141 847. Sum of 2nd digit of highest and 3rd digit of lowest?",
+    op_hi: ["6", "5", "2", "4"],
+    op_en: ["6", "5", "2", "4"],
+    ans: "2",
+    solution: "<div class='solution-container'>847 का 2nd (4) + 141 का 3rd (1) = 5।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "कथन: $F \\le A \\le I = L > E > D$ निष्कर्ष: I. $F < E$ II. $L \\ge F$",
+    q_en: "Statement: $F \\le A \\le I = L > E > D$ Conclusions: I. $F < E$ II. $L \\ge F$",
+    op_hi: ["दोनों", "केवल II", "कोई नहीं", "केवल I"],
+    op_en: ["Both", "Only II", "Neither", "Only I"],
+    ans: "2",
+    solution: "<div class='solution-container'>कथन से $F \\le L$ यानी $L \\ge F$ सत्य है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "यदि Y, J का पुत्र है, P, Q का पिता है, R, J का पिता है, और Q, Y की बहन है, तो P का R से क्या संबंध है?",
+    q_en: "If Y is son of J, P is father of Q, R is father of J, and Q is sister of Y, how is P related to R?",
+    op_hi: ["भाई की पत्नी", "पति का भाई", "पत्नी का पिता", "पुत्री का पति"],
+    op_en: ["Brother's wife", "Husband's brother", "Wife's father", "Daughter's husband"],
+    ans: "4",
+    solution: "<div class='solution-container'>P, R की बेटी J का पति है, अतः दामाद है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "छह व्यक्ति पंक्ति में उत्तर की ओर मुख करके बैठे हैं। I दाएं अंत पर है। J, X और I के बगल में है। F, W और L के बगल में है। W, X का पड़ोसी नहीं है। W के ठीक दाएं कौन है?",
+    q_en: "6 persons facing north. I at right end. J next to X and I. F next to W and L. W not neighbour of X. Who is right of W?",
+    op_hi: ["L", "X", "I", "F"],
+    op_en: ["L", "X", "I", "F"],
+    ans: "4",
+    solution: "<div class='solution-container'>क्रम: W, F, L, X, J, I। W के दाएं F है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "छह मंजिलों पर A-F रहते हैं। D के ऊपर 3 लोग हैं। B और D के बीच 2 लोग हैं। C, D के ठीक नीचे है। F, A के ठीक नीचे है। E के नीचे कितने लोग हैं?",
+    q_en: "A-F live on 6 floors. 3 above D. 2 between B and D. C below D. F below A. How many below E?",
+    op_hi: ["तीन", "दो", "कोई नहीं", "चार"],
+    op_en: ["Three", "Two", "None", "Four"],
+    ans: "3",
+    solution: "<div class='solution-container'>क्रम: B(6), A(5), F(4), D(3), C(2), E(1)। E के नीचे 0 हैं।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "बक्से M-S एक के ऊपर एक हैं। P और R के बीच 5 बक्से हैं। Q नीचे से 5वां है। P और Q के बीच 1 बक्सा है। M, Q के नीचे है। O, S के नीचे है। O और N के बीच 3 बक्से हैं। ऊपर से 5वां कौन है?",
+    q_en: "Boxes M-S. 5 between P and R. Q is 5th from bottom. 1 between P and Q. M below Q. O below S. 3 between O and N. 5th from top?",
+    op_hi: ["O", "R", "N", "S"],
+    op_en: ["O", "R", "N", "S"],
+    ans: "4",
+    solution: "<div class='solution-container'>क्रम (Top-Bottom): P, N, Q, M, S, O, R। 5वां S है।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "शब्द: YEN MAT HUE AND। स्वर को +1 और व्यंजन को -1 करें। कितने समूहों में कोई स्वर नहीं होगा?",
+    q_en: "Words: YEN MAT HUE AND. Vowel +1, Consonant -1. How many clusters will have no vowel?",
+    op_hi: ["4", "2", "3", "1"],
+    op_en: ["4", "2", "3", "1"],
+    ans: "1",
+    solution: "<div class='solution-container'>सभी 4 शब्द (XFM, LBS, GVF, BMC) बिना स्वर के हो जाएंगे।</div>"
+  },
+  {
+    section: "Reasoning 1",
+    q_hi: "कथन: सभी कागज किताबें हैं। सभी बैग किताबें हैं। कुछ पर्स बैग हैं। निष्कर्ष: (I) कुछ किताबें कागज हैं। (II) कुछ किताबें पर्स हैं।",
+    q_en: "Statements: All papers are books. All bags are books. Some purses are bags. Conclusions: (I) Some books are papers. (II) Some books are purses.",
+    op_hi: ["कोई नहीं", "केवल I", "दोनों", "केवल II"],
+    op_en: ["Neither", "Only I", "Both", "Only II"],
+    ans: "3",
+    solution: "<div class='solution-container'>दोनों निष्कर्ष वेन डायग्राम से सत्य सिद्ध होते हैं।</div>"
+  },
+  
+  // --- Reasoning Part 2 (Demo) ---
+  {
+    section: "Reasoning 2",
+    q_hi: "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर कौन सी संख्या आनी चाहिए?<br><br>30, 40, 60, 100, 180, ?",
+    q_en: "Which number should come in place of the question mark (?) in the given series?<br><br>30, 40, 60, 100, 180, ?",
+    op_hi: ["340", "330", "360", "320"],
+    op_en: ["340", "330", "360", "320"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>श्रृंखला में संख्याओं का अंतर दोगुना हो रहा है:<br>30 (+10) = 40; 40 (+20) = 60; 60 (+40) = 100; 100 (+80) = 180; 180 (+160) = <b>340</b>।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर कौन सी संख्या आएगी?<br><br>811, 812, 816, 825, ?",
+    q_en: "Which of the following numbers will replace the question mark (?) in the given series?<br><br>811, 812, 816, 825, ?",
+    op_hi: ["841", "854", "842", "861"],
+    op_en: ["841", "854", "842", "861"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>यहाँ अंतर पूर्ण वर्ग (Squares) हैं:<br>+1 ($1^2$), +4 ($2^2$), +9 ($3^2$), +16 ($4^2$)<br>825 + 16 = <b>841</b>।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "उस सेट का चयन करें जिसमें संख्याएं उसी प्रकार संबंधित हैं जैसे निम्नलिखित सेटों की संख्याएं हैं। (नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना संक्रियाएं करें।)<br><br>(24, 12, 48)<br>(32, 16, 64)",
+    q_en: "Select the set in which the numbers are related in the same way as are the numbers of the following sets. (NOTE: Operations should be performed on whole numbers.)<br><br>(24, 12, 48)<br>(32, 16, 64)",
+    op_hi: ["(36, 18, 72)", "(44, 22, 98)", "(25, 12, 50)", "(26, 13, 56)"],
+    op_en: ["(36, 18, 72)", "(44, 22, 98)", "(25, 12, 50)", "(26, 13, 56)"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>तर्क: (संख्या 1 / 2) = संख्या 2; (संख्या 2 x 4) = संख्या 3।<br>36 / 2 = 18; 18 x 4 = 72।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "BAKE - EKBA - BKAE और WORD - DRWO - WROD के समान तर्क वाला विकल्प चुनें।",
+    q_en: "Select the option that follows the same logic as: BAKE - EKBA - BKAE and WORD - DRWO - WROD.",
+    op_hi: ["LIST - TSLI - LSIT", "MEAR - EAMR - EARM", "LACE - ECLA - ACLE", "BEST - BSET - TSEB"],
+    op_en: ["LIST - TSLI - LSIT", "MEAR - EAMR - EARM", "LACE - ECLA - ACLE", "BEST - BSET - TSEB"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>BAKE(1234) -> EKBA(4312) -> BKAE(1324)। यही तर्क LIST में लागू होता है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "विषम अक्षर-समूह का चयन करें: WUR, PNK, SRP, FDA।",
+    q_en: "Select the odd letter-cluster out: WUR, PNK, SRP, FDA.",
+    op_hi: ["WUR", "PNK", "SRP", "FDA"],
+    op_en: ["WUR", "PNK", "SRP", "FDA"],
+    ans: "3",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>WUR, PNK, FDA में अक्षरों का अंतर (-2, -3) है, जबकि SRP में अंतर (-1, -2) है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "COAL - LOCA - OACL और VAST - TAVS - ASVT के समान तर्क वाला विकल्प चुनें।",
+    q_en: "Select the option that follows the same logic as: COAL - LOCA - OACL and VAST - TAVS - ASVT.",
+    op_hi: ["MACK - KAMC - ACMK", "FROM - FORM - MORF", "MUSK - UMSK - KUSM", "REST - TERS - SERT"],
+    op_en: ["MACK - KAMC - ACMK", "FROM - FORM - MORF", "MUSK - UMSK - KUSM", "REST - TERS - SERT"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>पदों का स्थान परिवर्तन (1234) -> (4213) -> (2314)। MACK इस तर्क का पालन करता है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "यदि P=x, Q=&divide;, R=-, S=+ है, तो 115 R (13 P 7) S (56 Q 8) P 4 S 32 = ?",
+    q_en: "If P=x, Q=&divide;, R=-, S=+ then 115 R (13 P 7) S (56 Q 8) P 4 S 32 = ?",
+    op_hi: ["92", "78", "96", "84"],
+    op_en: ["92", "78", "96", "84"],
+    ans: "4",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>115 - (91) + (7 x 4) + 32 = 115 - 91 + 28 + 32 = 84।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "समान पैटर्न वाला विकल्प चुनें: 9 - 81 - 91 - 182; 7 - 49 - 59 - 118",
+    q_en: "Choose the option following the same pattern: 9 - 81 - 91 - 182; 7 - 49 - 59 - 118",
+    op_hi: ["3-9-19-38", "4-16-62-92", "11-121-132-142", "14-164-222-242"],
+    op_en: ["3-9-19-38", "4-16-62-92", "11-121-132-142", "14-164-222-242"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>तर्क: ($n^2$), ($n^2 + 10$), (($n^2 + 10) x 2$)। विकल्प 1 सही है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "X : 100 :: 8 : Y के लिए X और Y का मान क्या होगा? (समान तर्क का पालन करें)",
+    q_en: "What are X and Y for X : 100 :: 8 : Y following the same logic?",
+    op_hi: ["X=5, Y=40", "X=5, Y=80", "X=10, Y=40", "X=10, Y=80"],
+    op_en: ["X=5, Y=40", "X=5, Y=80", "X=10, Y=40", "X=10, Y=80"],
+    ans: "4",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>तर्क: संख्या x 10 = परिणाम। 10 x 10 = 100; 8 x 10 = 80।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "आकृति &rho;&sigma;&omega;&phi; की सही जल छवि (water image) चुनें।",
+    q_en: "Select the correct water image of &rho;&sigma;&omega;&phi;.",
+    op_hi: ["आकृति 1", "आकृति 2", "आकृति 3", "आकृति 4"],
+    op_en: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    ans: "3",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>जल छवि में ऊपर का हिस्सा नीचे हो जाता है। विकल्प 3 सही प्रतिबिंब है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "विषम अक्षर-समूह चुनें: LQU, PUX, CHL, KPT।",
+    q_en: "Odd letter-cluster: LQU, PUX, CHL, KPT.",
+    op_hi: ["LQU", "PUX", "CHL", "KPT"],
+    op_en: ["LQU", "PUX", "CHL", "KPT"],
+    ans: "2",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>LQU, CHL, KPT में अंतर (+5, +4) है, PUX में अंतर (+5, +3) है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "श्रृंखला 180, 200, 210, 220, 240, 240, ? में अगला पद क्या है?",
+    q_en: "Next term in 180, 200, 210, 220, 240, 240, ?",
+    op_hi: ["250", "240", "260", "270"],
+    op_en: ["250", "240", "260", "270"],
+    ans: "4",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>वैकल्पिक श्रृंखला: (180, 210, 240, <b>270</b>) (+30 का अंतर)।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "यदि + = x, - = +, x = &divide;, &divide; = - है, तो 23 - 45 x 5 &divide; 2 + 6 = ?",
+    q_en: "If + = x, - = +, x = &divide;, &divide; = - then 23 - 45 x 5 &divide; 2 + 6 = ?",
+    op_hi: ["26", "32", "20", "38"],
+    op_en: ["26", "32", "20", "38"],
+    ans: "3",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>23 + (45 / 5) - (2 x 6) = 23 + 9 - 12 = 20।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "विषम युग्म चुनें: QO-US, ED-JI, VT-ZX, LJ-PN।",
+    q_en: "Odd pair: QO-US, ED-JI, VT-ZX, LJ-PN.",
+    op_hi: ["QO-US", "ED-JI", "VT-ZX", "LJ-PN"],
+    op_en: ["QO-US", "ED-JI", "VT-ZX", "LJ-PN"],
+    ans: "2",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>ED-JI को छोड़कर अन्य सभी में अक्षरों का अंतर (-2) है और युग्मों के बीच (+4) का संबंध है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "X : 77 :: 13 : Y के लिए X और Y क्या हैं?",
+    q_en: "Values for X and Y in X : 77 :: 13 : Y?",
+    op_hi: ["X=7, Y=144", "X=9, Y=143", "X=7, Y=143", "X=9, Y=142"],
+    op_en: ["X=7, Y=144", "X=9, Y=143", "X=7, Y=143", "X=9, Y=142"],
+    ans: "3",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>तर्क: संख्या x 11 = परिणाम। 7 x 11 = 77; 13 x 11 = 143।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "प्रतीक Q k &lambda; P की सही जल छवि चुनें।",
+    q_en: "Correct water image for Q k &lambda; P.",
+    op_hi: ["आकृति 1", "आकृति 2", "आकृति 3", "आकृति 4"],
+    op_en: ["Option 1", "Option 2", "Option 3", "Option 4"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>जल छवि में लंबवत उल्टा (Vertical Inversion) होता है। विकल्प 1 सही है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "4:12 और 9:22 के समान संबंध वाला विकल्प चुनें।",
+    q_en: "Select option with same relation as 4:12 and 9:22.",
+    op_hi: ["18:38", "14:30", "2:8", "6:14"],
+    op_en: ["18:38", "14:30", "2:8", "6:14"],
+    ans: "3",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>तर्क: (n x 2) + 4 = परिणाम। (2 x 2) + 4 = 8।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "यदि + और - तथा x और &divide; बदलें, तो 121 x 11 &divide; 10 - 21 + 31 = ?",
+    q_en: "If + & - and x & &divide; are interchanged, 121 x 11 &divide; 10 - 21 + 31 = ?",
+    op_hi: ["100", "99", "101", "98"],
+    op_en: ["100", "99", "101", "98"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>(121 / 11) x 10 + 21 - 31 = 110 + 21 - 31 = 100।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "LOVE - LEOV - ELVO और CRAW - CWRA - WCAR के समान तर्क वाला विकल्प चुनें।",
+    q_en: "Logic same as: LOVE - LEOV - ELVO and CRAW - CWRA - WCAR.",
+    op_hi: ["CORE - CEOR - ECRO", "CAME - CEAM - ACME", "FOLD - OFLD - DOLF", "WEAR - WAER - RAEW"],
+    op_en: ["CORE - CEOR - ECRO", "CAME - CEAM - ACME", "FOLD - OFLD - DOLF", "WEAR - WAER - RAEW"],
+    ans: "1",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>पदों का स्थान परिवर्तन: (1234) -> (1324) -> (4132)। विकल्प 1 सही है।</div>"
+  },
+  {
+    section: "Reasoning 2",
+    q_hi: "यदि + = -, - = +, x = &divide;, &divide; = x है, तो 39 + 28 - 90 &divide; 3 x 9 = ?",
+    q_en: "If + = -, - = +, x = &divide;, &divide; = x then 39 + 28 - 90 &divide; 3 x 9 = ?",
+    op_hi: ["-203", "41", "-156", "54"],
+    op_en: ["-203", "41", "-156", "54"],
+    ans: "2",
+    solution: "<div class='solution-container'><b>व्याख्या:</b><br>39 - 28 + (90 x 3 / 9) = 11 + 30 = 41।</div>"
+  },
+
+  // --- GK Part 1 ---
+  { 
+      section: "GK 1", 
+      q_hi: "मौलिक कर्तव्य कहाँ से लिए गए?", q_en: "Fundamental Duties source?", 
+      op_hi: ["USA", "Russia", "UK", "Canada"], op_en: ["USA", "Russia", "UK", "Canada"], 
+      ans: "2", 
+      solution: "<div class='solution-container'>रूस (USSR)</div>" 
+  },
+  // --- GK Part 2 (Placeholder) ---
+  { section: "GK 2", q_hi: "GK Part 2 Placeholder Question", q_en: "GK Part 2 Placeholder", op_hi: ["A","B","C","D"], op_en: ["A","B","C","D"], ans: "1", solution: "Solution" },
+
+  // --- Maths Part 1 ---
+  { 
+      section: "Maths 1", 
+      q_hi: "CP=800, Profit=25%, SP=?", q_en: "CP=800, Profit=25%, SP=?", 
+      op_hi: ["1000", "900", "1100", "1200"], op_en: ["1000", "900", "1100", "1200"], 
+      ans: "1", 
+      solution: "<div class='solution-container'>SP = 1000</div>" 
+  },
+  // --- Maths Part 2 (Placeholder) ---
+  { section: "Maths 2", q_hi: "Maths Part 2 Placeholder Question", q_en: "Maths Part 2 Placeholder", op_hi: ["A","B","C","D"], op_en: ["A","B","C","D"], ans: "1", solution: "Solution" },
+
+  // --- English Part 1 ---
+  { 
+      section: "English 1", 
+      q_en: "Synonym of Happy?", q_hi: "Happy का पर्यायवाची?", 
+      op_en: ["Sad", "Joyful", "Angry", "Cry"], op_hi: ["Sad", "Joyful", "Angry", "Cry"], 
+      ans: "2", 
+      solution: "<div class='solution-container'>Happy = Joyful</div>" 
+  },
+  // --- English Part 2 (Placeholder) ---
+  { section: "English 2", q_hi: "English Part 2 Placeholder Question", q_en: "English Part 2 Placeholder", op_hi: ["A","B","C","D"], op_en: ["A","B","C","D"], ans: "1", solution: "Solution" },
+
+  // --- Hindi Part 1 ---
+  { 
+      section: "Hindi 1", 
+      q_hi: "संधि विच्छेद: विद्यालय", q_en: "", 
+      op_hi: ["विद्या + आलय", "विद्य + लय", "विद्या + लय", "इनमें से कोई नहीं"], op_en: ["Vidya + Aalay", "Option B", "Option C", "Option D"],
+      ans: "1", 
+      solution: "<div class='solution-container'>विद्या + आलय</div>" 
+  },
+  // --- Hindi Part 2 (Placeholder) ---
+  { section: "Hindi 2", q_hi: "Hindi Part 2 Placeholder Question", q_en: "Hindi Part 2 Placeholder", op_hi: ["A","B","C","D"], op_en: ["A","B","C","D"], ans: "1", solution: "Solution" }
+];
+/* LOGIC */
+let currentState = { idx: 0, answers: new Array(QUESTIONS.length).fill(null), review: new Array(QUESTIONS.length).fill(false), time: TOTAL_TIME_MINS * 60, secIdx: 0, submitted: false, name: "" };
+let timerInt;
+let secIndices = [];
+
+function initApp() {
+    calcSectionIndices();
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if(saved) document.getElementById('resumeBox').style.display = 'block';
+}
+function calcSectionIndices() { SECTION_MAP.forEach(sec => { const start = QUESTIONS.findIndex(q => q.section === sec); secIndices.push(start !== -1 ? start : 0); }); }
+function validateLogin() {
+    const name = document.getElementById('startNameInput').value.trim();
+    const pass = document.getElementById('examPassInput').value.trim();
+    if(!name) return showToast("Enter Name", "error");
+    if(btoa(pass) !== PASS_ENCODED) return showToast("Invalid Password", "error");
+    currentState.name = name;
+    startGame(false);
+}
+function startGame(isResuming) {
+    document.getElementById('startScreen').style.display = 'none';
+    document.querySelector('header').style.display = 'flex';
+    document.getElementById('mainArea').style.display = 'block';
+    document.querySelector('footer').style.display = 'flex';
+    renderSectionTabs();
+    if(!isResuming) currentState.idx = secIndices[0];
+    loadQuestion(currentState.idx);
+    startTimer();
+    setInterval(saveState, 5000); 
+    showToast(`Welcome ${currentState.name}`, "success");
+    toggleFS(); // AUTO FULL SCREEN
+    if(!isResuming) document.getElementById('tgPopup').style.display = "block"; // SHOW TELEGRAM POPUP
+}
+function saveState() {
+    if(currentState.submitted) { localStorage.removeItem(STORAGE_KEY); return; }
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(currentState));
+}
+function loadState() { const saved = localStorage.getItem(STORAGE_KEY); if(saved) { currentState = JSON.parse(saved); startGame(true); } }
+function clearState() { localStorage.removeItem(STORAGE_KEY); document.getElementById('resumeBox').style.display = 'none'; showToast("Cleared", "info"); }
+function renderSectionTabs() {
+    const bar = document.getElementById('sectionBar'); let html = "";
+    SECTION_MAP.forEach((sec, i) => {
+        let cls = "sec-tab"; let icon = "🔒";
+        if(i === currentState.secIdx) { cls += " active"; icon = "🟢"; }
+        else if(i < currentState.secIdx) { cls += " done"; icon = "✅"; }
+        html += `<div class="${cls}">${icon} ${sec}</div>`;
+    });
+    bar.innerHTML = html;
+}
+function loadQuestion(idx) {
+    currentState.idx = idx; const q = QUESTIONS[idx]; const isHindi = document.getElementById('langBtn').innerText === "HI";
+    document.getElementById('qNumDisp').innerText = idx + 1;
+    const contentDiv = document.getElementById('qContent');
+    contentDiv.innerHTML = isHindi ? (q.q_hi || q.q_en) : (q.q_en || q.q_hi);
+    
+    contentDiv.querySelectorAll('img').forEach(img => { img.onclick = () => openZoom(img.src); });
+
+    let optsHtml = ""; const correctIdx = parseInt(q.ans) - 1;
+    const optsArr = isHindi ? (q.op_hi || q.op_en) : (q.op_en || q.op_hi);
+    
+    optsArr.forEach((opt, i) => {
+        let cls = "opt"; const myAns = currentState.answers[idx];
+        if(currentState.submitted) { if(i === correctIdx) cls += " correct"; else if(myAns === i) cls += " wrong"; } else { if(myAns === i) cls += " sel"; }
+        optsHtml += `<div class="${cls}" onclick="selectAns(${i})"><div class="opt-badge">${String.fromCharCode(65+i)}</div><div style="width:100%">${opt}</div></div>`;
+    });
+    const optsContainer = document.getElementById('opts');
+    optsContainer.innerHTML = optsHtml;
+
+    optsContainer.querySelectorAll('img').forEach(img => {
+        img.onclick = (e) => { e.stopPropagation(); openZoom(img.src); }; 
+    });
+
+    const expBox = document.getElementById('expBox');
+    if(currentState.submitted) { expBox.innerHTML = `<div style="font-weight:bold; margin-bottom:10px;">SOLUTION</div>${q.solution}`; expBox.style.display = "block"; } else { expBox.style.display = "none"; }
+    updateNavButtons(); renderPalette(); if(window.MathJax) MathJax.typesetPromise();
+}
+function selectAns(i) { if(currentState.submitted) return; currentState.answers[currentState.idx] = i; loadQuestion(currentState.idx); saveState(); }
+function next() {
+    if(currentState.idx < QUESTIONS.length - 1) {
+        const nextQ = QUESTIONS[currentState.idx + 1]; const currQ = QUESTIONS[currentState.idx];
+        if(nextQ.section !== currQ.section) {
+            if(!currentState.submitted) { if(confirm(`Finish ${currQ.section} section?`)) { currentState.secIdx++; renderSectionTabs(); loadQuestion(currentState.idx + 1); } } else { loadQuestion(currentState.idx + 1); }
+        } else { loadQuestion(currentState.idx + 1); }
+    } else { if(!currentState.submitted) submitTest(); }
+}
+function prev() {
+    const currQ = QUESTIONS[currentState.idx];
+    if(currentState.idx > 0) {
+        const prevQ = QUESTIONS[currentState.idx - 1];
+        if(prevQ.section === currQ.section || currentState.submitted) { loadQuestion(currentState.idx - 1); } else { showToast("Locked Section", "warning"); }
+    }
+}
+function updateNavButtons() {
+    const btn = document.getElementById('nextBtn');
+    if(currentState.idx === QUESTIONS.length - 1 && !currentState.submitted) { btn.innerText = "FINISH"; btn.style.background = "var(--danger)"; } else { btn.innerText = "Next"; btn.style.background = "var(--primary)"; }
+}
+function startTimer() {
+    clearInterval(timerInt);
+    timerInt = setInterval(() => {
+        if(currentState.time <= 0) { submitTest(); return; }
+        currentState.time--;
+        const m = Math.floor(currentState.time / 60).toString().padStart(2,'0');
+        const s = (currentState.time % 60).toString().padStart(2,'0');
+        const el = document.getElementById('timer');
+        el.innerText = `${m}:${s}`;
+        if(currentState.time < 300) el.classList.add('low');
+    }, 1000);
+}
+function showToast(msg, type="info") {
+    const container = document.getElementById('toast-container'); const t = document.createElement('div'); t.className = `toast ${type}`;
+    let icon = "ℹ️"; if(type==="success") icon = "✅"; if(type==="error") icon = "❌"; if(type==="warning") icon = "⚠️";
+    t.innerHTML = `<span>${icon}</span> <span>${msg}</span>`; container.appendChild(t); setTimeout(() => t.remove(), 3000);
+}
+function togglePalette() { 
+    const p = document.getElementById('palettePanel'); const o = document.getElementById('paletteOverlay');
+    if(p.classList.contains('show')) { p.classList.remove('show'); o.style.display = 'none'; } else { p.classList.add('show'); o.style.display = 'block'; }
+}
+function renderPalette() {
+    const grid = document.getElementById('paletteGrid'); grid.innerHTML = "";
+    QUESTIONS.forEach((q, i) => {
+        const myAns = currentState.answers[i]; let cls = "qbtn";
+        if(i === currentState.idx) cls += " current"; if(myAns !== null) cls += " answered"; else if(currentState.review[i]) cls += " review";
+        const isAccessible = currentState.submitted || (i >= secIndices[currentState.secIdx] && (currentState.secIdx === SECTION_MAP.length -1 || i < secIndices[currentState.secIdx+1]));
+        const btn = document.createElement('button'); btn.className = cls; btn.innerText = i + 1;
+        if(isAccessible) { btn.onclick = () => { loadQuestion(i); if(window.innerWidth < 768) togglePalette(); }; } else btn.style.opacity = "0.3";
+        grid.appendChild(btn);
+    });
+}
+function markReview() { currentState.review[currentState.idx] = !currentState.review[currentState.idx]; loadQuestion(currentState.idx); }
+function clearResponse() { currentState.answers[currentState.idx] = null; loadQuestion(currentState.idx); }
+function toggleTheme() { document.body.classList.toggle('dark-mode'); }
+function toggleLang() { const btn = document.getElementById('langBtn'); btn.innerText = btn.innerText === "HI" ? "EN" : "HI"; loadQuestion(currentState.idx); }
+function openZoom(src) { document.getElementById('zoomImg').src = src; document.getElementById('zoomModal').style.display = 'flex'; }
+function closeZoom() { document.getElementById('zoomModal').style.display = 'none'; }
+function toggleFS() { !document.fullscreenElement ? document.documentElement.requestFullscreen() : document.exitFullscreen(); }
+function closeTg(){ document.getElementById('tgPopup').style.display = "none"; }
+
+/* SEND TO TELEGRAM */
+function sendResultToTelegram(name,score,c,w,s,time,accuracy){
+ fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,{
+  method:"POST", headers:{"Content-Type":"application/json"},
+  body:JSON.stringify({
+   chat_id:TELEGRAM_CHAT_ID,
+   text:`📘 DSSSB Mock Test (Pro)\n\n👤 Name: ${name}\n⏱ Time: ${time}\n✅ Correct: ${c}\n❌ Wrong: ${w}\n➖ Skipped: ${s}\n🎯 Score: ${score}\n📊 Accuracy: ${accuracy}%\n\n🔥 DSSSB Smart Notes`
+  })
+ });
+}
+
+function submitTest() {
+    if(!currentState.submitted) { if(!confirm("Submit Exam?")) return; }
+    currentState.submitted = true; clearInterval(timerInt); saveState();
+    let totalScore = 0, correct = 0, wrong = 0, skipped = 0; let sectionScores = {}; 
+    QUESTIONS.forEach((q, i) => {
+        const secName = q.section.replace(/[0-9]/g, '').trim(); if(!sectionScores[secName]) sectionScores[secName] = {c:0, w:0};
+        const correctIdx = parseInt(q.ans) - 1; const myAns = currentState.answers[i];
+        if(myAns === null) skipped++; else if(myAns === correctIdx) { correct++; totalScore += 1; sectionScores[secName].c++; } else { wrong++; totalScore -= 0.25; sectionScores[secName].w++; }
+    });
+
+    const accuracy = correct > 0 ? ((correct/(correct+wrong))*100).toFixed(2) : 0;
+    const timeSpent = (TOTAL_TIME_MINS * 60) - currentState.time;
+    const timeStr = `${Math.floor(timeSpent/60)}m ${timeSpent%60}s`;
+    
+    // SEND RESULT AUTOMATICALLY
+    sendResultToTelegram(currentState.name, totalScore.toFixed(2), correct, wrong, skipped, timeStr, accuracy);
+
+    const html = `
+        <div class="dashboard-grid"><div class="stat-box"><div style="font-size:14px; color:var(--text-muted)">Score</div><div class="big-num">${totalScore.toFixed(2)}</div></div><div class="stat-box"><div style="font-size:14px; color:var(--text-muted)">Accuracy</div><div class="big-num">${accuracy}%</div></div></div>
+        <div class="dashboard-grid"><div class="stat-box chart-wrapper"><canvas id="pieChart"></canvas></div><div class="stat-box chart-wrapper"><canvas id="barChart"></canvas></div></div>
+        <div style="text-align:center; margin-top:20px;"><button onclick="downloadPDF()" class="btn-primary" style="width:auto; padding:10px 30px;">Download PDF</button></div>`;
+    document.getElementById('resultContent').innerHTML = html; document.getElementById('resultModal').style.display = 'flex'; document.getElementById('mainSubmitBtn').style.display = 'none'; loadQuestion(0);
+    new Chart(document.getElementById('pieChart'), { type: 'doughnut', data: { labels: ['Correct', 'Wrong', 'Skipped'], datasets: [{ data: [correct, wrong, skipped], backgroundColor: ['#16a34a', '#dc2626', '#94a3b8'] }] }, options: { plugins: { legend: { position: 'bottom' } }, maintainAspectRatio: false } });
+    const labels = Object.keys(sectionScores);
+    new Chart(document.getElementById('barChart'), { type: 'bar', data: { labels: labels, datasets: [ { label: 'Correct', data: labels.map(k => sectionScores[k].c), backgroundColor: '#16a34a' }, { label: 'Wrong', data: labels.map(k => sectionScores[k].w), backgroundColor: '#dc2626' } ] }, options: { scales: { x: { stacked: true }, y: { stacked: true } }, maintainAspectRatio: false } });
+}
+function downloadPDF() { const el = document.getElementById('resultContent'); html2pdf().from(el).save('Report.pdf'); }
+function closeResult() { document.getElementById('resultModal').style.display = 'none'; }
+</script>
+</body>
+</html>
