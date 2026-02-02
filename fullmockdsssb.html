@@ -53,6 +53,17 @@ body.dark-mode {
 html, body { width: 100%; height: 100%; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg-body); color: var(--text-main); overflow: hidden; user-select: none; }
 body { display: grid; grid-template-rows: var(--header-height) auto 1fr var(--footer-height); }
 
+/* --- TELEGRAM POPUP STYLES --- */
+#tgPopup {
+  position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%);
+  background: var(--bg-card); padding: 25px; width: 85%; max-width: 320px;
+  border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  z-index: 9999; text-align: center; display: none; color: var(--text-main);
+  border: 1px solid var(--border-color);
+}
+#tgPopup a { display: block; background: #0088cc; color: #fff; padding: 12px; border-radius: 8px; text-decoration: none; margin-top: 15px; font-weight: bold; }
+.tg-btn-continue { background: var(--bg-body); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 20px; border-radius: 8px; margin-top: 15px; cursor: pointer; font-weight: 600; width: 100%; }
+
 /* --- TOAST NOTIFICATIONS --- */
 #toast-container { position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%); z-index: 10000; display: flex; flex-direction: column; gap: 10px; align-items: center; pointer-events: none; width: 90%; max-width: 400px; }
 .toast { background: rgba(30, 41, 59, 0.95); color: #fff; padding: 12px 20px; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: flex; align-items: center; gap: 12px; font-size: 14px; animation: slideUp 0.3s ease-out; pointer-events: auto; backdrop-filter: blur(4px); width: 100%; border-left: 4px solid var(--primary); }
@@ -83,6 +94,8 @@ header { background: var(--bg-card); border-bottom: 1px solid var(--border-color
 .q-card { background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-color); padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); margin-bottom: 20px; }
 .q-header { display: flex; justify-content: space-between; margin-bottom: 12px; border-bottom: 1px solid var(--border-color); padding-bottom: 8px; font-size: 13px; color: var(--text-muted); }
 .q-text { font-size: 16px; line-height: 1.5; margin-bottom: 15px; font-weight: 500; overflow-x: auto; }
+.q-text img, .opt img { max-width: 100%; height: auto; border-radius: 4px; cursor: zoom-in; }
+
 .opt { display: flex; align-items: center; padding: 10px; border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 8px; cursor: pointer; transition: 0.2s; background: var(--bg-card); font-size: 14px; }
 .opt:hover { background: var(--bg-body); border-color: var(--primary); }
 .opt.sel { background: rgba(37, 99, 235, 0.1); border-color: var(--primary); font-weight: 600; }
@@ -97,25 +110,15 @@ footer .nav-btn { height: 40px; flex: 1; max-width: 120px; }
 footer .btn-grid { max-width: 80px; }
 .nav-btn.primary { background: var(--primary); color: #fff; border: none; }
 
-/* --- PALETTE PANEL (UPDATED FOR MOBILE FIX) --- */
+/* --- PALETTE PANEL --- */
 #palettePanel { 
-    position: fixed; 
-    top: 0; 
-    right: 0; 
-    bottom: 0;
-    width: 280px; /* Base width */
-    background: var(--bg-card); 
-    z-index: 2000; 
-    display: flex; 
-    flex-direction: column; 
+    position: fixed; top: 0; right: 0; bottom: 0;
+    width: 280px; background: var(--bg-card); z-index: 2000; 
+    display: flex; flex-direction: column; 
     box-shadow: -5px 0 25px rgba(0,0,0,0.2); 
-    
-    /* ANIMATION LOGIC */
-    transform: translateX(100%); /* Completely hidden by default */
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateX(100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 #palettePanel.show { transform: translateX(0); }
-
 .modal-header { padding: 15px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 16px; }
 .p-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; padding: 15px; overflow-y: auto; flex: 1; align-content: start; }
 .qbtn { aspect-ratio: 1; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-body); font-weight: 600; font-size: 12px; cursor: pointer; color: var(--text-main); }
@@ -125,32 +128,24 @@ footer .btn-grid { max-width: 80px; }
 
 /* --- MOBILE RESPONSIVE TWEAKS --- */
 @media(max-width: 480px) {
-    /* Adjust Palette Width for Mobile */
     #palettePanel { width: 85%; } 
-    
-    /* Header Adjustments */
-    .brand span { font-size: 20px; }
-    .brand { font-size: 16px; }
+    .brand span { font-size: 20px; } .brand { font-size: 16px; }
     .timer-badge { font-size: 14px; padding: 4px 8px; }
     .nav-btn { padding: 5px 8px; font-size: 12px; }
-    
-    /* Section Bar */
     .sec-tab { padding: 0 10px; font-size: 12px; }
-    
-    /* Footer */
     footer { padding: 5px; }
-    
-    /* Result Dashboard */
     .dashboard-grid { grid-template-columns: 1fr; }
     .big-num { font-size: 24px; }
 }
+
+/* --- ZOOM MODAL --- */
+#zoomModal { position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 5000; display: none; justify-content: center; align-items: center; flex-direction: column; }
+#zoomImg { max-width: 95%; max-height: 80vh; border-radius: 8px; border: 1px solid #fff; }
 
 /* --- MODALS --- */
 .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 1500; display: none; backdrop-filter: blur(2px); justify-content: center; align-items: center; padding: 10px; }
 .modal-card { background: var(--bg-card); width: 100%; max-width: 800px; max-height: 90vh; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
 .modal-body { padding: 15px; overflow-y: auto; }
-
-/* Analytics */
 .dashboard-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px; }
 .stat-box { background: var(--bg-body); padding: 15px; border-radius: 10px; border: 1px solid var(--border-color); text-align: center; }
 .big-num { font-size: 28px; font-weight: 800; color: var(--primary); }
@@ -163,6 +158,19 @@ footer .btn-grid { max-width: 80px; }
 
 <body onload="initApp()">
 
+<div id="tgPopup">
+ <b>📢 Join DSSSB Smart Notes</b><br><br>
+ Daily CBT Tests • PDFs • Results
+ <a href="https://t.me/DSSSBSmartNotes" target="_blank">Join Telegram</a><br>
+ <button class="tg-btn-continue" onclick="closeTg()">Continue Test</button>
+</div>
+
+<div id="zoomModal" onclick="closeZoom()">
+    <span style="position:absolute; top:20px; right:20px; font-size:40px; color:#fff; cursor:pointer;">&times;</span>
+    <img id="zoomImg" src="">
+    <div style="color:#fff; margin-top:10px;">Click anywhere to close</div>
+</div>
+
 <div id="paletteOverlay" onclick="togglePalette()" style="position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:1900; display:none;"></div>
 
 <div id="toast-container"></div>
@@ -172,10 +180,8 @@ footer .btn-grid { max-width: 80px; }
         <div style="font-size:40px; margin-bottom:10px;">🎓</div>
         <h2 style="margin:0 0 10px 0; color:var(--primary);">DSSSB Pro Portal</h2>
         <p style="color:var(--text-muted); font-size:14px; margin-bottom:20px;">Secure Computer Based Test System</p>
-        
         <input type="text" id="startNameInput" class="login-input" placeholder="Enter Full Name">
         <input type="password" id="examPassInput" class="login-input" placeholder="Password (default: dsssb2406)">
-        
         <div id="resumeBox" style="display:none; margin-top:15px; background:rgba(255,165,0,0.1); padding:10px; border-radius:6px; border:1px solid orange; color:orange; font-size:13px; text-align:left;">
             <b>⚠️ Incomplete Test Found</b><br>
             A previous session was interrupted. 
@@ -184,7 +190,6 @@ footer .btn-grid { max-width: 80px; }
                 <button onclick="clearState()" style="padding:5px 10px; background:none; border:1px solid orange; color:orange; border-radius:4px; cursor:pointer;">New Test</button>
             </div>
         </div>
-
         <button class="btn-primary" onclick="validateLogin()">START EXAM</button>
     </div>
 </div>
@@ -195,6 +200,7 @@ footer .btn-grid { max-width: 80px; }
         <div id="timer" class="timer-badge">120:00</div>
         <button class="nav-btn" onclick="toggleTheme()">🌙</button>
         <button class="nav-btn" onclick="toggleLang()" id="langBtn">HI</button>
+        <button class="nav-btn" onclick="toggleFS()">⛶</button>
     </div>
 </header>
 
@@ -206,16 +212,12 @@ footer .btn-grid { max-width: 80px; }
             <span>Q.<b id="qNumDisp">1</b></span>
             <span><span style="color:var(--success)">+1.0</span> / <span style="color:var(--danger)">-0.25</span></span>
         </div>
-        
         <div id="qContent" class="q-text"></div>
-        
         <div id="opts"></div>
-
         <div style="margin-top:20px; display:flex; gap:10px;">
             <button class="nav-btn" style="border-color:var(--warning); color:var(--warning); flex:1;" onclick="markReview()">⭐ Review</button>
             <button class="nav-btn" style="flex:1;" onclick="clearResponse()">Clear</button>
         </div>
-
         <div id="expBox" style="display:none; margin-top:20px; padding:15px; background:rgba(22, 163, 74, 0.1); border-left:4px solid var(--success); border-radius:6px; font-size:14px;"></div>
     </div>
     <div style="height:20px;"></div>
@@ -249,21 +251,16 @@ footer .btn-grid { max-width: 80px; }
 </footer>
 
 <script>
-/* =========================================
-   1. ADVANCED CONFIGURATION
-   ========================================= */
+/* CONFIGURATION */
 const PASS_ENCODED = "ZHNzc2IyNDA2"; 
 const TOTAL_TIME_MINS = 120;
-const STORAGE_KEY = "dsssb_pro_state_v3";
+const STORAGE_KEY = "dsssb_pro_state_v5";
+const SECTION_MAP = ["Reasoning 1", "Reasoning 2", "GK 1", "GK 2", "Maths 1", "Maths 2", "English 1", "English 2", "Hindi 1", "Hindi 2"];
+const NEGATIVE_MARK = 0.25;
+const TELEGRAM_BOT_TOKEN="8486464606:AAFT_Bd0P2HYqKNPjCm3s7TGgfM4HWmOYvs";
+const TELEGRAM_CHAT_ID="@dsssbcbtresult";
 
-const SECTION_MAP = [
-    "Reasoning 1", "Reasoning 2",
-    "GK 1", "GK 2",
-    "Maths 1", "Maths 2",
-    "English 1", "English 2",
-    "Hindi 1", "Hindi 2"
-];
-
+/* QUESTIONS DATA */
 const QUESTIONS = [
   // REASONING 1
   { 
@@ -271,82 +268,61 @@ const QUESTIONS = [
       q_en:"Complete the series: 2, 6, 12, 20, ?", 
       q_hi:"श्रृंखला पूरी करें: 2, 6, 12, 20, ?", 
       ans:"1", 
-      op_en:["30","32","34","36"], 
-      op_hi:["30","32","34","36"], 
-      solution:`
-      <div class="sol-section">
-        <span class="sol-label">English</span>
-        The pattern follows consecutive even numbers addition: <br>
-        2 + 4 = 6<br>6 + 6 = 12<br>12 + 8 = 20<br>20 + 10 = <b>30</b>
-      </div>
-      <div class="sol-section">
-        <span class="sol-label">Hindi</span>
-        पैटर्न लगातार सम संख्याओं को जोड़ने का है: <br>
-        2 + 4 = 6<br>6 + 6 = 12<br>12 + 8 = 20<br>20 + 10 = <b>30</b>
-      </div>` 
+      op_en:["30","32","34","36"], op_hi:["30","32","34","36"], 
+      solution:`<div class="sol-section">2+4=6, 6+6=12, 12+8=20, 20+10=<b>30</b></div>` 
   },
   { 
       section:"Reasoning 1", 
       q_en:"Statements: All Pens are Cups. Conclusion: Some Cups are Pens.", 
       q_hi:"कथन: सभी पेन कप हैं। निष्कर्ष: कुछ कप पेन हैं।", 
       ans:"1", 
-      op_en:["True","False","Cannot Say","None"], 
-      op_hi:["सत्य","असत्य","कहा नहीं जा सकता","इनमें से कोई नहीं"], 
-      solution:`
-      <div class="sol-section"><span class="sol-label">English</span> If All A are B, then Some B are definitely A. Hence True.</div>
-      <div class="sol-section"><span class="sol-label">Hindi</span> यदि सभी A, B हैं, तो कुछ B निश्चित रूप से A हैं। अतः सत्य है।</div>` 
+      op_en:["True","False","Cannot Say","None"], op_hi:["सत्य","असत्य","कहा नहीं जा सकता","इनमें से कोई नहीं"], 
+      solution:`<div class="sol-section">If All A are B, then Some B are A.</div>` 
+  },
+  // IMAGE OPTION
+  { 
+      section:"Reasoning 1", 
+      q_en:"Which shape is a Triangle?", 
+      q_hi:"इनमे से त्रिभुज (Triangle) कौन सा है?", 
+      ans:"1", 
+      op_en:[
+          "<img src='https://placehold.co/60x60/png?text=Triangle' style='vertical-align:middle'>", 
+          "<img src='https://placehold.co/60x60/png?text=Square' style='vertical-align:middle'>", 
+          "<img src='https://placehold.co/60x60/png?text=Circle' style='vertical-align:middle'>", 
+          "<img src='https://placehold.co/60x60/png?text=Star' style='vertical-align:middle'>"
+      ], 
+      op_hi:[
+          "<img src='https://placehold.co/60x60/png?text=Triangle' style='vertical-align:middle'>", 
+          "<img src='https://placehold.co/60x60/png?text=Square' style='vertical-align:middle'>", 
+          "<img src='https://placehold.co/60x60/png?text=Circle' style='vertical-align:middle'>", 
+          "<img src='https://placehold.co/60x60/png?text=Star' style='vertical-align:middle'>"
+      ], 
+      solution:`<div class="sol-section">Option A represents a Triangle.</div>` 
   },
   
   // REASONING 2
-  { section:"Reasoning 2", q_en:"Find the odd one out:", q_hi:"विषम चुनें:", ans:"3", op_en:["Car","Bus","Airplane","Truck"], op_hi:["Car","Bus","Airplane","Truck"], solution:`<div class="sol-section"><span class="sol-label">Solution</span> Airplane flies in the air.` },
-  { section:"Reasoning 2", q_en:"Coding: CAT = 24, DOG = ?", q_hi:"Coding: CAT = 24, DOG = ?", ans:"2", op_en:["20","26","25","30"], op_hi:["20","26","25","30"], solution:`<div class="sol-section">C+A+T = 3+1+20 = 24.<br>D+O+G = 4+15+7 = 26.</div>` },
+  { section:"Reasoning 2", q_en:"Find the odd one out:", q_hi:"विषम चुनें:", ans:"3", op_en:["Car","Bus","Airplane","Truck"], op_hi:["Car","Bus","Airplane","Truck"], solution:`<div class="sol-section">Airplane flies in the air.</div>` },
+  { section:"Reasoning 2", q_en:"Coding: CAT = 24, DOG = ?", q_hi:"Coding: CAT = 24, DOG = ?", ans:"2", op_en:["20","26","25","30"], op_hi:["20","26","25","30"], solution:`<div class="sol-section">C+A+T = 3+1+20 = 24.</div>` },
 
-  // MATHS 1 (MathJax Demo)
-  { 
-      section:"Maths 1", 
-      q_en:"Solve: $ 25\\% \\text{ of } 200 + 40 $", 
-      q_hi:"हल करें: $ 25\\% \\text{ of } 200 + 40 $", 
-      ans:"2", 
-      op_en:["80","90","100","110"], 
-      op_hi:["80","90","100","110"], 
-      solution:`<div class="sol-section"><span class="sol-label">Solution</span> $$ \\frac{25}{100} \\times 200 = 50 $$ $$ 50 + 40 = 90 $$</div>` 
-  },
-  { 
-      section:"Maths 1", 
-      q_en:"Find x: $ 2x + 10 = 30 $", 
-      q_hi:"x का मान ज्ञात करें: $ 2x + 10 = 30 $", 
-      ans:"1", 
-      op_en:["10","15","20","5"], 
-      op_hi:["10","15","20","5"], 
-      solution:`<div class="sol-section"><span class="sol-label">Solution</span> $$ 2x = 30 - 10 \\Rightarrow 2x = 20 \\Rightarrow x = 10 $$</div>` 
-  },
+  // MATHS 1 (MathJax)
+  { section:"Maths 1", q_en:"Solve: $ 25\\% \\text{ of } 200 + 40 $", q_hi:"हल करें: $ 25\\% \\text{ of } 200 + 40 $", ans:"2", op_en:["80","90","100","110"], op_hi:["80","90","100","110"], solution:`<div class="sol-section">$$ \\frac{25}{100} \\times 200 = 50 $$ $$ 50 + 40 = 90 $$</div>` },
+  { section:"Maths 1", q_en:"Find x: $ 2x + 10 = 30 $", q_hi:"x का मान ज्ञात करें: $ 2x + 10 = 30 $", ans:"1", op_en:["10","15","20","5"], op_hi:["10","15","20","5"], solution:`<div class="sol-section">$$ 2x = 20 \\Rightarrow x = 10 $$</div>` },
 
   // GK 1
-  { section:"GK 1", q_en:"Capital of India?", q_hi:"भारत की राजधानी?", ans:"1", op_en:["Delhi","Mumbai","Kolkata"], op_hi:["दिल्ली","मुंबई","कोलकाता"], solution:"New Delhi" },
-  { section:"GK 1", q_en:"Iron Man of India?", q_hi:"लौह पुरुष?", ans:"2", op_en:["Gandhi","Patel","Nehru"], op_hi:["गांधी","पटेल","नेहरू"], solution:"Sardar Patel" }
+  { section:"GK 1", q_en:"Capital of India?", q_hi:"भारत की राजधानी?", ans:"1", op_en:["Delhi","Mumbai","Kolkata"], op_hi:["दिल्ली","मुंबई","कोलकाता"], solution:"New Delhi" }
 ];
 
-/* STATE MANAGEMENT */
+/* LOGIC */
 let currentState = { idx: 0, answers: new Array(QUESTIONS.length).fill(null), review: new Array(QUESTIONS.length).fill(false), time: TOTAL_TIME_MINS * 60, secIdx: 0, submitted: false, name: "" };
 let timerInt;
 let secIndices = [];
 
-/* =========================================
-   2. INITIALIZATION
-   ========================================= */
 function initApp() {
     calcSectionIndices();
     const saved = localStorage.getItem(STORAGE_KEY);
     if(saved) document.getElementById('resumeBox').style.display = 'block';
 }
-
-function calcSectionIndices() {
-    SECTION_MAP.forEach(sec => {
-        const start = QUESTIONS.findIndex(q => q.section === sec);
-        if(start !== -1) secIndices.push(start); else secIndices.push(0);
-    });
-}
-
+function calcSectionIndices() { SECTION_MAP.forEach(sec => { const start = QUESTIONS.findIndex(q => q.section === sec); secIndices.push(start !== -1 ? start : 0); }); }
 function validateLogin() {
     const name = document.getElementById('startNameInput').value.trim();
     const pass = document.getElementById('examPassInput').value.trim();
@@ -355,7 +331,6 @@ function validateLogin() {
     currentState.name = name;
     startGame(false);
 }
-
 function startGame(isResuming) {
     document.getElementById('startScreen').style.display = 'none';
     document.querySelector('header').style.display = 'flex';
@@ -367,122 +342,72 @@ function startGame(isResuming) {
     startTimer();
     setInterval(saveState, 5000); 
     showToast(`Welcome ${currentState.name}`, "success");
+    toggleFS(); // AUTO FULL SCREEN
+    if(!isResuming) document.getElementById('tgPopup').style.display = "block"; // SHOW TELEGRAM POPUP
 }
-
-/* =========================================
-   3. LOGIC
-   ========================================= */
 function saveState() {
     if(currentState.submitted) { localStorage.removeItem(STORAGE_KEY); return; }
     localStorage.setItem(STORAGE_KEY, JSON.stringify(currentState));
 }
-
-function loadState() {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if(saved) { currentState = JSON.parse(saved); startGame(true); }
-}
-
-function clearState() {
-    localStorage.removeItem(STORAGE_KEY);
-    document.getElementById('resumeBox').style.display = 'none';
-    showToast("Cleared", "info");
-}
-
+function loadState() { const saved = localStorage.getItem(STORAGE_KEY); if(saved) { currentState = JSON.parse(saved); startGame(true); } }
+function clearState() { localStorage.removeItem(STORAGE_KEY); document.getElementById('resumeBox').style.display = 'none'; showToast("Cleared", "info"); }
 function renderSectionTabs() {
-    const bar = document.getElementById('sectionBar');
-    let html = "";
+    const bar = document.getElementById('sectionBar'); let html = "";
     SECTION_MAP.forEach((sec, i) => {
-        let cls = "sec-tab";
-        let icon = "🔒";
+        let cls = "sec-tab"; let icon = "🔒";
         if(i === currentState.secIdx) { cls += " active"; icon = "🟢"; }
         else if(i < currentState.secIdx) { cls += " done"; icon = "✅"; }
         html += `<div class="${cls}">${icon} ${sec}</div>`;
     });
     bar.innerHTML = html;
 }
-
 function loadQuestion(idx) {
-    currentState.idx = idx;
-    const q = QUESTIONS[idx];
-    const isHindi = document.getElementById('langBtn').innerText === "HI";
-    
+    currentState.idx = idx; const q = QUESTIONS[idx]; const isHindi = document.getElementById('langBtn').innerText === "HI";
     document.getElementById('qNumDisp').innerText = idx + 1;
-    document.getElementById('qContent').innerHTML = isHindi ? (q.q_hi || q.q_en) : (q.q_en || q.q_hi);
+    const contentDiv = document.getElementById('qContent');
+    contentDiv.innerHTML = isHindi ? (q.q_hi || q.q_en) : (q.q_en || q.q_hi);
     
-    let optsHtml = "";
-    const correctIdx = parseInt(q.ans) - 1;
+    contentDiv.querySelectorAll('img').forEach(img => { img.onclick = () => openZoom(img.src); });
+
+    let optsHtml = ""; const correctIdx = parseInt(q.ans) - 1;
     const optsArr = isHindi ? (q.op_hi || q.op_en) : (q.op_en || q.op_hi);
     
     optsArr.forEach((opt, i) => {
-        let cls = "opt";
-        const myAns = currentState.answers[idx];
-        if(currentState.submitted) {
-            if(i === correctIdx) cls += " correct";
-            else if(myAns === i) cls += " wrong";
-        } else {
-            if(myAns === i) cls += " sel";
-        }
-        optsHtml += `<div class="${cls}" onclick="selectAns(${i})"><div class="opt-badge">${String.fromCharCode(65+i)}</div><div>${opt}</div></div>`;
+        let cls = "opt"; const myAns = currentState.answers[idx];
+        if(currentState.submitted) { if(i === correctIdx) cls += " correct"; else if(myAns === i) cls += " wrong"; } else { if(myAns === i) cls += " sel"; }
+        optsHtml += `<div class="${cls}" onclick="selectAns(${i})"><div class="opt-badge">${String.fromCharCode(65+i)}</div><div style="width:100%">${opt}</div></div>`;
     });
-    document.getElementById('opts').innerHTML = optsHtml;
-    
+    const optsContainer = document.getElementById('opts');
+    optsContainer.innerHTML = optsHtml;
+
+    optsContainer.querySelectorAll('img').forEach(img => {
+        img.onclick = (e) => { e.stopPropagation(); openZoom(img.src); }; 
+    });
+
     const expBox = document.getElementById('expBox');
-    if(currentState.submitted) {
-        expBox.innerHTML = `<div style="font-weight:bold; margin-bottom:10px;">SOLUTION</div>${q.solution}`;
-        expBox.style.display = "block";
-    } else {
-        expBox.style.display = "none";
-    }
-
-    updateNavButtons();
-    renderPalette();
-    if(window.MathJax) MathJax.typesetPromise();
+    if(currentState.submitted) { expBox.innerHTML = `<div style="font-weight:bold; margin-bottom:10px;">SOLUTION</div>${q.solution}`; expBox.style.display = "block"; } else { expBox.style.display = "none"; }
+    updateNavButtons(); renderPalette(); if(window.MathJax) MathJax.typesetPromise();
 }
-
-function selectAns(i) {
-    if(currentState.submitted) return;
-    currentState.answers[currentState.idx] = i;
-    loadQuestion(currentState.idx);
-    saveState(); 
-}
-
+function selectAns(i) { if(currentState.submitted) return; currentState.answers[currentState.idx] = i; loadQuestion(currentState.idx); saveState(); }
 function next() {
     if(currentState.idx < QUESTIONS.length - 1) {
-        const nextQ = QUESTIONS[currentState.idx + 1];
-        const currQ = QUESTIONS[currentState.idx];
+        const nextQ = QUESTIONS[currentState.idx + 1]; const currQ = QUESTIONS[currentState.idx];
         if(nextQ.section !== currQ.section) {
-            if(!currentState.submitted) {
-                if(confirm(`Finish ${currQ.section} section?`)) {
-                    currentState.secIdx++;
-                    renderSectionTabs();
-                    loadQuestion(currentState.idx + 1);
-                }
-            } else { loadQuestion(currentState.idx + 1); }
+            if(!currentState.submitted) { if(confirm(`Finish ${currQ.section} section?`)) { currentState.secIdx++; renderSectionTabs(); loadQuestion(currentState.idx + 1); } } else { loadQuestion(currentState.idx + 1); }
         } else { loadQuestion(currentState.idx + 1); }
     } else { if(!currentState.submitted) submitTest(); }
 }
-
 function prev() {
     const currQ = QUESTIONS[currentState.idx];
     if(currentState.idx > 0) {
         const prevQ = QUESTIONS[currentState.idx - 1];
-        if(prevQ.section === currQ.section || currentState.submitted) {
-            loadQuestion(currentState.idx - 1);
-        } else { showToast("Locked Section", "warning"); }
+        if(prevQ.section === currQ.section || currentState.submitted) { loadQuestion(currentState.idx - 1); } else { showToast("Locked Section", "warning"); }
     }
 }
-
 function updateNavButtons() {
     const btn = document.getElementById('nextBtn');
-    if(currentState.idx === QUESTIONS.length - 1 && !currentState.submitted) {
-        btn.innerText = "FINISH";
-        btn.style.background = "var(--danger)";
-    } else {
-        btn.innerText = "Next";
-        btn.style.background = "var(--primary)";
-    }
+    if(currentState.idx === QUESTIONS.length - 1 && !currentState.submitted) { btn.innerText = "FINISH"; btn.style.background = "var(--danger)"; } else { btn.innerText = "Next"; btn.style.background = "var(--primary)"; }
 }
-
 function startTimer() {
     clearInterval(timerInt);
     timerInt = setInterval(() => {
@@ -495,95 +420,72 @@ function startTimer() {
         if(currentState.time < 300) el.classList.add('low');
     }, 1000);
 }
-
 function showToast(msg, type="info") {
-    const container = document.getElementById('toast-container');
-    const t = document.createElement('div');
-    t.className = `toast ${type}`;
-    let icon = "ℹ️";
-    if(type==="success") icon = "✅"; if(type==="error") icon = "❌"; if(type==="warning") icon = "⚠️";
-    t.innerHTML = `<span>${icon}</span> <span>${msg}</span>`;
-    container.appendChild(t);
-    setTimeout(() => t.remove(), 3000);
+    const container = document.getElementById('toast-container'); const t = document.createElement('div'); t.className = `toast ${type}`;
+    let icon = "ℹ️"; if(type==="success") icon = "✅"; if(type==="error") icon = "❌"; if(type==="warning") icon = "⚠️";
+    t.innerHTML = `<span>${icon}</span> <span>${msg}</span>`; container.appendChild(t); setTimeout(() => t.remove(), 3000);
 }
-
 function togglePalette() { 
-    const p = document.getElementById('palettePanel');
-    const o = document.getElementById('paletteOverlay');
-    if(p.classList.contains('show')) {
-        p.classList.remove('show');
-        o.style.display = 'none';
-    } else {
-        p.classList.add('show');
-        o.style.display = 'block';
-    }
+    const p = document.getElementById('palettePanel'); const o = document.getElementById('paletteOverlay');
+    if(p.classList.contains('show')) { p.classList.remove('show'); o.style.display = 'none'; } else { p.classList.add('show'); o.style.display = 'block'; }
 }
-
 function renderPalette() {
     const grid = document.getElementById('paletteGrid'); grid.innerHTML = "";
     QUESTIONS.forEach((q, i) => {
-        const myAns = currentState.answers[i];
-        let cls = "qbtn";
-        if(i === currentState.idx) cls += " current";
-        if(myAns !== null) cls += " answered";
-        else if(currentState.review[i]) cls += " review";
-        
+        const myAns = currentState.answers[i]; let cls = "qbtn";
+        if(i === currentState.idx) cls += " current"; if(myAns !== null) cls += " answered"; else if(currentState.review[i]) cls += " review";
         const isAccessible = currentState.submitted || (i >= secIndices[currentState.secIdx] && (currentState.secIdx === SECTION_MAP.length -1 || i < secIndices[currentState.secIdx+1]));
-        const btn = document.createElement('button');
-        btn.className = cls; btn.innerText = i + 1;
-        
-        if(isAccessible) {
-            btn.onclick = () => {
-                loadQuestion(i);
-                if(window.innerWidth < 768) togglePalette(); // Auto close on mobile
-            };
-        } else btn.style.opacity = "0.3";
-        
+        const btn = document.createElement('button'); btn.className = cls; btn.innerText = i + 1;
+        if(isAccessible) { btn.onclick = () => { loadQuestion(i); if(window.innerWidth < 768) togglePalette(); }; } else btn.style.opacity = "0.3";
         grid.appendChild(btn);
     });
 }
 function markReview() { currentState.review[currentState.idx] = !currentState.review[currentState.idx]; loadQuestion(currentState.idx); }
 function clearResponse() { currentState.answers[currentState.idx] = null; loadQuestion(currentState.idx); }
 function toggleTheme() { document.body.classList.toggle('dark-mode'); }
-function toggleLang() { 
-    const btn = document.getElementById('langBtn');
-    btn.innerText = btn.innerText === "HI" ? "EN" : "HI";
-    loadQuestion(currentState.idx);
+function toggleLang() { const btn = document.getElementById('langBtn'); btn.innerText = btn.innerText === "HI" ? "EN" : "HI"; loadQuestion(currentState.idx); }
+function openZoom(src) { document.getElementById('zoomImg').src = src; document.getElementById('zoomModal').style.display = 'flex'; }
+function closeZoom() { document.getElementById('zoomModal').style.display = 'none'; }
+function toggleFS() { !document.fullscreenElement ? document.documentElement.requestFullscreen() : document.exitFullscreen(); }
+function closeTg(){ document.getElementById('tgPopup').style.display = "none"; }
+
+/* SEND TO TELEGRAM */
+function sendResultToTelegram(name,score,c,w,s,time,accuracy){
+ fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,{
+  method:"POST", headers:{"Content-Type":"application/json"},
+  body:JSON.stringify({
+   chat_id:TELEGRAM_CHAT_ID,
+   text:`📘 DSSSB Mock Test (Pro)\n\n👤 Name: ${name}\n⏱ Time: ${time}\n✅ Correct: ${c}\n❌ Wrong: ${w}\n➖ Skipped: ${s}\n🎯 Score: ${score}\n📊 Accuracy: ${accuracy}%\n\n🔥 DSSSB Smart Notes`
+  })
+ });
 }
 
 function submitTest() {
     if(!currentState.submitted) { if(!confirm("Submit Exam?")) return; }
     currentState.submitted = true; clearInterval(timerInt); saveState();
-    
-    let totalScore = 0, correct = 0, wrong = 0, skipped = 0;
-    let sectionScores = {}; 
+    let totalScore = 0, correct = 0, wrong = 0, skipped = 0; let sectionScores = {}; 
     QUESTIONS.forEach((q, i) => {
-        const secName = q.section.replace(/[0-9]/g, '').trim();
-        if(!sectionScores[secName]) sectionScores[secName] = {c:0, w:0};
-        const correctIdx = parseInt(q.ans) - 1;
-        const myAns = currentState.answers[i];
-        if(myAns === null) skipped++;
-        else if(myAns === correctIdx) { correct++; totalScore += 1; sectionScores[secName].c++; } 
-        else { wrong++; totalScore -= 0.25; sectionScores[secName].w++; }
+        const secName = q.section.replace(/[0-9]/g, '').trim(); if(!sectionScores[secName]) sectionScores[secName] = {c:0, w:0};
+        const correctIdx = parseInt(q.ans) - 1; const myAns = currentState.answers[i];
+        if(myAns === null) skipped++; else if(myAns === correctIdx) { correct++; totalScore += 1; sectionScores[secName].c++; } else { wrong++; totalScore -= 0.25; sectionScores[secName].w++; }
     });
 
+    const accuracy = correct > 0 ? ((correct/(correct+wrong))*100).toFixed(2) : 0;
+    const timeSpent = (TOTAL_TIME_MINS * 60) - currentState.time;
+    const timeStr = `${Math.floor(timeSpent/60)}m ${timeSpent%60}s`;
+    
+    // SEND RESULT AUTOMATICALLY
+    sendResultToTelegram(currentState.name, totalScore.toFixed(2), correct, wrong, skipped, timeStr, accuracy);
+
     const html = `
-        <div class="dashboard-grid">
-            <div class="stat-box"><div style="font-size:14px; color:var(--text-muted)">Score</div><div class="big-num">${totalScore.toFixed(2)}</div></div>
-            <div class="stat-box"><div style="font-size:14px; color:var(--text-muted)">Accuracy</div><div class="big-num">${correct > 0 ? Math.round((correct/(correct+wrong))*100) : 0}%</div></div>
-        </div>
+        <div class="dashboard-grid"><div class="stat-box"><div style="font-size:14px; color:var(--text-muted)">Score</div><div class="big-num">${totalScore.toFixed(2)}</div></div><div class="stat-box"><div style="font-size:14px; color:var(--text-muted)">Accuracy</div><div class="big-num">${accuracy}%</div></div></div>
         <div class="dashboard-grid"><div class="stat-box chart-wrapper"><canvas id="pieChart"></canvas></div><div class="stat-box chart-wrapper"><canvas id="barChart"></canvas></div></div>
         <div style="text-align:center; margin-top:20px;"><button onclick="downloadPDF()" class="btn-primary" style="width:auto; padding:10px 30px;">Download PDF</button></div>`;
-    document.getElementById('resultContent').innerHTML = html;
-    document.getElementById('resultModal').style.display = 'flex';
-    document.getElementById('mainSubmitBtn').style.display = 'none';
-    loadQuestion(0);
-    
+    document.getElementById('resultContent').innerHTML = html; document.getElementById('resultModal').style.display = 'flex'; document.getElementById('mainSubmitBtn').style.display = 'none'; loadQuestion(0);
     new Chart(document.getElementById('pieChart'), { type: 'doughnut', data: { labels: ['Correct', 'Wrong', 'Skipped'], datasets: [{ data: [correct, wrong, skipped], backgroundColor: ['#16a34a', '#dc2626', '#94a3b8'] }] }, options: { plugins: { legend: { position: 'bottom' } }, maintainAspectRatio: false } });
     const labels = Object.keys(sectionScores);
     new Chart(document.getElementById('barChart'), { type: 'bar', data: { labels: labels, datasets: [ { label: 'Correct', data: labels.map(k => sectionScores[k].c), backgroundColor: '#16a34a' }, { label: 'Wrong', data: labels.map(k => sectionScores[k].w), backgroundColor: '#dc2626' } ] }, options: { scales: { x: { stacked: true }, y: { stacked: true } }, maintainAspectRatio: false } });
 }
-
 function downloadPDF() { const el = document.getElementById('resultContent'); html2pdf().from(el).save('Report.pdf'); }
 function closeResult() { document.getElementById('resultModal').style.display = 'none'; }
 </script>
