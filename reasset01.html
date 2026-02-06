@@ -67,7 +67,6 @@ html, body {
 /* =========================
    IMAGE & SOLUTION STYLES
    ========================= */
-/* Specific style for Base64 images in Reasoning */
 .q-img, .opt-img {
     max-width: 100%;
     height: auto;
@@ -82,9 +81,8 @@ html, body {
     transform: scale(1.02);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-/* Ensure option images fit well */
 .opt-img {
-    max-height: 100px; /* Limit height in options */
+    max-height: 100px;
     margin: 0;
 }
 
@@ -422,7 +420,7 @@ footer {
         <button class="tool-btn" onclick="changeFont(-1)">A-</button>
     </div>
     <div id="qContent"></div> 
-    <div id="opts"></div>      
+    <div id="opts"></div>       
     <div style="display:flex; gap:10px; margin-top:15px; border-top:1px solid var(--border-color); padding-top:15px;">
         <button class="tool-btn" style="color:orange; border:1px solid orange; background:var(--bg-card)" onclick="markReview()">⭐ Mark for Review</button>
         <button class="tool-btn" style="color:var(--text-muted);" onclick="clearResponse()">Borrar (Clear)</button>
@@ -558,7 +556,7 @@ const QUESTIONS = [
     "op_en": ["5", "8", "7", "3"],
     "op_hi": ["5", "8", "7", "3"],
     "ans": "4",
-    "solution": "<div class='solution-container'><b>Correct Answer: 3</b><br>Logic: Common S,D,A have codes 7,5,8. The remaining letter in DASH is H and digit is 3.</div>"
+    "solution": "<div class='solution-container'><b>Correct Answer: 3</b><br>Logic: Common S, D, A have codes 7, 5, 8. The remaining letter in DASH is H and digit is 3.</div>"
   },
   {
     "q_en": "If LILY = 58 and ROSE = 57, then FERN = ?",
@@ -582,7 +580,7 @@ const QUESTIONS = [
     "op_en": ["LEER", "RELE", "LERE", "RLEE"],
     "op_hi": ["LEER", "RELE", "LERE", "RLEE"],
     "ans": "4",
-    "solution": "<div class='solution-container'><b>Correct Answer: RLEE</b><br>Logic: Positions 1-2-3-4 change to 1-4-3-2.<br>REEL -> R(1) E(4) E(3) L(2) -> RLEE (Note: L is 4th letter, E is 2nd). Wait, logic: 1st stays, others reverse order.</div>"
+    "solution": "<div class='solution-container'><b>Correct Answer: RLEE</b><br>Logic: The first letter remains in position. The remaining three letters are reversed.<br>ROSE -> R (OSE reversed to ESO) -> RESO.<br>REEL -> R (EEL reversed to LEE) -> RLEE.</div>"
   },
   {
     "q_en": "Complete series: 128, 114, 101, 89, 78, ?",
@@ -630,7 +628,7 @@ const QUESTIONS = [
     "op_en": ["Three", "Two", "Four", "One"],
     "op_hi": ["तीन", "दो", "चार", "एक"],
     "ans": "1",
-    "solution": "<div class='solution-container'><b>Correct Answer: Three</b><br>Logic: Arrangement (Clockwise): V-U-X-S-T-Y-Z.<br>Right of Z (Anti-clockwise): Y, T, S... wait. Counting right of Z: V, U, X lie between Z and S.</div>"
+    "solution": "<div class='solution-container'><b>Correct Answer: Three</b><br>Logic: Arrangement (Clockwise): V-U-X-S-T-Y-Z.<br>Between S and Z are three people.</div>"
   }
 ];
 
@@ -744,9 +742,6 @@ function loadQuestion(idx) {
   const allImgs = document.querySelectorAll('#qContent img, #opts img');
   allImgs.forEach(img => {
       img.classList.add('q-img');
-      // Use stopPropagation so clicking an image in option doesn't trigger answer selection immediately if unintentional, 
-      // but usually in CBT clicking anywhere in the box selects it. 
-      // Here we prioritize Zoom.
       img.onclick = (e) => { 
           e.stopPropagation(); 
           openZoom(img.src); 
@@ -859,7 +854,7 @@ function submitTest() {
         </div>
         <div style="margin-bottom:10px;">${qText}</div>
         <div>`;
-       
+        
       opts.forEach((opt, k) => {
           let optClass = "res-opt";
           if(k === correctIdx) optClass += " c"; 
@@ -948,4 +943,4 @@ function openQP() {
 function closeQP() { document.getElementById('qpModal').style.display = "none"; }
 </script>
 </body>
-</html>
+</html> 
