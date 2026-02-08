@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -6,7 +6,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 
 <style>
@@ -14,7 +13,6 @@
    CORE VARIABLES & THEME
    ========================= */
 :root {
-  /* Changed Primary Color to Deep Orange for Hindi Distinction */
   --primary: #e64a19; 
   --primary-dark: #d84315;
   --success: #2e7d32;
@@ -27,13 +25,13 @@
   --text-muted: #555555;
   --border-color: #e0e0e0;
   --header-bg: #ffffff;
-  --section-bar-bg: #fbe9e7; /* Light Orange tint */
+  --section-bar-bg: #fbe9e7;
   --opt-hover: #ffccbc;
   --opt-sel-bg: #ffab91;
   --palette-bg: #ffffff;
   --zoom-bg: rgba(255, 255, 255, 0.95);
   
-  --font-base: 18px; /* Slightly larger font for Hindi readability */
+  --font-base: 18px;
 }
 
 /* Dark Mode Overrides */
@@ -58,7 +56,7 @@ body.dark-mode {
 
 html, body {
   width: 100%; margin: 0; padding: 0;
-  overflow-x: hidden; font-family: 'Segoe UI', 'Mukta', Arial, sans-serif; /* Added Mukta/Arial for Hindi */
+  overflow-x: hidden; font-family: 'Segoe UI', 'Mukta', Arial, sans-serif;
   background: var(--bg-body); color: var(--text-main);
   height: 100%;
   transition: background 0.3s, color 0.3s;
@@ -72,19 +70,6 @@ html, body {
     line-height: 1.6;
     color: var(--text-main);
 }
-.hindi-expl {
-    background-color: #fff3cd;
-    border-left: 5px solid #ffc107;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 4px;
-    color: #333;
-}
-body.dark-mode .hindi-expl {
-    background-color: #3e3820;
-    color: #e0e0e0;
-}
-
 .fact-box {
     background-color: #d4edda;
     border: 1px solid #c3e6cb;
@@ -340,7 +325,8 @@ footer {
     <div class="start-card" style="max-width:600px; text-align:left;">
         <h3 style="color:var(--primary); border-bottom:1px solid var(--border-color); padding-bottom:10px;">General Instructions</h3>
         <div class="inst-list">
-            <b>Subject: General Hindi</b><br>
+            <b>Subject: General Hindi</b>
+
             <b>Marking Scheme:</b>
             <ul>
                 <li style="color:var(--success)">Correct Answer: +1 Mark</li>
@@ -351,7 +337,8 @@ footer {
             <input type="checkbox" id="instCheck" onchange="toggleStartBtn()" style="width:20px; height:20px; margin-right:10px;">
             I have read and understood the instructions.
         </label>
-        <br>
+        
+
         <button id="finalStartBtn" class="primary-btn" onclick="startTestFlow()" disabled>I AM READY TO BEGIN</button>
     </div>
 </div>
@@ -370,7 +357,7 @@ footer {
 
 <div id="tgPopup">
  <b>📢 Join DSSSB Smart Notes</b><br><br>
- Daily CBT Tests • PDFs • Results
+ Daily CBT Tests • PDFs • Results<br>
  <a href="https://t.me/DSSSBSmartNotes" target="_blank">Join Telegram</a><br>
  <button class="tg-btn-continue" onclick="closeTg()">Continue Test</button>
 </div>
@@ -581,7 +568,7 @@ const QUESTIONS = [
       "हमारा सारा परिवार सदा से शाकाहारी रहा है।",
       "मैं इस देश के ग्रामीण और छोटे नगरीय अंचलों में पली-बढ़ी हूँ।",
       "मेरा परिचय भी पक्षी जगत से भाषा सीखने के साथ ही अवश्य हुआ होगा।",
-      "जिस पक्षी से सर्वप्रथम परिचय हुआ वह अवश्य ही काक रहा होगा।"
+      "जिस पक्षी से सर्वप्रथम परिचय हुआ वह अवश्य ही काक रहा होगा."
     ],
     "ans": "1",
     "solution": "<div class='solution-container'><b>सही उत्तर: हमारा सारा परिवार सदा से शाकाहारी रहा है।</b><br>व्याख्या: अन्य सभी वाक्य लेखिका के बचपन, परिवेश और पक्षियों (प्रकृति) से परिचय के बारे में हैं। 'शाकाहारी' होना खान-पान से जुड़ा है और इस संदर्भ में प्रसंग से अलग है।</div>"
@@ -717,6 +704,7 @@ const QUESTIONS = [
     "solution": "<div class='solution-container'><b>सही उत्तर: प्रभुत्व</b><br>व्याख्या: दिए गए विकल्पों में 'प्रभुत्व' (स्वामित्व/हक) 'अधिकार' के सबसे निकटतम अर्थ को व्यक्त करता है।</div>"
   }
 ];
+
 /* STATE */
 let currentIdx = 0;
 let currentLang = "HI"; // Default Language for Hindi Section
@@ -917,6 +905,7 @@ function submitTest() {
   </table>`;
 
   resHTML += `<h3 style="border-top:1px solid #ccc; padding-top:20px;">Response Sheet</h3>`;
+  
   QUESTIONS.forEach((q, i) => {
       const correctIdx = parseInt(q.ans) - 1; 
       const isCorrect = answers[i] === correctIdx;
@@ -1013,7 +1002,8 @@ function openQP() {
     const opts = currentLang === "EN" ? q.op_en : (q.op_hi || q.op_en);
     const txt = currentLang === "EN" ? q.q_en : (q.q_hi || q.q_en);
     html += `<div style="margin-bottom:20px; border-bottom:1px solid var(--border-color); padding-bottom:10px;">
-        <b>Q.${i+1}</b><br>${txt}<br>
+        <b>Q.${i+1}</b>
+        ${txt}<br>
         <i style="color:var(--text-muted); font-size:0.9em">Options: ${opts.join(', ')}</i>
     </div>`;
   });
