@@ -1,0 +1,964 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DSSSB Sectional Mock Test - Mathematics</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']], // Tells MathJax that $...$ is math
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+<style>
+/* =========================
+   CORE VARIABLES & THEME
+   ========================= */
+:root {
+  --primary: #673ab7; /* Purple for Maths */
+  --primary-dark: #512da8;
+  --success: #2e7d32;
+  --danger: #c62828;
+  --warning: #f9a825;
+  
+  --bg-body: #f3f4f6;
+  --bg-card: #ffffff;
+  --text-main: #333333;
+  --text-muted: #555555;
+  --border-color: #e0e0e0;
+  --header-bg: #ffffff;
+  --section-bar-bg: #ede7f6;
+  --opt-hover: #f3e5f5;
+  --opt-sel-bg: #d1c4e9;
+  --palette-bg: #ffffff;
+  --zoom-bg: rgba(255, 255, 255, 0.95);
+  
+  --font-base: 16px;
+}
+
+/* Dark Mode Overrides */
+body.dark-mode {
+  --primary: #9575cd;
+  --primary-dark: #7e57c2;
+  --success: #66bb6a;
+  --danger: #ef5350;
+  
+  --bg-body: #121212;
+  --bg-card: #1e1e1e;
+  --text-main: #e0e0e0;
+  --text-muted: #b0b0b0;
+  --border-color: #333333;
+  --header-bg: #1e1e1e;
+  --section-bar-bg: #311b92;
+  --opt-hover: #2c3e50;
+  --opt-sel-bg: #4527a0;
+  --palette-bg: #1e1e1e;
+  --zoom-bg: rgba(0, 0, 0, 0.9);
+}
+
+html, body {
+  width: 100%; margin: 0; padding: 0;
+  overflow-x: hidden; font-family: 'Segoe UI', Arial, sans-serif;
+  background: var(--bg-body); color: var(--text-main);
+  height: 100%;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* =========================
+   NEW SOLUTION STYLES (Maths Specific)
+   ========================= */
+.solution-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-main);
+}
+.hindi-expl {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    color: #333;
+}
+body.dark-mode .hindi-expl {
+    background-color: #3e3820;
+    color: #e0e0e0;
+}
+
+.fact-box {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 15px;
+    color: #155724;
+}
+body.dark-mode .fact-box {
+    background-color: #1b3320;
+    border-color: #2e5c36;
+    color: #a8d6b0;
+}
+.fact-box strong {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+/* =========================
+   LAYOUT GRID
+   ========================= */
+body {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto; 
+  height: 100vh;
+}
+
+/* =========================
+   SCREENS
+   ========================= */
+.full-screen-overlay {
+  position: fixed; inset: 0;
+  background: var(--bg-body);
+  z-index: 2000;
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: center;
+  padding: 20px;
+}
+.start-card {
+  background: var(--bg-card);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  width: 100%; max-width: 500px;
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.inst-list { text-align: left; margin: 15px 0; font-size: 14px; line-height: 1.6; color: var(--text-main); }
+.inst-list li { margin-bottom: 8px; }
+
+.start-input {
+  width: 90%; padding: 12px; margin: 20px 0;
+  border: 2px solid var(--border-color); border-radius: 6px;
+  font-size: 16px; background: var(--bg-body); color: var(--text-main);
+}
+.primary-btn {
+  background: var(--primary); color: #fff;
+  border: none; padding: 12px 30px;
+  font-size: 16px; font-weight: bold;
+  border-radius: 6px; cursor: pointer;
+  transition: 0.2s; width: 100%; margin-top: 10px;
+}
+.primary-btn:disabled { background: #999; cursor: not-allowed; }
+.secondary-btn {
+    background: transparent; color: var(--text-muted); border: 2px solid var(--border-color);
+    margin-top: 10px; width: 100%; padding: 10px; border-radius: 6px; cursor: pointer; font-weight: bold;
+}
+
+/* =========================
+   HEADER & NAV
+   ========================= */
+header {
+  background: var(--header-bg); padding: 10px 15px;
+  display: flex; justify-content: space-between; align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 20;
+  border-bottom: 1px solid var(--border-color);
+}
+.brand { font-weight: bold; font-size: 1.1rem; color: var(--primary); }
+.tools { display: flex; gap: 8px; }
+.tool-btn {
+  background: var(--bg-body); border: 1px solid var(--border-color); 
+  padding: 6px 10px; border-radius: 4px; font-size: 12px; cursor: pointer;
+  font-weight: 600; color: var(--text-main);
+}
+
+#subHeader {
+    background: var(--section-bar-bg); padding: 10px 15px;
+    font-weight: bold; color: var(--primary-dark);
+    border-bottom: 1px solid var(--border-color);
+    text-align: center; font-size: 1.1em;
+}
+
+/* =========================
+   MAIN CONTENT
+   ========================= */
+#mainArea {
+  padding: 10px; overflow-y: auto; position: relative;
+  padding-bottom: 80px; display: none;
+}
+.card {
+  background: var(--bg-card); padding: 16px; border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05); margin-bottom: 15px;
+  font-size: var(--font-base); border: 1px solid var(--border-color);
+  color: var(--text-main);
+}
+
+.opt {
+  border: 1px solid var(--border-color); padding: 12px 15px;
+  margin: 8px 0; border-radius: 6px; cursor: pointer;
+  transition: background 0.15s; display: flex; align-items: center;
+  color: var(--text-main);
+}
+.opt:hover { background: var(--opt-hover); border-color: var(--primary); }
+.opt.sel { background: var(--opt-sel-bg); border-color: var(--primary); font-weight: 600; }
+.opt.correct { background: rgba(46, 125, 50, 0.2); border-color: var(--success); }
+.opt.wrong { background: rgba(198, 40, 40, 0.2); border-color: var(--danger); }
+.opt-circle {
+  width: 20px; height: 20px; border-radius: 50%; border: 2px solid var(--text-muted);
+  margin-right: 12px; display: flex; align-items: center; justify-content: center;
+  font-size: 10px; color: var(--text-main);
+}
+.opt.sel .opt-circle { border-color: var(--primary); background: var(--primary); color: #fff; }
+
+footer {
+  background: var(--bg-card); padding: 10px; border-top: 1px solid var(--border-color);
+  display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;
+  position: fixed; bottom: 0; width: 100%;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.05); display: none;
+}
+.nav-btn {
+  padding: 12px; border: none; border-radius: 6px;
+  font-weight: bold; color: #fff; cursor: pointer; font-size: 14px;
+}
+.btn-prev { background: #757575; }
+.btn-next { background: var(--primary); }
+.btn-submit { background: var(--success); }
+.btn-palette { background: var(--bg-card); color: var(--text-main); border: 1px solid var(--border-color); grid-column: span 3; }
+
+#palettePanel {
+  position: fixed; top: 0; right: -100%; width: 85%; max-width: 320px;
+  height: 100%; background: var(--palette-bg); z-index: 100;
+  transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: -5px 0 25px rgba(0,0,0,0.2);
+  display: flex; flex-direction: column; color: var(--text-main);
+}
+#palettePanel.show { right: 0; }
+.p-header { padding: 15px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background: var(--bg-body); }
+.p-grid { padding: 15px; overflow-y: auto; flex: 1; display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; align-content: start; }
+.p-footer { padding: 15px; border-top: 1px solid var(--border-color); }
+
+.qbtn {
+  aspect-ratio: 1; border-radius: 50%; border: none; font-weight: bold; font-size: 12px;
+  cursor: pointer; background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-main);
+}
+.qbtn.visited { background: var(--bg-body); border-color: #bbb; } 
+.qbtn.answered { background: var(--success); color: #fff; border: none; }
+/* Added Correct/Wrong Styles for Palette */
+.qbtn.wrong { background: var(--danger); color: #fff; border: none; }
+
+.qbtn.review { background: var(--primary-dark); color: #fff; border-radius: 50%; }
+.qbtn.review-ans { background: var(--primary-dark); color: #fff; position: relative; } 
+.qbtn.review-ans::after { content:'✔'; position: absolute; bottom: -2px; right: -2px; font-size: 8px; background: #fff; color:green; border-radius:50%; padding:1px;} 
+.qbtn.current { box-shadow: 0 0 0 2px var(--text-main); transform: scale(1.1); }
+
+#timer { background: var(--bg-card); padding: 5px 10px; border-radius: 4px; font-weight: bold; color: var(--primary); border: 1px solid var(--primary); }
+#expBox { margin-top: 15px; padding: 15px; background: rgba(46, 125, 50, 0.1); border-left: 4px solid var(--success); border-radius: 4px; font-size: 14px; display: none; color: var(--text-main); }
+.overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 90; display: none; }
+.overlay.show { display: block; }
+
+#qpModal { 
+  position: fixed; top: 5%; left: 5%; width: 90%; height: 90%; 
+  background: var(--bg-card); color: var(--text-main);
+  z-index: 200; border-radius: 8px; display: none; flex-direction: column; 
+  border: 1px solid var(--border-color);
+}
+.chart-container { width: 100%; max-width: 300px; margin: 0 auto 20px auto; }
+
+#tgPopup{
+  position:fixed; top:50%; left:50%; transform:translate(-50%,-50%);
+  background: var(--bg-card); padding:25px; width:85%; max-width:320px;
+  border-radius:12px; box-shadow:0 20px 60px rgba(0,0,0,0.4);
+  z-index:9999; text-align:center; display:none; color: var(--text-main);
+  border: 1px solid var(--border-color);
+}
+#tgPopup a{ display:block; background:#0088cc; color:#fff; padding:12px; border-radius:8px; text-decoration:none; margin-top:15px; font-weight:bold; }
+.tg-btn-continue { background: var(--bg-body); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 20px; border-radius: 8px; margin-top: 15px; cursor: pointer; font-weight: 600; }
+
+#zoomModal {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: var(--zoom-bg); z-index: 5000;
+    display: none; justify-content: center; align-items: center;
+    flex-direction: column;
+}
+#zoomImg {
+    max-width: 90%; max-height: 85vh; border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3); border: 1px solid #fff;
+}
+.close-zoom {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px; color: var(--text-main); cursor: pointer; font-weight: bold;
+}
+
+.result-q-box {
+    margin-bottom: 15px; padding: 10px; border: 1px solid var(--border-color);
+    border-radius: 6px; background: var(--bg-card);
+    page-break-inside: avoid;
+}
+.res-opt {
+    padding: 5px; margin: 2px 0; border-radius: 4px; font-size: 14px;
+}
+.res-opt.c { background: rgba(46, 125, 50, 0.2); border: 1px solid var(--success); }
+.res-opt.w { background: rgba(198, 40, 40, 0.2); border: 1px solid var(--danger); text-decoration: line-through; }
+
+@media(min-width: 768px) {
+  body { grid-template-columns: 1fr 300px; grid-template-rows: auto auto 1fr; }
+  header { grid-column: 1 / -1; }
+  #subHeader { grid-column: 1 / 2; }
+  #mainArea { grid-column: 1 / 2; grid-row: 3 / 4; padding-bottom: 20px; }
+  #palettePanel {
+    position: static; width: auto; height: auto; right: auto;
+    grid-column: 2 / 3; grid-row: 2 / 4;
+    border-left: 1px solid var(--border-color); box-shadow: none; z-index: 1;
+  }
+  footer {
+    grid-column: 1 / 2; position: static;
+    display: flex; justify-content: space-between;
+    box-shadow: none; border-top: 1px solid var(--border-color);
+  }
+  .btn-palette { display: none; } 
+  .p-grid { grid-template-columns: repeat(4, 1fr); }
+  #qpModal { width: 60%; left: 20%; }
+}
+</style>
+</head>
+
+<body onload="initApp()">
+
+<div id="zoomModal" onclick="closeZoom()">
+    <span class="close-zoom">&times;</span>
+    <img id="zoomImg" src="">
+    <div style="color:var(--text-main); margin-top:10px;">Click anywhere to close</div>
+</div>
+
+<div id="startScreen" class="full-screen-overlay">
+    <div class="start-card">
+        <h2 style="color:var(--primary); margin-top:0;">Sectional Mock Test</h2>
+        <p style="color:var(--text-muted)">Please enter your name to proceed.</p>
+        <input type="text" id="startNameInput" class="start-input" placeholder="Enter Full Name">
+        <button class="primary-btn" onclick="goToInstructions()">NEXT</button>
+    </div>
+</div>
+
+<div id="instScreen" class="full-screen-overlay" style="display:none;">
+    <div class="start-card" style="max-width:600px; text-align:left;">
+        <h3 style="color:var(--primary); border-bottom:1px solid var(--border-color); padding-bottom:10px;">General Instructions</h3>
+        <div class="inst-list">
+            <b>Subject: Mathematics (Quantitative Aptitude)</b><br>
+            <b>Marking Scheme:</b>
+            <ul>
+                <li style="color:var(--success)">Correct Answer: +1 Mark</li>
+                <li style="color:var(--danger)">Wrong Answer: -0.25 Mark</li>
+            </ul>
+        </div>
+        <label style="display:flex; align-items:center; cursor:pointer; font-weight:600; font-size:14px; margin-top:20px;">
+            <input type="checkbox" id="instCheck" onchange="toggleStartBtn()" style="width:20px; height:20px; margin-right:10px;">
+            I have read and understood the instructions.
+        </label>
+        <br>
+        <button id="finalStartBtn" class="primary-btn" onclick="startTestFlow()" disabled>I AM READY TO BEGIN</button>
+    </div>
+</div>
+
+<div id="resumeScreen" class="full-screen-overlay" style="display:none;">
+    <div class="start-card">
+        <h3 style="color:var(--primary);">Test In Progress Found</h3>
+        <p style="color:var(--text-muted);">We found a previous unfinished session for <b id="resumeName"></b>.</p>
+        <div style="background:var(--bg-body); padding:10px; margin:10px 0; border-radius:5px;">
+            <small>Last active: <span id="resumeTime"></span> mins elapsed</small>
+        </div>
+        <button class="primary-btn" onclick="resumeTest()">RESUME SESSION</button>
+        <button class="secondary-btn" onclick="startNewTest()">START FRESH</button>
+    </div>
+</div>
+
+<div id="tgPopup">
+ <b>📢 Join DSSSB Smart Notes</b><br><br>
+ Daily CBT Tests • PDFs • Results
+ <a href="https://t.me/DSSSBSmartNotes" target="_blank">Join Telegram</a><br>
+ <button class="tg-btn-continue" onclick="closeTg()">Continue Test</button>
+</div>
+
+<div class="overlay" onclick="togglePalette()" id="bgOverlay"></div>
+
+<header>
+  <div class="brand">DSSSB Mock <span style="font-size:0.8em; color:var(--text-muted)">Maths v2.8</span></div>
+  <div style="display:flex; align-items:center; gap:10px;">
+    <div id="timer">00:00</div>
+    <button class="tool-btn" onclick="pauseTest()" style="color:var(--warning); border-color:var(--warning)">⏸ Pause</button>
+    <button class="tool-btn" onclick="toggleDarkMode()" id="themeBtn">🌙</button>
+    <button class="tool-btn" onclick="toggleLang()" id="langBtn">EN</button>
+    <button class="tool-btn" onclick="toggleFS()">⛶</button>
+    <button class="tool-btn" onclick="openQP()">📄 Paper</button>
+  </div>
+</header>
+
+<div id="subHeader">Mathematics Section</div>
+
+<div id="mainArea">
+  <input type="hidden" id="stuName">
+  <div class="card">
+    <div style="display:flex; justify-content:space-between; margin-bottom:10px; color:var(--text-muted); font-size:13px;">
+      <span>Question No. <b id="qNumDisp">1</b></span>
+      <span style="display:flex; gap:10px;">
+        <span style="color:var(--success)">+1.00</span>
+        <span style="color:var(--danger)">-0.25</span>
+      </span>
+    </div>
+    <div style="font-size:14px; text-align:right; margin-bottom:5px;">
+        <button class="tool-btn" onclick="changeFont(1)">A+</button>
+        <button class="tool-btn" onclick="changeFont(-1)">A-</button>
+    </div>
+    <div id="qContent"></div> 
+    <div id="opts"></div>      
+    <div style="display:flex; gap:10px; margin-top:15px; border-top:1px solid var(--border-color); padding-top:15px;">
+        <button class="tool-btn" style="color:orange; border:1px solid orange; background:var(--bg-card)" onclick="markReview()">⭐ Mark for Review</button>
+        <button class="tool-btn" style="color:var(--text-muted);" onclick="clearResponse()">Borrar (Clear)</button>
+    </div>
+    <div id="expBox"></div>
+    <button id="expBtn" onclick="toggleExp()" style="width:100%; padding:10px; margin-top:10px; background:var(--primary); border:none; border-radius:4px; display:none; color:#fff; font-weight:bold;">View Solution</button>
+  </div>
+</div>
+
+<div id="palettePanel">
+  <div class="p-header">
+    <b>Question Palette</b>
+    <button onclick="togglePalette()" style="border:none; background:none; font-size:20px; cursor:pointer; color:var(--text-main)" class="close-pal">&times;</button>
+  </div>
+  <div style="padding:10px; background:var(--bg-card); font-size:12px; display:grid; grid-template-columns: 1fr 1fr; gap:5px;">
+    <div style="display:flex; align-items:center; gap:5px;"><div class="qbtn answered" style="width:20px; height:20px;"></div> Answered</div>
+    <div style="display:flex; align-items:center; gap:5px;"><div class="qbtn visited" style="width:20px; height:20px;"></div> Not Answered</div>
+    <div style="display:flex; align-items:center; gap:5px;"><div class="qbtn review" style="width:20px; height:20px;"></div> Mark Review</div>
+    <div style="display:flex; align-items:center; gap:5px;"><div class="qbtn" style="width:20px; height:20px;"></div> Not Visited</div>
+  </div>
+  <div class="p-grid" id="paletteGrid"></div>
+  <div class="p-footer">
+    <button onclick="submitTest()" style="width:100%; padding:12px; background:var(--success); color:#fff; border:none; border-radius:4px; font-weight:bold; font-size:16px;">SUBMIT TEST</button>
+  </div>
+</div>
+
+<footer>
+  <button class="nav-btn btn-palette" onclick="togglePalette()">Grid</button>
+  <button class="nav-btn btn-prev" onclick="prev()">Previous</button>
+  <button class="nav-btn btn-next" onclick="next()">Next</button>
+</footer>
+
+<div id="qpModal">
+    <div style="padding:15px; border-bottom:1px solid var(--border-color); display:flex; justify-content:space-between;">
+        <b id="modalTitle">Full Question Paper</b>
+        <button onclick="closeQP()" style="border:none; background:none; font-size:20px; color:var(--text-main)">&times;</button>
+    </div>
+    <div id="qpContent" style="padding:20px; overflow-y:auto; flex:1;"></div>
+</div>
+
+<script>
+/* DATA & CONFIG */
+const SECTION_NAME = "Mathematics"; 
+const NEGATIVE_MARK = 0.25;
+const TELEGRAM_BOT_TOKEN="8486464606:AAFT_Bd0P2HYqKNPjCm3s7TGgfM4HWmOYvs";
+const TELEGRAM_CHAT_ID="@dsssbcbtresult";
+
+/* MATHEMATICS QUESTIONS (Dual Language) */
+const QUESTIONS = [
+  {
+    "q_en": "1% of 7% of a number is what percentage of that number?",
+    "q_hi": "किसी संख्या के 7% का 1% उस संख्या का कितना प्रतिशत है?",
+    "op_en": ["7%", "0.07%", "8%", "0.007%"],
+    "op_hi": ["7%", "0.07%", "8%", "0.007%"],
+    "ans": "2",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Let the number be $x$.<br/>Value = $1\\% \\text{ of } 7\\% \\text{ of } x = \\frac{1}{100} \\times \\frac{7}{100} \\times x = 0.0007x$<br/>Required Percentage = $(\\frac{0.0007x}{x}) \\times 100 = 0.07\\%$</div>"
+  },
+  {
+    "q_en": "How many prime numbers lie between 400 and 406?",
+    "q_hi": "400 और 406 के बीच कितनी अभाज्य संख्याएँ (prime numbers) हैं?",
+    "op_en": ["3", "4", "1", "2"],
+    "op_hi": ["3", "4", "1", "2"],
+    "ans": "3",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Numbers between 400 and 406 are: 401, 402, 403, 404, 405.<br/>Check for primality:<br/>- 402, 404: Divisible by 2.<br/>- 405: Divisible by 5.<br/>- 403: Divisible by 13 ($13 \\times 31$).<br/>- 401: Not divisible by primes up to $\\sqrt{401}$ (approx 20).<br/>Only <strong>401</strong> is a prime number.<br/>Total count = 1.</div>"
+  },
+  {
+    "q_en": "1% of 5% of a number is what percentage of that number?",
+    "q_hi": "किसी संख्या के 5% का 1%, उस संख्या का कितना प्रतिशत है?",
+    "op_en": ["1.6%", "5%", "0.005%", "0.05%"],
+    "op_hi": ["1.6%", "5%", "0.005%", "0.05%"],
+    "ans": "4",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Let the number be 100.<br/>$5\\% \\text{ of } 100 = 5$<br/>$1\\% \\text{ of } 5 = 0.05$<br/>Since the base is 100, the value 0.05 is directly <strong>0.05%</strong>.</div>"
+  },
+  {
+    "q_en": "The average price of three items of furniture is ₹5,060. If their prices are in the ratio 3:5:7, the price of the costliest item (in ₹) is:",
+    "q_hi": "तीन फर्नीचर वस्तुओं का औसत मूल्य ₹5,060 है। यदि उनकी कीमतें 3:5:7 के अनुपात में हैं, तो सबसे महंगी वस्तु की कीमत (₹ में) क्या है?",
+    "op_en": ["7,084", "5,060", "3,036", "1,012"],
+    "op_hi": ["7,084", "5,060", "3,036", "1,012"],
+    "ans": "1",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Total price = $5060 \\times 3 = 15,180$<br/>Ratio sum = $3+5+7 = 15$ units.<br/>1 unit = $15180 / 15 = 1012$<br/>Costliest item (7 units) = $7 \\times 1012 = 7,084$.</div>"
+  },
+  {
+    "q_en": "The original price of a music set is ₹8,500. The price is discounted by 8% and then raised by 15%. What is its new price (in ₹)?",
+    "q_hi": "एक संगीत सेट की मूल कीमत ₹8,500 है। कीमत में 8% की छूट दी जाती है और फिर 15% की वृद्धि की जाती है। इसकी नई कीमत (₹ में) क्या है?",
+    "op_en": ["8,993", "9,493", "8,493", "8,293"],
+    "op_hi": ["8,993", "9,493", "8,493", "8,293"],
+    "ans": "1",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Original Price = 8500<br/>After 8% Discount: $8500 \\times 0.92 = 7820$<br/>After 15% Raise: $7820 \\times 1.15 = 8993$.</div>"
+  },
+  {
+    "q_en": "A sum of ₹10,000 was deposited at 2% p.a. for 2 years, compounded annually. The difference between the compound interests (in ₹) for the first and second years is:",
+    "q_hi": "₹10,000 की राशि को 2% वार्षिक चक्रवृद्धि ब्याज की दर से 2 वर्षों के लिए जमा किया गया। पहले और दूसरे वर्ष के चक्रवृद्धि ब्याज (₹ में) के बीच का अंतर ज्ञात कीजिए।",
+    "op_en": ["1", "4", "5", "2"],
+    "op_hi": ["1", "4", "5", "2"],
+    "ans": "2",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Principal (P) = 10,000, Rate (R) = 2%.<br/>Interest for 1st year = $(10000 \\times 2)/100 = 200$.<br/>Amount after 1st year = 10,200.<br/>Interest for 2nd year = $(10200 \\times 2)/100 = 204$.<br/>Difference = $204 - 200 = 4$.</div>"
+  },
+  {
+    "q_en": "Due to decrease in manpower, the production in a factory decreases by 50%. By what percentage should the working hours be increased to restore the original level of production?",
+    "q_hi": "जनशक्ति में कमी के कारण, एक कारखाने में उत्पादन 50% कम हो जाता है। उत्पादन के मूल स्तर को बहाल करने के लिए काम के घंटों को कितने प्रतिशत तक बढ़ाया जाना चाहिए?",
+    "op_en": ["100%", "50%", "75%", "25%"],
+    "op_hi": ["100%", "50%", "75%", "25%"],
+    "ans": "1",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Let original production = 100.<br/>New production = 50 (decrease of 50%).<br/>To restore to 100, increase needed = 50.<br/>% Increase = $(50/50) \\times 100 = 100\\%$.</div>"
+  },
+  {
+    "q_en": "The product of two numbers is 234 and their LCM is 78. Find their HCF.",
+    "q_hi": "दो संख्याओं का गुणनफल 234 है और उनका लघुत्तम समापवर्त्य (LCM) 78 है। उनका महत्तम समापवर्तक (HCF) ज्ञात कीजिए।",
+    "op_en": ["10", "6", "2", "3"],
+    "op_hi": ["10", "6", "2", "3"],
+    "ans": "4",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Formula: Product of numbers = LCM × HCF<br/>$234 = 78 \\times HCF$<br/>$HCF = 234 / 78 = 3$.</div>"
+  },
+  {
+    "q_en": "Simplify: $\\frac{4^5 \\times 5^4 \\times 6^4}{4^2 \\times 5^1 \\times 6^3}$",
+    "q_hi": "सरल करें: $\\frac{4^5 \\times 5^4 \\times 6^4}{4^2 \\times 5^1 \\times 6^3}$",
+    "op_en": ["48008", "48000", "47999", "48002"],
+    "op_hi": ["48008", "48000", "47999", "48002"],
+    "ans": "2",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>$4^{5-2} \\times 5^{4-1} \\times 6^{4-3}$<br/>$= 4^3 \\times 5^3 \\times 6^1$<br/>$= 64 \\times 125 \\times 6$<br/>$= 8000 \\times 6 = 48000$.</div>"
+  },
+  {
+    "q_en": "The average of the squares of the first 74 natural numbers is:",
+    "q_hi": "प्रथम 74 प्राकृत संख्याओं के वर्गों का औसत है:",
+    "op_en": ["1862.5", "1864.5", "1863.5", "1861.5"],
+    "op_hi": ["1862.5", "1864.5", "1863.5", "1861.5"],
+    "ans": "1",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Average of squares of first n natural numbers = $\\frac{(n+1)(2n+1)}{6}$<br/>Here n = 74.<br/>Avg = $\\frac{(75)(149)}{6} = \\frac{11175}{6} = 1862.5$.</div>"
+  },
+  {
+    "q_en": "The income of Amit in 2019 was ₹25,300. He gets an increment of 30% every year. What was his income (in ₹) in 2021?",
+    "q_hi": "2019 में अमित की आय ₹25,300 थी। उसे हर साल 30% की वृद्धि मिलती है। 2021 में उसकी आय (₹ में) क्या थी?",
+    "op_en": ["25,300", "40,480", "42,757", "32,890"],
+    "op_hi": ["25,300", "40,480", "42,757", "32,890"],
+    "ans": "3",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Using Compound Interest formula:<br/>Amount = $P(1 + \\frac{R}{100})^n$<br/>Amount = $25300(1 + \\frac{30}{100})^2$<br/>Amount = $25300(1.3)^2$<br/>Amount = $25300 \\times 1.69 = 42,757$.</div>"
+  },
+  {
+    "q_en": "At what rate of compound interest per annum, compounded annually, will a sum of ₹2,000 become ₹2,464.2 in 2 years?",
+    "q_hi": "किस वार्षिक चक्रवृद्धि ब्याज दर पर, ₹2,000 की राशि 2 वर्षों में ₹2,464.2 हो जाएगी?",
+    "op_en": ["5%", "1%", "6.5%", "11%"],
+    "op_hi": ["5%", "1%", "6.5%", "11%"],
+    "ans": "4",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Formula: $A = P(1 + \\frac{R}{100})^n$<br/>$2464.2 = 2000(1 + \\frac{R}{100})^2$<br/>$\\frac{2464.2}{2000} = 1.2321$<br/>$\\sqrt{1.2321} = 1.11$<br/>$1 + \\frac{R}{100} = 1.11 \\Rightarrow R = 11\\%$.</div>"
+  },
+  {
+    "q_en": "Simplify: $\\frac{3^4 \\times 4^5 \\times 5^3}{3^1 \\times 4^1 \\times 5^2}$",
+    "q_hi": "सरल कीजिए: $\\frac{3^4 \\times 4^5 \\times 5^3}{3^1 \\times 4^1 \\times 5^2}$",
+    "op_en": ["34561", "34559", "34560", "34570"],
+    "op_hi": ["34561", "34559", "34560", "34570"],
+    "ans": "3",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Apply exponent law $\\frac{a^m}{a^n} = a^{m-n}$:<br/>$3^{4-1} \\times 4^{5-1} \\times 5^{3-2}$<br/>$= 3^3 \\times 4^4 \\times 5^1$<br/>$= 27 \\times 256 \\times 5$<br/>$= 34560$.</div>"
+  },
+  {
+    "q_en": "The original price of a music set is ₹8,500. The price is discounted by 8% and then raised by 10%. What is its new price (in ₹)?",
+    "q_hi": "एक संगीत सेट की मूल कीमत ₹8,500 है। कीमत में 8% की छूट दी जाती है और फिर 10% की वृद्धि की जाती है। इसकी नई कीमत (₹ में) क्या है?",
+    "op_en": ["8,102", "7,902", "9,102", "8,602"],
+    "op_hi": ["8,102", "7,902", "9,102", "8,602"],
+    "ans": "4",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Original Price: 8500<br/>Step 1 (8% Discount): $8500 \\times 0.92 = 7820$<br/>Step 2 (10% Raise): $7820 \\times 1.10 = 8602$.</div>"
+  },
+  {
+    "q_en": "The average of the squares of the first 80 natural numbers is:",
+    "q_hi": "प्रथम 80 प्राकृत संख्याओं के वर्गों का औसत क्या है?",
+    "op_en": ["2173.5", "2172.5", "2174.5", "2175.5"],
+    "op_hi": ["2173.5", "2172.5", "2174.5", "2175.5"],
+    "ans": "1",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Average Formula: $\\frac{(n+1)(2n+1)}{6}$ where $n=80$.<br/>Avg = $\\frac{(81)(161)}{6}$<br/>Avg = $\\frac{27 \\times 161}{2}$<br/>Avg = $\\frac{4347}{2} = 2173.5$.</div>"
+  },
+  {
+    "q_en": "The average of 13 numbers is 9. If each number is multiplied by 7, then what will the new average be?",
+    "q_hi": "13 संख्याओं का औसत 9 है। यदि प्रत्येक संख्या को 7 से गुणा किया जाए, तो नया औसत क्या होगा?",
+    "op_en": ["9", "13", "63", "7"],
+    "op_hi": ["9", "13", "63", "7"],
+    "ans": "3",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>If every number in a set is multiplied by a constant $k$, the new average is also multiplied by $k$.<br/>New Average = Old Average $\\times$ 7<br/>New Average = $9 \\times 7 = 63$.</div>"
+  },
+  {
+    "q_en": "The given table represents the number of cycles (in thousands) manufactured by four companies X, Y, Z and M during 2005-2007. What is the ratio of the number of cycles manufactured by companies X and Z taken together to the number of cycles manufactured by companies Y and M taken together during 2005-2007?",
+    "q_hi": "दी गई तालिका 2005-2007 के दौरान चार कंपनियों X, Y, Z और M द्वारा निर्मित साइकिलों (हजारों में) की संख्या को दर्शाती है। 2005-2007 के दौरान कंपनियों X और Z द्वारा निर्मित साइकिलों की कुल संख्या का कंपनियों Y और M द्वारा निर्मित साइकिलों की कुल संख्या से अनुपात क्या है?",
+    "op_en": ["17:28", "19:24", "24:19", "28:17"],
+    "op_hi": ["17:28", "19:24", "24:19", "28:17"],
+    "ans": "3",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Sum (X+Z) = $(350+410+1560) + (920+890+910) = 2320 + 2720 = 5040$.<br/>Sum (Y+M) = $(250+720+980) + (480+940+620) = 1950 + 2040 = 3990$.<br/>Ratio = $5040 : 3990 = 504 : 399$.<br/>Dividing by 21, we get $24 : 19$.</div>"
+  },
+  {
+    "q_en": "For the years 2005-2007, the number of cycles manufactured by companies X and Y is what per cent (rounded off to 1 decimal place) more or less than the number of cycles manufactured by companies Z and M?",
+    "q_hi": "वर्ष 2005-2007 के लिए, कंपनियों X और Y द्वारा निर्मित साइकिलों की संख्या, कंपनियों Z और M द्वारा निर्मित साइकिलों की संख्या से कितने प्रतिशत (1 दशमलव स्थान तक पूर्णांकित) अधिक या कम है?",
+    "op_en": ["More, 26.7%", "More, 10.3%", "Less, 10.3%", "Less, 26.7%"],
+    "op_hi": ["अधिक, 26.7%", "अधिक, 10.3%", "कम, 10.3%", "कम, 26.7%"],
+    "ans": "3",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Total (X+Y) = $2320 + 1950 = 4270$.<br/>Total (Z+M) = $2720 + 2040 = 4760$.<br/>Since $4270 < 4760$, it is <strong>Less</strong>.<br/>Difference = $4760 - 4270 = 490$.<br/>Percentage Less = $(\\frac{490}{4760}) \\times 100 \\approx 10.3\\%$.</div>"
+  },
+  {
+    "q_en": "Find the simple interest (in ₹) on ₹3,500 as a sum borrowed at 9% per year rate of interest for 5 years.",
+    "q_hi": "₹3,500 की राशि पर 9% वार्षिक ब्याज दर से 5 वर्षों के लिए साधारण ब्याज (₹ में) ज्ञात कीजिए।",
+    "op_en": ["1,535", "1,515", "1,615", "1,575"],
+    "op_hi": ["1,535", "1,515", "1,615", "1,575"],
+    "ans": "4",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Principal = 3500, Rate = 9%, Time = 5 years.<br/>SI = $\\frac{P \\times R \\times T}{100}$<br/>SI = $\\frac{3500 \\times 9 \\times 5}{100}$<br/>SI = $35 \\times 45 = 1,575$.</div>"
+  },
+  {
+    "q_en": "Find the simple interest (in ₹) on ₹3,500 as a sum borrowed at 8% per year rate of interest for 5 years.",
+    "q_hi": "₹3,500 की राशि पर 8% वार्षिक ब्याज दर से 5 वर्षों के लिए साधारण ब्याज (₹ में) ज्ञात कीजिए।",
+    "op_en": ["1,360", "1,340", "1,440", "1,400"],
+    "op_hi": ["1,360", "1,340", "1,440", "1,400"],
+    "ans": "4",
+    "solution": "<div><strong>Detailed Solution:</strong><br/>Principal = 3500, Rate = 8%, Time = 5 years.<br/>SI = $\\frac{3500 \\times 8 \\times 5}{100}$<br/>SI = $35 \\times 40 = 1,400$.</div>"
+  }
+];
+
+/* STATE */
+let currentIdx = 0;
+let currentLang = "EN"; // Default Language
+let answers = new Array(QUESTIONS.length).fill(null);
+let reviewStatus = new Array(QUESTIONS.length).fill(false);
+let visitedStatus = new Array(QUESTIONS.length).fill(false);
+let submitted = false;
+let timeElapsed = 0;
+let fontSize = 16;
+let isDarkMode = false;
+let timerInterval;
+
+/* INIT LOGIC */
+function initApp() {
+    if(localStorage.getItem('dsssb_dark_mode') === 'true') toggleDarkMode();
+    const saved = localStorage.getItem('dsssb_cbt_state_math');
+    if(saved) {
+        const s = JSON.parse(saved);
+        if(s.submitted) { 
+            document.getElementById('startScreen').style.display = 'flex';
+        } else {
+            document.getElementById('resumeName').innerText = s.name || "Student";
+            document.getElementById('resumeTime').innerText = Math.floor((s.time || 0) / 60);
+            document.getElementById('startScreen').style.display = 'none';
+            document.getElementById('resumeScreen').style.display = 'flex';
+        }
+    } else {
+        document.getElementById('startScreen').style.display = 'flex';
+    }
+}
+
+function startNewTest() { localStorage.removeItem('dsssb_cbt_state_math'); location.reload(); }
+function resumeTest() { document.getElementById('resumeScreen').style.display = 'none'; initExam(); }
+function pauseTest() { if(submitted) return; saveState(); clearInterval(timerInterval); alert("Paused! You can resume later."); location.reload(); }
+
+function goToInstructions() {
+    const name = document.getElementById('startNameInput').value.trim();
+    if(!name) { alert("Enter Name!"); return; }
+    document.getElementById('stuName').value = name;
+    document.getElementById('startScreen').style.display = 'none';
+    document.getElementById('instScreen').style.display = 'flex';
+}
+
+function toggleStartBtn() { document.getElementById('finalStartBtn').disabled = !document.getElementById('instCheck').checked; }
+function startTestFlow() { document.getElementById('instScreen').style.display = 'none'; initExam(); }
+
+function initExam() {
+  document.getElementById('mainArea').style.display = 'block';
+  document.querySelector('footer').style.display = 'flex';
+  document.getElementById('tgPopup').style.display = "block";
+  loadState(); loadQuestion(currentIdx); startTimer();
+  document.addEventListener('keydown', (e) => { if(e.key === "ArrowRight") next(); if(e.key === "ArrowLeft") prev(); });
+}
+
+function closeTg(){ document.getElementById('tgPopup').style.display = "none"; }
+
+/* LOGIC */
+function saveState() {
+  if(submitted) return;
+  const state = {
+    idx: currentIdx, ans: answers, rev: reviewStatus, vis: visitedStatus,
+    time: timeElapsed, name: document.getElementById('stuName').value, submitted: false
+  };
+  localStorage.setItem('dsssb_cbt_state_math', JSON.stringify(state));
+}
+
+function loadState() {
+  const saved = localStorage.getItem('dsssb_cbt_state_math');
+  if(saved) {
+    const s = JSON.parse(saved);
+    currentIdx = s.idx || 0; answers = s.ans || answers;
+    reviewStatus = s.rev || reviewStatus; visitedStatus = s.vis || visitedStatus;
+    timeElapsed = s.time || 0;
+    document.getElementById('stuName').value = s.name || "";
+  }
+}
+
+function loadQuestion(idx) {
+  currentIdx = idx; visitedStatus[idx] = true; saveState(); 
+  
+  const q = QUESTIONS[idx];
+  document.getElementById('qNumDisp').innerText = idx + 1;
+  
+  // LANGUAGE LOGIC
+  const txt = currentLang === "EN" ? q.q_en : (q.q_hi || q.q_en);
+  const optsArr = currentLang === "EN" ? q.op_en : (q.op_hi || q.op_en);
+
+  const contentDiv = document.getElementById('qContent');
+  contentDiv.innerHTML = txt;
+  contentDiv.style.fontSize = fontSize + "px";
+  
+  const imgs = contentDiv.querySelectorAll('img');
+  imgs.forEach(img => {
+      img.classList.add('q-img');
+      img.onclick = () => openZoom(img.src);
+  });
+  
+  const correctIdx = parseInt(q.ans) - 1;
+
+  let html = "";
+  optsArr.forEach((opt, i) => {
+    let cls = "opt";
+    if(submitted) { 
+        if(i === correctIdx) cls += " correct"; 
+        else if(answers[idx] === i) cls += " wrong"; 
+    } 
+    else { if(answers[idx] === i) cls += " sel"; }
+    html += `<div class="${cls}" onclick="selectAnswer(${i})"><div class="opt-circle">${String.fromCharCode(65+i)}</div><div>${opt}</div></div>`;
+  });
+  document.getElementById('opts').innerHTML = html;
+  renderPalette();
+  
+  // RENDER MATHJAX
+  if(window.MathJax) MathJax.typesetPromise();
+  
+  if(submitted) {
+    document.getElementById('expBox').innerHTML = q.solution || "No explanation.";
+    document.getElementById('expBtn').style.display = "block";
+    if(window.MathJax) MathJax.typesetPromise(); 
+  }
+}
+
+/* ZOOM FUNCTIONS */
+function openZoom(src) {
+    document.getElementById('zoomImg').src = src;
+    document.getElementById('zoomModal').style.display = 'flex';
+}
+function closeZoom() {
+    document.getElementById('zoomModal').style.display = 'none';
+}
+
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid'); grid.innerHTML = "";
+  QUESTIONS.forEach((q, k) => {
+    let cls = "qbtn"; if(k === currentIdx) cls += " current";
+    const qCorrectIdx = parseInt(q.ans) - 1;
+    
+    if(submitted) { 
+        // Post-submit Logic
+        if(answers[k] === null) {
+            cls += " visited"; // Unattempted remains default or visited
+        }
+        else if(answers[k] === qCorrectIdx) {
+            cls += " answered"; // Correct (Green)
+        } 
+        else {
+            cls += " wrong"; // Wrong (Red)
+        }
+    } 
+    else { 
+        // Pre-submit Logic
+        if(reviewStatus[k] && answers[k] !== null) cls += " review-ans"; 
+        else if(reviewStatus[k]) cls += " review"; 
+        else if(answers[k] !== null) cls += " answered"; 
+        else if(visitedStatus[k]) cls += " visited"; 
+    }
+    const btn = document.createElement('button'); btn.className = cls; btn.innerText = k + 1;
+    btn.onclick = () => { loadQuestion(k); if(window.innerWidth < 768) togglePalette(); };
+    grid.appendChild(btn);
+  });
+}
+
+function selectAnswer(i) { if(!submitted) { answers[currentIdx] = i; loadQuestion(currentIdx); } }
+function clearResponse() { if(!submitted) { answers[currentIdx] = null; reviewStatus[currentIdx]=false; loadQuestion(currentIdx); } }
+function markReview() { if(!submitted) { reviewStatus[currentIdx] = !reviewStatus[currentIdx]; loadQuestion(currentIdx); } }
+function next() { if(currentIdx < QUESTIONS.length - 1) loadQuestion(currentIdx + 1); }
+function prev() { if(currentIdx > 0) loadQuestion(currentIdx - 1); }
+function changeFont(d) { fontSize += d; document.getElementById('qContent').style.fontSize = fontSize + "px"; }
+
+// LANGUAGE TOGGLE FUNCTION
+function toggleLang() { 
+    currentLang = currentLang === "HI" ? "EN" : "HI"; 
+    document.getElementById('langBtn').innerText = currentLang; 
+    loadQuestion(currentIdx); 
+}
+
+function toggleDarkMode() { isDarkMode = !isDarkMode; document.body.classList.toggle('dark-mode'); document.getElementById('themeBtn').innerText = isDarkMode ? "☀️" : "🌙"; localStorage.setItem('dsssb_dark_mode', isDarkMode); }
+
+/* ================== SUBMIT & RESULT GENERATION ================== */
+function submitTest() {
+  const name = document.getElementById('stuName').value;
+  if(!confirm("Are you sure you want to submit?")) return;
+  
+  submitted = true; clearInterval(timerInterval); localStorage.removeItem('dsssb_cbt_state_math'); 
+  let scoreData = { c:0, w:0, s:0 };
+  let totalScore = 0;
+
+  QUESTIONS.forEach((q, i) => {
+    const correctIdx = parseInt(q.ans) - 1; 
+    if(answers[i] === null) { scoreData.s++; }
+    else if(answers[i] === correctIdx) { scoreData.c++; totalScore++; }
+    else { scoreData.w++; totalScore -= NEGATIVE_MARK; }
+  });
+
+  let attempted = scoreData.c + scoreData.w;
+  let accuracy = attempted ? ((scoreData.c/attempted)*100) : 0;
+  let rankScore = (totalScore*100) + accuracy;
+  let estRank = Math.max(1, Math.round(1000 - rankScore));
+  let timeStr = document.getElementById('timer').innerText;
+
+  document.getElementById('modalTitle').innerText = "Score Card";
+  let resHTML = `
+  <div style="text-align:center;">
+    <h3>${name}, Test Submitted!</h3>
+    <div style="font-size:24px; color:var(--primary);">Score: <b>${totalScore.toFixed(2)}</b></div>
+    <div class="chart-container"><canvas id="resultChart"></canvas></div>
+  </div>
+  <table border="1" style="width:100%; border-collapse:collapse; text-align:center; font-size:14px; border-color:var(--border-color); margin-bottom:20px;">
+    <tr style="background:var(--bg-body)"><th>Section</th><th>✅</th><th>❌</th><th>⚪</th></tr>
+    <tr><td>${SECTION_NAME}</td><td style="color:var(--success)">${scoreData.c}</td><td style="color:var(--danger)">${scoreData.w}</td><td>${scoreData.s}</td></tr>
+  </table>`;
+
+  resHTML += `<h3 style="border-top:1px solid #ccc; padding-top:20px;">Response Sheet</h3>`;
+  QUESTIONS.forEach((q, i) => {
+      const correctIdx = parseInt(q.ans) - 1; 
+      const isCorrect = answers[i] === correctIdx;
+      const statusColor = answers[i] === null ? '#999' : (isCorrect ? 'green' : 'red');
+      const statusText = answers[i] === null ? 'Skipped' : (isCorrect ? 'Correct' : 'Wrong');
+      
+      const qText = currentLang === "EN" ? q.q_en : (q.q_hi || q.q_en);
+      const opts = currentLang === "EN" ? q.op_en : (q.op_hi || q.op_en);
+      const exp = q.solution || "No explanation";
+
+      resHTML += `<div class="result-q-box">
+        <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+            <b>Q.${i+1}</b>
+            <b style="color:${statusColor}">${statusText}</b>
+        </div>
+        <div style="margin-bottom:10px;">${qText}</div>
+        <div>`;
+       
+      opts.forEach((opt, k) => {
+          let optClass = "res-opt";
+          if(k === correctIdx) optClass += " c"; 
+          if(k === answers[i] && k !== correctIdx) optClass += " w"; 
+          resHTML += `<div class="${optClass}">${String.fromCharCode(65+k)}. ${opt}</div>`;
+      });
+      
+      resHTML += `</div><div style="margin-top:5px; font-size:13px; color:#555; background:#f9f9f9; padding:5px;"><b>Exp:</b> ${exp}</div></div>`;
+  });
+
+  resHTML += `
+  <div style="display:flex; gap:10px; justify-content:center; padding-bottom:30px;">
+    <button class="tool-btn" onclick="downloadPDF()" style="background:var(--primary); color:#fff; border:none; padding:10px 20px;">📥 Download Result</button>
+    <button class="tool-btn" onclick="location.reload()" style="background:var(--success); color:#fff; border:none; padding:10px 20px;">Restart Test</button>
+  </div>`;
+
+  document.getElementById('qpContent').innerHTML = resHTML;
+  document.getElementById('qpModal').style.display = "flex";
+  
+  renderChart(scoreData.c, scoreData.w, scoreData.s);
+  
+  // Render MathJax in Result
+  if(window.MathJax) {
+    MathJax.typesetPromise([document.getElementById('qpContent')]).then(() => {
+        console.log("Math rendered in results!");
+    });
+  }
+
+  sendResultToTelegram(name, totalScore.toFixed(2), scoreData.c, scoreData.w, scoreData.s, timeStr, accuracy, estRank);
+  loadQuestion(currentIdx);
+}
+
+function renderChart(c, w, s) {
+    const ctx = document.getElementById('resultChart').getContext('2d');
+    const txtColor = isDarkMode ? '#e0e0e0' : '#333';
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: { labels: ['Correct', 'Wrong', 'Skipped'], datasets: [{ data: [c, w, s], backgroundColor: ['#2e7d32', '#c62828', '#bdbdbd'], borderWidth: 0 }] },
+        options: { responsive: true, plugins: { legend: { position: 'bottom', labels: { color: txtColor } } } }
+    });
+}
+
+function downloadPDF() {
+    const element = document.getElementById('qpContent');
+    const btns = element.querySelectorAll('button');
+    btns.forEach(b => b.style.display = 'none'); 
+    const opt = {
+        margin: 5, filename: 'Maths_Section_Result.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+    html2pdf().set(opt).from(element).save().then(() => {
+        btns.forEach(b => b.style.display = 'inline-block'); 
+    });
+}
+
+function sendResultToTelegram(name,score,c,w,s,time,accuracy,estRank){
+ fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,{
+  method:"POST", headers:{"Content-Type":"application/json"},
+  body:JSON.stringify({
+   chat_id:TELEGRAM_CHAT_ID,
+   text:`🧮 DSSSB Sectional Mock (Maths)\n\n👤 Name: ${name}\n⏱ Time: ${time}\n✅ Correct: ${c}\n❌ Wrong: ${w}\n➖ Skipped: ${s}\n🎯 Score: ${score}\n📊 Accuracy: ${accuracy.toFixed(2)}%\n\n🔥 DSSSB Smart Notes`
+  })
+ });
+}
+
+function startTimer() {
+  if(timerInterval) clearInterval(timerInterval);
+  timerInterval = setInterval(() => {
+    timeElapsed++;
+    const m = Math.floor(timeElapsed / 60).toString().padStart(2, '0');
+    const s = (timeElapsed % 60).toString().padStart(2, '0');
+    document.getElementById('timer').innerText = `${m}:${s}`;
+  }, 1000);
+}
+function togglePalette() { document.getElementById('palettePanel').classList.toggle('show'); document.getElementById('bgOverlay').classList.toggle('show'); }
+function toggleFS() { !document.fullscreenElement ? document.documentElement.requestFullscreen() : document.exitFullscreen(); }
+function toggleExp() { const b=document.getElementById('expBox'); b.style.display = b.style.display==="none"?"block":"none"; }
+function openQP() {
+  document.getElementById('modalTitle').innerText = "Full Question Paper";
+  let html = "";
+  QUESTIONS.forEach((q, i) => {
+    const opts = currentLang === "EN" ? q.op_en : (q.op_hi || q.op_en);
+    const txt = currentLang === "EN" ? q.q_en : (q.q_hi || q.q_en);
+    html += `<div style="margin-bottom:20px; border-bottom:1px solid var(--border-color); padding-bottom:10px;">
+        <b>Q.${i+1}</b><br>${txt}<br>
+        <i style="color:var(--text-muted); font-size:0.9em">Options: ${opts.join(', ')}</i>
+    </div>`;
+  });
+  document.getElementById('qpContent').innerHTML = html;
+  if(window.MathJax) MathJax.typesetPromise([document.getElementById('qpContent')]);
+  document.getElementById('qpModal').style.display = "flex";
+}
+function closeQP() { document.getElementById('qpModal').style.display = "none"; }
+</script>
+</body>
+</html>
