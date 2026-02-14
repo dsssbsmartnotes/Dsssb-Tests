@@ -1354,14 +1354,186 @@ const QUESTIONS = [
     solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Principal = 3500, Rate = 8%, Time = 5 years.<br/>SI = (3500 × 8 × 5) / 100<br/>SI = 35 × 40 = <strong>1,400</strong>.</div>"
   },
   // --- MATHS 2 ---
-  { 
-      section: "Maths 2", 
-      q_en: "Find the average of first 5 prime numbers.", 
-      q_hi: "प्रथम 5 अभाज्य संख्याओं का औसत ज्ञात कीजिए।", 
-      ans: "3", 
-      op_en: ["5.2", "5.4", "5.6", "5.8"], 
-      op_hi: ["5.2", "5.4", "5.6", "5.8"], 
-      solution: "Primes: 2, 3, 5, 7, 11. Sum = 28. Avg = 28/5 = <b>5.6</b>" 
+
+  {
+    section: "ASO Maths",
+    q_en: "A truck is moving at a speed of $44~km/hr$. If its speed is reduced by 36%, the new speed of the truck ($in~km/hr$) will be:",
+    q_hi: "एक ट्रक $44~km/hr$ की गति से चल रहा है। यदि इसकी गति 36% कम कर दी जाती है, तो ट्रक की नई गति ($km/hr$ में) होगी:",
+    op_en: ["25.3", "33.96", "28.16", "29.09"],
+    op_hi: ["25.3", "33.96", "28.16", "29.09"],
+    ans: "3",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Original Speed = 44 km/hr<br/>Reduction = 36%<br/>New Speed = 44 × (100% - 36%)<br/>= 44 × 64%<br/>= 44 × 0.64<br/>= <strong>28.16 km/hr</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "To do a certain work, A and B work on alternate days, with B beginning. If the work gets completed in $9\\frac{1}{3}$ days, then B alone can complete the work in:",
+    q_hi: "एक निश्चित कार्य को करने के लिए, A और B वैकल्पिक दिनों में कार्य करते हैं, जिसकी शुरुआत B करता है। यदि कार्य $9\\frac{1}{3}$ दिनों में पूरा हो जाता है, तो B अकेले उस कार्य को कितने दिनों में पूरा कर सकता है?",
+    op_en: ["6 days", "4 days", "5 days", "9 days"],
+    op_hi: ["6 दिन", "4 दिन", "5 दिन", "9 दिन"],
+    ans: "1",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Total time = $9\\frac{1}{3}$ days.<br/>B starts the work. B works on days: 1, 3, 5, 7, 9. (Total 5 days)<br/>A works on days: 2, 4, 6, 8 and remaining 1/3 day. (Total $4\\frac{1}{3}$ days)<br/>Checking logic for Option 1 (6 days):<br/>If B completes work in 6 days, B's 1 day work = 1/6.<br/>In 5 days, B does 5/6 work.<br/>Remaining work = 1/6, done by A in 13/3 days.<br/>This is a valid scenario.<br/><strong>Answer: 6 days</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "A seller gives 8 toys free of cost on buying 12 toys. What is the discount %?",
+    q_hi: "एक विक्रेता 12 खिलौने खरीदने पर 8 खिलौने मुफ्त देता है। छूट प्रतिशत क्या है?",
+    op_en: ["20%", "30%", "50%", "40%"],
+    op_hi: ["20%", "30%", "50%", "40%"],
+    ans: "4",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Buy 12, Get 8 Free.<br/>Total items = 12 + 8 = 20<br/>Free items = 8<br/>Discount % = (Free Items / Total Items) × 100<br/>= (8 / 20) × 100<br/>= 40%.<br/><strong>Answer: 40%</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "By selling an article for ₹21.5, a dealer makes a profit of 10%. By how much should he increase his selling price (in ₹, rounded off to two decimal place) so as to make a profit of 30%?",
+    q_hi: "एक वस्तु को ₹21.5 में बेचने पर, एक डीलर को 10% का लाभ होता है। 30% का लाभ कमाने के लिए उसे अपने विक्रय मूल्य (₹ में, दो दशमलव स्थान तक पूर्णांकित) में कितनी वृद्धि करनी चाहिए?",
+    op_en: ["3.91", "5.91", "4.91", "6.91"],
+    op_hi: ["3.91", "5.91", "4.91", "6.91"],
+    ans: "1",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Selling Price (SP1) = 21.5, Profit = 10%<br/>Cost Price (CP) = 21.5 / 1.1<br/>Desired Profit = 30%, so New SP (SP2) = CP × 1.3<br/>SP2 = (21.5 / 1.1) × 1.3 = 25.409...<br/>Increase Required = SP2 - SP1<br/>= 25.409 - 21.5 = 3.909...<br/>Rounded off = <strong>3.91</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "Two numbers are in the ratio 3 : 4. If 6 is subtracted from each, the new numbers are in the ratio 1 : 2. The smaller of the original numbers is:",
+    q_hi: "दो संख्याएँ 3 : 4 के अनुपात में हैं। यदि प्रत्येक में से 6 घटा दिया जाए, तो नई संख्याएँ 1 : 2 के अनुपात में होती हैं। मूल संख्याओं में से छोटी संख्या है:",
+    op_en: ["6", "12", "3", "9"],
+    op_hi: ["6", "12", "3", "9"],
+    ans: "4",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Let the numbers be 3x and 4x.<br/>According to the question:<br/>$\\frac{3x - 6}{4x - 6} = \\frac{1}{2}$<br/>$2(3x - 6) = 4x - 6$<br/>$6x - 12 = 4x - 6$<br/>$2x = 6 \\Rightarrow x = 3$<br/>Smaller number = 3x = 3(3) = <strong>9</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "A piece of cloth of area 551 m² is used to make a conical tent of radius 7 m. Approximately 1 m² of cloth is lost due to stitching and cutting. If 280 students are sitting inside the tent, find the volume of air available per student. (Use π = 22/7)",
+    q_hi: "551 m² क्षेत्रफल वाले एक कपड़े के टुकड़े का उपयोग 7 मीटर त्रिज्या वाला शंक्वाकार तंबू बनाने के लिए किया जाता है। सिलाई और कटाई में लगभग 1 m² कपड़ा बर्बाद हो जाता है। यदि तंबू के अंदर 280 छात्र बैठे हैं, तो प्रति छात्र उपलब्ध हवा का आयतन ज्ञात कीजिए। (π = 22/7 का प्रयोग करें)",
+    op_en: ["3.8 m³", "4.4 m³", "5.6 m³", "3.3 m³"],
+    op_hi: ["3.8 m³", "4.4 m³", "5.6 m³", "3.3 m³"],
+    ans: "2",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Total cloth area = 551 m².<br/>Wastage = 1 m².<br/>Area used for Curved Surface Area (CSA) = 551 - 1 = 550 m².<br/>CSA = πrl = 550<br/>(22/7) × 7 × l = 550 ⇒ 22l = 550 ⇒ l = 25 m.<br/>Radius (r) = 7 m.<br/>Height (h) = √(l² - r²) = √(25² - 7²) = √(625 - 49) = √576 = 24 m.<br/>Volume of tent = (1/3)πr²h = (1/3) × (22/7) × 7 × 7 × 24 = 22 × 7 × 8 = 1232 m³.<br/>Air per student = 1232 / 280 = <strong>4.4 m³</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "A man sells a mobile phone for ₹600 and loses something. If he had sold it for ₹1,180, his gain would have been 4 times the former loss. The cost price (in ₹) of the mobile phone is:",
+    q_hi: "एक व्यक्ति ₹600 में एक मोबाइल फोन बेचता है और उसे कुछ हानि होती है। यदि उसने इसे ₹1,180 में बेचा होता, तो उसका लाभ पूर्व हानि का 4 गुना होता। मोबाइल फोन का क्रय मूल्य (₹ में) है:",
+    op_en: ["696", "746", "716", "736"],
+    op_hi: ["696", "746", "716", "736"],
+    ans: "3",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Let Cost Price = CP.<br/>Case 1 (Loss): SP = 600, Loss = CP - 600.<br/>Case 2 (Gain): SP = 1180, Gain = 1180 - CP.<br/>Condition: Gain = 4 × Loss<br/>1180 - CP = 4(CP - 600)<br/>1180 - CP = 4CP - 2400<br/>5CP = 3580<br/>CP = 3580 / 5 = <strong>716</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "Two pipes A and B can fill a tank in 28 hours and 28 hours, respectively. If both the pipes are opened simultaneously, then the time taken (in hours) to fill the tank is:",
+    q_hi: "दो पाइप A और B एक टैंक को क्रमशः 28 घंटे और 28 घंटे में भर सकते हैं। यदि दोनों पाइप एक साथ खोल दिए जाएं, तो टैंक को भरने में लगने वाला समय (घंटों में) है:",
+    op_en: ["16", "14", "17", "15"],
+    op_hi: ["16", "14", "17", "15"],
+    ans: "2",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Time taken by A = 28 hours.<br/>Time taken by B = 28 hours.<br/>Since both take the same time, together they will take half the time.<br/>Formula: (xy)/(x+y) = (28×28)/(28+28) = 784/56 = <strong>14 hours</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "A, B and C together finish work in 3 days. If A alone can finish the same work in 28 days and B in 4 days, find how long (in days) will C take to finish the work.",
+    q_hi: "A, B और C मिलकर एक कार्य को 3 दिनों में पूरा करते हैं। यदि A अकेला उसी कार्य को 28 दिनों में और B 4 दिनों में पूरा कर सकता है, तो C अकेले उस कार्य को कितने समय (दिनों में) में पूरा करेगा?",
+    op_en: ["22", "23", "21", "20"],
+    op_hi: ["22", "23", "21", "20"],
+    ans: "3",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>(A + B + C)'s 1 day work = 1/3.<br/>A's 1 day work = 1/28.<br/>B's 1 day work = 1/4.<br/>C's 1 day work = 1/3 - (1/28 + 1/4)<br/>LCM of 28 and 4 is 28.<br/>= 1/3 - (1/28 + 7/28) = 1/3 - 8/28 = 1/3 - 2/7.<br/>= (7 - 6) / 21 = 1/21.<br/>So, C takes <strong>21 days</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "A typist takes 40 minutes to type 2 pages. How long (in minutes) will he take to type 103 pages?",
+    q_hi: "एक टाइपिस्ट 2 पेज टाइप करने में 40 मिनट का समय लेता है। 103 पेज टाइप करने में उसे कितना समय (मिनटों में) लगेगा?",
+    op_en: ["2060", "2070", "2065", "2050"],
+    op_hi: ["2060", "2070", "2065", "2050"],
+    ans: "1",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Time for 2 pages = 40 minutes.<br/>Time for 1 page = 20 minutes.<br/>Time for 103 pages = 103 × 20 = <strong>2060 minutes</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "Two trains, having lengths of 390 m and 110 m, are running at speeds of 110 km/hr and 140 km/hr, respectively, in the same direction. The time taken (in minutes) by the faster train, coming from behind, to completely cross the other train is:",
+    q_hi: "दो ट्रेनें, जिनकी लंबाई 390 मीटर और 110 मीटर है, एक ही दिशा में क्रमशः 110 km/hr और 140 km/hr की गति से चल रही हैं। पीछे से आने वाली तेज ट्रेन द्वारा दूसरी ट्रेन को पूरी तरह से पार करने में लिया गया समय (मिनटों में) है:",
+    op_en: ["1", "0.4", "3", "1.6"],
+    op_hi: ["1", "0.4", "3", "1.6"],
+    ans: "1",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Length of Faster Train ($L_1$) = 110 m (Assuming, or sum is what matters). Total Distance = 390 + 110 = 500 m = 0.5 km.<br/>Relative Speed (Same Direction) = $140 - 110 = 30$ km/hr.<br/>Time = Distance / Speed<br/>Time = $0.5 / 30$ hours = $1/60$ hours.<br/>Convert to minutes: $(1/60) \\times 60 = 1$ minute.<br/><strong>Answer: 1</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "Select the true statement regarding the following ratios: 5:6, 3:4, 1:3, 8:14.",
+    q_hi: "निम्नलिखित अनुपातों के संबंध में सत्य कथन का चयन करें: 5:6, 3:4, 1:3, 8:14.",
+    op_en: ["One pair has equal value.", "The smallest ratio is 8:14.", "The greatest ratio is 5:6.", "Two pairs have equal value."],
+    op_hi: ["एक युग्म का मान समान है।", "सबसे छोटा अनुपात 8:14 है।", "सबसे बड़ा अनुपात 5:6 है।", "दो युग्मों का मान समान है।"],
+    ans: "3",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Convert to decimals:<br/>5:6 ≈ 0.833<br/>3:4 = 0.75<br/>1:3 ≈ 0.333<br/>8:14 = 4:7 ≈ 0.571<br/>Comparing values: 0.833 is the largest.<br/>Therefore, the greatest ratio is 5:6.<br/><strong>Answer: The greatest ratio is 5:6</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "The area of an equilateral triangle is $6\\sqrt{3}$ cm². Find its perimeter.",
+    q_hi: "एक समबाहु त्रिभुज का क्षेत्रफल $6\\sqrt{3}$ cm² है। इसका परिमाप ज्ञात कीजिए।",
+    op_en: ["3√6 cm", "6√6 cm", "5√6 cm", "4√6 cm"],
+    op_hi: ["3√6 cm", "6√6 cm", "5√6 cm", "4√6 cm"],
+    ans: "2",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Area of Equilateral Triangle = $\\frac{\\sqrt{3}}{4}a^2$<br/>$6\\sqrt{3} = \\frac{\\sqrt{3}}{4}a^2$<br/>$6 = \\frac{a^2}{4} \\Rightarrow a^2 = 24$<br/>$a = \\sqrt{24} = 2\\sqrt{6}$ cm.<br/>Perimeter = $3a = 3 \\times 2\\sqrt{6} = 6\\sqrt{6}$ cm.<br/><strong>Answer: 6√6 cm</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "Train P, moving at a speed of 75 km/hr, completely overtakes train Q, which is 104 m long and travelling in the same direction at 25 km/hr, in 7.5 minutes. Find the time (in seconds) that train P will take to completely cross train R, which is 294 m long and approaching from the opposite direction at a speed of 86 km/hr.",
+    q_hi: "75 km/hr की गति से चल रही ट्रेन P, उसी दिशा में 25 km/hr की गति से चल रही 104 मीटर लंबी ट्रेन Q को 7.5 मिनट में पूरी तरह से ओवरटेक करती है। ट्रेन P को विपरीत दिशा से 86 km/hr की गति से आ रही 294 मीटर लंबी ट्रेन R को पूरी तरह से पार करने में कितना समय (सेकंड में) लगेगा?",
+    op_en: ["153", "162", "144", "149"],
+    op_hi: ["153", "162", "144", "149"],
+    ans: "3",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/><strong>Step 1: Find Length of Train P ($L_P$)</strong><br/>Relative Speed (Same Dir) = $75 - 25 = 50$ km/hr.<br/>Time = 7.5 min = $7.5/60 = 1/8$ hr.<br/>Distance ($L_P + L_Q$) = Speed × Time = $50 \\times (1/8) = 6.25$ km = 6250 m.<br/>$L_P = 6250 - 104 = 6146$ m.<br/><br/><strong>Step 2: Cross Train R (Opposite Dir)</strong><br/>Relative Speed = $75 + 86 = 161$ km/hr.<br/>Convert to m/s: $161 \\times \\frac{5}{18}$.<br/>Total Distance = $L_P + L_R = 6146 + 294 = 6440$ m.<br/>Time = $\\frac{6440}{161 \\times 5/18} = \\frac{6440 \\times 18}{805} = 8 \\times 18 = 144$ seconds.<br/><strong>Answer: 144</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "The salaries of three persons A, B, and C are in the ratio 2:3:5. In the salary of A, an increment of 15% is allowed, and for B, an increment of 20% is allowed. But due to some contract, the salary of C is decreased by 10%. If now, the total salary of A, B, and C is ₹2,86,000, then how much is the decreased salary of C (in ₹)?",
+    q_hi: "तीन व्यक्तियों A, B और C का वेतन 2:3:5 के अनुपात में है। A के वेतन में 15% की वृद्धि और B के वेतन में 20% की वृद्धि की जाती है। लेकिन किसी अनुबंध के कारण C के वेतन में 10% की कमी की जाती है। यदि अब A, B और C का कुल वेतन ₹2,86,000 है, तो C का घटा हुआ वेतन (₹ में) कितना है?",
+    op_en: ["1,23,750", "1,37,520", "1,53,720", "1,73,520"],
+    op_hi: ["1,23,750", "1,37,520", "1,53,720", "1,73,520"],
+    ans: "1",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Let initial salaries be 200, 300, 500 units.<br/>New A = $200 \\times 1.15 = 230$.<br/>New B = $300 \\times 1.20 = 360$.<br/>New C = $500 \\times 0.90 = 450$.<br/>Total units = $230 + 360 + 450 = 1040$.<br/>Value of 1040 units = 2,86,000.<br/>1 unit = $286000 / 1040 = 275$.<br/>C's decreased salary (450 units) = $450 \\times 275 = 1,23,750$.<br/><strong>Answer: 1,23,750</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "The heights of two right circular cones are in the ratio 1: 7 and the perimeters of their bases are in the ratio 7: 4. Find the ratio of their volumes.",
+    q_hi: "दो लंब वृत्तीय शंकुओं की ऊँचाइयाँ 1: 7 के अनुपात में हैं और उनके आधार के परिमाप 7: 4 के अनुपात में हैं। उनके आयतनों का अनुपात ज्ञात कीजिए।",
+    op_en: ["1:4", "4:7", "16:7", "7:16"],
+    op_hi: ["1:4", "4:7", "16:7", "7:16"],
+    ans: "4",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Ratio of heights ($h_1 : h_2$) = $1 : 7$.<br/>Ratio of base perimeters ($2\\pi r_1 : 2\\pi r_2$) = $7 : 4 \\Rightarrow r_1 : r_2 = 7 : 4$.<br/>Volume of cone ($V$) = $\\frac{1}{3}\\pi r^2 h$.<br/>Ratio of Volumes $\\frac{V_1}{V_2} = \\frac{\\frac{1}{3}\\pi r_1^2 h_1}{\\frac{1}{3}\\pi r_2^2 h_2} = (\\frac{r_1}{r_2})^2 \\times \\frac{h_1}{h_2}$.<br/>$\\frac{V_1}{V_2} = (\\frac{7}{4})^2 \\times \\frac{1}{7} = \\frac{49}{16} \\times \\frac{1}{7} = \\frac{7}{16}$.<br/>Ratio = <strong>7 : 16</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "When x is added to each of 4, 7, 20 and 25, then the numbers so obtained, in this order, are in proportion. What is the mean proportional between (x + 7) and (x - 5)?",
+    q_hi: "जब 4, 7, 20 और 25 में से प्रत्येक में x जोड़ा जाता है, तो इस प्रकार प्राप्त संख्याएँ समानुपात में होती हैं। (x + 7) और (x - 5) के बीच मध्यानुपाती (mean proportional) क्या है?",
+    op_en: ["3√5", "9√5", "7√5", "5√5"],
+    op_hi: ["3√5", "9√5", "7√5", "5√5"],
+    ans: "2",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Proportion condition: $\\frac{4+x}{7+x} = \\frac{20+x}{25+x}$.<br/>Cross-multiply: $(4+x)(25+x) = (7+x)(20+x)$.<br/>$100 + 29x + x^2 = 140 + 27x + x^2$.<br/>$29x - 27x = 140 - 100 \\Rightarrow 2x = 40 \\Rightarrow x = 20$.<br/>Mean Proportional between $(x+7)$ and $(x-5)$:<br/>$= \\sqrt{(20+7)(20-5)} = \\sqrt{27 \\times 15}$.<br/>$= \\sqrt{405} = \\sqrt{81 \\times 5} = 9\\sqrt{5}$.<br/><strong>Answer: 9√5</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "A man goes from place A to B at a speed of 4 km/hr and returns from B to A at a speed of 7 km/hr using the same route. The average speed (in km/hr) for the whole journey is:",
+    q_hi: "एक व्यक्ति स्थान A से B तक 4 km/hr की गति से जाता है और उसी रास्ते से 7 km/hr की गति से B से A वापस आता है। पूरी यात्रा के लिए औसत गति (km/hr में) है:",
+    op_en: ["6 1/11", "1 1/11", "5 1/11", "3 1/11"],
+    op_hi: ["6 1/11", "1 1/11", "5 1/11", "3 1/11"],
+    ans: "3",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Average Speed = $\\frac{2xy}{x+y}$ where x and y are speeds.<br/>$S_{avg} = \\frac{2 \\times 4 \\times 7}{4 + 7} = \\frac{56}{11}$.<br/>$56 / 11 = 5 \\frac{1}{11}$ km/hr.<br/><strong>Answer: 5 1/11</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "If a store owner intends to secure a 20% profit even after implementing a 20% discount, what should be the percentage of his mark-up on the original price?",
+    q_hi: "यदि एक स्टोर मालिक 20% की छूट देने के बाद भी 20% का लाभ सुरक्षित करना चाहता है, तो उसे मूल कीमत पर कितने प्रतिशत मूल्य अंकित (mark-up) करना चाहिए?",
+    op_en: ["46%", "50%", "48%", "40%"],
+    op_hi: ["46%", "50%", "48%", "40%"],
+    ans: "2",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Let Cost Price (CP) = 100.<br/>Desired Profit = 20% $\\Rightarrow$ Selling Price (SP) = 120.<br/>Discount = 20% on Marked Price (MP).<br/>$SP = MP \\times (100 - 20)\\% = 0.8 MP$.<br/>$0.8 MP = 120 \\Rightarrow MP = \\frac{120}{0.8} = 150$.<br/>Mark-up = $MP - CP = 150 - 100 = 50$.<br/>Mark-up Percentage = 50%.<br/><strong>Answer: 50%</strong>.</div>"
+  },
+  {
+    section: "ASO Maths",
+    q_en: "A park is of a right-angled triangle form. The sides are in the ratio 3: 4: 5 and the smallest side is 6 units. The perimeter (in units) of the park is:",
+    q_hi: "एक पार्क समकोण त्रिभुज के आकार का है। भुजाएँ 3: 4: 5 के अनुपात में हैं और सबसे छोटी भुजा 6 इकाई है। पार्क का परिमाप (इकाइयों में) है:",
+    op_en: ["30", "24", "12", "18"],
+    op_hi: ["30", "24", "12", "18"],
+    ans: "2",
+    solution: "<div class='sol-section'><strong>Detailed Solution:</strong><br/>Ratio of sides = 3 : 4 : 5.<br/>Let sides be 3x, 4x, 5x.<br/>Smallest side = 3x = 6 $\\Rightarrow$ x = 2.<br/>Sides are: $3(2)=6, 4(2)=8, 5(2)=10$.<br/>Perimeter = Sum of sides = $6 + 8 + 10 = 24$.<br/><strong>Answer: 24</strong>.</div>"
   },
   
   // --- ENGLISH 1 ---
