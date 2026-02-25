@@ -386,16 +386,216 @@ const SECTION_MAP = [
 ];
 
 const QUESTIONS = [
-  { section: "General 1", q_en: "Who is known as the 'Iron Man of India'?", q_hi: "भारत के 'लौह पुरुष' के रूप में किसे जाना जाता है?", ans: "2", op_en: ["M.K. Gandhi", "Sardar Patel", "J.L. Nehru", "Subhash Bose"], op_hi: ["एम.के. गांधी", "सरदार पटेल", "जे.एल. नेहरू", "सुभाष बोस"], solution: "<b>Sardar Vallabhbhai Patel</b> played a key role in the integration of Indian princely states." },
-  { section: "General 2", q_en: "Which is the largest planet in our solar system?", q_hi: "हमारे सौर मंडल का सबसे बड़ा ग्रह कौन सा है?", ans: "3", op_en: ["Earth", "Mars", "Jupiter", "Saturn"], op_hi: ["पृथ्वी", "मंगल", "बृहस्पति", "शनि"], solution: "<b>Jupiter</b> is the largest planet." },
-  { section: "Reasoning 1", q_en: "Identify the next shape in the series:<br><img src='https://placehold.co/100x50/png?text=Shape+1' style='margin-top:5px'>", q_hi: "श्रृंखला में अगली आकृति पहचानें:<br><img src='https://placehold.co/100x50/png?text=Shape+1' style='margin-top:5px'>", ans: "1", op_en: ["Square", "Circle", "Triangle", "Hexagon"], op_hi: ["वर्ग", "वृत्त", "त्रिभुज", "षट्भुज"], solution: "Pattern follows sides: 3 -> 4 -> 5. Next is <b>Hexagon</b>." },
-  { section: "Reasoning 2", q_en: "A is B's sister. C is B's mother. D is C's father. E is D's mother. Then, how is A related to D?", q_hi: "A, B की बहन है। C, B की माता है। D, C का पिता है। E, D की माता है। तो, A का D से क्या संबंध है?", ans: "4", op_en: ["Grandmother", "Grandfather", "Daughter", "Granddaughter"], op_hi: ["दादी", "दादा", "बेटी", "पोती (नतिनी)"], solution: "A is the daughter of C, and C is the daughter of D. So A is the <b>Granddaughter</b> of D." },
-  { section: "Maths 1", q_en: "If $ x^2 + 4x + 4 = 0 $, find $ x $.", q_hi: "यदि $ x^2 + 4x + 4 = 0 $, तो $ x $ ज्ञात करें।", ans: "1", op_en: ["-2", "2", "0", "4"], op_hi: ["-2", "2", "0", "4"], solution: "$$ (x+2)^2 = 0 \\Rightarrow x = -2 $$" },
-  { section: "Maths 2", q_en: "Find the average of first 5 prime numbers.", q_hi: "प्रथम 5 अभाज्य संख्याओं का औसत ज्ञात कीजिए।", ans: "3", op_en: ["5.2", "5.4", "5.6", "5.8"], op_hi: ["5.2", "5.4", "5.6", "5.8"], solution: "Primes: 2, 3, 5, 7, 11. Sum = 28. Avg = 28/5 = <b>5.6</b>" },
-  { section: "English 1", q_en: "Select the correct verb: Neither of the students ___ present.", q_hi: "सही क्रिया चुनें: Neither of the students ___ present.", ans: "1", op_en: ["was", "were", "are", "have"], op_hi: ["was", "were", "are", "have"], solution: "'Neither' takes a singular verb." },
-  { section: "English 2", q_en: "Choose the antonym of 'Artificial'.", q_hi: "'Artificial' का विलोम चुनें।", ans: "1", op_en: ["Natural", "Red", "Solid", "Truthful"], op_hi: ["Natural", "Red", "Solid", "Truthful"], solution: "Artificial means man-made. Antonym is <b>Natural</b>." },
-  { section: "Hindi 1", q_en: "Which word is the synonym of 'Agni'?", q_hi: "'अग्नि' का पर्यायवाची शब्द कौन सा है?", ans: "2", op_en: ["Vayu", "Anil", "Anal", "Jal"], op_hi: ["वायु", "अनिल", "अनल", "जल"], solution: "अग्नि का पर्यायवाची <b>अनल</b> है। अनिल का अर्थ वायु होता है।" },
-  { section: "Hindi 2", q_en: "Identify the noun in the sentence.", q_hi: "'राम अच्छा लड़का है' - वाक्य में संज्ञा पहचानें।", ans: "1", op_en: ["Ram", "Good", "Boy", "Is"], op_hi: ["राम", "अच्छा", "लड़का", "है"], solution: "<b>राम</b> व्यक्तिवाचक संज्ञा है।" }
+  {
+    section: "Part 1",
+    q_en: "If you are asked to roll a dice, What is the probability you are getting 4?",
+    q_hi: "यदि आप एक पासा फेंकते हैं, तो 4 आने की प्रायिकता क्या है?",
+    ans: "1",
+    op_en: ["1/6", "2/6", "3/6", "4/6"],
+    op_hi: ["1/6", "2/6", "3/6", "4/6"],
+    solution: "A dice has 6 faces (1, 2, 3, 4, 5, 6). The number 4 appears once.<br>Probability = Favorable Outcomes / Total Outcomes = <b>1/6</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "Select the correct option.<br>Legend : Story :: Alliteration : ?",
+    q_hi: "नीचे दिए गए विकल्पों में से सही उत्तर का चयन करें।<br>किंवदंती : कथा :: अनुप्रास : ?",
+    ans: "4",
+    op_en: ["Screen", "Novel", "Superstar", "Poetry"],
+    op_hi: ["स्क्रीन", "उपन्यास", "सुपर स्टार", "कविता"],
+    solution: "Legend is a type of Story. Similarly, Alliteration is a figure of speech used in <b>Poetry (कविता)</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "Introducing a woman Ramesh said - \"She is the mother of the only daughter of my son.\" How is that woman related to Ramesh?",
+    q_hi: "एक महिला का परिचय देते हुए रमेश ने कहा - \"वह मेरे बेटे की इकलौती बेटी की माँ है।\" वह महिला रमेश से किस प्रकार संबंधित है?",
+    ans: "2",
+    op_en: ["Daughter", "Daughter-in-law", "Wife", "Sister"],
+    op_hi: ["बेटी", "बहू (Daughter-in-law)", "पत्नी", "बहन"],
+    solution: "Ramesh's son's only daughter = Ramesh's granddaughter.<br>Mother of granddaughter = Son's wife.<br>So, the woman is the <b>Daughter-in-law</b> of Ramesh."
+  },
+  {
+    section: "Part 1",
+    q_en: "The \"Rickets\" is related to \"Vitamin D\", \"Anemia\" is related to:",
+    q_hi: "\"रिकेट्स\" का संबंध \"विटामिन डी\" से है, \"एनीमिया\" का संबंध किससे है?",
+    ans: "2",
+    op_en: ["Hemoglobin", "Iron", "Blood", "Vitamin K"],
+    op_hi: ["हीमोग्लोबिन", "लोहा (Iron)", "रक्त", "विटामिन K"],
+    solution: "Rickets is caused by deficiency of Vitamin D. Similarly, Anemia is caused by deficiency of <b>Iron</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "As Edison is related to light, similarly which one of the following is correct?",
+    q_hi: "जैसे एडिसन का संबंध प्रकाश से है, वैसे ही निम्नलिखित में से कौन सा सही है?",
+    ans: "4",
+    op_en: ["Columbus: Africa", "Darwin: Machine", "Newton: Evolution", "Graham Bell: Phone"],
+    op_hi: ["कोलंबस : अफ्रीका", "डार्विन : मशीन", "न्यूटन : विकासवाद", "ग्राहम बेल : फोन"],
+    solution: "Thomas Edison invented the light bulb. Similarly, <b>Graham Bell</b> invented the <b>Phone</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "Choose the word which cannot be made using letters of the word:<br>INFRASTRUCTURE",
+    q_hi: "उस शब्द का चयन करें जिसे शब्द के अक्षरों का उपयोग करके नहीं बनाया जा सकता है:<br>INFRASTRUCTURE",
+    ans: "4",
+    op_en: ["FAST", "CERTAIN", "TRUE", "CULTURE"],
+    op_hi: ["FAST", "CERTAIN", "TRUE", "CULTURE"],
+    solution: "The word <b>CULTURE</b> cannot be formed because the letter 'L' is missing in INFRASTRUCTURE."
+  },
+  {
+    section: "Part 1",
+    q_en: "Battles are related to History, Fossils are related to:",
+    q_hi: "युद्ध (Battles) का संबंध इतिहास (History) से है, जीवाश्म (Fossils) का संबंध किससे है?",
+    ans: "3",
+    op_en: ["Astronomy", "Ethnology", "Paleontology", "Numismatics"],
+    op_hi: ["खगोल विज्ञान (Astronomy)", "नृवंशविज्ञान (Ethnology)", "जीवाश्म विज्ञान (Paleontology)", "मुद्राशास्त्र (Numismatics)"],
+    solution: "Study of Battles is part of History. Study of Fossils is called <b>Paleontology</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "Select the option that is related to the third term in the same way as the second term is related to the first term.<br>Maps : Cartography :: Earthquakes : ?",
+    q_hi: "उस विकल्प का चयन करें जो तीसरे पद से उसी प्रकार संबंधित है जैसे दूसरा पद पहले पद से संबंधित है।<br>मानचित्र : कार्टोग्राफी :: भूकंप : ?",
+    ans: "1",
+    op_en: ["Seismology", "Astronomy", "Geography", "Geology"],
+    op_hi: ["सिस्मोलॉजी (Seismology)", "खगोल विज्ञान", "भूगोल", "भूविज्ञान"],
+    solution: "Cartography is the study/making of Maps. <b>Seismology</b> is the study of Earthquakes."
+  },
+  {
+    section: "Part 1",
+    q_en: "Mahesh has just graduated and wants to open an electronic store. He is unable to buy a shop in the main market area but wants to open his shop in such a place which is not very far from the main market, and people can visit his shop while visiting the main market. Which of these stores should Mahesh choose?",
+    q_hi: "महेश ने अभी-अभी स्नातक पास किया है और वह एक इलेक्ट्रॉनिक स्टोर खोलना चाहता है। वह मुख्य बाजार क्षेत्र में दुकान खरीदने में सक्षम नहीं है पर वह ऐसी जगह पर अपनी दुकान खोलना चाहता है जो मुख्य बाजार से बहुत दूर न हो, और लोग मुख्य बाजार आते समय ही उसकी दुकान पर भी आ सके। महेश को इनमें से कौन सा स्टोर चुनना चाहिए?",
+    ans: "2",
+    op_en: [
+      "A store near his home and far from the main market.",
+      "A small shop 600m away from the main market, where machinery manufacturing work is done.",
+      "A store in Central Market Mall, where there are many food options.",
+      "A large store with more storage capacity in a residential area near the main market."
+    ],
+    op_hi: [
+      "एक स्टोर जो उसके घर के पास हो और मुख्य बाजार से दूर हो।",
+      "मुख्य बाजार से 600m दूर एक छोटी दुकान, जहां मशीनरी बनाने का काम होता है।",
+      "सेंट्रल मार्केट मॉल में एक स्टोर, जहां खाने के बहुत से विकल्प मौजूद हो।",
+      "मुख्य बाजार के पास आवासीय क्षेत्र में अधिक भंडारण क्षमता वाला एक बड़ा स्टोर।"
+    ],
+    solution: "Option (2) is the best fit as it is <b>600m away from the main market</b> (not very far), allowing customers to visit easily."
+  },
+  {
+    section: "Part 1",
+    q_en: "If, Quantity A = w + 9 and Quantity B = w - 9, then:",
+    q_hi: "यदि, मात्रा A = w + 9 और मात्रा B = w - 9, तो:",
+    ans: "4",
+    op_en: ["Cannot be determined.", "Quantity B is bigger.", "Both the Quantities are equal.", "Quantity A is bigger."],
+    op_hi: ["निर्धारित नहीं किया जा सकता।", "मात्रा B बड़ी है।", "दोनों मात्राएँ बराबर हैं।", "मात्रा A बड़ी है।"],
+    solution: "Since 9 is added in Quantity A and 9 is subtracted in Quantity B, <b>Quantity A is bigger</b> regardless of the value of w."
+  },
+  {
+    section: "Part 1",
+    q_en: "A woman, pointing to a photograph, said 'This person's daughter is my mother-in-law'. How is the woman's son related to the person in the photograph?",
+    q_hi: "एक महिला ने, एक तस्वीर की ओर इशारा करते हुए कहा 'इस व्यक्ति की बेटी मेरी सास है', महिला के बेटे का तस्वीर वाले व्यक्ति से क्या संबंध है?",
+    ans: "3",
+    op_en: ["Grandson", "Son", "Great-grandson", "Father"],
+    op_hi: ["पोता", "बेटा", "परपोता (Great-grandson)", "पिता"],
+    solution: "Person's daughter = Woman's Mother-in-law.<br>Woman's Son -> Woman -> Mother-in-law -> Person.<br>The son is the <b>Great-grandson (परपोता)</b> of the person in the photograph."
+  },
+  {
+    section: "Part 1",
+    q_en: "Choose the odd one out:",
+    q_hi: "निम्न में से विषम/बेमेल विकल्प का चुनाव करें:",
+    ans: "4",
+    op_en: ["FLOW", "FLED", "FLING", "FLOOR"],
+    op_hi: ["FLOW", "FLED", "FLING", "FLOOR"],
+    solution: "<b>FLOOR</b> is a Noun, while Flow, Fled, and Fling are Verbs."
+  },
+  {
+    section: "Part 1",
+    q_en: "An aircraft company declined bonus to its pilots. Through an internal source, the company got to know that Pilots may take a decision to go for indefinite strike. What shall company do?",
+    q_hi: "एक विमान कंपनी ने अपने पायलटों को बोनस देने से मना कर दिया। आंतरिक सूत्र के माध्यम से, कंपनी को पता चला कि पायलट अनिश्चितकालीन हड़ताल पर जाने का निर्णय ले सकते हैं। कंपनी को क्या करना चाहिए?",
+    ans: "3",
+    op_en: [
+      "Surrender to the pilots request immediately.",
+      "Cancel all the flights in the anticipation of upcoming strike.",
+      "Try to negotiate with the pilots to defer the strike notice.",
+      "Wait till pilots take any action."
+    ],
+    op_hi: [
+      "पायलटों के अनुरोध को तुरंत मान लेना चाहिए।",
+      "आगामी हड़ताल की आशंका में सभी उड़ानें रद्द कर देनी चाहिए।",
+      "पायलटों के साथ बातचीत करके हड़ताल के नोटिस को टालने का प्रयास करना चाहिए।",
+      "पायलटों द्वारा कोई कार्रवाई किए जाने तक इंतजार करना चाहिए।"
+    ],
+    solution: "The best course of action is to <b>negotiate with the pilots</b> to avoid disruption."
+  },
+  {
+    section: "Part 1",
+    q_en: "If 2 is coded as 'F' and 'F' is coded as '11' what will be the code of \"E4MC8K\"?",
+    q_hi: "यदि 2 को 'F' के रूप में कोडित किया गया है और 'F' को '11' के रूप में कोडित किया गया है, तो \"E4MC8K\" का कोड क्या होगा?",
+    ans: "3",
+    op_en: ["JISHLP", "IHHSLO", "JHSHLP", "IISHLO"],
+    op_hi: ["JISHLP", "IHHSLO", "JHSHLP", "IISHLO"],
+    solution: "As per the answer key, the code is <b>JHSHLP</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "Find the odd one out.",
+    q_hi: "विषम चुनें।",
+    ans: "3",
+    op_en: ["AFP", "ULD", "PAH", "INR"],
+    op_hi: ["AFP", "ULD", "PAH", "INR"],
+    solution: "<b>PAH</b> starts with a consonant (P), while AFP, ULD, and INR start with vowels."
+  },
+  {
+    section: "Part 1",
+    q_en: "In the census of a particular state, it was found that the female-to-male ratio is alarmingly low. What kind of action should the government take?",
+    q_hi: "किसी विशेष राज्य की जनगणना में यह पाया गया कि यहां महिला पुरुष अनुपात चिंताजनक रूप से कम है। सरकार को किस प्रकार की कार्रवाई करनी चाहिए?",
+    ans: "1",
+    op_en: [
+      "Awareness should be created among people regarding gender equality.",
+      "Policies should be made in this regard during the assembly session.",
+      "An international agency should be asked to re-evaluate the results.",
+      "Calculation and data collection should be done once again."
+    ],
+    op_hi: [
+      "लैंगिक समानता के संबंध में लोगों को जागरूक करना चाहिए।",
+      "विधानसभा सत्र के दौरान इस संबंध में नीतियां बनानी चाहिए।",
+      "एक अंतरराष्ट्रीय एजेंसी से परिणामों का पुनर्मूल्यांकन करवाना चाहिए।",
+      "एक बार फिर से गणना और डेटा संग्रह करना चाहिए।"
+    ],
+    solution: "The most immediate and effective social action is to <b>create awareness regarding gender equality</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "Suppose days extra to full weeks in a year are called odd days. How many odd days will be there in the year 2020?",
+    q_hi: "मान लीजिए एक वर्ष में पूर्ण सप्ताह से अतिरिक्त दिनों को विषम दिन कहा जाता है। वर्ष 2020 में कितने विषम दिन होंगे?",
+    ans: "2",
+    op_en: ["3", "2", "1", "4"],
+    op_hi: ["3", "2", "1", "4"],
+    solution: "2020 is a Leap Year (366 days).<br>366 / 7 = 52 weeks and <b>2 odd days</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "A woman pointing to a photograph says that \"The man in the picture is my nieces' paternal grandfather\". How is man in picture related to women's brother who has no other brother?",
+    q_hi: "एक तस्वीर की ओर इशारा करते हुए एक महिला कहती है कि \"तस्वीर में दिख रहा व्यक्ति मेरी भतीजी का दादा (Paternal Grandfather) है\"। तस्वीर वाला व्यक्ति महिला के भाई (जिसका कोई अन्य भाई नहीं है) से किस प्रकार संबंधित है?",
+    ans: "1",
+    op_en: ["Father", "Paternal cousin", "Grandfather", "Uncle"],
+    op_hi: ["पिता", "चचेरा भाई", "दादा", "चाचा/मामा"],
+    solution: "Niece's paternal grandfather = Father of the Niece's father.<br>Niece's father is the woman's brother (since he has no other brother).<br>So the man is the <b>Father</b> of the woman's brother."
+  },
+  {
+    section: "Part 1",
+    q_en: "If MENTAL is written LNDFMOSUZBKM then how would TEST be written in that code?",
+    q_hi: "यदि MENTAL को LNDFMOSUZBKM लिखा जाता है तो उस कोड में TEST को कैसे लिखा जाएगा?",
+    ans: "4",
+    op_en: ["SUDFORSM", "RSCDQRRS", "UVFGTUUV", "SUDFRTSU"],
+    op_hi: ["SUDFORSM", "RSCDQRRS", "UVFGTUUV", "SUDFRTSU"],
+    solution: "Each letter is coded as its Previous and Next letter.<br>T -> S, U<br>E -> D, F<br>S -> R, T<br>T -> S, U<br>Code: <b>SUDFRTSU</b>"
+  },
+  {
+    section: "Part 1",
+    q_en: "Find the odd one out:",
+    q_hi: "विषम चुनें:",
+    ans: "1",
+    op_en: ["263", "212", "297", "249"],
+    op_hi: ["263", "212", "297", "249"],
+    solution: "<b>263</b> is a Prime Number. Others are composite numbers."
+  }
 ];
 
 let currentState = { idx: 0, answers: new Array(QUESTIONS.length).fill(null), review: new Array(QUESTIONS.length).fill(false), time: TOTAL_TIME_MINS * 60, secIdx: 0, submitted: false, name: "" };
