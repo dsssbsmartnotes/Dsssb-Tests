@@ -1,0 +1,1193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DSSSB CBT Professional Portal (Pro + Rank)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+<script>
+window.MathJax = {
+  tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$']] },
+  svg: { fontCache: 'global' },
+  startup: { typeset: false }
+};
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+<style>
+/* =========================
+   CORE THEME & VIBRANT VARIABLES
+   ========================= */
+:root {
+  --primary-hue: 250; 
+  --primary: hsl(var(--primary-hue), 80%, 60%);
+  --primary-dark: hsl(var(--primary-hue), 80%, 45%);
+  --primary-light: hsl(var(--primary-hue), 90%, 95%);
+  --gradient-main: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  --gradient-header: linear-gradient(90deg, #4f46e5, #9333ea);
+  
+  --success: #10b981;
+  --success-bg: #d1fae5;
+  --danger: #ef4444;
+  --danger-bg: #fee2e2;
+  --warning: #f59e0b;
+  --warning-bg: #fef3c7;
+  
+  --bg-body: #f3f4f6;
+  --bg-body-gradient: linear-gradient(135deg, #eff6ff 0%, #f5f3ff 100%);
+  --bg-card: rgba(255, 255, 255, 0.95);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+  
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 25px -5px rgba(99, 102, 241, 0.15);
+  
+  --header-height: 64px;
+  --footer-height: 64px;
+  --radius-lg: 16px;
+}
+
+body.dark-mode {
+  --primary: #818cf8;
+  --primary-dark: #6366f1;
+  --primary-light: rgba(99, 102, 241, 0.1);
+  --gradient-main: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  --gradient-header: linear-gradient(90deg, #312e81, #581c87);
+  
+  --bg-body: #0f172a;
+  --bg-body-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+  --bg-card: #1e293b;
+  --glass-border: #334155;
+  
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --border-color: #334155;
+  --shadow-lg: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+* { box-sizing: border-box; outline: none; -webkit-tap-highlight-color: transparent; }
+html, body { width: 100%; height: 100%; margin: 0; padding: 0; font-family: 'Poppins', 'Segoe UI', system-ui, sans-serif; background: var(--bg-body-gradient); color: var(--text-main); overflow: hidden; user-select: none; transition: background 0.3s ease; }
+body { display: grid; grid-template-rows: var(--header-height) auto 1fr var(--footer-height); }
+
+/* --- POPUPS & TOAST --- */
+#tgPopup {
+  position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%);
+  background: var(--bg-card); padding: 30px; width: 85%; max-width: 340px;
+  border-radius: 20px; box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+  z-index: 9999; text-align: center; display: none; color: var(--text-main);
+  border: 1px solid var(--border-color); backdrop-filter: blur(10px);
+}
+#tgPopup a { display: block; background: #0088cc; color: #fff; padding: 14px; border-radius: 12px; text-decoration: none; margin-top: 20px; font-weight: bold; box-shadow: 0 4px 10px rgba(0,136,204,0.3); transition: transform 0.2s; }
+#tgPopup a:active { transform: scale(0.98); }
+.tg-btn-continue { background: transparent; color: var(--text-muted); border: 2px solid var(--border-color); padding: 10px 20px; border-radius: 12px; margin-top: 15px; cursor: pointer; font-weight: 600; width: 100%; transition: 0.2s; }
+.tg-btn-continue:hover { border-color: var(--primary); color: var(--primary); }
+
+#toast-container { position: fixed; bottom: 90px; left: 50%; transform: translateX(-50%); z-index: 10000; display: flex; flex-direction: column; gap: 10px; align-items: center; pointer-events: none; width: 90%; max-width: 400px; }
+.toast { background: rgba(15, 23, 42, 0.9); color: #fff; padding: 12px 24px; border-radius: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); display: flex; align-items: center; gap: 12px; font-size: 14px; animation: slideUp 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); pointer-events: auto; backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.1); }
+.toast.success { border-left: 5px solid var(--success); } .toast.error { border-left: 5px solid var(--danger); }
+@keyframes slideUp { from { opacity: 0; transform: translateY(30px) scale(0.9); } to { opacity: 1; transform: translateY(0) scale(1); } }
+
+/* --- LOGIN --- */
+.full-overlay { position: fixed; inset: 0; background: var(--bg-body-gradient); z-index: 2000; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px; overflow-y: auto; }
+.login-card { background: var(--bg-card); padding: 40px 30px; border-radius: 24px; box-shadow: var(--shadow-lg); width: 100%; max-width: 420px; text-align: center; border: 1px solid var(--glass-border); backdrop-filter: blur(10px); }
+.login-input { width: 100%; padding: 14px; margin: 10px 0; border: 2px solid var(--border-color); border-radius: 12px; background: rgba(255,255,255,0.05); color: var(--text-main); font-size: 16px; transition: 0.3s; }
+.login-input:focus { border-color: var(--primary); box-shadow: 0 0 0 4px var(--primary-light); }
+.btn-primary { background: var(--gradient-main); color: #fff; border: none; padding: 14px; width: 100%; border-radius: 12px; font-weight: bold; font-size: 16px; cursor: pointer; margin-top: 20px; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4); }
+.btn-primary:active { transform: scale(0.98); }
+
+/* --- HEADER --- */
+header { background: var(--gradient-header); box-shadow: 0 4px 20px rgba(0,0,0,0.1); display: flex; align-items: center; justify-content: space-between; padding: 0 20px; z-index: 50; height: var(--header-height); color: white; }
+.brand { font-weight: 900; font-size: 20px; color: #fff; display: flex; align-items: center; gap: 8px; letter-spacing: 0.5px; text-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.header-tools { display: flex; gap: 10px; align-items: center; }
+.timer-badge { background: rgba(255,255,255,0.2); color: #fff; padding: 6px 12px; border-radius: 8px; font-weight: 700; font-family: 'Courier New', monospace; font-size: 16px; border: 1px solid rgba(255,255,255,0.3); backdrop-filter: blur(4px); }
+.timer-badge.low { background: rgba(239, 68, 68, 0.9); animation: pulse 1s infinite; }
+.nav-btn { padding: 8px 12px; border-radius: 8px; font-weight: 600; cursor: pointer; border: none; background: rgba(255,255,255,0.15); color: #fff; font-size: 14px; display: flex; align-items: center; justify-content: center; transition: 0.2s; }
+.nav-btn:hover { background: rgba(255,255,255,0.3); }
+@keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+
+/* --- SECTION BAR --- */
+#sectionBar { background: var(--bg-card); border-bottom: 1px solid var(--border-color); display: flex; overflow-x: auto; scrollbar-width: none; white-space: nowrap; height: 55px; align-items: center; padding: 0 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); }
+.sec-tab { padding: 0 18px; height: 36px; border-radius: 18px; margin: 0 4px; font-size: 13px; font-weight: 600; color: var(--text-muted); display: flex; align-items: center; gap: 6px; transition: 0.3s; border: 1px solid transparent; }
+.sec-tab.active { background: var(--gradient-main); color: #fff; box-shadow: 0 2px 8px rgba(99, 102, 241, 0.4); }
+.sec-tab.done { color: var(--success); background: var(--success-bg); border-color: var(--success); }
+
+/* --- MAIN LAYOUT --- */
+#mainArea { padding: 20px; overflow-y: auto; display: none; position: relative; }
+.q-card { background: var(--bg-card); border-radius: var(--radius-lg); border: 1px solid var(--border-color); padding: 25px; box-shadow: var(--shadow-sm); margin-bottom: 25px; transition: transform 0.2s; }
+.q-header { display: flex; justify-content: space-between; margin-bottom: 15px; border-bottom: 1px dashed var(--border-color); padding-bottom: 12px; font-size: 14px; color: var(--text-muted); font-weight: 600; }
+.q-text { font-size: 17px; line-height: 1.6; margin-bottom: 20px; font-weight: 500; color: var(--text-main); }
+.q-text img, .opt img { max-width: 100%; height: auto; border-radius: 8px; cursor: zoom-in; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-top: 8px; }
+
+.opt { display: flex; align-items: center; padding: 14px; border: 2px solid var(--border-color); border-radius: 12px; margin-bottom: 12px; cursor: pointer; transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94); background: var(--bg-card); font-size: 15px; position: relative; overflow: hidden; }
+.opt:hover { border-color: var(--primary); background: var(--primary-light); transform: translateY(-2px); }
+.opt.sel { background: var(--primary-light); border-color: var(--primary); font-weight: 600; box-shadow: 0 4px 10px rgba(99, 102, 241, 0.2); }
+.opt-badge { width: 30px; height: 30px; border-radius: 50%; background: var(--bg-body); border: 2px solid var(--border-color); display: flex; align-items: center; justify-content: center; margin-right: 15px; font-size: 12px; font-weight: 800; flex-shrink: 0; color: var(--text-muted); transition: 0.2s; }
+.opt.sel .opt-badge { background: var(--primary); border-color: var(--primary); color: #fff; }
+
+.opt.correct-ans { border-color: var(--success); background: var(--success-bg); }
+.opt.correct-ans .opt-badge { background: var(--success); border-color: var(--success); color: #fff; }
+.opt.wrong-ans { border-color: var(--danger); background: var(--danger-bg); }
+.opt.wrong-ans .opt-badge { background: var(--danger); border-color: var(--danger); color: #fff; }
+
+/* --- FOOTER --- */
+footer { background: var(--bg-card); padding: 0 15px; border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; gap: 12px; display: none; z-index: 40; align-items: center; height: var(--footer-height); box-shadow: 0 -4px 20px rgba(0,0,0,0.05); }
+footer .nav-btn { height: 44px; flex: 1; max-width: 140px; background: transparent; border: 2px solid var(--border-color); color: var(--text-main); }
+footer .btn-grid { max-width: 60px; font-size: 20px; border-color: transparent; }
+footer .nav-btn.primary { background: var(--gradient-main); color: #fff; border: none; box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3); }
+
+/* --- PALETTE PANEL --- */
+#palettePanel { 
+    position: fixed; top: 0; right: 0; bottom: 0;
+    width: 300px; background: var(--bg-card); z-index: 2000; 
+    display: flex; flex-direction: column; 
+    box-shadow: -5px 0 30px rgba(0,0,0,0.2); 
+    transform: translateX(100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+#palettePanel.show { transform: translateX(0); }
+.modal-header { padding: 20px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; font-weight: 800; font-size: 18px; color: var(--primary); background: var(--primary-light); }
+.p-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; padding: 20px; overflow-y: auto; flex: 1; align-content: start; }
+.qbtn { aspect-ratio: 1; border-radius: 10px; border: 1px solid var(--border-color); background: var(--bg-body); font-weight: 700; font-size: 13px; cursor: pointer; color: var(--text-main); transition: 0.2s; }
+
+.qbtn.current { border: 2px solid var(--primary); background: #fff; color: var(--primary); transform: scale(1.1); }
+.qbtn.answered { background: var(--success); color: #fff; border: none; }
+.qbtn.review { background: var(--warning); color: #fff; border: none; }
+.qbtn.p-correct { background: var(--success); color: #fff; border-color: var(--success); }
+.qbtn.p-wrong { background: var(--danger); color: #fff; border-color: var(--danger); }
+.qbtn.p-skip { background: var(--text-muted); color: #fff; border-color: var(--text-muted); opacity: 0.5; }
+
+/* --- RESULT MODALS & DASHBOARD --- */
+.modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 1500; display: none; backdrop-filter: blur(5px); justify-content: center; align-items: center; padding: 15px; }
+.modal-card { background: var(--bg-card); width: 100%; max-width: 800px; max-height: 90vh; border-radius: 24px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.4); border: 1px solid var(--glass-border); }
+.modal-body { padding: 25px; overflow-y: auto; }
+
+/* Testbook Style Analysis Container */
+.analysis-container { max-width: 900px; margin: auto; display: flex; flex-direction: column; gap: 14px; padding: 10px 0; font-family: 'Poppins', sans-serif; }
+.card-dashboard { background: var(--bg-card); border-radius: 12px; padding: 16px; box-shadow: var(--shadow-sm); border: 1px solid var(--border-color); }
+.info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; font-size: 14px; color: var(--text-muted); }
+.info-grid div b { color: var(--text-main); }
+.score-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; text-align: center; }
+.score-item { background: var(--primary-light); border-radius: 10px; padding: 14px; border: 1px solid rgba(99, 102, 241, 0.2); }
+.score-item h4 { margin: 0; font-size: 13px; color: var(--primary-dark); text-transform: uppercase; letter-spacing: 0.5px; }
+.score-item p { margin: 6px 0 0; font-size: 20px; font-weight: 800; color: var(--text-main); }
+.attempt-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; text-align: center; }
+.attempt-box { padding: 12px; border-radius: 10px; font-weight: 700; font-size: 13px; border: 1px solid transparent; }
+.attempt-box span { display: block; font-size: 20px; margin-top: 4px; font-weight: 800; }
+
+.at-correct { background: var(--success-bg); color: var(--success); border-color: rgba(16, 185, 129, 0.3); }
+.at-wrong { background: var(--danger-bg); color: var(--danger); border-color: rgba(239, 68, 68, 0.3); }
+.at-unattempted { background: var(--warning-bg); color: #b77c00; border-color: rgba(245, 158, 11, 0.3); }
+.at-total { background: var(--primary-light); color: var(--primary-dark); border-color: rgba(99, 102, 241, 0.3); }
+
+/* Comparison Bars */
+.bar-section { margin-top: 10px; }
+.bar-label { display: flex; justify-content: space-between; font-size: 13px; font-weight: 700; margin-bottom: 6px; color: var(--text-muted); }
+.bar-track { height: 10px; background: var(--border-color); border-radius: 99px; overflow: hidden; position: relative; }
+.bar-fill { height: 100%; border-radius: 99px; transition: width 1s ease-out; }
+.fill-you { background: var(--primary); }
+.fill-topper { background: var(--success); }
+
+/* Leaderboard */
+.topper-table { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 10px; }
+.topper-table th { background: var(--bg-body); color: var(--text-muted); font-weight: 700; padding: 10px; text-align: left; border-bottom: 2px solid var(--border-color); }
+.topper-table td { padding: 10px; border-bottom: 1px solid var(--border-color); color: var(--text-main); }
+.section-title { font-size: 16px; font-weight: 700; margin: 0 0 14px; color: var(--text-main); padding-bottom: 8px; border-bottom: 1px solid var(--border-color); }
+
+@media(max-width: 480px) {
+    #palettePanel { width: 85%; } 
+    .brand span { font-size: 24px; } .brand { font-size: 18px; }
+    .timer-badge { font-size: 14px; padding: 4px 10px; }
+    .nav-btn { padding: 6px 10px; font-size: 12px; }
+    .sec-tab { padding: 0 12px; font-size: 12px; height: 32px; }
+    .dashboard-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body onload="initApp()">
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    if (window.Telegram && window.Telegram.WebApp) {
+        const tg = window.Telegram.WebApp;
+        tg.expand(); // Full screen inside Telegram
+        
+        // SECURITY CHECK: Agar link kisi ne Chrome/Safari mein copy paste kiya toh Access Denied
+        if (!tg.initData) {
+            document.body.innerHTML = `
+                <div style="display:flex; height:100vh; width:100vw; background:var(--bg-body-gradient); color:var(--text-main); justify-content:center; align-items:center; flex-direction:column; text-align:center; padding:20px; font-family: 'Poppins', sans-serif;">
+                    <h1 style="color:var(--danger); font-size:60px; margin:0;">🚫</h1>
+                    <h2 style="margin:10px 0;">Access Denied!</h2>
+                    <p style="color:var(--text-muted); font-weight:500;">This premium test can only be accessed via the official Telegram App.<br>Please open it directly from our private channel.</p>
+                </div>
+            `;
+            return;
+        } else {
+            // Agar genuine user hai, toh uska naam Telegram se nikal kar form me pre-fill kar do
+            const user = tg.initDataUnsafe.user;
+            if(user && user.first_name) {
+                setTimeout(() => {
+                    const nameInput = document.getElementById('startNameInput');
+                    if(nameInput) {
+                        nameInput.value = user.first_name + (user.last_name ? " " + user.last_name : "");
+                        // Aap chahein toh user ko name change karne se rok sakte hain:
+                        // nameInput.readOnly = true;
+                    }
+                }, 500);
+            }
+        }
+    }
+  });
+</script>
+<div id="tgPopup">
+  <div style="font-size:40px; margin-bottom:10px;">📢</div>
+  <h3 style="margin:0; color:var(--primary);">Join DSSSB Rank</h3>
+  <p style="font-size:13px; color:var(--text-muted); margin:10px 0 20px;">Get Daily Mock Tests, PDFs & Live Leaderboards</p>
+  <a href="https://t.me/DSSSBRank" target="_blank">🚀 Join Telegram Channel</a>
+  <button class="tg-btn-continue" onclick="closeTg()">Continue Test</button>
+</div>
+
+<div id="zoomModal" onclick="closeZoom()" style="position:fixed; inset:0; background:rgba(0,0,0,0.95); z-index:5000; display:none; justify-content:center; align-items:center; flex-direction:column;">
+    <span style="position:absolute; top:20px; right:20px; font-size:40px; color:#fff; cursor:pointer;">&times;</span>
+    <img id="zoomImg" src="" style="max-width:95%; max-height:80vh; border-radius:12px; box-shadow:0 0 50px rgba(255,255,255,0.1);">
+    <div style="color:#fff; margin-top:15px; font-size:14px; opacity:0.7;">Click anywhere to close</div>
+</div>
+
+<div id="paletteOverlay" onclick="togglePalette()" style="position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:1900; display:none; backdrop-filter:blur(2px);"></div>
+<div id="toast-container"></div>
+
+<div id="startScreen" class="full-overlay">
+    <div class="login-card">
+        <div style="font-size:50px; margin-bottom:15px;">🛡️</div>
+        <h2 style="margin:0 0 5px 0; color:var(--text-main); font-weight:800;">DSSSB Pro Portal</h2>
+        <p style="color:var(--text-muted); font-size:14px; margin-bottom:30px;">Secure Computer Based Test System</p>
+        
+        <div style="text-align:left; margin-bottom:5px; font-size:13px; font-weight:600; margin-left:5px;">Full Name</div>
+        <input type="text" id="startNameInput" class="login-input" placeholder="e.g. Rahul Sharma">
+        
+        <div id="resumeBox" style="display:none; margin-top:20px; background:rgba(245, 158, 11, 0.1); padding:15px; border-radius:12px; border:1px solid var(--warning); color:var(--warning); font-size:13px; text-align:left;">
+            <b>⚠️ Session Recovered</b><br>
+            We found an incomplete test saved on this device.
+            <div style="margin-top:12px; display:flex; gap:10px;">
+                <button onclick="loadState()" style="padding:8px 15px; background:var(--warning); color:white; border:none; border-radius:8px; cursor:pointer; font-weight:bold;">Resume Test</button>
+                <button onclick="clearState()" style="padding:8px 15px; background:none; border:1px solid var(--warning); color:var(--warning); border-radius:8px; cursor:pointer; font-weight:bold;">Start New</button>
+            </div>
+        </div>
+        
+        <button class="btn-primary" onclick="validateLogin()">START EXAM ➔</button>
+    </div>
+</div>
+
+<header>
+    <div class="brand"><span>🛡️</span> DSSSB <span style="opacity:0.8; font-weight:400; font-size:16px;">CBT</span></div>
+    <div class="header-tools">
+        <div id="timer" class="timer-badge">120:00</div>
+        <button class="nav-btn" onclick="toggleTheme()" title="Dark Mode">🌙</button>
+        <button class="nav-btn" onclick="toggleLang()" id="langBtn" style="width:40px;">HI</button>
+        <button class="nav-btn" onclick="toggleFS()" title="Fullscreen">⛶</button>
+    </div>
+</header>
+
+<div id="sectionBar"></div>
+
+<div id="mainArea">
+    <div class="q-card">
+        <div class="q-header">
+            <span style="display:flex; align-items:center; gap:8px;"><span style="background:var(--primary); color:#fff; padding:2px 8px; border-radius:6px; font-size:12px;">Q.<span id="qNumDisp">1</span></span></span>
+            <span style="font-family:monospace; font-size:14px;"><span style="color:var(--success)">+1.0</span> &nbsp;|&nbsp; <span style="color:var(--danger)">-0.25</span></span>
+        </div>
+        <div id="qContent" class="q-text"></div>
+        <div id="opts"></div>
+        <div id="solutionDisplay" class="sol-box" style="display:none; margin-top:20px;"></div>
+        
+        <div style="margin-top:25px; display:flex; gap:15px;">
+            <button class="nav-btn" style="border:1px solid var(--warning); color:var(--warning); flex:1; background:transparent;" onclick="markReview()">⭐ Mark for Review</button>
+            <button class="nav-btn" style="border:1px solid var(--text-muted); color:var(--text-muted); flex:1; background:transparent;" onclick="clearResponse()">↺ Clear Response</button>
+        </div>
+    </div>
+    <div style="height:40px;"></div>
+</div>
+
+<div id="palettePanel">
+    <div class="modal-header">
+        <span>Question Palette</span>
+        <button onclick="togglePalette()" style="border:none; background:none; font-size:24px; color:var(--primary); cursor:pointer;">&times;</button>
+    </div>
+    <div class="p-grid" id="paletteGrid"></div>
+    <div style="padding:20px; border-top:1px solid var(--border-color); background:var(--bg-body);">
+        <button id="mainSubmitBtn" onclick="submitTest()" class="btn-primary" style="background:var(--danger); box-shadow:0 4px 15px rgba(239, 68, 68, 0.4);">SUBMIT EXAM</button>
+    </div>
+</div>
+
+<div id="resultModal" class="modal-overlay">
+    <div class="modal-card">
+        <div class="modal-header">
+            <span>🏆 Analysis & Leaderboard</span>
+            <button onclick="closeResult()" style="border:none; background:none; font-size:24px; color:var(--primary); cursor:pointer;">&times;</button>
+        </div>
+        <div class="modal-body" id="resultContent"></div>
+    </div>
+</div>
+
+<footer>
+    <button class="nav-btn btn-grid" onclick="togglePalette()">▦ Grid</button>
+    <button class="nav-btn" onclick="prev()">Before</button>
+    <button class="nav-btn primary" id="nextBtn" onclick="next()">Save & Next</button>
+</footer>
+<script>
+/* =========================
+   FIREBASE CONFIG & INIT
+   ========================= */
+const firebaseConfig = {
+  apiKey: "AIzaSyDGolcXv0efZxRdOvBthfeT72mkNLLbAwI",
+  authDomain: "dsssbexamportal.firebaseapp.com",
+  databaseURL: "https://dsssbexamportal-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "dsssbexamportal",
+  storageBucket: "dsssbexamportal.firebasestorage.app",
+  messagingSenderId: "853373171134",
+  appId: "1:853373171134:web:77b967374e6f34311af5ef"
+};
+
+// Initialize Firebase
+if (!firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig);
+}
+const db = firebase.database();
+
+/* =========================
+   DATA & CONFIG (UPDATED)
+   ========================= */
+const TEST_ID = "TEST_001"; // <--- CHANGE THIS FOR EVERY NEW TEST
+const DB_REF_NAME = "dsssb_results_live";
+
+const TOTAL_TIME_MINS = 120;
+const STORAGE_KEY = "dsssb_cbt_rank_v2";
+const NEGATIVE_MARK = 0.25;
+const TELEGRAM_BOT_TOKEN="8486464606:AAFT_Bd0P2HYqKNPjCm3s7TGgfM4HWmOYvs";
+const TELEGRAM_CHAT_ID="@dsssbcbtresult";
+const PASSING_MARKS = 3; 
+
+const QUESTIONS = [
+  {
+    section: "Part 1",
+    q_en: "If you are asked to roll a dice, What is the probability you are getting 4?",
+    q_hi: "यदि आप एक पासा फेंकते हैं, तो 4 आने की प्रायिकता क्या है?",
+    ans: "1",
+    op_en: ["1/6", "2/6", "3/6", "4/6"],
+    op_hi: ["1/6", "2/6", "3/6", "4/6"],
+    solution: "A dice has 6 faces (1, 2, 3, 4, 5, 6). The number 4 appears once.<br>Probability = Favorable Outcomes / Total Outcomes = <b>1/6</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "Select the correct option.<br>Legend : Story :: Alliteration : ?",
+    q_hi: "नीचे दिए गए विकल्पों में से सही उत्तर का चयन करें।<br>किंवदंती : कथा :: अनुप्रास : ?",
+    ans: "4",
+    op_en: ["Screen", "Novel", "Superstar", "Poetry"],
+    op_hi: ["स्क्रीन", "उपन्यास", "सुपर स्टार", "कविता"],
+    solution: "Legend is a type of Story. Similarly, Alliteration is a figure of speech used in <b>Poetry (कविता)</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "Introducing a woman Ramesh said - \"She is the mother of the only daughter of my son.\" How is that woman related to Ramesh?",
+    q_hi: "एक महिला का परिचय देते हुए रमेश ने कहा - \"वह मेरे बेटे की इकलौती बेटी की माँ है।\" वह महिला रमेश से किस प्रकार संबंधित है?",
+    ans: "2",
+    op_en: ["Daughter", "Daughter-in-law", "Wife", "Sister"],
+    op_hi: ["बेटी", "बहू (Daughter-in-law)", "पत्नी", "बहन"],
+    solution: "Ramesh's son's only daughter = Ramesh's granddaughter.<br>Mother of granddaughter = Son's wife.<br>So, the woman is the <b>Daughter-in-law</b> of Ramesh."
+  },
+  {
+    section: "Part 1",
+    q_en: "The \"Rickets\" is related to \"Vitamin D\", \"Anemia\" is related to:",
+    q_hi: "\"रिकेट्स\" का संबंध \"विटामिन डी\" से है, \"एनीमिया\" का संबंध किससे है?",
+    ans: "2",
+    op_en: ["Hemoglobin", "Iron", "Blood", "Vitamin K"],
+    op_hi: ["हीमोग्लोबिन", "लोहा (Iron)", "रक्त", "विटामिन K"],
+    solution: "Rickets is caused by deficiency of Vitamin D. Similarly, Anemia is caused by deficiency of <b>Iron</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "As Edison is related to light, similarly which one of the following is correct?",
+    q_hi: "जैसे एडिसन का संबंध प्रकाश से है, वैसे ही निम्नलिखित में से कौन सा सही है?",
+    ans: "4",
+    op_en: ["Columbus: Africa", "Darwin: Machine", "Newton: Evolution", "Graham Bell: Phone"],
+    op_hi: ["कोलंबस : अफ्रीका", "डार्विन : मशीन", "न्यूटन : विकासवाद", "ग्राहम बेल : फोन"],
+    solution: "Thomas Edison invented the light bulb. Similarly, <b>Graham Bell</b> invented the <b>Phone</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "Choose the word which cannot be made using letters of the word:<br>INFRASTRUCTURE",
+    q_hi: "उस शब्द का चयन करें जिसे शब्द के अक्षरों का उपयोग करके नहीं बनाया जा सकता है:<br>INFRASTRUCTURE",
+    ans: "4",
+    op_en: ["FAST", "CERTAIN", "TRUE", "CULTURE"],
+    op_hi: ["FAST", "CERTAIN", "TRUE", "CULTURE"],
+    solution: "The word <b>CULTURE</b> cannot be formed because the letter 'L' is missing in INFRASTRUCTURE."
+  },
+  {
+    section: "Part 1",
+    q_en: "Battles are related to History, Fossils are related to:",
+    q_hi: "युद्ध (Battles) का संबंध इतिहास (History) से है, जीवाश्म (Fossils) का संबंध किससे है?",
+    ans: "3",
+    op_en: ["Astronomy", "Ethnology", "Paleontology", "Numismatics"],
+    op_hi: ["खगोल विज्ञान (Astronomy)", "नृवंशविज्ञान (Ethnology)", "जीवाश्म विज्ञान (Paleontology)", "मुद्राशास्त्र (Numismatics)"],
+    solution: "Study of Battles is part of History. Study of Fossils is called <b>Paleontology</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "Select the option that is related to the third term in the same way as the second term is related to the first term.<br>Maps : Cartography :: Earthquakes : ?",
+    q_hi: "उस विकल्प का चयन करें जो तीसरे पद से उसी प्रकार संबंधित है जैसे दूसरा पद पहले पद से संबंधित है।<br>मानचित्र : कार्टोग्राफी :: भूकंप : ?",
+    ans: "1",
+    op_en: ["Seismology", "Astronomy", "Geography", "Geology"],
+    op_hi: ["सिस्मोलॉजी (Seismology)", "खगोल विज्ञान", "भूगोल", "भूविज्ञान"],
+    solution: "Cartography is the study/making of Maps. <b>Seismology</b> is the study of Earthquakes."
+  },
+  {
+    section: "Part 1",
+    q_en: "Mahesh has just graduated and wants to open an electronic store. He is unable to buy a shop in the main market area but wants to open his shop in such a place which is not very far from the main market, and people can visit his shop while visiting the main market. Which of these stores should Mahesh choose?",
+    q_hi: "महेश ने अभी-अभी स्नातक पास किया है और वह एक इलेक्ट्रॉनिक स्टोर खोलना चाहता है। वह मुख्य बाजार क्षेत्र में दुकान खरीदने में सक्षम नहीं है पर वह ऐसी जगह पर अपनी दुकान खोलना चाहता है जो मुख्य बाजार से बहुत दूर न हो, और लोग मुख्य बाजार आते समय ही उसकी दुकान पर भी आ सके। महेश को इनमें से कौन सा स्टोर चुनना चाहिए?",
+    ans: "2",
+    op_en: [
+      "A store near his home and far from the main market.",
+      "A small shop 600m away from the main market, where machinery manufacturing work is done.",
+      "A store in Central Market Mall, where there are many food options.",
+      "A large store with more storage capacity in a residential area near the main market."
+    ],
+    op_hi: [
+      "एक स्टोर जो उसके घर के पास हो और मुख्य बाजार से दूर हो।",
+      "मुख्य बाजार से 600m दूर एक छोटी दुकान, जहां मशीनरी बनाने का काम होता है।",
+      "सेंट्रल मार्केट मॉल में एक स्टोर, जहां खाने के बहुत से विकल्प मौजूद हो।",
+      "मुख्य बाजार के पास आवासीय क्षेत्र में अधिक भंडारण क्षमता वाला एक बड़ा स्टोर।"
+    ],
+    solution: "Option (2) is the best fit as it is <b>600m away from the main market</b> (not very far), allowing customers to visit easily."
+  },
+  {
+    section: "Part 1",
+    q_en: "If, Quantity A = w + 9 and Quantity B = w - 9, then:",
+    q_hi: "यदि, मात्रा A = w + 9 और मात्रा B = w - 9, तो:",
+    ans: "4",
+    op_en: ["Cannot be determined.", "Quantity B is bigger.", "Both the Quantities are equal.", "Quantity A is bigger."],
+    op_hi: ["निर्धारित नहीं किया जा सकता।", "मात्रा B बड़ी है।", "दोनों मात्राएँ बराबर हैं।", "मात्रा A बड़ी है।"],
+    solution: "Since 9 is added in Quantity A and 9 is subtracted in Quantity B, <b>Quantity A is bigger</b> regardless of the value of w."
+  },
+  {
+    section: "Part 1",
+    q_en: "A woman, pointing to a photograph, said 'This person's daughter is my mother-in-law'. How is the woman's son related to the person in the photograph?",
+    q_hi: "एक महिला ने, एक तस्वीर की ओर इशारा करते हुए कहा 'इस व्यक्ति की बेटी मेरी सास है', महिला के बेटे का तस्वीर वाले व्यक्ति से क्या संबंध है?",
+    ans: "3",
+    op_en: ["Grandson", "Son", "Great-grandson", "Father"],
+    op_hi: ["पोता", "बेटा", "परपोता (Great-grandson)", "पिता"],
+    solution: "Person's daughter = Woman's Mother-in-law.<br>Woman's Son -> Woman -> Mother-in-law -> Person.<br>The son is the <b>Great-grandson (परपोता)</b> of the person in the photograph."
+  },
+  {
+    section: "Part 1",
+    q_en: "Choose the odd one out:",
+    q_hi: "निम्न में से विषम/बेमेल विकल्प का चुनाव करें:",
+    ans: "4",
+    op_en: ["FLOW", "FLED", "FLING", "FLOOR"],
+    op_hi: ["FLOW", "FLED", "FLING", "FLOOR"],
+    solution: "<b>FLOOR</b> is a Noun, while Flow, Fled, and Fling are Verbs."
+  },
+  {
+    section: "Part 1",
+    q_en: "An aircraft company declined bonus to its pilots. Through an internal source, the company got to know that Pilots may take a decision to go for indefinite strike. What shall company do?",
+    q_hi: "एक विमान कंपनी ने अपने पायलटों को बोनस देने से मना कर दिया। आंतरिक सूत्र के माध्यम से, कंपनी को पता चला कि पायलट अनिश्चितकालीन हड़ताल पर जाने का निर्णय ले सकते हैं। कंपनी को क्या करना चाहिए?",
+    ans: "3",
+    op_en: [
+      "Surrender to the pilots request immediately.",
+      "Cancel all the flights in the anticipation of upcoming strike.",
+      "Try to negotiate with the pilots to defer the strike notice.",
+      "Wait till pilots take any action."
+    ],
+    op_hi: [
+      "पायलटों के अनुरोध को तुरंत मान लेना चाहिए।",
+      "आगामी हड़ताल की आशंका में सभी उड़ानें रद्द कर देनी चाहिए।",
+      "पायलटों के साथ बातचीत करके हड़ताल के नोटिस को टालने का प्रयास करना चाहिए।",
+      "पायलटों द्वारा कोई कार्रवाई किए जाने तक इंतजार करना चाहिए।"
+    ],
+    solution: "The best course of action is to <b>negotiate with the pilots</b> to avoid disruption."
+  },
+  {
+    section: "Part 1",
+    q_en: "If 2 is coded as 'F' and 'F' is coded as '11' what will be the code of \"E4MC8K\"?",
+    q_hi: "यदि 2 को 'F' के रूप में कोडित किया गया है और 'F' को '11' के रूप में कोडित किया गया है, तो \"E4MC8K\" का कोड क्या होगा?",
+    ans: "3",
+    op_en: ["JISHLP", "IHHSLO", "JHSHLP", "IISHLO"],
+    op_hi: ["JISHLP", "IHHSLO", "JHSHLP", "IISHLO"],
+    solution: "As per the answer key, the code is <b>JHSHLP</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "Find the odd one out.",
+    q_hi: "विषम चुनें।",
+    ans: "3",
+    op_en: ["AFP", "ULD", "PAH", "INR"],
+    op_hi: ["AFP", "ULD", "PAH", "INR"],
+    solution: "<b>PAH</b> starts with a consonant (P), while AFP, ULD, and INR start with vowels."
+  },
+  {
+    section: "Part 1",
+    q_en: "In the census of a particular state, it was found that the female-to-male ratio is alarmingly low. What kind of action should the government take?",
+    q_hi: "किसी विशेष राज्य की जनगणना में यह पाया गया कि यहां महिला पुरुष अनुपात चिंताजनक रूप से कम है। सरकार को किस प्रकार की कार्रवाई करनी चाहिए?",
+    ans: "1",
+    op_en: [
+      "Awareness should be created among people regarding gender equality.",
+      "Policies should be made in this regard during the assembly session.",
+      "An international agency should be asked to re-evaluate the results.",
+      "Calculation and data collection should be done once again."
+    ],
+    op_hi: [
+      "लैंगिक समानता के संबंध में लोगों को जागरूक करना चाहिए।",
+      "विधानसभा सत्र के दौरान इस संबंध में नीतियां बनानी चाहिए।",
+      "एक अंतरराष्ट्रीय एजेंसी से परिणामों का पुनर्मूल्यांकन करवाना चाहिए।",
+      "एक बार फिर से गणना और डेटा संग्रह करना चाहिए।"
+    ],
+    solution: "The most immediate and effective social action is to <b>create awareness regarding gender equality</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "Suppose days extra to full weeks in a year are called odd days. How many odd days will be there in the year 2020?",
+    q_hi: "मान लीजिए एक वर्ष में पूर्ण सप्ताह से अतिरिक्त दिनों को विषम दिन कहा जाता है। वर्ष 2020 में कितने विषम दिन होंगे?",
+    ans: "2",
+    op_en: ["3", "2", "1", "4"],
+    op_hi: ["3", "2", "1", "4"],
+    solution: "2020 is a Leap Year (366 days).<br>366 / 7 = 52 weeks and <b>2 odd days</b>."
+  },
+  {
+    section: "Part 1",
+    q_en: "A woman pointing to a photograph says that \"The man in the picture is my nieces' paternal grandfather\". How is man in picture related to women's brother who has no other brother?",
+    q_hi: "एक तस्वीर की ओर इशारा करते हुए एक महिला कहती है कि \"तस्वीर में दिख रहा व्यक्ति मेरी भतीजी का दादा (Paternal Grandfather) है\"। तस्वीर वाला व्यक्ति महिला के भाई (जिसका कोई अन्य भाई नहीं है) से किस प्रकार संबंधित है?",
+    ans: "1",
+    op_en: ["Father", "Paternal cousin", "Grandfather", "Uncle"],
+    op_hi: ["पिता", "चचेरा भाई", "दादा", "चाचा/मामा"],
+    solution: "Niece's paternal grandfather = Father of the Niece's father.<br>Niece's father is the woman's brother (since he has no other brother).<br>So the man is the <b>Father</b> of the woman's brother."
+  },
+  {
+    section: "Part 1",
+    q_en: "If MENTAL is written LNDFMOSUZBKM then how would TEST be written in that code?",
+    q_hi: "यदि MENTAL को LNDFMOSUZBKM लिखा जाता है तो उस कोड में TEST को कैसे लिखा जाएगा?",
+    ans: "4",
+    op_en: ["SUDFORSM", "RSCDQRRS", "UVFGTUUV", "SUDFRTSU"],
+    op_hi: ["SUDFORSM", "RSCDQRRS", "UVFGTUUV", "SUDFRTSU"],
+    solution: "Each letter is coded as its Previous and Next letter.<br>T -> S, U<br>E -> D, F<br>S -> R, T<br>T -> S, U<br>Code: <b>SUDFRTSU</b>"
+  },
+  {
+    section: "Part 1",
+    q_en: "Find the odd one out:",
+    q_hi: "विषम चुनें:",
+    ans: "1",
+    op_en: ["263", "212", "297", "249"],
+    op_hi: ["263", "212", "297", "249"],
+    solution: "<b>263</b> is a Prime Number. Others are composite numbers."
+  }
+];
+
+// --- DYNAMIC SECTION MAP (QUESTIONS Array se automatically subjects uthayega) ---
+const SECTION_MAP = [...new Set(QUESTIONS.map(q => q.section))];
+
+let currentState = { idx: 0, answers: new Array(QUESTIONS.length).fill(null), review: new Array(QUESTIONS.length).fill(false), time: TOTAL_TIME_MINS * 60, secIdx: 0, submitted: false, name: "" };
+let timerInt;
+let secIndices = [];
+
+/* =========================
+   CORE FUNCTIONS
+   ========================= */
+function initApp() {
+    calcSectionIndices();
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if(saved) document.getElementById('resumeBox').style.display = 'block';
+}
+
+function calcSectionIndices() { 
+    SECTION_MAP.forEach(sec => { 
+        const start = QUESTIONS.findIndex(q => q.section === sec); 
+        secIndices.push(start !== -1 ? start : 0); 
+    }); 
+}
+
+function validateLogin() {
+    const name = document.getElementById('startNameInput').value.trim();
+    if(!name) return showToast("Please Enter Your Name", "error");
+    currentState.name = name;
+    startGame(false);
+}
+
+function startGame(isResuming) {
+    document.getElementById('startScreen').style.display = 'none';
+    document.querySelector('header').style.display = 'flex';
+    document.getElementById('mainArea').style.display = 'block';
+    document.querySelector('footer').style.display = 'flex';
+    renderSectionTabs();
+    if(!isResuming) currentState.idx = secIndices[0];
+    loadQuestion(currentState.idx);
+    startTimer();
+    setInterval(saveState, 5000); 
+    showToast(`Welcome, ${currentState.name} 🚀`, "success");
+    toggleFS(); 
+    if(!isResuming) document.getElementById('tgPopup').style.display = "block"; 
+}
+
+function saveState() {
+    if(currentState.submitted) { localStorage.removeItem(STORAGE_KEY); return; }
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(currentState));
+}
+
+function loadState() { 
+    const saved = localStorage.getItem(STORAGE_KEY); 
+    if(saved) { currentState = JSON.parse(saved); startGame(true); } 
+}
+
+function clearState() { 
+    localStorage.removeItem(STORAGE_KEY); 
+    document.getElementById('resumeBox').style.display = 'none'; 
+    showToast("Session Cleared", "info"); 
+}
+
+function renderSectionTabs() {
+    const bar = document.getElementById('sectionBar'); let html = "";
+    SECTION_MAP.forEach((sec, i) => {
+        let cls = "sec-tab"; let icon = "🔒";
+        if (currentState.submitted) {
+            cls += " done"; icon = "🔓";
+            if (i === currentState.secIdx) { cls += " active"; icon = "👁️"; }
+        } else {
+            if(i === currentState.secIdx) { cls += " active"; icon = "🟢"; }
+            else if(i < currentState.secIdx) { cls += " done"; icon = "✅"; }
+        }
+        html += `<div class="${cls}" onclick="jumpSection(${i})">${icon} ${sec}</div>`;
+    });
+    bar.innerHTML = html;
+}
+
+function jumpSection(secIndex) {
+    if(currentState.submitted) {
+        currentState.secIdx = secIndex;
+        loadQuestion(secIndices[secIndex]);
+        renderSectionTabs();
+    }
+}
+
+function loadQuestion(idx) {
+    currentState.idx = idx; 
+    const q = QUESTIONS[idx]; 
+    const isHindi = document.getElementById('langBtn').innerText === "HI";
+    
+    const qSecIdx = SECTION_MAP.indexOf(q.section);
+    if(qSecIdx !== -1 && qSecIdx !== currentState.secIdx) {
+        currentState.secIdx = qSecIdx;
+        renderSectionTabs();
+    }
+
+    document.getElementById('qNumDisp').innerText = idx + 1;
+    
+    const contentDiv = document.getElementById('qContent');
+    contentDiv.innerHTML = isHindi ? (q.q_hi || q.q_en) : (q.q_en || q.q_hi);
+    contentDiv.querySelectorAll('img').forEach(img => { img.onclick = () => openZoom(img.src); });
+
+    let optsHtml = ""; 
+    const correctIdx = parseInt(q.ans) - 1;
+    const optsArr = isHindi ? (q.op_hi || q.op_en) : (q.op_en || q.op_hi);
+    
+    optsArr.forEach((opt, i) => {
+        let cls = "opt"; 
+        const myAns = currentState.answers[idx];
+        
+        if (currentState.submitted) {
+            if (i === correctIdx) cls += " correct-ans";
+            else if (i === myAns && i !== correctIdx) cls += " wrong-ans";
+        } else {
+            if(myAns === i) cls += " sel";
+        }
+
+        optsHtml += `<div class="${cls}" onclick="selectAns(${i})"><div class="opt-badge">${String.fromCharCode(65+i)}</div><div style="width:100%">${opt}</div></div>`;
+    });
+    
+    const optsContainer = document.getElementById('opts');
+    optsContainer.innerHTML = optsHtml;
+    optsContainer.querySelectorAll('img').forEach(img => { img.onclick = (e) => { e.stopPropagation(); openZoom(img.src); }; });
+
+    const solBox = document.getElementById('solutionDisplay');
+    if(currentState.submitted) {
+        solBox.innerHTML = `<b>💡 Solution:</b><br>${q.solution}`;
+        solBox.style.display = 'block';
+    } else {
+        solBox.style.display = 'none';
+    }
+
+    updateNavButtons(); 
+    renderPalette(); 
+    if(window.MathJax) MathJax.typesetPromise();
+}
+
+function selectAns(i) { 
+    if(currentState.submitted) return; 
+    currentState.answers[currentState.idx] = i; 
+    loadQuestion(currentState.idx); 
+    saveState(); 
+}
+
+function next() {
+    if(currentState.idx < QUESTIONS.length - 1) {
+        if (currentState.submitted) {
+            loadQuestion(currentState.idx + 1);
+            return;
+        }
+
+        const nextQ = QUESTIONS[currentState.idx + 1]; 
+        const currQ = QUESTIONS[currentState.idx];
+        if(nextQ.section !== currQ.section) {
+            if(confirm(`Finish ${currQ.section} section?`)) { 
+                currentState.secIdx++; 
+                renderSectionTabs(); 
+                loadQuestion(currentState.idx + 1); 
+            }
+        } else { 
+            loadQuestion(
+                currentState.idx + 1); 
+        }
+    } else {
+        if (!currentState.submitted) {
+            submitTest();
+        }
+    }
+}
+
+function prev() { 
+    if(currentState.idx > 0) { 
+        loadQuestion(currentState.idx - 1); 
+        if (!currentState.submitted) {
+            const prevQ = QUESTIONS[currentState.idx - 1];
+            const currQ = QUESTIONS[currentState.idx];
+            if (prevQ.section !== currQ.section) {
+                 currentState.secIdx--;
+                 renderSectionTabs();
+            }
+        }
+    } 
+}
+
+function markReview() {
+    if(currentState.submitted) return;
+    currentState.review[currentState.idx] = !currentState.review[currentState.idx];
+    loadQuestion(currentState.idx);
+    saveState();
+    showToast(currentState.review[currentState.idx] ? "Marked for Review" : "Review Removed", "info");
+}
+
+function clearResponse() {
+    if(currentState.submitted) return;
+    currentState.answers[currentState.idx] = null;
+    loadQuestion(currentState.idx);
+    saveState();
+    showToast("Response Cleared", "info");
+}
+
+function updateNavButtons() {
+    const nextBtn = document.getElementById('nextBtn');
+    if (currentState.submitted) {
+        nextBtn.innerText = currentState.idx === QUESTIONS.length - 1 ? "Finish Analysis" : "Next Solution";
+        if (currentState.idx === QUESTIONS.length - 1) {
+            nextBtn.onclick = closeResult; // Just closes the app or goes to a final screen
+        } else {
+            nextBtn.onclick = next;
+        }
+    } else {
+        nextBtn.innerText = currentState.idx === QUESTIONS.length - 1 ? "Submit Exam" : "Save & Next";
+        if (currentState.idx === QUESTIONS.length - 1) {
+            nextBtn.onclick = submitTest;
+        } else {
+            nextBtn.onclick = next;
+        }
+    }
+}
+
+/* =========================
+   TIMER & UTILS
+   ========================= */
+function startTimer() {
+    const tBadge = document.getElementById('timer');
+    timerInt = setInterval(() => {
+        if(currentState.time <= 0 || currentState.submitted) {
+            clearInterval(timerInt);
+            if (!currentState.submitted) submitTest();
+            return;
+        }
+        currentState.time--;
+        const m = Math.floor(currentState.time / 60).toString().padStart(2, '0');
+        const s = (currentState.time % 60).toString().padStart(2, '0');
+        tBadge.innerText = `${m}:${s}`;
+        
+        if (currentState.time < 300) { // Last 5 minutes
+            tBadge.classList.add('low');
+        } else {
+            tBadge.classList.remove('low');
+        }
+        saveState();
+    }, 1000);
+}
+
+function toggleTheme() { 
+    document.body.classList.toggle('dark-mode'); 
+    showToast("Theme Changed", "success"); 
+}
+
+function toggleLang() { 
+    const b = document.getElementById('langBtn'); 
+    b.innerText = b.innerText === "HI" ? "EN" : "HI"; 
+    loadQuestion(currentState.idx); 
+    showToast("Language Switched", "success"); 
+}
+
+function toggleFS() {
+    if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(err => {
+            console.log(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+        });
+    } else {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        }
+    }
+}
+
+function showToast(msg, type="info") {
+    const t = document.createElement('div');
+    t.className = `toast ${type}`;
+    t.innerHTML = `${type==='success'?'✅':type==='error'?'❌':'ℹ️'} <span>${msg}</span>`;
+    document.getElementById('toast-container').appendChild(t);
+    setTimeout(() => { t.style.opacity = '0'; setTimeout(() => t.remove(), 400); }, 3000);
+}
+
+function openZoom(src) {
+    document.getElementById('zoomImg').src = src;
+    document.getElementById('zoomModal').style.display = "flex";
+}
+
+function closeZoom() {
+    document.getElementById('zoomModal').style.display = "none";
+}
+
+function closeTg() {
+    document.getElementById('tgPopup').style.display = "none";
+}
+
+/* =========================
+   PALETTE PANEL
+   ========================= */
+function togglePalette() {
+    const p = document.getElementById('palettePanel');
+    const o = document.getElementById('paletteOverlay');
+    if (p.classList.contains('show')) {
+        p.classList.remove('show');
+        o.style.display = 'none';
+    } else {
+        p.classList.add('show');
+        o.style.display = 'block';
+        renderPalette();
+    }
+}
+
+function renderPalette() {
+    const grid = document.getElementById('paletteGrid');
+    let html = "";
+    
+    QUESTIONS.forEach((q, i) => {
+        let cls = "qbtn";
+        
+        if (currentState.submitted) {
+            const correctIdx = parseInt(q.ans) - 1;
+            const userAns = currentState.answers[i];
+            if (userAns === correctIdx) cls += " p-correct";
+            else if (userAns !== null) cls += " p-wrong";
+            else cls += " p-skip";
+        } else {
+             if (i === currentState.idx) cls += " current";
+             if (currentState.review[i]) cls += " review";
+             else if (currentState.answers[i] !== null) cls += " answered";
+        }
+        
+        html += `<button class="${cls}" onclick="jumpToQ(${i})">${i + 1}</button>`;
+    });
+    grid.innerHTML = html;
+}
+
+function jumpToQ(idx) {
+    togglePalette(); // Close palette
+    loadQuestion(idx);
+}
+
+/* =========================
+   SUBMIT & ANALYSIS
+   ========================= */
+function submitTest() {
+    if(!currentState.submitted) {
+        if(!confirm("Are you sure you want to submit the exam?")) return;
+    }
+    
+    clearInterval(timerInt);
+    currentState.submitted = true;
+    localStorage.removeItem(STORAGE_KEY);
+    
+    document.getElementById('mainSubmitBtn').style.display = 'none'; // Hide submit button in palette
+    
+    calculateResults();
+}
+
+function calculateResults() {
+    let score = 0, correct = 0, wrong = 0, unattempted = 0;
+    
+    // Calculate total score and section-wise
+    const sectionStats = {};
+    SECTION_MAP.forEach(sec => {
+        sectionStats[sec] = { correct: 0, wrong: 0, unattempted: 0, score: 0, total: 0 };
+    });
+
+    QUESTIONS.forEach((q, i) => {
+        const sec = q.section;
+        sectionStats[sec].total++;
+        const userAns = currentState.answers[i];
+        const correctIdx = parseInt(q.ans) - 1;
+
+        if (userAns === null) {
+            unattempted++;
+            sectionStats[sec].unattempted++;
+        } else if (userAns === correctIdx) {
+            correct++;
+            score += 1;
+            sectionStats[sec].correct++;
+            sectionStats[sec].score += 1;
+        } else {
+            wrong++;
+            score -= NEGATIVE_MARK;
+            sectionStats[sec].wrong++;
+            sectionStats[sec].score -= NEGATIVE_MARK;
+        }
+    });
+
+    const totalQuestions = QUESTIONS.length;
+    const maxMarks = totalQuestions * 1; // Assuming 1 mark per question
+    const percentage = ((score / maxMarks) * 100).toFixed(2);
+    const resultStatus = score >= PASSING_MARKS ? "PASSED 🎉" : "FAILED 💔";
+    const statusColor = score >= PASSING_MARKS ? "var(--success)" : "var(--danger)";
+
+    // Prepare Result Data for Firebase
+    const resultData = {
+        name: currentState.name,
+        score: parseFloat(score.toFixed(2)),
+        correct: correct,
+        wrong: wrong,
+        unattempted: unattempted,
+        percentage: parseFloat(percentage),
+        timestamp: firebase.database.ServerValue.TIMESTAMP
+    };
+
+    // Save to Firebase
+    db.ref(`${DB_REF_NAME}/${TEST_ID}`).push(resultData)
+      .then(() => {
+          console.log("Result saved to Firebase successfully.");
+          fetchLeaderboard(resultData, sectionStats, resultStatus, statusColor, maxMarks);
+      })
+      .catch((error) => {
+          console.error("Error saving result: ", error);
+          showToast("Error saving result to server. Showing local analysis.", "error");
+          // Still show analysis even if Firebase fails
+          showAnalysisModal(resultData, sectionStats, resultStatus, statusColor, maxMarks, []);
+      });
+}
+
+function fetchLeaderboard(currentResult, sectionStats, resultStatus, statusColor, maxMarks) {
+    db.ref(`${DB_REF_NAME}/${TEST_ID}`).orderByChild('score').limitToLast(10).once('value', (snapshot) => {
+        const leaderboardData = [];
+        snapshot.forEach((childSnapshot) => {
+            leaderboardData.push({
+                id: childSnapshot.key,
+                ...childSnapshot.val()
+            });
+        });
+        
+        // Sort descending
+        leaderboardData.sort((a, b) => b.score - a.score);
+        
+        // Check if current user is in top, if not, we still just show top 10
+        showAnalysisModal(currentResult, sectionStats, resultStatus, statusColor, maxMarks, leaderboardData);
+        
+        // Send to Telegram
+        sendResultToTelegram(currentResult, leaderboardData);
+    });
+}
+
+function showAnalysisModal(resultData, sectionStats, resultStatus, statusColor, maxMarks, leaderboard) {
+    const modal = document.getElementById('resultModal');
+    const content = document.getElementById('resultContent');
+    
+    let topperScore = leaderboard.length > 0 ? leaderboard[0].score : resultData.score;
+    let rank = "-";
+    // Basic rank calculation if possible based on fetched data. 
+    // For precise rank among ALL users, a different query is needed.
+    // For now, if they are in the top 10 fetched, show that rank.
+    const userRankIndex = leaderboard.findIndex(u => u.name === resultData.name && u.score === resultData.score);
+    if(userRankIndex !== -1) {
+        rank = userRankIndex + 1;
+    }
+
+    let sectionHtml = "";
+    SECTION_MAP.forEach(sec => {
+        const stat = sectionStats[sec];
+        sectionHtml += `
+            <div style="margin-top:15px; padding:10px; border:1px solid var(--border-color); border-radius:8px; background:var(--primary-light);">
+                <div style="font-weight:700; color:var(--primary-dark); margin-bottom:5px;">${sec}</div>
+                <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--text-main);">
+                    <span>Score: <b>${stat.score.toFixed(2)}</b>/${stat.total}</span>
+                    <span style="color:var(--success)">Right: ${stat.correct}</span>
+                    <span style="color:var(--danger)">Wrong: ${stat.wrong}</span>
+                </div>
+            </div>
+        `;
+    });
+
+    let leaderboardHtml = "";
+    if (leaderboard.length > 0) {
+        leaderboardHtml = `<table class="topper-table">
+            <thead><tr><th>Rank</th><th>Name</th><th>Score</th></tr></thead>
+            <tbody>`;
+        leaderboard.forEach((entry, idx) => {
+            let rowStyle = entry.name === resultData.name ? "background: var(--primary-light); font-weight: bold;" : "";
+            let rankIcon = idx === 0 ? "🥇" : idx === 1 ? "🥈" : idx === 2 ? "🥉" : `${idx + 1}`;
+            leaderboardHtml += `<tr style="${rowStyle}"><td>${rankIcon}</td><td>${entry.name}</td><td>${entry.score.toFixed(2)}</td></tr>`;
+        });
+        leaderboardHtml += `</tbody></table>`;
+    } else {
+         leaderboardHtml = `<div style="text-align:center; padding:20px; color:var(--text-muted);">No records yet.</div>`;
+    }
+
+    content.innerHTML = `
+        <div class="analysis-container" id="pdfContent">
+            
+            <div style="text-align:center; margin-bottom:20px;">
+                <h2 style="margin:0; color:var(--primary); font-size:24px;">Performance Analysis</h2>
+                <div style="font-size:18px; font-weight:800; color:${statusColor}; margin-top:5px;">${resultStatus}</div>
+            </div>
+
+            <div class="card-dashboard">
+                <div class="score-summary">
+                    <div class="score-item">
+                        <h4>Your Score</h4>
+                        <p>${resultData.score.toFixed(2)} <span style="font-size:14px; font-weight:normal; color:var(--text-muted)">/ ${maxMarks}</span></p>
+                    </div>
+                    <div class="score-item">
+                        <h4>Rank (Top 10)</h4>
+                        <p>${rank}</p>
+                    </div>
+                    <div class="score-item">
+                        <h4>Accuracy</h4>
+                        <p>${(resultData.correct / (resultData.correct + resultData.wrong) * 100 || 0).toFixed(0)}%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-dashboard">
+                <h3 class="section-title">Attempt Summary</h3>
+                <div class="attempt-summary">
+                    <div class="attempt-box at-correct">Correct <span>${resultData.correct}</span></div>
+                    <div class="attempt-box at-wrong">Wrong <span>${resultData.wrong}</span></div>
+                    <div class="attempt-box at-unattempted">Skipped <span>${resultData.unattempted}</span></div>
+                    <div class="attempt-box at-total">Total <span>${QUESTIONS.length}</span></div>
+                </div>
+            </div>
+
+            <div class="card-dashboard">
+                <h3 class="section-title">Score Comparison</h3>
+                <div class="bar-section">
+                    <div class="bar-label"><span>You (${resultData.score.toFixed(2)})</span></div>
+                    <div class="bar-track">
+                        <div class="bar-fill fill-you" style="width: ${(Math.max(0, resultData.score) / maxMarks) * 100}%"></div>
+                    </div>
+                </div>
+                <div class="bar-section">
+                    <div class="bar-label"><span>Topper (${topperScore.toFixed(2)})</span></div>
+                    <div class="bar-track">
+                        <div class="bar-fill fill-topper" style="width: ${(Math.max(0, topperScore) / maxMarks) * 100}%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-dashboard">
+                <h3 class="section-title">Sectional Performance</h3>
+                ${sectionHtml}
+            </div>
+
+            <div class="card-dashboard">
+                <h3 class="section-title">Top 10 Leaderboard</h3>
+                ${leaderboardHtml}
+            </div>
+            
+        </div>
+        
+        <div style="display:flex; gap:15px; margin-top:20px;">
+            <button class="btn-primary" style="flex:1;" onclick="closeResultAndReview()">Review Solutions</button>
+            <button class="btn-primary" style="flex:1; background:var(--success); box-shadow:0 4px 15px rgba(16, 185, 129, 0.4);" onclick="downloadPDF()">Download PDF</button>
+        </div>
+    `;
+    
+    modal.style.display = "flex";
+}
+
+function closeResultAndReview() {
+    document.getElementById('resultModal').style.display = "none";
+    loadQuestion(0); // Start review from first question
+    renderSectionTabs();
+    updateNavButtons();
+}
+
+function closeResult() {
+    document.getElementById('resultModal').style.display = "none";
+}
+
+function sendResultToTelegram(resultData, leaderboard) {
+    const text = `
+🏆 *New Test Submission* (${TEST_ID})
+👤 Name: *${resultData.name}*
+🎯 Score: *${resultData.score}* / ${QUESTIONS.length}
+✅ Correct: ${resultData.correct} | ❌ Wrong: ${resultData.wrong} | ⏳ Skipped: ${resultData.unattempted}
+📈 Accuracy: ${(resultData.correct / (resultData.correct + resultData.wrong) * 100 || 0).toFixed(0)}%
+
+*Current Top 3:*
+1️⃣ ${leaderboard[0] ? leaderboard[0].name + " - " + leaderboard[0].score : "-"}
+2️⃣ ${leaderboard[1] ? leaderboard[1].name + " - " + leaderboard[1].score : "-"}
+3️⃣ ${leaderboard[2] ? leaderboard[2].name + " - " + leaderboard[2].score : "-"}
+    `;
+
+    const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+    fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            chat_id: TELEGRAM_CHAT_ID,
+            text: text,
+            parse_mode: 'Markdown'
+        })
+    }).catch(e => console.error("Telegram Send Error:", e));
+}
+
+function downloadPDF() {
+    const element = document.getElementById('pdfContent');
+    const opt = {
+        margin:       10,
+        filename:     `Result_${TEST_ID}_${currentState.name.replace(/\s+/g, '_')}.pdf`,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2 },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+    html2pdf().set(opt).from(element).save();
+}
+
+</script>
+
+</body>
+</html>
