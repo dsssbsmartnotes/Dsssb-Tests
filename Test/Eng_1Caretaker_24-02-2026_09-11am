@@ -1,0 +1,422 @@
+[
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Conjunctions",
+        "level": "Moderate",
+        "q_en": "<p>Choose the most appropriate option to fill in the given blank.<br>The team practiced relentlessly; __________, they still failed to qualify for the final round.</p>",
+        "q_hi": "<p>Choose the most appropriate option to fill in the given blank.<br>The team practiced relentlessly; __________, they still failed to qualify for the final round.</p>",
+        "op_en": [
+            "however",
+            "since",
+            "moreover",
+            "consequently"
+        ],
+        "op_hi": [
+            "however",
+            "since",
+            "moreover",
+            "consequently"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ हमें दो वाक्यों के बीच सही transition word (संयोजक) भरना है।</p><p>पहला वाक्य कहता है \"The team practiced relentlessly\" (टीम ने लगातार अभ्यास किया - जो एक सकारात्मक/Positive बात है)। दूसरा वाक्य कहता है \"they still failed to qualify\" (वे फिर भी क्वालीफाई करने में विफल रहे - जो एक नकारात्मक/Negative परिणाम है)। जब दो विरोधी (Contrasting) विचारों को जोड़ना हो, तो हम <b>'however'</b> (तथापि/फिर भी) का प्रयोग करते हैं।</p><ul><li><b>Option 1 (however):</b> यह विरोधाभास (contrast) को दर्शाता है। यह बिल्कुल सही उत्तर है।</li><li><b>Option 2 (since):</b> यह कारण (reason) या समय (time) बताता है। यहाँ यह फिट नहीं बैठता।</li><li><b>Option 3 (moreover):</b> इसका अर्थ है 'इसके अतिरिक्त'। यह समान विचारों (similar ideas) को जोड़ने के काम आता है।</li><li><b>Option 4 (consequently):</b> इसका अर्थ है 'परिणामस्वरूप' (as a result)। अभ्यास करने का परिणाम विफलता नहीं हो सकता, इसलिए यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Adverbs",
+        "level": "Easy",
+        "q_en": "<p>Choose the most appropriate option to fill in the given blank.<br>She _________ visits her ancestral home; perhaps only once every decade since she moved abroad.</p>",
+        "q_hi": "<p>Choose the most appropriate option to fill in the given blank.<br>She _________ visits her ancestral home; perhaps only once every decade since she moved abroad.</p>",
+        "op_en": [
+            "often",
+            "seldom",
+            "rare",
+            "much"
+        ],
+        "op_hi": [
+            "often",
+            "seldom",
+            "rare",
+            "much"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। वाक्य का अर्थ है कि वह अपने पैतृक घर (ancestral home) शायद ही कभी जाती है; जब से वह विदेश गई है, शायद दशक में केवल एक बार।</p><p>'once every decade' (दस साल में एक बार) से हमें पता चलता है कि जाने की आवृत्ति (frequency) बहुत कम है। इसलिए हमें यहाँ ऐसा Adverb (क्रियाविशेषण) चाहिए जिसका अर्थ 'शायद ही कभी' (rarely/hardly ever) हो।</p><ul><li><b>Option 1 (often):</b> इसका अर्थ है 'अक्सर'। यह वाक्य के अर्थ के बिल्कुल विपरीत है।</li><li><b>Option 2 (seldom):</b> इसका अर्थ है 'शायद ही कभी' (Not often)। यह एकदम सही उत्तर है!</li><li><b>Option 3 (rare):</b> यह एक Adjective (विशेषण) है, जबकि हमें यहाँ क्रिया (visits) की विशेषता बताने के लिए Adverb चाहिए ('rarely' होता तो सही हो सकता था)।</li><li><b>Option 4 (much):</b> इसका अर्थ है 'बहुत', जो यहाँ ग्रामर के अनुसार फिट नहीं है।</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Conditional Sentences",
+        "level": "Moderate",
+        "q_en": "<p>Select the most appropriate verb to fill in the blank.<br><br>If Arvind works harder, he ______ score better marks.</p>",
+        "q_hi": "<p>Select the most appropriate verb to fill in the blank.<br><br>If Arvind works harder, he ______ score better marks.</p>",
+        "op_en": [
+            "might have",
+            "should",
+            "will",
+            "had"
+        ],
+        "op_hi": [
+            "might have",
+            "should",
+            "will",
+            "had"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह First Conditional (Condition Type 1) का वाक्य है।</p><p><b>रूल (Rule):</b> जब हम भविष्य की किसी ऐसी स्थिति की बात करते हैं जिसके होने की संभावना हो, तो हम <b>'If + Present Simple, ... Subject + will + V1'</b> का स्ट्रक्चर उपयोग करते हैं।</p><p>वाक्य: \"If Arvind works harder (Present Simple), he ______ score better marks.\" यहाँ रिक्त स्थान में 'will' आएगा।</p><ul><li><b>Option 1 (might have):</b> इसका प्रयोग Past Conditional में होता है (e.g., If he had worked harder, he might have scored...). इसलिए यह गलत है।</li><li><b>Option 2 (should):</b> यह सलाह (advice) देने के लिए प्रयोग होता है, पक्के परिणाम के लिए नहीं।</li><li><b>Option 3 (will):</b> यह नियम के अनुसार बिल्कुल सही है!</li><li><b>Option 4 (had):</b> यह ग्रामेटिकल रूप से बिल्कुल गलत है।</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Adverbs",
+        "level": "Moderate",
+        "q_en": "<p>Choose the most appropriate option to fill in the given blanks.<br>We arrived _________ at the venue, only to find that the event had been postponed until _________.</p>",
+        "q_hi": "<p>Choose the most appropriate option to fill in the given blanks.<br>We arrived _________ at the venue, only to find that the event had been postponed until _________.</p>",
+        "op_en": [
+            "later; next week",
+            "late; tomorrow",
+            "slow; soon",
+            "hardly; afterwards"
+        ],
+        "op_hi": [
+            "later; next week",
+            "late; tomorrow",
+            "slow; soon",
+            "hardly; afterwards"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें दोनों रिक्त स्थानों में सही शब्द भरने हैं ताकि वाक्य का अर्थ स्पष्ट हो।</p><p>वाक्य का भाव: हम आयोजन स्थल पर ______ पहुँचे, और वहाँ जाकर पता चला कि कार्यक्रम ______ तक के लिए स्थगित (postponed) कर दिया गया है।</p><ul><li><b>Option 1 (later; next week):</b> 'We arrived later' ग्रामर के हिसाब से अधूरा लगता है (later than what?)। 'late' यहाँ बेहतर शब्द है।</li><li><b>Option 2 (late; tomorrow):</b> 'We arrived late' (हम देरी से पहुँचे) और 'postponed until tomorrow' (कल तक के लिए स्थगित)। यह बिल्कुल सही और स्वाभाविक (natural) लगता है।</li><li><b>Option 3 (slow; soon):</b> 'arrived slow' व्याकरण की दृष्टि से गलत है ('slowly' होना चाहिए)।</li><li><b>Option 4 (hardly; afterwards):</b> 'arrived hardly' का अर्थ होगा 'मुश्किल से पहुँचे', और 'until afterwards' कोई सही फ्रेज नहीं है। यह गलत है।</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Moderate",
+        "q_en": "<p>Select the option which means the same as the group of words given.<br><br>An area of activity, interest or knowledge.</p>",
+        "q_hi": "<p>Select the option which means the same as the group of words given.<br><br>An area of activity, interest or knowledge.</p>",
+        "op_en": [
+            "Department",
+            "Territory",
+            "Realm",
+            "Profession"
+        ],
+        "op_hi": [
+            "Department",
+            "Territory",
+            "Realm",
+            "Profession"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस One Word Substitution के सवाल को समझते हैं। यहाँ पूछा गया है कि किसी गतिविधि, रुचि या ज्ञान के 'क्षेत्र' को अंग्रेजी में क्या कहते हैं।</p><ul><li><b>Option 1 (Department):</b> इसका अर्थ 'विभाग' होता है (जैसे किसी कंपनी या सरकार का हिस्सा)। यह सही नहीं है।</li><li><b>Option 2 (Territory):</b> इसका अर्थ 'इलाका' या 'भौगोलिक क्षेत्र' (Geographical area) होता है।</li><li><b>Option 3 (Realm):</b> इसका अर्थ 'क्षेत्र' या 'दायरा' होता है, विशेषकर किसी गतिविधि, रुचि या ज्ञान के संदर्भ में (जैसे: the realm of science)। यह बिल्कुल सही उत्तर है!</li><li><b>Option 4 (Profession):</b> इसका अर्थ 'पेशा' या 'नौकरी' होता है।</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Adjectives",
+        "level": "Easy",
+        "q_en": "<p>Choose the correct adjective to complete the sentence.<br><br>The owner was happy because his dog won a ____ prize at the competition.</p>",
+        "q_hi": "<p>Choose the correct adjective to complete the sentence.<br><br>The owner was happy because his dog won a ____ prize at the competition.</p>",
+        "op_en": [
+            "ordinary",
+            "cheap",
+            "small",
+            "valuable"
+        ],
+        "op_hi": [
+            "ordinary",
+            "cheap",
+            "small",
+            "valuable"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। वाक्य कह रहा है कि \"मालिक खुश था क्योंकि उसके कुत्ते ने प्रतियोगिता में एक ____ इनाम जीता।\" चूँकि मालिक खुश है, तो इनाम निश्चित रूप से कुछ अच्छा और कीमती होगा।</p><ul><li><b>Option 1 (ordinary):</b> 'Ordinary' का मतलब 'साधारण' होता है। साधारण इनाम जीतने पर कोई बहुत ज्यादा खुश नहीं होगा।</li><li><b>Option 2 (cheap):</b> 'Cheap' का मतलब 'सस्ता' होता है। यह भी सही भाव नहीं दे रहा है।</li><li><b>Option 3 (small):</b> 'Small' (छोटा) भी मालिक की खुशी का सटीक कारण नहीं दर्शाता।</li><li><b>Option 4 (valuable):</b> 'Valuable' का अर्थ है 'कीमती' या 'मूल्यवान'। यदि कुत्ता कीमती इनाम जीतता है, तो मालिक का खुश होना स्वाभाविक है। अतः यह बिल्कुल सही उत्तर है!</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Hard",
+        "q_en": "<p>In the given question, a statement divided into different segments is given. The first segment is fixed, rearrange the other segments to form a coherent statement.<br>The teacher encouraged her<br>(A) solid evidence and logical reasoning<br>(B) students to think critically, asking<br>(C) and support their arguments with<br>(D) them to question assumptions</p>",
+        "q_hi": "<p>In the given question, a statement divided into different segments is given. The first segment is fixed, rearrange the other segments to form a coherent statement.<br>The teacher encouraged her<br>(A) solid evidence and logical reasoning<br>(B) students to think critically, asking<br>(C) and support their arguments with<br>(D) them to question assumptions</p>",
+        "op_en": [
+            "ABDC",
+            "ABCD",
+            "BDCA",
+            "BACD"
+        ],
+        "op_hi": [
+            "ABDC",
+            "ABCD",
+            "BDCA",
+            "BACD"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस Para Jumble (वाक्य पुनर्व्यवस्था) को सुलझाते हैं।</p><p><b>शुरुआती हिस्सा:</b> The teacher encouraged her...</p><p><b>Step 1:</b> 'her' के बाद कोई noun (संज्ञा) आना चाहिए जिसे प्रोत्साहित किया गया हो। विकल्पों में (B) 'students' सबसे सटीक है।<br>वाक्य बनेगा: The teacher encouraged her <b>(B) students to think critically, asking...</b></p><p><b>Step 2:</b> 'asking' के बाद ऑब्जेक्ट चाहिए। Teacher ने किनसे कहा? 'them' (छात्रों से)। इसलिए (B) के बाद (D) आएगा।<br>वाक्य बनेगा: ...asking <b>(D) them to question assumptions...</b></p><p><b>Step 3:</b> अब 'question assumptions' के साथ कुछ और जोड़ने के लिए 'and' वाला हिस्सा (C) आएगा।<br>वाक्य बनेगा: ...<b>(C) and support their arguments with...</b></p><p><b>Step 4:</b> अंत में 'with' के बाद क्या आएगा? सबूत (evidence)। तो (A) सबसे अंत में आएगा।<br>वाक्य: ...with <b>(A) solid evidence and logical reasoning.</b></p><p>सही क्रम बना: <b>B - D - C - A</b></p><ul><li><b>Option 1, 2, 4:</b> गलत क्रम हैं।</li><li><b>Option 3 (BDCA):</b> यह बिल्कुल सही उत्तर है!</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Hard",
+        "q_en": "<p>Select the option which can be used as a one-word substitute for the given group of words.<br>A person who is skilled in judging and appreciating art, food, or music is referred to as a:</p>",
+        "q_hi": "<p>Select the option which can be used as a one-word substitute for the given group of words.<br>A person who is skilled in judging and appreciating art, food, or music is referred to as a:</p>",
+        "op_en": [
+            "Critique",
+            "Veteran",
+            "Virtuoso",
+            "Connoisseur"
+        ],
+        "op_hi": [
+            "Critique",
+            "Veteran",
+            "Virtuoso",
+            "Connoisseur"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ ऐसे व्यक्ति की बात हो रही है जो कला, भोजन या संगीत की गहरी समझ रखता हो और उसे परखने (judge करने) में माहिर हो (यानी 'कला का पारखी')।</p><ul><li><b>Option 1 (Critique):</b> इसका अर्थ 'समीक्षा' या 'आलोचना' होता है, यह कोई व्यक्ति नहीं बल्कि एक लेख या विचार होता है (समीक्षा करने वाले व्यक्ति को Critic कहते हैं)।</li><li><b>Option 2 (Veteran):</b> इसका अर्थ है 'अनुभवी व्यक्ति' (जिसने किसी क्षेत्र, जैसे सेना या कला, में लंबा समय बिताया हो)।</li><li><b>Option 3 (Virtuoso):</b> इसका अर्थ है 'कलाप्रवीण' (जो संगीत या किसी कला को 'परफॉर्म' करने में बेहद माहिर हो)।</li><li><b>Option 4 (Connoisseur):</b> इसका अर्थ है 'पारखी' या 'विशेषज्ञ' (जो कला, भोजन, आदि की बारीकियों को समझता और सराहता हो)। यह एकदम सही उत्तर है!</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Moderate",
+        "q_en": "<p>In the given question, a statement divided into different segments is given. Rearrange all the segments to form a coherent statement.<br>(A) sacrifice, the athlete finally achieved<br>(B) her dream of winning a gold medal<br>(C) after years of dedication and<br>(D) at the international championship</p>",
+        "q_hi": "<p>In the given question, a statement divided into different segments is given. Rearrange all the segments to form a coherent statement.<br>(A) sacrifice, the athlete finally achieved<br>(B) her dream of winning a gold medal<br>(C) after years of dedication and<br>(D) at the international championship</p>",
+        "op_en": [
+            "BCDA",
+            "BDAC",
+            "CABD",
+            "DBAC"
+        ],
+        "op_hi": [
+            "BCDA",
+            "BDAC",
+            "CABD",
+            "DBAC"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस Para Jumble को सही क्रम में लगाते हैं।</p><p><b>Step 1:</b> वाक्य की शुरुआत किसी introductory phrase (परिचयात्मक वाक्यांश) से होनी चाहिए। (C) \"after years of dedication and...\" एक बेहतरीन शुरुआत है।</p><p><b>Step 2:</b> 'and' के बाद इसी के जैसा कोई शब्द (Noun) आना चाहिए। (A) में 'sacrifice' है। तो 'dedication and sacrifice' एक सही जोड़ा है।<br>अतः (C) के बाद (A) आएगा: \"after years of dedication and <b>(A) sacrifice, the athlete finally achieved...</b>\"</p><p><b>Step 3:</b> एथलीट ने क्या 'achieve' (हासिल) किया? (B) में इसका उत्तर है: \"<b>(B) her dream of winning a gold medal</b>\".<br>तो (A) के बाद (B) आएगा।</p><p><b>Step 4:</b> उसने यह मेडल कहाँ जीता? (D) में स्थान है: \"<b>(D) at the international championship</b>\".</p><p>पूरा वाक्य: After years of dedication and sacrifice, the athlete finally achieved her dream of winning a gold medal at the international championship.</p><p>सही क्रम: <b>C - A - B - D</b></p><ul><li><b>Option 1, 2, 4:</b> गलत क्रम हैं।</li><li><b>Option 3 (CABD):</b> यह बिल्कुल सही है!</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Hard",
+        "q_en": "<p>In the given question, a statement is divided into different segments. The first segment is fixed; rearrange the other segments to form a coherent statement.<br><br>A. Almost all the women that<br>B. and discussed their domestic troubles freely<br>C. of one sort or another,<br>D. she knew admitted unhappiness</p>",
+        "q_hi": "<p>In the given question, a statement is divided into different segments. The first segment is fixed; rearrange the other segments to form a coherent statement.<br><br>A. Almost all the women that<br>B. and discussed their domestic troubles freely<br>C. of one sort or another,<br>D. she knew admitted unhappiness</p>",
+        "op_en": [
+            "ACBD",
+            "ABDC",
+            "ACDB",
+            "ADCB"
+        ],
+        "op_hi": [
+            "ACBD",
+            "ABDC",
+            "ACDB",
+            "ADCB"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस वाक्य को सही क्रम में जमाते हैं।</p><p><b>शुरुआती हिस्सा (Fixed):</b> A. Almost all the women that...</p><p><b>Step 1:</b> 'that' के बाद एक क्लॉज़ (clause) आएगा जो 'women' (महिलाओं) के बारे में बताएगा। विकल्पों में (D) 'she knew' (जिन्हें वह जानती थी) बिल्कुल सही फिट बैठता है।<br>वाक्य बनेगा: Almost all the women that <b>(D) she knew admitted unhappiness</b> (लगभग वे सभी महिलाएँ जिन्हें वह जानती थी, उन्होंने अपना दुख स्वीकार किया)।</p><p><b>Step 2:</b> दुख (unhappiness) किस तरह का था? (C) बताता है \"of one sort or another\" (किसी न किसी प्रकार का)। इसलिए (D) के बाद (C) आएगा।<br>वाक्य बनेगा: ...admitted unhappiness <b>(C) of one sort or another,</b></p><p><b>Step 3:</b> अंत में बचा हुआ हिस्सा (B) आएगा जो वाक्य को पूरा करेगा।<br>वाक्य बनेगा: ...<b>(B) and discussed their domestic troubles freely.</b></p><p>पूरा वाक्य: Almost all the women that she knew admitted unhappiness of one sort or another, and discussed their domestic troubles freely.</p><p>सही क्रम: <b>A - D - C - B</b></p><ul><li><b>Option 1, 2, 3:</b> गलत क्रम हैं।</li><li><b>Option 4 (ADCB):</b> यह बिल्कुल सही उत्तर है!</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Adjectives",
+        "level": "Easy",
+        "q_en": "<p>Choose the correct adjective to complete the sentence.<br><br>The few mangoes which were not spoiled fetched a _______ price that profited the farmer.</p>",
+        "q_hi": "<p>Choose the correct adjective to complete the sentence.<br><br>The few mangoes which were not spoiled fetched a _______ price that profited the farmer.</p>",
+        "op_en": [
+            "low",
+            "high",
+            "small",
+            "fair"
+        ],
+        "op_hi": [
+            "low",
+            "high",
+            "small",
+            "fair"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। वाक्य कह रहा है कि \"जो कुछ आम खराब नहीं हुए थे, उन्हें ____ कीमत मिली जिससे किसान को मुनाफा (profited) हुआ।\"</p><p>अगर किसान को 'मुनाफा' (profit) हुआ है, तो इसका मतलब है कि आमों की कीमत अच्छी या ऊँची मिली होगी।</p><ul><li><b>Option 1 (low):</b> कम कीमत मिलने पर मुनाफा नहीं होता, नुकसान होता है।</li><li><b>Option 2 (high):</b> 'high price' (ऊँची कीमत) मिलने पर ही किसान को फायदा होगा। यह एकदम सटीक (perfect) उत्तर है।</li><li><b>Option 3 (small):</b> 'small price' व्याकरण और अर्थ दोनों लिहाज से कमजोर है।</li><li><b>Option 4 (fair):</b> 'fair' (उचित) कीमत से घाटा नहीं होता, लेकिन 'profited' (अच्छा मुनाफा) शब्द 'high' (ऊँची) कीमत की ओर स्पष्ट इशारा करता है।</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Moderate",
+        "q_en": "<p>In the given question, a statement divided into different segments is given. Rearrange all the segments to form a coherent statement.<br><br>A. come leaping along, and<br>B. on the ground, a hare would often<br>C. jump right over the little Tree<br>D. in winter, when the snow lay glittering</p>",
+        "q_hi": "<p>In the given question, a statement divided into different segments is given. Rearrange all the segments to form a coherent statement.<br><br>A. come leaping along, and<br>B. on the ground, a hare would often<br>C. jump right over the little Tree<br>D. in winter, when the snow lay glittering</p>",
+        "op_en": [
+            "CADB",
+            "ADBC",
+            "DBAC",
+            "BCDA"
+        ],
+        "op_hi": [
+            "CADB",
+            "ADBC",
+            "DBAC",
+            "BCDA"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस वाक्य को सही क्रम में लगाते हैं। यह एक कहानी की लाइन जैसा लगता है।</p><p><b>Step 1:</b> वाक्य की शुरुआत समय या स्थिति (setting the scene) बताने वाले वाक्यांश से होगी। (D) \"in winter, when the snow lay glittering\" (सर्दियों में, जब बर्फ चमक रही थी...) इसके लिए सबसे उपयुक्त है।</p><p><b>Step 2:</b> बर्फ कहाँ थी? ज़मीन पर। अतः (D) के बाद (B) आएगा: \"<b>(B) on the ground, a hare would often...</b>\" (hare का मतलब खरगोश होता है)।</p><p><b>Step 3:</b> खरगोश क्या करता था? 'would often' के बाद क्रिया (verb) आनी चाहिए। (A) \"<b>(A) come leaping along, and...</b>\" (उछलते हुए आता था, और...)</p><p><b>Step 4:</b> 'and' के बाद दूसरी क्रिया (verb) आएगी। (C) \"<b>(C) jump right over the little Tree</b>\" (और छोटे पेड़ के ऊपर से कूद जाता था)।</p><p>पूरा वाक्य: In winter, when the snow lay glittering on the ground, a hare would often come leaping along, and jump right over the little Tree.</p><p>सही क्रम: <b>D - B - A - C</b></p><ul><li><b>Option 1, 2, 4:</b> गलत क्रम हैं।</li><li><b>Option 3 (DBAC):</b> यह बिल्कुल सही उत्तर है!</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Easy",
+        "q_en": "<p>Select the option which can be used as a one-word substitute for the given group of words.<br>The place where birds are kept is known as a/an:</p>",
+        "q_hi": "<p>Select the option which can be used as a one-word substitute for the given group of words.<br>The place where birds are kept is known as a/an:</p>",
+        "op_en": [
+            "Aviary",
+            "Farm",
+            "Kennel",
+            "Stable"
+        ],
+        "op_hi": [
+            "Aviary",
+            "Farm",
+            "Kennel",
+            "Stable"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, यह जानवरों और पक्षियों के रहने के स्थानों से संबंधित एक बहुत ही सामान्य One Word Substitution है।</p><ul><li><b>Option 1 (Aviary):</b> एवियरी (पक्षीशाला) वह जगह होती है जहाँ पक्षियों (Birds) को रखा जाता है। यह बिल्कुल सही उत्तर है!</li><li><b>Option 2 (Farm):</b> यह खेत या कृषि भूमि होती है।</li><li><b>Option 3 (Kennel):</b> यह कुत्तों (Dogs) को रखने का घर होता है।</li><li><b>Option 4 (Stable):</b> यह घोड़ों (Horses) को रखने का स्थान (अस्तबल) होता है।</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Vocabulary",
+        "level": "Easy",
+        "q_en": "<p>Select the option which means the same as the group of words given.<br><br>Causing feelings of happiness and pleasure.</p>",
+        "q_hi": "<p>Select the option which means the same as the group of words given.<br><br>Causing feelings of happiness and pleasure.</p>",
+        "op_en": [
+            "Hospitality",
+            "Celebration",
+            "Elegance",
+            "Heartwarming"
+        ],
+        "op_hi": [
+            "Hospitality",
+            "Celebration",
+            "Elegance",
+            "Heartwarming"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस शब्दावली (Vocabulary) के प्रश्न को समझते हैं। हमें एक ऐसा शब्द खोजना है जिसका अर्थ हो \"खुशी और आनंद की भावना पैदा करने वाला\"।</p><ul><li><b>Option 1 (Hospitality):</b> इसका अर्थ 'मेहमाननवाज़ी' या 'अतिथि सत्कार' होता है।</li><li><b>Option 2 (Celebration):</b> इसका अर्थ 'उत्सव' या 'समारोह' होता है।</li><li><b>Option 3 (Elegance):</b> इसका अर्थ 'सुंदरता' या 'शालीनता' होता है।</li><li><b>Option 4 (Heartwarming):</b> इसका अर्थ है 'दिल को छू लेने वाला' या 'खुशी देने वाला' (Causing feelings of happiness and pleasure)। यह एकदम सही उत्तर है!</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Synonyms",
+        "level": "Hard",
+        "q_en": "<p>Choose the one word that can best replace the underlined segment without changing the meaning of the sentence.<br>Despite repeated reminders about collective responsibility, the principal cautioned students against <u><strong>showing excessive pride in their personal accomplishments,</strong></u> warning that such attitudes often erode collaborative learning environments.<u></u></p>",
+        "q_hi": "<p>Choose the one word that can best replace the underlined segment without changing the meaning of the sentence.<br>Despite repeated reminders about collective responsibility, the principal cautioned students against <u><strong>showing excessive pride in their personal accomplishments,</strong></u> warning that such attitudes often erode collaborative learning environments.<u></u></p>",
+        "op_en": [
+            "caution",
+            "modesty",
+            "hubris",
+            "adulation"
+        ],
+        "op_hi": [
+            "caution",
+            "modesty",
+            "hubris",
+            "adulation"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें <u>\"showing excessive pride in their personal accomplishments\"</u> (अपनी व्यक्तिगत उपलब्धियों पर अत्यधिक गर्व या घमंड दिखाना) के लिए एक शब्द ढूँढना है।</p><ul><li><b>Option 1 (caution):</b> इसका अर्थ 'सावधानी' होता है।</li><li><b>Option 2 (modesty):</b> इसका अर्थ 'विनम्रता' या 'शालीनता' होता है। यह घमंड का उल्टा (Antonym) है।</li><li><b>Option 3 (hubris):</b> इसका अर्थ 'अहंकार' या 'अत्यधिक घमंड' (excessive pride) होता है। यह बिल्कुल सटीक शब्द है और सही उत्तर है!</li><li><b>Option 4 (adulation):</b> इसका अर्थ 'अत्यधिक चापलूसी' या 'झूठी तारीफ' होता है।</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Tenses",
+        "level": "Moderate",
+        "q_en": "<p>Which version of the given sentence uses the correct form of future tense?<br><br>By this time next year, I shall bought a new car.</p>",
+        "q_hi": "<p>Which version of the given sentence uses the correct form of future tense?<br><br>By this time next year, I shall bought a new car.</p>",
+        "op_en": [
+            "By this time next year, I shall buying a new car.",
+            "By this time next year, I shall has bought a new car.",
+            "By this time next year, I shall be buy a new car.",
+            "By this time next year, I shall have bought a new car."
+        ],
+        "op_hi": [
+            "By this time next year, I shall buying a new car.",
+            "By this time next year, I shall has bought a new car.",
+            "By this time next year, I shall be buy a new car.",
+            "By this time next year, I shall have bought a new car."
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस Tense (काल) के सवाल को समझते हैं। वाक्य में <b>\"By this time next year\"</b> (अगले साल इस समय तक) का प्रयोग हुआ है।</p><p><b>रूल (Rule):</b> जब भविष्य में किसी निश्चित समय तक कोई काम पूरा होने की बात की जाती है, तो हम <b>Future Perfect Tense</b> का प्रयोग करते हैं।<br>इसकी पहचान है: <b>Subject + will/shall + have + Verb की 3rd Form (V3)</b>.</p><ul><li><b>Option 1 (shall buying):</b> ग्रामेटिकली गलत है ('shall be buying' Future Continuous होता है)।</li><li><b>Option 2 (shall has bought):</b> 'shall' के साथ हमेशा 'have' आता है, 'has' नहीं।</li><li><b>Option 3 (shall be buy):</b> ग्रामेटिकली गलत है।</li><li><b>Option 4 (shall have bought):</b> यह Future Perfect Tense के स्ट्रक्चर (shall + have + V3) को पूरी तरह फॉलो करता है। यह बिल्कुल सही उत्तर है!</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Hard",
+        "q_en": "<p>In the given question, a statement divided into different segments is given. Rearrange all the segments to form a coherent statement.<br><br>make them the Roof of the World(A)/ one of the most beautiful mountain ranges in the world(B)/ and they stretch across several Asian countries(C)/ the Himalayas are(D)/where their great height and spiritual importance(E)/</p>",
+        "q_hi": "<p>In the given question, a statement divided into different segments is given. Rearrange all the segments to form a coherent statement.<br><br>make them the Roof of the World(A)/ one of the most beautiful mountain ranges in the world(B)/ and they stretch across several Asian countries(C)/ the Himalayas are(D)/where their great height and spiritual importance(E)/</p>",
+        "op_en": [
+            "CEADB",
+            "ABCDE",
+            "DBCEA",
+            "BCEAD"
+        ],
+        "op_hi": [
+            "CEADB",
+            "ABCDE",
+            "DBCEA",
+            "BCEAD"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस वाक्य को सही क्रम में लगाते हैं।</p><p><b>Step 1:</b> वाक्य की शुरुआत किसी Subject (कर्ता) से होनी चाहिए। (D) \"the Himalayas are\" एक दम सही शुरुआत है।</p><p><b>Step 2:</b> हिमालय क्या हैं? (B) \"one of the most beautiful mountain ranges in the world\".<br>अतः (D) के बाद (B) आएगा। वाक्य: The Himalayas are one of the most beautiful mountain ranges in the world.</p><p><b>Step 3:</b> और वे कहाँ तक फैले हैं? (C) \"and they stretch across several Asian countries\".</p><p><b>Step 4:</b> (C) के बाद 'where' वाला क्लॉज़ जुड़ेगा। (E) \"where their great height and spiritual importance\" (जहाँ उनकी महान ऊंचाई और आध्यात्मिक महत्व...)</p><p><b>Step 5:</b> यह ऊंचाई और महत्व क्या करता है? (A) \"make them the Roof of the World\" (उन्हें दुनिया की छत बनाता है)।</p><p>पूरा वाक्य: <b>(D)</b> The Himalayas are <b>(B)</b> one of the most beautiful mountain ranges in the world <b>(C)</b> and they stretch across several Asian countries <b>(E)</b> where their great height and spiritual importance <b>(A)</b> make them the Roof of the World.</p><p>सही क्रम: <b>D - B - C - E - A</b></p><ul><li><b>Option 1, 2, 4:</b> गलत क्रम हैं।</li><li><b>Option 3 (DBCEA):</b> यह बिल्कुल सही उत्तर है!</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Moderate",
+        "q_en": "<p>Choose the one word that can best replace the underlined segment without changing the meaning of the sentence.<br>The doctor advised him to avoid <u>eating too much food regularly</u>.</p>",
+        "q_hi": "<p>Choose the one word that can best replace the underlined segment without changing the meaning of the sentence.<br>The doctor advised him to avoid <u>eating too much food regularly</u>.</p>",
+        "op_en": [
+            "greed",
+            "hunger",
+            "appetite",
+            "gluttony"
+        ],
+        "op_hi": [
+            "greed",
+            "hunger",
+            "appetite",
+            "gluttony"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें <u>\"eating too much food regularly\"</u> (नियमित रूप से बहुत अधिक भोजन करना / पेटू होना) के लिए एक सटीक शब्द खोजना है।</p><ul><li><b>Option 1 (greed):</b> इसका अर्थ 'लालच' होता है। यह पैसे, सत्ता या किसी भी चीज़ के लिए हो सकता है।</li><li><b>Option 2 (hunger):</b> इसका अर्थ 'भूख' होता है (जो एक स्वाभाविक जरूरत है)।</li><li><b>Option 3 (appetite):</b> इसका अर्थ भी 'भूख' या 'भोजन की इच्छा' होता है।</li><li><b>Option 4 (gluttony):</b> इसका अर्थ है 'पेटूपन' या 'अत्यधिक भोजन करने की आदत' (Habit of eating too much)। यह बिल्कुल सटीक शब्द है और सही उत्तर है!</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Vocabulary",
+        "level": "Easy",
+        "q_en": "<p>Select the option which means the same as the group of words given.<br><br>The state of being legally responsible for something</p>",
+        "q_hi": "<p>Select the option which means the same as the group of words given.<br><br>The state of being legally responsible for something</p>",
+        "op_en": [
+            "Inflation",
+            "Loan",
+            "Liability",
+            "Liberty"
+        ],
+        "op_hi": [
+            "Inflation",
+            "Loan",
+            "Liability",
+            "Liberty"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस Vocabulary (शब्दावली) के प्रश्न को समझते हैं। हमें खोजना है कि \"कानूनी रूप से किसी चीज़ के लिए जिम्मेदार होने की स्थिति\" को क्या कहते हैं।</p><ul><li><b>Option 1 (Inflation):</b> इसका अर्थ 'मुद्रास्फीति' या 'महंगाई' होता है।</li><li><b>Option 2 (Loan):</b> इसका अर्थ 'कर्ज' या 'ऋण' होता है।</li><li><b>Option 3 (Liability):</b> इसका अर्थ है 'दायित्व' या 'कानूनी जवाबदेही' (Legal responsibility)। यह बिल्कुल सही उत्तर है!</li><li><b>Option 4 (Liberty):</b> इसका अर्थ 'स्वतंत्रता' या 'आज़ादी' होता है।</li></ul>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Hard",
+        "q_en": "<p>In the given question, a statement divided into different segments is given. The first segment is fixed; rearrange the other segments to form a coherent statement.<br><br>A. There was a general opinion<br>B. and its removal was<br>C. that he couldn't have looked worse with a tail,<br>D. therefore a gratuitous effrontery</p>",
+        "q_hi": "<p>In the given question, a statement divided into different segments is given. The first segment is fixed; rearrange the other segments to form a coherent statement.<br><br>A. There was a general opinion<br>B. and its removal was<br>C. that he couldn't have looked worse with a tail,<br>D. therefore a gratuitous effrontery</p>",
+        "op_en": [
+            "ACBD",
+            "ABCD",
+            "ADCB",
+            "ABDC"
+        ],
+        "op_hi": [
+            "ACBD",
+            "ABCD",
+            "ADCB",
+            "ABDC"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस वाक्य को सही क्रम में जमाते हैं।</p><p><b>शुरुआती हिस्सा:</b> A. There was a general opinion (यह एक आम राय थी...)</p><p><b>Step 1:</b> आम राय क्या थी? यह बताने के लिए 'that' क्लॉज़ का उपयोग होगा। (C) \"that he couldn't have looked worse with a tail\" (कि वह एक पूंछ के साथ इससे बुरा नहीं दिख सकता था)।<br>अतः (A) के बाद (C) आएगा।</p><p><b>Step 2:</b> इसके बाद (B) आएगा: \"and its removal was\" (और उसका हटाया जाना था...)</p><p><b>Step 3:</b> क्या था हटाया जाना? (D) \"therefore a gratuitous effrontery\" (इसलिए एक अनावश्यक गुस्ताखी/अपमान)।</p><p>पूरा वाक्य: There was a general opinion that he couldn't have looked worse with a tail, and its removal was therefore a gratuitous effrontery.</p><p>सही क्रम: <b>A - C - B - D</b></p><ul><li><b>Option 1 (ACBD):</b> यह बिल्कुल सही उत्तर है!</li><li><b>Option 2, 3, 4:</b> गलत क्रम हैं।</li></ul>"
+    }
+]
