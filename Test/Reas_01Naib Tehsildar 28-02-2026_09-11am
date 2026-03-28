@@ -1,0 +1,422 @@
+[
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Easy",
+        "q_en": "<p>Refer to the following letter and symbol series and answer the question that follows. Counting to be done from left to right only.<br><br>(Left) S  #  ^  D  R  G  * Y  W @  E  %  P   V  &amp;  X  Z  A  $  C   Ω  Q  σ    (Right)<br><br>How many such symbols are there, each of which is immediately preceded by a letter and also immediately followed by a symbol?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर और प्रतीक श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गिनती केवल बाएं से दाएं की जानी चाहिए।<br><br>(बाएं) S  #  ^  D  R  G  * Y  W @  E  %  P   V  &amp;  X  Z  A  $  C   Ω  Q  σ    (दाएं)<br><br>ऐसे कितने प्रतीक हैं, जिनमें से प्रत्येक के ठीक पहले एक अक्षर और ठीक बाद में एक प्रतीक है?</p>",
+        "op_en": [
+            "None",
+            "Three",
+            "Two",
+            "One"
+        ],
+        "op_hi": [
+            "कोई नहीं",
+            "तीन",
+            "दो",
+            "एक"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं!</p><p>हमें एक ऐसी शर्त ढूंढनी है जहाँ:<br><b>अक्षर (Letter) → प्रतीक (Symbol) → प्रतीक (Symbol)</b> हो।</p><p>आइए श्रृंखला को ध्यान से देखते हैं:<br>S  <b>#</b>  ^  D  R  G  * Y  W @  E  %  P   V  &amp;  X  Z  A  $  C   Ω  Q  σ</p><p>चलिए चेक करते हैं:</p><ul><li>S (Letter) → <b># (Symbol)</b> → ^ (Symbol): यह हमारी शर्त को पूरा करता है।</li><li>D (Letter) → R (Letter): शर्त पूरी नहीं हुई।</li><li>G (Letter) → * (Symbol) → Y (Letter): शर्त पूरी नहीं हुई।</li><li>W (Letter) → @ (Symbol) → E (Letter): शर्त पूरी नहीं हुई।</li><li>E (Letter) → % (Symbol) → P (Letter): शर्त पूरी नहीं हुई।</li><li>V (Letter) → &amp; (Symbol) → X (Letter): शर्त पूरी नहीं हुई।</li><li>A (Letter) → $ (Symbol) → C (Letter): शर्त पूरी नहीं हुई।</li><li>C (Letter) → Ω (Symbol) → Q (Letter): शर्त पूरी नहीं हुई।</li><li>Q (Letter) → σ (Symbol) → (End): शर्त पूरी नहीं हुई।</li></ul><p>हमें केवल एक ही ऐसा जोड़ा मिला: <b>S # ^</b> जहाँ प्रतीक (#) के ठीक पहले एक अक्षर (S) और ठीक बाद एक प्रतीक (^) है।</p><p>इसलिए, ऐसा केवल <b>एक (One)</b> ही प्रतीक है।</p><ul><li><b>Option 1 (None):</b> गलत है।</li><li><b>Option 2 (Three):</b> गलत है।</li><li><b>Option 3 (Two):</b> गलत है।</li><li><b>Option 4 (One):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Blood Relations",
+        "level": "Moderate",
+        "q_en": "<p>In a certain code language, <br>'A ! B' means ‘A is the brother of B’,<br>'A % B' means ‘A is the father of B’,<br>'A ÷ B' means ‘A is the son of B’ and<br>'A € B' means ‘A is the wife of B’. <br>Based on the above, how is D related to X if 'D ÷ E % V ! W € X'?</p>",
+        "q_hi": "<p>एक निश्चित कूट भाषा में,<br>'A ! B' का अर्थ है 'A, B का भाई है',<br>'A % B' का अर्थ है 'A, B का पिता है',<br>'A ÷ B' का अर्थ है 'A, B का पुत्र है' और<br>'A € B' का अर्थ है 'A, B की पत्नी है'।<br>उपरोक्त के आधार पर, यदि 'D ÷ E % V ! W € X' है, तो D, X से किस प्रकार संबंधित है?</p>",
+        "op_en": [
+            "Brother",
+            "Wife's brother",
+            "Father",
+            "Mother's brother"
+        ],
+        "op_hi": [
+            "भाई",
+            "पत्नी का भाई",
+            "पिता",
+            "माँ का भाई"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस Blood Relation के सवाल को step-by-step हल करते हैं।</p><p>हमें दिया गया व्यंजक है: <b>D ÷ E % V ! W € X</b></p><p>आइए इसे डिकोड करते हैं:</p><ol><li><b>D ÷ E:</b> इसका अर्थ है D, E का पुत्र है। (D एक पुरुष है)।</li><li><b>E % V:</b> इसका अर्थ है E, V का पिता है। (चूंकि D भी E का पुत्र है, इसका मतलब D और V भाई-बहन/भाई-भाई हो सकते हैं)।</li><li><b>V ! W:</b> इसका अर्थ है V, W का भाई है। (अब हमें पता चला कि D, V और W तीनों E की संतानें हैं। D और V भाई हैं)।</li><li><b>W € X:</b> इसका अर्थ है W, X की पत्नी है। (यानी W महिला है और X उसका पति है)।</li></ol><p>अब पूछा गया है: <b>D, X से कैसे संबंधित है?</b></p><p>चूंकि W, X की पत्नी है, और D, W का भाई है। इसलिए, D, X की पत्नी का भाई (Wife's brother) यानी 'साला' हुआ।</p><ul><li><b>Option 1 (Brother):</b> गलत है, X और D में जीजा-साले का रिश्ता है।</li><li><b>Option 2 (Wife's brother):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 3 (Father):</b> गलत है।</li><li><b>Option 4 (Mother's brother):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Blood Relations",
+        "level": "Moderate",
+        "q_en": "<p>In a certain code language,<br>A + B means ‘A is the husband of B’<br>A - B means ‘A is the sister of B’<br>A × B means ‘A is the mother of B’<br>A ÷ B means ‘A is the brother of B’<br>Based on the above, how is Q related to P if ‘Q - R + S × T ÷ P’?</p>",
+        "q_hi": "<p>एक निश्चित कूट भाषा में,<br>A + B का अर्थ है 'A, B का पति है'<br>A - B का अर्थ है 'A, B की बहन है'<br>A × B का अर्थ है 'A, B की माँ है'<br>A ÷ B का अर्थ है 'A, B का भाई है'<br>उपरोक्त के आधार पर, यदि ‘Q - R + S × T ÷ P’ है, तो Q, P से किस प्रकार संबंधित है?</p>",
+        "op_en": [
+            "Father’s sister",
+            "Daughter",
+            "Mother’s sister",
+            "Husband’s sister"
+        ],
+        "op_hi": [
+            "पिता की बहन",
+            "पुत्री",
+            "माँ की बहन",
+            "पति की बहन"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस Blood Relation के सवाल को समझते हैं।</p><p>हमें दिया गया व्यंजक है: <b>Q - R + S × T ÷ P</b></p><p>आइए इसे डिकोड करते हैं:</p><ol><li><b>Q - R:</b> Q, R की बहन है। (Q महिला है)।</li><li><b>R + S:</b> R, S का पति है। (R पुरुष है, S उसकी पत्नी है)।</li><li><b>S × T:</b> S, T की माँ है। (चूंकि R पति है और S पत्नी है, तो T, R और S की संतान है)।</li><li><b>T ÷ P:</b> T, P का भाई है। (T पुरुष है, और P भी R और S की ही संतान है)।</li></ol><p>अब पूछा गया है: <b>Q, P से कैसे संबंधित है?</b></p><p>P के पिता R हैं। और Q, R की बहन है।<br>अतः, Q, P के पिता की बहन (Father's sister) यानी 'बुआ' हुई।</p><ul><li><b>Option 1 (Father’s sister):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 2 (Daughter):</b> गलत है।</li><li><b>Option 3 (Mother’s sister):</b> गलत है (वह तो मौसी होती है)।</li><li><b>Option 4 (Husband’s sister):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "level": "Hard",
+        "q_en": "<p>Each of B, A, R, C, O, D and E has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week. B has exam on Thursday. D has exam on one of the days after C and on one of the days before A. R has exam on one of the days after O but on one of the days before E. O has exam on one of the days after B. How many people have exam between R and D?</p>",
+        "q_hi": "<p>B, A, R, C, O, D और E में से प्रत्येक की एक ही सप्ताह के सोमवार से शुरू होकर रविवार को समाप्त होने वाले अलग-अलग दिन परीक्षा है। B की परीक्षा गुरुवार को है। D की परीक्षा C के बाद किसी एक दिन और A से पहले किसी एक दिन है। R की परीक्षा O के बाद किसी एक दिन लेकिन E से पहले किसी एक दिन है। O की परीक्षा B के बाद किसी एक दिन है। R और D के बीच कितने लोगों की परीक्षा है?</p>",
+        "op_en": [
+            "Two",
+            "Three",
+            "Four",
+            "One"
+        ],
+        "op_hi": [
+            "दो",
+            "तीन",
+            "चार",
+            "एक"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस Puzzle को Step-by-Step सुलझाते हैं!</p><p>सप्ताह के दिन: सोम (Mon), मंगल (Tue), बुध (Wed), गुरु (Thu), शुक्र (Fri), शनि (Sat), रवि (Sun)।</p><p><b>Step 1:</b> सबसे पहले पक्की जानकारी लिखते हैं:<br>B की परीक्षा गुरुवार (Thursday) को है।</p><p><b>Step 2:</b> अगली शर्त - O की परीक्षा B के बाद किसी दिन है। O के बाद R और R के बाद E की परीक्षा है (O &gt; R &gt; E)।<br>B के बाद केवल तीन ही दिन बचे हैं (शुक्र, शनि, रवि) और तीन ही लोग (O, R, E) हैं।<br>अतः यह क्रम पक्का हो गया:<br>शुक्रवार (Fri) = O<br>शनिवार (Sat) = R<br>रविवार (Sun) = E</p><p><b>Step 3:</b> अब बचे हुए दिन: सोम, मंगल, बुध।<br>शर्त है - D की परीक्षा C के बाद और A से पहले है (C &gt; D &gt; A)।<br>अतः यह क्रम भी पक्का हो गया:<br>सोमवार (Mon) = C<br>मंगलवार (Tue) = D<br>बुधवार (Wed) = A</p><p><b>पूरी सारणी इस प्रकार बनेगी:</b><br>सोम (Mon) - C<br><b>मंगल (Tue) - D</b><br>बुध (Wed) - A<br>गुरु (Thu) - B<br>शुक्र (Fri) - O<br><b>शनि (Sat) - R</b><br>रवि (Sun) - E</p><p>प्रश्न: R और D के बीच कितने लोगों की परीक्षा है?<br>D (मंगल) और R (शनि) के बीच: A (बुध), B (गुरु), O (शुक्र) - कुल <b>3 लोग</b> हैं।</p><ul><li><b>Option 1 (Two):</b> गलत है।</li><li><b>Option 2 (Three):</b> बिल्कुल <b>सही</b> जवाब!</li><li><b>Option 3 (Four):</b> गलत है।</li><li><b>Option 4 (One):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Analogy",
+        "level": "Easy",
+        "q_en": "<p>Select the pair which follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern.<br><br>GIK : JLN<br>PRT : SUW</p>",
+        "q_hi": "<p>उस युग्म का चयन करें जो नीचे दिए गए दो युग्मों द्वारा अनुसरण किए गए समान पैटर्न का अनुसरण करता है। दोनों युग्म समान पैटर्न का अनुसरण करते हैं।<br><br>GIK : JLN<br>PRT : SUW</p>",
+        "op_en": [
+            "EGI : HJL",
+            "EHI : KLO",
+            "QSW : UVY",
+            "NRV : STW"
+        ],
+        "op_hi": [
+            "EGI : HJL",
+            "EHI : KLO",
+            "QSW : UVY",
+            "NRV : STW"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस Analogy (समरूपता) के सवाल के पैटर्न को पहचानते हैं।</p><p><b>पहला युग्म: GIK : JLN</b><br>G (7) + 3 = J (10)<br>I (9) + 3 = L (12)<br>K (11) + 3 = N (14)<br>पैटर्न: <b>+3, +3, +3</b></p><p><b>दूसरा युग्म: PRT : SUW</b><br>P (16) + 3 = S (19)<br>R (18) + 3 = U (21)<br>T (20) + 3 = W (23)<br>यहाँ भी पैटर्न: <b>+3, +3, +3</b></p><p>अब विकल्पों में यही पैटर्न चेक करते हैं:</p><ul><li><b>Option 1 (EGI : HJL):</b><br>E (5) + 3 = H (8)<br>G (7) + 3 = J (10)<br>I (9) + 3 = L (12)<br>यह <b>बिल्कुल सही</b> पैटर्न (+3, +3, +3) फॉलो कर रहा है!</li><li><b>Option 2 (EHI : KLO):</b> E(5)+6=K(11) - गलत पैटर्न।</li><li><b>Option 3 (QSW : UVY):</b> Q(17)+4=U(21) - गलत पैटर्न।</li><li><b>Option 4 (NRV : STW):</b> N(14)+5=S(19) - गलत पैटर्न।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Easy",
+        "q_en": "<p>Refer to the following number and symbol series and answer the question that follows. Counting to be done from left to right only. All numbers are single-digit numbers only.<br><br>(Left) ^ 3 # 8 &lt; &amp; &gt; 3 &amp; % 9 &amp; 3 &gt; * 9 9 &lt; 2 4 1 (Right)<br><br>How many such symbols are there, each of which is immediately preceded by a symbol and also immediately followed by a number?</p>",
+        "q_hi": "<p>निम्नलिखित संख्या और प्रतीक श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गिनती केवल बाएं से दाएं की जानी चाहिए। सभी संख्याएं केवल एक अंक की संख्याएं हैं।<br><br>(बाएं) ^ 3 # 8 &lt; &amp; &gt; 3 &amp; % 9 &amp; 3 &gt; * 9 9 &lt; 2 4 1 (दाएं)<br><br>ऐसे कितने प्रतीक हैं, जिनमें से प्रत्येक के ठीक पहले एक प्रतीक और ठीक बाद में एक संख्या है?</p>",
+        "op_en": [
+            "One",
+            "More than two",
+            "Two",
+            "None"
+        ],
+        "op_hi": [
+            "एक",
+            "दो से अधिक",
+            "दो",
+            "कोई नहीं"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को ध्यान से देखते हैं!</p><p>हमें एक ऐसी शर्त ढूंढनी है जहाँ:<br><b>प्रतीक (Symbol) → प्रतीक (Symbol) → संख्या (Number)</b> हो।</p><p>आइए श्रृंखला को स्कैन करते हैं:<br>^ 3 # 8 &lt; &amp; <b>&gt; 3</b> &amp; <b>% 9</b> &amp; 3 &gt; <b>* 9</b> 9 &lt; 2 4 1</p><p>चलिए जोड़े चेक करते हैं:</p><ul><li>&amp; (Symbol) → <b>&gt; (Symbol)</b> → 3 (Number) : यह एक जोड़ा है!</li><li>&amp; (Symbol) → <b>% (Symbol)</b> → 9 (Number) : यह दूसरा जोड़ा है!</li><li>&gt; (Symbol) → <b>* (Symbol)</b> → 9 (Number) : यह तीसरा जोड़ा है!</li></ul><p>हमें कुल <b>3 (Three)</b> ऐसे जोड़े मिले। चूँकि 3, दो से अधिक है, इसलिए उत्तर 'More than two' होगा।</p><ul><li><b>Option 1 (One):</b> गलत है।</li><li><b>Option 2 (More than two):</b> यह <b>सही</b> उत्तर है।</li><li><b>Option 3 (Two):</b> गलत है।</li><li><b>Option 4 (None):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding Decoding",
+        "level": "Easy",
+        "q_en": "<p>In a certain code language, ‘SOAR’ is coded as ‘6879’ and ‘ROAD’ is coded as ‘7681’. What is the code for ‘D’ in the given code language?</p>",
+        "q_hi": "<p>एक निश्चित कूट भाषा में, 'SOAR' को '6879' और 'ROAD' को '7681' के रूप में कूटबद्ध किया जाता है। दी गई कूट भाषा में 'D' के लिए कूट क्या है?</p>",
+        "op_en": [
+            "7",
+            "8",
+            "1",
+            "6"
+        ],
+        "op_hi": [
+            "7",
+            "8",
+            "1",
+            "6"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, यह Direct Coding का बहुत ही आसान सवाल है!</p><p>आइए दिए गए शब्दों और उनके कोड को ध्यान से देखते हैं:</p><p>S O A R → 6 8 7 9<br>R O A D → 7 6 8 1</p><p>यहाँ आप देख सकते हैं कि कोड सीधे अक्षरों के स्थान के अनुसार नहीं हैं, बल्कि ये जंबल्ड (Jumbled) हैं। हमें कॉमन अक्षरों को खोजना होगा।</p><p>दोनों शब्दों में कॉमन अक्षर हैं: <b>R, O, A</b><br>और दोनों के कोड में कॉमन अंक हैं: <b>6, 8, 7</b></p><p>अब, 'ROAD' शब्द में 'R, O, A' के लिए '7, 6, 8' इस्तेमाल हो गए।<br>बचा हुआ अक्षर है: <b>D</b><br>और बचा हुआ अंक है: <b>1</b></p><p>इसलिए, 'D' का कोड <b>1</b> होगा।</p><ul><li><b>Option 1 (7):</b> गलत है।</li><li><b>Option 2 (8):</b> गलत है।</li><li><b>Option 3 (1):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 4 (6):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding Decoding",
+        "level": "Easy",
+        "q_en": "<p>In a certain code language, ‘ROAD’ is coded as ‘4583’ and ‘HARD’ is coded as ‘5831’. What is the code for ‘H’ in that language?</p>",
+        "q_hi": "<p>एक निश्चित कूट भाषा में, 'ROAD' को '4583' और 'HARD' को '5831' के रूप में कूटबद्ध किया जाता है। उस भाषा में 'H' के लिए कूट क्या है?</p>",
+        "op_en": [
+            "8",
+            "3",
+            "1",
+            "5"
+        ],
+        "op_hi": [
+            "8",
+            "3",
+            "1",
+            "5"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, यह भी पिछले सवाल जैसा ही Direct Coding का मजेदार सवाल है!</p><p>दिए गए शब्द और कोड:<br>R O A D → 4 5 8 3<br>H A R D → 5 8 3 1</p><p>इन दोनों में कॉमन अक्षर क्या हैं? <b>R, A, D</b><br>और इन दोनों के कोड में कॉमन अंक क्या हैं? <b>5, 8, 3</b></p><p>अब, 'HARD' शब्द में 'R, A, D' के कोड '5, 8, 3' हो गए।<br>बचा हुआ अक्षर है: <b>H</b><br>और बचा हुआ अंक है: <b>1</b></p><p>इसलिए, 'H' का कोड <b>1</b> होगा।</p><ul><li><b>Option 1 (8):</b> गलत है।</li><li><b>Option 2 (3):</b> गलत है।</li><li><b>Option 3 (1):</b> एकदम <b>सही</b> उत्तर!</li><li><b>Option 4 (5):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "level": "Moderate",
+        "q_en": "<p>Seven people, S, L, I, P, E, R and D are sitting in a row, facing north. Only three people sit between L and I. E sits to the immediate left of I. No one sits to the right of D. Only two people sit between D and E. S sits to the immediate right of R. How many people sit between P and S?</p>",
+        "q_hi": "<p>सात व्यक्ति, S, L, I, P, E, R और D उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। L और I के बीच केवल तीन व्यक्ति बैठे हैं। E, I के ठीक बायें बैठा है। D के दायीं ओर कोई नहीं बैठा है। D और E के बीच केवल दो व्यक्ति बैठे हैं। S, R के ठीक दायें बैठा है। P और S के बीच कितने व्यक्ति बैठे हैं?</p>",
+        "op_en": [
+            "Three",
+            "One",
+            "Two",
+            "Four"
+        ],
+        "op_hi": [
+            "तीन",
+            "एक",
+            "दो",
+            "चार"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस Seating Arrangement को Step-by-Step सुलझाते हैं!</p><p>कुल 7 लोग हैं (1, 2, 3, 4, 5, 6, 7) और सभी उत्तर (North) की ओर देख रहे हैं।</p><p><b>Step 1: पक्की जानकारी (Fixed Point)</b><br>\"D के दायीं ओर कोई नहीं बैठा है।\"<br>इसका मतलब D बिल्कुल दाईं छोर (Right End) पर है (स्थान 7)।<br>_ _ _ _ _ _ <b>D</b></p><p><b>Step 2: D से जुड़ी जानकारी</b><br>\"D और E के बीच केवल दो व्यक्ति बैठे हैं।\"<br>D स्थान 7 पर है, तो E स्थान 4 पर होगा।<br>_ _ _ <b>E</b> _ _ <b>D</b></p><p><b>Step 3: E से जुड़ी जानकारी</b><br>\"E, I के ठीक बायें बैठा है।\"<br>मतलब I स्थान 5 पर होगा।<br>_ _ _ <b>E</b> <b>I</b> _ <b>D</b></p><p><b>Step 4: I से जुड़ी जानकारी</b><br>\"L और I के बीच केवल तीन व्यक्ति बैठे हैं।\"<br>I स्थान 5 पर है। अगर दाईं ओर देखें तो जगह नहीं है। बाईं ओर 3 जगह छोड़कर L स्थान 1 पर आएगा।<br><b>L</b> _ _ <b>E</b> <b>I</b> _ <b>D</b></p><p><b>Step 5: बची हुई जगहें भरना</b><br>अब जगह बची हैं स्थान 2, 3 और 6।<br>शर्त है: \"S, R के ठीक दायें बैठा है।\"<br>इसका मतलब R और S एक साथ बैठेंगे (RS)। एक साथ 2 खाली जगह केवल स्थान 2 और 3 पर हैं।<br>तो, R स्थान 2 पर और S स्थान 3 पर बैठेगा।<br><b>L</b> <b>R</b> <b>S</b> <b>E</b> <b>I</b> _ <b>D</b></p><p>अब केवल स्थान 6 बचा है, जहाँ बचा हुआ व्यक्ति P बैठेगा।<br>पूरा क्रम: <b>L, R, S, E, I, P, D</b></p><p><b>प्रश्न:</b> P और S के बीच कितने व्यक्ति बैठे हैं?<br>S और P के बीच E और I बैठे हैं, यानी कुल <b>2 लोग</b>।</p><ul><li><b>Option 1 (Three):</b> गलत है।</li><li><b>Option 2 (One):</b> गलत है।</li><li><b>Option 3 (Two):</b> बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 4 (Four):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Analogy",
+        "level": "Hard",
+        "q_en": "<p>EP 12 is related to GK 1 in a certain way. In the same way, MO 15 is related to OJ 4. To which of the following is MX 21 related, following the same logic?</p>",
+        "q_hi": "<p>EP 12 एक निश्चित तरीके से GK 1 से संबंधित है। उसी तरह, MO 15, OJ 4 से संबंधित है। समान तर्क का अनुसरण करते हुए, MX 21 निम्नलिखित में से किससे संबंधित है?</p>",
+        "op_en": [
+            "YT 14",
+            "MK 11",
+            "KL 13",
+            "OS 10"
+        ],
+        "op_hi": [
+            "YT 14",
+            "MK 11",
+            "KL 13",
+            "OS 10"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, यह Analogy का एक बहुत ही शानदार और Tricky सवाल है! आइए इसका Pattern खोजते हैं।</p><p><b>पहला युग्म: EP 12 → GK 1</b><br>Letters का Pattern: <br>E (5) + 2 = G (7)<br>P (16) - 5 = K (11)<br>Number का Pattern: <br>12 से 1 कैसे आया? आइए अक्षरों की Place Value से कोशिश करें。<br>EP → (5 + 16) = 21. लेकिन दिया है 12। (शायद रिवर्स किया है: 21 → 12)<br>GK → (7 + 11) = 18. लेकिन दिया है 1।<br>यह लॉजिक काम नहीं कर रहा।</p><p>आइए दूसरा लॉजिक देखते हैं:<br><b>EP 12</b><br>E(5) + 2 = G(7)<br>P(16) - 5 = K(11)<br>Numbers: (Place value of E - Place value of P) = |5 - 16| = 11. 11 + 1 = 12?<br>GK 1 → |7 - 11| = 4. 4 - 3 = 1?<br>यह भी सही नहीं बैठ रहा।</p><p><b>सही Pattern यह है:</b><br>EP 12 → GK 1<br>E (5) + 2 = G (7)<br>P (16) - 5 = K (11)<br>नंबर का लॉजिक: पहले के दोनों अक्षरों के अंकों का योग - दूसरे के दोनों अक्षरों के अंकों का योग<br>(5 + 16) - (7 + 11) = 21 - 18 = 3. (यहाँ 12 और 1 है, अंतर 11 का है)।</p><p>आइए इसे फिर से गहराई से देखते हैं।<br>EP (5, 16) --(12)-- GK (7, 11) --(1)--<br>MO (13, 15) --(15)-- OJ (15, 10) --(4)--<br>ध्यान दें: <br>E(5) + 2 = G(7); P(16) - 5 = K(11)<br>M(13) + 2 = O(15); O(15) - 5 = J(10)<br>तो Letters का pattern Fix है: <b>+2, -5</b></p><p>अब Numbers को देखते हैं:<br>EP(12) → 1 + 2 = 3<br>GK(1) → 1<br>अंतर: 3 - 1 = 2</p><p>MO(15) → 1 + 5 = 6<br>OJ(4) → 4<br>अंतर: 6 - 4 = 2<br>मतलब नंबर्स का Digit Sum करने पर अंतर 2 आ रहा है!</p><p><b>हमसे पूछा है: MX 21</b><br>Letters: <br>M (13) + 2 = <b>O (15)</b><br>X (24) - 5 = <b>S (19)</b><br>तो Letters होंगे <b>OS</b>.</p><p>Numbers:<br>MX 21 का Digit Sum: 2 + 1 = 3<br>हमे ऐसा Number चाहिए जिसका Digit Sum, 3 से 2 कम हो, यानी 1 हो। (3 - 2 = 1)<br>विकल्पों में OS के साथ 10 है। 10 का Digit Sum: 1 + 0 = 1।<br>यह पूरी तरह से मैच कर गया!</p><ul><li><b>Option 1 (YT 14):</b> गलत Letters.</li><li><b>Option 2 (MK 11):</b> गलत Letters.</li><li><b>Option 3 (KL 13):</b> गलत Letters.</li><li><b>Option 4 (OS 10):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "level": "Hard",
+        "q_en": "<p>Seven boxes, D, E, F, G, U, V and W, are kept one over the other, but not necessarily in the same order. V is kept immediately above D. Only four boxes are kept between U and F. Only W is kept above U. Only two boxes are kept between G and E. E is not kept immediately above V.<br>How many boxes are kept between W and V?</p>",
+        "q_hi": "<p>सात बॉक्स, D, E, F, G, U, V और W, एक के ऊपर एक रखे गए हैं, लेकिन जरूरी नहीं कि इसी क्रम में हों। V, D के ठीक ऊपर रखा गया है। U और F के बीच केवल चार बॉक्स रखे गए हैं। U के ऊपर केवल W रखा गया है। G और E के बीच केवल दो बॉक्स रखे गए हैं। E, V के ठीक ऊपर नहीं रखा गया है。<br>W और V के बीच कितने बॉक्स रखे गए हैं?</p>",
+        "op_en": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "op_hi": [
+            "एक",
+            "दो",
+            "तीन",
+            "चार"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस Box Puzzle को Step-by-Step बनाते हैं!</p><p>कुल 7 Box हैं। ऊपर से नीचे की ओर नंबर देते हैं (1 सबसे ऊपर, 7 सबसे नीचे)।</p><p><b>Step 1:</b> \"U के ऊपर केवल W रखा गया है।\"<br>इसका मतलब W सबसे ऊपर (No. 1) है और U उसके ठीक नीचे (No. 2) है।<br>1 - W<br>2 - U</p><p><b>Step 2:</b> \"U और F के बीच केवल चार बॉक्स रखे गए हैं।\"<br>U No. 2 पर है, तो 4 Box छोड़कर F सबसे नीचे (No. 7) होगा।<br>1 - W<br>2 - U<br>3 - _<br>4 - _<br>5 - _<br>6 - _<br>7 - F</p><p><b>Step 3:</b> \"V, D के ठीक ऊपर रखा गया है।\" (यानी VD एक साथ आएंगे)।<br>खाली जगह 3, 4, 5, 6 में से VD लगातार स्थानों पर होंगे।</p><p><b>Step 4:</b> \"G और E के बीच केवल दो बॉक्स रखे गए हैं।\"<br>और \"E, V के ठीक ऊपर नहीं रखा गया है।\"<br>अगर हम V को 5 और D को 6 पर रखते हैं, तो: 3, 4 खाली बचेंगे। लेकिन G और E के बीच 2 Box चाहिए, जो संभव नहीं है।<br>इसलिए VD को 5 और 6 पर रखना होगा।<br>1 - W<br>2 - U<br>3 - E/G<br>4 - _<br>5 - V<br>6 - D<br>7 - F</p><p>अब G और E के बीच 2 Box चाहिए। अगर हम G को 3 पर और E को 6 पर रखें... लेकिन 6 पर D है।<br>अगर G को 4 पर और E को 7 पर रखें... लेकिन 7 पर F है।<br>इसलिए: E/G को 3 और 6 पर रखना संभव नहीं है।</p><p>चलिए VD को 4 और 5 पर रखते हैं:<br>1 - W<br>2 - U<br>3 - _<br>4 - V<br>5 - D<br>6 - _<br>7 - F<br>अब G और E के लिए 3 और 6 स्थान खाली हैं। इनके बीच 2 बॉक्स (V और D) हैं! शर्त पूरी हो गई।<br>शर्त है \"E, V के ठीक ऊपर नहीं रखा गया है।\"<br>मतलब E स्थान 3 पर नहीं आ सकता। इसलिए G स्थान 3 पर और E स्थान 6 पर आएगा।</p><p><b>अंतिम क्रम:</b><br>1 - W<br>2 - U<br>3 - G<br>4 - V<br>5 - D<br>6 - E<br>7 - F</p><p><b>प्रश्न:</b> W और V के बीच कितने बॉक्स रखे गए हैं?<br>W (1) और V (4) के बीच: U और G, यानी <b>2 बॉक्स</b> हैं।</p><ul><li><b>Option 1 (One):</b> गलत है।</li><li><b>Option 2 (Two):</b> बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 3 (Three):</b> गलत है।</li><li><b>Option 4 (Four):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "level": "Hard",
+        "q_en": "<p>Seven boxes, D, E, F, G, U, V and W, are kept one over the other, but not necessarily in the same order. No box is kept above U. Only four boxes are kept between F and W. Only one box is kept between F and E. Only three boxes are kept between U and G. E is kept immediately above G. D is kept at some place above V.<br>How many boxes are kept between G and D?</p>",
+        "q_hi": "<p>सात बॉक्स, D, E, F, G, U, V और W, एक के ऊपर एक रखे गए हैं, लेकिन जरूरी नहीं कि इसी क्रम में हों। U के ऊपर कोई बॉक्स नहीं रखा गया है। F और W के बीच केवल चार बॉक्स रखे गए हैं। F और E के बीच केवल एक बॉक्स रखा गया है। U और G के बीच केवल तीन बॉक्स रखे गए हैं। E, G के ठीक ऊपर रखा गया है। D, V के ऊपर किसी स्थान पर रखा गया है。<br>G और D के बीच कितने बॉक्स रखे गए हैं?</p>",
+        "op_en": [
+            "Three",
+            "Two",
+            "Four",
+            "One"
+        ],
+        "op_hi": [
+            "तीन",
+            "दो",
+            "चार",
+            "एक"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस Box Puzzle को भी Step-by-Step सुलझाते हैं!</p><p>क्रम: 1 (सबसे ऊपर) से 7 (सबसे नीचे)।</p><p><b>Step 1:</b> \"U के ऊपर कोई बॉक्स नहीं रखा गया है।\"<br>यानी U सबसे ऊपर (No. 1) है。<br>1 - U</p><p><b>Step 2:</b> \"U और G के बीच केवल तीन बॉक्स रखे गए हैं।\"<br>U No. 1 पर है, तो 3 Box छोड़कर G स्थान 5 पर होगा।<br>1 - U<br>2 - _<br>3 - _<br>4 - _<br>5 - G</p><p><b>Step 3:</b> \"E, G के ठीक ऊपर रखा गया है।\"<br>G स्थान 5 पर है, तो E स्थान 4 पर होगा।<br>1 - U<br>2 - _<br>3 - _<br>4 - E<br>5 - G</p><p><b>Step 4:</b> \"F और E के बीच केवल एक बॉक्स रखा गया है।\"<br>E स्थान 4 पर है। एक बॉक्स छोड़कर F या तो स्थान 2 पर आ सकता है, या स्थान 6 पर।<br><i>Case A:</i> F स्थान 2 पर है。<br>1 - U<br>2 - F<br>3 - _<br>4 - E<br>5 - G</p><p><i>Case B:</i> F स्थान 6 पर है。<br>1 - U<br>2 - _<br>3 - _<br>4 - E<br>5 - G<br>6 - F</p><p><b>Step 5:</b> \"F और W के बीच केवल चार बॉक्स रखे गए हैं।\"<br><i>Case A में:</i> F स्थान 2 पर है। 4 बॉक्स छोड़कर W स्थान 7 पर आएगा। यह संभव है!<br><i>Case B में:</i> F स्थान 6 पर है। 4 बॉक्स छोड़कर W स्थान 1 पर आना चाहिए, लेकिन वहाँ पहले से U है। इसलिए Case B गलत है!</p><p>तो सही क्रम (Case A) से:<br>1 - U<br>2 - F<br>3 - _<br>4 - E<br>5 - G<br>6 - _<br>7 - W</p><p><b>Step 6:</b> \"D, V के ऊपर किसी स्थान पर रखा गया है।\"<br>खाली स्थान 3 और 6 बचे हैं। तो D ऊपर (3) और V नीचे (6) आएगा।<br><b>अंतिम क्रम:</b><br>1 - U<br>2 - F<br>3 - D<br>4 - E<br>5 - G<br>6 - V<br>7 - W</p><p><b>प्रश्न:</b> G और D के बीच कितने बॉक्स रखे गए हैं?<br>G (5) और D (3) के बीच केवल E (4) है। यानी <b>1 बॉक्स</b>।</p><ul><li><b>Option 1 (Three):</b> गलत है।</li><li><b>Option 2 (Two):</b> गलत है।</li><li><b>Option 3 (Four):</b> गलत है।</li><li><b>Option 4 (One):</b> बिल्कुल <b>सही</b> उत्तर है!</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Moderate",
+        "q_en": "<p>Refer to the following number series and answer the question that follows (all numbers are single-digit numbers only). Counting to be done from left to right only. <br><br>(Left) 3  4  6  7  8  5  7  9  4  1  1  5  2  8  9  8  3  1  8  9  7  4  2  (Right)<br><br>How many such odd numbers are there, each of which is immediately preceded by an odd number and also immediately followed by an odd number?</p>",
+        "q_hi": "<p>निम्नलिखित संख्या श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें (सभी संख्याएं केवल एक अंक की संख्याएं हैं)। गिनती केवल बाएं से दाएं की जानी चाहिए।<br><br>(बाएं) 3  4  6  7  8  5  7  9  4  1  1  5  2  8  9  8  3  1  8  9  7  4  2  (दाएं)<br><br>ऐसी कितनी विषम संख्याएं हैं, जिनमें से प्रत्येक के ठीक पहले एक विषम संख्या और ठीक बाद में एक विषम संख्या है?</p>",
+        "op_en": [
+            "One",
+            "Two",
+            "Three",
+            "None"
+        ],
+        "op_hi": [
+            "एक",
+            "दो",
+            "तीन",
+            "कोई नहीं"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को ध्यान से हल करते हैं!</p><p>हमें एक ऐसी शर्त ढूंढनी है जहाँ: <b>विषम संख्या (Odd) → विषम संख्या (Odd) → विषम संख्या (Odd)</b> एक साथ हों। यानी हमें <b>लगातार 3 विषम संख्याएँ</b> ढूंढनी हैं।</p><p>विषम संख्याएँ (Odd Numbers) = 1, 3, 5, 7, 9</p><p>आइए श्रृंखला को स्कैन करते हैं:<br>3  4  6  7  8  <b>5  7  9</b>  4  <b>1  1  5</b>  2  8  9  8  3  1  8  9  7  4  2</p><p>चलिए जोड़े चेक करते हैं:</p><ul><li><b>5 7 9 :</b> यहाँ बीच की संख्या 7 है, जो एक विषम संख्या (Odd) है, और इसके पहले (5) और बाद (9) में भी विषम संख्या है। यह पहला जोड़ा है।</li><li><b>1 1 5 :</b> यहाँ बीच की संख्या 1 है, जो विषम है, और इसके पहले (1) और बाद (5) में भी विषम है। यह दूसरा जोड़ा है।</li><li>3 1 8 : 8 सम (Even) है।</li><li>9 7 4 : 4 सम (Even) है।</li></ul><p>तो हमें ऐसे कुल <b>2 (Two)</b> जोड़े मिले।</p><ul><li><b>Option 1 (One):</b> गलत है।</li><li><b>Option 2 (Two):</b> बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 3 (Three):</b> गलत है।</li><li><b>Option 4 (None):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Easy",
+        "q_en": "<p>Refer to the following letter, symbol series and answer the question that follows. Counting to be done from left to right only.<br><br>(Left)  G  D  &amp;   E  $  A  K  @   Z   V  &amp;  L  Ω  M  Q  #  R  * W  Σ   T  ^  (Right)<br><br>How many such symbols are there, each of which is immediately preceded by a vowel but not immediately followed by a vowel?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर, प्रतीक श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गिनती केवल बाएं से दाएं की जानी चाहिए।<br><br>(बाएं)  G  D  &amp;   E  $  A  K  @   Z   V  &amp;  L  Ω  M  Q  #  R  * W  Σ   T  ^  (दाएं)<br><br>ऐसे कितने प्रतीक हैं, जिनमें से प्रत्येक के ठीक पहले एक स्वर है लेकिन ठीक बाद में स्वर नहीं है?</p>",
+        "op_en": [
+            "Three",
+            "One",
+            "None",
+            "Two"
+        ],
+        "op_hi": [
+            "तीन",
+            "एक",
+            "कोई नहीं",
+            "दो"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं!</p><p>शर्त यह है: <b>स्वर (Vowel) → प्रतीक (Symbol) → स्वर नहीं (No Vowel)</b><br>(Vowels = A, E, I, O, U)</p><p>श्रृंखला में Vowels को ढूंढते हैं और उनके बाद के Symbol को चेक करते हैं:<br>G  D  &amp;   <b>E</b>  $  A  K  @   Z   V  &amp;  L  Ω  M  Q  #  R  * W  Σ   T  ^</p><ul><li>यहाँ स्वर है <b>E</b>। E के बाद प्रतीक है <b>$</b>। $ के बाद <b>A</b> (जो एक स्वर है)। शर्त यह थी कि बाद में स्वर नहीं होना चाहिए। तो यह गलत हो गया।</li></ul><p>माफ़ कीजिएगा, लगता है सीरीज़ में कुछ और ध्यान से देखने की ज़रूरत है। दोबारा स्कैन करते हैं।</p><p>G  D  &amp;   E  $  A  K  @   Z   V  &amp;  L  Ω  M  Q  #  R  * W  Σ   T  ^</p><p>ओह! मैंने सवाल को गलत पढ़ लिया था। सवाल में Vowels तो केवल E और A ही दिख रहे हैं। चलिए फिर से देखते हैं।</p><ul><li><b>E → $ → A</b> (प्रतीक $ के पहले स्वर E है, लेकिन बाद में भी स्वर A है। अतः यह नहीं गिना जाएगा)।</li></ul><p>कोई और स्वर (Vowel) सीरीज़ में है ही नहीं! (A, E, I, O, U में से)।<br>इसका मतलब है कि ऐसा <b>कोई भी (None)</b> प्रतीक नहीं है जो इस शर्त को पूरा करता हो।</p><ul><li><b>Option 1 (Three):</b> गलत है।</li><li><b>Option 2 (One):</b> गलत है।</li><li><b>Option 3 (None):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 4 (Two):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "level": "Hard",
+        "q_en": "<p>Each of B, A, R, C, O, D and E has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. E has exam on Thursday and D has exam on Saturday. C has exam immediately before A. O has exam on one of the days after B. R has exam immediately after A. How many people have exam between O and R?</p>",
+        "q_hi": "<p>B, A, R, C, O, D और E में से प्रत्येक की एक ही सप्ताह के सोमवार से शुरू होकर रविवार को समाप्त होने वाले अलग-अलग दिन परीक्षा है। E की परीक्षा गुरुवार को है और D की परीक्षा शनिवार को है। C की परीक्षा A के ठीक पहले है। O की परीक्षा B के बाद किसी एक दिन है। R की परीक्षा A के ठीक बाद है। O और R के बीच कितने लोगों की परीक्षा है?</p>",
+        "op_en": [
+            "Two",
+            "One",
+            "Three",
+            "Four"
+        ],
+        "op_hi": [
+            "दो",
+            "एक",
+            "तीन",
+            "चार"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस Day Puzzle को Step-by-Step बनाते हैं!</p><p>सप्ताह के दिन: सोम (Mon), मंगल (Tue), बुध (Wed), गुरु (Thu), शुक्र (Fri), शनि (Sat), रवि (Sun)।</p><p><b>Step 1: पक्की जानकारी (Fixed Point)</b><br>गुरु (Thu) = E<br>शनि (Sat) = D</p><p><b>Step 2: C, A, R का एक साथ आना</b><br>\"C की परीक्षा A के ठीक पहले है।\" (CA)<br>\"R की परीक्षा A के ठीक बाद है।\" (AR)<br>इसका मतलब <b>C, A, R लगातार तीन दिनों में</b> परीक्षा देंगे (CAR)।<br>सारणी में लगातार 3 खाली दिन केवल सोम, मंगल, बुध हैं।<br>अतः:<br>सोम (Mon) = C<br>मंगल (Tue) = A<br>बुध (Wed) = R</p><p><b>Step 3: B और O को बिठाना</b><br>बचे हुए दिन: शुक्र (Fri) और रवि (Sun)।<br>शर्त है: \"O की परीक्षा B के बाद किसी एक दिन है।\"<br>अतः B पहले (शुक्रवार) और O बाद में (रविवार) आएगा。<br>शुक्र (Fri) = B<br>रवि (Sun) = O</p><p><b>पूरी सारणी:</b><br>सोम (Mon) - C<br>मंगल (Tue) - A<br><b>बुध (Wed) - R</b><br>गुरु (Thu) - E<br>शुक्र (Fri) - B<br>शनि (Sat) - D<br><b>रवि (Sun) - O</b></p><p><b>प्रश्न:</b> O (रवि) और R (बुध) के बीच कितने लोगों की परीक्षा है?<br>R और O के बीच E(गुरु), B(शुक्र), D(शनि) - कुल <b>3 लोग</b> हैं।</p><ul><li><b>Option 1 (Two):</b> गलत है।</li><li><b>Option 2 (One):</b> गलत है।</li><li><b>Option 3 (Three):</b> बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 4 (Four):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "level": "Hard",
+        "q_en": "<p>Seven people, D, E, F, G, U, V and W, are sitting around a circular table, facing the centre of the table. V sits to the immediate right of F. Only three people sit between G and E when counted from the left of G. Only three people sit between F and U when counted from the right of U. D sits immediately between U and E.<br>How many people sit between D and W when counted from the right of D?</p>",
+        "q_hi": "<p>सात व्यक्ति, D, E, F, G, U, V और W, एक वृत्ताकार मेज के चारों ओर केंद्र की ओर मुख करके बैठे हैं। V, F के ठीक दायें बैठा है। G के बायें से गिनने पर G और E के बीच केवल तीन व्यक्ति बैठे हैं। U के दायें से गिनने पर F और U के बीच केवल तीन व्यक्ति बैठे हैं। D, U और E के ठीक बीच में बैठा है。<br>D के दायें से गिनने पर D और W के बीच कितने व्यक्ति बैठे हैं?</p>",
+        "op_en": [
+            "One",
+            "Four",
+            "Three",
+            "Two"
+        ],
+        "op_hi": [
+            "एक",
+            "चार",
+            "तीन",
+            "दो"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस Circular Seating Arrangement को Step-by-Step सुलझाते हैं!</p><p>कुल 7 लोग केंद्र की ओर (Inside) देख रहे हैं।</p><p><b>Step 1:</b> \"V, F के ठीक दायें (immediate right) बैठा है।\"<br>मान लीजिए F नीचे है, तो उसके तुरंत दाईं ओर (Anti-clockwise) V होगा。<br>... F(1), V(2) ...</p><p><b>Step 2:</b> \"U के दायें से गिनने पर F और U के बीच केवल तीन व्यक्ति बैठे हैं।\"<br>कुल 7 लोग हैं। अगर 2 लोगों के बीच एक तरफ से 3 लोग हैं, तो वे एक-दूसरे के <b>ठीक आमने-सामने</b> नहीं होंगे (क्योंकि 7 विषम संख्या है)।<br>U के दायें (Anti-clockwise) चलने पर 3 लोग छोड़कर F आना चाहिए।<br>U --- 1 --- 2 --- 3 --- F<br>मतलब U, F से 4 स्थान पीछे (बायें) है।<br>क्रम: U(4), _(5), _(6), _(7), F(1), V(2)</p><p><b>Step 3:</b> \"D, U और E के ठीक बीच में बैठा है।\"<br>U के एक तरफ खाली जगह है। तो U के बगल में D और D के बगल में E आएगा।<br>क्रम: E(6), D(5), U(4), _, _, F(1), V(2)</p><p><b>Step 4:</b> \"G के बायें से गिनने पर G और E के बीच केवल तीन व्यक्ति बैठे हैं।\"<br>E (6) पर है। G के बायें (Clockwise) चलने पर 3 लोग छोड़कर E आना चाहिए।<br>G --- 1 --- 2 --- 3 --- E<br>G, E के दायें 4वें स्थान पर होगा। या यों कहें, G और E के बीच 3 लोग हैं, मतलब G, E के ठीक दूसरी तरफ होगा।<br>क्रम में दो जगह खाली हैं: (3) और (7)।<br>अगर G(3) पर हो: G के बायें (V, F, ?) 3 लोग छोड़कर E(6) आना चाहिए। हाँ, यह सही बैठ रहा है!<br>तो बचा हुआ व्यक्ति W, स्थान (7) पर आएगा।</p><p><b>पूरा घेरा (Clockwise दिशा में): F(1) - W(7) - E(6) - D(5) - U(4) - G(3) - V(2)</b><br>(चेक करें: V, F के दायें है? हाँ। D, U और E के बीच है? हाँ।)</p><p><b>प्रश्न:</b> D के दायें (Anti-clockwise) से गिनने पर D और W के बीच कितने व्यक्ति बैठे हैं?<br>D(5) के दायें: E(6), W(7)।<br>D और W के बीच केवल <b>1 व्यक्ति (E)</b> बैठा है!</p><ul><li><b>Option 1 (One):</b> बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 2 (Four):</b> गलत है।</li><li><b>Option 3 (Three):</b> गलत है।</li><li><b>Option 4 (Two):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Easy",
+        "q_en": "<p>Refer to the following letter and symbol series and answer the question that follows.<br><br>(Left) U N @ D  &amp;  A  Z  $  K V  &amp;  L  Ω  M  Q  #  W  * R  %  T  Σ (Right)<br><br>If all the letters are dropped from the series, which of the following will be sixth from the right?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर और प्रतीक श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें।<br><br>(बाएं) U N @ D  &amp;  A  Z  $  K V  &amp;  L  Ω  M  Q  #  W  * R  %  T  Σ (दाएं)<br><br>यदि श्रृंखला से सभी अक्षर हटा दिए जाते हैं, तो निम्नलिखित में से कौन सा दायें से छठा होगा?</p>",
+        "op_en": [
+            "#",
+            "$",
+            "&amp;",
+            "%"
+        ],
+        "op_hi": [
+            "#",
+            "$",
+            "&amp;",
+            "%"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, यह बहुत ही आसान सवाल है। हमें बस श्रृंखला से सभी अक्षरों (Letters) को हटाना है और केवल प्रतीकों (Symbols) को गिनना है।</p><p>मूल श्रृंखला: U N <b>@</b> D <b>&amp;</b> A Z <b>$</b> K V <b>&amp;</b> L <b>Ω</b> M Q <b>#</b> W <b>*</b> R <b>%</b> T <b>Σ</b></p><p>अक्षर हटाने के बाद नई श्रृंखला (केवल प्रतीक):<br>@  &amp;  $  &amp;  Ω  #  * %  Σ</p><p>अब हमें <b>दायें (Right) से छठा (6th)</b> प्रतीक गिनना है:<br>1. Σ<br>2. %<br>3. *<br>4. #<br>5. Ω<br><b>6. &amp;</b></p><p>दायें से छठा प्रतीक <b>&amp;</b> है।</p><ul><li><b>Option 1 (#):</b> गलत है (यह दायें से चौथा है)।</li><li><b>Option 2 ($):</b> गलत है।</li><li><b>Option 3 (&amp;):</b> बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 4 (%):</b> गलत है (यह दायें से दूसरा है)।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding Decoding",
+        "level": "Easy",
+        "q_en": "<p>In a certain code language, ‘float above fears’ is coded as ‘mt kr el’ and ‘keep faith float’ is coded as ‘bx up el’. How is ‘float’ coded in the given language?</p>",
+        "q_hi": "<p>एक निश्चित कूट भाषा में, ‘float above fears’ को ‘mt kr el’ के रूप में कूटबद्ध किया जाता है और ‘keep faith float’ को ‘bx up el’ के रूप में कूटबद्ध किया जाता है। दी गई भाषा में ‘float’ को कैसे कूटबद्ध किया जाता है?</p>",
+        "op_en": [
+            "up",
+            "kr",
+            "mt",
+            "el"
+        ],
+        "op_hi": [
+            "up",
+            "kr",
+            "mt",
+            "el"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, यह Common Word Coding का एक सीधा सवाल है!</p><p>हमें दो वाक्य और उनके कोड दिए गए हैं:<br>वाक्य 1: <b>float</b> above fears → mt kr <b>el</b><br>वाक्य 2: keep faith <b>float</b> → bx up <b>el</b></p><p>हमें दोनों वाक्यों में कॉमन (समान) शब्द खोजना है।<br>दोनों में कॉमन शब्द है: <b>float</b><br>अब दोनों के कोड में कॉमन खोजें:<br>दोनों में कॉमन कोड है: <b>el</b></p><p>इससे साफ पता चलता है कि 'float' का कोड <b>'el'</b> है।</p><ul><li><b>Option 1 (up):</b> गलत है।</li><li><b>Option 2 (kr):</b> गलत है।</li><li><b>Option 3 (mt):</b> गलत है।</li><li><b>Option 4 (el):</b> यह बिल्कुल <b>सही</b> जवाब है!</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Easy",
+        "q_en": "<p>Refer to the following letter series and answer the question that follows. Counting to be done from left to right only. <br><br>(Left)  E  T  Q  M  F  W  U  D  S  D  P  Y  W  E  G  I  L  O  X  (Right)<br><br>How many such vowels are there, each of which is immediately preceded by a consonant and also immediately followed by a consonant?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गिनती केवल बाएं से दाएं की जानी चाहिए।<br><br>(बाएं)  E  T  Q  M  F  W  U  D  S  D  P  Y  W  E  G  I  L  O  X  (दाएं)<br><br>ऐसे कितने स्वर हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन और ठीक बाद में एक व्यंजन है?</p>",
+        "op_en": [
+            "One",
+            "Four",
+            "Three",
+            "Two"
+        ],
+        "op_hi": [
+            "एक",
+            "चार",
+            "तीन",
+            "दो"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं!</p><p>हमें एक ऐसी शर्त ढूंढनी है जहाँ:<br><b>व्यंजन (Consonant) → स्वर (Vowel) → व्यंजन (Consonant)</b> हो।</p><p>स्वर (Vowels) = A, E, I, O, U<br>व्यंजन (Consonants) = बाकी सभी अक्षर</p><p>आइए श्रृंखला में Vowels को खोजते हैं और उनके आगे-पीछे चेक करते हैं:<br><b>E</b>  T  Q  M  F  W  <b>U</b>  D  S  D  P  Y  W  <b>E</b>  G  <b>I</b>  L  <b>O</b>  X</p><ul><li><b>E:</b> शुरुआत में है, इसके पहले कोई अक्षर नहीं है। (गलत)</li><li>W  <b>U</b>  D: U एक स्वर है। इसके पहले W (व्यंजन) और बाद में D (व्यंजन) है। यह <b>पहला</b> जोड़ा है!</li><li>W  <b>E</b>  G: E एक स्वर है। इसके पहले W (व्यंजन) और बाद में G (व्यंजन) है। यह <b>दूसरा</b> जोड़ा है!</li><li>G  <b>I</b>  L: I एक स्वर है। इसके पहले G (व्यंजन) और बाद में L (व्यंजन) है। यह <b>तीसरा</b> जोड़ा है!</li><li>L  <b>O</b>  X: O एक स्वर है। इसके पहले L (व्यंजन) और बाद में X (व्यंजन) है। यह <b>चौथा</b> जोड़ा है!</li></ul><p>हमें ऐसे कुल <b>4 (Four)</b> जोड़े मिले।</p><ul><li><b>Option 1 (One):</b> गलत है।</li><li><b>Option 2 (Four):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 3 (Three):</b> गलत है।</li><li><b>Option 4 (Two):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Moderate",
+        "q_en": "<p>Refer to the following letter and symbol series and answer the question that follows. Counting to be done from left to right only.<br><br>(Left)  S  K  U  N  \\  A  A  +  Q  W  =  K  T  /  N  X  @  +  D  #  L   (Right)<br><br>How many such letters are there, each of which is immediately preceded by a letter and also immediately followed by a symbol?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर और प्रतीक श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गिनती केवल बाएं से दाएं की जानी चाहिए।<br><br>(बाएं)  S  K  U  N  \\  A  A  +  Q  W  =  K  T  /  N  X  @  +  D  #  L   (दाएं)<br><br>ऐसे कितने अक्षर हैं, जिनमें से प्रत्येक के ठीक पहले एक अक्षर और ठीक बाद में एक प्रतीक है?</p>",
+        "op_en": [
+            "Three",
+            "Five",
+            "Four",
+            "Two"
+        ],
+        "op_hi": [
+            "तीन",
+            "पांच",
+            "चार",
+            "दो"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को ध्यान से स्कैन करते हैं!</p><p>हमारी शर्त है: <b>अक्षर (Letter) → अक्षर (Letter) → प्रतीक (Symbol)</b></p><p>आइए श्रृंखला को देखते हैं:<br>S  K  U  <b>N  \\</b>  A  <b>A  +</b>  Q  <b>W  =</b>  K  <b>T  /</b>  N  <b>X  @</b>  +  D  #  L</p><p>चलिए चेक करते हैं:</p><ul><li>U (Letter) → <b>N (Letter)</b> → \\ (Symbol) : यह <b>पहला</b> जोड़ा है!</li><li>A (Letter) → <b>A (Letter)</b> → + (Symbol) : यह <b>दूसरा</b> जोड़ा है!</li><li>Q (Letter) → <b>W (Letter)</b> → = (Symbol) : यह <b>तीसरा</b> जोड़ा है!</li><li>K (Letter) → <b>T (Letter)</b> → / (Symbol) : यह <b>चौथा</b> जोड़ा है!</li><li>N (Letter) → <b>X (Letter)</b> → @ (Symbol) : यह <b>पांचवां</b> जोड़ा है!</li><li>+ (Symbol) → D (Letter) → # (Symbol) : यहाँ पहले प्रतीक है, अक्षर नहीं।</li></ul><p>हमें ऐसे कुल <b>5 (Five)</b> अक्षर मिले जो इस शर्त को पूरा करते हैं (N, A, W, T, X)।</p><ul><li><b>Option 1 (Three):</b> गलत है।</li><li><b>Option 2 (Five):</b> एकदम <b>सही</b> उत्तर है!</li><li><b>Option 3 (Four):</b> गलत है।</li><li><b>Option 4 (Two):</b> गलत है।</li></ul>"
+    }
+]
