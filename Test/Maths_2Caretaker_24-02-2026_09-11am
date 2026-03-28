@@ -1,0 +1,422 @@
+[
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Profit and Loss",
+        "level": "Easy",
+        "q_en": "<p>The cost price of 42 articles is equal to the selling price of 35 of them. The gain or loss percent is given by:</p>",
+        "q_hi": "<p>42 वस्तुओं का क्रय मूल्य 35 वस्तुओं के विक्रय मूल्य के बराबर है। लाभ या हानि प्रतिशत क्या होगा?</p>",
+        "op_en": [
+            "25% gain",
+            "20% gain",
+            "20% loss",
+            "25% loss"
+        ],
+        "op_hi": [
+            "25% लाभ",
+            "20% लाभ",
+            "20% हानि",
+            "25% हानि"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं!</p><p>हमें प्रश्न में दिया गया है कि: <b>42 वस्तुओं का Cost Price (CP) = 35 वस्तुओं का Selling Price (SP)</b></p><p>इसे हम अनुपात (Ratio) में ऐसे लिख सकते हैं:<br><b>CP / SP = 35 / 42 = 5 / 6</b></p><p>इसका मतलब है कि अगर कोई वस्तु ₹5 में खरीदी गई (CP), तो वह ₹6 में बेची गई (SP)।</p><p>साफ तौर पर यहाँ लाभ (Gain) हो रहा है:<br>Gain = SP - CP = 6 - 5 = 1</p><p>अब लाभ प्रतिशत (Gain %) निकालते हैं:<br><b>Gain % = (Gain / CP) × 100</b><br>= (1 / 5) × 100 = 20%</p><ul><li><b>Option 1 (25% gain):</b> यह गलत है। 25% का लाभ तब होता जब अनुपात 4:5 का बनता।</li><li><b>Option 2 (20% gain):</b> यह बिल्कुल <b>सही</b> है! हमारी गणना के अनुसार 20% का लाभ हो रहा है।</li><li><b>Option 3 (20% loss):</b> गलत है। जब Selling Price बड़ा है तो Loss हो ही नहीं सकता।</li><li><b>Option 4 (25% loss):</b> यह भी गलत विकल्प है।</li></ul><p><b>Short Trick:</b> Gain % = [(Difference in quantity) / (Quantity Sold)] × 100 = [(42 - 35) / 35] × 100 = (7 / 35) × 100 = 20%.</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Ratio and Proportion",
+        "level": "Easy",
+        "q_en": "<p>The ratio of two numbers is 2 : 3 and their product is 864. Find the smallest number between the two numbers.</p>",
+        "q_hi": "<p>दो संख्याओं का अनुपात 2 : 3 है और उनका गुणनफल 864 है। दोनों संख्याओं में से सबसे छोटी संख्या ज्ञात कीजिए।</p>",
+        "op_en": [
+            "20",
+            "22",
+            "24",
+            "18"
+        ],
+        "op_hi": [
+            "20",
+            "22",
+            "24",
+            "18"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं!</p><p>माना कि दो संख्याएं <b>2x</b> और <b>3x</b> हैं।</p><p>प्रश्न के अनुसार, उनका गुणनफल (Product) 864 है।<br>अतः, (2x) × (3x) = 864<br>6x² = 864<br>x² = 864 / 6 = 144<br>x = √144 = 12</p><p>अब हमें दोनों संख्याएं मिल जाएंगी:<br>पहली संख्या (छोटी) = 2x = 2 × 12 = 24<br>दूसरी संख्या (बड़ी) = 3x = 3 × 12 = 36</p><p>हमसे सबसे छोटी संख्या पूछी गई थी, जो कि 24 है।</p><ul><li><b>Option 1 (20):</b> गलत है, 20 किसी भी तरह 2 और 3 के अनुपात में फिट होकर 864 गुणनफल नहीं दे सकता।</li><li><b>Option 2 (22):</b> यह भी गलत है।</li><li><b>Option 3 (24):</b> बिल्कुल <b>सही</b> उत्तर है! छोटी संख्या 24 ही है।</li><li><b>Option 4 (18):</b> गलत है, क्योंकि अगर छोटी संख्या 18 होती, तो x=9 होता और गुणनफल 864 नहीं आता।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Profit, Loss and Discount",
+        "level": "Hard",
+        "q_en": "<p>The list price of a washing machine is ₹17500. It is sold to a retailer after two successive discounts of 50% and 4%. The retailer wants to earn a profit of 35% on his cost price after allowing a 40% discount (on its new list price) to the customer. At what price should he list the washing machine?</p>",
+        "q_hi": "<p>एक वाशिंग मशीन का सूची मूल्य ₹17500 है। इसे 50% और 4% की दो क्रमिक छूटों के बाद एक खुदरा विक्रेता को बेचा जाता है। खुदरा विक्रेता ग्राहक को (इसके नए सूची मूल्य पर) 40% की छूट देने के बाद अपने क्रय मूल्य पर 35% का लाभ कमाना चाहता है। उसे वाशिंग मशीन का सूची मूल्य क्या रखना चाहिए?</p>",
+        "op_en": [
+            "₹18855",
+            "₹18900",
+            "₹19021",
+            "₹18718"
+        ],
+        "op_hi": [
+            "₹18855",
+            "₹18900",
+            "₹19021",
+            "₹18718"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को ध्यान से समझते हैं। यह Discount और Profit का एक बेहतरीन सवाल है।</p><p><b>Step 1: खुदरा विक्रेता (Retailer) का Cost Price (CP) निकालना</b><br>मूल List Price = ₹17,500<br>लगातार दो छूट (Successive Discounts) = 50% और 4%<br>CP = 17500 × (100 - 50)% × (100 - 4)%<br>CP = 17500 × (1/2) × (96/100)<br>CP = 8750 × 0.96 = <b>₹8,400</b></p><p><b>Step 2: Retailer का Selling Price (SP) निकालना</b><br>Retailer 35% का लाभ (Profit) चाहता है।<br>SP = CP × 135% = 8400 × (135 / 100) = <b>₹11,340</b></p><p><b>Step 3: नया List Price (Marked Price) तय करना</b><br>मान लीजिए नया List Price 'LP' है। वह ग्राहक को 40% Discount देना चाहता है।<br>यानी LP का 60% = SP<br>LP × (60 / 100) = 11340<br>LP = (11340 × 100) / 60 = <b>₹18,900</b></p><ul><li><b>Option 1 (₹18855):</b> गलत है, हमारी कैलकुलेशन से मेल नहीं खाता।</li><li><b>Option 2 (₹18900):</b> <b>सही</b> उत्तर है! यही नया List Price होगा।</li><li><b>Option 3 (₹19021):</b> यह गलत मान है।</li><li><b>Option 4 (₹18718):</b> यह भी गलत उत्तर है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Profit and Loss",
+        "level": "Moderate",
+        "q_en": "<p>A shopkeeper bought six identical mobile phones at the rate of ₹84,000, and sold them at the rate of ₹35,000 for every two phones. Find the gain percentage.<span style=\"color: white;\"></span></p>",
+        "q_hi": "<p>एक दुकानदार ने ₹84,000 की दर से छह एक समान मोबाइल फोन खरीदे, और उन्हें प्रत्येक दो फोन के लिए ₹35,000 की दर से बेच दिया। लाभ प्रतिशत ज्ञात कीजिए।</p>",
+        "op_en": [
+            "22%",
+            "26%",
+            "27%",
+            "25%"
+        ],
+        "op_hi": [
+            "22%",
+            "26%",
+            "27%",
+            "25%"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं।</p><p>दुकानदार का कुल क्रय मूल्य (Cost Price):<br>6 फोन का <b>CP = ₹84,000</b></p><p>विक्रय मूल्य (Selling Price) की शर्त:<br>2 फोन का SP = ₹35,000<br>तो 6 फोन का SP कितना होगा?<br>6 फोन का <b>SP = 35,000 × 3 = ₹1,05,000</b></p><p>अब लाभ (Gain) निकालते हैं:<br>Gain = SP - CP = 1,05,000 - 84,000 = <b>₹21,000</b></p><p>लाभ प्रतिशत (Gain %):<br>Gain % = (Gain / CP) × 100<br>= (21,000 / 84,000) × 100<br>= (1 / 4) × 100 = <b>25%</b></p><ul><li><b>Option 1 (22%):</b> गलत है।</li><li><b>Option 2 (26%):</b> गलत है।</li><li><b>Option 3 (27%):</b> यह भी गलत है।</li><li><b>Option 4 (25%):</b> बिल्कुल <b>सही</b> विकल्प है!</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Mensuration 3D",
+        "level": "Easy",
+        "q_en": "<p>The perimeter of one face of a cube is 48 cm. Its volume is:</p>",
+        "q_hi": "<p>एक घन के एक फलक का परिमाप 48 सेमी है। इसका आयतन है:</p>",
+        "op_en": [
+            "4096 cm3",
+            "1728 cm3",
+            "1024 cm3",
+            "1296 cm3"
+        ],
+        "op_hi": [
+            "4096 cm³",
+            "1728 cm³",
+            "1024 cm³",
+            "1296 cm³"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं।</p><p>हम जानते हैं कि घन (Cube) का हर एक फलक (Face) एक <b>वर्ग (Square)</b> होता है।</p><p>वर्ग का परिमाप (Perimeter) = 4 × भुजा (Side) = 4a<br>प्रश्न के अनुसार, 4a = 48 cm<br>अतः, भुजा <b>a = 48 / 4 = 12 cm</b></p><p>अब हमें घन का आयतन (Volume) निकालना है:<br>Volume = (भुजा)³ = a³<br>= 12 × 12 × 12 = <b>1728 cm³</b></p><ul><li><b>Option 1 (4096 cm3):</b> गलत है, यह 16 के घन का मान है।</li><li><b>Option 2 (1728 cm3):</b> यह बिल्कुल <b>सही</b> उत्तर है।</li><li><b>Option 3 (1024 cm3):</b> गलत है।</li><li><b>Option 4 (1296 cm3):</b> यह भी गलत है, 1296 तो 36 का वर्ग होता है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Mensuration 2D",
+        "level": "Easy",
+        "q_en": "<p>One side of a parallelogram is 32 cm and the corresponding altitude is 8 cm. Find the area of the parallelogram.</p>",
+        "q_hi": "<p>एक समांतर चतुर्भुज की एक भुजा 32 सेमी है और संगत ऊंचाई 8 सेमी है। समांतर चतुर्भुज का क्षेत्रफल ज्ञात कीजिए।</p>",
+        "op_en": [
+            "40 cm2",
+            "16 cm2",
+            "96 cm2",
+            "256 cm2"
+        ],
+        "op_hi": [
+            "40 cm²",
+            "16 cm²",
+            "96 cm²",
+            "256 cm²"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सीधे और आसान सवाल को समझते हैं।</p><p>हमें एक समांतर चतुर्भुज (Parallelogram) दिया गया है, जिसकी:<br>आधार (Base, b) = 32 cm<br>संगत ऊंचाई (Altitude / Height, h) = 8 cm</p><p>समांतर चतुर्भुज का क्षेत्रफल (Area) का सीधा सूत्र होता है:<br><b>Area = Base × Height</b><br>Area = 32 × 8 = <b>256 cm²</b></p><ul><li><b>Option 1 (40 cm2):</b> गलत है। यह तो भुजाओं का योग लग रहा है।</li><li><b>Option 2 (16 cm2):</b> गलत है।</li><li><b>Option 3 (96 cm2):</b> गलत है।</li><li><b>Option 4 (256 cm2):</b> यह बिल्कुल <b>सही</b> जवाब है!</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Mensuration 3D",
+        "level": "Moderate",
+        "q_en": "<p>The material of a cone is converted into the shape of a cylinder of equal radius. If the height of the cylinder is 12 cm, the height of the cone is:</p>",
+        "q_hi": "<p>एक शंकु के पदार्थ को समान त्रिज्या वाले बेलन के आकार में बदला जाता है। यदि बेलन की ऊंचाई 12 सेमी है, तो शंकु की ऊंचाई है:</p>",
+        "op_en": [
+            "24 cm",
+            "12 cm",
+            "48 cm",
+            "36 cm"
+        ],
+        "op_hi": [
+            "24 cm",
+            "12 cm",
+            "48 cm",
+            "36 cm"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं!</p><p>जब भी किसी 3D वस्तु को पिघलाकर या बदलकर दूसरी वस्तु बनाई जाती है, तो उनका <b>आयतन (Volume) समान</b> रहता है।</p><p>माना दोनों की त्रिज्या (Radius) = r<br>शंकु (Cone) का आयतन = ⅓ πr²h₁<br>बेलन (Cylinder) का आयतन = πr²h₂</p><p>प्रश्नानुसार दोनों का आयतन बराबर है:<br>⅓ πr²h₁ = πr²h₂</p><p>दोनों तरफ से πr² कट जाएगा:<br>⅓ × h₁ = h₂</p><p>हमें बेलन की ऊंचाई (h₂) = 12 cm दी गई है:<br>⅓ × h₁ = 12<br><b>h₁ = 12 × 3 = 36 cm</b></p><ul><li><b>Option 1 (24 cm):</b> गलत है।</li><li><b>Option 2 (12 cm):</b> गलत है, शंकु की ऊंचाई बेलन के बराबर नहीं हो सकती क्योंकि दोनों का आयतन सूत्र अलग है।</li><li><b>Option 3 (48 cm):</b> गलत है।</li><li><b>Option 4 (36 cm):</b> यह एकदम <b>सही</b> उत्तर है!</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Mensuration 3D",
+        "level": "Hard",
+        "q_en": "<p>If the radius of the base of a cone be 28 cm and its curved surface area be 3080 cm<sup>2</sup>, then the volume of the cone is:<br>(Use<span style=\"font-size: 11.0pt;\"><span style=\"line-height: 107%;\"><span style=\"font-family: &quot;Calibri&quot;,sans-serif;\"> <img align=\"middle\" alt=\"begin mathsize 12px style pi space equals space 22 over 7 end style\" class=\"Wirisformula\" data-mathml=\"«math style=¨font-family:Arial¨ xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mstyle mathsize=¨12px¨»«mrow»«mi»§#960;«/mi»«mo»§#160;«/mo»«mo»=«/mo»«mo»§#160;«/mo»«mfrac»«mn»22«/mn»«mn»7«/mn»«/mfrac»«/mrow»«/mstyle»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAAgCAYAAAChKnCsAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAAVrfl2dQAAARxJREFUeNpjYBgawAeIDwPxLyA+DsQ9QMxBhpohBbYAsT0QM0H5JUA8iQw1QxqAYvALFdQMKcACxN+ooGZIgQwgnk8FNUMG6AHxUSAWplDNkAHmQLwBiEUpVDNkgCUQz4XmVUrUDBkgC8TrqKBmSIHdQKxBBTVDCvzHgUlVMwpGHAC1VfcD8R88SeT1cPO0OBB3QYt59Dzwg4r5b9DmM2p4mh4FGLl4SHh6QGL6/0hI3r+w8JmGcywLYul/XgNiLyDmGq6ejodWXcggEpqvK0dr9sHdNB1xTU+14TRaQixYN1xGS4gFBUAcNJI8rMQAGSIaUQBU62iNJA/HMkDGxUZUt/guNHmPGAAquHaMtLy8HNpqHFHgJbTPQBIAAP3Ic88+duO9AAAA1nRFWHRNYXRoTUwAPG1hdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTgvTWF0aC9NYXRoTUwiIHN0eWxlPSJmb250LWZhbWlseTpBcmlhbCI+PG1zdHlsZSBtYXRoc2l6ZT0iMTJweCI+PG1pPiYjeDNDMDs8L21pPjxtbz4mI3hBMDs8L21vPjxtbz49PC9tbz48bW8+JiN4QTA7PC9tbz48bWZyYWM+PG1uPjIyPC9tbj48bW4+NzwvbW4+PC9tZnJhYz48L21zdHlsZT48L21hdGg+8qg7NQAAAABJRU5ErkJggg==\" style=\"max-width: none;\">)</span></span></span></p>",
+        "q_hi": "<p>यदि एक शंकु के आधार की त्रिज्या 28 सेमी है और इसका वक्र पृष्ठीय क्षेत्रफल 3080 सेमी² है, तो शंकु का आयतन है:<br>(Use <img align=\"middle\" alt=\"begin mathsize 12px style pi space equals space 22 over 7 end style\" class=\"Wirisformula\" data-mathml=\"«math style=¨font-family:Arial¨ xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mstyle mathsize=¨12px¨»«mrow»«mi»§#960;«/mi»«mo»§#160;«/mo»«mo»=«/mo»«mo»§#160;«/mo»«mfrac»«mn»22«/mn»«mn»7«/mn»«/mfrac»«/mrow»«/mstyle»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAAgCAYAAAChKnCsAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAAVrfl2dQAAARxJREFUeNpjYBgawAeIDwPxLyA+DsQ9QMxBhpohBbYAsT0QM0H5JUA8iQw1QxqAYvALFdQMKcACxN+ooGZIgQwgnk8FNUMG6AHxUSAWplDNkAHmQLwBiEUpVDNkgCUQz4XmVUrUDBkgC8TrqKBmSIHdQKxBBTVDCvzHgUlVMwpGHAC1VfcD8R88SeT1cPO0OBB3QYt59Dzwg4r5b9DmM2p4mh4FGLl4SHh6QGL6/0hI3r+w8JmGcywLYul/XgNiLyDmGq6ejodWXcggEpqvK0dr9sHdNB1xTU+14TRaQixYN1xGS4gFBUAcNJI8rMQAGSIaUQBU62iNJA/HMkDGxUZUt/guNHmPGAAquHaMtLy8HNpqHFHgJbTPQBIAAP3Ic88+duO9AAAA1nRFWHRNYXRoTUwAPG1hdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTgvTWF0aC9NYXRoTUwiIHN0eWxlPSJmb250LWZhbWlseTpBcmlhbCI+PG1zdHlsZSBtYXRoc2l6ZT0iMTJweCI+PG1pPiYjeDNDMDs8L21pPjxtbz4mI3hBMDs8L21vPjxtbz49PC9tbz48bW8+JiN4QTA7PC9tbz48bWZyYWM+PG1uPjIyPC9tbj48bW4+NzwvbW4+PC9tZnJhYz48L21zdHlsZT48L21hdGg+8qg7NQAAAABJRU5ErkJggg==\" style=\"max-width: none;\">)</p>",
+        "op_en": [
+            "17248 cm3",
+            "12936 cm3",
+            "51744 cm3",
+            "38808 cm3"
+        ],
+        "op_hi": [
+            "17248 cm³",
+            "12936 cm³",
+            "51744 cm³",
+            "38808 cm³"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें शंकु (Cone) का आयतन निकालना है।</p><p>दिया गया है:<br>Radius (r) = 28 cm<br>Curved Surface Area (CSA) = 3080 cm²</p><p><b>Step 1: तिर्यक ऊंचाई (Slant Height, l) निकालें</b><br>शंकु का CSA = πrl<br>(22/7) × 28 × l = 3080<br>22 × 4 × l = 3080<br>88 × l = 3080<br>l = 3080 / 88 = <b>35 cm</b></p><p><b>Step 2: शंकु की सीधी ऊंचाई (h) निकालें</b><br>पाइथागोरस प्रमेय से: h² = l² - r²<br>h² = 35² - 28²<br>h² = 1225 - 784 = 441<br>h = √441 = <b>21 cm</b></p><p><b>Step 3: आयतन (Volume) निकालें</b><br>Volume = ⅓ πr²h<br>Volume = ⅓ × (22/7) × 28 × 28 × 21<br>= 22 × 28 × 28<br>= <b>17248 cm³</b></p><ul><li><b>Option 1 (17248 cm3):</b> यह <b>सही</b> उत्तर है।</li><li><b>Option 2 (12936 cm3):</b> गलत है।</li><li><b>Option 3 (51744 cm3):</b> यह भी गलत है।</li><li><b>Option 4 (38808 cm3):</b> गलत विकल्प है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Mensuration 3D",
+        "level": "Hard",
+        "q_en": "<p>A solid iron sphere is melted and recast into a cone whose height is 4 times of its radius. If the radius of the original sphere is 16 cm, find the slant height of the cone (Use √17=4.1).</p>",
+        "q_hi": "<p>एक ठोस लोहे के गोले को पिघलाकर एक शंकु में ढाला जाता है जिसकी ऊंचाई उसकी त्रिज्या की 4 गुनी है। यदि मूल गोले की त्रिज्या 16 सेमी है, तो शंकु की तिर्यक ऊंचाई ज्ञात कीजिए (√17=4.1 का उपयोग करें)।</p>",
+        "op_en": [
+            "48.3 cm",
+            "60.8 cm",
+            "54.2 cm",
+            "65.6 cm"
+        ],
+        "op_hi": [
+            "48.3 cm",
+            "60.8 cm",
+            "54.2 cm",
+            "65.6 cm"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं!</p><p>यहाँ गोले (Sphere) को पिघलाकर शंकु (Cone) बनाया गया है, इसका मतलब दोनों का <b>Volume बराबर</b> होगा।</p><p>गोले की त्रिज्या (R) = 16 cm<br>शंकु की त्रिज्या मान लेते हैं = r<br>शंकु की ऊंचाई (h) = 4r</p><p><b>Step 1: आयतन बराबर करें</b><br>Volume of Sphere = Volume of Cone<br>(4/3) π R³ = (1/3) π r² h<br>4 × (16)³ = r² × (4r)<br>4 × 4096 = 4r³<br>r³ = 4096<br><b>r = 16 cm</b></p><p>अब शंकु की ऊंचाई (h) = 4 × 16 = <b>64 cm</b></p><p><b>Step 2: तिर्यक ऊंचाई (Slant Height, l) निकालें</b><br>l = √(r² + h²)<br>l = √(16² + 64²)<br>l = √[16² × (1² + 4²)]<br>l = 16√17</p><p>प्रश्न में दिया है √17 = 4.1<br>तो, l = 16 × 4.1 = <b>65.6 cm</b></p><ul><li><b>Option 1 (48.3 cm):</b> गलत है।</li><li><b>Option 2 (60.8 cm):</b> गलत है।</li><li><b>Option 3 (54.2 cm):</b> यह भी गलत है।</li><li><b>Option 4 (65.6 cm):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Mensuration 3D",
+        "level": "Moderate",
+        "q_en": "<p>Find the total surface area of a cuboid whose volume is 896 cm<sup>3</sup>, breadth is 7 cm and height is 4 cm.</p>",
+        "q_hi": "<p>एक घनाभ का कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिए जिसका आयतन 896 सेमी³, चौड़ाई 7 सेमी और ऊंचाई 4 सेमी है।</p>",
+        "op_en": [
+            "720 cm2",
+            "760 cm2",
+            "740 cm2",
+            "780 cm2"
+        ],
+        "op_hi": [
+            "720 cm²",
+            "760 cm²",
+            "740 cm²",
+            "780 cm²"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं।</p><p>हमें घनाभ (Cuboid) का आयतन (Volume) दिया गया है: 896 cm³<br>चौड़ाई (Breadth, b) = 7 cm<br>ऊंचाई (Height, h) = 4 cm<br>हमें सबसे पहले लंबाई (Length, l) निकालनी है।</p><p><b>Step 1: लंबाई निकालें</b><br>Volume = l × b × h<br>896 = l × 7 × 4<br>896 = 28l<br>l = 896 / 28 = <b>32 cm</b></p><p><b>Step 2: कुल पृष्ठीय क्षेत्रफल (Total Surface Area - TSA) निकालें</b><br>TSA = 2(lb + bh + hl)<br>TSA = 2(32×7 + 7×4 + 4×32)<br>TSA = 2(224 + 28 + 128)<br>TSA = 2(380) = <b>760 cm²</b></p><ul><li><b>Option 1 (720 cm2):</b> गलत है।</li><li><b>Option 2 (760 cm2):</b> यह एकदम <b>सही</b> जवाब है!</li><li><b>Option 3 (740 cm2):</b> गलत है।</li><li><b>Option 4 (780 cm2):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Time and Work",
+        "level": "Moderate",
+        "q_en": "<p>A boy can do a work in 60 days and a girl in 30 days. If they work on it together for 4 days, then find the fraction of the work that is left.</p>",
+        "q_hi": "<p>एक लड़का किसी काम को 60 दिनों में और एक लड़की 30 दिनों में कर सकती है। यदि वे 4 दिनों तक एक साथ काम करते हैं, तो बचा हुआ काम का अंश ज्ञात कीजिए।</p>",
+        "op_en": [
+            "<img align=\"middle\" alt=\"3 over 5\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mfrac»«mn»3«/mn»«mn»5«/mn»«/mfrac»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAlCAYAAACkhgJBAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAAZpE86XgAAAPlJREFUeNpjYMAOzIH4KBD/AuJPQDwXiIUZSABaQFwNxCxAzAfEM4H4PxDvJ8WQLDQ+E9SQb6QYwoTG14Aa0sVAJjAF4mtAPIFcA7ygLoCFhyi5BskC8RmoQYsZKACm5AQsAzViBx1IQw1ZSoqmh0A8G5pCQYG5A4ifArE4KYaAovMHNMnfBeIeSmJmFAwm8J8MPAqGNAAVRi+RovMWOYaEoqWJSeQYsheIEynxihLU9i/QalScHENa0bzylFyDQEViPLQGBBk0jRKvcQDxQWhMUQQ0oAU3xeAhpQaAKrBmUjXVQhs7TNAABrVNeEg1ZCk0DJ4DcR8hAwCOgEgWyW5j+AAAAGJ0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bWZyYWM+PG1uPjM8L21uPjxtbj41PC9tbj48L21mcmFjPjwvbWF0aD5AFvRXAAAAAElFTkSuQmCC\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"1 fifth\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mfrac»«mn»1«/mn»«mn»5«/mn»«/mfrac»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAlCAYAAACkhgJBAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAAZpE86XgAAAKJJREFUeNpjYMAOZIE4DYiXA/E3BjLBJSC+AMT/oZhswEQNQxhGDRnuhogjGSJOiQvQ8SgY0uA/GXgUDGkAqjJeIkXnLXIMCUVLE5PIMWQvECdS4hUlqO1fgHgmuSVbK5pXnpJrkCgQxwPxNahB0yjxGgcQH4TGFEVAA4h/USPdPKTUAGkgbiZVUy0QZ0FTLSiAu4CYh1RDlkLD4DkQ9xEyAAA5jEa6P4E/DQAAAGJ0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bWZyYWM+PG1uPjE8L21uPjxtbj41PC9tbj48L21mcmFjPjwvbWF0aD5d2SX1AAAAAElFTkSuQmCC\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"4 over 5\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mfrac»«mn»4«/mn»«mn»5«/mn»«/mfrac»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAlCAYAAACkhgJBAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAAZpE86XgAAAL9JREFUeNpjYCAOrALi/wwUgGioAWQbIgvEZyg1ZDcQ61FiSAkQZ0DZZBmiA8RLkfgkG8IGxDuAWJASQ/qA2BxNjGRD/hPAZAOKDRhchoyCgQb/ycCjYEgDJiB+iRSdt8gxJBQtTUwix5C9QJxIiVeUoLZ/AeKZQCxOjiGtaF55Sq5BokAcD8TXoAZNo8RrHEB8EBpTFAENIP5FjXTzkFIDpIG4mVRNtUCcBU21oADuAmIeUg1ZCg2D59AKHq8BAOMQS90v0VtxAAAAYnRFWHRNYXRoTUwAPG1hdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTgvTWF0aC9NYXRoTUwiPjxtZnJhYz48bW4+NDwvbW4+PG1uPjU8L21uPjwvbWZyYWM+PC9tYXRoPmihbmAAAAAASUVORK5CYII=\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"2 over 5\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mfrac»«mn»2«/mn»«mn»5«/mn»«/mfrac»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAlCAYAAACkhgJBAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAAZpE86XgAAAOFJREFUeNpjYMAOLIH4GhD/AuLnQNwBxCwMJABBJE1KUMP+A3EPKYYkotlqCTXkCwOFAGTIN0oMYIMasokSQ8KhhphTYsg5IJ5JiQEFQHwGiDnINcAaaoAwuQbIA/FuNAOioWmGKCAJxI+hgYmOJxFryC0cBoCwF8MoGMLgPxl4FAxpwATEL5Gi8xY5hoSSW5Ygg73QioxsoIRU64FKenFyDGlF88pTcg0SBeJ4pAp9GiVeA9U5B6ExRRHQgLZVKAYPKTVAGoibSdVUC8RZ0FQLCuAuIOYh1ZClSO21PkIGAADBl0rSzFrD9gAAAGJ0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bWZyYWM+PG1uPjI8L21uPjxtbj41PC9tbj48L21mcmFjPjwvbWF0aD5O8RyGAAAAAElFTkSuQmCC\" style=\"max-width: none;\">"
+        ],
+        "op_hi": [
+            "3/5",
+            "1/5",
+            "4/5",
+            "2/5"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस काम-समय (Time and Work) के सवाल को समझते हैं।</p><p>लड़के का 1 दिन का काम = 1/60<br>लड़की का 1 दिन का काम = 1/30</p><p>दोनों का मिलकर 1 दिन का काम = (1/60) + (1/30)<br>LCM = 60<br>= (1 + 2) / 60 = 3/60 = <b>1/20</b></p><p>यानी वे दोनों मिलकर 1 दिन में पूरे काम का 1/20 हिस्सा करते हैं।<br>उन्होंने 4 दिन तक काम किया:<br>4 दिन में किया गया काम = 4 × (1/20) = <b>1/5</b></p><p>अब बचा हुआ काम (Fraction left) = 1 - (1/5) = <b>4/5</b></p><ul><li><b>Option 1 (3/5):</b> गलत है।</li><li><b>Option 2 (1/5):</b> यह वह काम है जो हो चुका है, पूछा बचा हुआ काम है, इसलिए गलत है।</li><li><b>Option 3 (4/5):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 4 (2/5):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Speed, Time and Distance",
+        "level": "Easy",
+        "q_en": "<p>A man goes from A to B at a uniform speed of 14 kmph and returns with a uniform speed of 6 kmph. His average speed for the whole journey is:</p>",
+        "q_hi": "<p>एक व्यक्ति A से B तक 14 किमी/घंटा की एकसमान गति से जाता है और 6 किमी/घंटा की एकसमान गति से वापस आता है। पूरी यात्रा के लिए उसकी औसत गति है:</p>",
+        "op_en": [
+            "8 kmph",
+            "8.2 kmph",
+            "8.6 kmph",
+            "8.4 kmph"
+        ],
+        "op_hi": [
+            "8 किमी/घंटा",
+            "8.2 किमी/घंटा",
+            "8.6 किमी/घंटा",
+            "8.4 किमी/घंटा"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस औसत चाल (Average Speed) के सवाल को एक Short Trick से हल करते हैं!</p><p>जब दूरी (Distance) समान हो (जैसे A से B जाना और वापस आना), तो औसत गति का सीधा सूत्र होता है:<br><b>Average Speed = (2 × x × y) / (x + y)</b></p><p>यहाँ जाने की गति (x) = 14 kmph<br>वापस आने की गति (y) = 6 kmph</p><p>Average Speed = (2 × 14 × 6) / (14 + 6)<br>= 168 / 20<br>= <b>8.4 kmph</b></p><ul><li><b>Option 1 (8 kmph):</b> गलत है।</li><li><b>Option 2 (8.2 kmph):</b> गलत है।</li><li><b>Option 3 (8.6 kmph):</b> गलत है।</li><li><b>Option 4 (8.4 kmph):</b> यह एकदम <b>सही</b> उत्तर है!</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Ratio and Proportion",
+        "level": "Easy",
+        "q_en": "<p>The mean proportional between 63 and 112 is:</p>",
+        "q_hi": "<p>63 और 112 के बीच मध्यानुपाती (mean proportional) क्या है?</p>",
+        "op_en": [
+            "49",
+            "84",
+            "88",
+            "56"
+        ],
+        "op_hi": [
+            "49",
+            "84",
+            "88",
+            "56"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को हल करते हैं।</p><p>किन्हीं दो संख्याओं a और b का मध्यानुपाती (Mean Proportional) निकालने का सूत्र होता है:<br><b>Mean Proportional = √(a × b)</b></p><p>यहाँ a = 63 और b = 112 है।<br>Mean Proportional = √(63 × 112)</p><p>इसे आसान बनाने के लिए हम इनके गुणनखंड (factors) कर लेते हैं:<br>63 = 9 × 7<br>112 = 16 × 7</p><p>तो, √(9 × 7 × 16 × 7)<br>= √(9 × 16 × 49)<br>= 3 × 4 × 7<br>= <b>84</b></p><ul><li><b>Option 1 (49):</b> गलत है।</li><li><b>Option 2 (84):</b> यह <b>सही</b> जवाब है!</li><li><b>Option 3 (88):</b> गलत है।</li><li><b>Option 4 (56):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Time and Work",
+        "level": "Moderate",
+        "q_en": "<p>A and B complete a work in 7 days. If A alone can do it in 28 days then, B alone can do it three-fourth of the same work in ______(days).<span style=\"color: white;\">4077</span></p>",
+        "q_hi": "<p>A और B एक काम को 7 दिनों में पूरा करते हैं। यदि A अकेला इसे 28 दिनों में कर सकता है, तो B अकेला उसी काम का तीन-चौथाई हिस्सा ______ (दिनों) में कर सकता है।</p>",
+        "op_en": [
+            "7",
+            "14",
+            "21",
+            "28"
+        ],
+        "op_hi": [
+            "7",
+            "14",
+            "21",
+            "28"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं!</p><p>A और B मिलकर काम करते हैं = 7 दिनों में<br>A अकेला काम करता है = 28 दिनों में</p><p><b>Step 1: कुल काम मान लें (LCM Method)</b><br>7 और 28 का LCM = 28 Unit (यह हमारा कुल काम है)।</p><p><b>Step 2: कार्यक्षमता (Efficiency) निकालें</b><br>(A + B) की कार्यक्षमता = 28 / 7 = 4 Unit/day<br>A की कार्यक्षमता = 28 / 28 = 1 Unit/day</p><p>तो B की कार्यक्षमता क्या होगी?<br>B = (A + B) - A = 4 - 1 = <b>3 Unit/day</b></p><p><b>Step 3: B द्वारा लिया गया समय</b><br>B को 3/4 काम करना है।<br>कुल काम का 3/4 = 28 × (3/4) = 21 Unit<br>B को 21 Unit काम करने में लगा समय = 21 / 3 = <b>7 दिन</b></p><ul><li><b>Option 1 (7):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 2 (14):</b> गलत है।</li><li><b>Option 3 (21):</b> गलत है।</li><li><b>Option 4 (28):</b> यह तो A का समय है, अतः गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Ratio and Proportion",
+        "level": "Easy",
+        "q_en": "<p>If the third proportional of 120 and 60 is A, then what is the value of A?</p>",
+        "q_hi": "<p>यदि 120 और 60 का तृतीयानुपाती A है, तो A का मान क्या है?</p>",
+        "op_en": [
+            "15",
+            "30",
+            "25",
+            "20"
+        ],
+        "op_hi": [
+            "15",
+            "30",
+            "25",
+            "20"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को आसानी से समझते हैं।</p><p>दो संख्याओं a और b का तृतीयानुपाती (Third Proportional) निकालने का सूत्र होता है:<br><b>Third Proportional = b² / a</b></p><p>यहाँ प्रश्न में, a = 120 और b = 60 है।<br>तृतीयानुपाती (A) = (60 × 60) / 120<br>A = 3600 / 120<br>A = <b>30</b></p><ul><li><b>Option 1 (15):</b> गलत है।</li><li><b>Option 2 (30):</b> यह बिल्कुल <b>सही</b> उत्तर है।</li><li><b>Option 3 (25):</b> गलत है।</li><li><b>Option 4 (20):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Profit, Loss and Discount",
+        "level": "Easy",
+        "q_en": "<p>A shopkeeper offers a discount of 16% on his articles. If the marked price of the article is ₹1,175, the selling price should be:</p>",
+        "q_hi": "<p>एक दुकानदार अपनी वस्तुओं पर 16% की छूट देता है। यदि वस्तु का अंकित मूल्य ₹1,175 है, तो विक्रय मूल्य क्या होना चाहिए?</p>",
+        "op_en": [
+            "₹1,059",
+            "₹987",
+            "₹954",
+            "₹1,081"
+        ],
+        "op_hi": [
+            "₹1,059",
+            "₹987",
+            "₹954",
+            "₹1,081"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस Discount के सीधे से सवाल को हल करते हैं।</p><p>दिया गया है:<br>अंकित मूल्य (Marked Price, MP) = ₹1,175<br>छूट (Discount) = 16%</p><p>विक्रय मूल्य (Selling Price, SP) निकालने का सूत्र है:<br>SP = MP × [(100 - Discount %) / 100]</p><p>SP = 1175 × [(100 - 16) / 100]<br>SP = 1175 × (84 / 100)</p><p>गणना (Calculation):<br>1175 × 0.84 = <b>₹987</b></p><ul><li><b>Option 1 (₹1,059):</b> गलत है।</li><li><b>Option 2 (₹987):</b> एकदम <b>सही</b> जवाब!</li><li><b>Option 3 (₹954):</b> गलत है।</li><li><b>Option 4 (₹1,081):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Ratio and Proportion",
+        "level": "Moderate",
+        "q_en": "<p>Divide ₹3,500 into three parts in such a way that half of the first part, one-fourth of the second part, and one-eighth of the third part are equal. Find the value of the first part (in ₹).</p>",
+        "q_hi": "<p>₹3,500 को तीन भागों में इस प्रकार विभाजित करें कि पहले भाग का आधा, दूसरे भाग का एक-चौथाई और तीसरे भाग का एक-आठवां भाग बराबर हो। पहले भाग का मान ज्ञात कीजिए (₹ में)।</p>",
+        "op_en": [
+            "700",
+            "200",
+            "500",
+            "400"
+        ],
+        "op_hi": [
+            "700",
+            "200",
+            "500",
+            "400"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस अनुपात (Ratio) के शानदार सवाल को हल करते हैं!</p><p>मान लीजिए कि तीन भाग A, B और C हैं। कुल योग A + B + C = ₹3500 है।</p><p>प्रश्न की शर्त के अनुसार:<br>A / 2 = B / 4 = C / 8</p><p>मान लेते हैं कि यह सब 'k' के बराबर हैं:<br>A / 2 = k ⇒ A = 2k<br>B / 4 = k ⇒ B = 4k<br>C / 8 = k ⇒ C = 8k</p><p>अनुपात (Ratio): A : B : C = 2 : 4 : 8</p><p>इन सभी का कुल योग = 2k + 4k + 8k = 14k<br>प्रश्न के अनुसार, 14k = 3500<br>k = 3500 / 14 = 250</p><p>हमें पहला भाग (A) निकालना है:<br>A = 2k = 2 × 250 = <b>500</b></p><ul><li><b>Option 1 (700):</b> गलत है।</li><li><b>Option 2 (200):</b> गलत है।</li><li><b>Option 3 (500):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 4 (400):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Speed, Time and Distance",
+        "level": "Moderate",
+        "q_en": "<p>A train, 180 meters long, crosses another train of length 120 meters, running in the same direction, in 12 seconds. If the speed of the shorter train is 40 km/hour, find the speed of the longer train.</p>",
+        "q_hi": "<p>180 मीटर लंबी एक ट्रेन उसी दिशा में चल रही 120 मीटर लंबी एक अन्य ट्रेन को 12 सेकंड में पार करती है। यदि छोटी ट्रेन की गति 40 किमी/घंटा है, तो लंबी ट्रेन की गति ज्ञात कीजिए।</p>",
+        "op_en": [
+            "115 km/hour",
+            "48 km/hour",
+            "50 km/hour",
+            "130 km/hour"
+        ],
+        "op_hi": [
+            "115 किमी/घंटा",
+            "48 किमी/घंटा",
+            "50 किमी/घंटा",
+            "130 किमी/घंटा"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस ट्रेन वाले सवाल को समझते हैं।</p><p>जब दो ट्रेनें पार करती हैं, तो कुल दूरी (Total Distance) दोनों ट्रेनों की लंबाई के योग के बराबर होती है।<br>कुल दूरी = 180 + 120 = <b>300 मीटर</b></p><p>पार करने में लगा समय (Time) = <b>12 सेकंड</b></p><p><b>Step 1: सापेक्ष गति (Relative Speed) निकालें</b><br>सापेक्ष गति = कुल दूरी / समय<br>= 300 / 12 = <b>25 m/s</b></p><p>इसे km/hr में बदल लेते हैं:<br>25 × (18 / 5) = <b>90 km/hr</b></p><p><b>Step 2: लंबी ट्रेन की गति (Speed) निकालें</b><br>चूंकि ट्रेनें <b>समान दिशा (Same Direction)</b> में जा रही हैं, इसलिए सापेक्ष गति दोनों की गतियों का अंतर होगी। लंबी ट्रेन दूसरी को पार कर रही है, तो उसकी गति ज्यादा होगी।<br>Relative Speed = Speed of longer train - Speed of shorter train<br>90 = Speed of longer train - 40<br>Speed of longer train = 90 + 40 = <b>130 km/hr</b></p><ul><li><b>Option 1 (115 km/hour):</b> गलत है।</li><li><b>Option 2 (48 km/hour):</b> गलत है।</li><li><b>Option 3 (50 km/hour):</b> यह भी गलत है।</li><li><b>Option 4 (130 km/hour):</b> बिल्कुल <b>सही</b> उत्तर है!</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Mensuration 3D",
+        "level": "Hard",
+        "q_en": "<p>A spherical tank has a radius of 3.6 meter. How much water can it store in cubic meter (Correct to two places of decimal and use π = 3.14)?</p>",
+        "q_hi": "<p>एक गोलाकार टैंक की त्रिज्या 3.6 मीटर है। यह कितने घन मीटर पानी जमा कर सकता है (दशमलव के दो स्थानों तक सही और π = 3.14 का उपयोग करें)?</p>",
+        "op_en": [
+            "195.33 m3",
+            "153.48 m3",
+            "148.32 m3",
+            "178.72 m3"
+        ],
+        "op_hi": [
+            "195.33 m³",
+            "153.48 m³",
+            "148.32 m³",
+            "178.72 m³"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस कैलकुलेशन आधारित सवाल को हल करते हैं। टैंक में पानी की मात्रा उसके आयतन (Volume) के बराबर होगी।</p><p>गोले का आयतन (Volume of Sphere) का सूत्र है:<br><b>V = (4/3) π r³</b></p><p>यहाँ r = 3.6 m और π = 3.14 दिया गया है।<br>V = (4/3) × 3.14 × (3.6)³<br>V = (4/3) × 3.14 × (3.6 × 3.6 × 3.6)<br>V = 4 × 3.14 × 1.2 × 12.96<br>V = 12.56 × 15.552<br><b>V ≈ 195.33 m³</b></p><ul><li><b>Option 1 (195.33 m3):</b> यह <b>सही</b> उत्तर है। कैलकुलेशन इसी के सबसे करीब आती है।</li><li><b>Option 2 (153.48 m3):</b> गलत है।</li><li><b>Option 3 (148.32 m3):</b> गलत है।</li><li><b>Option 4 (178.72 m3):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Mensuration 2D",
+        "level": "Easy",
+        "q_en": "<p>Find the area (in square units) of an equilateral triangle with one side of 8 units.</p>",
+        "q_hi": "<p>8 इकाई की भुजा वाले समबाहु त्रिभुज का क्षेत्रफल (वर्ग इकाइयों में) ज्ञात कीजिए।</p>",
+        "op_en": [
+            "<img align=\"middle\" alt=\"14 square root of 3\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»14«/mn»«msqrt»«mn»3«/mn»«/msqrt»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAWCAYAAABUpxX0AAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAZ1JREFUeNpjYBhYoADEAgxDCFgA8X8y8YCBdiB+D8QiQyWUWYD4NRA3D6Wk4QGNZoWh5OjlQHyaUkNkgTgNatg3IvWsIjNTgEqL70CcgkXOHIiPAvEvIP4ExHOBWBiXQZeA+AIJuTOagpwcA8S/sWRALSCuhqZ3PiCeCTV/Pz7DmIh0CChWzlDg6NPQGEUHWTjcQzDmiXHIbiDWI9PRMlA9PjgCDRloQNV2UeroEiDOIMGD6KABWtTxEFBnCsTXgHgCMYbic4gOEC8lMVbQwX1opYIPeCGZDUrPouQ6mg2IdwCxIBFqXaCZCR3YQNVbEFmawfLNYnId3QctjgipbYCK9WAxYz4QnychVkwpzYjENmBgjv4DxOJI4hzQtFxBgqOpWnoQUhsOFT+ApWwmpdqWhpqzFJ8icSSHiFOYaW8A8T9oFIPAeiDeTMC8h0A8G1oDikLz0FN8biGn3YpPjRrU0fegZfNvHNU2MgAVbz+gVfhdaL4QZaAz2AH11F5oeuYYCi05DmgIgxy+Yig1QfuhjvZjGGKgH0dlQzYAABfgmOvR88w/AAAAY3RFWHRNYXRoTUwAPG1hdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTgvTWF0aC9NYXRoTUwiPjxtbj4xNDwvbW4+PG1zcXJ0Pjxtbj4zPC9tbj48L21zcXJ0PjwvbWF0aD5C8BaKAAAAAElFTkSuQmCC\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"12 square root of 3\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»12«/mn»«msqrt»«mn»3«/mn»«/msqrt»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAWCAYAAABUpxX0AAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAcVJREFUeNpjYBhYoADEAgxDCFgA8X8y8YCBdiB+D8QiQyWUWYD4NRA3D6Wk4QGNZoWh5OjlQHyaUkNkgTgNatg3HGosgfgaEP8C4udA3AGNZlIBqLT4DsQpWOTMgfgo1I5PQDwXiIVxGXQJiC/gyZ2CSI5UgjoepK6HDEfHAPFvLBlQC4iroXbwAfFMqB378RnGhMfRiWihaglV94UMR5+Gxig6yMLhnm+EDCSlHCTKQDQgA9XngyPQkIEGVG0XtRzNBlW3iURHN0CLOh4C6kyhSXACsaFHjKPDoerMSXT0fWilgg94IbkDlJ5FqeXoc9CMgg244ChVbKBmWxBZmp2Bql9MDUcXQA3kwBH9uEqV+UB8noRYMaVWRrSGOlgYT5oF6f8DxOJI4hzQtFxBgqOpUnrIA/FuNAdHQzMMtvR+AEvZTEq1LQ01Zyk+ReJIjhZHk5ME4sc4momTsJh1A4j/QaMYBNYD8WYCjnwIxLOhgQLKfDuA+CkWt2CEMK526y08arywmKcGdfQ9aNn8G0e1jQxAxdsPaBV+F5ovRBnoDHZAPbUXmp45hkJLjgMawiCHrxhKTdB+qKP9GIYY6CezCYsTAADV/5fgLPO9bQAAAGN0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bW4+MTI8L21uPjxtc3FydD48bW4+MzwvbW4+PC9tc3FydD48L21hdGg+2SAWRAAAAABJRU5ErkJggg==\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"16 square root of 3\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»16«/mn»«msqrt»«mn»3«/mn»«/msqrt»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAWCAYAAABUpxX0AAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAeFJREFUeNrVlk8og3EYx9+WtCQRb0uj1g5arlp2cHSQtKsDN5IcnJUDclCS7SrJQZqDciApaS6SpkhaLixpBzkoh1mb8P3Vd/X2+r3/y3qf+lye9+nZd8/ze57fT1HqaxHQqvjIEuDHJXWzFfAOOvxS5QbwBpb9dDSG2OaIn0RnQM5rkm4wxWQlG/FJsA8+wJfD3xLb4hNMSr71gwtQYe4t0G6U6A7c2phOFZwy4QLoAwGHosdBVTKAvWCe570FbFBL1ixZwEJ0JyiAKxD20NUcO6q3GQM9lp03E31J0W0eBHcx/4hB0bQWY+yqW9FjmgTHoAyKYNah6EWuumaLuDjIg7SdpEaiT+if5pmLsurCN+FAdIGXipkNa3RkOUeuRJck/lr18zr/IP+Y3gYYn7C5za4Zv+NWdEXib6SvrGu/8K1JcmyDGwddiXsdxAf6OyXxrxLRYneHNP4gz/KcA9Get8cS/dq1FKVvXRc7Sv+5ZDc7ubbDzLNrFhTSiA7pvjWBe1Y1xuk/Ai8GN5bozDdbLOwAHFqIfAabzKdy+IsSLX8qbPZuVTkUZZIxuWR6KPqJu7lqcG1rLc28Yn4eOReq8s9WW5NnPM9BP7zkgqywEL7npydoiqKTis8sZXDZuLZf6see53zM3mkAAABjdEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1uPjE2PC9tbj48bXNxcnQ+PG1uPjM8L21uPjwvbXNxcnQ+PC9tYXRoPoKQ6w8AAAAASUVORK5CYII=\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"8 square root of 3\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»8«/mn»«msqrt»«mn»3«/mn»«/msqrt»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAWCAYAAACosj4+AAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAdRJREFUeNrNljFIw1AQhkNwCFLEosVBhU5Suhc76CYiRRwEcahOOjk5Ci4FEUEK7SoiIkUUFweXgog6OEgLdhKXKh0cpIPiUMWK+j/4CyFeWl+1mINvyL3Lcbn3v3sxjNZZEHQaHrEo+GySltgaeATdXuhOGyiDFa9s1xhbH/RKQXsg99skcXAJXsEbKIC5JvKoU/UC5oW1QXDB/M9gC3RJSRbY4jSwqIEkfYuaBc2AqiDmMFhm7g6wwfynUpIyF02bz6TvSbOgHLdM+mhDyF+RkhS5OGnz9dN3oFFMH98ZF9ZMx3OIsetSohj3tULd+MA52AHtGgUl2G1fg7gIuKZEXG0YlFj1A4+urt1xINazmG0iK/0E3AJ7QIZbVCtqVIgboTCdNsT3oj8oXMkhz/iMFBBmAXE+z3ILnbpK0JcUcmyDK41uRuqJuiCcsin6SkJB7+xozSxqZ0mjoLqn7IaLfuGFvCN2mv4zYfboXBW9zLPrNqVrR9xPjaxyBoVcPuCDbVd2CI4aFKA6vcnJrIScBfeOTn8bXAVuh7o+jqktyQZY0C1nT9XlqrBb2nYtFanDwF9eoFl29YT6sf77RrfYGVXUvld+M1IsaMLwkKVcBmXT9gWx6obBstybNAAAAGJ0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bW4+ODwvbW4+PG1zcXJ0Pjxtbj4zPC9tbj48L21zcXJ0PjwvbWF0aD7qgm+iAAAAAElFTkSuQmCC\" style=\"max-width: none;\">"
+        ],
+        "op_hi": [
+            "14√3",
+            "12√3",
+            "16√3",
+            "8√3"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को हल करते हैं।</p><p>समबाहु त्रिभुज (Equilateral Triangle) के क्षेत्रफल (Area) का सीधा सूत्र होता है:<br><b>Area = (√3 / 4) × a²</b> (जहाँ a त्रिभुज की भुजा है)</p><p>प्रश्न में हमें भुजा (a) = 8 दी गई है।<br>Area = (√3 / 4) × (8)²<br>Area = (√3 / 4) × 64<br>Area = √3 × 16 = <b>16√3</b></p><ul><li><b>Option 1 (14√3):</b> गलत है।</li><li><b>Option 2 (12√3):</b> गलत है।</li><li><b>Option 3 (16√3):</b> बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 4 (8√3):</b> गलत है।</li></ul>"
+    }
+]
