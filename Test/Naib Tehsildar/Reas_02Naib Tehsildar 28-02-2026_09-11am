@@ -1,0 +1,422 @@
+[
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Series",
+        "level": "Easy",
+        "q_en": "<p>What should come in place of the question mark (?) in the given series?</p><p>32      33      35      39     47       ?</p>",
+        "q_hi": "<p>दी गई शृंखला में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आना चाहिए?</p><p>32      33      35      39     47       ?</p>",
+        "op_en": [
+            "65",
+            "62",
+            "63",
+            "64"
+        ],
+        "op_hi": [
+            "65",
+            "62",
+            "63",
+            "64"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस Number Series को सुलझाते हैं!</p><p>सबसे पहले हम संख्याओं के बीच का अंतर (Difference) देखते हैं:</p><p>33 - 32 = 1<br>35 - 33 = 2<br>39 - 35 = 4<br>47 - 39 = 8</p><p>यहाँ अंतर 1, 2, 4, 8 के क्रम में बढ़ रहा है, जो कि 2 की घात (Powers of 2) या पिछले अंतर का दोगुना है।</p><p>इसलिए, अगला अंतर 8 × 2 = 16 होना चाहिए।</p><p>अब, 47 में 16 जोड़ते हैं:<br>47 + 16 = <b>63</b></p><ul><li><b>Option 1 (65):</b> गलत है।</li><li><b>Option 2 (62):</b> गलत है।</li><li><b>Option 3 (63):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 4 (64):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Mathematical Operations",
+        "level": "Moderate",
+        "q_en": "<p>If ‘A’ stands for ‘<b>÷</b>’, ‘B’ stands for ‘x’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘-’, what will come in place of the question mark (?) in the following equation?</p><p>4   B   3   D   15   A   5   C   1 = ?  D  12</p>",
+        "q_hi": "<p>यदि ‘A’ का अर्थ ‘<b>÷</b>’ है, ‘B’ का अर्थ ‘x’ है, ‘C’ का अर्थ ‘+’ है और ‘D’ का अर्थ ‘-’ है, तो निम्नलिखित समीकरण में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आएगा?</p><p>4   B   3   D   15   A   5   C   1 = ?  D  12</p>",
+        "op_en": [
+            "24",
+            "18",
+            "20",
+            "22"
+        ],
+        "op_hi": [
+            "24",
+            "18",
+            "20",
+            "22"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस BODMAS के सवाल को समझते हैं।</p><p>सबसे पहले दिए गए अक्षरों को उनके गणितीय चिह्नों (Mathematical symbols) से बदलते हैं:</p><p>A = ÷<br>B = ×<br>C = +<br>D = -</p><p>नया समीकरण बनेगा:<br>4 × 3 - 15 ÷ 5 + 1 = ? - 12</p><p>BODMAS नियम के अनुसार, सबसे पहले भाग (Divide) करेंगे:<br>4 × 3 - 3 + 1 = ? - 12</p><p>अब गुणा (Multiply) करेंगे:<br>12 - 3 + 1 = ? - 12</p><p>अब जोड़ और घटाव (Addition & Subtraction):<br>13 - 3 = ? - 12<br>10 = ? - 12<br>? = 10 + 12 = <b>22</b></p><ul><li><b>Option 1 (24):</b> गलत है।</li><li><b>Option 2 (18):</b> गलत है।</li><li><b>Option 3 (20):</b> गलत है।</li><li><b>Option 4 (22):</b> एकदम <b>सही</b> जवाब!</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Classification",
+        "level": "Moderate",
+        "q_en": "<p>Based on the English alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does not belong to that group?<br>(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter cluster.)</p>",
+        "q_hi": "<p>अंग्रेजी वर्णमाला के क्रम के आधार पर, निम्नलिखित चार में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। वह कौन सा है जो उस समूह से संबंधित नहीं है?<br>(नोट: भिन्न विकल्प का चयन स्वरों/व्यंजनों की संख्या या उनके स्थान के आधार पर नहीं किया गया है।)</p>",
+        "op_en": [
+            "PNIG",
+            "SQLP",
+            "CAVT",
+            "RPKI"
+        ],
+        "op_hi": [
+            "PNIG",
+            "SQLP",
+            "CAVT",
+            "RPKI"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस Odd One Out के सवाल का पैटर्न खोजते हैं। हम अक्षरों की Place Value (स्थान मान) का उपयोग करेंगे।</p><ul><li><b>PNIG:</b> P(16) - 2 = N(14); N(14) - 5 = I(9); I(9) - 2 = G(7) [पैटर्न: -2, -5, -2]</li><li><b>SQLP:</b> S(19) - 2 = Q(17); Q(17) - 5 = L(12); L(12) + 4 = P(16) [पैटर्न: -2, -5, <b>+4</b>]</li><li><b>CAVT:</b> C(3) - 2 = A(1); A(1) - 5 = V(22) (A को 27 मानकर: 27-5=22); V(22) - 2 = T(20) [पैटर्न: -2, -5, -2]</li><li><b>RPKI:</b> R(18) - 2 = P(16); P(16) - 5 = K(11); K(11) - 2 = I(9) [पैटर्न: -2, -5, -2]</li></ul><p>स्पष्ट रूप से, SQLP को छोड़कर बाकी सभी -2, -5, -2 का नियम फॉलो करते हैं।</p><ul><li><b>Option 1 (PNIG):</b> समान पैटर्न में है।</li><li><b>Option 2 (SQLP):</b> यह <b>सही</b> उत्तर है क्योंकि यह समूह से अलग (Odd) है!</li><li><b>Option 3 (CAVT):</b> समान पैटर्न में है।</li><li><b>Option 4 (RPKI):</b> समान पैटर्न में है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Analogy",
+        "level": "Easy",
+        "q_en": "<p>Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?<br>(NOTE: A two-/three-digit number cannot be broken into individual digits for operations. E.g., if 37 is followed by 10, the operation cannot be 3 + 7 as a two-digit number cannot be broken into individual digits.)<br><br>12 - 10 - 8 - 6    ;    9 - 7 - 5 - 3</p>",
+        "q_hi": "<p>नीचे संख्याओं के दो सेट दिए गए हैं। संख्याओं के प्रत्येक सेट में, पहली संख्या पर कुछ गणितीय संक्रिया(एँ) दूसरी संख्या देती है। इसी तरह, दूसरी संख्या पर गणितीय संक्रिया(एँ) तीसरी संख्या देती है और इसी तरह आगे भी। दिए गए विकल्पों में से कौन सा दिए गए सेटों के समान संक्रियाओं के सेट का पालन करता है?<br>(नोट: किसी दो-/तीन-अंकीय संख्या को संक्रियाओं के लिए अलग-अलग अंकों में नहीं तोड़ा जा सकता है। उदाहरण के लिए, यदि 37 के बाद 10 आता है, तो संक्रिया 3 + 7 नहीं हो सकती है।)<br><br>12 - 10 - 8 - 6    ;    9 - 7 - 5 - 3</p>",
+        "op_en": [
+            "15 - 13 - 12 - 11",
+            "18 - 16 - 14 - 12",
+            "27 - 25 - 23 - 22",
+            "20 - 10 - 8 - 6"
+        ],
+        "op_hi": [
+            "15 - 13 - 12 - 11",
+            "18 - 16 - 14 - 12",
+            "27 - 25 - 23 - 22",
+            "20 - 10 - 8 - 6"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस Number Set के सवाल का लॉजिक समझते हैं!</p><p>पहले सेट को देखें:<br>12 - 10 - 8 - 6<br>12 - 2 = 10<br>10 - 2 = 8<br>8 - 2 = 6<br>पैटर्न: लगातार 2 घटाया जा रहा है (-2, -2, -2)।</p><p>दूसरे सेट को देखें:<br>9 - 7 - 5 - 3<br>9 - 2 = 7; 7 - 2 = 5; 5 - 2 = 3<br>यहाँ भी समान पैटर्न (-2, -2, -2) है।</p><p>अब विकल्पों की जाँच करते हैं:</p><ul><li><b>Option 1 (15 - 13 - 12 - 11):</b> 15-2=13, लेकिन 13-1=12. (गलत)</li><li><b>Option 2 (18 - 16 - 14 - 12):</b> 18-2=16; 16-2=14; 14-2=12. (यह बिल्कुल <b>सही</b> है!)</li><li><b>Option 3 (27 - 25 - 23 - 22):</b> 23-1=22. (गलत)</li><li><b>Option 4 (20 - 10 - 8 - 6):</b> 20-10=10. (गलत)</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Analogy",
+        "level": "Easy",
+        "q_en": "<p>112 is related to 237 following a certain logic. Following the same logic, 95 is related to 220. To which of the following is 81 related, following the same logic? <br><br>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)</p>",
+        "q_hi": "<p>एक निश्चित तर्क के अनुसार 112 का संबंध 237 से है। उसी तर्क के अनुसार, 95 का संबंध 220 से है। उसी तर्क का अनुसरण करते हुए 81 का संबंध निम्नलिखित में से किससे है?<br><br>(नोट: संक्रियाएँ पूर्ण संख्याओं पर की जानी चाहिए, संख्याओं को उनके घटक अंकों में तोड़े बिना।)</p>",
+        "op_en": [
+            "206",
+            "196",
+            "186",
+            "216"
+        ],
+        "op_hi": [
+            "206",
+            "196",
+            "186",
+            "216"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस Number Analogy के प्रश्न को हल करते हैं।</p><p>लॉजिक खोजना बहुत आसान है, बस दोनों संख्याओं का अंतर (Difference) निकालें:</p><p>पहला युग्म: 237 - 112 = <b>125</b><br>दूसरा युग्म: 220 - 95 = <b>125</b></p><p>स्पष्ट है कि पहली संख्या में 125 जोड़ने पर दूसरी संख्या प्राप्त होती है।</p><p>इसी प्रकार, 81 के लिए:<br>81 + 125 = <b>206</b></p><ul><li><b>Option 1 (206):</b> यह <b>सही</b> उत्तर है!</li><li><b>Option 2 (196):</b> गलत है।</li><li><b>Option 3 (186):</b> गलत है।</li><li><b>Option 4 (216):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Analogy",
+        "level": "Easy",
+        "q_en": "<p>Select the triad which follows the same pattern as that followed by the two triads given below. Both triads follow the same pattern.<br><br>MO - QS - UW<br>EG - IK - MO</p>",
+        "q_hi": "<p>उस त्रिक (triad) का चयन करें जो नीचे दिए गए दो त्रिकों द्वारा अनुसरण किए गए समान पैटर्न का अनुसरण करता है। दोनों त्रिक समान पैटर्न का अनुसरण करते हैं。<br><br>MO - QS - UW<br>EG - IK - MO</p>",
+        "op_en": [
+            "EH - JL - LN",
+            "KL - MP - QV",
+            "YA - CE - GI",
+            "UX - WZ - YD"
+        ],
+        "op_hi": [
+            "EH - JL - LN",
+            "KL - MP - QV",
+            "YA - CE - GI",
+            "UX - WZ - YD"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस Letter Series के पैटर्न को डिकोड करते हैं।</p><p><b>पहला त्रिक: MO - QS - UW</b><br>अक्षरों के Place Value देखिए:<br>M(13) + 2 = O(15)<br>O(15) + 2 = Q(17)<br>Q(17) + 2 = S(19)<br>S(19) + 2 = U(21)<br>U(21) + 2 = W(23)<br>यानी लगातार हर अक्षर में <b>+2</b> हो रहा है।</p><p><b>दूसरा त्रिक: EG - IK - MO</b><br>E(5) + 2 = G(7); G(7) + 2 = I(9)... इसी तरह M(13), O(15)। यहाँ भी <b>+2</b> का नियम है।</p><p>अब विकल्पों को जाँचते हैं:</p><ul><li><b>Option 1 (EH - JL - LN):</b> E(5) + 3 = H(8). (गलत)</li><li><b>Option 2 (KL - MP - QV):</b> K(11) + 1 = L(12). (गलत)</li><li><b>Option 3 (YA - CE - GI):</b> Y(25) + 2 = A(27 यानी 1); A(1) + 2 = C(3); C(3) + 2 = E(5); E(5) + 2 = G(7); G(7) + 2 = I(9). यह <b>बिल्कुल सही</b> पैटर्न फॉलो कर रहा है!</li><li><b>Option 4 (UX - WZ - YD):</b> U(21) + 3 = X(24). (गलत)</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Analogy",
+        "level": "Moderate",
+        "q_en": "<p>Select the set in which the numbers are related in the same way as are the numbers of the following sets.<br>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding to/subtracting from/multiplying with 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)<br><br>(14, 364, 13)<br>(11, 242, 11)</p>",
+        "q_hi": "<p>उस सेट का चयन करें जिसमें संख्याएँ उसी प्रकार संबंधित हैं जैसे कि निम्नलिखित सेटों की संख्याएँ हैं।<br>(नोट: संक्रियाएँ पूर्ण संख्याओं पर की जानी चाहिए, संख्याओं को उनके घटक अंकों में तोड़े बिना।)<br><br>(14, 364, 13)<br>(11, 242, 11)</p>",
+        "op_en": [
+            "(13, 338, 13)",
+            "(15, 450, 10)",
+            "(12, 288, 14)",
+            "(10, 180, 5)"
+        ],
+        "op_hi": [
+            "(13, 338, 13)",
+            "(15, 450, 10)",
+            "(12, 288, 14)",
+            "(10, 180, 5)"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस Number Set के सवाल को समझते हैं!</p><p>पहले सेट <b>(14, 364, 13)</b> पर ध्यान दें:<br>यदि हम पहली और तीसरी संख्या को गुणा करें: 14 × 13 = 182<br>अब 182 का दोगुना करें: 182 × 2 = <b>364</b> (जो कि बीच की संख्या है)।</p><p>दूसरे सेट <b>(11, 242, 11)</b> को चेक करें:<br>11 × 11 = 121<br>121 × 2 = <b>242</b>। नियम काम कर रहा है!</p><p><b>लॉजिक: (पहली संख्या × तीसरी संख्या) × 2 = दूसरी संख्या</b></p><p>विकल्पों में देखते हैं:</p><ul><li><b>Option 1 (13, 338, 13):</b> 13 × 13 = 169; 169 × 2 = <b>338</b>। यह बिल्कुल <b>सही</b> है!</li><li><b>Option 2 (15, 450, 10):</b> 15 × 10 × 2 = 300 (450 नहीं)।</li><li><b>Option 3 (12, 288, 14):</b> 12 × 14 × 2 = 336 (288 नहीं)।</li><li><b>Option 4 (10, 180, 5):</b> 10 × 5 × 2 = 100 (180 नहीं)।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Analogy",
+        "level": "Moderate",
+        "q_en": "<p>Select the set in which the numbers are related in the same way as are the numbers of the following sets.<br>(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)<br><br>(1, 21, 18)<br>(14, 17, 1)</p>",
+        "q_hi": "<p>उस सेट का चयन करें जिसमें संख्याएँ उसी प्रकार संबंधित हैं जैसे कि निम्नलिखित सेटों की संख्याएँ हैं।<br>(नोट: संक्रियाएँ पूर्ण संख्याओं पर की जानी चाहिए, संख्याओं को उनके घटक अंकों में तोड़े बिना।)<br><br>(1, 21, 18)<br>(14, 17, 1)</p>",
+        "op_en": [
+            "(22, 27, 3)",
+            "(17, 2, 1)",
+            "(5, 5, 18)",
+            "(25, 7, 20)"
+        ],
+        "op_hi": [
+            "(22, 27, 3)",
+            "(17, 2, 1)",
+            "(5, 5, 18)",
+            "(25, 7, 20)"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, यह Number Set का एक बहुत ही शानदार सवाल है। आइए इसका तर्क खोजते हैं।</p><p>सेट <b>(1, 21, 18)</b> को लें:<br>पहली और तीसरी संख्या को जोड़ें: 1 + 18 = 19<br>इसमें 2 और जोड़ें: 19 + 2 = <b>21</b> (बीच की संख्या मिल गई!)</p><p>दूसरे सेट <b>(14, 17, 1)</b> में चेक करते हैं:<br>पहली और तीसरी संख्या को जोड़ें: 14 + 1 = 15<br>इसमें 2 और जोड़ें: 15 + 2 = <b>17</b>। यह लॉजिक एकदम सही है।</p><p><b>लॉजिक: पहली संख्या + तीसरी संख्या + 2 = दूसरी संख्या</b></p><p>विकल्पों की जाँच करते हैं:</p><ul><li><b>Option 1 (22, 27, 3):</b> 22 + 3 + 2 = <b>27</b>। यह <b>सही</b> है!</li><li><b>Option 2 (17, 2, 1):</b> 17 + 1 + 2 = 20 (2 नहीं)।</li><li><b>Option 3 (5, 5, 18):</b> 5 + 18 + 2 = 25 (5 नहीं)।</li><li><b>Option 4 (25, 7, 20):</b> 25 + 20 + 2 = 47 (7 नहीं)।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Alphabet/Number Test",
+        "level": "Easy",
+        "q_en": "<p>Each of the digits in the number 8934216 is arranged in ascending order from left to right. What will be the sum of the digits which are second from the left and second from the right in the new number thus formed?</p>",
+        "q_hi": "<p>संख्या 8934216 के प्रत्येक अंक को बाएं से दाएं आरोही (बढ़ते) क्रम में व्यवस्थित किया जाता है। इस प्रकार बनी नई संख्या में बाएं से दूसरे और दाएं से दूसरे अंकों का योग क्या होगा?</p>",
+        "op_en": [
+            "10",
+            "12",
+            "9",
+            "7"
+        ],
+        "op_hi": [
+            "10",
+            "12",
+            "9",
+            "7"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सीधे और आसान सवाल को हल करते हैं!</p><p>मूल संख्या: <b>8934216</b><br>इसे आरोही (Ascending) या बढ़ते क्रम में लिखते हैं:<br>नई संख्या बनेगी: <b>1234689</b></p><p>अब प्रश्न के अनुसार:<br>बाएं से दूसरा अंक (Second from left) = <b>2</b><br>दाएं से दूसरा अंक (Second from right) = <b>8</b></p><p>दोनों का योग (Sum) = 2 + 8 = <b>10</b></p><ul><li><b>Option 1 (10):</b> यह <b>सही</b> उत्तर है!</li><li><b>Option 2 (12):</b> गलत है।</li><li><b>Option 3 (9):</b> गलत है।</li><li><b>Option 4 (7):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Alphanumeric Series",
+        "level": "Moderate",
+        "q_en": "<p>Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?</p><p>JJP 9      MHM −4      PFJ −17      SDG −30      ?</p>",
+        "q_hi": "<p>दी गई शृंखला में प्रश्नवाचक चिह्न (?) के स्थान पर कौन सा अक्षर-संख्या समूह आएगा ताकि यह तार्किक रूप से पूर्ण हो सके?</p><p>JJP 9      MHM −4      PFJ −17      SDG −30      ?</p>",
+        "op_en": [
+            "VHG −44",
+            "VVY −48",
+            "VBJ −46",
+            "VBD −43"
+        ],
+        "op_hi": [
+            "VHG −44",
+            "VVY −48",
+            "VBJ −46",
+            "VBD −43"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस Alphanumeric Series को हिस्से-दर-हिस्से (part by part) सुलझाते हैं।</p><p><b>पहला अक्षर (First Letter):</b><br>J(10) → M(13) → P(16) → S(19)<br>हर बार <b>+3</b> हो रहा है। तो अगला अक्षर: S(19) + 3 = V(22) होगा।</p><p><b>दूसरा अक्षर (Second Letter):</b><br>J(10) → H(8) → F(6) → D(4)<br>हर बार <b>-2</b> हो रहा है। तो अगला अक्षर: D(4) - 2 = B(2) होगा।</p><p><b>तीसरा अक्षर (Third Letter):</b><br>P(16) → M(13) → J(10) → G(7)<br>हर बार <b>-3</b> हो रहा है। तो अगला अक्षर: G(7) - 3 = D(4) होगा।<br>इस तरह अक्षर बन गए: <b>VBD</b></p><p><b>संख्या (Number):</b><br>9 → -4 → -17 → -30<br>9 - 13 = -4<br>-4 - 13 = -17<br>-17 - 13 = -30<br>हर बार <b>-13</b> किया जा रहा है। तो अगली संख्या: -30 - 13 = <b>-43</b></p><p>अतः पूरा समूह बनेगा: <b>VBD -43</b></p><ul><li><b>Option 1 (VHG −44):</b> गलत है।</li><li><b>Option 2 (VVY −48):</b> गलत है।</li><li><b>Option 3 (VBJ −46):</b> गलत है।</li><li><b>Option 4 (VBD −43):</b> बिल्कुल <b>सही</b> जवाब!</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Mathematical Operations",
+        "level": "Moderate",
+        "q_en": "<p>If ‘A’ stands for ‘÷’ , ‘B’ stands for ‘×’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘-‘ , what will be come in place of question mark ‘?’ in the following equation?<br>24 D 27 B 20 A 15 C 46 = ?</p>",
+        "q_hi": "<p>यदि 'A' का अर्थ '÷' है, 'B' का अर्थ '×' है, 'C' का अर्थ '+' है और 'D' का अर्थ '-' है, तो निम्नलिखित समीकरण में प्रश्नवाचक चिह्न '?' के स्थान पर क्या आएगा?<br>24 D 27 B 20 A 15 C 46 = ?</p>",
+        "op_en": [
+            "35",
+            "34",
+            "36",
+            "32"
+        ],
+        "op_hi": [
+            "35",
+            "34",
+            "36",
+            "32"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, BODMAS का यह एक और बेहतरीन सवाल है! आइए इसे हल करते हैं।</p><p>दिए गए मानों के आधार पर समीकरण को बदलते हैं:<br>A = ÷, B = ×, C = +, D = -<br>समीकरण: 24 - 27 × 20 ÷ 15 + 46 = ?</p><p>सबसे पहले <b>भाग (Divide)</b> और <b>गुणा (Multiply)</b> करेंगे:<br>27 × (20 / 15)<br>= 27 × (4 / 3) <i>(चूँकि 20 और 15 को 5 से काटा गया है)</i><br>= 9 × 4 = <b>36</b></p><p>अब समीकरण कुछ ऐसा दिखेगा:<br>24 - 36 + 46 = ?</p><p>अब <b>जोड़ और घटाव</b> करेंगे:<br>(24 + 46) - 36<br>= 70 - 36 = <b>34</b></p><ul><li><b>Option 1 (35):</b> गलत है।</li><li><b>Option 2 (34):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 3 (36):</b> गलत है।</li><li><b>Option 4 (32):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Alphabet/Number Test",
+        "level": "Easy",
+        "q_en": "<p>Each of the digits in the number 8934521 is arranged in ascending order from left to right. What will be the sum of the digits which are second from the left and second from the right in the new number thus formed?</p>",
+        "q_hi": "<p>संख्या 8934521 के प्रत्येक अंक को बाएं से दाएं आरोही क्रम में व्यवस्थित किया जाता है। इस प्रकार बनी नई संख्या में बाएं से दूसरे और दाएं से दूसरे अंकों का योग क्या होगा?</p>",
+        "op_en": [
+            "10",
+            "11",
+            "8",
+            "9"
+        ],
+        "op_hi": [
+            "10",
+            "11",
+            "8",
+            "9"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, यह सवाल भी पिछले एक सवाल के जैसा ही है।</p><p>मूल संख्या: <b>8934521</b><br>अंकों को आरोही (बढ़ते) क्रम में व्यवस्थित करते हैं:<br>नई संख्या: <b>1234589</b></p><p>बाएं से दूसरा अंक (Second from left) = <b>2</b><br>दाएं से दूसरा अंक (Second from right) = <b>8</b></p><p>दोनों का योग (Sum) = 2 + 8 = <b>10</b></p><ul><li><b>Option 1 (10):</b> यह <b>सही</b> जवाब है!</li><li><b>Option 2 (11):</b> गलत है।</li><li><b>Option 3 (8):</b> गलत है।</li><li><b>Option 4 (9):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Alphanumeric Series",
+        "level": "Moderate",
+        "q_en": "<p>Which of the following letter-number clusters will replace the question mark (?) in the given series to make it logically complete?</p><p>ZEZ 5      UJV -10      POR 20      KTN -40    ?</p>",
+        "q_hi": "<p>दी गई शृंखला में प्रश्नवाचक चिह्न (?) के स्थान पर कौन सा अक्षर-संख्या समूह आएगा ताकि यह तार्किक रूप से पूर्ण हो सके?</p><p>ZEZ 5      UJV -10      POR 20      KTN -40    ?</p>",
+        "op_en": [
+            "JKO 43",
+            "MJU 67",
+            "FYJ 80",
+            "NMK 44"
+        ],
+        "op_hi": [
+            "JKO 43",
+            "MJU 67",
+            "FYJ 80",
+            "NMK 44"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सीरीज को भी पार्ट-बाई-पार्ट सुलझाते हैं!</p><p><b>पहला अक्षर (First Letter):</b><br>Z(26) → U(21) → P(16) → K(11)<br>हर बार <b>-5</b> हो रहा है। तो अगला अक्षर: K(11) - 5 = F(6) होगा।</p><p><b>दूसरा अक्षर (Second Letter):</b><br>E(5) → J(10) → O(15) → T(20)<br>हर बार <b>+5</b> हो रहा है। तो अगला अक्षर: T(20) + 5 = Y(25) होगा।</p><p><b>तीसरा अक्षर (Third Letter):</b><br>Z(26) → V(22) → R(18) → N(14)<br>हर बार <b>-4</b> हो रहा है। तो अगला अक्षर: N(14) - 4 = J(10) होगा।<br>इस तरह अक्षर बन गए: <b>FYJ</b></p><p><b>संख्या (Number):</b><br>5 → -10 → 20 → -40<br>यहाँ हर संख्या को <b>-2</b> से गुणा किया जा रहा है।<br>5 × (-2) = -10<br>-10 × (-2) = 20<br>20 × (-2) = -40<br>अगली संख्या: -40 × (-2) = <b>80</b></p><p>अतः पूरा समूह बनेगा: <b>FYJ 80</b></p><ul><li><b>Option 1 (JKO 43):</b> गलत है।</li><li><b>Option 2 (MJU 67):</b> गलत है।</li><li><b>Option 3 (FYJ 80):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 4 (NMK 44):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Mirror Image",
+        "level": "Easy",
+        "q_en": "<p>Select the correct mirror image of the given combination when the mirror is placed at 'PQ' as shown below.</p><p><img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJEAAACaCAYAAACpH6rgAAAE5klEQVR42u2di22kMBQAXQIluARKoAQ6WDpgS3AHlEAJKYESKIESKGFvrbOVF4uP7YVkSWYk6+4CGPOY849ITykAAAAAAAA4lPZZzEK5PUv9LAUhgj2mZ3lslPlZOmSCGIk61/v4Ynuj3klkjw+ECvYkqlaOa3FOQ7ggRyI/b6I3gpckqtw5E+ECJAKGM7j+xLolXLAl0d2JJEsrjts/2SuCTYm2yuh6JIBNiex8pxfFbj6anbkSQPTEGgCJAIkAiQCJAJAIAAAAIBr/iQMAiQCJAIkAiQCQCJAIkAiQCIkAiQCJAIkAiZAIkAiQCJAIAIkAiQCJAIkAkAiQCJAIkAgAiQCJAIkAiQCQCJAIkAiQCACJAIkAiQCJAJAIkAiQCJAIAIngPSSy2YZNRKkj66kT76/FPXTCdfY+Nkepz1dqr68OfF4T2a61+uzPbyo/e/NavTf37MU7SRSTifjhXlRMPXPiA/biHlWkPFtt/ti5f+zzPiLbFVNfl/HS9+qdM+s9VaLOWb5WqoSHNgm90CNBoiqQpXU/q909Z/WZfntLwvDZvMjTyrMXGfFrXb2zaO8R78UE9Q7vJFH1YgOkRGPkNSZRomFHUi3a0SS0/fbCC9mLn86McUq9zW+TaE6oL+WaQpy7RePq7d5EIuXaktJDx9bbHtwbvY1EXeSDNeK8IUGiM5agZ0tkRGyOrLcSw/CvkqgUPUsRMTQ1kRLJe5iLSeSf74ZEcfXoiO5bBw8fK1EjHnRQxyW+PUsi7SbUOXVfcjj7EHsuYTGJElU785c+2DYYEkS+i57O38Ov1IoflGgUQ/Pg/u3bd39hiR8zsW6vsE80JEq0J0bKuWvzo1ZcJ4UyGS/sCIn24ldn1nt3cZGlFcenA/eKXpZoqbG+lBkSrXW1zcK+SapEoVC3QKgxMbBnDGdFMLSnLsVj5BxV2i7/peZEPohLE2z/suuDJJKUoh39D0u0tDqbMuodgqlFp+I/8VxeIhk8szKhPloiuWIZ30gi+YLKb34vl5dIq6/f0/qVbj1GIv9pY29uoVXcpuR3SzQiUZ5E4X7QvHNOzHJ2b0gwGUKcLZHeeHYkipCoUvu/DTBEvgi5HaFXlv85k9gzJaqC+Y1ConSJVLCvU2VKJFd2frganZRDcA+T2PYjJJoWivzPMyWupJAocXWSMrEuF/aH5JK3yWj7WftEk6uzUcdvNr6VRFelcEL5vaxCARIBEgESASARIBEgESARABIBEgESARIBIBEgESARIBEAEgESARIBEgEgESARIBEgEQASARIBEgESASARIBEgESARABIBEgESARIBIBEgESARIBEAEgEAAAAAHIdW/xP4yMzjFWGBWHnWsjX5DEnIBKvIhMuT64FsWlSbskumS/dZygG+UKivmSD1ynlGiKQJGyzJEZOtu1PpqdjhD+DTnMbMd2SvVRI6UOozqXNKunefhr4jfKDUZ67bPuOaD8IHcj6U0qtUKj/JMvxC/ETZZEg0Ej6wtBk9Uc1wBktCDBni9YQPLFp9biAWC8eMk0biP43cCB+EUizNi6bgmNwSKAgdeBrRG5ULvZEXqRF/Z48IVldps+t1ioV5k/yaTy8EmyJ5mSY31M3BzzWhgi0qtfw7RVaoUaXvKcEfpnA9TimGLjk/qgkR5GLl6emNAAAAANb5BwpLlDK2dY/AAAAAAElFTkSuQmCC\" style=\"height: auto; max-width: 100%;\"></p>",
+        "q_hi": "<p>दी गई व्यवस्था की सही दर्पण छवि (mirror image) का चयन करें जब दर्पण को 'PQ' पर रखा जाता है जैसा कि नीचे दिखाया गया है।</p><p><img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJEAAACaCAYAAACpH6rgAAAE5klEQVR42u2di22kMBQAXQIluARKoAQ6WDpgS3AHlEAJKYESKIESKGFvrbOVF4uP7YVkSWYk6+4CGPOY849ITykAAAAAAAA4lPZZzEK5PUv9LAUhgj2mZ3lslPlZOmSCGIk61/v4Ynuj3klkjw+ECvYkqlaOa3FOQ7ggRyI/b6I3gpckqtw5E+ECJAKGM7j+xLolXLAl0d2JJEsrjts/2SuCTYm2yuh6JIBNiex8pxfFbj6anbkSQPTEGgCJAIkAiQCJAJAIAAAAIBr/iQMAiQCJAIkAiQCQCJAIkAiQCIkAiQCJAIkAiZAIkAiQCJAIAIkAiQCJAIkAkAiQCJAIkAgAiQCJAIkAiQCQCJAIkAiQCACJAIkAiQCJAJAIkAiQCJAIAIngPSSy2YZNRKkj66kT76/FPXTCdfY+Nkepz1dqr68OfF4T2a61+uzPbyo/e/NavTf37MU7SRSTifjhXlRMPXPiA/biHlWkPFtt/ti5f+zzPiLbFVNfl/HS9+qdM+s9VaLOWb5WqoSHNgm90CNBoiqQpXU/q909Z/WZfntLwvDZvMjTyrMXGfFrXb2zaO8R78UE9Q7vJFH1YgOkRGPkNSZRomFHUi3a0SS0/fbCC9mLn86McUq9zW+TaE6oL+WaQpy7RePq7d5EIuXaktJDx9bbHtwbvY1EXeSDNeK8IUGiM5agZ0tkRGyOrLcSw/CvkqgUPUsRMTQ1kRLJe5iLSeSf74ZEcfXoiO5bBw8fK1EjHnRQxyW+PUsi7SbUOXVfcjj7EHsuYTGJElU785c+2DYYEkS+i57O38Ov1IoflGgUQ/Pg/u3bd39hiR8zsW6vsE80JEq0J0bKuWvzo1ZcJ4UyGS/sCIn24ldn1nt3cZGlFcenA/eKXpZoqbG+lBkSrXW1zcK+SapEoVC3QKgxMbBnDGdFMLSnLsVj5BxV2i7/peZEPohLE2z/suuDJJKUoh39D0u0tDqbMuodgqlFp+I/8VxeIhk8szKhPloiuWIZ30gi+YLKb34vl5dIq6/f0/qVbj1GIv9pY29uoVXcpuR3SzQiUZ5E4X7QvHNOzHJ2b0gwGUKcLZHeeHYkipCoUvu/DTBEvgi5HaFXlv85k9gzJaqC+Y1ConSJVLCvU2VKJFd2frganZRDcA+T2PYjJJoWivzPMyWupJAocXWSMrEuF/aH5JK3yWj7WftEk6uzUcdvNr6VRFelcEL5vaxCARIBEgESASARIBEgESARABIBEgESARIBIBEgESARIBEAEgESARIBEgEgESARIBEgEQASARIBEgESASARIBEgESARABIBEgESARIBIBEgESARIBEAEgEAAAAAHIdW/xP4yMzjFWGBWHnWsjX5DEnIBKvIhMuT64FsWlSbskumS/dZygG+UKivmSD1ynlGiKQJGyzJEZOtu1PpqdjhD+DTnMbMd2SvVRI6UOozqXNKunefhr4jfKDUZ67bPuOaD8IHcj6U0qtUKj/JMvxC/ETZZEg0Ej6wtBk9Uc1wBktCDBni9YQPLFp9biAWC8eMk0biP43cCB+EUizNi6bgmNwSKAgdeBrRG5ULvZEXqRF/Z48IVldps+t1ioV5k/yaTy8EmyJ5mSY31M3BzzWhgi0qtfw7RVaoUaXvKcEfpnA9TimGLjk/qgkR5GLl6emNAAAAANb5BwpLlDK2dY/AAAAAAElFTkSuQmCC\" style=\"height: auto; max-width: 100%;\"></p>",
+        "op_en": [
+            "<p><img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAAdCAYAAAB/lJiIAAACh0lEQVR42u1Yi42DMAxlhIyQERghI7BBswGMkA0YgREYgREYgREYodeTHMlnEeKEwHGcn2S1oo2J/Rx/UlUCgUAgEAgEgn8F9REDUn9Ei0t+YvnIGxxUQs+Wgzv4bQqsnRL2oNH/qXw/txl7f0X2x7F7SxbQ6SAQL+XlCmKx8eYAsRbpWWHdCJ8r+q3/BWJX+I6FkqyfRKwlBo6ZxCpE3hDJDO/Ek1uC2NDev5/PGfpvT6wnrQNi1o20xCG2ZTqny3DimcT68uEDTj2BWI3SUAUp8g01J5XYBtY1kX3U5J13ILZCp9Y8gdgBpU6flnw9ym2eYjA3JBaXEf0EYreebZFYiliN3tnfiFgXCGiO3hEOhpce9Bmugg7NhVTqDGJtoFnaqpVHiNXwrhHVsTlxvDiDWAV+G9C+mgy9ezLtZQCuglRip4AxOC2pTGI9mVvz7JAxM541x2L/NZl66YHzvcYSKzkLevkQkC6R2FgD40gTlUKsJc5c4bTaA7dPJYidYb0XPN+ecUGh0H/sVTV2iMySNTJaZV5QDIWarTNrrEK+mE+o3bsjYGliDXL+3gnCqZpL7BoYl+5KLLXVFta7OwGUJtaRESe2qYlJrCan/C8R6zIC8nbErgn61oQ1CmWC2M3TcrNxpz+J2EtTccrlgCPdo0nICrE51t6EWJ0Y7Dl6bcxZrx0xCcRynaoSiTVkhGjRGNCTDnXvapLahhucLds1M9jwmpbMsFNmwFC9jquXM4dxaubCbJpCjQU3ok1kz7E5lmsvN+AWpu/UgQwYkn5PbwtREJPYgO312EQDavQOnXDS/Sn1s7Zj3pBx7XXMfYX0teCz3Nk6pPd1UK9AIBAIBAKBwOML79ESFbHAUk8AAAAASUVORK5CYII=\" style=\"height: auto; max-width: 100%;\"></p>",
+            "<p><img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAAdCAYAAAB/lJiIAAAChklEQVR42u2Y7ZGEIAyGrwRKoARLoAQ70A7cEuzAEizBEijBEijBErzdmXiTyYCGKPt1eWfyY1c+Ag+EwM+PSqVSqVQqlUqVKXM3B1bB73+lx8DXuwXBxLV381B3TVgQ+OShbiOo+/BpTvjiATJ3Tnzi+zbePvLNnhj3FVxONWAjMEPEng22R/4s0M4IoBf0rT0B1pE+vgqsR3VcAcckYFs04bfEhE/IJysEO5IF7b4FrEWr1RZyTALW74THWBjtBGDx2NuDMh8HtoLyc0HHJGC3UGsPytUAvxaA3WCOkGPE+vx4sOubgZ0TofHMnPjEbrfkTO9fCdaBAwOsuM28wJHACHvPBjui/qoCYOvIfwaFZvNssHYn/ZdeS3CiMkAf5sVgDRmnh/rmIrBTIqP25MzOAVuhuza12147hlw7utwGDs4qf/GCOXvdMRBFlsj9tcuATMHuwcopmxpn9vx1jPT+zAPFDU3iDI5uNr/ogWLzrYNdtpB7500AdkRJ017i5jLB9uRYxDbtteMzUvsgnPwpsWjcC8HGfPEnHijCQcbdk2Op+BkbGJmiBEBz8OT2bmApgJABtmWMFSdR1SeDHd4wK+Zq27WGCdYzd7lHu7Y42FKhGIeedwE7QF9HAJYMsEvGGCR1xGDbQsmTK5iUScFyxtozwir2fWU+U9JHkqfcYz1aSSM42SCTho6JtNsJ2jWkzmYBZaH0W82Y2AU9GzqUIa/M1ykK1mZGMu453uzY4fwZKLRcfN80qHNpu45RP6c9QwDG6tYZu2XvipPqnxuKxwvG+9dpDauhj1h34s7YQP3cdm2izp51TDD4jjgwgcb8spnzUTP9rC8cr0qlUqlUKpWK6heCFhG8J5UZswAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\"></p>",
+            "<p><img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAAdCAYAAAB/lJiIAAACg0lEQVR42u2Z4dGzIAyAHYERGMERGMEN6gY6ghs4giM4AiM4giM4Ql9/hLt8HEgC1Wq/5C7XuxZjyEMCoVUlIiIiIiIiIiJSLHrXZtfXrkNAu0K7XYZdHXnmSCl+1jB2Ah13Nbsqxpzc+2pmPFqin03pfBVM7J3QlTkBBUErsWsIz3PspXxa4Z0pwX5Z5iKnxnMqna9FgyZYBS+kQyZY326XYVd7zzhdkF3/t+bA3oLe6bLUgG/YX8MA+2ZkessAayJzJ8XPvWiDIB5NggPWnGTXXzQvZgl074v5NDCCjsEORB/WggrIip8LUJdrIBGg8cN2S8CO8K4+MY6ShXjhuk/OYj8d7EooPSVghxuBpZ4LXOA1wXeLfEmV7wnF5LFgW8LB4o5gB2IGYrANYa7a278fW4or74Cjbg7WeKfQlgEWZ3mdWOgTgnwqWHygUB8GqyAD8J5ikS5fBKth7jPyz/nSMoJqiVvPisBzwPao1/bVpuysaMAApcUg7TMBNF4L8an+uARsrI+1AFQzs8Uiu66Eq0Ac8FgO2KL46RMANF4PWwcmfHUpVqhKvCFbOTCPwB5ta7NX3jlgay/JshLOQMaOXsrPGQC2G56KR0IfWwI29F0I4iV77BkG9EFZ+iZYSgdQAhYvaOO1ONMvgHXjlxMdKwGburRv0FmDC9a/mFkDPfFjwSq0j+kbgXXP9MRxXQZY1/psaA+0kYr2OLA4OMtB6bsabIsWXB/ZQibmNhK6lJi9Q2f7S2B19e+Ft3se61Zd3+7gvyc3sDPD55Z5QRH7LTa3R4PFFxQ2APlbfazL3Fh7Z4knZpO4RrSJynALsL8q2usTlYREREREREREROQ/kj8neRIVRd+aqQAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\"></p>",
+            "<p><img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAAdCAYAAAB2fzjyAAACfklEQVR42u2Z4c2DIBCGHYERHMERGMENdAMdgQ06giN0BEZwBEdwhH5tAsmbC0UOwdR89yb3p7XHHc8Bh20akUgkEolEon+o9m3924a3mYBNTH8fX4+3Lc4+PnRCDIZpEyO3KdMHxtUx52FMHKM/m69yE/46sI0BcIv4eboxQ9IJcXDiUq6IzuaGcVnm4kgdYzmbr4WH/MoZwAwDpCbAJveZr7bdfbdGEh8CtkJ89Ls+Eg/NbcrMjRaYYqxGTrEMEYvG6gfa3STGkkgB6SfORED51ToyKtv7HRi/0QVzoyBNYgxbxo7W5MTqJ2jKdUC2MT9xR1W6ue28JkhfwY8CuWFRpOQY+k1VkL5idEGQrwqN2BmQpiBIC7EcNW4LjH8rkOjP/ADIMaE5yQHZJ/jFJkc3N9ta6eFuE6q2JsiGNEmqEEgF22V3MA8LQK0KcoQvVQGQH82QqD8jfAerLgapSLe8wfZoATQHZMq2vQFoDsgZ7t3U7JGfDR4wbuvQYHNGRSkHzpJub3djqItA9oEYztwjbaCxU4Ex8VkOyFOxtoWSjUEdyBgrE2YOyJ7cIbvAmDoTZOxYepLrFQdkRxZR1oLSbrU8yJJ+FtrjfaAbTG5NkHulrjX2WQjaJWfkJQ6++FsrgmwjW18pkFgsmlw5ljuD7OGMTZ3kWiBTi+UsSPrSwe827Z1BTonPmYb/8pkLEl9OtBVB+qvIDmeY/VK4twHZQkU+v0zgDBM8Vj4jLaxKXQkkNjff8rrlGTmSq8YKdyC8W3Lf/OSAxMLCzhttLwBSH3T2t212ush1ZmWuxFIvBGwT/4/0DEiMb/5lkLlS5F6kGpFIJBKJRCKRKFV/uM8SRRttAk0AAAAASUVORK5CYII=\" style=\"height: auto; max-width: 100%;\"></p>"
+        ],
+        "op_hi": [
+            "<p><img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAAdCAYAAAB/lJiIAAACh0lEQVR42u1Yi42DMAxlhIyQERghI7BBswGMkA0YgREYgREYgREYodeTHMlnEeKEwHGcn2S1oo2J/Rx/UlUCgUAgEAgEgn8F9REDUn9Ei0t+YvnIGxxUQs+Wgzv4bQqsnRL2oNH/qXw/txl7f0X2x7F7SxbQ6SAQL+XlCmKx8eYAsRbpWWHdCJ8r+q3/BWJX+I6FkqyfRKwlBo6ZxCpE3hDJDO/Ek1uC2NDev5/PGfpvT6wnrQNi1o20xCG2ZTqny3DimcT68uEDTj2BWI3SUAUp8g01J5XYBtY1kX3U5J13ILZCp9Y8gdgBpU6flnw9ym2eYjA3JBaXEf0EYreebZFYiliN3tnfiFgXCGiO3hEOhpce9Bmugg7NhVTqDGJtoFnaqpVHiNXwrhHVsTlxvDiDWAV+G9C+mgy9ezLtZQCuglRip4AxOC2pTGI9mVvz7JAxM541x2L/NZl66YHzvcYSKzkLevkQkC6R2FgD40gTlUKsJc5c4bTaA7dPJYidYb0XPN+ecUGh0H/sVTV2iMySNTJaZV5QDIWarTNrrEK+mE+o3bsjYGliDXL+3gnCqZpL7BoYl+5KLLXVFta7OwGUJtaRESe2qYlJrCan/C8R6zIC8nbErgn61oQ1CmWC2M3TcrNxpz+J2EtTccrlgCPdo0nICrE51t6EWJ0Y7Dl6bcxZrx0xCcRynaoSiTVkhGjRGNCTDnXvapLahhucLds1M9jwmpbMsFNmwFC9jquXM4dxaubCbJpCjQU3ok1kz7E5lmsvN+AWpu/UgQwYkn5PbwtREJPYgO312EQDavQOnXDS/Sn1s7Zj3pBx7XXMfYX0teCz3Nk6pPd1UK9AIBAIBAKBwOML79ESFbHAUk8AAAAASUVORK5CYII=\" style=\"height: auto; max-width: 100%;\"></p>",
+            "<p><img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAAdCAYAAAB/lJiIAAAChklEQVR42u2Y7ZGEIAyGrwRKoARLoAQ70A7cEuzAEizBEijBEijBErzdmXiTyYCGKPt1eWfyY1c+Ag+EwM+PSqVSqVQqlUqVKXM3B1bB73+lx8DXuwXBxLV381B3TVgQ+OShbiOo+/BpTvjiATJ3Tnzi+zbePvLNnhj3FVxONWAjMEPEng22R/4s0M4IoBf0rT0B1pE+vgqsR3VcAcckYFs04bfEhE/IJysEO5IF7b4FrEWr1RZyTALW74THWBjtBGDx2NuDMh8HtoLyc0HHJGC3UGsPytUAvxaA3WCOkGPE+vx4sOubgZ0TofHMnPjEbrfkTO9fCdaBAwOsuM28wJHACHvPBjui/qoCYOvIfwaFZvNssHYn/ZdeS3CiMkAf5sVgDRmnh/rmIrBTIqP25MzOAVuhuza12147hlw7utwGDs4qf/GCOXvdMRBFlsj9tcuATMHuwcopmxpn9vx1jPT+zAPFDU3iDI5uNr/ogWLzrYNdtpB7500AdkRJ017i5jLB9uRYxDbtteMzUvsgnPwpsWjcC8HGfPEnHijCQcbdk2Op+BkbGJmiBEBz8OT2bmApgJABtmWMFSdR1SeDHd4wK+Zq27WGCdYzd7lHu7Y42FKhGIeedwE7QF9HAJYMsEvGGCR1xGDbQsmTK5iUScFyxtozwir2fWU+U9JHkqfcYz1aSSM42SCTho6JtNsJ2jWkzmYBZaH0W82Y2AU9GzqUIa/M1ykK1mZGMu453uzY4fwZKLRcfN80qHNpu45RP6c9QwDG6tYZu2XvipPqnxuKxwvG+9dpDauhj1h34s7YQP3cdm2izp51TDD4jjgwgcb8spnzUTP9rC8cr0qlUqlUKpWK6heCFhG8J5UZswAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\"></p>",
+            "<p><img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAAdCAYAAAB/lJiIAAACg0lEQVR42u2Z4dGzIAyAHYERGMERGMEN6gY6ghs4giM4AiM4giM4Ql9/hLt8HEgC1Wq/5C7XuxZjyEMCoVUlIiIiIiIiIiJSLHrXZtfXrkNAu0K7XYZdHXnmSCl+1jB2Ah13Nbsqxpzc+2pmPFqin03pfBVM7J3QlTkBBUErsWsIz3PspXxa4Z0pwX5Z5iKnxnMqna9FgyZYBS+kQyZY326XYVd7zzhdkF3/t+bA3oLe6bLUgG/YX8MA+2ZkessAayJzJ8XPvWiDIB5NggPWnGTXXzQvZgl074v5NDCCjsEORB/WggrIip8LUJdrIBGg8cN2S8CO8K4+MY6ShXjhuk/OYj8d7EooPSVghxuBpZ4LXOA1wXeLfEmV7wnF5LFgW8LB4o5gB2IGYrANYa7a278fW4or74Cjbg7WeKfQlgEWZ3mdWOgTgnwqWHygUB8GqyAD8J5ikS5fBKth7jPyz/nSMoJqiVvPisBzwPao1/bVpuysaMAApcUg7TMBNF4L8an+uARsrI+1AFQzs8Uiu66Eq0Ac8FgO2KL46RMANF4PWwcmfHUpVqhKvCFbOTCPwB5ta7NX3jlgay/JshLOQMaOXsrPGQC2G56KR0IfWwI29F0I4iV77BkG9EFZ+iZYSgdQAhYvaOO1ONMvgHXjlxMdKwGburRv0FmDC9a/mFkDPfFjwSq0j+kbgXXP9MRxXQZY1/psaA+0kYr2OLA4OMtB6bsabIsWXB/ZQibmNhK6lJi9Q2f7S2B19e+Ft3se61Zd3+7gvyc3sDPD55Z5QRH7LTa3R4PFFxQ2APlbfazL3Fh7Z4knZpO4RrSJynALsL8q2usTlYREREREREREROQ/kj8neRIVRd+aqQAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\"></p>",
+            "<p><img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAAdCAYAAAB2fzjyAAACfklEQVR42u2Z4c2DIBCGHYERHMERGMENdAMdgQ06giN0BEZwBEdwhH5tAsmbC0UOwdR89yb3p7XHHc8Bh20akUgkEolEon+o9m3924a3mYBNTH8fX4+3Lc4+PnRCDIZpEyO3KdMHxtUx52FMHKM/m69yE/46sI0BcIv4eboxQ9IJcXDiUq6IzuaGcVnm4kgdYzmbr4WH/MoZwAwDpCbAJveZr7bdfbdGEh8CtkJ89Ls+Eg/NbcrMjRaYYqxGTrEMEYvG6gfa3STGkkgB6SfORED51ToyKtv7HRi/0QVzoyBNYgxbxo7W5MTqJ2jKdUC2MT9xR1W6ue28JkhfwY8CuWFRpOQY+k1VkL5idEGQrwqN2BmQpiBIC7EcNW4LjH8rkOjP/ADIMaE5yQHZJ/jFJkc3N9ta6eFuE6q2JsiGNEmqEEgF22V3MA8LQK0KcoQvVQGQH82QqD8jfAerLgapSLe8wfZoATQHZMq2vQFoDsgZ7t3U7JGfDR4wbuvQYHNGRSkHzpJub3djqItA9oEYztwjbaCxU4Ex8VkOyFOxtoWSjUEdyBgrE2YOyJ7cIbvAmDoTZOxYepLrFQdkRxZR1oLSbrU8yJJ+FtrjfaAbTG5NkHulrjX2WQjaJWfkJQ6++FsrgmwjW18pkFgsmlw5ljuD7OGMTZ3kWiBTi+UsSPrSwe827Z1BTonPmYb/8pkLEl9OtBVB+qvIDmeY/VK4twHZQkU+v0zgDBM8Vj4jLaxKXQkkNjff8rrlGTmSq8YKdyC8W3Lf/OSAxMLCzhttLwBSH3T2t212ush1ZmWuxFIvBGwT/4/0DEiMb/5lkLlS5F6kGpFIJBKJRCKRKFV/uM8SRRttAk0AAAAASUVORK5CYII=\" style=\"height: auto; max-width: 100%;\"></p>"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस दर्पण छवि (Mirror Image) के सवाल को समझते हैं।</p><p>जब दर्पण को दाईं ओर (PQ) रखा जाता है, तो छवि में बायां हिस्सा दायां बन जाता है और दायां हिस्सा बायां (Lateral Inversion)।</p><p>ध्यान से देखने पर आपको पता चलेगा कि प्रत्येक अक्षर और अंक अपनी जगह पर उल्टा हो जाएगा। इस आधार पर <b>विकल्प 3</b> में दी गई छवि मूल छवि का बिल्कुल सटीक दर्पण प्रतिबिंब (Mirror image) है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Analogy",
+        "level": "Moderate",
+        "q_en": "<p>20 is related to 85 following a certain logic. Following the same logic, 15 is related to 65. To which of the following is 23 related, following the same logic? <br>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)</p>",
+        "q_hi": "<p>एक निश्चित तर्क के अनुसार 20 का संबंध 85 से है। उसी तर्क के अनुसार, 15 का संबंध 65 से है। उसी तर्क का अनुसरण करते हुए 23 का संबंध निम्नलिखित में से किससे है?<br>(नोट: संक्रियाएँ पूर्ण संख्याओं पर की जानी चाहिए, संख्याओं को उनके घटक अंकों में तोड़े बिना।)</p>",
+        "op_en": [
+            "107",
+            "92",
+            "97",
+            "103"
+        ],
+        "op_hi": [
+            "107",
+            "92",
+            "97",
+            "103"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस Number Analogy के प्रश्न को हल करते हैं।</p><p>पहला युग्म: 20 और 85<br>20 × 4 = 80; और 80 + 5 = <b>85</b></p><p>दूसरा युग्म: 15 और 65<br>15 × 4 = 60; और 60 + 5 = <b>65</b></p><p>नियम स्पष्ट है: <b>पहली संख्या × 4 + 5 = दूसरी संख्या</b></p><p>अब 23 के लिए:<br>23 × 4 = 92<br>92 + 5 = <b>97</b></p><ul><li><b>Option 1 (107):</b> गलत है।</li><li><b>Option 2 (92):</b> गलत है।</li><li><b>Option 3 (97):</b> यह <b>सही</b> उत्तर है!</li><li><b>Option 4 (103):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Classification",
+        "level": "Moderate",
+        "q_en": "<p>Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which is the one that does not belong to that group?<br>(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter cluster.)</p>",
+        "q_hi": "<p>अंग्रेजी वर्णमाला के क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। वह कौन सा है जो उस समूह से संबंधित नहीं है?<br>(नोट: भिन्न विकल्प का चयन स्वरों/व्यंजनों की संख्या या उनके स्थान के आधार पर नहीं किया गया है।)</p>",
+        "op_en": [
+            "EXRP",
+            "CVPN",
+            "PJCA",
+            "MFZX"
+        ],
+        "op_hi": [
+            "EXRP",
+            "CVPN",
+            "PJCA",
+            "MFZX"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस Odd One Out के सवाल का पैटर्न समझते हैं। अक्षरों की Place Value का अंतर निकालते हैं:</p><ul><li><b>EXRP:</b> E(5) और X(24)। 5 को 31 (26+5) मानें तो 31 - 7 = 24(X); X(24) - 6 = R(18); R(18) - 2 = P(16). [पैटर्न: -7, -6, -2]</li><li><b>CVPN:</b> C(3) यानी 29। 29 - 7 = 22(V); V(22) - 6 = P(16); P(16) - 2 = N(14). [पैटर्न: -7, -6, -2]</li><li><b>PJCA:</b> P(16) - 6 = J(10); J(10) - 7 = C(3); C(3) - 2 = A(1). [पैटर्न: <b>-6, -7</b>, -2]</li><li><b>MFZX:</b> M(13) और F(6)। 13 - 7 = 6(F); F(6) को 32 मानें तो 32 - 6 = 26(Z); Z(26) - 2 = X(24). [पैटर्न: -7, -6, -2]</li></ul><p>स्पष्ट है कि PJCA का पैटर्न बाकी तीनों (-7, -6, -2) से अलग है।</p><ul><li><b>Option 1 (EXRP):</b> समान पैटर्न।</li><li><b>Option 2 (CVPN):</b> समान पैटर्न।</li><li><b>Option 3 (PJCA):</b> यह समूह से अलग है, अतः <b>सही</b> उत्तर है!</li><li><b>Option 4 (MFZX):</b> समान पैटर्न।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Series",
+        "level": "Moderate",
+        "q_en": "<p>What should come in place of  ? in the given series?<br>5      -7      -21      -37     -55       ?</p>",
+        "q_hi": "<p>दी गई शृंखला में ? के स्थान पर क्या आना चाहिए?<br>5      -7      -21      -37     -55       ?</p>",
+        "op_en": [
+            "-76",
+            "-73",
+            "-75",
+            "-74"
+        ],
+        "op_hi": [
+            "-76",
+            "-73",
+            "-75",
+            "-74"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस Number Series को ध्यान से हल करते हैं। संख्याओं के बीच का अंतर देखते हैं:</p><p>-7 - 5 = -12<br>-21 - (-7) = -14<br>-37 - (-21) = -16<br>-55 - (-37) = -18</p><p>यहाँ अंतर क्रमशः -12, -14, -16, -18 है। अंतर हर बार -2 से बढ़ रहा है।</p><p>तो अगला अंतर -18 - 2 = <b>-20</b> होगा।</p><p>अब इसे अंतिम संख्या में जोड़ें:<br>-55 + (-20) = <b>-75</b></p><ul><li><b>Option 1 (-76):</b> गलत है।</li><li><b>Option 2 (-73):</b> गलत है।</li><li><b>Option 3 (-75):</b> यह बिल्कुल <b>सही</b> जवाब है!</li><li><b>Option 4 (-74):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Classification",
+        "level": "Easy",
+        "q_en": "<p>Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which is the one that does not belong to that group?<br>(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter cluster.)</p>",
+        "q_hi": "<p>अंग्रेजी वर्णमाला के क्रम के आधार पर, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। वह कौन सा है जो उस समूह से संबंधित नहीं है?<br>(नोट: भिन्न विकल्प का चयन स्वरों/व्यंजनों की संख्या या उनके स्थान के आधार पर नहीं किया गया है।)</p>",
+        "op_en": [
+            "DF–GI",
+            "LN–OQ",
+            "MO–PR",
+            "HJ–KN"
+        ],
+        "op_hi": [
+            "DF–GI",
+            "LN–OQ",
+            "MO–PR",
+            "HJ–KN"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, इस Odd One Out के सवाल को जोड़ों के बीच के अंतर से समझते हैं।</p><ul><li><b>DF–GI:</b> D(4) + 3 = G(7); F(6) + 3 = I(9). [दोनों में <b>+3</b>]</li><li><b>LN–OQ:</b> L(12) + 3 = O(15); N(14) + 3 = Q(17). [दोनों में <b>+3</b>]</li><li><b>MO–PR:</b> M(13) + 3 = P(16); O(15) + 3 = R(18). [दोनों में <b>+3</b>]</li><li><b>HJ–KN:</b> H(8) + 3 = K(11); J(10) <b>+ 4</b> = N(14). [यहाँ <b>+3, +4</b> हो रहा है]</li></ul><p>स्पष्ट है कि HJ–KN का पैटर्न बाकी सबसे अलग है।</p><ul><li><b>Option 1 (DF–GI):</b> समान है।</li><li><b>Option 2 (LN–OQ):</b> समान है।</li><li><b>Option 3 (MO–PR):</b> समान है।</li><li><b>Option 4 (HJ–KN):</b> यह समूह से अलग (Odd) है, इसलिए यही <b>सही</b> उत्तर है!</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Mathematical Operations",
+        "level": "Moderate",
+        "q_en": "<p>If ‘A’ stands for ‘<b>÷</b>’, ‘B’ stands for ‘x’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘-’, what will come in place of the question mark (?) in the following equation?</p><p>9   B   3   D   14   A   2   C   1 = ?  D  2</p>",
+        "q_hi": "<p>यदि ‘A’ का अर्थ ‘<b>÷</b>’ है, ‘B’ का अर्थ ‘x’ है, ‘C’ का अर्थ ‘+’ है और ‘D’ का अर्थ ‘-’ है, तो निम्नलिखित समीकरण में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आएगा?</p><p>9   B   3   D   14   A   2   C   1 = ?  D  2</p>",
+        "op_en": [
+            "23",
+            "27",
+            "21",
+            "25"
+        ],
+        "op_hi": [
+            "23",
+            "27",
+            "21",
+            "25"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, BODMAS का यह एक आसान समीकरण है, चलिए इसे हल करते हैं।</p><p>अक्षरों को उनके गणितीय चिह्नों से बदलें:<br>A = ÷, B = ×, C = +, D = -</p><p>नया समीकरण:<br>9 × 3 - 14 ÷ 2 + 1 = ? - 2</p><p>BODMAS के अनुसार पहले भाग (Divide) करें:<br>9 × 3 - 7 + 1 = ? - 2</p><p>अब गुणा (Multiply) करें:<br>27 - 7 + 1 = ? - 2</p><p>अब जोड़ और घटाव करें:<br>20 + 1 = ? - 2<br>21 = ? - 2<br>? = 21 + 2 = <b>23</b></p><ul><li><b>Option 1 (23):</b> एकदम <b>सही</b> उत्तर!</li><li><b>Option 2 (27):</b> गलत है।</li><li><b>Option 3 (21):</b> गलत है।</li><li><b>Option 4 (25):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Series",
+        "level": "Easy",
+        "q_en": "<p>What should come in place of  ? in the given series?</p><p>10      11      13      17     25       ?</p>",
+        "q_hi": "<p>दी गई शृंखला में ? के स्थान पर क्या आना चाहिए?</p><p>10      11      13      17     25       ?</p>",
+        "op_en": [
+            "41",
+            "42",
+            "43",
+            "40"
+        ],
+        "op_hi": [
+            "41",
+            "42",
+            "43",
+            "40"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस Number Series का लॉजिक खोजते हैं। संख्याओं के बीच का अंतर (Difference) देखते हैं:</p><p>11 - 10 = 1<br>13 - 11 = 2<br>17 - 13 = 4<br>25 - 17 = 8</p><p>अंतर 1, 2, 4, 8 के रूप में दोगुना होता जा रहा है।</p><p>तो अगला अंतर 8 × 2 = <b>16</b> होना चाहिए।</p><p>अब 25 में 16 जोड़ें:<br>25 + 16 = <b>41</b></p><ul><li><b>Option 1 (41):</b> यह बिल्कुल <b>सही</b> जवाब है!</li><li><b>Option 2 (42):</b> गलत है।</li><li><b>Option 3 (43):</b> गलत है।</li><li><b>Option 4 (40):</b> यह भी गलत है।</li></ul>"
+    }
+]
