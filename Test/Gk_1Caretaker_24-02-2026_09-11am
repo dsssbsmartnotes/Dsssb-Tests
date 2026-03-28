@@ -1,0 +1,422 @@
+[
+    {
+        "section": "General Awareness",
+        "topic": "Census & Demographics",
+        "level": "Easy",
+        "q_en": "<p>According to the Census of India 2011, which State recorded the highest sex ratio in the country, at 1084 females per 1000 males?</p>",
+        "q_hi": "<p>भारत की जनगणना 2011 के अनुसार, देश में किस राज्य में सबसे अधिक लिंगानुपात दर्ज किया गया, जो प्रति 1000 पुरुषों पर 1084 महिलाएँ था?</p>",
+        "op_en": [
+            "Tamil Nadu",
+            "Kerala",
+            "Daman & Diu",
+            "Puducherry"
+        ],
+        "op_hi": [
+            "तमिलनाडु",
+            "केरल",
+            "दमन और दीव",
+            "पुडुचेरी"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह Census 2011 (जनगणना) का एक बहुत ही महत्वपूर्ण प्रश्न है जो बार-बार परीक्षाओं में पूछा जाता है।</p><p>लिंगानुपात (Sex Ratio) का अर्थ है प्रति 1000 पुरुषों पर महिलाओं की संख्या। 2011 की जनगणना के अनुसार, भारत का राष्ट्रीय औसत लिंगानुपात 943 है।</p><ul><li><b>Option 1 (तमिलनाडु):</b> यहाँ का लिंगानुपात 996 है, जो केरल के बाद राज्यों में दूसरा सबसे अधिक है। इसलिए यह गलत है।</li><li><b>Option 2 (केरल):</b> यह बिल्कुल सही उत्तर है! केरल में देश का सबसे अधिक लिंगानुपात है, जहाँ 1000 पुरुषों पर 1084 महिलाएँ हैं।</li><li><b>Option 3 (दमन और दीव):</b> यह केंद्र शासित प्रदेश (UT) है और यहाँ पूरे भारत में सबसे कम लिंगानुपात (मात्र 618) दर्ज किया गया था।</li><li><b>Option 4 (पुडुचेरी):</b> केंद्र शासित प्रदेशों में पुडुचेरी का लिंगानुपात सबसे अधिक (1037) है, लेकिन यह राज्य नहीं है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Indian Polity",
+        "level": "Moderate",
+        "q_en": "<p>Which issue stood at the core of the Kesavananda Bharati case decided by the Supreme Court of India?</p>",
+        "q_hi": "<p>भारत के सर्वोच्च न्यायालय द्वारा तय किए गए केशवानंद भारती मामले के मूल में कौन सा मुद्दा था?</p>",
+        "op_en": [
+            "Whether the approval of amendments by the President operated within constitutional boundaries",
+            "Whether the legality of preventive detention laws is addressed in Article 22 of the Indian Constitution",
+            "Parliament’s power to amend the Constitution and the existence of the Basic Structure doctrine",
+            "Whether the application of Article 356 is valid during a period of national emergency in India"
+        ],
+        "op_hi": [
+            "क्या राष्ट्रपति द्वारा संशोधनों की मंजूरी संवैधानिक सीमाओं के भीतर संचालित होती है",
+            "क्या निवारक निरोध कानूनों की वैधता को भारतीय संविधान के अनुच्छेद 22 में संबोधित किया गया है",
+            "संविधान में संशोधन करने की संसद की शक्ति और मूल संरचना सिद्धांत (Basic Structure doctrine) का अस्तित्व",
+            "क्या भारत में राष्ट्रीय आपातकाल की अवधि के दौरान अनुच्छेद 356 का आवेदन वैध है"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। 'केशवानंद भारती बनाम केरल राज्य' (1973) भारतीय न्यायपालिका के इतिहास का सबसे ऐतिहासिक मामला है।</p><p>इस मामले की सुनवाई 13 जजों की सबसे बड़ी बेंच ने की थी। इसी केस में सुप्रीम कोर्ट ने <b>'Basic Structure Doctrine' (मूल संरचना का सिद्धांत)</b> दिया था।</p><ul><li><b>Option 1:</b> राष्ट्रपति की मंजूरी इस केस का मुख्य मुद्दा नहीं था।</li><li><b>Option 2:</b> निवारक निरोध (Preventive Detention) ए.के. गोपालन केस जैसे मामलों से जुड़ा है, न कि इससे।</li><li><b>Option 3:</b> यह बिल्कुल सही है! सुप्रीम कोर्ट ने तय किया कि संसद संविधान के किसी भी हिस्से (यहां तक कि मौलिक अधिकारों) में संशोधन कर सकती है, लेकिन वह संविधान की <b>'मूल संरचना' (Basic Structure)</b> को नहीं बदल सकती।</li><li><b>Option 4:</b> अनुच्छेद 356 (President's Rule) का मुख्य मामला 'एस. आर. बोम्मई केस (1994)' है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Committees & Commissions",
+        "level": "Moderate",
+        "q_en": "<p>Who was appointed as the first Chairman of the First Law Commission of India, constituted in 1955?</p>",
+        "q_hi": "<p>1955 में गठित स्वतंत्र भारत के पहले विधि आयोग (First Law Commission) के प्रथम अध्यक्ष के रूप में किसे नियुक्त किया गया था?</p>",
+        "op_en": [
+            "Jagjivan Ram",
+            "V. P. Menon",
+            "M. C. Setalvad",
+            "J. B. Kripalani"
+        ],
+        "op_hi": [
+            "जगजीवन राम",
+            "वी. पी. मेनन",
+            "एम. सी. सीतलवाड़",
+            "जे. बी. कृपलानी"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। विधि आयोग (Law Commission) कानून सुधारों पर सरकार को सलाह देने वाला एक महत्वपूर्ण निकाय है।</p><p><b>Short Trick/Fact:</b> अंग्रेजों के समय पहला विधि आयोग 1834 में लॉर्ड मैकाले की अध्यक्षता में बना था। लेकिन स्वतंत्र भारत का पहला विधि आयोग 1955 में बना।</p><ul><li><b>Option 1 (जगजीवन राम):</b> ये भारत के प्रमुख दलित नेता और पूर्व उप-प्रधानमंत्री थे, विधि आयोग के अध्यक्ष नहीं।</li><li><b>Option 2 (वी. पी. मेनन):</b> इन्होने सरदार पटेल के साथ मिलकर रियासतों के एकीकरण में महत्वपूर्ण भूमिका निभाई थी।</li><li><b>Option 3 (एम. सी. सीतलवाड़):</b> यह एकदम सही उत्तर है! एम. सी. सीतलवाड़ स्वतंत्र भारत के पहले अटॉर्नी जनरल (Attorney General) भी थे और 1955 के विधि आयोग के पहले अध्यक्ष भी बने।</li><li><b>Option 4 (जे. बी. कृपलानी):</b> ये स्वतंत्रता के समय भारतीय राष्ट्रीय कांग्रेस के अध्यक्ष थे।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Economics",
+        "level": "Hard",
+        "q_en": "<p>If both the <b>demand curve and the supply curve shift rightward</b> at the same time, what is the definite effect on the <b>equilibrium quantity</b> in the market?</p>",
+        "q_hi": "<p>यदि <b>मांग वक्र (demand curve) और आपूर्ति वक्र (supply curve) दोनों एक ही समय में दाईं ओर शिफ्ट</b> होते हैं, तो बाजार में <b>संतुलन मात्रा (equilibrium quantity)</b> पर निश्चित प्रभाव क्या होगा?</p>",
+        "op_en": [
+            "The equilibrium quantity increases",
+            "The effect on equilibrium quantity cannot be determined",
+            "The equilibrium quantity remains the same",
+            "The equilibrium quantity decreases"
+        ],
+        "op_hi": [
+            "संतुलन मात्रा बढ़ती है",
+            "संतुलन मात्रा पर प्रभाव निर्धारित नहीं किया जा सकता",
+            "संतुलन मात्रा समान रहती है",
+            "संतुलन मात्रा घट जाती है"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह Microeconomics का एक बेहतरीन कॉन्सेप्ट है।</p><p>ग्राफ पर विचार करें:<br>1. जब <b>Demand Curve दाईं ओर (Rightward) शिफ्ट</b> होता है, तो इसका मतलब है कि लोग ज्यादा मात्रा खरीदना चाहते हैं (Quantity बढ़ती है)।<br>2. जब <b>Supply Curve दाईं ओर शिफ्ट</b> होता है, तो इसका मतलब है कि उत्पादक ज्यादा मात्रा बेचना चाहते हैं (Quantity बढ़ती है)।</p><p>चूँकि दोनों ही स्थितियां मात्रा (Quantity) को बढ़ा रही हैं, इसलिए यह 100% तय है कि कुल संतुलन मात्रा (Equilibrium Quantity) बढ़ेगी। (हालांकि कीमत यानी Price का क्या होगा, यह इस बात पर निर्भर करेगा कि कौन सा वक्र ज्यादा शिफ्ट हुआ है)।</p><ul><li><b>Option 1:</b> यह बिल्कुल सही है! संतुलन मात्रा निश्चित रूप से बढ़ेगी।</li><li><b>Option 2:</b> गलत, क्योंकि मात्रा का प्रभाव निश्चित है, केवल कीमत (Price) का प्रभाव अनिश्चित होता है।</li><li><b>Option 3 & 4:</b> दोनों गलत हैं क्योंकि डिमांड और सप्लाई बढ़ने से कुल व्यापार की मात्रा बढ़ जाती है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Economics",
+        "level": "Easy",
+        "q_en": "<p>Which of the following best describes a mixed economy, as understood in basic economic theory?</p>",
+        "q_hi": "<p>बुनियादी आर्थिक सिद्धांत में समझे जाने वाले मिश्रित अर्थव्यवस्था (mixed economy) का सबसे अच्छा वर्णन निम्नलिखित में से कौन करता है?</p>",
+        "op_en": [
+            "An economic system in which the government owns and controls the means of production and distribution",
+            "An economic system in which economic activities operate without private ownership and monetary exchange",
+            "An economic system in which government and private individuals jointly participate in ownership and production",
+            "An economic system in which economic activities are confined mainly to agriculture with minimal industry"
+        ],
+        "op_hi": [
+            "एक आर्थिक प्रणाली जिसमें उत्पादन और वितरण के साधनों पर सरकार का स्वामित्व और नियंत्रण होता है",
+            "एक आर्थिक प्रणाली जिसमें आर्थिक गतिविधियाँ निजी स्वामित्व और मौद्रिक विनिमय के बिना संचालित होती हैं",
+            "एक आर्थिक प्रणाली जिसमें सरकार और निजी व्यक्ति संयुक्त रूप से स्वामित्व और उत्पादन में भाग लेते हैं",
+            "एक आर्थिक प्रणाली जिसमें आर्थिक गतिविधियाँ मुख्य रूप से न्यूनतम उद्योग के साथ कृषि तक सीमित हैं"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। अर्थव्यवस्था मुख्य रूप से तीन प्रकार की होती है: पूंजीवादी (Capitalist), समाजवादी (Socialist), और मिश्रित (Mixed)। भारत एक 'मिश्रित अर्थव्यवस्था' का सबसे अच्छा उदाहरण है।</p><ul><li><b>Option 1:</b> यह 'समाजवादी अर्थव्यवस्था' (Socialist Economy) की परिभाषा है, जहाँ सब कुछ सरकार के नियंत्रण में होता है।</li><li><b>Option 2:</b> यह 'साम्यवादी' (Communist) या पारंपरिक प्रणाली की तरफ इशारा करता है।</li><li><b>Option 3:</b> यह बिल्कुल सही उत्तर है! मिश्रित अर्थव्यवस्था में <b>सार्वजनिक क्षेत्र (Government) और निजी क्षेत्र (Private companies)</b> दोनों मिलकर काम करते हैं। जैसे भारत में BSNL (सरकारी) और Jio (प्राइवेट) दोनों मौजूद हैं।</li><li><b>Option 4:</b> यह एक कृषि-प्रधान या पिछड़ी (Agrarian/Traditional) अर्थव्यवस्था की परिभाषा है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Indian Polity",
+        "level": "Moderate",
+        "q_en": "<p>Under Article 153 of the Indian Constitution, which of the following correctly reflects the constitutional provision regarding the office of the Governor?</p>",
+        "q_hi": "<p>भारतीय संविधान के अनुच्छेद 153 के तहत, निम्नलिखित में से कौन राज्यपाल के पद के संबंध में संवैधानिक प्रावधान को सही ढंग से दर्शाता है?</p>",
+        "op_en": [
+            "The Constitution mandates the formation of a collegium to appoint Governors for two or more States.",
+            "A Governor can be appointed only for one State at a time, except during emergencies.",
+            "The Constitution allows the same person to be appointed as Governor for two or more States.",
+            "Every State must have a separate Governor who cannot serve in any other State simultaneously."
+        ],
+        "op_hi": [
+            "संविधान दो या दो से अधिक राज्यों के लिए राज्यपालों की नियुक्ति के लिए एक कॉलेजियम के गठन को अनिवार्य करता है।",
+            "आपातकाल के अलावा, एक राज्यपाल को एक समय में केवल एक ही राज्य के लिए नियुक्त किया जा सकता है।",
+            "संविधान एक ही व्यक्ति को दो या दो से अधिक राज्यों के राज्यपाल के रूप में नियुक्त करने की अनुमति देता है।",
+            "प्रत्येक राज्य का एक अलग राज्यपाल होना चाहिए जो एक साथ किसी अन्य राज्य में सेवा नहीं दे सकता है।"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। अनुच्छेद 153 कहता है कि 'प्रत्येक राज्य के लिए एक राज्यपाल होगा'।</p><p>लेकिन, <b>7वें संविधान संशोधन अधिनियम (1956)</b> द्वारा इसमें एक बहुत महत्वपूर्ण बदलाव किया गया था।</p><ul><li><b>Option 1:</b> राज्यपालों की नियुक्ति राष्ट्रपति द्वारा की जाती है, इसके लिए कोई कॉलेजियम (Collegium) सिस्टम नहीं है। यह गलत है।</li><li><b>Option 2:</b> आपातकाल (Emergency) की ऐसी कोई शर्त संविधान में नहीं है। यह गलत है।</li><li><b>Option 3:</b> यह बिल्कुल सही है! 1956 के संशोधन के बाद, एक ही व्यक्ति को दो या अधिक राज्यों के राज्यपाल (Governor) के रूप में नियुक्त किया जा सकता है।</li><li><b>Option 4:</b> यह 1956 से पहले की स्थिति थी। अब एक राज्यपाल एक साथ कई राज्यों का कार्यभार संभाल सकता है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Indian Polity",
+        "level": "Moderate",
+        "q_en": "<p>Which statement correctly distinguishes the Council of Ministers from the Union Cabinet under the Constitution of India?</p>",
+        "q_hi": "<p>भारत के संविधान के तहत कौन सा कथन मंत्रिपरिषद (Council of Ministers) और केंद्रीय मंत्रिमंडल (Union Cabinet) के बीच सही अंतर स्पष्ट करता है?</p>",
+        "op_en": [
+            "The Union Cabinet is a constitutional body, while the Council of Ministers is an extra-constitutional body.",
+            "The Union Cabinet is liable to the Rajya Sabha, and the Council of Ministers is responsible to the Lok Sabha.",
+            "The Council Ministers are appointed by Parliament, and the Union Cabinet is appointed by the President of India.",
+            "The Council of Ministers includes all ministers, and the Union Cabinet has senior ministers in major departments."
+        ],
+        "op_hi": [
+            "केंद्रीय मंत्रिमंडल एक संवैधानिक निकाय है, जबकि मंत्रिपरिषद एक अतिरिक्त-संवैधानिक निकाय है।",
+            "केंद्रीय मंत्रिमंडल राज्यसभा के प्रति उत्तरदायी है, और मंत्रिपरिषद लोकसभा के प्रति उत्तरदायी है।",
+            "मंत्रिपरिषद संसद द्वारा नियुक्त की जाती है, और केंद्रीय मंत्रिमंडल भारत के राष्ट्रपति द्वारा नियुक्त किया जाता है।",
+            "मंत्रिपरिषद में सभी मंत्री शामिल होते हैं, और केंद्रीय मंत्रिमंडल में प्रमुख विभागों के वरिष्ठ मंत्री होते हैं।"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। अक्सर 'मंत्रिपरिषद' (Council of Ministers) और 'कैबिनेट' (Cabinet) को एक ही समझ लिया जाता है, लेकिन इनमें बड़ा अंतर है।</p><ul><li><b>Option 1:</b> गलत है। मंत्रिपरिषद का जिक्र मूल संविधान (Article 74 & 75) में है। कैबिनेट शब्द को बाद में 44वें संशोधन (Article 352) द्वारा जोड़ा गया। दोनों संवैधानिक हैं।</li><li><b>Option 2:</b> गलत है। संसदीय प्रणाली में मंत्री सामूहिक रूप से <b>केवल लोकसभा</b> के प्रति उत्तरदायी होते हैं (Article 75), राज्यसभा के नहीं।</li><li><b>Option 3:</b> गलत है। सभी मंत्रियों की नियुक्ति राष्ट्रपति द्वारा प्रधानमंत्री की सलाह पर की जाती है। संसद उन्हें नियुक्त नहीं करती।</li><li><b>Option 4:</b> यह बिल्कुल सही है! मंत्रिपरिषद एक बड़ा समूह है (लगभग 60-70 मंत्री) जिसमें कैबिनेट मंत्री, राज्य मंत्री और उप-मंत्री शामिल होते हैं। जबकि <b>कैबिनेट (Cabinet)</b> एक छोटा और महत्वपूर्ण समूह (15-20 मंत्री) है जिसमें केवल प्रमुख मंत्रालयों (जैसे गृह, रक्षा, वित्त) के वरिष्ठ मंत्री होते हैं।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Modern History",
+        "level": "Moderate",
+        "q_en": "<p>Which of the following European colonial powers did the Dutch conquer Ceylon (Sri Lanka) from in 1658?</p>",
+        "q_hi": "<p>1658 में डचों ने निम्नलिखित में से किस यूरोपीय औपनिवेशिक शक्ति से सीलोन (श्रीलंका) को जीता था?</p>",
+        "op_en": [
+            "The Portuguese",
+            "The Irish Rulers",
+            "The French",
+            "The British"
+        ],
+        "op_hi": [
+            "पुर्तगाली",
+            "आयरिश शासक",
+            "फ्रांसीसी",
+            "ब्रिटिश"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। श्रीलंका (पुराना नाम सीलोन) मसालों के व्यापार के लिए यूरोपीय शक्तियों के बीच हमेशा आकर्षण का केंद्र रहा।</p><p>श्रीलंका में सबसे पहले <b>पुर्तगाली (Portuguese)</b> 1505 में पहुँचे और उन्होंने इसके तटीय इलाकों पर कब्जा कर लिया। बाद में 17वीं सदी में डच ईस्ट इंडिया कंपनी (VOC) ने पुर्तगालियों के साथ युद्ध लड़ा।</p><ul><li><b>Option 1 (पुर्तगाली):</b> यह बिल्कुल सही उत्तर है! 1658 में डचों ने पुर्तगालियों को हराकर सीलोन पर अपना पूरा नियंत्रण स्थापित कर लिया था।</li><li><b>Option 2 (आयरिश):</b> आयरिश शासकों का एशियाई उपनिवेशवाद में कोई बड़ा इतिहास नहीं रहा है।</li><li><b>Option 3 (फ्रांसीसी):</b> फ्रांसीसियों ने भारत में पुडुचेरी आदि पर राज किया, लेकिन श्रीलंका पर नहीं।</li><li><b>Option 4 (ब्रिटिश):</b> अंग्रेजों ने श्रीलंका पर कब्जा डचों के बाद (लगभग 1796 में) किया था।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Geography",
+        "level": "Easy",
+        "q_en": "<p>The mountain passes Nathu La and Jelep La are both located in which northeastern Indian state?</p>",
+        "q_hi": "<p>नाथू ला और जेलेप ला दर्रे दोनों किस पूर्वोत्तर भारतीय राज्य में स्थित हैं?</p>",
+        "op_en": [
+            "Jammu and Kashmir",
+            "Himachal Pradesh",
+            "Sikkim",
+            "Arunachal Pradesh"
+        ],
+        "op_hi": [
+            "जम्मू और कश्मीर",
+            "हिमाचल प्रदेश",
+            "सिक्किम",
+            "अरुणाचल प्रदेश"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। दर्रे (Passes) पहाड़ों के बीच के प्राकृतिक रास्ते होते हैं। 'नाथू ला' और 'जेलेप ला' भारत-चीन सीमा पर स्थित बहुत ही रणनीतिक दर्रे हैं।</p><ul><li><b>Option 1 (जम्मू और कश्मीर):</b> यहाँ बनिहाल, जोजिला, बुर्जिल जैसे दर्रे हैं। यह उत्तर में है, पूर्वोत्तर में नहीं।</li><li><b>Option 2 (हिमाचल प्रदेश):</b> यहाँ रोहतांग, शिपकी ला और बारालाचा ला दर्रे हैं।</li><li><b>Option 3 (सिक्किम):</b> यह बिल्कुल सही उत्तर है! नाथू ला (प्राचीन सिल्क रूट का हिस्सा) और जेलेप ला दोनों सिक्किम को तिब्बत (चीन) से जोड़ते हैं।</li><li><b>Option 4 (अरुणाचल प्रदेश):</b> यहाँ बोमडिला और दीफू दर्रे प्रमुख हैं।</li></ul><p><b>Short Trick:</b> सिक्किम के दर्रे याद रखने के लिए = <b>\"नाथू का सिक्का जल गया\"</b> (नाथू = नाथू ला, सिक्का = सिक्किम, जल = जेलेप ला)।</p>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Geography",
+        "level": "Easy",
+        "q_en": "<p>The Great Northern Plains of India extend across several northern and eastern states. Which of the following states does <i>not</i> form part of the Great Northern Plains region?</p>",
+        "q_hi": "<p>भारत के विशाल उत्तरी मैदान कई उत्तरी और पूर्वी राज्यों में फैले हुए हैं। निम्नलिखित में से कौन सा राज्य विशाल उत्तरी मैदानी क्षेत्र का हिस्सा <i>नहीं</i> है?</p>",
+        "op_en": [
+            "Assam",
+            "Gujarat",
+            "Uttar Pradesh",
+            "Punjab"
+        ],
+        "op_hi": [
+            "असम",
+            "गुजरात",
+            "उत्तर प्रदेश",
+            "पंजाब"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। भारत के विशाल उत्तरी मैदान (Great Northern Plains) मुख्य रूप से तीन नदी प्रणालियों: सिंधु (Indus), गंगा (Ganga) और ब्रह्मपुत्र (Brahmaputra) और उनकी सहायक नदियों द्वारा लाई गई उपजाऊ जलोढ़ मिट्टी से बने हैं।</p><ul><li><b>Option 1 (असम):</b> यह ब्रह्मपुत्र नदी के मैदानी क्षेत्र का हिस्सा है, इसलिए यह उत्तरी मैदान में आता है।</li><li><b>Option 2 (गुजरात):</b> यह सही उत्तर है! गुजरात मुख्य रूप से प्रायद्वीपीय भारत, तटीय मैदानों और रेगिस्तानी (कच्छ) क्षेत्र का हिस्सा है। यह विशाल उत्तरी मैदानों का हिस्सा नहीं है।</li><li><b>Option 3 (उत्तर प्रदेश):</b> यह पूरी तरह से गंगा के उपजाऊ मैदानी क्षेत्र में आता है।</li><li><b>Option 4 (पंजाब):</b> यह सिंधु नदी प्रणाली (सतलज, रावी, व्यास) द्वारा निर्मित मैदानों का हिस्सा है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Economics",
+        "level": "Easy",
+        "q_en": "<p>Which of the following is a defining characteristic of a socialist economy?</p>",
+        "q_hi": "<p>निम्नलिखित में से कौन समाजवादी अर्थव्यवस्था (socialist economy) की एक परिभाषित विशेषता है?</p>",
+        "op_en": [
+            "State ownership and control of major means of production",
+            "Economic decisions determined entirely by tradition and customs",
+            "Private ownership driven solely by profit motive",
+            "Complete absence of government intervention in markets"
+        ],
+        "op_hi": [
+            "उत्पादन के प्रमुख साधनों पर राज्य का स्वामित्व और नियंत्रण",
+            "आर्थिक निर्णय पूरी तरह से परंपरा और रीति-रिवाजों द्वारा निर्धारित होते हैं",
+            "पूरी तरह से लाभ के उद्देश्य से संचालित निजी स्वामित्व",
+            "बाजारों में सरकारी हस्तक्षेप की पूर्ण अनुपस्थिति"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। 'समाजवादी अर्थव्यवस्था' (Socialist Economy) की विचारधारा कार्ल मार्क्स से प्रेरित है, जहाँ समाज की भलाई को सर्वोपरि माना जाता है।</p><ul><li><b>Option 1:</b> यह बिल्कुल सही है! समाजवादी अर्थव्यवस्था में सभी प्रमुख उद्योगों, कारखानों और संसाधनों पर <b>सरकार (State) का नियंत्रण</b> होता है। उत्पादन का उद्देश्य लाभ कमाना नहीं, बल्कि सामाजिक कल्याण (Social welfare) होता है।</li><li><b>Option 2:</b> यह 'पारंपरिक अर्थव्यवस्था' (Traditional Economy) की विशेषता है, जहाँ वस्तु विनिमय (Barter system) और पुरानी प्रथाएं चलती हैं।</li><li><b>Option 3:</b> यह 'पूंजीवादी अर्थव्यवस्था' (Capitalist Economy) की मुख्य विशेषता है, जिसका उद्देश्य सिर्फ 'प्रॉफिट' (Profit motive) होता है।</li><li><b>Option 4:</b> इसे लेसेस-फेयर (Laissez-Faire) या मुक्त बाजार अर्थव्यवस्था (Free Market/Capitalism) कहते हैं, जहाँ सरकार कोई दखल नहीं देती।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Geography",
+        "level": "Moderate",
+        "q_en": "<p>The Utkal Plains, a coastal lowland along the Bay of Bengal, are located in the eastern part of which Indian state?</p>",
+        "q_hi": "<p>उत्कल का मैदान, जो बंगाल की खाड़ी के साथ एक तटीय तराई क्षेत्र है, किस भारतीय राज्य के पूर्वी भाग में स्थित है?</p>",
+        "op_en": [
+            "Odisha",
+            "Andhra Pradesh",
+            "West Bengal",
+            "Tamil Nadu"
+        ],
+        "op_hi": [
+            "ओडिशा",
+            "आंध्र प्रदेश",
+            "पश्चिम बंगाल",
+            "तमिलनाडु"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। भारत के पूर्वी तट (Eastern Coast) को भौगोलिक रूप से अलग-अलग नामों से जाना जाता है।</p><p>क्या आपको हमारा राष्ट्रगान याद है? \"...पंजाब सिंधु गुजरात मराठा, द्राविड़ <b>उत्कल</b> बंगा...\" यहाँ 'उत्कल' शब्द का प्रयोग हुआ है।</p><ul><li><b>Option 1 (ओडिशा):</b> यह बिल्कुल सही है! ओडिशा के तटीय मैदानों को ही 'उत्कल का मैदान' कहा जाता है। इसमें चिल्का झील और महानदी का डेल्टा भी आता है।</li><li><b>Option 2 (आंध्र प्रदेश):</b> आंध्र प्रदेश और ओडिशा के कुछ हिस्से को मिलाकर 'उत्तरी सरकार' (Northern Circars) तट कहा जाता है।</li><li><b>Option 3 (पश्चिम बंगाल):</b> बंगाल के मैदानी इलाके को मुख्य रूप से गंगा-ब्रह्मपुत्र डेल्टा के रूप में जाना जाता है।</li><li><b>Option 4 (तमिलनाडु):</b> तमिलनाडु और आंध्र के कुछ हिस्से के तट को 'कोरोमंडल तट' (Coromandel Coast) कहा जाता है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Modern History",
+        "level": "Hard",
+        "q_en": "<p>Who led the Tana Bhagat Movement, a tribal socio-religious uprising in the Chotanagpur region, during the early 20th century?</p>",
+        "q_hi": "<p>20वीं सदी की शुरुआत में छोटानागपुर क्षेत्र में एक आदिवासी सामाजिक-धार्मिक विद्रोह, 'ताना भगत आंदोलन' का नेतृत्व किसने किया था?</p>",
+        "op_en": [
+            "Raja Jagganath",
+            "Jatra Bhagat",
+            "Bir Budhu Bhagat",
+            "Birsa Munda"
+        ],
+        "op_hi": [
+            "राजा जगन्नाथ",
+            "जतरा भगत",
+            "वीर बुधू भगत",
+            "बिरसा मुंडा"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। ताना भगत आंदोलन (1914) भारतीय स्वतंत्रता संग्राम में आदिवासियों के योगदान का एक महत्वपूर्ण हिस्सा है। यह मुख्य रूप से छोटानागपुर (अब झारखंड) की <b>उरांव (Oraon) जनजाति</b> द्वारा शुरू किया गया था।</p><ul><li><b>Option 1 (राजा जगन्नाथ):</b> ये इससे संबंधित नहीं हैं।</li><li><b>Option 2 (जतरा भगत):</b> यह बिल्कुल सही उत्तर है! जतरा भगत ने 1914 में इस आंदोलन की शुरुआत की थी। यह आंदोलन शुरुआत में धर्म सुधार के लिए था, लेकिन बाद में यह महात्मा गांधी के अहिंसक असहयोग आंदोलन के साथ जुड़ गया।</li><li><b>Option 3 (वीर बुधू भगत):</b> इन्होने 1831-32 के 'कोल विद्रोह' (Kol Rebellion) का नेतृत्व किया था।</li><li><b>Option 4 (बिरसा मुंडा):</b> इन्होने 1899-1900 में 'मुंडा विद्रोह' (Ulgulan) का नेतृत्व किया था।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Modern History",
+        "level": "Moderate",
+        "q_en": "<p>Which of the following Indian National Congress leaders is associated with constitutional methods and gradual reform rather than the extremist ideology of boycott and mass agitation?</p>",
+        "q_hi": "<p>निम्नलिखित में से कौन सा भारतीय राष्ट्रीय कांग्रेस का नेता बहिष्कार और जन आंदोलन की चरमपंथी (Extremist) विचारधारा के बजाय संवैधानिक तरीकों और क्रमिक सुधारों (Moderate) से जुड़ा है?</p>",
+        "op_en": [
+            "Gopal Krishna Gokhale",
+            "Bal Gangadhar Tilak",
+            "Lala Lajpat Rai",
+            "Aurobindo Ghose"
+        ],
+        "op_hi": [
+            "गोपाल कृष्ण गोखले",
+            "बाल गंगाधर तिलक",
+            "लाला लाजपत राय",
+            "अरबिंदो घोष"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। भारतीय राष्ट्रीय कांग्रेस शुरुआत में दो गुटों में बँट गई थी: <b>नरम दल (Moderates)</b> जो शांति, प्रार्थना और संवैधानिक सुधारों में विश्वास करते थे, और <b>गरम दल (Extremists)</b> जो हड़ताल, बहिष्कार और आक्रामक तरीकों में विश्वास करते थे।</p><ul><li><b>Option 1 (गोपाल कृष्ण गोखले):</b> यह बिल्कुल सही उत्तर है! गोखले जी एक प्रमुख नरमपंथी (Moderate) नेता थे और महात्मा गांधी के राजनीतिक गुरु भी थे। उनका विश्वास संवैधानिक सुधारों में था।</li><li><b>Option 2 (बाल गंगाधर तिलक):</b> ये 'गरम दल' के प्रमुख नेता थे। इन्होने ही कहा था \"स्वराज्य मेरा जन्मसिद्ध अधिकार है\"।</li><li><b>Option 3 (लाला लाजपत राय):</b> ये भी गरम दल (लाल-बाल-पाल की तिकड़ी) के प्रमुख स्तंभ थे।</li><li><b>Option 4 (अरबिंदो घोष):</b> ये भी स्वदेशी आंदोलन के दौरान उग्रवादी/चरमपंथी विचारधारा के बड़े समर्थक थे।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Economics",
+        "level": "Moderate",
+        "q_en": "<p>If the price of a good increases while consumers’ income remains constant, what is the most likely effect on consumers’ purchasing power and demand for that good, ceteris paribus?</p>",
+        "q_hi": "<p>यदि किसी वस्तु की कीमत बढ़ती है जबकि उपभोक्ताओं की आय स्थिर रहती है, तो 'अन्य बातें समान रहने पर' (ceteris paribus) उपभोक्ताओं की क्रय शक्ति और उस वस्तु की मांग पर सबसे संभावित प्रभाव क्या होगा?</p>",
+        "op_en": [
+            "Consumers’ purchasing power decreases and demand for the good increases",
+            "Consumers’ purchasing power increases and demand for the good decreases",
+            "Consumers’ purchasing power increases and demand for the good increases",
+            "Consumers’ purchasing power decreases and demand for the good decreases"
+        ],
+        "op_hi": [
+            "उपभोक्ताओं की क्रय शक्ति घट जाती है और वस्तु की मांग बढ़ जाती है",
+            "उपभोक्ताओं की क्रय शक्ति बढ़ जाती है और वस्तु की मांग घट जाती है",
+            "उपभोक्ताओं की क्रय शक्ति बढ़ जाती है और वस्तु की मांग बढ़ जाती है",
+            "उपभोक्ताओं की क्रय शक्ति घट जाती है और वस्तु की मांग घट जाती है"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को व्यावहारिक रूप से (practically) समझते हैं। मान लीजिए आपकी जेब में 100 रुपये (स्थिर आय) हैं और आप 10 रुपये किलो वाले सेब खरीदते थे। अब सेब की कीमत बढ़कर 20 रुपये किलो हो गई।</p><p><b>प्रभाव क्या होगा?</b><br>1. <b>क्रय शक्ति (Purchasing Power):</b> पहले आप 10 किलो सेब खरीद सकते थे, अब केवल 5 किलो खरीद पाएंगे। यानी आपकी क्रय शक्ति (खरीदने की क्षमता) <b>घट गई है</b>।<br>2. <b>मांग (Demand):</b> कीमत बढ़ने से आप स्वाभाविक रूप से वह वस्तु कम खरीदेंगे, यानी मांग <b>घट जाएगी</b> (Law of Demand)।</p><ul><li><b>Option 1:</b> क्रय शक्ति तो घटेगी, लेकिन मांग बढ़ेगी नहीं।</li><li><b>Option 2 & 3:</b> महँगाई बढ़ने पर क्रय शक्ति कभी नहीं बढ़ती।</li><li><b>Option 4:</b> यह बिल्कुल सही है! क्रय शक्ति घट जाएगी (Purchasing power decreases) और वस्तु की मांग भी घट जाएगी (Demand decreases)।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Geography",
+        "level": "Moderate",
+        "q_en": "<p>Which Indian state receives nearly half of its annual rainfall during the retreating monsoon season (October–December), also known as the winter or northeast monsoon?</p>",
+        "q_hi": "<p>कौन सा भारतीय राज्य अपनी वार्षिक वर्षा का लगभग आधा हिस्सा लौटते हुए मानसून (अक्टूबर-दिसंबर) के मौसम में प्राप्त करता है, जिसे सर्दियों या पूर्वोत्तर मानसून के रूप में भी जाना जाता है?</p>",
+        "op_en": [
+            "Gujarat",
+            "Tamil Nadu",
+            "Assam",
+            "Rajasthan"
+        ],
+        "op_hi": [
+            "गुजरात",
+            "तमिलनाडु",
+            "असम",
+            "राजस्थान"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। भारत में वर्षा मुख्य रूप से 'दक्षिण-पश्चिम मानसून' (South-West Monsoon) से होती है (जून से सितंबर)।</p><p>लेकिन जब मानसून वापस लौटता है (Retreating Monsoon या Northeast Monsoon), तो हवाएँ जमीन से समुद्र की ओर चलती हैं। ये हवाएँ बंगाल की खाड़ी के ऊपर से गुजरते हुए नमी (Moisture) सोख लेती हैं और पूर्वी तट पर भारी बारिश कराती हैं।</p><ul><li><b>Option 1 (गुजरात):</b> यहाँ मुख्य रूप से दक्षिण-पश्चिम मानसून से बारिश होती है।</li><li><b>Option 2 (तमिलनाडु):</b> यह बिल्कुल सही उत्तर है! तमिलनाडु का कोरोमंडल तट लौटते हुए मानसून (उत्तर-पूर्वी मानसून) के रास्ते में आता है और सर्दियों (अक्टूबर-दिसंबर) में अपनी 50% से अधिक बारिश प्राप्त करता है।</li><li><b>Option 3 (असम):</b> असम में दक्षिण-पश्चिम मानसून और प्री-मानसून (काल बैसाखी) से भारी वर्षा होती है।</li><li><b>Option 4 (राजस्थान):</b> यह एक शुष्क क्षेत्र है जहाँ मानसूनी हवाएँ पहुँचते-पहुँचते अपनी नमी खो देती हैं।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Indian Polity",
+        "level": "Hard",
+        "q_en": "<p>Why is the Shankari Prasad case (1951) significant for understanding the scope of judicial review in India?</p>",
+        "q_hi": "<p>शंकरी प्रसाद मामला (1951) भारत में न्यायिक समीक्षा (judicial review) के दायरे को समझने के लिए महत्वपूर्ण क्यों है?</p>",
+        "op_en": [
+            "It introduced limits on Parliament through basic structure.",
+            "It allowed review of all amendments like ordinary laws.",
+            "It expanded judicial review to political policy matters.",
+            "It upheld Parliament’s power to amend Fundamental Rights."
+        ],
+        "op_hi": [
+            "इसने मूल संरचना (basic structure) के माध्यम से संसद पर सीमाएं पेश कीं।",
+            "इसने सामान्य कानूनों की तरह सभी संशोधनों की समीक्षा की अनुमति दी।",
+            "इसने राजनीतिक नीतिगत मामलों में न्यायिक समीक्षा का विस्तार किया।",
+            "इसने मौलिक अधिकारों में संशोधन करने की संसद की शक्ति को बरकरार रखा।"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस ऐतिहासिक केस को समझते हैं। संविधान लागू होने के ठीक एक साल बाद, प्रथम संविधान संशोधन (1951) को 'शंकरी प्रसाद बनाम भारत संघ' मामले में चुनौती दी गई थी। सवाल यह था कि क्या संसद मौलिक अधिकारों (Fundamental Rights) में संशोधन कर सकती है?</p><ul><li><b>Option 1:</b> गलत है। 'मूल संरचना' (Basic Structure) का सिद्धांत 1973 में केशवानंद भारती केस में आया था, 1951 में नहीं।</li><li><b>Option 2:</b> गलत है। सुप्रीम कोर्ट ने कहा था कि संविधान संशोधन (अनुच्छेद 368) सामान्य कानून (अनुच्छेद 13) से अलग है।</li><li><b>Option 3:</b> गलत है। ऐसा कोई फैसला नहीं हुआ था।</li><li><b>Option 4:</b> यह बिल्कुल सही है! सुप्रीम कोर्ट ने फैसला दिया कि संसद को अनुच्छेद 368 के तहत संविधान के किसी भी हिस्से में संशोधन करने की शक्ति है, जिसमें <b>मौलिक अधिकार (Fundamental Rights) भी शामिल हैं</b>।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Post-Independence India",
+        "level": "Hard",
+        "q_en": "<p>On which date was the States Department, responsible for the integration of the Princely States into India, officially constituted?</p>",
+        "q_hi": "<p>भारत में रियासतों के एकीकरण के लिए जिम्मेदार 'राज्य विभाग' (States Department) का आधिकारिक तौर पर गठन किस वर्ष किया गया था?</p>",
+        "op_en": [
+            "1950",
+            "1946",
+            "1952",
+            "1947"
+        ],
+        "op_hi": [
+            "1950",
+            "1946",
+            "1952",
+            "1947"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। भारत की आज़ादी के समय देश में 565 से अधिक देशी रियासतें (Princely States) थीं। भारत को एक अखंड राष्ट्र बनाने के लिए इन रियासतों का एकीकरण सबसे बड़ी चुनौती थी।</p><p>इस काम को पूरा करने के लिए भारत सरकार ने एक अलग <b>'राज्य विभाग' (States Department)</b> का गठन किया था।</p><ul><li>इस विभाग का गठन <b>27 जून 1947</b> को किया गया था।</li><li>इसके प्रमुख (Minister) <b>सरदार वल्लभभाई पटेल</b> बनाए गए थे।</li><li>इसके सचिव (Secretary) <b>वी. पी. मेनन</b> थे।</li><li>इन दोनों के अद्भुत कूटनीतिक प्रयासों से भारत का शांतिपूर्ण एकीकरण संभव हो सका।</li></ul><p>अतः सही उत्तर <b>Option 4 (1947)</b> है।</p>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Indian Polity",
+        "level": "Easy",
+        "q_en": "<p>Under Article 74 of the Constitution of India, which provision governs the President’s exercise of executive powers?</p>",
+        "q_hi": "<p>भारत के संविधान के अनुच्छेद 74 के तहत, कौन सा प्रावधान राष्ट्रपति की कार्यकारी शक्तियों के प्रयोग को नियंत्रित करता है?</p>",
+        "op_en": [
+            "The President may act independently in all executive matters",
+            "The Supreme Court directs executive actions of the President",
+            "The Council of Ministers exerts executive power without the President",
+            "The President acts upon the advice of the Council of Ministers"
+        ],
+        "op_hi": [
+            "राष्ट्रपति सभी कार्यकारी मामलों में स्वतंत्र रूप से कार्य कर सकता है",
+            "सर्वोच्च न्यायालय राष्ट्रपति के कार्यकारी कार्यों को निर्देशित करता है",
+            "मंत्रिपरिषद राष्ट्रपति के बिना कार्यकारी शक्ति का प्रयोग करती है",
+            "राष्ट्रपति मंत्रिपरिषद की सलाह पर कार्य करते हैं"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। भारत में संसदीय प्रणाली (Parliamentary System) है, जहाँ राष्ट्रपति राज्य का नाममात्र का प्रमुख (Titular Head) होता है, जबकि वास्तविक शक्ति प्रधानमंत्री के नेतृत्व वाली मंत्रिपरिषद के पास होती है।</p><p><b>अनुच्छेद 74 (Article 74)</b> में स्पष्ट रूप से लिखा है:</p><ul><li><b>Option 1:</b> गलत है। राष्ट्रपति अपनी मर्जी से (स्वतंत्र रूप से) काम नहीं कर सकते।</li><li><b>Option 2:</b> गलत है। सुप्रीम कोर्ट सरकार को निर्देश नहीं देता, वह कानूनों की समीक्षा करता है।</li><li><b>Option 3:</b> गलत है। सभी कार्यकारी कार्य राष्ट्रपति के नाम पर ही किए जाते हैं।</li><li><b>Option 4:</b> यह बिल्कुल सही है! अनुच्छेद 74 कहता है कि राष्ट्रपति को सहायता और सलाह देने के लिए प्रधानमंत्री की अध्यक्षता में एक मंत्रिपरिषद होगी, और <b>राष्ट्रपति अपने कार्यों का प्रयोग इस तरह की सलाह के अनुसार ही करेंगे।</b></li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Economics",
+        "level": "Moderate",
+        "q_en": "<p>With reference to India’s external sector reforms initiated after 1991, which one of the following policy measures contributed to greater integration of the Indian economy with the global economy?</p>",
+        "q_hi": "<p>1991 के बाद शुरू किए गए भारत के बाहरी क्षेत्र के सुधारों के संदर्भ में, निम्नलिखित में से किस नीतिगत उपाय ने भारतीय अर्थव्यवस्था के वैश्विक अर्थव्यवस्था के साथ अधिक एकीकरण में योगदान दिया?</p>",
+        "op_en": [
+            "Tightening controls on the use of foreign technology in domestic industries",
+            "Lowering import tariff rates to encourage greater participation in world trade",
+            "Restricting the entry of foreign firms into domestic product markets",
+            "Reinforcing quantitative restrictions on the import of manufactured goods"
+        ],
+        "op_hi": [
+            "घरेलू उद्योगों में विदेशी प्रौद्योगिकी के उपयोग पर नियंत्रण कड़ा करना",
+            "विश्व व्यापार में अधिक भागीदारी को प्रोत्साहित करने के लिए आयात शुल्क दरों को कम करना",
+            "घरेलू उत्पाद बाजारों में विदेशी फर्मों के प्रवेश को प्रतिबंधित करना",
+            "निर्मित वस्तुओं के आयात पर मात्रात्मक प्रतिबंधों को सुदृढ़ करना"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। 1991 में भारत ने एक बड़ा आर्थिक संकट झेला था, जिसके बाद भारत ने ऐतिहासिक <b>LPG सुधार (Liberalization, Privatization, Globalization)</b> लागू किए।</p><p>वैश्वीकरण (Globalization) का मतलब है भारतीय अर्थव्यवस्था को दुनिया की अर्थव्यवस्था के साथ जोड़ना।</p><ul><li><b>Option 1:</b> विदेशी तकनीक पर रोक लगाने से हम दुनिया से कट जाएंगे, जुड़ेंगे नहीं। यह गलत है।</li><li><b>Option 2:</b> यह बिल्कुल सही है! सरकार ने <b>आयात शुल्क (Import Tariffs) भारी मात्रा में कम कर दिए</b> ताकि विदेशी सामान आसानी से भारत आ सके और भारत का दुनिया के व्यापार में हिस्सा बढ़े।</li><li><b>Option 3:</b> विदेशी कंपनियों को प्रतिबंधित करना 1991 से पहले की नीति थी। 1991 के बाद तो FDI (Foreign Direct Investment) को बढ़ावा दिया गया।</li><li><b>Option 4:</b> सरकार ने मात्रात्मक प्रतिबंध (Quotas/Licenses) बढ़ाए नहीं, बल्कि उन्हें हटा दिया था।</li></ul>"
+    }
+]
