@@ -1,0 +1,422 @@
+[
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Mixture and Alligation",
+        "level": "Hard",
+        "q_en": "<p>A vessel contains a mixture of milk and water in the ratio 7:3. If 20 liters of the mixture is replaced by water, the ratio of milk and water becomes 3:2. Find the initial quantity of the mixture in the vessel.</p>",
+        "q_hi": "<p>एक बर्तन में दूध और पानी का मिश्रण 7:3 के अनुपात में है। यदि 20 लीटर मिश्रण को निकालकर उसके स्थान पर 20 लीटर पानी मिला दिया जाए, तो दूध और पानी का अनुपात 3:2 हो जाता है। बर्तन में मिश्रण की प्रारंभिक मात्रा ज्ञात कीजिए।</p>",
+        "op_en": [
+            "140 liters",
+            "150 liters",
+            "160 liters",
+            "120 liters"
+        ],
+        "op_hi": [
+            "140 लीटर",
+            "150 लीटर",
+            "160 लीटर",
+            "120 लीटर"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस मिश्रण (Mixture and Alligation) के शानदार सवाल को हल करते हैं!</p><p>इसे हम एक बहुत ही बेहतरीन Short Trick से हल करेंगे। जब भी मिश्रण को निकालकर उसमें केवल एक ही चीज़ (जैसे यहाँ पानी) मिलाई जाए, तो हमें उस चीज़ पर फोकस करना चाहिए जिसकी मात्रा <b>नहीं</b> मिलाई जा रही है (यानी दूध)।</p><p><b>Step 1: दूध (Milk) का प्रारंभिक और अंतिम भाग निकालें</b><br>शुरुआत में दूध और पानी का अनुपात = 7:3<br>यानी प्रारंभिक दूध (Initial Milk) = 7 / (7+3) = <b>7/10 भाग</b></p><p>20 लीटर पानी मिलाने के बाद नया अनुपात = 3:2<br>यानी अंतिम दूध (Final Milk) = 3 / (3+2) = 3/5 = <b>6/10 भाग</b> (आधार समान करने के लिए अंश और हर में 2 से गुणा किया)</p><p><b>Step 2: निकाले गए मिश्रण का हिस्सा पता करें</b><br>बचे हुए दूध का हिस्सा = (अंतिम दूध) / (प्रारंभिक दूध)<br>= (6/10) / (7/10) = <b>6/7</b><br><br>इसका मतलब है कि कुल 7 हिस्सों में से 6 हिस्से दूध के बचे हैं, यानी <b>1/7 हिस्सा</b> मिश्रण का निकाला गया था।</p><p><b>Step 3: कुल मात्रा (Total Quantity) निकालें</b><br>प्रश्न के अनुसार, निकाला गया हिस्सा 20 लीटर है।<br>इसलिए, कुल मात्रा का 1/7 = 20 लीटर<br>कुल मात्रा = 20 &times; 7 = <b>140 लीटर</b></p><ul><li><b>Option 1 (140 लीटर):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 2 (150 लीटर):</b> गलत है।</li><li><b>Option 3 (160 लीटर):</b> गलत है।</li><li><b>Option 4 (120 लीटर):</b> यह भी गलत है।</li></ul>"
+    },
+{
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Speed, Time and Distance",
+        "level": "Hard",
+        "q_en": "<p>A train crosses a stationary pole in 12 seconds and a 240-meter-long bridge in 36 seconds. If a second train, which is 150 meters long, is running in the opposite direction at a speed of 72 km/hr, how much time will the first train take to cross the second train completely?</p>",
+        "q_hi": "<p>एक ट्रेन एक स्थिर खंभे को 12 सेकंड में और 240 मीटर लंबे पुल को 36 सेकंड में पार करती है। यदि 150 मीटर लंबी एक दूसरी ट्रेन विपरीत दिशा में 72 किमी/घंटा की गति से चल रही है, तो पहली ट्रेन दूसरी ट्रेन को पूरी तरह से पार करने में कितना समय लेगी?</p>",
+        "op_en": [
+            "9 seconds",
+            "12 seconds",
+            "10 seconds",
+            "8 seconds"
+        ],
+        "op_hi": [
+            "9 सेकंड",
+            "12 सेकंड",
+            "10 सेकंड",
+            "8 सेकंड"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं!</p><p>यह रेलगाड़ी और सापेक्ष गति (Relative Speed) का एक बहुत ही शानदार सवाल है। इसे हम स्टेप बाय स्टेप हल करेंगे।</p><p><b>Step 1: पहली ट्रेन की गति (Speed) और लंबाई (Length) निकालें</b><br>मान लीजिए पहली ट्रेन की लंबाई L और गति S है।<br>खंभे को पार करने में: L = S &times; 12  --- (समीकरण 1)<br>पुल को पार करने में: (L + 240) = S &times; 36  --- (समीकरण 2)<br><br>समीकरण 1 का मान समीकरण 2 में रखने पर:<br>12S + 240 = 36S<br>24S = 240  &rArr;  S = <b>10 m/s</b> (यह पहली ट्रेन की गति है)<br>अब लंबाई (L) = 10 &times; 12 = <b>120 मीटर</b></p><p><b>Step 2: सापेक्ष गति (Relative Speed) निकालें</b><br>दूसरी ट्रेन की गति = 72 km/hr। इसे m/s में बदलें:<br>72 &times; (5/18) = <b>20 m/s</b><br>चूंकि दोनों ट्रेनें विपरीत दिशा (Opposite direction) में चल रही हैं, गति जुड़ जाएगी:<br>सापेक्ष गति = 10 + 20 = <b>30 m/s</b></p><p><b>Step 3: एक-दूसरे को पार करने में लगा समय</b><br>कुल तय की जाने वाली दूरी = दोनों ट्रेनों की लंबाई का योग<br>दूरी = 120 (पहली) + 150 (दूसरी) = <b>270 मीटर</b><br>समय = दूरी / सापेक्ष गति = 270 / 30 = <b>9 सेकंड</b></p><ul><li><b>Option 1 (9 seconds):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 2 (12 seconds):</b> गलत है।</li><li><b>Option 3 (10 seconds):</b> गलत है।</li><li><b>Option 4 (8 seconds):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Ratio and Proportion",
+        "level": "Moderate",
+        "q_en": "Divide ₹5,978 into three parts such that half of the first part, one-fourth of the second part and one-eighth of the third part are equal. Find the third part (in ₹).",
+        "q_hi": "<p>₹5,978 को तीन भागों में इस प्रकार विभाजित करें कि पहले भाग का आधा, दूसरे भाग का एक-चौथाई और तीसरे भाग का एक-आठवां भाग बराबर हो। तीसरा भाग (₹ में) ज्ञात कीजिए।</p>",
+        "op_en": [
+            "3,616",
+            "3,116",
+            "3,216",
+            "3,416"
+        ],
+        "op_hi": [
+            "3,616",
+            "3,116",
+            "3,216",
+            "3,416"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस अनुपात (Ratio) के मज़ेदार सवाल को हल करते हैं!</p><p>मान लीजिए कि तीन भाग A, B और C हैं। कुल योग A + B + C = ₹5978 है।</p><p>प्रश्न की शर्त के अनुसार:<br>A का 1/2 = B का 1/4 = C का 1/8<br>यानी, A / 2 = B / 4 = C / 8</p><p>मान लेते हैं कि यह सब 'k' के बराबर हैं:<br>A / 2 = k &rArr; A = 2k<br>B / 4 = k &rArr; B = 4k<br>C / 8 = k &rArr; C = 8k</p><p>तो इनका अनुपात (Ratio) हुआ: A : B : C = 2 : 4 : 8</p><p>इन अनुपातों का कुल योग = 2k + 4k + 8k = 14k<br>प्रश्न के अनुसार, 14k = 5978<br>k = 5978 / 14 = <b>427</b></p><p>हमें तीसरा भाग (C) निकालना है:<br>C = 8k = 8 &times; 427 = <b>₹3416</b></p><ul><li><b>Option 1 (3,616):</b> गलत है।</li><li><b>Option 2 (3,116):</b> गलत है।</li><li><b>Option 3 (3,216):</b> गलत है।</li><li><b>Option 4 (3,416):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Time and Work",
+        "level": "Easy",
+        "q_en": "A garrison of 1210 men has provisions for 13 days. How long (in days) will the provisions last if the garrison be increased by 363 men?",
+        "q_hi": "<p>1210 आदमियों की एक गैरीसन (छावनी) में 13 दिनों के लिए रसद (भोजन) है। यदि गैरीसन में 363 आदमियों की वृद्धि कर दी जाए, तो रसद कितने दिनों तक चलेगी?</p>",
+        "op_en": [
+            "20",
+            "10",
+            "30",
+            "5"
+        ],
+        "op_hi": [
+            "20",
+            "10",
+            "30",
+            "5"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, यह 'आदमी और दिन' (Men and Days) का एक बहुत ही क्लासिक सवाल है। इसे हम <b>M<sub>1</sub>D<sub>1</sub> = M<sub>2</sub>D<sub>2</sub></b> वाले नियम से हल करेंगे।</p><p><b>पहली स्थिति (शुरुआत में):</b><br>आदमी (M<sub>1</sub>) = 1210<br>दिन (D<sub>1</sub>) = 13</p><p><b>दूसरी स्थिति (आदमी बढ़ने के बाद):</b><br>नए आदमी (M<sub>2</sub>) = 1210 + 363 = 1573<br>नए दिन (D<sub>2</sub>) = ?</p><p>चूंकि कुल भोजन समान रहेगा, इसलिए:<br>M<sub>1</sub> &times; D<sub>1</sub> = M<sub>2</sub> &times; D<sub>2</sub><br>1210 &times; 13 = 1573 &times; D<sub>2</sub></p><p>D<sub>2</sub> = (1210 &times; 13) / 1573</p><p>इसे काटते हैं (11 से कट जाएगा):<br>D<sub>2</sub> = (110 &times; 13) / 143<br>फिर 13 से काटें (143 = 13 &times; 11):<br>D<sub>2</sub> = 110 / 11 = <b>10 दिन</b></p><ul><li><b>Option 1 (20):</b> गलत है।</li><li><b>Option 2 (10):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 3 (30):</b> गलत है।</li><li><b>Option 4 (5):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Speed, Time and Distance",
+        "level": "Hard",
+        "q_en": "The distance between two stations is 350 km. Two trains start simultaneously from these stations on parallel tracks to cross each other. The speed of one train is 5 km/hour greater than that of the other. If the distance between the two trains after 2 hours is 20 km, find the speed (in km/hour) of the faster train.",
+        "q_hi": "<p>दो स्टेशनों के बीच की दूरी 350 किमी है। दो ट्रेनें एक दूसरे को पार करने के लिए समानांतर पटरियों पर इन स्टेशनों से एक साथ चलना शुरू करती हैं। एक ट्रेन की गति दूसरी ट्रेन की तुलना में 5 किमी/घंटा अधिक है। यदि 2 घंटे के बाद दोनों ट्रेनों के बीच की दूरी 20 किमी है, तो तेज ट्रेन की गति (किमी/घंटा में) ज्ञात कीजिए।</p>",
+        "op_en": [
+            "85",
+            "82",
+            "80",
+            "88"
+        ],
+        "op_hi": [
+            "85",
+            "82",
+            "80",
+            "88"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, यह सापेक्ष गति (Relative Speed) का एक शानदार सवाल है! आइए इसे समझते हैं।</p><p>कुल दूरी = 350 किमी।<br>ट्रेनें विपरीत दिशाओं (Opposite directions) से आ रही हैं।</p><p>मान लीजिए:<br>धीमी ट्रेन की गति = x km/hr<br>तेज ट्रेन की गति = (x + 5) km/hr</p><p>जब ट्रेनें विपरीत दिशा में चलती हैं, तो उनकी सापेक्ष गति (Relative Speed) जुड़ जाती है:<br>Relative Speed = x + (x + 5) = <b>(2x + 5) km/hr</b></p><p>2 घंटे में उन्होंने कितनी दूरी तय की?<br>कुल दूरी 350 थी, और अब उनके बीच 20 किमी बचे हैं। इसका मतलब है कि उन्होंने 2 घंटे में मिलकर 350 - 20 = <b>330 किमी</b> की दूरी तय कर ली है।</p><p>दूरी = गति &times; समय<br>330 = (2x + 5) &times; 2<br>330 = 4x + 10<br>4x = 320<br>x = 80 km/hr (यह धीमी ट्रेन की गति है)</p><p>हमसे तेज ट्रेन की गति पूछी गई है:<br>तेज ट्रेन की गति = x + 5 = 80 + 5 = <b>85 km/hr</b></p><ul><li><b>Option 1 (85):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 2 (82):</b> गलत है।</li><li><b>Option 3 (80):</b> यह धीमी ट्रेन की गति है, इसलिए गलत है।</li><li><b>Option 4 (88):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Mensuration 2D",
+        "level": "Easy",
+        "q_en": "Find the area of a regular hexagon with a side length of 12 cm.",
+        "q_hi": "<p>12 सेमी की भुजा की लंबाई वाले एक सम षट्भुज (regular hexagon) का क्षेत्रफल ज्ञात कीजिए।</p>",
+        "op_en": [
+            "<img align=\"middle\" alt=\"216 square root of 5 space cm squared\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»216«/mn»«msqrt»«mn»5«/mn»«/msqrt»«mo»§#160;«/mo»«msup»«mi»cm«/mi»«mn»2«/mn»«/msup»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAWCAYAAAC1zAClAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAwlJREFUeNrtWF+EVFEcvtbKWD00prXGltbI2oceImlXkdiHrOxDJKkkJauHlZ56Sa2ssjLRw5IkWamHiC2JrOohWbu2ZI3sQ2NlZcSWZBuzo+k7fCen45wz98zecjf342Pu796593e++/t3bhDEHx3guiBB5OgGaw0yQR1cBr+A6xMpokUz+Bm8lEgRPfYyvTtWga/bwRmwAk6CG+Pu8D1wapUEwhCYAZvAEQr8Gz1ggcp/Aq8wLVWIt3GKi14K8cB+8AH4Dax6Oiumgx/gSct5sYiS0rzmYlbOKvIgrYiZo8jC4avan96Bb0N041bwGUW9AG6jGD44Ai47GtkBbTK4HjNxp+XBcS1Ke+jwd0vEuMTNgkWmRfsKHJxihtgwQb/jiKPgftcFNUfqu8R9TXHTK3BuA++/z3I+p7z8G2BbjIQV6x52XbCGzo97inuYdlHQn4BlcAEc9HTwIkewtZbzw1pJWGhA4D6WuQpTuJP2LWAeXART/C2C7CPYy6Y1xrXNg7u1rD5r6FV/4CCd3uEp7lPaB5T6XaTthMfCi9w8BHXq+jGlP4x63H8n+ArcymMRDLP8vaisT+jQwhSvUcxB2vbQNqvcV5bXzeBN28NnmG6Bp7hLBruM5oJm77W84V28vjukUCK6XnJyCIvnFFFigNHv6ik2m5wKxrVsumV68BmmSaoBcSsGuywxZS3tTdOIwG3wjWeKd6mjTwiU60w7PuLWfNJlmnUlaEDc97RnDdeXDOJWtVqZYq0910Ajmfe4VgZB178SdxNn04yW0gUPcYdoP23o7HlLXX9hmG19t7vtnt8fJvnsMZaBnFIWIhc3y25o+mynD+dtyjm9Q7ewwJcYFaLbP+a9M5ZI/8l9ucBD8FEIcc7zBTaxsY04JgsTDilrqNLfUWWUkufSIW3OTJ8L7N9E+wxvyvXdtFUZVcrcCNg2E50U9wNn22XHdlfFXWWbnvcUVkKMTF/p4x1FINPawtpiBzm+TbDeppKPgdEhxYgVAt9P5Ige1yhufyLF3xO4+X9b1C8xFRzSnK6uBAAAAJV0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bW4+MjE2PC9tbj48bXNxcnQ+PG1uPjU8L21uPjwvbXNxcnQ+PG1vPiYjeEEwOzwvbW8+PG1zdXA+PG1pPmNtPC9taT48bW4+MjwvbW4+PC9tc3VwPjwvbWF0aD404nPrAAAAAElFTkSuQmCC\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"116 square root of 3 space cm squared\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»116«/mn»«msqrt»«mn»3«/mn»«/msqrt»«mo»§#160;«/mo»«msup»«mi»cm«/mi»«mn»2«/mn»«/msup»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAWCAYAAAC1zAClAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAtNJREFUeNrtWEFIVFEUHQaRQUKUaRhkFGQIkWgRSCgUROBCJFy0EakWUYi0cNEqcGESEUjYrIIIEZHIRSBYxECEbiLEqIhhcFMyxCwkMHExDqM0ngfnx+Pz/vz3/nzhT/wDB8Y7d573nn/ffff9SCT46AbbIiF8xwBY9cgQLngM/gFPh1L4iybwN/gwlMJ/DHF7dzdArBfAL2AF3AC7gh7wK3CzQQphBoyDUXCWAv+DUHqcCZUcFtDxkTECvgb3wSPDYMV0cADeUXzXD35klYi155lYkNpZRTZ8B7+5nLQ6PgIJ8D0Tnwb7+ERNcAM8VBxkZ8EpJtAKPmcsawET97PdGNUQzs2nA9zmtkjVEeAmd4gddx3iKQVI3JvgNdUXOjNiLZ9PFLe9juA6uf5Vh4cro5e+swERVuT9yItwbj7XpUTfgWWwCE4aBviAI9gpjRM6D2Y8iDDMNlfhFu6h/Rw4B+6CMX4Wu+IXOMjevsTcCuBl24O/x7bgu7hZ2if4D9KsYmG7bZD4Ni8PbuJUpX6bMFj/Ig/E8/xbFEOOn3eldUfBFm7xKsWcpO0KbTlp3VvM+wz4wm9xSwq7Vc15m33Q4Qlfov+AhkhdrLoqq0kXaxTRwgR3WK0zxclmTQWrtqv3vN/iVhT2ZtrKtm0vbE8UayyAXw2Hd9MDreySo4m4Ru8w6hF3i/YOhf+OQlwx+yYle4y99r5BvF6mBasIehtJ3Bna5XEpTduczXeU9nXFbGty3U1xnZcGv9mQWkmUMRZPWtyk9IOkB58WNvgdVoU47d/ypI07VPpfbm2BFfCNS4wFHhZxHmJZCpM0EHdMyuGI8T6TRinru3ZNW1y3Ymu9E9XxSUijSpkXAafLRA/F/cnZ9tDhuisjw3XF1v7Bvm0yKVgQI9Me11qUBFLlpmsLHKzx7QP7bSx8GegfYqxYIfByKIf/eEpxR0IpTk7gpv8tqWPHEhwAwmOXEAAAAJV0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bW4+MTE2PC9tbj48bXNxcnQ+PG1uPjM8L21uPjwvbXNxcnQ+PG1vPiYjeEEwOzwvbW8+PG1zdXA+PG1pPmNtPC9taT48bW4+MjwvbW4+PC9tc3VwPjwvbWF0aD6Ug1JIAAAAAElFTkSuQmCC\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"216 square root of 3 space cm squared\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»216«/mn»«msqrt»«mn»3«/mn»«/msqrt»«mo»§#160;«/mo»«msup»«mi»cm«/mi»«mn»2«/mn»«/msup»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAWCAYAAAC1zAClAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAxZJREFUeNrtWH9kVVEcv57JNUnP63meNc1kJv0RyTZFYn9ksj/6J6n+SMn0x6S/oj9qkmWypj8imSSpPyJWMpL1TzKblcyTqGcymVhJXs/bdPscPien65x773m7y13ulw/3fu+5537P53x/nes4yZcWYKOTSuzSCXh1IpUQGQS+AptSKuKVBuALcCmlIn7Zz/BuWQO27gJmgBowCTQn3eD7wNQacYQBIAdkgCES/Ee6gBKZ/wxcYViqInbjFBddifDBXuAh8B1YtjRWdAc/gZOaZx3AS9oq5h7lwpKUzmryJquQ2UqSRThe9b30FngToRrngWdc+AVgJ3fURo4CS5pCtg04T1s3ADdpy0TCyJ2WN8d9XtpFg39oXsyEkFsEygyLphUYOMUI8ctpgz2VBJF7DDgYNCDI4CByX5Hc7AqM28z5Dxg2V5V2jh1KCLFi3ZeDBqyjwWOW5B5RFvoUqALzQL+lgRfZgq2PUKFFChupg4QeprkaQ7iN+u3AMLAIuLwWTvYJ6GZuv8u1zQF7fRt/VlOr/pJDJKnDktxx6vuU/F2m7oTFwss8PISR4yn5Nm8x/24WxB28F84wy+tFZV7BQyND3COZ/dTto25WmVem163ALdPHZ1goHEtyKxq99OaST99t2OE9HN8ZgaRmep1Hb4oqEyRRSh8jLKimmHSyKxjzHb1HdR8+Q4PdOsitafQyxVR9Ya/rRoTcBl5bNu+2Ba0a0u3YkOvZhMt0hJ7RNOk76oua8QsackXvW1D0LnPtOQui6ukWpBO0/ytyt7A3zflCumRB7gD1arvUSt2wIa+/0PS2NsfdJs5zz+KdSSWVZGjj/GqRW2Q11P22u+4bW1CeFXzPGpngF+gVoto/4dw5g6f/YmgLeQQ8DrF1jsUixyI2TmIKFuQeVtawTHtvKK2UfJaNqAuM9PeO+Z9oj2angv6b5pVWpcqDgOkw0UZyP7K3XTIcd1UZ4bwitD8wb9t0ClJEy/SNc91RCNKtLaoucSLbt+fMt276MzA+cemxguAHKR3xyzWS25tSsXoEN/xvi/oNos4gGIMLeLAAAACVdEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1uPjIxNjwvbW4+PG1zcXJ0Pjxtbj4zPC9tbj48L21zcXJ0Pjxtbz4mI3hBMDs8L21vPjxtc3VwPjxtaT5jbTwvbWk+PG1uPjI8L21uPjwvbXN1cD48L21hdGg+OMfk0AAAAABJRU5ErkJggg==\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"116 square root of 5 space cm squared\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»116«/mn»«msqrt»«mn»5«/mn»«/msqrt»«mo»§#160;«/mo»«msup»«mi»cm«/mi»«mn»2«/mn»«/msup»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAWCAYAAAC1zAClAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAs1JREFUeNrtWE9IVEEYX0RiEQ/JJotoIEuIhw6BCEJBBB5EwkMQEhUhhkgHD568RElIIKHgQRARCYk6BEFFBCHVIUIMixCRDomIyBJYRNiyLtlv4PdiGGbem3n7hLfxPvjB7jffzpvvt9+/ealU/KUZOJpKJHLpAA5CIpEAuQt8B44lVEQr1cA34E5CRfTSxfRuroCztgMrQBFYAo7H/cAPgeUKCYRRIANUAeMk+J8Ipgfo0J5hAxsbWXqAx8BPoOR4WDEd/AauG9aFE3mpeX2JWTkryorPwKeATmtjI6QeeEVSbwFtJMNFrgD7Po3sojIZTMWM3A+6aAgiLsimAdhgWjSWccBlZohJFoG+mJaIq8AF3YLNjOhn857k1pVxuCbuf96wnuP6L2AGyMaIWOH3WBjigmwuUy8K+gugAGwDQ44HvM0RrNawPqaUhO0QBHezzBWZwi3UnwQmgF0gzc+iv2wBnWxaC/RtEzirZPUwy0Lk5L6kfpAPyDGKha7fwfENXh5SAXX9GrDG/acd9j8NvANO8bsIhlV+3pX86wVqmOIHJHOIunPUrUr79tHvE8Bs1OTuafReNK8p+k7DP3yG9h2WRInoesvJwVZek0RPBhn9fj3FpPOmgqdKNs1FTW5Roz9CXUFJe6G7p9ljHvjomOKt6ugTIIUAH13IdXqHUQ6569Q3aOzzGnJLSq1Ms9aOhGgkmw62XhC0VhK5o9Tf0HT2CcW2l/o3mtnW9brb6Pj+YYnPXmAZyEll4dDIzUo/yIawqWGBzzMqRLd/zk6bMUT6H97LhTwBnlmc8yb/wCo2tnGfyUInlyQfSjzvtDRKeWt1lrqMbcT6vRO1samXRpUCLwKmy0QLyf3K2Xbf57orywOm9g4zojZEGREj0w+e8b5EkM43W13sxBvfFllv08nLwOgkzYgVBD9K6IheJkluT0LF4RFc/b859RdVWRi6+i49swAAAJV0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bW4+MTE2PC9tbj48bXNxcnQ+PG1uPjU8L21uPjwvbXNxcnQ+PG1vPiYjeEEwOzwvbW8+PG1zdXA+PG1pPmNtPC9taT48bW4+MjwvbW4+PC9tc3VwPjwvbWF0aD6YpsVzAAAAAElFTkSuQmCC\" style=\"max-width: none;\">"
+        ],
+        "op_hi": [
+            "<img align=\"middle\" alt=\"216 square root of 5 space cm squared\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»216«/mn»«msqrt»«mn»5«/mn»«/msqrt»«mo»§#160;«/mo»«msup»«mi»cm«/mi»«mn»2«/mn»«/msup»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAWCAYAAAC1zAClAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAwlJREFUeNrtWF+EVFEcvtbKWD00prXGltbI2oceImlXkdiHrOxDJKkkJauHlZ56Sa2ssjLRw5IkWamHiC2JrOohWbu2ZI3sQ2NlZcSWZBuzo+k7fCen45wz98zecjf342Pu796593e++/t3bhDEHx3guiBB5OgGaw0yQR1cBr+A6xMpokUz+Bm8lEgRPfYyvTtWga/bwRmwAk6CG+Pu8D1wapUEwhCYAZvAEQr8Gz1ggcp/Aq8wLVWIt3GKi14K8cB+8AH4Dax6Oiumgx/gSct5sYiS0rzmYlbOKvIgrYiZo8jC4avan96Bb0N041bwGUW9AG6jGD44Ai47GtkBbTK4HjNxp+XBcS1Ke+jwd0vEuMTNgkWmRfsKHJxihtgwQb/jiKPgftcFNUfqu8R9TXHTK3BuA++/z3I+p7z8G2BbjIQV6x52XbCGzo97inuYdlHQn4BlcAEc9HTwIkewtZbzw1pJWGhA4D6WuQpTuJP2LWAeXART/C2C7CPYy6Y1xrXNg7u1rD5r6FV/4CCd3uEp7lPaB5T6XaTthMfCi9w8BHXq+jGlP4x63H8n+ArcymMRDLP8vaisT+jQwhSvUcxB2vbQNqvcV5bXzeBN28NnmG6Bp7hLBruM5oJm77W84V28vjukUCK6XnJyCIvnFFFigNHv6ik2m5wKxrVsumV68BmmSaoBcSsGuywxZS3tTdOIwG3wjWeKd6mjTwiU60w7PuLWfNJlmnUlaEDc97RnDdeXDOJWtVqZYq0910Ajmfe4VgZB178SdxNn04yW0gUPcYdoP23o7HlLXX9hmG19t7vtnt8fJvnsMZaBnFIWIhc3y25o+mynD+dtyjm9Q7ewwJcYFaLbP+a9M5ZI/8l9ucBD8FEIcc7zBTaxsY04JgsTDilrqNLfUWWUkufSIW3OTJ8L7N9E+wxvyvXdtFUZVcrcCNg2E50U9wNn22XHdlfFXWWbnvcUVkKMTF/p4x1FINPawtpiBzm+TbDeppKPgdEhxYgVAt9P5Ige1yhufyLF3xO4+X9b1C8xFRzSnK6uBAAAAJV0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bW4+MjE2PC9tbj48bXNxcnQ+PG1uPjU8L21uPjwvbXNxcnQ+PG1vPiYjeEEwOzwvbW8+PG1zdXA+PG1pPmNtPC9taT48bW4+MjwvbW4+PC9tc3VwPjwvbWF0aD404nPrAAAAAElFTkSuQmCC\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"116 square root of 3 space cm squared\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»116«/mn»«msqrt»«mn»3«/mn»«/msqrt»«mo»§#160;«/mo»«msup»«mi»cm«/mi»«mn»2«/mn»«/msup»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAWCAYAAAC1zAClAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAtNJREFUeNrtWEFIVFEUHQaRQUKUaRhkFGQIkWgRSCgUROBCJFy0EakWUYi0cNEqcGESEUjYrIIIEZHIRSBYxECEbiLEqIhhcFMyxCwkMHExDqM0ngfnx+Pz/vz3/nzhT/wDB8Y7d573nn/ffff9SCT46AbbIiF8xwBY9cgQLngM/gFPh1L4iybwN/gwlMJ/DHF7dzdArBfAL2AF3AC7gh7wK3CzQQphBoyDUXCWAv+DUHqcCZUcFtDxkTECvgb3wSPDYMV0cADeUXzXD35klYi155lYkNpZRTZ8B7+5nLQ6PgIJ8D0Tnwb7+ERNcAM8VBxkZ8EpJtAKPmcsawET97PdGNUQzs2nA9zmtkjVEeAmd4gddx3iKQVI3JvgNdUXOjNiLZ9PFLe9juA6uf5Vh4cro5e+swERVuT9yItwbj7XpUTfgWWwCE4aBviAI9gpjRM6D2Y8iDDMNlfhFu6h/Rw4B+6CMX4Wu+IXOMjevsTcCuBl24O/x7bgu7hZ2if4D9KsYmG7bZD4Ni8PbuJUpX6bMFj/Ig/E8/xbFEOOn3eldUfBFm7xKsWcpO0KbTlp3VvM+wz4wm9xSwq7Vc15m33Q4Qlfov+AhkhdrLoqq0kXaxTRwgR3WK0zxclmTQWrtqv3vN/iVhT2ZtrKtm0vbE8UayyAXw2Hd9MDreySo4m4Ru8w6hF3i/YOhf+OQlwx+yYle4y99r5BvF6mBasIehtJ3Bna5XEpTduczXeU9nXFbGty3U1xnZcGv9mQWkmUMRZPWtyk9IOkB58WNvgdVoU47d/ypI07VPpfbm2BFfCNS4wFHhZxHmJZCpM0EHdMyuGI8T6TRinru3ZNW1y3Ymu9E9XxSUijSpkXAafLRA/F/cnZ9tDhuisjw3XF1v7Bvm0yKVgQI9Me11qUBFLlpmsLHKzx7QP7bSx8GegfYqxYIfByKIf/eEpxR0IpTk7gpv8tqWPHEhwAwmOXEAAAAJV0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bW4+MTE2PC9tbj48bXNxcnQ+PG1uPjM8L21uPjwvbXNxcnQ+PG1vPiYjeEEwOzwvbW8+PG1zdXA+PG1pPmNtPC9taT48bW4+MjwvbW4+PC9tc3VwPjwvbWF0aD6Ug1JIAAAAAElFTkSuQmCC\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"216 square root of 3 space cm squared\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»216«/mn»«msqrt»«mn»3«/mn»«/msqrt»«mo»§#160;«/mo»«msup»«mi»cm«/mi»«mn»2«/mn»«/msup»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAWCAYAAAC1zAClAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAxZJREFUeNrtWH9kVVEcv57JNUnP63meNc1kJv0RyTZFYn9ksj/6J6n+SMn0x6S/oj9qkmWypj8imSSpPyJWMpL1TzKblcyTqGcymVhJXs/bdPscPien65x773m7y13ulw/3fu+5537P53x/nes4yZcWYKOTSuzSCXh1IpUQGQS+AptSKuKVBuALcCmlIn7Zz/BuWQO27gJmgBowCTQn3eD7wNQacYQBIAdkgCES/Ee6gBKZ/wxcYViqInbjFBddifDBXuAh8B1YtjRWdAc/gZOaZx3AS9oq5h7lwpKUzmryJquQ2UqSRThe9b30FngToRrngWdc+AVgJ3fURo4CS5pCtg04T1s3ADdpy0TCyJ2WN8d9XtpFg39oXsyEkFsEygyLphUYOMUI8ctpgz2VBJF7DDgYNCDI4CByX5Hc7AqM28z5Dxg2V5V2jh1KCLFi3ZeDBqyjwWOW5B5RFvoUqALzQL+lgRfZgq2PUKFFChupg4QeprkaQ7iN+u3AMLAIuLwWTvYJ6GZuv8u1zQF7fRt/VlOr/pJDJKnDktxx6vuU/F2m7oTFwss8PISR4yn5Nm8x/24WxB28F84wy+tFZV7BQyND3COZ/dTto25WmVem163ALdPHZ1goHEtyKxq99OaST99t2OE9HN8ZgaRmep1Hb4oqEyRRSh8jLKimmHSyKxjzHb1HdR8+Q4PdOsitafQyxVR9Ya/rRoTcBl5bNu+2Ba0a0u3YkOvZhMt0hJ7RNOk76oua8QsackXvW1D0LnPtOQui6ukWpBO0/ytyt7A3zflCumRB7gD1arvUSt2wIa+/0PS2NsfdJs5zz+KdSSWVZGjj/GqRW2Q11P22u+4bW1CeFXzPGpngF+gVoto/4dw5g6f/YmgLeQQ8DrF1jsUixyI2TmIKFuQeVtawTHtvKK2UfJaNqAuM9PeO+Z9oj2angv6b5pVWpcqDgOkw0UZyP7K3XTIcd1UZ4bwitD8wb9t0ClJEy/SNc91RCNKtLaoucSLbt+fMt276MzA+cemxguAHKR3xyzWS25tSsXoEN/xvi/oNos4gGIMLeLAAAACVdEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1uPjIxNjwvbW4+PG1zcXJ0Pjxtbj4zPC9tbj48L21zcXJ0Pjxtbz4mI3hBMDs8L21vPjxtc3VwPjxtaT5jbTwvbWk+PG1uPjI8L21uPjwvbXN1cD48L21hdGg+OMfk0AAAAABJRU5ErkJggg==\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"116 square root of 5 space cm squared\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mn»116«/mn»«msqrt»«mn»5«/mn»«/msqrt»«mo»§#160;«/mo»«msup»«mi»cm«/mi»«mn»2«/mn»«/msup»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAWCAYAAAC1zAClAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAs1JREFUeNrtWE9IVEEYX0RiEQ/JJotoIEuIhw6BCEJBBB5EwkMQEhUhhkgHD568RElIIKHgQRARCYk6BEFFBCHVIUIMixCRDomIyBJYRNiyLtlv4PdiGGbem3n7hLfxPvjB7jffzpvvt9+/ealU/KUZOJpKJHLpAA5CIpEAuQt8B44lVEQr1cA34E5CRfTSxfRuroCztgMrQBFYAo7H/cAPgeUKCYRRIANUAeMk+J8Ipgfo0J5hAxsbWXqAx8BPoOR4WDEd/AauG9aFE3mpeX2JWTkryorPwKeATmtjI6QeeEVSbwFtJMNFrgD7Po3sojIZTMWM3A+6aAgiLsimAdhgWjSWccBlZohJFoG+mJaIq8AF3YLNjOhn857k1pVxuCbuf96wnuP6L2AGyMaIWOH3WBjigmwuUy8K+gugAGwDQ44HvM0RrNawPqaUhO0QBHezzBWZwi3UnwQmgF0gzc+iv2wBnWxaC/RtEzirZPUwy0Lk5L6kfpAPyDGKha7fwfENXh5SAXX9GrDG/acd9j8NvANO8bsIhlV+3pX86wVqmOIHJHOIunPUrUr79tHvE8Bs1OTuafReNK8p+k7DP3yG9h2WRInoesvJwVZek0RPBhn9fj3FpPOmgqdKNs1FTW5Roz9CXUFJe6G7p9ljHvjomOKt6ugTIIUAH13IdXqHUQ6569Q3aOzzGnJLSq1Ms9aOhGgkmw62XhC0VhK5o9Tf0HT2CcW2l/o3mtnW9brb6Pj+YYnPXmAZyEll4dDIzUo/yIawqWGBzzMqRLd/zk6bMUT6H97LhTwBnlmc8yb/wCo2tnGfyUInlyQfSjzvtDRKeWt1lrqMbcT6vRO1samXRpUCLwKmy0QLyf3K2Xbf57orywOm9g4zojZEGREj0w+e8b5EkM43W13sxBvfFllv08nLwOgkzYgVBD9K6IheJkluT0LF4RFc/b859RdVWRi6+i49swAAAJV0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bW4+MTE2PC9tbj48bXNxcnQ+PG1uPjU8L21uPjwvbXNxcnQ+PG1vPiYjeEEwOzwvbW8+PG1zdXA+PG1pPmNtPC9taT48bW4+MjwvbW4+PC9tc3VwPjwvbWF0aD6YpsVzAAAAAElFTkSuQmCC\" style=\"max-width: none;\">"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस ज्यामिति (Geometry) के सवाल को समझते हैं।</p><p>एक सम षट्भुज (Regular Hexagon) 6 समबाहु त्रिभुजों (Equilateral Triangles) से मिलकर बना होता है।</p><p>समबाहु त्रिभुज का क्षेत्रफल = (&#8730;3 / 4) &times; a&sup2;<br>जहाँ a = भुजा की लंबाई (यहाँ a = 12 cm है)।</p><p>तो, एक सम षट्भुज का क्षेत्रफल (Area) = 6 &times; [(&#8730;3 / 4) &times; a&sup2;]<br>= 6 &times; (&#8730;3 / 4) &times; (12)&sup2;<br>= 6 &times; (&#8730;3 / 4) &times; 144</p><p>अब 144 को 4 से काट दें (144 / 4 = 36):<br>= 6 &times; &#8730;3 &times; 36<br>= <b>216&#8730;3 cm&sup2;</b></p><ul><li><b>Option 1 (216&#8730;5):</b> गलत है।</li><li><b>Option 2 (116&#8730;3):</b> गलत है।</li><li><b>Option 3 (216&#8730;3):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 4 (116&#8730;5):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Unitary Method",
+        "level": "Easy",
+        "q_en": "A worker earns ₹5,000 for working 10 hours. How much will he earn for working 26 hours at the same rate?",
+        "q_hi": "<p>एक मजदूर 10 घंटे काम करने के लिए ₹5,000 कमाता है। समान दर पर 26 घंटे काम करने के लिए वह कितना कमाएगा?</p>",
+        "op_en": [
+            "₹12,500",
+            "₹13,000",
+            "₹13,500",
+            "₹15,000"
+        ],
+        "op_hi": [
+            "₹12,500",
+            "₹13,000",
+            "₹13,500",
+            "₹15,000"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं!</p><p>यह ऐकिक नियम (Unitary Method) का एक बहुत ही सीधा और आसान सवाल है।</p><p><b>Step 1: 1 घंटे की कमाई निकालें</b><br>मजदूर 10 घंटे में कमाता है = ₹5,000<br>इसलिए, 1 घंटे में कमाएगा = 5000 / 10 = <b>₹500</b></p><p><b>Step 2: 26 घंटे की कमाई निकालें</b><br>चूंकि दर समान है, तो 26 घंटे की कमाई = 26 &times; 1 घंटे की कमाई<br>= 26 &times; 500<br>= <b>₹13,000</b></p><ul><li><b>Option 1 (₹12,500):</b> गलत है। यह तो 25 घंटे की कमाई होगी।</li><li><b>Option 2 (₹13,000):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 3 (₹13,500):</b> गलत है।</li><li><b>Option 4 (₹15,000):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Mensuration 2D",
+        "level": "Moderate",
+        "q_en": "The sides of a rhombus are each 10 cm long, and one of its diagonals is 16 cm. What is the area of the rhombus?",
+        "q_hi": "<p>एक समचतुर्भुज (rhombus) की प्रत्येक भुजा 10 सेमी लंबी है, और इसका एक विकर्ण 16 सेमी है। समचतुर्भुज का क्षेत्रफल क्या है?</p>",
+        "op_en": [
+            "60 cm²",
+            "96 cm²",
+            "80 cm²",
+            "120 cm²"
+        ],
+        "op_hi": [
+            "60 cm²",
+            "96 cm²",
+            "80 cm²",
+            "120 cm²"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए समचतुर्भुज (Rhombus) के इस सवाल को हल करते हैं। हम जानते हैं कि समचतुर्भुज के विकर्ण (diagonals) एक-दूसरे को 90&deg; पर समद्विभाजित (bisect) करते हैं।</p><p>भुजा (side) = 10 cm<br>पहला विकर्ण (d<sub>1</sub>) = 16 cm</p><p><b>Step 1: दूसरा विकर्ण (d<sub>2</sub>) निकालें</b><br>समचतुर्भुज के विकर्णों के आधे हिस्से और उसकी भुजा एक समकोण त्रिभुज (right-angled triangle) बनाते हैं।<br>आधार (Base) = d<sub>1</sub> / 2 = 16 / 2 = 8 cm<br>कर्ण (Hypotenuse) = भुजा = 10 cm</p><p>पाइथागोरस प्रमेय (Pythagoras theorem) से:<br>(d<sub>2</sub> / 2)&sup2; = 10&sup2; - 8&sup2;<br>(d<sub>2</sub> / 2)&sup2; = 100 - 64 = 36<br>d<sub>2</sub> / 2 = 6 cm<br>अतः, d<sub>2</sub> = 12 cm</p><p><b>Step 2: क्षेत्रफल (Area) निकालें</b><br>Area = 1/2 &times; d<sub>1</sub> &times; d<sub>2</sub><br>= 1/2 &times; 16 &times; 12<br>= 8 &times; 12 = <b>96 cm&sup2;</b></p><ul><li><b>Option 1 (60 cm²):</b> गलत है।</li><li><b>Option 2 (96 cm²):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 3 (80 cm²):</b> गलत है।</li><li><b>Option 4 (120 cm²):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Ratio and Proportion",
+        "level": "Moderate",
+        "q_en": "Divide ₹27,300 into three parts in such a way that half of the first part, one-fourth of the second part and one-eighth of the third part are equal. What is the value of the first part (in ₹)?",
+        "q_hi": "<p>₹27,300 को तीन भागों में इस प्रकार विभाजित करें कि पहले भाग का आधा, दूसरे भाग का एक-चौथाई और तीसरे भाग का एक-आठवां भाग बराबर हो। पहले भाग का मान (₹ में) क्या है?</p>",
+        "op_en": [
+            "3700",
+            "3600",
+            "3900",
+            "4100"
+        ],
+        "op_hi": [
+            "3700",
+            "3600",
+            "3900",
+            "4100"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, यह अनुपात (Ratio) का सवाल है। मान लीजिए तीन भाग A, B और C हैं। कुल योग = ₹27,300 है।</p><p>प्रश्नानुसार:<br>A/2 = B/4 = C/8 = k</p><p>तो भाग होंगे:<br>A = 2k<br>B = 4k<br>C = 8k</p><p>अनुपात (Ratio) हुआ: A : B : C = 2 : 4 : 8<br>इसे सरल करने पर: 1 : 2 : 4 भी लिख सकते हैं, या सीधे 2+4+8 = 14 यूनिट मान सकते हैं।<br>कुल योग = 14 यूनिट<br>14 यूनिट = 27,300<br>1 यूनिट = 27,300 / 14 = <b>1950</b></p><p>हमें पहला भाग (A) निकालना है:<br>A = 2 यूनिट = 2 &times; 1950 = <b>₹3900</b></p><ul><li><b>Option 1 (3700):</b> गलत है।</li><li><b>Option 2 (3600):</b> गलत है।</li><li><b>Option 3 (3900):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 4 (4100):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Mensuration 3D",
+        "level": "Easy",
+        "q_en": "A conical tent is of diameter 12 m at the base and its height is 8 m. Find its slant height.",
+        "q_hi": "<p>एक शंक्वाकार (conical) तंबू के आधार का व्यास 12 मीटर है और इसकी ऊंचाई 8 मीटर है। इसकी तिर्यक ऊंचाई (slant height) ज्ञात कीजिए।</p>",
+        "op_en": [
+            "10 m",
+            "12 m",
+            "14 m",
+            "8 m"
+        ],
+        "op_hi": [
+            "10 m",
+            "12 m",
+            "14 m",
+            "8 m"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, शंकु (Cone) की तिर्यक ऊंचाई (Slant height) निकालने का यह बहुत ही सीधा सवाल है।</p><p>दिया गया है:<br>व्यास (Diameter) = 12 m<br>इसलिए, त्रिज्या (Radius, r) = 12 / 2 = 6 m<br>ऊंचाई (Height, h) = 8 m</p><p>तिर्यक ऊंचाई (Slant height, l) के लिए हम पाइथागोरस प्रमेय (Pythagoras theorem) का प्रयोग करते हैं:<br>l&sup2; = r&sup2; + h&sup2;<br>l&sup2; = 6&sup2; + 8&sup2;<br>l&sup2; = 36 + 64 = 100<br>l = &radic;100 = <b>10 m</b></p><ul><li><b>Option 1 (10 m):</b> यह बिल्कुल <b>सही</b> जवाब है!</li><li><b>Option 2 (12 m):</b> गलत है।</li><li><b>Option 3 (14 m):</b> गलत है।</li><li><b>Option 4 (8 m):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Profit and Loss",
+        "level": "Easy",
+        "q_en": "A retailer buys an electronic item for ₹230. His overhead expenses are ₹20. He sells the electronic item for ₹400 and makes x% profit. The value of x is:",
+        "q_hi": "<p>एक खुदरा विक्रेता एक इलेक्ट्रॉनिक वस्तु को ₹230 में खरीदता है। उसका ऊपरी खर्च ₹20 है। वह इलेक्ट्रॉनिक वस्तु को ₹400 में बेचता है और x% लाभ कमाता है। x का मान है:</p>",
+        "op_en": [
+            "40",
+            "50",
+            "60",
+            "80"
+        ],
+        "op_hi": [
+            "40",
+            "50",
+            "60",
+            "80"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, लाभ और हानि (Profit and Loss) के इस सवाल में सबसे पहले हमें कुल क्रय मूल्य (Total CP) निकालना होगा।</p><p><b>Step 1: कुल क्रय मूल्य (Total Cost Price)</b><br>वस्तु की कीमत = ₹230<br>ऊपरी खर्च (Overhead expenses) = ₹20<br>कुल CP = 230 + 20 = <b>₹250</b></p><p><b>Step 2: लाभ (Profit) निकालें</b><br>विक्रय मूल्य (Selling Price, SP) = ₹400<br>लाभ = SP - कुल CP<br>लाभ = 400 - 250 = <b>₹150</b></p><p><b>Step 3: लाभ प्रतिशत (Profit Percentage, x)</b><br>x = (लाभ / कुल CP) &times; 100<br>x = (150 / 250) &times; 100<br>x = (3 / 5) &times; 100 = 3 &times; 20 = <b>60%</b></p><ul><li><b>Option 1 (40):</b> गलत है।</li><li><b>Option 2 (50):</b> गलत है।</li><li><b>Option 3 (60):</b> बिल्कुल <b>सही</b> उत्तर!</li><li><b>Option 4 (80):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Time and Work",
+        "level": "Moderate",
+        "q_en": "<p>Pipe A can fill a tank in 15 hours, pipe B can fill the same tank in 23 hours and pipe C can fill the same tank in 15 hours. The time taken by them to fill the same tank if they operate together is:</p>",
+        "q_hi": "<p>पाइप A एक टैंक को 15 घंटे में भर सकता है, पाइप B उसी टैंक को 23 घंटे में भर सकता है और पाइप C उसी टैंक को 15 घंटे में भर सकता है। यदि वे एक साथ काम करते हैं तो उन्हें उसी टैंक को भरने में कितना समय लगेगा:</p>",
+        "op_en": [
+            "10 40/61 hours",
+            "5 40/61 hours",
+            "9 40/61 hours",
+            "4 40/61 hours"
+        ],
+        "op_hi": [
+            "10 40/61 घंटे",
+            "5 40/61 घंटे",
+            "9 40/61 घंटे",
+            "4 40/61 घंटे"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए पाइप और टंकी (Pipes and Cisterns) के इस सवाल को हल करते हैं।</p><p>A द्वारा लिया गया समय = 15 घंटे<br>B द्वारा लिया गया समय = 23 घंटे<br>C द्वारा लिया गया समय = 15 घंटे</p><p><b>Step 1: कुल कार्य (Total Work) निकालें</b><br>कुल कार्य = 15, 23 और 15 का LCM = 345 यूनिट</p><p><b>Step 2: कार्यक्षमता (Efficiency) निकालें</b><br>A की क्षमता = 345 / 15 = 23 यूनिट/घंटा<br>B की क्षमता = 345 / 23 = 15 यूनिट/घंटा<br>C की क्षमता = 345 / 15 = 23 यूनिट/घंटा</p><p>तीनों की एक साथ कुल क्षमता = 23 + 15 + 23 = 61 यूनिट/घंटा</p><p><b>Step 3: कुल समय निकालें</b><br>लिया गया कुल समय = कुल कार्य / कुल क्षमता<br>= 345 / 61 घंटे</p><p>इसे मिश्रित भिन्न (mixed fraction) में बदलने पर:<br>345 &divide; 61 = 5 (भागफल) और 40 (शेषफल)<br>= <b>5 40/61 घंटे</b></p><ul><li><b>Option 1:</b> गलत है।</li><li><b>Option 2 (5 40/61 hours):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 3:</b> गलत है।</li><li><b>Option 4:</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Speed, Time and Distance",
+        "level": "Moderate",
+        "q_en": "<p>Two runners start together from the same point on a circular track of 300 m length and run in the same direction. Their speeds are 6 m/s and 4 m/s respectively. After how many seconds will they meet again at the starting point?</p>",
+        "q_hi": "<p>दो धावक 300 मीटर लंबे एक वृत्ताकार ट्रैक पर एक ही बिंदु से एक साथ और एक ही दिशा में दौड़ना शुरू करते हैं। उनकी गति क्रमशः 6 मीटर/सेकंड और 4 मीटर/सेकंड है। कितने सेकंड के बाद वे फिर से शुरुआती बिंदु पर मिलेंगे?</p>",
+        "op_en": [
+            "250 s",
+            "100 s",
+            "220 s",
+            "150 s"
+        ],
+        "op_hi": [
+            "250 सेकंड",
+            "100 सेकंड",
+            "220 सेकंड",
+            "150 सेकंड"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, यह Circular Track (वृत्ताकार पथ) का एक बहुत ही क्लासिक सवाल है। जब भी पूछा जाए कि 'शुरुआती बिंदु पर वे फिर कब मिलेंगे', तो हमें दोनों धावकों द्वारा एक चक्कर पूरा करने में लिए गए समय का <b>LCM (लघुत्तम समापवर्त्य)</b> निकालना होता है।</p><p><b>Step 1: दोनों का समय निकालें</b><br>समय = दूरी / गति (Time = Distance / Speed)<br>पहले (तेज) धावक द्वारा 1 चक्कर में लिया गया समय = 300 / 6 = <b>50 सेकंड</b><br>दूसरे (धीमे) धावक द्वारा 1 चक्कर में लिया गया समय = 300 / 4 = <b>75 सेकंड</b></p><p><b>Step 2: दोनों के समय का LCM निकालें</b><br>अब हमें 50 और 75 का LCM (लघुत्तम समापवर्त्य) निकालना है।<br>50 और 75 का LCM = <b>150</b></p><p>इसका मतलब है कि 150 सेकंड के बाद वे दोनों फिर से शुरुआती बिंदु पर एक साथ होंगे।</p><ul><li><b>Option 1 (250 s):</b> गलत है।</li><li><b>Option 2 (100 s):</b> गलत है।</li><li><b>Option 3 (220 s):</b> गलत है।</li><li><b>Option 4 (150 s):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Mensuration 3D",
+        "level": "Easy",
+        "q_en": "<p>Find the surface area of a cuboid with dimensions 6 m &times; 3 m &times; 0.25 m.</p>",
+        "q_hi": "<p>6 मीटर &times; 3 मीटर &times; 0.25 मीटर आयामों (dimensions) वाले घनाभ (cuboid) का पृष्ठीय क्षेत्रफल ज्ञात कीजिए।</p>",
+        "op_en": [
+            "35.5 m2",
+            "30.5 m2",
+            "40.5 m2",
+            "42.5 m2"
+        ],
+        "op_hi": [
+            "35.5 m&sup2;",
+            "30.5 m&sup2;",
+            "40.5 m&sup2;",
+            "42.5 m&sup2;"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, यह घनाभ (Cuboid) के संपूर्ण पृष्ठीय क्षेत्रफल (Total Surface Area) का बहुत ही सीधा सवाल है।</p><p>दिया गया है:<br>लंबाई (l) = 6 m<br>चौड़ाई (b) = 3 m<br>ऊंचाई (h) = 0.25 m</p><p>घनाभ का पृष्ठीय क्षेत्रफल = <b>2(lb + bh + hl)</b></p><p>मान रखने पर:<br>= 2[(6 &times; 3) + (3 &times; 0.25) + (0.25 &times; 6)]<br>= 2[18 + 0.75 + 1.5]<br>= 2[20.25]<br>= <b>40.5 m&sup2;</b></p><ul><li><b>Option 1 (35.5 m2):</b> गलत है।</li><li><b>Option 2 (30.5 m2):</b> गलत है।</li><li><b>Option 3 (40.5 m2):</b> यह बिल्कुल <b>सही</b> जवाब है!</li><li><b>Option 4 (42.5 m2):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Mensuration 3D",
+        "level": "Easy",
+        "q_en": "<p>A hemispherical bowl has a radius of 7 cm. Find its curved surface area. (Use &pi; = 22/7)</p>",
+        "q_hi": "<p>एक अर्धगोलाकार कटोरे (hemispherical bowl) की त्रिज्या 7 सेमी है। इसका वक्र पृष्ठीय क्षेत्रफल (curved surface area) ज्ञात कीजिए। (उपयोग करें &pi; = 22/7)</p>",
+        "op_en": [
+            "154 cm&sup2;",
+            "616 cm&sup2;",
+            "462 cm&sup2;",
+            "308 cm&sup2;"
+        ],
+        "op_hi": [
+            "154 cm&sup2;",
+            "616 cm&sup2;",
+            "462 cm&sup2;",
+            "308 cm&sup2;"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, यह अर्धगोले (Hemisphere) का एक आसान सवाल है।</p><p>अर्धगोले के वक्र पृष्ठीय क्षेत्रफल (Curved Surface Area - CSA) का सूत्र होता है: <b>2&pi;r&sup2;</b></p><p>दिया गया है:<br>त्रिज्या (Radius, r) = 7 cm<br>&pi; = 22/7</p><p>मान रखने पर:<br>CSA = 2 &times; (22/7) &times; 7 &times; 7<br>= 2 &times; 22 &times; 7<br>= 44 &times; 7<br>= <b>308 cm&sup2;</b></p><ul><li><b>Option 1 (154 cm&sup2;):</b> यह केवल &pi;r&sup2; (वृत्त का क्षेत्रफल) है, इसलिए गलत है।</li><li><b>Option 2 (616 cm&sup2;):</b> यह पूरे गोले का क्षेत्रफल (4&pi;r&sup2;) है, इसलिए गलत है।</li><li><b>Option 3 (462 cm&sup2;):</b> यह अर्धगोले का संपूर्ण पृष्ठीय क्षेत्रफल (3&pi;r&sup2;) है, इसलिए गलत है।</li><li><b>Option 4 (308 cm&sup2;):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Profit and Loss",
+        "level": "Hard",
+        "q_en": "<p>A man incurs a loss of 33% by selling an article for &#8377;134. If he sells it for &#8377;492, what will be his gain percentage?</p>",
+        "q_hi": "<p>एक व्यक्ति को एक वस्तु को &#8377;134 में बेचने पर 33% की हानि होती है। यदि वह इसे &#8377;492 में बेचता है, तो उसका लाभ प्रतिशत क्या होगा?</p>",
+        "op_en": [
+            "148%",
+            "146%",
+            "145%",
+            "149%"
+        ],
+        "op_hi": [
+            "148%",
+            "146%",
+            "145%",
+            "149%"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, यह लाभ और हानि (Profit &amp; Loss) का एक बेहतरीन सवाल है।</p><p><b>Step 1: क्रय मूल्य (Cost Price - CP) निकालें</b><br>जब हानि 33% है, तो विक्रय मूल्य (Selling Price - SP) क्रय मूल्य का (100 - 33)% यानी 67% होगा।<br>CP का 67% = 134<br>CP = (134 &times; 100) / 67 = <b>&#8377;200</b></p><p><b>Step 2: नया लाभ (New Gain) निकालें</b><br>नया विक्रय मूल्य (New SP) = &#8377;492<br>नया लाभ = New SP - CP<br>लाभ = 492 - 200 = <b>&#8377;292</b></p><p><b>Step 3: नया लाभ प्रतिशत (Gain %) निकालें</b><br>Gain % = (Gain / CP) &times; 100<br>= (292 / 200) &times; 100<br>= 292 / 2 = <b>146%</b></p><ul><li><b>Option 1 (148%):</b> गलत है।</li><li><b>Option 2 (146%):</b> यह बिल्कुल <b>सही</b> जवाब है!</li><li><b>Option 3 (145%):</b> गलत है।</li><li><b>Option 4 (149%):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Profit, Loss and Discount",
+        "level": "Moderate",
+        "q_en": "<p>After allowing a discount of 30% on its marked price, the value of a smart TV is &#8377;23,520. If no discount is allowed, then the shopkeeper gains 20%. The cost price of the smart TV is:</p>",
+        "q_hi": "<p>इसके अंकित मूल्य पर 30% की छूट देने के बाद, एक स्मार्ट टीवी का मूल्य &#8377;23,520 है। यदि कोई छूट नहीं दी जाती है, तो दुकानदार को 20% का लाभ होता है। स्मार्ट टीवी का क्रय मूल्य है:</p>",
+        "op_en": [
+            "&#8377;27,988",
+            "&#8377;28,011",
+            "&#8377;27,944",
+            "&#8377;28,000"
+        ],
+        "op_hi": [
+            "&#8377;27,988",
+            "&#8377;28,011",
+            "&#8377;27,944",
+            "&#8377;28,000"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस Discount और Profit के मिले-जुले सवाल को हल करते हैं।</p><p><b>Step 1: अंकित मूल्य (Marked Price - MP) निकालें</b><br>छूट (Discount) 30% देने के बाद विक्रय मूल्य (SP) = &#8377;23,520 है।<br>इसका मतलब है कि MP का 70% = 23,520<br>MP = (23520 &times; 100) / 70<br>MP = 336 &times; 100 = <b>&#8377;33,600</b></p><p><b>Step 2: क्रय मूल्य (Cost Price - CP) निकालें</b><br>प्रश्न कहता है: \"यदि कोई छूट नहीं दी जाती है, तो दुकानदार को 20% का लाभ होता है।\"<br>बिना छूट के बेचने का मतलब है कि MP पर ही बेचना। यानी नया SP = MP = &#8377;33,600<br>इस स्थिति में लाभ = 20% है।<br>CP का 120% = 33,600<br>CP = (33600 &times; 100) / 120<br>CP = 280 &times; 100 = <b>&#8377;28,000</b></p><ul><li><b>Option 1 (&#8377;27,988):</b> गलत है।</li><li><b>Option 2 (&#8377;28,011):</b> गलत है।</li><li><b>Option 3 (&#8377;27,944):</b> गलत है।</li><li><b>Option 4 (&#8377;28,000):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Profit, Loss and Discount",
+        "level": "Moderate",
+        "q_en": "<p>A shopkeeper sets the marked price of a product at 8% over its cost price. If the shopkeeper offers a 5% discount on the marked price, what is her profit percentage?</p>",
+        "q_hi": "<p>एक दुकानदार किसी उत्पाद का अंकित मूल्य उसके क्रय मूल्य से 8% अधिक निर्धारित करता है। यदि दुकानदार अंकित मूल्य पर 5% की छूट प्रदान करता है, तो उसका लाभ प्रतिशत क्या है?</p>",
+        "op_en": [
+            "2.6%",
+            "1.6%",
+            "2.5%",
+            "1.1%"
+        ],
+        "op_hi": [
+            "2.6%",
+            "1.6%",
+            "2.5%",
+            "1.1%"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, यह Profit &amp; Discount का एक बहुत ही शानदार सवाल है। इसे हम Successive Percentage (क्रमिक प्रतिशत) के फ़ॉर्मूले से बहुत आसानी से हल कर सकते हैं।</p><p><b>Short Trick (A + B + AB/100):</b><br>यहाँ मूल्य को 8% बढ़ाया गया है (Markup), इसलिए A = +8<br>फिर 5% की छूट दी गई है (Discount), इसलिए B = -5</p><p>शुद्ध प्रतिशत परिवर्तन (Net Change) = A + B + (A &times; B)/100<br>= 8 - 5 + [8 &times; (-5)] / 100<br>= 3 - (40/100)<br>= 3 - 0.40<br>= <b>+2.6%</b></p><p>चूँकि उत्तर धनात्मक (+) है, इसका मतलब <b>2.6% का लाभ (Profit)</b> हो रहा है।</p><ul><li><b>Option 1 (2.6%):</b> यह बिल्कुल <b>सही</b> जवाब है!</li><li><b>Option 2 (1.6%):</b> गलत है।</li><li><b>Option 3 (2.5%):</b> गलत है।</li><li><b>Option 4 (1.1%):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Mensuration 3D",
+        "level": "Hard",
+        "q_en": "<p>The sum of perimeters of the six faces of a cuboid is 88 cm and the total surface area of the cuboid is 32 sq. cm. Find the longest possible length that can be kept inside the cuboid.</p>",
+        "q_hi": "<p>एक घनाभ (cuboid) के छह फलकों के परिमापों का योग 88 सेमी है और घनाभ का कुल पृष्ठीय क्षेत्रफल 32 वर्ग सेमी है। वह सबसे लंबी संभव लंबाई ज्ञात कीजिए जिसे घनाभ के अंदर रखा जा सकता है।</p>",
+        "op_en": [
+            "<img align=\"middle\" alt=\"square root of 79 space cm\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«msqrt»«mn»79«/mn»«/msqrt»«mo»§#160;«/mo»«mi»cm«/mi»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAWCAYAAAB3/EQhAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAjdJREFUeNrlmE8oREEcx1/atMmBkJSybdokSUkpSmoPkhyUpJREkoODEzdyUBLloBwkOXAQysVFXLZNq5QkKSRJ2kIS2t3wnfpujdcM7+1Sy/vWp2Z+b997850/v5m3hpGYPCDLcKCqwfsvktIaB/cg12mj7gJhMObEKd/AqelxovllEHKicZHdX0CP4pr3iwQ2wd8UgVXwDJ7APMj7K+Y7QFST6Pq/MF8K8sEN2AAZoIT1Y5D5F8yHOO1VmgOVplg5CLI8y47wKjpsNNWNF7KhTZrrxYrYDOhiOazYwwsYO0118yM0YHWKpnNap7Meo1GX6XciFrHRjkZwyHv2gY/xMjAF7oCbZZFbroAf5IAl8AouQZ0d8xc83FhVN0c+rmMabVWYf7b4zBoQABWsi0R6xPKdlGPamFdaWBdmBxirZ+zI/HC/YmSEanlDtQ3zQY6GeX2fcd27uCREbNviM3doMq4+cM1ymuZ4rItFzNNaBCcVL10ABzaMy4lO1gAbG2HWH+Y7Oy0+9/Wbs78d8+8q8zFuS3G5udaHbJif4bT/TgFNJ+kUYRtLftq8wbUigruKvd1jI9HdSolO932wwLVYYMP8Htu3xGnulaZ90uaFTsAbqGJ9HWwmkehkiRNeL9+xlcDprl1qeIydPMtr2dK1bIuxHPMLfDR/zr09qjnOWk10cm8/gjVuV4lqEDxw/S9KBlT/CViNfdKWlIXDXPeOkZsjLjpgxYlfcNM032w4VNOaQ8+/0Qfc+dMx3jauGQAAAHN0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bXNxcnQ+PG1uPjc5PC9tbj48L21zcXJ0Pjxtbz4mI3hBMDs8L21vPjxtaT5jbTwvbWk+PC9tYXRoPth4g+MAAAAASUVORK5CYII=\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"square root of 89 space cm\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«msqrt»«mn»89«/mn»«/msqrt»«mo»§#160;«/mo»«mi»cm«/mi»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAWCAYAAAB3/EQhAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAn1JREFUeNrll09IVEEcxx/iYYkOLVuIUCQeZIkOXQKhIgKJiOggSMQmEYVEB4lOdTMighDt5C0kPBQSFXQRIqpDiCi0hEgEGhERsWARsS269PwOfBbGYd7u281g9f3gAzu/efPn+5v5zcwGQWPWIXYECbRuEf5HmtruiB9iZ9JWvVUUxK0kbvkTbM2OJIp/KGaTKNyc7n/EJU9dTsyIklgReXHR+WaveCyK4re4L3ZtFvHnxKrnoLtCKtwTKc6FYXxX+aZNfBPPxDaRpbwgtm8G8bNse9cKCG2xfC34flIeo9zpCdrNZhe+m4me8tQtUtdr+fbgm3QCZFs7vo/NLn4IAb4tepI8L5Ln5ps34gFb3FgZoa1O25C2cc2M9Z42c6IL/34xIpZJvRHm80X0iIyY4Ez6LI7WI/4Tj5soO0KnRsx3rkTbFqjr84gvxpzDIfFWHKB8V8zze9l6IZ4h6L2UzbwG8R3DN+923uNZGWOHadBdZWJtRHbSCsBxT34vkvdmnAv4XsYU/wqRFbssvjpnTOgJblhrtw3hHPYMOi7eVZnUPsTmKPfTuXsODDLZFU79G3xzPqb4Uo23fz3iQ5/4MqtYsRS5fr3KoHnPad9nbbkoM1t4uo7UqwQ0u9HiA3LFOF977vZqz9kPtEt7rrq5iP8H4wSmvQ7xM/Q5Qf+d1rb/Z/EVIX/FQcpPxfMak8pZ11oacbe547POC2+AMaYaeN2dtSZeJtXGqEtbdemYvow7QBfil7jbVyOes4HnlZdnUiY3X3AW2NH+JZ5wXTVq1whqias046ymvapxfetsyjqFC+R9YizFipsAPEriP7hRxJ8OEmqjEY+eLWNrLGTqLCr/DhMAAABzdEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1zcXJ0Pjxtbj44OTwvbW4+PC9tc3FydD48bW8+JiN4QTA7PC9tbz48bWk+Y208L21pPjwvbWF0aD5ek2VWAAAAAElFTkSuQmCC\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"square root of 73 space cm\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«msqrt»«mn»73«/mn»«/msqrt»«mo»§#160;«/mo»«mi»cm«/mi»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAWCAYAAAB3/EQhAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAiBJREFUeNrlmEEoREEcxl+btEkitAfUJkmSlGSLktqDJAcXKRdxkIODk3JRDkqy2x6UJEni5uDiIi6SKCXJBUmbpJYc2JY839SnxjNvvdlW7Xpf/bL7n915872Z+d4sw0hNflBouFABYP4hGa1p8AhK3DbrOeABTLlxyXdwafrdaH4dHLnRuEj3VzCkaKtMEmAz/Ewz2AcJ8AyWQHG2mO8HbzZBN5LEfC2ZYGYUgAW27WaL+SMue5WEmUZLrR4cSDdHlofmX7LBeDkH22XTXqWoRcCAZFZWjWVLZLQm+YjLd/j5XHDHv1Y1gXMQTmEcneCUuXEMqlmvA3MgBrx8LVbVLQgyW1ZBHNyANp2LXvNw41SDnHnV4E1pv5dq9NnCwGzge7Fqzvg6JvXbC/JAD98Ls6OstbN2Zu08yECyqpVfCGgM9ICzoVIFZ83kbDjVLk1+aRhELRliPR7b1RLWZS2Ks4qLLoMTjUHKQWenphQCL/7L2V/HvKky/w58Ut3LvT6uMcgIl30ypZL2CX6nJt3mDe4VUdxTPNv9GkF3bxN0ssp4rTUN84fSVvHwYBVNl3mhC/DBZSm0CbbSEHQidBaZuiLktjlwn0bffdLA33mT59lWJLUVOaz9OF1W0/wVn+1vNsdZ3aALc8+KpXvJbNFJ+i+NgSf2tSIZUP1PwGntm7bZsMP97nXTDxgvZ1zcgA03/oIL0Xy34VKFbA49/0af9krKKCDVdYAAAABzdEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1zcXJ0Pjxtbj43MzwvbW4+PC9tc3FydD48bW8+JiN4QTA7PC9tbz48bWk+Y208L21pPjwvbWF0aD73oMKDAAAAAElFTkSuQmCC\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"square root of 83 space cm\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«msqrt»«mn»83«/mn»«/msqrt»«mo»§#160;«/mo»«mi»cm«/mi»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAWCAYAAAB3/EQhAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAm5JREFUeNrllz9IHEEUxhexOETE4xIsjCApRMQijURQCYKIhGAhiMhplRTBIgQrwUaQIARRK0FEREQiNilshCBqYSEKHnJIGg1BLMLBGSz0UHHzBn4Lk8nseesf8LIffHD73uzs+2beezPnOLdDpbDUCSHqhe4D8lFjRHgifBK2XS8UpoTDYUz5NlKzMozivwi3wyhcdfdz4TuLLy7cEmaEF8KE8K0x5qVwE/+pcEYYyxfxPcJLS6ProxQmhBH6wii2j4ypEQ7iKxFO4V/LF/HbpL2JFEIKNFsBtt/aAjkW/1k+CH9GsG8svgN8HZqtAtuSJlZHNf7P+SB+iB0utvheU8dn1LkasyGcExZZxtcJ9ymToFDf2uN7O8Iq7LXCMWGa0hsjniNhC71lnp70U/gqyEd/cLnxQxOTqt38xZHoF7yr1fvTADE00DBf8KyyJsnvtDZvF4vewbOK6wO2ZmxJc/IWGpKJRl6ozxJYGSu7pC1Aq8/YCnbN5Z1csYZID++Fx0YPMa/HfrYLM61durSJWeFulqBqEBvnuZfJzT5gpn7Qhpe54e4fRLxrE3/FLnqIUOsDWT6asHT7Ti3lbLhNt/cWtPq+xTvUijKuW872bNfZ77wXtYjb8XmnHP9CAPFbWqmo+Z9raX9n8Z6Qa9JS4atw+Yag4tqxFqVvfOKM93ZJZcA0XVc1uRUCLwsgvlsL/IpSm8QX1XzRHG3/3C6rEH/I2X7pc511LLe8BEGp2vxGL/AwoV19D+gtQTq9h34WNcNRGjN2U9/VXG1/YQXHKvUeCdMfmAg7rhZgMYz/4MYR3+6EFOM+l57/Bn8ARbXhI4VIrlkAAABzdEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1zcXJ0Pjxtbj44MzwvbW4+PC9tc3FydD48bW8+JiN4QTA7PC9tbz48bWk+Y208L21pPjwvbWF0aD5xSyQ2AAAAAElFTkSuQmCC\" style=\"max-width: none;\">"
+        ],
+        "op_hi": [
+            "<img align=\"middle\" alt=\"square root of 79 space cm\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«msqrt»«mn»79«/mn»«/msqrt»«mo»§#160;«/mo»«mi»cm«/mi»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAWCAYAAAB3/EQhAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAjdJREFUeNrlmE8oREEcx1/atMmBkJSybdokSUkpSmoPkhyUpJREkoODEzdyUBLloBwkOXAQysVFXLZNq5QkKSRJ2kIS2t3wnfpujdcM7+1Sy/vWp2Z+b997850/v5m3hpGYPCDLcKCqwfsvktIaB/cg12mj7gJhMObEKd/AqelxovllEHKicZHdX0CP4pr3iwQ2wd8UgVXwDJ7APMj7K+Y7QFST6Pq/MF8K8sEN2AAZoIT1Y5D5F8yHOO1VmgOVplg5CLI8y47wKjpsNNWNF7KhTZrrxYrYDOhiOazYwwsYO0118yM0YHWKpnNap7Meo1GX6XciFrHRjkZwyHv2gY/xMjAF7oCbZZFbroAf5IAl8AouQZ0d8xc83FhVN0c+rmMabVWYf7b4zBoQABWsi0R6xPKdlGPamFdaWBdmBxirZ+zI/HC/YmSEanlDtQ3zQY6GeX2fcd27uCREbNviM3doMq4+cM1ymuZ4rItFzNNaBCcVL10ABzaMy4lO1gAbG2HWH+Y7Oy0+9/Wbs78d8+8q8zFuS3G5udaHbJif4bT/TgFNJ+kUYRtLftq8wbUigruKvd1jI9HdSolO932wwLVYYMP8Htu3xGnulaZ90uaFTsAbqGJ9HWwmkehkiRNeL9+xlcDprl1qeIydPMtr2dK1bIuxHPMLfDR/zr09qjnOWk10cm8/gjVuV4lqEDxw/S9KBlT/CViNfdKWlIXDXPeOkZsjLjpgxYlfcNM032w4VNOaQ8+/0Qfc+dMx3jauGQAAAHN0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bXNxcnQ+PG1uPjc5PC9tbj48L21zcXJ0Pjxtbz4mI3hBMDs8L21vPjxtaT5jbTwvbWk+PC9tYXRoPth4g+MAAAAASUVORK5CYII=\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"square root of 89 space cm\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«msqrt»«mn»89«/mn»«/msqrt»«mo»§#160;«/mo»«mi»cm«/mi»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAWCAYAAAB3/EQhAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAn1JREFUeNrll09IVEEcxx/iYYkOLVuIUCQeZIkOXQKhIgKJiOggSMQmEYVEB4lOdTMighDt5C0kPBQSFXQRIqpDiCi0hEgEGhERsWARsS269PwOfBbGYd7u281g9f3gAzu/efPn+5v5zcwGQWPWIXYECbRuEf5HmtruiB9iZ9JWvVUUxK0kbvkTbM2OJIp/KGaTKNyc7n/EJU9dTsyIklgReXHR+WaveCyK4re4L3ZtFvHnxKrnoLtCKtwTKc6FYXxX+aZNfBPPxDaRpbwgtm8G8bNse9cKCG2xfC34flIeo9zpCdrNZhe+m4me8tQtUtdr+fbgm3QCZFs7vo/NLn4IAb4tepI8L5Ln5ps34gFb3FgZoa1O25C2cc2M9Z42c6IL/34xIpZJvRHm80X0iIyY4Ez6LI7WI/4Tj5soO0KnRsx3rkTbFqjr84gvxpzDIfFWHKB8V8zze9l6IZ4h6L2UzbwG8R3DN+923uNZGWOHadBdZWJtRHbSCsBxT34vkvdmnAv4XsYU/wqRFbssvjpnTOgJblhrtw3hHPYMOi7eVZnUPsTmKPfTuXsODDLZFU79G3xzPqb4Uo23fz3iQ5/4MqtYsRS5fr3KoHnPad9nbbkoM1t4uo7UqwQ0u9HiA3LFOF977vZqz9kPtEt7rrq5iP8H4wSmvQ7xM/Q5Qf+d1rb/Z/EVIX/FQcpPxfMak8pZ11oacbe547POC2+AMaYaeN2dtSZeJtXGqEtbdemYvow7QBfil7jbVyOes4HnlZdnUiY3X3AW2NH+JZ5wXTVq1whqias046ymvapxfetsyjqFC+R9YizFipsAPEriP7hRxJ8OEmqjEY+eLWNrLGTqLCr/DhMAAABzdEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1zcXJ0Pjxtbj44OTwvbW4+PC9tc3FydD48bW8+JiN4QTA7PC9tbz48bWk+Y208L21pPjwvbWF0aD5ek2VWAAAAAElFTkSuQmCC\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"square root of 73 space cm\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«msqrt»«mn»73«/mn»«/msqrt»«mo»§#160;«/mo»«mi»cm«/mi»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAWCAYAAAB3/EQhAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAiBJREFUeNrlmEEoREEcxl+btEkitAfUJkmSlGSLktqDJAcXKRdxkIODk3JRDkqy2x6UJEni5uDiIi6SKCXJBUmbpJYc2JY839SnxjNvvdlW7Xpf/bL7n915872Z+d4sw0hNflBouFABYP4hGa1p8AhK3DbrOeABTLlxyXdwafrdaH4dHLnRuEj3VzCkaKtMEmAz/Ewz2AcJ8AyWQHG2mO8HbzZBN5LEfC2ZYGYUgAW27WaL+SMue5WEmUZLrR4cSDdHlofmX7LBeDkH22XTXqWoRcCAZFZWjWVLZLQm+YjLd/j5XHDHv1Y1gXMQTmEcneCUuXEMqlmvA3MgBrx8LVbVLQgyW1ZBHNyANp2LXvNw41SDnHnV4E1pv5dq9NnCwGzge7Fqzvg6JvXbC/JAD98Ls6OstbN2Zu08yECyqpVfCGgM9ICzoVIFZ83kbDjVLk1+aRhELRliPR7b1RLWZS2Ks4qLLoMTjUHKQWenphQCL/7L2V/HvKky/w58Ut3LvT6uMcgIl30ypZL2CX6nJt3mDe4VUdxTPNv9GkF3bxN0ssp4rTUN84fSVvHwYBVNl3mhC/DBZSm0CbbSEHQidBaZuiLktjlwn0bffdLA33mT59lWJLUVOaz9OF1W0/wVn+1vNsdZ3aALc8+KpXvJbNFJ+i+NgSf2tSIZUP1PwGntm7bZsMP97nXTDxgvZ1zcgA03/oIL0Xy34VKFbA49/0af9krKKCDVdYAAAABzdEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1zcXJ0Pjxtbj43MzwvbW4+PC9tc3FydD48bW8+JiN4QTA7PC9tbz48bWk+Y208L21pPjwvbWF0aD73oMKDAAAAAElFTkSuQmCC\" style=\"max-width: none;\">",
+            "<img align=\"middle\" alt=\"square root of 83 space cm\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«msqrt»«mn»83«/mn»«/msqrt»«mo»§#160;«/mo»«mi»cm«/mi»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAWCAYAAAB3/EQhAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAASM53j1gAAAm5JREFUeNrllz9IHEEUxhexOETE4xIsjCApRMQijURQCYKIhGAhiMhplRTBIgQrwUaQIARRK0FEREQiNilshCBqYSEKHnJIGg1BLMLBGSz0UHHzBn4Lk8nseesf8LIffHD73uzs+2beezPnOLdDpbDUCSHqhe4D8lFjRHgifBK2XS8UpoTDYUz5NlKzMozivwi3wyhcdfdz4TuLLy7cEmaEF8KE8K0x5qVwE/+pcEYYyxfxPcJLS6ProxQmhBH6wii2j4ypEQ7iKxFO4V/LF/HbpL2JFEIKNFsBtt/aAjkW/1k+CH9GsG8svgN8HZqtAtuSJlZHNf7P+SB+iB0utvheU8dn1LkasyGcExZZxtcJ9ymToFDf2uN7O8Iq7LXCMWGa0hsjniNhC71lnp70U/gqyEd/cLnxQxOTqt38xZHoF7yr1fvTADE00DBf8KyyJsnvtDZvF4vewbOK6wO2ZmxJc/IWGpKJRl6ozxJYGSu7pC1Aq8/YCnbN5Z1csYZID++Fx0YPMa/HfrYLM61durSJWeFulqBqEBvnuZfJzT5gpn7Qhpe54e4fRLxrE3/FLnqIUOsDWT6asHT7Ti3lbLhNt/cWtPq+xTvUijKuW872bNfZ77wXtYjb8XmnHP9CAPFbWqmo+Z9raX9n8Z6Qa9JS4atw+Yag4tqxFqVvfOKM93ZJZcA0XVc1uRUCLwsgvlsL/IpSm8QX1XzRHG3/3C6rEH/I2X7pc511LLe8BEGp2vxGL/AwoV19D+gtQTq9h34WNcNRGjN2U9/VXG1/YQXHKvUeCdMfmAg7rhZgMYz/4MYR3+6EFOM+l57/Bn8ARbXhI4VIrlkAAABzdEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1zcXJ0Pjxtbj44MzwvbW4+PC9tc3FydD48bW8+JiN4QTA7PC9tbz48bWk+Y208L21pPjwvbWF0aD5xSyQ2AAAAAElFTkSuQmCC\" style=\"max-width: none;\">"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, यह एक ट्रिकी लेकिन बहुत ही मज़ेदार सवाल है। इसमें थोड़ा अलजेब्रा (Algebra) का तड़का है!</p><p>घनाभ (Cuboid) की लंबाई = l, चौड़ाई = b, ऊंचाई = h</p><p><b>Step 1: दिए गए आंकड़ों को समीकरण में लिखें</b><br>1. छह फलकों (faces) के परिमापों का योग = 88 cm<br>घनाभ के फलक आयताकार (rectangular) होते हैं।<br>2 फलक (l &times; b) के = परिमाप: 2(2l + 2b)<br>2 फलक (b &times; h) के = परिमाप: 2(2b + 2h)<br>2 फलक (h &times; l) के = परिमाप: 2(2h + 2l)<br>सबका योग = 4l + 4b + 4b + 4h + 4h + 4l = 8(l + b + h)<br>तो, 8(l + b + h) = 88 &rArr; <b>(l + b + h) = 11</b> ... (Equation 1)</p><p>2. कुल पृष्ठीय क्षेत्रफल (Total Surface Area) = 32 sq. cm<br><b>2(lb + bh + hl) = 32</b> ... (Equation 2)</p><p><b>Step 2: सबसे लंबी संभव लंबाई (Diagonal) निकालें</b><br>घनाभ के अंदर रखी जा सकने वाली सबसे लंबी छड़ की लंबाई उसका विकर्ण (Diagonal) होती है।<br>Diagonal = &radic;(l&sup2; + b&sup2; + h&sup2;)</p><p>बीजगणित के सूत्र (Algebraic identity) का उपयोग करें:<br>(l + b + h)&sup2; = l&sup2; + b&sup2; + h&sup2; + 2(lb + bh + hl)</p><p>मान रखने पर:<br>(11)&sup2; = l&sup2; + b&sup2; + h&sup2; + 32<br>121 = l&sup2; + b&sup2; + h&sup2; + 32<br>l&sup2; + b&sup2; + h&sup2; = 121 - 32 = 89</p><p>अब विकर्ण (Diagonal) निकालें:<br>Diagonal = &radic;(l&sup2; + b&sup2; + h&sup2;) = <b>&radic;89 cm</b></p><ul><li><b>Option 1 (&#8730;79):</b> गलत है।</li><li><b>Option 2 (&#8730;89):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 3 (&#8730;73):</b> गलत है।</li><li><b>Option 4 (&#8730;83):</b> यह भी गलत है।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability1",
+        "topic": "Mensuration 3D",
+        "level": "Hard",
+        "q_en": "The circumference of the base of a cylindrical vessel is 800 cm, and its height is 77 cm. How many litres of water can it hold?<br><img align=\"middle\" alt=\"open parentheses Use space pi equals 22 over 7 close parentheses\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mfenced»«mrow»«mi»Use«/mi»«mo»§#160;«/mo»«mi»§#960;«/mi»«mo»=«/mo»«mfrac»«mn»22«/mn»«mn»7«/mn»«/mfrac»«/mrow»«/mfenced»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAAAsCAYAAACNIC3mAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAAdoyL+RwAAA8pJREFUeNrtnF9kW1Ecx4+oqZoStYeJKlEzNX2pqqipvU5MjenD5KHytoeZGnuYPM2oqaq81UxVVImpqZlRNXvay1RFzYyZmqoYVVNVUbLzk1/k5OR3bs659yZZm9+Hn7Tn/O7tze97zz3/frdCmHkiLSeYdrGCMXciKe1QWpTj1zb6pR1Iu2d7wKC0Y2mzHLu2k5L2V9qQjfOWtG8cs45RkLbdzAmaXZlbkxUJvKFL2E3MS+vx4UO1KtDgfjM1i9IirIMnUSXocRQDgrvg6EMRQVELJocpPNEi69CUWa1lJDB2J44+JhbQd4qqXMXKBOvgC4jdaQg+wAT65qjmdmKpNtPIFQzsZkAflWMUNUI99vIcc1/MYPwmAvqovEX/O/oqBBRmOOa+2JG2HIKPyjPUZE4tXMfCaY65M3CTf5XWG9BHZxo1WVMLPzo2S6bCJAowENCHYhQ1+aR3XGVHxbsdWObZ0gR4KOpXdWx8TPSiJkdq4SkWMnZcl/YbY6Zb1sGn2cS3YThfZqGc+GEQAOyug4/N3KykFzD/70S6qVCmO8KrnumAUMANRYSbRH0c62618GKvSdvzuHH8PloulVA2fVirW9JzB5FMQrkcz0IFmFS+UEZCZeLvn1l+BxZKYVzaPgbvJVGfVuphsh1zvHA/QvGjj6jblTai9XFVHuDv40rd3gURqtwi65hQ5x6Tus8BHzcmoUr86KsE3svnzDAh/I6CqTudpYDBMAlVZqEqKUzg029Y6ihqZVelvVG++BIh+kiACy853khd00dtos8MUQervGuG42BbP6+tV+3gud6Lyq7nICG0iR5Bb2fvY3ms24UaxeBAJmc14aJPVBI4CkTrgPMN488gxE+lLqU9ZqB1vLa86DE8Rs/QWRS1vRtIeRu4rEKdW4r1TnkMwue6YbWi2vpAoF+isiejz4v+YN+WdwhsBs+d1sohNWsDv8fGJROp7jHP2xzhEPcYoLxyPBe5zcEbh+HwyEMo18FTnyA2Dj9g4RjHOhDLRAyhy/ji41zVhM26rfic4OSWMBgmyrLCXy4/mdzyGAufcqxDBaYfh/jpSobSZFJwAmYrSAu7/AgKMgEzgsPtI45tqEDf5GdDtZpi3pDSDKyI2qo2Exy/gwghainm5DvUt7FynmMcClliYm7LkvB47QaAdbgDwS+yhTGIKPocRMB6Jqza7Ho5JVHJFMe6Y4OItLB4NRSAVe0Cx7ojgwgA9vC2bRxjOPrjF6470xJhOW/I9oAk9lX8D0HaRxT7taTrgbAVscrxaxswPZozVf4DIcvAqSF5Xa8AAAC4dEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1mZW5jZWQ+PG1yb3c+PG1pPlVzZTwvbWk+PG1vPiYjeEEwOzwvbW8+PG1pPiYjeDNDMDs8L21pPjxtbz49PC9tbz48bWZyYWM+PG1uPjIyPC9tbj48bW4+NzwvbW4+PC9tZnJhYz48L21yb3c+PC9tZmVuY2VkPjwvbWF0aD4UAfvWAAAAAElFTkSuQmCC\" style=\"max-width: none;\">",
+        "q_hi": "<p>एक बेलनाकार बर्तन (cylindrical vessel) के आधार की परिधि 800 सेमी है, और इसकी ऊंचाई 77 सेमी है। यह कितने लीटर पानी रख सकता है?</p><p><img align=\"middle\" alt=\"open parentheses Use space pi equals 22 over 7 close parentheses\" class=\"Wirisformula\" data-mathml=\"«math xmlns=¨http://www.w3.org/1998/Math/MathML¨»«mfenced»«mrow»«mi»Use«/mi»«mo»§#160;«/mo»«mi»§#960;«/mi»«mo»=«/mo»«mfrac»«mn»22«/mn»«mn»7«/mn»«/mfrac»«/mrow»«/mfenced»«/math»\" loading=\"lazy\" role=\"math\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAAAsCAYAAACNIC3mAAAACXBIWXMAABM5AAATOQGPwlYBAAAABGJhU0UAAAAdoyL+RwAAA8pJREFUeNrtnF9kW1Ecx4+oqZoStYeJKlEzNX2pqqipvU5MjenD5KHytoeZGnuYPM2oqaq81UxVVImpqZlRNXvay1RFzYyZmqoYVVNVUbLzk1/k5OR3bs659yZZm9+Hn7Tn/O7tze97zz3/frdCmHkiLSeYdrGCMXciKe1QWpTj1zb6pR1Iu2d7wKC0Y2mzHLu2k5L2V9qQjfOWtG8cs45RkLbdzAmaXZlbkxUJvKFL2E3MS+vx4UO1KtDgfjM1i9IirIMnUSXocRQDgrvg6EMRQVELJocpPNEi69CUWa1lJDB2J44+JhbQd4qqXMXKBOvgC4jdaQg+wAT65qjmdmKpNtPIFQzsZkAflWMUNUI99vIcc1/MYPwmAvqovEX/O/oqBBRmOOa+2JG2HIKPyjPUZE4tXMfCaY65M3CTf5XWG9BHZxo1WVMLPzo2S6bCJAowENCHYhQ1+aR3XGVHxbsdWObZ0gR4KOpXdWx8TPSiJkdq4SkWMnZcl/YbY6Zb1sGn2cS3YThfZqGc+GEQAOyug4/N3KykFzD/70S6qVCmO8KrnumAUMANRYSbRH0c62618GKvSdvzuHH8PloulVA2fVirW9JzB5FMQrkcz0IFmFS+UEZCZeLvn1l+BxZKYVzaPgbvJVGfVuphsh1zvHA/QvGjj6jblTai9XFVHuDv40rd3gURqtwi65hQ5x6Tus8BHzcmoUr86KsE3svnzDAh/I6CqTudpYDBMAlVZqEqKUzg029Y6ihqZVelvVG++BIh+kiACy853khd00dtos8MUQervGuG42BbP6+tV+3gud6Lyq7nICG0iR5Bb2fvY3ms24UaxeBAJmc14aJPVBI4CkTrgPMN488gxE+lLqU9ZqB1vLa86DE8Rs/QWRS1vRtIeRu4rEKdW4r1TnkMwue6YbWi2vpAoF+isiejz4v+YN+WdwhsBs+d1sohNWsDv8fGJROp7jHP2xzhEPcYoLxyPBe5zcEbh+HwyEMo18FTnyA2Dj9g4RjHOhDLRAyhy/ji41zVhM26rfic4OSWMBgmyrLCXy4/mdzyGAufcqxDBaYfh/jpSobSZFJwAmYrSAu7/AgKMgEzgsPtI45tqEDf5GdDtZpi3pDSDKyI2qo2Exy/gwghainm5DvUt7FynmMcClliYm7LkvB47QaAdbgDwS+yhTGIKPocRMB6Jqza7Ho5JVHJFMe6Y4OItLB4NRSAVe0Cx7ojgwgA9vC2bRxjOPrjF6470xJhOW/I9oAk9lX8D0HaRxT7taTrgbAVscrxaxswPZozVf4DIcvAqSF5Xa8AAAC4dEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1mZW5jZWQ+PG1yb3c+PG1pPlVzZTwvbWk+PG1vPiYjeEEwOzwvbW8+PG1pPiYjeDNDMDs8L21pPjxtbz49PC9tbz48bWZyYWM+PG1uPjIyPC9tbj48bW4+NzwvbW4+PC9tZnJhYz48L21yb3c+PC9tZmVuY2VkPjwvbWF0aD4UAfvWAAAAAElFTkSuQmCC\" style=\"max-width: none;\"></p>",
+        "op_en": [
+            "3,948",
+            "3,920",
+            "3,953",
+            "3,914"
+        ],
+        "op_hi": [
+            "3,948",
+            "3,920",
+            "3,953",
+            "3,914"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए बेलन (Cylinder) के इस सवाल को हल करते हैं। हमें बर्तन की क्षमता यानी आयतन (Volume) निकालना है।</p><p><b>Step 1: आधार की त्रिज्या (Radius) निकालें</b><br>आधार की परिधि (Circumference) = 2&pi;r = 800 cm<br>2 &times; (22/7) &times; r = 800<br>r = (800 &times; 7) / 44<br>r = 1400 / 11 cm</p><p><b>Step 2: बेलन का आयतन (Volume) निकालें</b><br>आयतन = &pi;r&sup2;h<br>V = (22/7) &times; (1400/11) &times; (1400/11) &times; 77<br>V = 2 &times; (1400) &times; (1400/11) &times; 11<br>V = 2 &times; 1400 &times; 1400<br>V = 39,20,000 cm&sup3;</p><p><b>Step 3: आयतन को लीटर में बदलें</b><br>हम जानते हैं कि 1 लीटर = 1000 cm&sup3;<br>इसलिए, पानी की मात्रा (लीटर में) = 39,20,000 / 1000 = <b>3920 लीटर</b></p><ul><li><b>Option 1 (3,948):</b> गलत है।</li><li><b>Option 2 (3,920):</b> यह बिल्कुल <b>सही</b> जवाब है!</li><li><b>Option 3 (3,953):</b> गलत है।</li><li><b>Option 4 (3,914):</b> यह भी गलत है।</li></ul>"
+    }
+]
