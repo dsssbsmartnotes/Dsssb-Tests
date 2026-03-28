@@ -146,27 +146,27 @@
         "ans": "2",
         "solution": "<p>Selling Price (SP) of the mixture = ₹137/kg<br>Gain % = 37%</p><p>First, we find the Cost Price (CP) of the mixture:<br>CP = $\\frac{SP \\times 100}{100 + Gain\\%}$<br>CP = $\\frac{137 \\times 100}{137}$ = ₹100/kg</p><p>Now, applying the rule of alligation:<br>Cost of 1st variety = ₹63/kg<br>Cost of 2nd variety = ₹113/kg<br>Mean price (CP of mixture) = ₹100/kg</p><p>Quantity of 1st variety : Quantity of 2nd variety<br>= (113 - 100) : (100 - 63)<br>= 13 : 37</p><p>Hence, the required ratio is 13:37.</p>"
     },
-    {
-        "section": "Arithmetical and Numerical Ability",
-        "topic": "Number System",
-        "level": "Easy",
-        "q_en": "How many prime numbers are there between 1 and 44?",
-        "q_hi": "1 और 44 के बीच कितनी अभाज्य संख्याएँ (prime numbers) हैं?",
-        "op_en": [
-            "13",
-            "14",
-            "11",
-            "12"
-        ],
-        "op_hi": [
-            "13",
-            "14",
-            "11",
-            "12"
-        ],
-        "ans": "1",
-        "solution": "<p>A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers. It has only two distinct divisors: 1 and itself.</p><p>The prime numbers between 1 and 44 are:<br>2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43</p><p>Counting them, we have 14 prime numbers.</p><p>However, the options provided do not match this correct count. Based on standard test key patterns if this is a typo in the test, 14 is the factual answer, but if forced to choose based on the provided answer key, it suggests 13. Re-evaluating the question, if it meant 'between' strictly, 1 and 44 are not prime anyway, so the count remains 14. If there's an error in the provided answer key, we must stick to the mathematical truth. The correct number is 14. <i>Note: The answer provided in the raw data was \"1\", corresponding to option \"13\", which is mathematically incorrect. We provide the solution showing 14.</i></p>"
-    },
+  {
+    "section": "Mathematics",
+    "topic": "Number System",
+    "level": "Easy",
+    "q_en": "<p>How many prime numbers are there between 1 and 44?</p>",
+    "q_hi": "<p>1 और 44 के बीच कितनी अभाज्य संख्याएँ (prime numbers) हैं?</p>",
+    "op_en": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "op_hi": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। सबसे पहले यह जान लीजिए कि <b>Prime Numbers (अभाज्य संख्याएँ)</b> वे संख्याएँ होती हैं जिनके केवल दो ही गुणनखंड (factors) होते हैं: 1 और वह संख्या स्वयं।</p><p>1 से 44 के बीच की अभाज्य संख्याएँ इस प्रकार हैं:</p><ul><li>1-10 के बीच: 2, 3, 5, 7 (4 संख्याएँ)</li><li>11-20 के बीच: 11, 13, 17, 19 (4 संख्याएँ)</li><li>21-30 के बीच: 23, 29 (2 संख्याएँ)</li><li>31-40 के बीच: 31, 37 (2 संख्याएँ)</li><li>41-44 के बीच: 41, 43 (2 संख्याएँ)</li></ul><p>इन सबको जोड़ने पर हमें कुल <b>14</b> संख्याएँ मिलती हैं।</p><p><b>विकल्पों का विश्लेषण (Options Analysis):</b></p><ul><li>विकल्प 1 (12) और विकल्प 2 (13) गलत हैं क्योंकि इनमें कुछ अभाज्य संख्याओं को छोड़ दिया गया है।</li><li>विकल्प 4 (15) गलत है क्योंकि इसमें शायद 1 (जो कि prime नहीं है) या किसी composite number को गलती से जोड़ लिया गया है।</li><li>विकल्प 3 (14) बिल्कुल सही है।</li></ul><p><b>याद रखने योग्य बातें:</b> 1 न तो अभाज्य (Prime) है और न ही भाज्य (Composite)। 2 सबसे छोटी और एकमात्र <b>Even Prime Number</b> है।</p>"
+  },
     {
         "section": "Arithmetical and Numerical Ability",
         "topic": "HCF and LCM",
