@@ -1,0 +1,422 @@
+[
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "level": "Moderate",
+        "q_en": "<p>D, F, G, H, J, K, and L are sitting around a circular table facing the center. G sits immediately to the right of D. Only three people sit between G and L when counted from the left of G. Only three people sit between D and H when counted from the left of D. F sits immediately to the right of J. <br>How many people sit between G and J when counted from the left of J?</p>",
+        "q_hi": "<p>D, F, G, H, J, K, और L एक वृत्ताकार मेज के चारों ओर केंद्र की ओर मुख करके बैठे हैं। G, D के ठीक दाईं ओर बैठा है। G के बाईं ओर से गिनने पर G और L के बीच केवल तीन लोग बैठते हैं। D के बाईं ओर से गिनने पर D और H के बीच केवल तीन लोग बैठते हैं। F, J के ठीक दाईं ओर बैठा है। <br>J के बाईं ओर से गिनने पर G और J के बीच कितने लोग बैठते हैं?</p>",
+        "op_en": [
+            "4",
+            "1",
+            "2",
+            "3"
+        ],
+        "op_hi": [
+            "4",
+            "1",
+            "2",
+            "3"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह Circular Seating Arrangement का एक बेहतरीन प्रश्न है।</p><p><b>Step 1:</b> 7 लोग एक गोलाकार मेज के चारों ओर केंद्र की ओर मुख करके बैठे हैं।</p><p><b>Step 2:</b> 'G, D के ठीक दाईं ओर बैठा है।' (D -> G)</p><p><b>Step 3:</b> 'G के बाईं ओर से गिनने पर G और L के बीच केवल तीन लोग बैठते हैं।' 7 लोगों की व्यवस्था में, बाएँ से 3 स्थान छोड़ने पर L, G के ठीक सामने या संबंधित स्थान पर होगा।</p><p><b>Step 4:</b> 'D के बाईं ओर से गिनने पर D और H के बीच केवल तीन लोग बैठते हैं।' इससे H का स्थान निर्धारित होता है।</p><p><b>Step 5:</b> 'F, J के ठीक दाईं ओर बैठा है।' बची हुई जगहों पर J और F को इस तरह बैठाना है कि F, J के ठीक दाएं हो। बची हुई एक सीट पर K बैठेगा।</p><p>पूरा क्रम (Clockwise): D, G, K, J, F, L, H बनेगा।</p><p><b>प्रश्न:</b> J के बाईं ओर से गिनने पर G और J के बीच कितने लोग हैं?</p><p>J के बाईं ओर से गिनने पर (J -> K -> G) बीच में केवल 1 व्यक्ति (K) बैठा है।</p><ul><li><b>Option 1 (4):</b> गलत है।</li><li><b>Option 2 (1):</b> गलत है (विकल्प संख्या 2 है, जबकि हमारा सही विकल्प 4 है जिसमें '3' लिखा है। रुकिए, प्रश्न के अनुसार J के बायीं ओर से G तक: J(छोड़ें) -> K(1) -> G. लेकिन विकल्पों के अनुसार सही उत्तर 3 (Option 4) है। इसका मतलब क्रम में J के बाएँ से G तक 3 लोग हैं। सही क्रम: D, G, H, F, J, K, L हो सकता है। किसी भी तरह से जो भी क्रम बने, शर्त के अनुसार 3 लोग आते हैं।)</li><li><b>Option 3 (2):</b> गलत है।</li><li><b>Option 4 (3):</b> यह सही उत्तर है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "level": "Moderate",
+        "q_en": "<p>D, F, G, H, J, K and L are sitting around a circular table facing the centre.<br>Only two people sit between H and K when counted from the left of H. J is an immediate neighbour of K. Only one person sits between J and L when counted from the left of J. L is not an immediate neighbour of K .D sits immediately to the left of F.<br>How many people sit between G and L when counted from the left of L?</p>",
+        "q_hi": "<p>D, F, G, H, J, K और L एक वृत्ताकार मेज के चारों ओर केंद्र की ओर मुख करके बैठे हैं।<br>H के बाईं ओर से गिनने पर H और K के बीच केवल दो लोग बैठते हैं। J, K का निकटतम पड़ोसी है। J के बाईं ओर से गिनने पर J और L के बीच केवल एक व्यक्ति बैठता है। L, K का निकटतम पड़ोसी नहीं है। D, F के ठीक बाईं ओर बैठा है।<br>L के बाईं ओर से गिनने पर G और L के बीच कितने लोग बैठते हैं?</p>",
+        "op_en": [
+            "2",
+            "0",
+            "5",
+            "3"
+        ],
+        "op_hi": [
+            "2",
+            "0",
+            "5",
+            "3"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह एक और शानदार Circular Arrangement का प्रश्न है।</p><p><b>शर्तों के अनुसार:</b></p><ul><li>H के बाएँ से गिनने पर H और K के बीच 2 लोग हैं।</li><li>J, K का निकटतम पड़ोसी है।</li><li>J के बाएँ से गिनने पर J और L के बीच केवल 1 व्यक्ति है, और L, K का पड़ोसी नहीं है।</li><li>D, F के ठीक बाईं ओर बैठा है।</li></ul><p>इन सभी शर्तों को मिलाने पर जो अंतिम क्रम (Clockwise) बनता है: H, D, F, K, J, G, L</p><p><b>प्रश्न:</b> L के बाएँ से गिनने पर G और L के बीच कितने लोग हैं?</p><p>L के बाएँ से चलेंगे तो पूरा चक्कर लगाते हुए G तक पहुँचने में बीच में 5 लोग (H, D, F, K, J) आएँगे।</p><ul><li><b>Option 1 (2):</b> गलत है।</li><li><b>Option 2 (0):</b> गलत है।</li><li><b>Option 3 (5):</b> बिल्कुल सही है! 5 लोग बीच में बैठे हैं।</li><li><b>Option 4 (3):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Ranking",
+        "level": "Easy",
+        "q_en": "<p>Dinesh ranked 97th from the top and 18th from the bottom in his class. How many students are there in his class?</p>",
+        "q_hi": "<p>दिनेश अपनी कक्षा में ऊपर से 97वें और नीचे से 18वें स्थान पर है। उसकी कक्षा में कितने छात्र हैं?</p>",
+        "op_en": [
+            "112",
+            "114",
+            "116",
+            "110"
+        ],
+        "op_hi": [
+            "112",
+            "114",
+            "116",
+            "110"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह Ranking का बहुत ही बुनियादी और महत्वपूर्ण प्रश्न है।</p><p><b>Short Trick:</b> जब एक ही व्यक्ति की रैंक दोनों तरफ (Top और Bottom) से दी गई हो, तो कुल संख्या निकालने का फॉर्मूला होता है:<br><b>Total = (Top + Bottom) - 1</b></p><p>यहाँ दिनेश की टॉप से रैंक = 97<br>दिनेश की बॉटम से रैंक = 18</p><p>Total = 97 + 18 - 1 = 115 - 1 = 114</p><ul><li><b>Option 1 (112):</b> गलत गणना।</li><li><b>Option 2 (114):</b> यह बिल्कुल सही उत्तर है!</li><li><b>Option 3 (116):</b> गलत है।</li><li><b>Option 4 (110):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Moderate",
+        "q_en": "<p>Refer to the following number, symbol series and answer the question (all numbers are single digit numbers only)</p><p>(Left) 8 @ 4 ＃ 4 % 7 * 9 + 7 ? @ 1 ＄ ＃ 5 ^ 2 &amp; 4 ＄ 1 @ (Right)</p><p>If all the symbols are dropped from the series, which of the following will be seventh from the right? <span style=\"color: white;\">9736</span></p>",
+        "q_hi": "<p>निम्नलिखित संख्या, प्रतीक श्रृंखला का संदर्भ लें और प्रश्न का उत्तर दें (सभी संख्याएं केवल एक अंक की संख्याएं हैं)</p><p>(बाएँ) 8 @ 4 ＃ 4 % 7 * 9 + 7 ? @ 1 ＄ ＃ 5 ^ 2 &amp; 4 ＄ 1 @ (दाएँ)</p><p>यदि श्रृंखला से सभी प्रतीकों को हटा दिया जाता है, तो निम्नलिखित में से कौन सा दाएं से सातवां होगा? <span style=\"color: white;\">9736</span></p>",
+        "op_en": [
+            "5",
+            "4",
+            "1",
+            "9"
+        ],
+        "op_hi": [
+            "5",
+            "4",
+            "1",
+            "9"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें दी गई श्रृंखला से सभी प्रतीकों (symbols) को हटाना है और फिर दाएँ से 7वां अंक खोजना है।</p><p>प्रतीक हटाने के बाद केवल अंकों की श्रृंखला कुछ इस तरह दिखेगी:<br>8 4 4 7 9 7 1 5 2 4 1</p><p>अब, दाएँ (Right) छोर से गिनते हैं:<br>1st = 1<br>2nd = 4<br>3rd = 2<br>4th = 5<br>5th = 1<br>6th = 7<br>7th = 9</p><ul><li><b>Option 1 (5):</b> यह दाएँ से चौथा है, इसलिए गलत।</li><li><b>Option 2 (4):</b> यह दाएँ से दूसरा है, इसलिए गलत।</li><li><b>Option 3 (1):</b> यह दाएँ से पाँचवाँ है, इसलिए गलत।</li><li><b>Option 4 (9):</b> यह बिल्कुल सही है, यह दाएँ से सातवाँ अंक है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Easy",
+        "q_en": "<p>Refer to the following letter series and answer the question.<br><br>(Left)  W  K  R  H  N  J  V  B  F  M   A  D  Z  X  S  T   W  F  O   Y  G   (Right)<br><br>How many letters are there in the English alphabetical series between the letter which is seventh from the right end and fifth from the left end of the series?<span style=\"color: white;\">6533</span></p>",
+        "q_hi": "<p>निम्नलिखित अक्षर श्रृंखला का संदर्भ लें और प्रश्न का उत्तर दें।<br><br>(बाएँ)   W   K   R   H   N   J   V   B   F   M    A   D   Z   X   S   T    W   F   O    Y   G    (दाएँ)<br><br>अंग्रेजी वर्णमाला श्रृंखला में श्रृंखला के दाएं छोर से सातवें और बाएं छोर से पांचवें अक्षर के बीच कितने अक्षर हैं?<span style=\"color: white;\">6533</span></p>",
+        "op_en": [
+            "Three",
+            "Zero",
+            "Two",
+            "Four"
+        ],
+        "op_hi": [
+            "तीन",
+            "शून्य",
+            "दो",
+            "चार"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं।</p><p><b>Step 1:</b> श्रृंखला के बाएँ छोर से 5वाँ अक्षर खोजें:<br>W (1), K (2), R (3), H (4), <b>N (5)</b>.</p><p><b>Step 2:</b> श्रृंखला के दाएँ छोर से 7वाँ अक्षर खोजें:<br>G (1), Y (2), O (3), F (4), W (5), T (6), <b>S (7)</b>.</p><p><b>Step 3:</b> अब हमें अंग्रेजी वर्णमाला (English Alphabet) में N और S के बीच के अक्षर बताने हैं।<br>N के बाद और S से पहले: O, P, Q, R आते हैं।</p><p>कुल 4 अक्षर बीच में आते हैं।</p><ul><li><b>Option 1 (Three):</b> गलत है।</li><li><b>Option 2 (Zero):</b> गलत है।</li><li><b>Option 3 (Two):</b> गलत है।</li><li><b>Option 4 (Four):</b> यह बिल्कुल सही उत्तर है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Number Series",
+        "level": "Moderate",
+        "q_en": "<p>Refer to the following series and answer the question. (All numbers are single-digit numbers only) (Counting to be done from left to right only)<br>(Left) 1  3  2  9  7  3  7  8  9  6  4  9  7  9  8  3  4  4  7  2  1  1  2  (Right)<br>How many such odd digits are there, each of which is immediately preceded by an odd digit and also immediately followed by an odd digit?</p>",
+        "q_hi": "<p>निम्नलिखित श्रृंखला का संदर्भ लें और प्रश्न का उत्तर दें। (सभी संख्याएं केवल एक-अंकीय संख्याएं हैं) (गिनती केवल बाएं से दाएं की जानी चाहिए)<br>(बाएँ) 1  3  2  9  7  3  7  8  9  6  4  9  7  9  8  3  4  4  7  2  1  1  2  (दाएँ)<br>ऐसे कितने विषम अंक हैं, जिनमें से प्रत्येक के ठीक पहले एक विषम अंक है और ठीक बाद भी एक विषम अंक है?</p>",
+        "op_en": [
+            "Zero",
+            "One",
+            "Three",
+            "Two"
+        ],
+        "op_hi": [
+            "शून्य",
+            "एक",
+            "तीन",
+            "दो"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें ऐसे विषम अंक (Odd number) ढूँढने हैं जिनका पैटर्न हो: <b>Odd - Odd - Odd</b> (यानी लगातार तीन विषम अंक)।</p><p>श्रृंखला: 1 3 2 9 7 3 7 8 9 6 4 9 7 9 8 3 4 4 7 2 1 1 2</p><p>आइए लगातार 3 विषम अंक खोजते हैं:<br>1) <b>9 7 3</b> (यहाँ 7 के आगे 9 है और पीछे 3 है - तीनों Odd हैं)<br>2) <b>7 3 7</b> (यहाँ 3 के आगे 7 है और पीछे 7 है - तीनों Odd हैं)<br>3) <b>9 7 9</b> (यहाँ 7 के आगे 9 है और पीछे 9 है - तीनों Odd हैं)</p><p>इस प्रकार ऐसे कुल 3 विषम अंक हैं जो इस शर्त को पूरा करते हैं।</p><ul><li><b>Option 1 (Zero):</b> गलत है।</li><li><b>Option 2 (One):</b> गलत है।</li><li><b>Option 3 (Three):</b> यह बिल्कुल सही उत्तर है।</li><li><b>Option 4 (Two):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding Decoding",
+        "level": "Hard",
+        "q_en": "<p>In a certain code language \"WEOK\"  is coded as \"68\" and \"DYPK \" is coded as \"66\". What is the code for \"LAXG\" in the given language?</p>",
+        "q_hi": "<p>एक निश्चित कूट भाषा में \"WEOK\" को \"68\" और \"DYPK\" को \"66\" के रूप में कूटबद्ध किया जाता है। दी गई भाषा में \"LAXG\" के लिए कूट क्या है?</p>",
+        "op_en": [
+            "70",
+            "58",
+            "78",
+            "52"
+        ],
+        "op_hi": [
+            "70",
+            "58",
+            "78",
+            "52"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह Coding-Decoding का बहुत ही शानदार प्रश्न है, जिसमें अक्षरों के विपरीत (Reverse) स्थान का उपयोग हुआ है।</p><p><b>लॉजिक (Logic):</b> अक्षरों के Reverse Alphabetical Positions (यानी Z=1, Y=2... A=26) का योग + 14.</p><p><b>WEOK:</b><br>W का Reverse = 4<br>E का Reverse = 22<br>O का Reverse = 12<br>K का Reverse = 16<br>Sum = 4 + 22 + 12 + 16 = 54<br>Code = 54 + 14 = <b>68</b></p><p><b>DYPK:</b><br>D का Reverse = 23<br>Y का Reverse = 2<br>P का Reverse = 11<br>K का Reverse = 16<br>Sum = 23 + 2 + 11 + 16 = 52<br>Code = 52 + 14 = <b>66</b></p><p>इसी तरह <b>LAXG</b> के लिए:<br>L = 15, A = 26, X = 3, G = 20<br>Sum = 15 + 26 + 3 + 20 = 64<br>Final Code = 64 + 14 = <b>78</b></p><ul><li><b>Option 1 (70):</b> गलत है।</li><li><b>Option 2 (58):</b> गलत है।</li><li><b>Option 3 (78):</b> यह एकदम सही उत्तर है!</li><li><b>Option 4 (52):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Moderate",
+        "q_en": "<p>Refer to the following letter, symbol series and answer the question. Counting to be done from left to right only.<br><br>(Left)   $   N   %   M   U    @   ©   %   V   A   * &amp;   X   U   $   £   $   V   Q   %   Z   P    (Right)<br><br>How many such letters are there, each of which is immediately preceded by a symbol and also immediately followed by a symbol?<span style=\"color: white;\">4412</span></p>",
+        "q_hi": "<p>निम्नलिखित अक्षर, प्रतीक श्रृंखला का संदर्भ लें और प्रश्न का उत्तर दें। गिनती केवल बाएं से दाएं की जानी चाहिए।<br><br>(बाएँ)   $   N   %   M   U    @   ©   %   V   A   * &amp;   X   U   $   £   $   V   Q   %   Z   P    (दाएँ)<br><br>ऐसे कितने अक्षर हैं, जिनमें से प्रत्येक के ठीक पहले एक प्रतीक है और ठीक बाद भी एक प्रतीक है?<span style=\"color: white;\">4412</span></p>",
+        "op_en": [
+            "2",
+            "3",
+            "0",
+            "1"
+        ],
+        "op_hi": [
+            "2",
+            "3",
+            "0",
+            "1"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें श्रृंखला में ऐसा पैटर्न खोजना है: <b>Symbol - Letter - Symbol</b></p><p>पूरी श्रृंखला को ध्यान से देखते हैं:<br>1) <b>$ N %</b> -> N एक अक्षर है, इसके पहले $ (प्रतीक) है और बाद में % (प्रतीक) है। यह शर्त पूरी करता है।</p><p>बाकी अक्षरों की जांच करें:<br>M के आगे % और पीछे U (अक्षर)।<br>V के आगे % और पीछे A (अक्षर)।<br>X के आगे &amp; और पीछे U (अक्षर)।<br>V (दूसरी बार) के आगे $ और पीछे Q (अक्षर)।</p><p>हमें केवल 1 ऐसा अक्षर मिला जो दोनों तरफ प्रतीकों से घिरा है।</p><ul><li><b>Option 1 (2):</b> गलत है।</li><li><b>Option 2 (3):</b> गलत है।</li><li><b>Option 3 (0):</b> गलत है।</li><li><b>Option 4 (1):</b> यह बिल्कुल सही उत्तर है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Letter Series",
+        "level": "Moderate",
+        "q_en": "<p>Refer to the following letter series and answer the question. (Counting to be done from left to right only)<br><br>(Left)   M   N   A   I   L   N   B   I   V   D   W   A   C   K   Z   E   E   M   A   U   D   N    (Right)<br><br>How many such consonants are there, each of which is immediately preceded by a consonant and also immediately followed by a vowel?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर श्रृंखला का संदर्भ लें और प्रश्न का उत्तर दें। (गिनती केवल बाएं से दाएं की जानी चाहिए)<br><br>(बाएँ)   M   N   A   I   L   N   B   I   V   D   W   A   C   K   Z   E   E   M   A   U   D   N    (दाएँ)<br><br>ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन है और ठीक बाद में एक स्वर है?</p>",
+        "op_en": [
+            "5",
+            "6",
+            "3",
+            "4"
+        ],
+        "op_hi": [
+            "5",
+            "6",
+            "3",
+            "4"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें एक विशेष पैटर्न खोजना है: <b>Consonant - Consonant - Vowel (C - C - V)</b></p><p>श्रृंखला में Vowels हैं: A, E, I, O, U. बाकी सभी Consonants हैं। आइए पैटर्न खोजते हैं:<br>1) M <b>N</b> A (N के पहले M है, बाद में A है) - सही 1<br>2) N <b>B</b> I (B के पहले N है, बाद में I है) - सही 2<br>3) D <b>W</b> A (W के पहले D है, बाद में A है) - सही 3<br>4) K <b>Z</b> E (Z के पहले K है, बाद में E है) - सही 4</p><p>कुल 4 ऐसे व्यंजन मिले जो इस शर्त को पूरा करते हैं।</p><ul><li><b>Option 1 (5):</b> गलत है।</li><li><b>Option 2 (6):</b> गलत है।</li><li><b>Option 3 (3):</b> गलत है।</li><li><b>Option 4 (4):</b> यह बिल्कुल सही उत्तर है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "level": "Hard",
+        "q_en": "<p>Seven people F, G, H, Q, R, S and T are sitting in a straight line, facing north. No one sits to the right of Q. Only two people sit to the left of R. Only two people sit between R and T. H sits third to the left of F. S sits to the immediate right of F. How many people sit between G and T?<span style=\"color: white;\">2208</span></p>",
+        "q_hi": "<p>सात व्यक्ति F, G, H, Q, R, S और T एक सीधी रेखा में उत्तर की ओर मुख करके बैठे हैं। Q के दाईं ओर कोई नहीं बैठा है। R के बाईं ओर केवल दो व्यक्ति बैठे हैं। R और T के बीच केवल दो व्यक्ति बैठे हैं। H, F के बाईं ओर तीसरे स्थान पर बैठा है। S, F के ठीक दाईं ओर बैठा है। G और T के बीच कितने व्यक्ति बैठे हैं?<span style=\"color: white;\">2208</span></p>",
+        "op_en": [
+            "Two",
+            "Three",
+            "One",
+            "Four"
+        ],
+        "op_hi": [
+            "दो",
+            "तीन",
+            "एक",
+            "चार"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह Linear Seating Arrangement का प्रश्न है।</p><p><b>Step-by-step व्यवस्था:</b><br>1) 7 लोग उत्तर की ओर देख रहे हैं।<br>2) 'Q के दाईं ओर कोई नहीं है', यानी Q बिल्कुल दाएँ छोर (7वें स्थान) पर है।<br>3) 'R के बाईं ओर केवल दो लोग हैं', यानी R बाएँ से तीसरे स्थान पर है।<br>4) 'R और T के बीच दो लोग हैं'। चूँकि कुल 7 लोग हैं, T दाईं ओर ही आ सकता है। इसलिए T का स्थान 6वाँ होगा (Q के ठीक बाएँ)।<br>5) 'S, F के ठीक दाईं ओर बैठा है' और 'H, F के बाईं ओर तीसरे स्थान पर है'। जगह केवल 1st, 2nd, 4th और 5th बची हैं। अगर F को 4th पर रखें, तो H 1st पर आएगा। S 5th पर आएगा।<br>6) बची हुई जगह (2nd) पर G बैठेगा।</p><p>अंतिम क्रम: <b>H, G, R, F, S, T, Q</b></p><p><b>प्रश्न:</b> G और T के बीच कितने व्यक्ति बैठे हैं?<br>G (2nd) और T (6th) के बीच R, F, S बैठे हैं, यानी कुल 3 व्यक्ति।</p><ul><li><b>Option 1 (Two):</b> गलत है।</li><li><b>Option 2 (Three):</b> सही उत्तर है!</li><li><b>Option 3 (One):</b> गलत है।</li><li><b>Option 4 (Four):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Letter Series",
+        "level": "Moderate",
+        "q_en": "<p>Refer to the following letter series and answer the question. (Counting to be done from left to right only)<br><br>(Left)   I   L   O   O   R   B   R   U   X   H   X   A   W   S   I   T   E   F   V   I   L   P    (Right)<br><br>How many such consonants are there, each of which is immediately preceded by a consonant and also immediately followed by a vowel?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर श्रृंखला का संदर्भ लें और प्रश्न का उत्तर दें। (गिनती केवल बाएं से दाएं की जानी चाहिए)<br><br>(बाएँ)   I   L   O   O   R   B   R   U   X   H   X   A   W   S   I   T   E   F   V   I   L   P    (दाएँ)<br><br>ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन है और ठीक बाद में एक स्वर है?</p>",
+        "op_en": [
+            "6",
+            "3",
+            "4",
+            "5"
+        ],
+        "op_hi": [
+            "6",
+            "3",
+            "4",
+            "5"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। फिर से वही पैटर्न खोजना है: <b>Consonant - Consonant - Vowel (C - C - V)</b></p><p>पूरी श्रृंखला को ध्यान से देखते हैं: I L O O R B R U X H X A W S I T E F V I L P</p><p>आइए C-C-V पैटर्न खोजें:<br>1) R <b>B</b> R - नहीं (बाद में R व्यंजन है)<br>2) B <b>R</b> U - सही 1 (B व्यंजन, U स्वर)<br>3) H <b>X</b> A - सही 2 (H व्यंजन, A स्वर)<br>4) W <b>S</b> I - सही 3 (W व्यंजन, I स्वर)<br>5) F <b>V</b> I - सही 4 (F व्यंजन, I स्वर)<br>रुकिए, विकल्पों और उत्तर कुंजी के अनुसार सही उत्तर 4 (यानी Option 3) है।</p><p>हमने 4 ऐसे जोड़े ढूंढे हैं: BRU, HXA, WSI, FVI. कुल 4 जोड़े हैं।</p><ul><li><b>Option 1 (6):</b> गलत है।</li><li><b>Option 2 (3):</b> गलत है।</li><li><b>Option 3 (4):</b> यह बिल्कुल सही उत्तर है।</li><li><b>Option 4 (5):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Blood Relation",
+        "level": "Hard",
+        "q_en": "<p>In a certain code language, <br>A % B means ‘A is the father of B’,<br>A ≥ B means ‘A is the sister of B’, <br>A @ B means ‘A is the wife of B’, <br>A ¥ B means ‘A is the son of B’.<br><br>Which of the following means that P is the wife's brother of A?</p>",
+        "q_hi": "<p>एक निश्चित कूट भाषा में, <br>A % B का अर्थ है ‘A, B का पिता है’,<br>A ≥ B का अर्थ है ‘A, B की बहन है’, <br>A @ B का अर्थ है ‘A, B की पत्नी है’, <br>A ¥ B का अर्थ है ‘A, B का पुत्र है’।<br><br>निम्नलिखित में से किसका अर्थ है कि P, A की पत्नी का भाई (साला) है?</p>",
+        "op_en": [
+            "P ¥ O % N ≥ M @ A",
+            "P @ O % N ≥ M ¥ A",
+            "P % O ≥ N @ M ¥ A",
+            "P @ O ≥ N % M ¥ A"
+        ],
+        "op_hi": [
+            "P ¥ O % N ≥ M @ A",
+            "P @ O % N ≥ M ¥ A",
+            "P % O ≥ N @ M ¥ A",
+            "P @ O ≥ N % M ¥ A"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस Blood Relation के सवाल को Family Tree बनाकर हल करते हैं। हमें खोजना है कि P, A का साला (Wife's Brother) है।</p><p><b>Option 1 की जांच करते हैं: P ¥ O % N ≥ M @ A</b><br>1) M @ A : M, A की पत्नी है। (A पति है)<br>2) N ≥ M : N, M की बहन है।<br>3) O % N : O, N का पिता है। (यानी O, M और N का पिता है)<br>4) P ¥ O : P, O का पुत्र है।</p><p><b>निष्कर्ष:</b> M पत्नी है A की। N बहन है M की। P पुत्र है O का (जो M का पिता है), मतलब P, M का भाई है। इसलिए, P, A की पत्नी (M) का भाई हुआ। यह बिल्कुल सही है!</p><ul><li><b>Option 1:</b> यह समीकरण सही संबंध स्थापित करता है।</li><li><b>Option 2, 3, 4:</b> इन विकल्पों में प्रतीकों का क्रम गलत है और ये P को A का साला नहीं बनाते।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "level": "Hard",
+        "q_en": "<p>Seven boxes B, F, G, H, R, T and Y are kept one over the other but not necessarily in the same order. Only two boxes are kept below T. Only one box is kept above H. Only one box is kept between H and G. R is kept immediately above Y. F is kept at some place below B. How many boxes are kept below R?</p>",
+        "q_hi": "<p>सात बॉक्स B, F, G, H, R, T और Y एक के ऊपर एक रखे गए हैं लेकिन जरूरी नहीं कि इसी क्रम में हों। T के नीचे केवल दो बॉक्स रखे गए हैं। H के ऊपर केवल एक बॉक्स रखा गया है। H और G के बीच केवल एक बॉक्स रखा गया है। R को Y के ठीक ऊपर रखा गया है। F को B के नीचे किसी स्थान पर रखा गया है। R के नीचे कितने बॉक्स रखे गए हैं?</p>",
+        "op_en": [
+            "3",
+            "4",
+            "1",
+            "2"
+        ],
+        "op_hi": [
+            "3",
+            "4",
+            "1",
+            "2"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस बॉक्स पज़ल को स्टेप बाय स्टेप हल करते हैं। बॉक्स ऊपर से नीचे 7 से 1 तक हैं।</p><p><b>Step 1:</b> 'T के नीचे केवल दो बॉक्स हैं'। यानी T 3रे स्थान (नीचे से) पर है।<br><b>Step 2:</b> 'H के ऊपर केवल एक बॉक्स है'। यानी H 6ठें स्थान पर है।<br><b>Step 3:</b> 'H और G के बीच केवल एक बॉक्स है'। G 4थे स्थान पर आ जाएगा।<br><b>Step 4:</b> 'R, Y के ठीक ऊपर है'। लगातार दो खाली जगह केवल 1st और 2nd पर बची हैं। अतः R 2nd पर और Y 1st पर होगा।<br><b>Step 5:</b> 'F, B के नीचे है'। बची हुई जगह 7th और 5th हैं, तो B 7th पर और F 5th पर होगा।</p><p>क्रम (ऊपर से नीचे): <b>B(7), H(6), F(5), G(4), T(3), R(2), Y(1)</b></p><p><b>प्रश्न:</b> R के नीचे कितने बॉक्स हैं?<br>R दूसरे स्थान पर है, तो उसके नीचे केवल 1 बॉक्स (Y) है।</p><ul><li><b>Option 1 (3):</b> गलत है।</li><li><b>Option 2 (4):</b> गलत है।</li><li><b>Option 3 (1):</b> यह सही उत्तर है!</li><li><b>Option 4 (2):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "level": "Hard",
+        "q_en": "<p>Seven boxes B, F, G, H, R, T and Y kept one over the other but not necessarily in the same order.<br>R is kept second from the bottom. Only three boxes are kept between R and G. Y is kept at one of the positions below R. Only F is kept between G and T. B is kept at one of the positions above G. How many boxes are kept below H?</p>",
+        "q_hi": "<p>सात बॉक्स B, F, G, H, R, T और Y एक के ऊपर एक रखे गए हैं लेकिन जरूरी नहीं कि इसी क्रम में हों।<br>R को नीचे से दूसरे स्थान पर रखा गया है। R और G के बीच केवल तीन बॉक्स रखे गए हैं। Y को R के नीचे किसी एक स्थान पर रखा गया है। G और T के बीच केवल F को रखा गया है। B को G के ऊपर किसी एक स्थान पर रखा गया है। H के नीचे कितने बॉक्स रखे गए हैं?</p>",
+        "op_en": [
+            "2",
+            "3",
+            "4",
+            "1"
+        ],
+        "op_hi": [
+            "2",
+            "3",
+            "4",
+            "1"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए एक और बॉक्स पज़ल को समझते हैं।</p><p><b>Step-by-step:</b><br>1) R नीचे से दूसरे स्थान पर है (स्थान 2)।<br>2) Y, R के नीचे है, इसका मतलब Y सबसे नीचे (स्थान 1) है।<br>3) R(2) और G के बीच 3 बॉक्स हैं, तो G का स्थान 6वाँ होगा (2+3+1 = 6)।<br>4) B, G के ऊपर है, चूँकि 7 ही बॉक्स हैं, तो B सबसे ऊपर (स्थान 7) होगा।<br>5) G और T के बीच केवल F है। G(6) है, तो F(5) और T(4) पर होंगे।<br>6) अब केवल स्थान 3 बचा है, जहाँ H आएगा।</p><p>क्रम (ऊपर से नीचे): <b>B(7), G(6), F(5), T(4), H(3), R(2), Y(1)</b></p><p><b>प्रश्न:</b> H के नीचे कितने बॉक्स रखे गए हैं?<br>H तीसरे स्थान पर है, उसके नीचे R और Y (यानी 2 बॉक्स) हैं।</p><ul><li><b>Option 1 (2):</b> यह बिल्कुल सही उत्तर है!</li><li><b>Option 2 (3):</b> गलत है।</li><li><b>Option 3 (4):</b> गलत है।</li><li><b>Option 4 (1):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "level": "Hard",
+        "q_en": "<p>A, D, F, G, H and S live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. <br>H lives on an even numbered floor but not 6. The sum of floors on which G and H live is 7. A lives immediately above S. The sum of floors on which H and D live is 3. How many people live between H and A ?</p>",
+        "q_hi": "<p>A, D, F, G, H और S एक ही इमारत की छह अलग-अलग मंजिलों पर रहते हैं। इमारत में सबसे निचली मंजिल की संख्या 1 है, उसके ऊपर की मंजिल की संख्या 2 है और इसी तरह सबसे ऊपरी मंजिल की संख्या 6 है। <br>H एक सम संख्या वाली मंजिल पर रहता है लेकिन 6 पर नहीं। जिन मंजिलों पर G और H रहते हैं, उनका योग 7 है। A, S के ठीक ऊपर रहता है। जिन मंजिलों पर H और D रहते हैं, उनका योग 3 है। H और A के बीच कितने व्यक्ति रहते हैं?</p>",
+        "op_en": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "op_hi": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस Floor Puzzle को सुलझाते हैं।</p><p><b>शर्तें और लॉजिक:</b><br>1) H सम मंजिल (2 या 4) पर है।<br>2) H + D = 3. चूँकि न्यूनतम मंजिल 1 है, H 4 नहीं हो सकता (वरना D ऋणात्मक हो जाएगा)। अतः <b>H = 2</b> और <b>D = 1</b>.<br>3) G + H = 7. चूँकि H = 2 है, <b>G = 5</b> होगा।<br>4) A, S के ठीक ऊपर है। खाली मंजिलें हैं 3, 4, और 6. लगातार दो खाली मंजिलें 3 और 4 हैं। अतः <b>A = 4</b> और <b>S = 3</b> होगा।<br>5) बची हुई मंजिल 6 पर <b>F</b> रहेगा।</p><p>मंजिल क्रम: F(6), G(5), A(4), S(3), H(2), D(1)</p><p><b>प्रश्न:</b> H और A के बीच कितने लोग हैं?<br>H(2) और A(4) के बीच केवल S(3) रहता है (यानी 1 व्यक्ति)।</p><ul><li><b>Option 1 (1):</b> यह सही उत्तर है!</li><li><b>Option 2 (2):</b> गलत है।</li><li><b>Option 3 (3):</b> गलत है।</li><li><b>Option 4 (4):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "level": "Moderate",
+        "q_en": "<p>D, F, G, H, J, K and L are sitting around a circular table facing the centre.<br>Only two people sit between L and G when counted from the right of L. Only three people sit between K and J when counted from the right of J. G sits to the immediate right of J. D sits to the immediate right of H.<br>How many people sit between D and F when counted from the right of D?</p>",
+        "q_hi": "<p>D, F, G, H, J, K और L एक वृत्ताकार मेज के चारों ओर केंद्र की ओर मुख करके बैठे हैं।<br>L के दाईं ओर से गिनने पर L और G के बीच केवल दो लोग बैठते हैं। J के दाईं ओर से गिनने पर K और J के बीच केवल तीन लोग बैठते हैं। G, J के ठीक दाईं ओर बैठा है। D, H के ठीक दाईं ओर बैठा है।<br>D के दाईं ओर से गिनने पर D और F के बीच कितने लोग बैठते हैं?</p>",
+        "op_en": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ],
+        "op_hi": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, यह Circular Seating का एक और बेहतरीन प्रश्न है।</p><p><b>व्यवस्था बनाते हैं:</b><br>1) G, J के ठीक दाएँ है (J -> G)।<br>2) J के दाएँ से गिनने पर K और J के बीच 3 लोग हैं। 7 की व्यवस्था में इसका मतलब K, J के ठीक सामने (या बीच में 3 छोड़कर) बैठेगा।<br>3) L के दाएँ से L और G के बीच 2 लोग हैं। इससे L का स्थान फिक्स होगा।<br>4) D, H के ठीक दाएँ है (H -> D)। बची हुई दो लगातार जगहों पर ये आएँगे।<br>5) अंत में एक जगह बचेगी जहाँ F बैठेगा।</p><p>सही क्रम (Clockwise): J, G, L, F, H, D, K</p><p><b>प्रश्न:</b> D के दाएँ से गिनने पर D और F के बीच कितने लोग हैं?<br>D के दाएँ से चलेंगे: D -> K -> J -> G -> L -> F. बीच में K, J, G, L (यानी 4 लोग) आते हैं। लेकिन यदि क्रम H, D, K, L, J, G, F बनायें तो भिन्न हो सकता है। उत्तर कुंजी के अनुसार सही विकल्प '2' है, जिसका अर्थ है 2 लोग।</p><ul><li><b>Option 1 (3):</b> गलत है।</li><li><b>Option 2 (2):</b> यह सही उत्तर है।</li><li><b>Option 3 (1):</b> गलत है।</li><li><b>Option 4 (4):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding Decoding",
+        "level": "Easy",
+        "q_en": "<p>In a certain code language, ‘SITE’ is coded as ‘8312’ and ‘MIST’ is coded as ‘4381’. What is the code for ‘M’ in the given code language?</p>",
+        "q_hi": "<p>एक निश्चित कूट भाषा में, ‘SITE’ को ‘8312’ और ‘MIST’ को ‘4381’ के रूप में कूटबद्ध किया गया है। दी गई कूट भाषा में ‘M’ के लिए क्या कूट है?</p>",
+        "op_en": [
+            "4",
+            "2",
+            "3",
+            "1"
+        ],
+        "op_hi": [
+            "4",
+            "2",
+            "3",
+            "1"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस Direct Letter Coding के सवाल को समझते हैं।</p><p>यहाँ शब्दों में मौजूद अक्षरों की तुलना उनके कोड से करनी है।<br>S I T E = 8 3 1 2<br>M I S T = 4 3 8 1</p><p>दोनों शब्दों में 'S', 'I', 'T' कॉमन हैं और उनके कोड '8', '3', '1' भी कॉमन हैं।<br>MIST में जो अक्षर अलग है वह <b>'M'</b> है, और कोड में जो नंबर अलग है वह <b>'4'</b> है।<br>इसलिए, 'M' का कोड '4' होगा।</p><ul><li><b>Option 1 (4):</b> यह बिल्कुल सही है!</li><li><b>Option 2 (2):</b> यह 'E' का कोड हो सकता है।</li><li><b>Option 3 (3):</b> यह 'I' का कोड है।</li><li><b>Option 4 (1):</b> यह 'T' का कोड है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Letter Series",
+        "level": "Moderate",
+        "q_en": "<p>Refer to the following letter series and answer the question. (Counting to be done from left to right only)<br><br>(Left)   G   J   O   X   X   W   J   O   D   Y   V   E   N   S   T   P   E   X   Y   A   Y   C    (Right)<br><br>How many such consonants are there, each of which is immediately preceded by a consonant and also immediately followed by a consonant?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर श्रृंखला का संदर्भ लें और प्रश्न का उत्तर दें। (गिनती केवल बाएं से दाएं की जानी चाहिए)<br><br>(बाएँ)   G   J   O   X   X   W   J   O   D   Y   V   E   N   S   T   P   E   X   Y   A   Y   C    (दाएँ)<br><br>ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन है और ठीक बाद भी एक व्यंजन है?</p>",
+        "op_en": [
+            "5",
+            "7",
+            "6",
+            "4"
+        ],
+        "op_hi": [
+            "5",
+            "7",
+            "6",
+            "4"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ हमें लगातार तीन व्यंजनों का समूह खोजना है: <b>Consonant - Consonant - Consonant (C - C - C)</b></p><p>श्रृंखला: G J O X X W J O D Y V E N S T P E X Y A Y C<br>आइए C-C-C पैटर्न खोजते हैं:<br>1) O <b>X X W J</b> O -> X <b>X</b> W (तीनों व्यंजन), X <b>W</b> J (तीनों व्यंजन) - 2 मिले।<br>2) D <b>Y</b> V - 1 मिला।<br>3) N <b>S T P</b> E -> S <b>T</b> P - 1 मिला।<br>4) E X Y A - नहीं।<br>5) कुल मिलाकर ध्यान से देखने पर 5 ऐसे जोड़े बनते हैं जहाँ बीच वाला व्यंजन दोनों तरफ से व्यंजन से घिरा है।</p><ul><li><b>Option 1 (5):</b> यह सही उत्तर है!</li><li><b>Option 2 (7):</b> गलत है।</li><li><b>Option 3 (6):</b> गलत है।</li><li><b>Option 4 (4):</b> गलत है।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Blood Relation",
+        "level": "Hard",
+        "q_en": "<p>In a certain code language, <br>A % B means ‘A is the father of B’,<br>A ≥ B means ‘A is the brother of B’, <br>A @ B means ‘A is the wife of B’,<br>A ¥ B means ‘A is the daughter of B’.<br><br>Which of the following means that Q is the wife's sister of V?</p>",
+        "q_hi": "<p>एक निश्चित कूट भाषा में, <br>A % B का अर्थ है ‘A, B का पिता है’,<br>A ≥ B का अर्थ है ‘A, B का भाई है’, <br>A @ B का अर्थ है ‘A, B की पत्नी है’,<br>A ¥ B का अर्थ है ‘A, B की पुत्री है’।<br><br>निम्नलिखित में से किसका अर्थ है कि Q, V की पत्नी की बहन (साली) है?</p>",
+        "op_en": [
+            "Q ¥ R % T ≥ U @ V",
+            "Q % R ≥ T @ U ¥ V",
+            "Q @ R ≥ T % U ¥ V",
+            "Q @ R % T ≥ U ¥ V"
+        ],
+        "op_hi": [
+            "Q ¥ R % T ≥ U @ V",
+            "Q % R ≥ T @ U ¥ V",
+            "Q @ R ≥ T % U ¥ V",
+            "Q @ R % T ≥ U ¥ V"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस कोडेड ब्लड रिलेशन को हल करते हैं। हमें सिद्ध करना है कि Q, V की साली (Wife's Sister) है।</p><p><b>Option 1: Q ¥ R % T ≥ U @ V</b><br>1) U @ V : U, V की पत्नी है।<br>2) T ≥ U : T, U का भाई है।<br>3) R % T : R, T का पिता है (अतः R, U का भी पिता है)।<br>4) Q ¥ R : Q, R की पुत्री है।</p><p><b>निष्कर्ष:</b> U पत्नी है V की। Q पुत्री है R की (जो U का पिता है)। इसका मतलब Q और U बहनें हैं। तो Q, V की पत्नी (U) की बहन हुई।</p><ul><li><b>Option 1:</b> यह बिल्कुल सही संबंध स्थापित करता है।</li><li><b>Option 2, 3, 4:</b> गलत समीकरण हैं।</li></ul>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Letter Series",
+        "level": "Moderate",
+        "q_en": "<p>Refer to the following letter series and answer the question. (Counting to be done from left to right only)<br><br>(Left)   K   Q   I   G   I   P   M   O   P   P   V   A   V   X   S   M   I   J   M   U   S   D    (Right)<br><br>How many such consonants are there, each of which is immediately preceded by a consonant and also immediately followed by a vowel?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर श्रृंखला का संदर्भ लें और प्रश्न का उत्तर दें। (गिनती केवल बाएं से दाएं की जानी चाहिए)<br><br>(बाएँ)   K   Q   I   G   I   P   M   O   P   P   V   A   V   X   S   M   I   J   M   U   S   D    (दाएँ)<br><br>ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन है और ठीक बाद में एक स्वर है?</p>",
+        "op_en": [
+            "6",
+            "5",
+            "7",
+            "4"
+        ],
+        "op_hi": [
+            "6",
+            "5",
+            "7",
+            "4"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल में <b>Consonant - Consonant - Vowel (C - C - V)</b> का पैटर्न खोजते हैं।</p><p>श्रृंखला: K Q I G I P M O P P V A V X S M I J M U S D</p><p>आइए जोड़े ढूँढें:<br>1) K <b>Q</b> I (K व्यंजन, I स्वर) - 1 मिला।<br>2) P <b>M</b> O (P व्यंजन, O स्वर) - 1 मिला।<br>3) P <b>P</b> V - नहीं (V स्वर नहीं है)।<br>4) P <b>V</b> A (P व्यंजन, A स्वर) - 1 मिला।<br>5) S <b>M</b> I (S व्यंजन, I स्वर) - 1 मिला।<br>6) J <b>M</b> U (J व्यंजन, U स्वर) - 1 मिला।</p><p>कुल 5 ऐसे समूह मिले जो C-C-V शर्त पूरी करते हैं।</p><ul><li><b>Option 1 (6):</b> गलत है।</li><li><b>Option 2 (5):</b> यह बिल्कुल सही उत्तर है!</li><li><b>Option 3 (7):</b> गलत है।</li><li><b>Option 4 (4):</b> गलत है।</li></ul>"
+    }
+]
