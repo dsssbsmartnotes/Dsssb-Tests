@@ -1,0 +1,422 @@
+[
+    {
+        "section": "General Awareness1",
+        "topic": "Current Affairs - Schemes",
+        "level": "Moderate",
+        "q_en": "<p>In August 2025, under which of the following schemes were about 100 trainees associated with the Delhi Sikh Gurdwara Management Committee (DSGMC) invited as Special Guests to the Independence Day Ceremony, 2025?</p>",
+        "q_hi": "<p>अगस्त 2025 में, निम्नलिखित में से किस योजना के तहत दिल्ली सिख गुरुद्वारा प्रबंधक कमेटी (DSGMC) से जुड़े लगभग 100 प्रशिक्षुओं को स्वतंत्रता दिवस समारोह, 2025 में विशेष अतिथि के रूप में आमंत्रित किया गया था?</p>",
+        "op_en": [
+            "Udyamita Yojana",
+            "Pradhan Mantri Virasat Ka Samvardhan (PM VIKAS)",
+            "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+            "Skill India Program"
+        ],
+        "op_hi": [
+            "उद्यमिता योजना",
+            "प्रधान मंत्री विरासत का संवर्धन (PM VIKAS)",
+            "प्रधान मंत्री कौशल विकास योजना (PMKVY)",
+            "स्किल इंडिया प्रोग्राम"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। भारत सरकार हर साल स्वतंत्रता दिवस पर समाज के विभिन्न वर्गों को 'विशेष अतिथि' के रूप में आमंत्रित करती है।</p><p><b>PM VIKAS (Pradhan Mantri Virasat Ka Samvardhan)</b> योजना अल्पसंख्यक कार्य मंत्रालय (Ministry of Minority Affairs) की एक प्रमुख योजना है। इसका उद्देश्य अल्पसंख्यक समुदायों के कौशल विकास (Skill Development) और आजीविका में सुधार करना है। इसी योजना के तहत DSGMC के प्रशिक्षुओं को 2025 के स्वतंत्रता दिवस पर लाल किले पर आमंत्रित किया गया था।</p><ul><li><b>Option 1:</b> उद्यमिता योजना सामान्य स्वरोजगार से जुड़ी है।</li><li><b>Option 2 (PM VIKAS):</b> यह बिल्कुल सही उत्तर है।</li><li><b>Option 3 & 4:</b> PMKVY और स्किल इंडिया बड़े पैमाने की राष्ट्रीय कौशल योजनाएं हैं, लेकिन यह विशेष निमंत्रण PM VIKAS के तहत दिया गया था।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Current Affairs - Reports & Indices",
+        "level": "Moderate",
+        "q_en": "<p>Which of the following publications on the status of child well-being in India was released by Ministry of Statistics and Programme Implementation (MoSPI) in September 2025?</p>",
+        "q_hi": "<p>भारत में बाल कल्याण की स्थिति पर निम्नलिखित में से कौन सा प्रकाशन सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय (MoSPI) द्वारा सितंबर 2025 में जारी किया गया था?</p>",
+        "op_en": [
+            "Child Welfare Report 2025",
+            "India Child Protection Index 2025",
+            "Children in India 2025",
+            "National Child Safety Review 2025"
+        ],
+        "op_hi": [
+            "बाल कल्याण रिपोर्ट 2025",
+            "भारत बाल संरक्षण सूचकांक 2025",
+            "भारत में बच्चे (Children in India) 2025",
+            "राष्ट्रीय बाल सुरक्षा समीक्षा 2025"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। MoSPI (सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय) भारत सरकार के महत्वपूर्ण डेटा और सांख्यिकीय रिपोर्ट जारी करता है।</p><p>मंत्रालय द्वारा बच्चों के स्वास्थ्य, शिक्षा, पोषण और समग्र विकास के आँकड़ों को संकलित करने के लिए <b>\"Children in India\"</b> नामक प्रकाशन जारी किया जाता है। इसका 2025 का संस्करण बाल कल्याण की वर्तमान स्थिति को दर्शाता है।</p><ul><li><b>Option 1, 2, 4:</b> ये नाम काल्पनिक हैं या किसी अन्य गैर-सरकारी संगठन द्वारा जारी किए जाते हैं।</li><li><b>Option 3 (Children in India 2025):</b> यह MoSPI का आधिकारिक सांख्यिकीय प्रकाशन है, अतः यह सही उत्तर है।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Current Affairs - Summits & Conferences",
+        "level": "Easy",
+        "q_en": "<p>Where did the India Internet Governance Forum (IIGF) 2025 take place?</p>",
+        "q_hi": "<p>इंडिया इंटरनेट गवर्नेंस फोरम (IIGF) 2025 कहाँ आयोजित हुआ?</p>",
+        "op_en": [
+            "Pune",
+            "Kolkata",
+            "New Delhi",
+            "Mumbai"
+        ],
+        "op_hi": [
+            "पुणे",
+            "कोलकाता",
+            "नई दिल्ली",
+            "मुंबई"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। 'इंडिया इंटरनेट गवर्नेंस फोरम' (IIGF) इंटरनेट के सुरक्षित, समावेशी और बहु-हितधारक (multi-stakeholder) मॉडल पर चर्चा करने के लिए एक प्रमुख मंच है।</p><p>इस तरह के अधिकांश बड़े राष्ट्रीय और अंतर्राष्ट्रीय नीति-संबंधित फोरम आमतौर पर देश की राजधानी में आयोजित किए जाते हैं। IIGF 2025 का आयोजन <b>नई दिल्ली</b> में किया गया था, जिसमें डिजिटल इंडिया और इंटरनेट गवर्नेंस से जुड़े महत्वपूर्ण मुद्दों पर चर्चा हुई।</p><ul><li><b>Option 1, 2, 4:</b> ये प्रमुख आईटी हब हैं, लेकिन इस विशिष्ट फोरम का मुख्य आयोजन यहाँ नहीं हुआ।</li><li><b>Option 3 (नई दिल्ली):</b> यह बिल्कुल सही उत्तर है!</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Physics",
+        "level": "Easy",
+        "q_en": "<p>Which law of motion states that “For every action, there is an equal and opposite reaction”?</p>",
+        "q_hi": "<p>गति का कौन सा नियम कहता है कि \"प्रत्येक क्रिया के बराबर और विपरीत प्रतिक्रिया होती है\"?</p>",
+        "op_en": [
+            "Newton's Law of Universal Gravitation",
+            "Newton's Second Law",
+            "Newton's First Law",
+            "Newton's Third Law"
+        ],
+        "op_hi": [
+            "न्यूटन का सार्वत्रिक गुरुत्वाकर्षण का नियम",
+            "न्यूटन का दूसरा नियम",
+            "न्यूटन का पहला नियम",
+            "न्यूटन का तीसरा नियम"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, यह भौतिकी (Physics) का बहुत ही बुनियादी और लोकप्रिय नियम है। आइए न्यूटन के नियमों को रिवाइज करते हैं:</p><ul><li><b>Option 1 (गुरुत्वाकर्षण का नियम):</b> यह दो पिंडों (bodies) के बीच लगने वाले आकर्षण बल के बारे में बताता है।</li><li><b>Option 2 (दूसरा नियम):</b> यह बताता है कि किसी वस्तु पर लगाया गया बल उसके द्रव्यमान और त्वरण के गुणनफल के बराबर होता है (F = ma)।</li><li><b>Option 3 (पहला नियम):</b> इसे जड़त्व का नियम (Law of Inertia) भी कहते हैं। यदि कोई वस्तु स्थिर है तो वह स्थिर ही रहेगी जब तक उस पर कोई बाहरी बल न लगाया जाए।</li><li><b>Option 4 (तीसरा नियम):</b> यह बिल्कुल सही उत्तर है! <b>न्यूटन का गति का तीसरा नियम (Newton's Third Law)</b> कहता है कि 'प्रत्येक क्रिया (Action) के बराबर और विपरीत दिशा में प्रतिक्रिया (Reaction) होती है।'</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Current Affairs - National",
+        "level": "Moderate",
+        "q_en": "<p>Which national exercise, approved by the Union Cabinet in 2026 with an outlay of ₹11,718.24 crore, will be India’s first census to be conducted entirely through digital means using Android and iOS mobile applications?</p>",
+        "q_hi": "<p>2026 में केंद्रीय मंत्रिमंडल द्वारा ₹11,718.24 करोड़ के परिव्यय के साथ अनुमोदित कौन सा राष्ट्रीय अभ्यास, एंड्रॉइड और आईओएस मोबाइल एप्लिकेशन का उपयोग करके पूरी तरह से डिजिटल माध्यमों से आयोजित होने वाली भारत की पहली जनगणना होगी?</p>",
+        "op_en": [
+            "Civil Registration System Modernisation Programme",
+            "Digital Household Enumeration Pilot under MoSPI",
+            "National Population Register (Digital Update) 2027",
+            "Census of India 2027"
+        ],
+        "op_hi": [
+            "नागरिक पंजीकरण प्रणाली आधुनिकीकरण कार्यक्रम",
+            "MoSPI के तहत डिजिटल घरेलू गणना पायलट",
+            "राष्ट्रीय जनसंख्या रजिस्टर (डिजिटल अपडेट) 2027",
+            "भारत की जनगणना (Census of India) 2027"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस महत्वपूर्ण राष्ट्रीय अभ्यास के बारे में जानते हैं। भारत की दशकीय जनगणना (Decadal Census) जो 2021 में होनी थी, उसे कोविड-19 के कारण टाल दिया गया था।</p><p>अब सरकार ने इसे <b>2027</b> में पूरी तरह से <b>डिजिटल जनगणना</b> के रूप में आयोजित करने का निर्णय लिया है। यह इतिहास में पहली बार होगा जब गणनाकर्ता (Enumerators) पेपर-पेन के बजाय मोबाइल ऐप (Android/iOS) का उपयोग करके डेटा एकत्र करेंगे।</p><ul><li><b>Option 1 & 2:</b> ये जन्म-मृत्यु पंजीकरण या छोटे पायलट प्रोजेक्ट से संबंधित हैं।</li><li><b>Option 3:</b> NPR जनगणना से जुड़ा है लेकिन यह मुख्य जनगणना अभ्यास का नाम नहीं है।</li><li><b>Option 4 (Census of India 2027):</b> यह बिल्कुल सही उत्तर है!</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Art & Culture",
+        "level": "Moderate",
+        "q_en": "<p>Sarwar Khan is a famous folk singer from _____________.</p>",
+        "q_hi": "<p>सरवर खान _____________ के एक प्रसिद्ध लोक गायक हैं।</p>",
+        "op_en": [
+            "Bihar",
+            "Haryana",
+            "Rajasthan",
+            "Uttarakhand"
+        ],
+        "op_hi": [
+            "बिहार",
+            "हरियाणा",
+            "राजस्थान",
+            "उत्तराखंड"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। भारत के लोक संगीत (Folk Music) की परंपरा बहुत समृद्ध है।</p><p><b>सरवर खान (Sarwar Khan)</b> मुख्य रूप से <b>मांगणियार (Manganiyar)</b> समुदाय से ताल्लुक रखते हैं। मांगणियार समुदाय अपने बेहतरीन और सुरीले राजस्थानी लोक संगीत के लिए पूरी दुनिया में जाना जाता है। वे खड़ताल, ढोलक और कामायचा जैसे पारंपरिक वाद्य यंत्रों का उपयोग करते हैं।</p><ul><li><b>Option 1, 2, 4:</b> इन राज्यों के अपने अलग लोक संगीत हैं (जैसे बिहार का बिरहा, उत्तराखंड का झोड़ा), लेकिन सरवर खान इनसे संबंधित नहीं हैं।</li><li><b>Option 3 (Rajasthan):</b> यह बिल्कुल सही उत्तर है! राजस्थान की धरती ने कई महान मांगणियार और लंगा गायकों को जन्म दिया है।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Chemistry",
+        "level": "Moderate",
+        "q_en": "<p>According to Avogadro’s law, equal volumes of all gases, measured at the same temperature and pressure, contain what?</p>",
+        "q_hi": "<p>एवोगाड्रो के नियम के अनुसार, समान तापमान और दबाव पर मापे गए सभी गैसों के समान आयतन में क्या होता है?</p>",
+        "op_en": [
+            "Equal densities",
+            "Equal masses",
+            "An equal number of molecules",
+            "An equal number of electrons"
+        ],
+        "op_hi": [
+            "समान घनत्व",
+            "समान द्रव्यमान",
+            "अणुओं की समान संख्या",
+            "इलेक्ट्रॉनों की समान संख्या"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, रसायन विज्ञान (Chemistry) में गैसों के नियमों को समझना बहुत जरूरी है। <b>एवोगाड्रो का नियम (Avogadro's Law)</b> गैसों के आयतन (Volume) और गैस की मात्रा (moles/molecules) के बीच संबंध बताता है।</p><p>इस नियम के अनुसार, यदि तापमान (Temperature) और दबाव (Pressure) समान रखा जाए, तो अलग-अलग गैसों (जैसे ऑक्सीजन, हाइड्रोजन, नाइट्रोजन) के <b>समान आयतन</b> (Equal Volumes) में <b>अणुओं की संख्या (Number of molecules) हमेशा समान होती है।</b></p><ul><li><b>Option 1 (Equal densities):</b> गलत है, क्योंकि अलग-अलग गैसों का मोलर द्रव्यमान अलग होता है, इसलिए घनत्व भी अलग होगा।</li><li><b>Option 2 (Equal masses):</b> गलत है, ऑक्सीजन और हाइड्रोजन का द्रव्यमान समान आयतन में अलग-अलग होगा।</li><li><b>Option 3 (An equal number of molecules):</b> यह बिल्कुल सही है! यही एवोगाड्रो का नियम है।</li><li><b>Option 4:</b> इलेक्ट्रॉनों की संख्या अणुओं के प्रकार पर निर्भर करती है।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "International Relations",
+        "level": "Moderate",
+        "q_en": "<p>On <b>31 August 2025</b>, during the Shanghai Cooperation Organization (SCO) Summit in Tianjin, Prime Minister Shri Narendra Modi met Chinese President Xi Jinping. What did both leaders agree regarding the India–China border?</p>",
+        "q_hi": "<p><b>31 अगस्त 2025</b> को, तियानजिन में शंघाई सहयोग संगठन (SCO) शिखर सम्मेलन के दौरान, प्रधान मंत्री श्री नरेंद्र मोदी ने चीनी राष्ट्रपति शी जिनपिंग से मुलाकात की। भारत-चीन सीमा के संबंध में दोनों नेता किस बात पर सहमत हुए?</p>",
+        "op_en": [
+            "To maintain peace and tranquility along the border",
+            "To withdraw all Indian troops from border areas",
+            "To allow Chinese telecom firms to operate near the border areas",
+            "To completely resolve the Line of Actual Control (LAC) dispute"
+        ],
+        "op_hi": [
+            "सीमा पर शांति और सद्भाव बनाए रखने के लिए",
+            "सीमावर्ती क्षेत्रों से सभी भारतीय सैनिकों को वापस बुलाने के लिए",
+            "चीनी दूरसंचार कंपनियों को सीमावर्ती क्षेत्रों के पास काम करने की अनुमति देने के लिए",
+            "वास्तविक नियंत्रण रेखा (LAC) विवाद को पूरी तरह से सुलझाने के लिए"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस कूटनीतिक (Diplomatic) प्रश्न को समझते हैं। भारत और चीन के बीच लाइन ऑफ एक्चुअल कंट्रोल (LAC) पर लंबे समय से तनाव रहा है।</p><p>जब भी भारत और चीन के शीर्ष नेता (PM Modi और President Xi) किसी बहुपक्षीय शिखर सम्मेलन (जैसे SCO, BRICS) में मिलते हैं, तो तनाव कम करने का पहला कदम <b>\"सीमा पर शांति और सद्भाव (peace and tranquility) बनाए रखना\"</b> होता है। यह आगे की बातचीत के लिए एक बुनियादी आवश्यकता है।</p><ul><li><b>Option 1:</b> यह बिल्कुल सही है। दोनों देश सीमा पर तनाव कम करने और शांति बनाए रखने पर सहमत होते हैं।</li><li><b>Option 2:</b> कोई भी देश अपनी सुरक्षा को खतरे में डालकर सभी सैनिक वापस नहीं बुलाता।</li><li><b>Option 3:</b> दूरसंचार और सुरक्षा का मुद्दा अलग है, यह सीमा समझौते का हिस्सा नहीं होता।</li><li><b>Option 4:</b> LAC विवाद बहुत जटिल है और इसे एक ही बैठक में पूरी तरह से सुलझाना व्यावहारिक रूप से संभव नहीं है।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Current Affairs - Campaigns",
+        "level": "Moderate",
+        "q_en": "<p>Which of the following is a three-month nationwide campaign launched by NITI Aayog on 28 January 2026 to improve health, nutrition, sanitation, education, and animal vaccination outcomes in India’s most underdeveloped districts and blocks?</p>",
+        "q_hi": "<p>भारत के सबसे अविकसित जिलों और ब्लॉकों में स्वास्थ्य, पोषण, स्वच्छता, शिक्षा और पशु टीकाकरण परिणामों में सुधार के लिए 28 जनवरी 2026 को नीति आयोग द्वारा शुरू किया गया तीन महीने का राष्ट्रव्यापी अभियान निम्नलिखित में से कौन सा है?</p>",
+        "op_en": [
+            "Swachh Bharat Abhiyan",
+            "Sampoornata Abhiyan 2.0",
+            "Poshan Abhiyaan",
+            "Aspirational Districts Mission"
+        ],
+        "op_hi": [
+            "स्वच्छ भारत अभियान",
+            "संपूर्णता अभियान 2.0 (Sampoornata Abhiyan 2.0)",
+            "पोषण अभियान",
+            "आकांक्षी जिला मिशन"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस योजना को समझते हैं। नीति आयोग (NITI Aayog) ने भारत के पिछड़े जिलों को विकसित करने के लिए 'Aspirational Districts Programme' (आकांक्षी जिला कार्यक्रम) चलाया है।</p><p>इन जिलों और ब्लॉकों में स्वास्थ्य, पोषण और बुनियादी ढांचे के 100% लक्ष्य (Saturation) को हासिल करने के लिए नीति आयोग ने <b>'संपूर्णता अभियान' (Sampoornata Abhiyan)</b> शुरू किया था। इसका दूसरा चरण (2.0) विशेष रूप से सभी तय मानकों को तेजी से पूरा करने के लिए एक तीन महीने का सघन अभियान है।</p><ul><li><b>Option 1:</b> यह स्वच्छता पर केंद्रित है, नीति आयोग का विशिष्ट ब्लॉक कार्यक्रम नहीं।</li><li><b>Option 2 (Sampoornata Abhiyan 2.0):</b> यह बिल्कुल सही उत्तर है! इसका लक्ष्य पिछड़े ब्लॉकों में विकास की 'संपूर्णता' (100% saturation) प्राप्त करना है।</li><li><b>Option 3:</b> पोषण अभियान केवल पोषण से संबंधित है।</li><li><b>Option 4:</b> यह मुख्य कार्यक्रम है, लेकिन तीन महीने के विशेष अभियान का नाम 'संपूर्णता अभियान' है।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Physics/Units",
+        "level": "Easy",
+        "q_en": "<p>In the SI system of units, the prefix “kilo” in the term kilowatt represents which multiplicative factor?</p>",
+        "q_hi": "<p>इकाइयों की SI प्रणाली में, किलोवाट (kilowatt) शब्द में उपसर्ग \"किलो\" किस गुणक कारक (multiplicative factor) का प्रतिनिधित्व करता है?</p>",
+        "op_en": [
+            "10<sup>6</sup>",
+            "10<sup>-6</sup>",
+            "10<sup>-3</sup>",
+            "10<sup>3</sup>"
+        ],
+        "op_hi": [
+            "10<sup>6</sup>",
+            "10<sup>-6</sup>",
+            "10<sup>-3</sup>",
+            "10<sup>3</sup>"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, यह विज्ञान (Science) का एक बहुत ही बेसिक और स्कोरिंग सवाल है। SI प्रणाली (International System of Units) में बड़े या छोटे मानों को दर्शाने के लिए उपसर्गों (Prefixes) का उपयोग किया जाता है।</p><p><b>सामान्य उपसर्ग (Prefixes):</b><br>मिली (milli) = 10<sup>-3</sup> (1/1000)<br>माइक्रो (micro) = 10<sup>-6</sup><br><b>किलो (kilo) = 10<sup>3</sup> (1000)</b><br>मेगा (mega) = 10<sup>6</sup> (10,00,000)</p><p>जैसे: 1 किलोग्राम = 1000 ग्राम, वैसे ही 1 किलोवाट = 1000 वाट (10<sup>3</sup> वाट)।</p><ul><li><b>Option 1 (10<sup>6</sup>):</b> यह 'मेगा' (Mega) को दर्शाता है।</li><li><b>Option 2 (10<sup>-6</sup>):</b> यह 'माइक्रो' (Micro) को दर्शाता है।</li><li><b>Option 3 (10<sup>-3</sup>):</b> यह 'मिली' (Milli) को दर्शाता है।</li><li><b>Option 4 (10<sup>3</sup>):</b> यह बिल्कुल सही है, यह 'किलो' (Kilo) को दर्शाता है।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Awards & Honours / Art & Culture",
+        "level": "Moderate",
+        "q_en": "<p>Who among the following Padma Shri winners (2023) is associated with Pandwani?</p>",
+        "q_hi": "<p>निम्नलिखित पद्म श्री विजेताओं (2023) में से कौन पंडवानी लोक कला से जुड़ा है?</p>",
+        "op_en": [
+            "Usha Barle",
+            "Rameshwar Pathak",
+            "Bombay Jayashri",
+            "Prahlad Tipanya"
+        ],
+        "op_hi": [
+            "उषा बारले",
+            "रामेश्वर पाठक",
+            "बॉम्बे जयश्री",
+            "प्रह्लाद टिपानिया"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। <b>'पंडवानी' (Pandwani)</b> मुख्य रूप से छत्तीसगढ़ राज्य की एक पारंपरिक लोक गायन शैली है, जिसमें महाभारत की कथाओं (विशेषकर पांडवों की कहानियों) को संगीतमय तरीके से सुनाया जाता है। तीजन बाई इस कला की सबसे प्रसिद्ध कलाकार हैं।</p><p>वर्ष 2023 में पंडवानी कला को आगे बढ़ाने के लिए <b>श्रीमती उषा बारले (Usha Barle)</b> को भारत सरकार द्वारा पद्म श्री से सम्मानित किया गया था।</p><ul><li><b>Option 1 (उषा बारले):</b> यह बिल्कुल सही उत्तर है! वह छत्तीसगढ़ की एक जानी-मानी पंडवानी गायिका हैं।</li><li><b>Option 2:</b> रामेश्वर पाठक का संबंध अन्य विधाओं से है।</li><li><b>Option 3:</b> बॉम्बे जयश्री एक प्रसिद्ध कर्नाटक संगीत (Carnatic music) गायिका हैं।</li><li><b>Option 4:</b> प्रह्लाद सिंह टिपानिया मध्य प्रदेश के प्रसिद्ध कबीर भजन गायक हैं।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "International Economy",
+        "level": "Hard",
+        "q_en": "<p>On 10 March 2024, India signed the Trade and Economic Partnership Agreement (TEPA) with the European Free Trade Association (EFTA), which came into effect on 1 October 2025. Which of the following countries are part of EFTA involved in this agreement?</p>",
+        "q_hi": "<p>10 मार्च 2024 को, भारत ने यूरोपीय मुक्त व्यापार संघ (EFTA) के साथ व्यापार और आर्थिक भागीदारी समझौता (TEPA) पर हस्ताक्षर किए, जो 1 अक्टूबर 2025 को लागू हुआ। निम्नलिखित में से कौन से देश इस समझौते में शामिल EFTA का हिस्सा हैं?</p>",
+        "op_en": [
+            "Germany, France, and Italy",
+            "Sweden, Denmark, Liechtenstein and Finland",
+            "Switzerland, Norway, Iceland, and Liechtenstein",
+            "The UK, Ireland, and The Netherlands"
+        ],
+        "op_hi": [
+            "जर्मनी, फ्रांस और इटली",
+            "स्वीडन, डेनमार्क, लिकटेंस्टीन और फिनलैंड",
+            "स्विट्जरलैंड, नॉर्वे, आइसलैंड और लिकटेंस्टीन",
+            "यूके, आयरलैंड और नीदरलैंड"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस आर्थिक समझौते के बारे में जानें। <b>EFTA (European Free Trade Association)</b> एक क्षेत्रीय व्यापार संगठन और मुक्त व्यापार क्षेत्र है। यह यूरोपीय संघ (EU) से अलग है।</p><p>EFTA में चार गैर-EU (Non-EU) यूरोपीय देश शामिल हैं, जिन्होंने अपने व्यापार को बढ़ावा देने के लिए यह समूह बनाया है। भारत ने इनके साथ TEPA (व्यापार समझौता) किया है जिससे भारत में विदेशी निवेश बढ़ेगा।</p><ul><li><b>Option 1:</b> ये सभी देश यूरोपीय संघ (EU) के प्रमुख सदस्य हैं, EFTA के नहीं।</li><li><b>Option 2:</b> इसमें से स्वीडन, डेनमार्क और फिनलैंड EU के सदस्य हैं।</li><li><b>Option 3 (Switzerland, Norway, Iceland, and Liechtenstein):</b> यह बिल्कुल सही उत्तर है! यही चार देश EFTA का निर्माण करते हैं। <b>Short Trick: SNIL</b> (Switzerland, Norway, Iceland, Liechtenstein).</li><li><b>Option 4:</b> ये देश भी EFTA का हिस्सा नहीं हैं।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Environment & Ecology",
+        "level": "Moderate",
+        "q_en": "<p>According to a <b>Press Information Bureau (PIB) release dated 12 January 2026</b>, which approach was emphasised by the Union Minister for Environment, Forest and Climate Change as essential for tackling air pollution in the Delhi–NCR region?</p>",
+        "q_hi": "<p>12 जनवरी 2026 की प्रेस सूचना ब्यूरो (पीआईबी) की एक विज्ञप्ति के अनुसार, केंद्रीय पर्यावरण, वन और जलवायु परिवर्तन मंत्री द्वारा दिल्ली-एनसीआर क्षेत्र में वायु प्रदूषण से निपटने के लिए किस दृष्टिकोण को आवश्यक बताया गया था?</p>",
+        "op_en": [
+            "Immediate closure of all polluting activities",
+            "Dependence only on weather-related solutions",
+            "Emergency actions during winter months only",
+            "Long-term and coordinated policy interventions"
+        ],
+        "op_hi": [
+            "सभी प्रदूषणकारी गतिविधियों को तत्काल बंद करना",
+            "केवल मौसम संबंधी समाधानों पर निर्भरता",
+            "केवल सर्दियों के महीनों के दौरान आपातकालीन कार्रवाई",
+            "दीर्घकालिक और समन्वित नीतिगत हस्तक्षेप"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, दिल्ली-एनसीआर का प्रदूषण एक बहुत ही गंभीर और जटिल समस्या है। इसे केवल एक दिन या एक सीजन में ठीक नहीं किया जा सकता।</p><p>पर्यावरण मंत्रालय अक्सर इस बात पर जोर देता है कि स्मॉग टावर लगाने या केवल सर्दियों में पाबंदी लगाने (जैसे Odd-Even या निर्माण कार्य रोकना) से स्थायी समाधान नहीं मिलेगा। इसके लिए <b>पूरे साल चलने वाली दीर्घकालिक नीतियों (Long-term policies) और पड़ोसी राज्यों के साथ तालमेल (Coordinated interventions)</b> की आवश्यकता है।</p><ul><li><b>Option 1:</b> सभी गतिविधियों को एक साथ बंद करने से अर्थव्यवस्था ठप हो जाएगी, यह व्यावहारिक नहीं है।</li><li><b>Option 2:</b> बारिश या तेज हवाओं का इंतजार करना कोई नीतिगत समाधान नहीं है।</li><li><b>Option 3:</b> केवल सर्दियों में जागने (Emergency action) से साल भर का प्रदूषण खत्म नहीं होता।</li><li><b>Option 4 (Long-term and coordinated policy interventions):</b> यह सबसे तार्किक (Logical) और सही उत्तर है।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Current Affairs - National",
+        "level": "Moderate",
+        "q_en": "<p>Which of the following ministries will conduct the year-long National Migration Survey from July 2026 to June 2027, marking India’s most comprehensive migration study in nearly two decades?</p>",
+        "q_hi": "<p>निम्नलिखित में से कौन सा मंत्रालय जुलाई 2026 से जून 2027 तक साल भर चलने वाला राष्ट्रीय प्रवासन सर्वेक्षण (National Migration Survey) आयोजित करेगा, जो लगभग दो दशकों में भारत का सबसे व्यापक प्रवासन अध्ययन है?</p>",
+        "op_en": [
+            "Ministry of Home Affairs",
+            "Ministry of Labour and Employment",
+            "Ministry of Social Justice and Empowerment",
+            "Ministry of Statistics and Programme Implementation"
+        ],
+        "op_hi": [
+            "गृह मंत्रालय",
+            "श्रम और रोजगार मंत्रालय",
+            "सामाजिक न्याय और अधिकारिता मंत्रालय",
+            "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय (MoSPI)"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। भारत के भीतर लोग रोजगार, शिक्षा या शादी के कारण एक राज्य से दूसरे राज्य में बहुत बड़ी संख्या में प्रवास (Migration) करते हैं।</p><p>इस प्रवासन का सटीक डेटा इकट्ठा करने का काम भारत सरकार की प्रमुख सांख्यिकीय एजेंसी <b>NSSO (National Sample Survey Office)</b> करती है, जो <b>सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय (MoSPI)</b> के अधीन काम करता है। यह सर्वे नीतियाँ बनाने में बहुत मददगार होगा।</p><ul><li><b>Option 1:</b> गृह मंत्रालय मुख्य जनगणना (Census) कराता है, लेकिन यह विशेष सैंपल सर्वे MoSPI कराता है।</li><li><b>Option 2:</b> श्रम मंत्रालय लेबर डेटा देखता है, लेकिन व्यापक राष्ट्रीय सर्वे का काम MoSPI का है।</li><li><b>Option 3:</b> यह मंत्रालय कमजोर वर्गों के कल्याण के लिए है।</li><li><b>Option 4 (MoSPI):</b> यह बिल्कुल सही उत्तर है! भारत में बड़े पैमाने के सैंपल सर्वे (NSSO के माध्यम से) MoSPI ही आयोजित करता है।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Government Schemes",
+        "level": "Moderate",
+        "q_en": "<p>The Union Cabinet approved the restructuring and extension of the PM SVANidhi Scheme on <b>27 August 2025</b>. Which of the following is a key feature of the restructured scheme?</p>",
+        "q_hi": "<p>केंद्रीय मंत्रिमंडल ने 27 अगस्त 2025 को पीएम स्वनिधि (PM SVANidhi) योजना के पुनर्गठन और विस्तार को मंजूरी दी। पुनर्गठित योजना की प्रमुख विशेषता निम्नलिखित में से कौन सी है?</p>",
+        "op_en": [
+            "Conversion of PM SVANidhi loans into subsidies starting 1 January 2025",
+            "Completion of the PM SVANidhi Scheme on 31 December 2025",
+            "Launch of PM SVANidhi exclusively for rural areas from 1 April 2026",
+            "Extension of the PM SVANidhi lending period until 31 March 2030"
+        ],
+        "op_hi": [
+            "1 जनवरी 2025 से पीएम स्वनिधि ऋणों को सब्सिडी में बदलना",
+            "31 दिसंबर 2025 को पीएम स्वनिधि योजना का समापन",
+            "1 अप्रैल 2026 से विशेष रूप से ग्रामीण क्षेत्रों के लिए पीएम स्वनिधि का शुभारंभ",
+            "पीएम स्वनिधि ऋण देने की अवधि को 31 मार्च 2030 तक बढ़ाना"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस महत्वपूर्ण योजना के बारे में जानें। <b>PM SVANidhi (पीएम स्वनिधि)</b> योजना कोविड-19 महामारी के दौरान रेहड़ी-पटरी वालों (Street Vendors) को बिना गारंटी के माइक्रो-लोन (Micro-credit) प्रदान करने के लिए शुरू की गई थी।</p><p>इस योजना की सफलता और स्ट्रीट वेंडर्स की जरूरत को देखते हुए, सरकार ने इसे बंद करने के बजाय इसकी अवधि बढ़ा दी है ताकि अधिक से अधिक लोगों को लाभ मिल सके।</p><ul><li><b>Option 1:</b> ऋण (Loan) को सब्सिडी में बदलने का कोई प्रावधान नहीं है; इसे चुकाना होता है (जिस पर ब्याज सब्सिडी मिलती है)।</li><li><b>Option 2:</b> योजना को बंद नहीं किया गया है, बल्कि बढ़ाया गया है।</li><li><b>Option 3:</b> यह मुख्य रूप से शहरी और अर्ध-शहरी स्ट्रीट वेंडर्स के लिए है।</li><li><b>Option 4 (Extension until 2030):</b> यह बिल्कुल सही है! कैबिनेट ने ऋण देने की अवधि को बढ़ाकर 31 मार्च 2030 तक कर दिया है।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Current Affairs - National",
+        "level": "Easy",
+        "q_en": "<p>In January 2026, which of the following ministries issued the notification for the first phase of the Census of India 2027, covering house listing operations and provisions for self-enumeration?</p>",
+        "q_hi": "<p>जनवरी 2026 में, निम्नलिखित में से किस मंत्रालय ने भारत की जनगणना 2027 के पहले चरण के लिए अधिसूचना जारी की, जिसमें मकान सूचीकरण संचालन और स्व-गणना (self-enumeration) के प्रावधान शामिल हैं?</p>",
+        "op_en": [
+            "Ministry of Panchayati Raj",
+            "Ministry of Home Affairs",
+            "Ministry of Statistics and Programme Implementation",
+            "Ministry of Housing and Urban Affairs"
+        ],
+        "op_hi": [
+            "पंचायती राज मंत्रालय",
+            "गृह मंत्रालय (MHA)",
+            "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय",
+            "आवास और शहरी मामलों का मंत्रालय"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, यह एक बहुत ही महत्वपूर्ण तथ्यात्मक (factual) प्रश्न है। भारत में दशकीय जनगणना (Census) कराने की जिम्मेदारी किस मंत्रालय की होती है, यह अक्सर पूछा जाता है।</p><p>भारत की जनगणना का कार्य <b>भारत के महापंजीयक और जनगणना आयुक्त (Registrar General and Census Commissioner of India)</b> के कार्यालय द्वारा किया जाता है। यह कार्यालय सीधे <b>गृह मंत्रालय (Ministry of Home Affairs)</b> के अधीन आता है।</p><ul><li><b>Option 1:</b> पंचायती राज मंत्रालय ग्रामीण स्थानीय शासन देखता है।</li><li><b>Option 2 (Ministry of Home Affairs):</b> यह बिल्कुल सही उत्तर है! गृह मंत्रालय ही जनगणना की आधिकारिक अधिसूचना जारी करता है।</li><li><b>Option 3:</b> MoSPI सैंपल सर्वे (NSSO) कराता है, संपूर्ण जनगणना नहीं।</li><li><b>Option 4:</b> यह केवल शहरी विकास से संबंधित है।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Sports Current Affairs",
+        "level": "Moderate",
+        "q_en": "<p>On 18 August 2025, India enacted a landmark legislation to reform sports governance, ensuring transparency, accountability, and athlete welfare. What is the name of this Act?</p>",
+        "q_hi": "<p>18 अगस्त 2025 को, भारत ने खेल प्रशासन में सुधार, पारदर्शिता, जवाबदेही और एथलीट कल्याण सुनिश्चित करने के लिए एक ऐतिहासिक कानून बनाया। इस अधिनियम का नाम क्या है?</p>",
+        "op_en": [
+            "Fit India Governance Act, 2025",
+            "National Sports Development Act, 2025",
+            "Khelo Bharat Niti, 2025",
+            "National Sports Governance Act, 2025"
+        ],
+        "op_hi": [
+            "फिट इंडिया गवर्नेंस एक्ट, 2025",
+            "राष्ट्रीय खेल विकास अधिनियम, 2025",
+            "खेलो भारत नीति, 2025",
+            "राष्ट्रीय खेल प्रशासन अधिनियम (National Sports Governance Act), 2025"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, भारतीय खेलों (Sports) के ढांचे में अक्सर राजनीतिक हस्तक्षेप और पारदर्शिता की कमी की शिकायतें आती रहती थीं। इस समस्या को सुलझाने के लिए सरकार ने खेल महासंघों (Sports Federations) को जवाबदेह बनाने का निर्णय लिया।</p><p>खिलाड़ियों के कल्याण (Athlete welfare) और महासंघों के कामकाज को सुव्यवस्थित करने के लिए जो कानून लाया गया, उसका नाम <b>National Sports Governance Act (राष्ट्रीय खेल प्रशासन अधिनियम)</b> है।</p><ul><li><b>Option 1, 2, 3:</b> ये नाम भ्रामक विकल्पों के रूप में दिए गए हैं। 'फिट इंडिया' और 'खेलो इंडिया' योजनाएं हैं, कानून (Act) नहीं।</li><li><b>Option 4 (National Sports Governance Act, 2025):</b> यह बिल्कुल सही उत्तर है।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Art & Culture",
+        "level": "Moderate",
+        "q_en": "<p>As of 2025, which of the following languages was most recently added to the list of Indian Classical Languages?</p>",
+        "q_hi": "<p>2025 तक, निम्नलिखित में से किस भाषा को हाल ही में भारतीय शास्त्रीय भाषाओं (Indian Classical Languages) की सूची में जोड़ा गया था?</p>",
+        "op_en": [
+            "Malayalam",
+            "Telugu",
+            "Odia",
+            "Marathi"
+        ],
+        "op_hi": [
+            "मलयालम",
+            "तेलुगु",
+            "ओडिया",
+            "मराठी"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस महत्वपूर्ण सांस्कृतिक अपडेट को समझते हैं। भारत सरकार उन भाषाओं को 'शास्त्रीय भाषा' (Classical Language) का दर्जा देती है जिनका इतिहास बहुत प्राचीन (1500-2000 वर्ष पुराना) और समृद्ध होता है।</p><p>सबसे पहले 2004 में <b>तमिल (Tamil)</b> को यह दर्जा मिला था। इसके बाद संस्कृत, कन्नड़, तेलुगु, मलयालम और ओडिया को शामिल किया गया। हाल ही में (अक्टूबर 2024 में), सरकार ने 5 नई भाषाओं को शास्त्रीय भाषा का दर्जा दिया: <b>मराठी, पाली, प्राकृत, असमिया और बंगाली</b>।</p><ul><li><b>Option 1 (Malayalam):</b> इसे 2013 में जोड़ा गया था।</li><li><b>Option 2 (Telugu):</b> इसे 2008 में जोड़ा गया था।</li><li><b>Option 3 (Odia):</b> इसे 2014 में जोड़ा गया था।</li><li><b>Option 4 (Marathi):</b> यह बिल्कुल सही उत्तर है! इसे 5 अन्य भाषाओं के साथ सबसे हाल ही में सूची में शामिल किया गया है।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Sports Current Affairs",
+        "level": "Easy",
+        "q_en": "<p>Which of the following Indian athletes won gold in the men’s javelin throw F64 event during World Para Athletics Championships (WPAC) 2025?</p>",
+        "q_hi": "<p>निम्नलिखित में से किस भारतीय एथलीट ने विश्व पैरा एथलेटिक्स चैंपियनशिप (WPAC) 2025 के दौरान पुरुषों की भाला फेंक (javelin throw) F64 स्पर्धा में स्वर्ण पदक जीता?</p>",
+        "op_en": [
+            "Sumit Antil",
+            "Dharambir",
+            "Ekta Bhyan",
+            "Amit Saroha"
+        ],
+        "op_hi": [
+            "सुमित अंतिल",
+            "धर्मबीर",
+            "एकता भयान",
+            "अमित सरोहा"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, भारत के पैरा-एथलीट दुनिया भर में देश का नाम रोशन कर रहे हैं। <b>F64 श्रेणी</b> (जिसमें एक पैर के निचले हिस्से में समस्या होती है) में भाला फेंक (Javelin Throw) के बेताज बादशाह <b>सुमित अंतिल (Sumit Antil)</b> हैं।</p><p>सुमित अंतिल ने न केवल टोक्यो और पेरिस पैरालंपिक में गोल्ड मेडल जीते हैं, बल्कि विश्व पैरा एथलेटिक्स चैंपियनशिप में भी लगातार अपना दबदबा बनाए रखा है और विश्व रिकॉर्ड भी तोड़े हैं।</p><ul><li><b>Option 1 (Sumit Antil):</b> यह बिल्कुल सही उत्तर है! भाला फेंक F64 इवेंट में इनका कोई मुकाबला नहीं है।</li><li><b>Option 2 (Dharambir):</b> ये क्लब थ्रो (Club Throw) इवेंट से संबंधित हैं।</li><li><b>Option 3 (Ekta Bhyan):</b> ये महिला पैरा-एथलीट हैं (क्लब थ्रो)।</li><li><b>Option 4 (Amit Saroha):</b> ये भी क्लब थ्रो और डिस्कस थ्रो से संबंधित हैं।</li></ul>"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Indian Polity & Law",
+        "level": "Hard",
+        "q_en": "<p>According to a Press Information Bureau (PIB) release on <b>5 February 2026</b>, the Government of India has undertaken various steps to promote Alternative Dispute Resolution, including institutional arbitration through which of the following initiatives?</p>",
+        "q_hi": "<p>5 फरवरी 2026 की प्रेस सूचना ब्यूरो (पीआईबी) की एक विज्ञप्ति के अनुसार, भारत सरकार ने वैकल्पिक विवाद समाधान (Alternative Dispute Resolution) को बढ़ावा देने के लिए कई कदम उठाए हैं, जिसमें निम्नलिखित में से किस पहल के माध्यम से संस्थागत मध्यस्थता (institutional arbitration) शामिल है?</p>",
+        "op_en": [
+            "Signing of the India–EU Free Trade Agreement",
+            "Establishment of the India International Arbitration Centre",
+            "Reforms in the National Legal Services Authority",
+            "Launch of Operation Mahadev"
+        ],
+        "op_hi": [
+            "भारत-यूरोपीय संघ मुक्त व्यापार समझौते पर हस्ताक्षर",
+            "भारत अंतर्राष्ट्रीय मध्यस्थता केंद्र (India International Arbitration Centre) की स्थापना",
+            "राष्ट्रीय विधिक सेवा प्राधिकरण (NALSA) में सुधार",
+            "ऑपरेशन महादेव का शुभारंभ"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस कानूनी (Legal) मामले को समझते हैं। 'वैकल्पिक विवाद समाधान' (Alternative Dispute Resolution - ADR) का मतलब है कोर्ट के बाहर मध्यस्थता (Arbitration/Mediation) के जरिए मामलों को सुलझाना, ताकि अदालतों पर मुकदमों का बोझ कम हो और व्यापारिक विवाद जल्दी निपटें।</p><p>भारत को अंतर्राष्ट्रीय मध्यस्थता का हब बनाने के लिए भारत सरकार ने नई दिल्ली में एक विशेष संस्था की स्थापना की है।</p><ul><li><b>Option 1:</b> यह एक व्यापार समझौता है, जिसका मुख्य उद्देश्य मध्यस्थता नहीं है।</li><li><b>Option 2 (India International Arbitration Centre - IIAC):</b> यह बिल्कुल सही उत्तर है! इसे 2019 के अधिनियम द्वारा स्थापित किया गया था और इसे लगातार बढ़ावा दिया जा रहा है ताकि बड़ी कंपनियां अपने विवाद भारत में ही सुलझा सकें।</li><li><b>Option 3:</b> NALSA मुफ्त कानूनी सहायता और लोक अदालतें आयोजित करता है, लेकिन कॉर्पोरेट/संस्थागत मध्यस्थता इसका मुख्य काम नहीं है।</li><li><b>Option 4:</b> यह एक काल्पनिक या असंबंधित पुलिस/सुरक्षा ऑपरेशन का नाम है।</li></ul>"
+    }
+]
