@@ -147,7 +147,7 @@
         "solution": "<p>Selling Price (SP) of the mixture = ₹137/kg<br>Gain % = 37%</p><p>First, we find the Cost Price (CP) of the mixture:<br>CP = $\\frac{SP \\times 100}{100 + Gain\\%}$<br>CP = $\\frac{137 \\times 100}{137}$ = ₹100/kg</p><p>Now, applying the rule of alligation:<br>Cost of 1st variety = ₹63/kg<br>Cost of 2nd variety = ₹113/kg<br>Mean price (CP of mixture) = ₹100/kg</p><p>Quantity of 1st variety : Quantity of 2nd variety<br>= (113 - 100) : (100 - 63)<br>= 13 : 37</p><p>Hence, the required ratio is 13:37.</p>"
     },
   {
-    "section": "Mathematics",
+    "section": "Arithmetical and Numerical Ability",
     "topic": "Number System",
     "level": "Easy",
     "q_en": "<p>How many prime numbers are there between 1 and 44?</p>",
