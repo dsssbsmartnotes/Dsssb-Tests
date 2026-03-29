@@ -1,6 +1,6 @@
 [
     {
-        "section": "Arithmetical and Numerical Ability",
+        "section": "Arithmetical and Numerical Ability1",
         "topic": "Mixture and Alligation",
         "level": "Hard",
         "q_en": "<p>A vessel contains a mixture of milk and water in the ratio 7:3. If 20 liters of the mixture is replaced by water, the ratio of milk and water becomes 3:2. Find the initial quantity of the mixture in the vessel.</p>",
@@ -21,7 +21,7 @@
         "solution": "<p>बच्चों, आइए इस मिश्रण (Mixture and Alligation) के शानदार सवाल को हल करते हैं!</p><p>इसे हम एक बहुत ही बेहतरीन Short Trick से हल करेंगे। जब भी मिश्रण को निकालकर उसमें केवल एक ही चीज़ (जैसे यहाँ पानी) मिलाई जाए, तो हमें उस चीज़ पर फोकस करना चाहिए जिसकी मात्रा <b>नहीं</b> मिलाई जा रही है (यानी दूध)।</p><p><b>Step 1: दूध (Milk) का प्रारंभिक और अंतिम भाग निकालें</b><br>शुरुआत में दूध और पानी का अनुपात = 7:3<br>यानी प्रारंभिक दूध (Initial Milk) = 7 / (7+3) = <b>7/10 भाग</b></p><p>20 लीटर पानी मिलाने के बाद नया अनुपात = 3:2<br>यानी अंतिम दूध (Final Milk) = 3 / (3+2) = 3/5 = <b>6/10 भाग</b> (आधार समान करने के लिए अंश और हर में 2 से गुणा किया)</p><p><b>Step 2: निकाले गए मिश्रण का हिस्सा पता करें</b><br>बचे हुए दूध का हिस्सा = (अंतिम दूध) / (प्रारंभिक दूध)<br>= (6/10) / (7/10) = <b>6/7</b><br><br>इसका मतलब है कि कुल 7 हिस्सों में से 6 हिस्से दूध के बचे हैं, यानी <b>1/7 हिस्सा</b> मिश्रण का निकाला गया था।</p><p><b>Step 3: कुल मात्रा (Total Quantity) निकालें</b><br>प्रश्न के अनुसार, निकाला गया हिस्सा 20 लीटर है।<br>इसलिए, कुल मात्रा का 1/7 = 20 लीटर<br>कुल मात्रा = 20 &times; 7 = <b>140 लीटर</b></p><ul><li><b>Option 1 (140 लीटर):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 2 (150 लीटर):</b> गलत है।</li><li><b>Option 3 (160 लीटर):</b> गलत है।</li><li><b>Option 4 (120 लीटर):</b> यह भी गलत है।</li></ul>"
     },
 {
-        "section": "Arithmetical and Numerical Ability",
+        "section": "Arithmetical and Numerical Ability1",
         "topic": "Speed, Time and Distance",
         "level": "Hard",
         "q_en": "<p>A train crosses a stationary pole in 12 seconds and a 240-meter-long bridge in 36 seconds. If a second train, which is 150 meters long, is running in the opposite direction at a speed of 72 km/hr, how much time will the first train take to cross the second train completely?</p>",
@@ -231,7 +231,7 @@
         "solution": "<p>बच्चों, लाभ और हानि (Profit and Loss) के इस सवाल में सबसे पहले हमें कुल क्रय मूल्य (Total CP) निकालना होगा।</p><p><b>Step 1: कुल क्रय मूल्य (Total Cost Price)</b><br>वस्तु की कीमत = ₹230<br>ऊपरी खर्च (Overhead expenses) = ₹20<br>कुल CP = 230 + 20 = <b>₹250</b></p><p><b>Step 2: लाभ (Profit) निकालें</b><br>विक्रय मूल्य (Selling Price, SP) = ₹400<br>लाभ = SP - कुल CP<br>लाभ = 400 - 250 = <b>₹150</b></p><p><b>Step 3: लाभ प्रतिशत (Profit Percentage, x)</b><br>x = (लाभ / कुल CP) &times; 100<br>x = (150 / 250) &times; 100<br>x = (3 / 5) &times; 100 = 3 &times; 20 = <b>60%</b></p><ul><li><b>Option 1 (40):</b> गलत है।</li><li><b>Option 2 (50):</b> गलत है।</li><li><b>Option 3 (60):</b> बिल्कुल <b>सही</b> उत्तर!</li><li><b>Option 4 (80):</b> गलत है।</li></ul>"
     },
     {
-        "section": "Arithmetical and Numerical Ability",
+        "section": "Arithmetical and Numerical Ability1",
         "topic": "Time and Work",
         "level": "Moderate",
         "q_en": "<p>Pipe A can fill a tank in 15 hours, pipe B can fill the same tank in 23 hours and pipe C can fill the same tank in 15 hours. The time taken by them to fill the same tank if they operate together is:</p>",
@@ -252,7 +252,7 @@
         "solution": "<p>बच्चों, आइए पाइप और टंकी (Pipes and Cisterns) के इस सवाल को हल करते हैं।</p><p>A द्वारा लिया गया समय = 15 घंटे<br>B द्वारा लिया गया समय = 23 घंटे<br>C द्वारा लिया गया समय = 15 घंटे</p><p><b>Step 1: कुल कार्य (Total Work) निकालें</b><br>कुल कार्य = 15, 23 और 15 का LCM = 345 यूनिट</p><p><b>Step 2: कार्यक्षमता (Efficiency) निकालें</b><br>A की क्षमता = 345 / 15 = 23 यूनिट/घंटा<br>B की क्षमता = 345 / 23 = 15 यूनिट/घंटा<br>C की क्षमता = 345 / 15 = 23 यूनिट/घंटा</p><p>तीनों की एक साथ कुल क्षमता = 23 + 15 + 23 = 61 यूनिट/घंटा</p><p><b>Step 3: कुल समय निकालें</b><br>लिया गया कुल समय = कुल कार्य / कुल क्षमता<br>= 345 / 61 घंटे</p><p>इसे मिश्रित भिन्न (mixed fraction) में बदलने पर:<br>345 &divide; 61 = 5 (भागफल) और 40 (शेषफल)<br>= <b>5 40/61 घंटे</b></p><ul><li><b>Option 1:</b> गलत है।</li><li><b>Option 2 (5 40/61 hours):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li><li><b>Option 3:</b> गलत है।</li><li><b>Option 4:</b> गलत है।</li></ul>"
     },
     {
-        "section": "Arithmetical and Numerical Ability",
+        "section": "Arithmetical and Numerical Ability1",
         "topic": "Speed, Time and Distance",
         "level": "Moderate",
         "q_en": "<p>Two runners start together from the same point on a circular track of 300 m length and run in the same direction. Their speeds are 6 m/s and 4 m/s respectively. After how many seconds will they meet again at the starting point?</p>",
@@ -273,7 +273,7 @@
         "solution": "<p>बच्चों, यह Circular Track (वृत्ताकार पथ) का एक बहुत ही क्लासिक सवाल है। जब भी पूछा जाए कि 'शुरुआती बिंदु पर वे फिर कब मिलेंगे', तो हमें दोनों धावकों द्वारा एक चक्कर पूरा करने में लिए गए समय का <b>LCM (लघुत्तम समापवर्त्य)</b> निकालना होता है।</p><p><b>Step 1: दोनों का समय निकालें</b><br>समय = दूरी / गति (Time = Distance / Speed)<br>पहले (तेज) धावक द्वारा 1 चक्कर में लिया गया समय = 300 / 6 = <b>50 सेकंड</b><br>दूसरे (धीमे) धावक द्वारा 1 चक्कर में लिया गया समय = 300 / 4 = <b>75 सेकंड</b></p><p><b>Step 2: दोनों के समय का LCM निकालें</b><br>अब हमें 50 और 75 का LCM (लघुत्तम समापवर्त्य) निकालना है।<br>50 और 75 का LCM = <b>150</b></p><p>इसका मतलब है कि 150 सेकंड के बाद वे दोनों फिर से शुरुआती बिंदु पर एक साथ होंगे।</p><ul><li><b>Option 1 (250 s):</b> गलत है।</li><li><b>Option 2 (100 s):</b> गलत है।</li><li><b>Option 3 (220 s):</b> गलत है।</li><li><b>Option 4 (150 s):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li></ul>"
     },
     {
-        "section": "Arithmetical and Numerical Ability",
+        "section": "Arithmetical and Numerical Ability1",
         "topic": "Mensuration 3D",
         "level": "Easy",
         "q_en": "<p>Find the surface area of a cuboid with dimensions 6 m &times; 3 m &times; 0.25 m.</p>",
@@ -294,7 +294,7 @@
         "solution": "<p>बच्चों, यह घनाभ (Cuboid) के संपूर्ण पृष्ठीय क्षेत्रफल (Total Surface Area) का बहुत ही सीधा सवाल है।</p><p>दिया गया है:<br>लंबाई (l) = 6 m<br>चौड़ाई (b) = 3 m<br>ऊंचाई (h) = 0.25 m</p><p>घनाभ का पृष्ठीय क्षेत्रफल = <b>2(lb + bh + hl)</b></p><p>मान रखने पर:<br>= 2[(6 &times; 3) + (3 &times; 0.25) + (0.25 &times; 6)]<br>= 2[18 + 0.75 + 1.5]<br>= 2[20.25]<br>= <b>40.5 m&sup2;</b></p><ul><li><b>Option 1 (35.5 m2):</b> गलत है।</li><li><b>Option 2 (30.5 m2):</b> गलत है।</li><li><b>Option 3 (40.5 m2):</b> यह बिल्कुल <b>सही</b> जवाब है!</li><li><b>Option 4 (42.5 m2):</b> गलत है।</li></ul>"
     },
     {
-        "section": "Arithmetical and Numerical Ability",
+        "section": "Arithmetical and Numerical Ability1",
         "topic": "Mensuration 3D",
         "level": "Easy",
         "q_en": "<p>A hemispherical bowl has a radius of 7 cm. Find its curved surface area. (Use &pi; = 22/7)</p>",
@@ -315,7 +315,7 @@
         "solution": "<p>बच्चों, यह अर्धगोले (Hemisphere) का एक आसान सवाल है।</p><p>अर्धगोले के वक्र पृष्ठीय क्षेत्रफल (Curved Surface Area - CSA) का सूत्र होता है: <b>2&pi;r&sup2;</b></p><p>दिया गया है:<br>त्रिज्या (Radius, r) = 7 cm<br>&pi; = 22/7</p><p>मान रखने पर:<br>CSA = 2 &times; (22/7) &times; 7 &times; 7<br>= 2 &times; 22 &times; 7<br>= 44 &times; 7<br>= <b>308 cm&sup2;</b></p><ul><li><b>Option 1 (154 cm&sup2;):</b> यह केवल &pi;r&sup2; (वृत्त का क्षेत्रफल) है, इसलिए गलत है।</li><li><b>Option 2 (616 cm&sup2;):</b> यह पूरे गोले का क्षेत्रफल (4&pi;r&sup2;) है, इसलिए गलत है।</li><li><b>Option 3 (462 cm&sup2;):</b> यह अर्धगोले का संपूर्ण पृष्ठीय क्षेत्रफल (3&pi;r&sup2;) है, इसलिए गलत है।</li><li><b>Option 4 (308 cm&sup2;):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li></ul>"
     },
     {
-        "section": "Arithmetical and Numerical Ability",
+        "section": "Arithmetical and Numerical Ability1",
         "topic": "Profit and Loss",
         "level": "Hard",
         "q_en": "<p>A man incurs a loss of 33% by selling an article for &#8377;134. If he sells it for &#8377;492, what will be his gain percentage?</p>",
@@ -336,7 +336,7 @@
         "solution": "<p>बच्चों, यह लाभ और हानि (Profit &amp; Loss) का एक बेहतरीन सवाल है।</p><p><b>Step 1: क्रय मूल्य (Cost Price - CP) निकालें</b><br>जब हानि 33% है, तो विक्रय मूल्य (Selling Price - SP) क्रय मूल्य का (100 - 33)% यानी 67% होगा।<br>CP का 67% = 134<br>CP = (134 &times; 100) / 67 = <b>&#8377;200</b></p><p><b>Step 2: नया लाभ (New Gain) निकालें</b><br>नया विक्रय मूल्य (New SP) = &#8377;492<br>नया लाभ = New SP - CP<br>लाभ = 492 - 200 = <b>&#8377;292</b></p><p><b>Step 3: नया लाभ प्रतिशत (Gain %) निकालें</b><br>Gain % = (Gain / CP) &times; 100<br>= (292 / 200) &times; 100<br>= 292 / 2 = <b>146%</b></p><ul><li><b>Option 1 (148%):</b> गलत है।</li><li><b>Option 2 (146%):</b> यह बिल्कुल <b>सही</b> जवाब है!</li><li><b>Option 3 (145%):</b> गलत है।</li><li><b>Option 4 (149%):</b> गलत है।</li></ul>"
     },
     {
-        "section": "Arithmetical and Numerical Ability",
+        "section": "Arithmetical and Numerical Ability1",
         "topic": "Profit, Loss and Discount",
         "level": "Moderate",
         "q_en": "<p>After allowing a discount of 30% on its marked price, the value of a smart TV is &#8377;23,520. If no discount is allowed, then the shopkeeper gains 20%. The cost price of the smart TV is:</p>",
@@ -357,7 +357,7 @@
         "solution": "<p>बच्चों, आइए इस Discount और Profit के मिले-जुले सवाल को हल करते हैं।</p><p><b>Step 1: अंकित मूल्य (Marked Price - MP) निकालें</b><br>छूट (Discount) 30% देने के बाद विक्रय मूल्य (SP) = &#8377;23,520 है।<br>इसका मतलब है कि MP का 70% = 23,520<br>MP = (23520 &times; 100) / 70<br>MP = 336 &times; 100 = <b>&#8377;33,600</b></p><p><b>Step 2: क्रय मूल्य (Cost Price - CP) निकालें</b><br>प्रश्न कहता है: \"यदि कोई छूट नहीं दी जाती है, तो दुकानदार को 20% का लाभ होता है।\"<br>बिना छूट के बेचने का मतलब है कि MP पर ही बेचना। यानी नया SP = MP = &#8377;33,600<br>इस स्थिति में लाभ = 20% है।<br>CP का 120% = 33,600<br>CP = (33600 &times; 100) / 120<br>CP = 280 &times; 100 = <b>&#8377;28,000</b></p><ul><li><b>Option 1 (&#8377;27,988):</b> गलत है।</li><li><b>Option 2 (&#8377;28,011):</b> गलत है।</li><li><b>Option 3 (&#8377;27,944):</b> गलत है।</li><li><b>Option 4 (&#8377;28,000):</b> यह बिल्कुल <b>सही</b> उत्तर है!</li></ul>"
     },
     {
-        "section": "Arithmetical and Numerical Ability",
+        "section": "Arithmetical and Numerical Ability1",
         "topic": "Profit, Loss and Discount",
         "level": "Moderate",
         "q_en": "<p>A shopkeeper sets the marked price of a product at 8% over its cost price. If the shopkeeper offers a 5% discount on the marked price, what is her profit percentage?</p>",
@@ -378,7 +378,7 @@
         "solution": "<p>बच्चों, यह Profit &amp; Discount का एक बहुत ही शानदार सवाल है। इसे हम Successive Percentage (क्रमिक प्रतिशत) के फ़ॉर्मूले से बहुत आसानी से हल कर सकते हैं।</p><p><b>Short Trick (A + B + AB/100):</b><br>यहाँ मूल्य को 8% बढ़ाया गया है (Markup), इसलिए A = +8<br>फिर 5% की छूट दी गई है (Discount), इसलिए B = -5</p><p>शुद्ध प्रतिशत परिवर्तन (Net Change) = A + B + (A &times; B)/100<br>= 8 - 5 + [8 &times; (-5)] / 100<br>= 3 - (40/100)<br>= 3 - 0.40<br>= <b>+2.6%</b></p><p>चूँकि उत्तर धनात्मक (+) है, इसका मतलब <b>2.6% का लाभ (Profit)</b> हो रहा है।</p><ul><li><b>Option 1 (2.6%):</b> यह बिल्कुल <b>सही</b> जवाब है!</li><li><b>Option 2 (1.6%):</b> गलत है।</li><li><b>Option 3 (2.5%):</b> गलत है।</li><li><b>Option 4 (1.1%):</b> गलत है।</li></ul>"
     },
     {
-        "section": "Arithmetical and Numerical Ability",
+        "section": "Arithmetical and Numerical Ability1",
         "topic": "Mensuration 3D",
         "level": "Hard",
         "q_en": "<p>The sum of perimeters of the six faces of a cuboid is 88 cm and the total surface area of the cuboid is 32 sq. cm. Find the longest possible length that can be kept inside the cuboid.</p>",
