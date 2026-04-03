@@ -1,0 +1,422 @@
+[
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Active and Passive Voice",
+        "level": "Easy",
+        "q_en": "Change the given sentence into passive voice.<br>The principal is reviewing the applications carefully.",
+        "q_hi": "Change the given sentence into passive voice.<br>The principal is reviewing the applications carefully.",
+        "op_en": [
+            "The applications have been reviewed by the principal carefully.",
+            "The applications are reviewed by the principal carefully.",
+            "The applications were reviewed carefully by the principal.",
+            "The applications are being reviewed carefully by the principal."
+        ],
+        "op_hi": [
+            "The applications have been reviewed by the principal carefully.",
+            "The applications are reviewed by the principal carefully.",
+            "The applications were reviewed carefully by the principal.",
+            "The applications are being reviewed carefully by the principal."
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें दिए गए Active Voice वाले वाक्य को Passive Voice में बदलना है।</p><p>वाक्य है: 'The principal is reviewing the applications carefully.'</p><p>यहाँ <b>'is reviewing'</b> का प्रयोग हुआ है, जो दर्शाता है कि यह <i>Present Continuous Tense</i> का वाक्य है।</p><p>Present Continuous को Passive में बदलते समय नियम होता है: <b>is/are/am + being + V3 (Verb की 3rd form)</b>.</p><ul><li><b>Option 1:</b> 'have been reviewed' - यह Present Perfect का Passive है। (गलत)</li><li><b>Option 2:</b> 'are reviewed' - यह Simple Present का Passive है। (गलत)</li><li><b>Option 3:</b> 'were reviewed' - यह Simple Past का Passive है। (गलत)</li><li><b>Option 4:</b> 'are being reviewed' - यहाँ Object (The applications) प्लूरल है, इसलिए 'are' के साथ 'being + reviewed' आया है। यह बिल्कुल सही है।</li></ul><p>अतः सही उत्तर <b>Option 4</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Spelling Errors",
+        "level": "Easy",
+        "q_en": "<div style=\"text-align: justify;\">In the given sentence, one word is spelt incorrectly. Identify that word.<br><br>The archaeologist carefully excevated the ancient ruins near the river.</div>",
+        "q_hi": "<div style=\"text-align: justify;\">In the given sentence, one word is spelt incorrectly. Identify that word.<br><br>The archaeologist carefully excevated the ancient ruins near the river.</div>",
+        "op_en": [
+            "excevated",
+            "ancient",
+            "archaeologist",
+            "ruins"
+        ],
+        "op_hi": [
+            "excevated",
+            "ancient",
+            "archaeologist",
+            "ruins"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें दिए गए वाक्य में उस शब्द को पहचानना है जिसकी स्पेलिंग (Spelling) गलत है।</p><ul><li><b>1. excevated:</b> यह स्पेलिंग गलत है। सही शब्द <b>'excavated'</b> (e-x-c-a-v-a-t-e-d) होता है, जिसका अर्थ है 'खुदाई की' या 'जमीन खोदकर निकाला'।</li><li><b>2. ancient:</b> प्राचीन। (स्पेलिंग सही है)</li><li><b>3. archaeologist:</b> पुरातत्ववेत्ता (जो प्राचीन चीज़ों का अध्ययन करता है)। (स्पेलिंग सही है)</li><li><b>4. ruins:</b> खंडहर। (स्पेलिंग सही है)</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Tenses",
+        "level": "Moderate",
+        "q_en": "<p><strong></strong><span style=\"font-size:14px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\">Choose the correct option to complete the sentence.<br>The scientist said, \"By this time next year, I ______ the experiment successfully.\"</span></span></p>",
+        "q_hi": "<p><strong></strong><span style=\"font-size:14px;\"><span style=\"font-family:Arial,Helvetica,sans-serif;\">Choose the correct option to complete the sentence.<br>The scientist said, \"By this time next year, I ______ the experiment successfully.\"</span></span></p>",
+        "op_en": [
+            "am completing",
+            "will have completed",
+            "have&nbsp;completed",
+            "will complete"
+        ],
+        "op_hi": [
+            "am completing",
+            "will have completed",
+            "have&nbsp;completed",
+            "will complete"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। वाक्य में <b>\"By this time next year\"</b> (अगले साल इस समय तक) का प्रयोग हुआ है।</p><p>अंग्रेजी ग्रामर का नियम कहता है कि जब भविष्य के किसी निश्चित समय तक कोई काम पूरा हो चुकने की बात हो (completion of an action in the future), तो हम <b>Future Perfect Tense</b> का उपयोग करते हैं। इसका Structure <b>will have + V3</b> होता है।</p><ul><li><b>1. am completing:</b> Present Continuous (गलत)।</li><li><b>2. will have completed:</b> Future Perfect Tense. यह बिल्कुल सही है। अर्थ होगा- \"अगले साल इस समय तक मैं यह प्रयोग सफलतापूर्वक पूरा कर चुका हूँगा।\"</li><li><b>3. have completed:</b> Present Perfect (गलत)।</li><li><b>4. will complete:</b> Simple Future (यह सामान्य भविष्य बताता है, 'by this time' के साथ परफेक्ट टेंस आता है)।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Spelling Errors",
+        "level": "Moderate",
+        "q_en": "Select the option that rectifies the incorrectly spelt word in the given sentence.<br><br>The committee reached a consencus after a lengthy discussion.",
+        "q_hi": "Select the option that rectifies the incorrectly spelt word in the given sentence.<br><br>The committee reached a consencus after a lengthy discussion.",
+        "op_en": [
+            "Consenssus",
+            "Consensus",
+            "Conscensus",
+            "Consencas"
+        ],
+        "op_hi": [
+            "Consenssus",
+            "Consensus",
+            "Conscensus",
+            "Consencas"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। वाक्य में एक शब्द 'consencus' गलत स्पेलिंग के साथ लिखा गया है। हमें इसकी सही स्पेलिंग खोजनी है।</p><p>सही शब्द <b>'Consensus'</b> होता है, जिसका अर्थ है 'आम सहमति' या 'सर्वसम्मति' (a general agreement)। ध्यान दें कि इसमें 's' के बाद 'e' और फिर से 'nsus' आता है, बीच में 'c' नहीं आता।</p><ul><li><b>1. Consenssus:</b> डबल 's' गलत है।</li><li><b>2. Consensus:</b> यह बिल्कुल सही स्पेलिंग है (C-O-N-S-E-N-S-U-S)।</li><li><b>3. Conscensus:</b> 'sc' गलत है।</li><li><b>4. Consencas:</b> 'cas' गलत है।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Spelling Errors",
+        "level": "Moderate",
+        "q_en": "Read the given sentence carefully and identify the incorrectly spelt word from the options.<br><br>The archaeologists meticoluosly documented the artefacts discovered at the ancient civilization site, carefully cataloguing each item and taking detailed notes on their context to ensure accurate historical records for future research and study.",
+        "q_hi": "Read the given sentence carefully and identify the incorrectly spelt word from the options.<br><br>The archaeologists meticoluosly documented the artefacts discovered at the ancient civilization site, carefully cataloguing each item and taking detailed notes on their context to ensure accurate historical records for future research and study.",
+        "op_en": [
+            "meticoluosly",
+            "archaeologists",
+            "civilization",
+            "artefacts"
+        ],
+        "op_hi": [
+            "meticoluosly",
+            "archaeologists",
+            "civilization",
+            "artefacts"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें दिए गए विकल्पों में से गलत स्पेलिंग वाला शब्द खोजना है।</p><ul><li><b>1. meticoluosly:</b> यह स्पेलिंग गलत है। सही शब्द <b>'meticulously'</b> (m-e-t-i-c-u-l-o-u-s-l-y) होता है, जिसका अर्थ है 'बहुत ही सावधानी और बारीकी से' (showing great attention to detail)।</li><li><b>2. archaeologists:</b> पुरातत्ववेत्ता। (स्पेलिंग सही है)</li><li><b>3. civilization:</b> सभ्यता। (स्पेलिंग सही है)</li><li><b>4. artefacts:</b> मानव द्वारा बनाई गई ऐतिहासिक वस्तुएं। (स्पेलिंग सही है)</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Tenses",
+        "level": "Moderate",
+        "q_en": "Which of the following sentences correctly uses the Past Perfect Tense?",
+        "q_hi": "Which of the following sentences correctly uses the Past Perfect Tense?",
+        "op_en": [
+            "When I reached the station, the train left.",
+            "When I had reached the station, the train had left.",
+            "When I reached the station, the train had left.",
+            "When I had reached the station, the train left."
+        ],
+        "op_hi": [
+            "When I reached the station, the train left.",
+            "When I had reached the station, the train had left.",
+            "When I reached the station, the train had left.",
+            "When I had reached the station, the train left."
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। Past Perfect Tense (had + V3) का उपयोग तब किया जाता है जब भूतकाल (Past) में दो घटनाएँ हुई हों। जो काम <b>पहले पूरा होता है</b>, उसमें Past Perfect (had + V3) लगता है, और जो काम <b>बाद में होता है</b>, उसमें Simple Past (V2) लगता है।</p><ul><li><b>Option 1:</b> दोनों Simple Past में हैं। (गलत)</li><li><b>Option 2:</b> दोनों Past Perfect में हैं। (गलत)</li><li><b>Option 3:</b> 'When I reached the station (Simple Past), the train had left (Past Perfect).' यह बिल्कुल सही है। मेरे स्टेशन पहुँचने से पहले ही ट्रेन जा चुकी थी (ट्रेन जाने का काम पहले हुआ)।</li><li><b>Option 4:</b> नियम का उल्टा कर दिया गया है। (गलत)</li></ul><p>अतः सही उत्तर <b>Option 3</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Tenses",
+        "level": "Hard",
+        "q_en": "Choose the correct form of the Past tense.<br><br>The cartographers ______ the coastal maps for years when an unexpected storm ______ nearly all their annotated drafts.",
+        "q_hi": "Choose the correct form of the Past tense.<br><br>The cartographers ______ the coastal maps for years when an unexpected storm ______ nearly all their annotated drafts.",
+        "op_en": [
+            "refined / had destroyed",
+            "were refining / had been destroying",
+            "had been refining / destroyed",
+            "had refined / was destroying"
+        ],
+        "op_hi": [
+            "refined / had destroyed",
+            "were refining / had been destroying",
+            "had been refining / destroyed",
+            "had refined / was destroying"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। वाक्य में <b>'for years'</b> (सालों से) का प्रयोग हुआ है, जो बताता है कि कोई काम बीते हुए समय में लंबे अरसे से चल रहा था। इसके बाद एक अचानक घटना (unexpected storm) घटती है।</p><p>जब कोई काम पास्ट में लगातार चल रहा हो और बीच में कोई दूसरी घटना घट जाए, तो पहले वाले काम के लिए <b>Past Perfect Continuous Tense (had been + V1+ing)</b> और अचानक घटने वाली घटना के लिए <b>Simple Past Tense (V2)</b> का प्रयोग करते हैं।</p><ul><li><b>Option 3:</b> 'had been refining' (वे सालों से सुधार कर रहे थे) / 'destroyed' (तभी तूफान ने उन्हें नष्ट कर दिया)। यह नियम के अनुसार बिल्कुल सही है।</li><li><b>अन्य Options:</b> ग्रामर के नियमों और अर्थ के हिसाब से गलत कॉम्बिनेशन (combination) बनाते हैं।</li></ul><p>अतः सही उत्तर <b>Option 3</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Spelling Errors",
+        "level": "Easy",
+        "q_en": "In the given sentence, one word is spelt incorrectly. Identify that word.<br><br>The author’s use of personification and metaphor enriched the narative immensely.",
+        "q_hi": "In the given sentence, one word is spelt incorrectly. Identify that word.<br><br>The author’s use of personification and metaphor enriched the narative immensely.",
+        "op_en": [
+            "personification",
+            "author",
+            "narative",
+            "enriched"
+        ],
+        "op_hi": [
+            "personification",
+            "author",
+            "narative",
+            "enriched"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें गलत स्पेलिंग वाले शब्द को ढूँढना है।</p><ul><li><b>1. personification:</b> मानवीकरण (अलंकार)। (स्पेलिंग सही है)</li><li><b>2. author:</b> लेखक। (स्पेलिंग सही है)</li><li><b>3. narative:</b> यह स्पेलिंग गलत है। सही शब्द <b>'narrative'</b> (n-a-r-r-a-t-i-v-e) होता है, जिसमें डबल 'r' आता है। इसका अर्थ होता है 'कथा' या 'वर्णन'।</li><li><b>4. enriched:</b> समृद्ध किया। (स्पेलिंग सही है)</li></ul><p>अतः सही उत्तर <b>Option 3</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Spelling Errors",
+        "level": "Moderate",
+        "q_en": "Read the following sentence and identify the wrongly spelt word.<br>The diligent student made a persistant effort to understand the complicated math problem despite the constant distractions in the classroom.",
+        "q_hi": "Read the following sentence and identify the wrongly spelt word.<br>The diligent student made a persistant effort to understand the complicated math problem despite the constant distractions in the classroom.",
+        "op_en": [
+            "persistant",
+            "distractions",
+            "diligent",
+            "despite"
+        ],
+        "op_hi": [
+            "persistant",
+            "distractions",
+            "diligent",
+            "despite"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ भी हमें गलत स्पेलिंग पकड़नी है।</p><ul><li><b>1. persistant:</b> यह स्पेलिंग गलत है। सही शब्द <b>'persistent'</b> (p-e-r-s-i-s-t-e-n-t) होता है, जिसका अर्थ है 'निरंतर' या 'दृढ़' प्रयास करना। इसके अंत में '-ent' आता है, '-ant' नहीं।</li><li><b>2. distractions:</b> ध्यान भटकाने वाली चीज़ें। (स्पेलिंग सही है)</li><li><b>3. diligent:</b> मेहनती। (स्पेलिंग सही है)</li><li><b>4. despite:</b> के बावजूद। (स्पेलिंग सही है)</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Direct and Indirect Speech",
+        "level": "Moderate",
+        "q_en": "Select the correct option to fill in the blanks and complete the sentence in indirect speech.<br><br>Direct: The researcher said, “If the samples are not stored properly, the results may get corrupted.”<br>Indirect: The researcher said that if the samples ______ properly, the results ______ corrupted.",
+        "q_hi": "Select the correct option to fill in the blanks and complete the sentence in indirect speech.<br><br>Direct: The researcher said, “If the samples are not stored properly, the results may get corrupted.”<br>Indirect: The researcher said that if the samples ______ properly, the results ______ corrupted.",
+        "op_en": [
+            "were not stored / might get",
+            "were not being stored / could get",
+            "were not stored / may get\n​​​​​​​",
+            "had not been stored / might have got"
+        ],
+        "op_hi": [
+            "were not stored / might get",
+            "were not being stored / could get",
+            "were not stored / may get\n​​​​​​​",
+            "had not been stored / might have got"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। Direct Speech से Indirect Speech बनाते समय Tense और Modal verbs में बदलाव होता है (चूँकि Reporting Verb 'said' Past Tense में है)।</p><p>नियम:</p><ol><li><b>'are not stored'</b> (Simple Present) बदलकर <b>'were not stored'</b> (Simple Past) हो जाएगा।</li><li><b>'may'</b> बदलकर <b>'might'</b> हो जाएगा।</li></ol><ul><li><b>Option 1:</b> 'were not stored' और 'might get' - यह नियम के अनुसार बिल्कुल सही है।</li><li><b>Option 2:</b> 'were not being stored' Continuous बना देता है। (गलत)</li><li><b>Option 3:</b> इसमें 'may' को बदला नहीं गया है। (गलत)</li><li><b>Option 4:</b> यह Past Perfect का स्ट्रक्चर है जो यहाँ फिट नहीं बैठता। (गलत)</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Reading Comprehension",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow.<br>The dodo was a flightless bird that lived exclusively on the island of Mauritius, evolving in complete isolation from natural predators. As a result, it developed a fearless nature and showed no instinct to flee from humans. This vulnerability proved disastrous when sailors arrived on the island in the seventeenth century. The dodo was hunted mercilessly for food, while animals such as rats, pigs, and monkeys were introduced by humans and went on to destroy its nests and eggs. Within a few decades, the species vanished entirely, leaving no chance of recovery. Scientists later understood that the extinction of the dodo was not a natural event but the direct consequence of human interference in a fragile and balanced ecosystem. Today, the dodo stands as a powerful symbol of the irreversible damage caused by human greed and ignorance. Though extinct, it continues to warn us of the urgent need for conservation and responsible coexistence with nature.<br>Identify the central idea of the passage.",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow.<br>The dodo was a flightless bird that lived exclusively on the island of Mauritius, evolving in complete isolation from natural predators. As a result, it developed a fearless nature and showed no instinct to flee from humans. This vulnerability proved disastrous when sailors arrived on the island in the seventeenth century. The dodo was hunted mercilessly for food, while animals such as rats, pigs, and monkeys were introduced by humans and went on to destroy its nests and eggs. Within a few decades, the species vanished entirely, leaving no chance of recovery. Scientists later understood that the extinction of the dodo was not a natural event but the direct consequence of human interference in a fragile and balanced ecosystem. Today, the dodo stands as a powerful symbol of the irreversible damage caused by human greed and ignorance. Though extinct, it continues to warn us of the urgent need for conservation and responsible coexistence with nature.<br>Identify the central idea of the passage.",
+        "op_en": [
+            "How scientists revived the dodo species",
+            "The dodo was too weak to survive.",
+            "Human negligence led to the extinction of the dodo.",
+            "The physical features and behaviour of the dodo"
+        ],
+        "op_hi": [
+            "How scientists revived the dodo species",
+            "The dodo was too weak to survive.",
+            "Human negligence led to the extinction of the dodo.",
+            "The physical features and behaviour of the dodo"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें पैसेज का मुख्य विचार (Central idea) बताना है।</p><p>पैसेज पढ़ने पर साफ़ पता चलता है कि डोडो पक्षी इंसानों के आने से पहले मजे में रह रहा था। इंसानों के आने, उनके शिकार करने और उनके द्वारा लाए गए जानवरों के कारण ही डोडो खत्म हुआ (\"direct consequence of human interference\")।</p><ul><li><b>Option 1:</b> डोडो को पुनर्जीवित करने की कोई बात नहीं की गई है।</li><li><b>Option 2:</b> डोडो कमजोर नहीं था, वह बस बेखौफ (fearless) था।</li><li><b>Option 3:</b> 'Human negligence led to the extinction of the dodo' (इंसान की लापरवाही ने डोडो को विलुप्त कर दिया)। यह पूरे पैसेज का सटीक सार है।</li><li><b>Option 4:</b> यह केवल एक छोटा हिस्सा है, पूरा सार नहीं।</li></ul><p>अतः सही उत्तर <b>Option 3</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Reading Comprehension",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow.<br>The dodo was a flightless bird that lived exclusively on the island of Mauritius, evolving in complete isolation from natural predators. As a result, it developed a fearless nature and showed no instinct to flee from humans. This vulnerability proved disastrous when sailors arrived on the island in the seventeenth century. The dodo was hunted mercilessly for food, while animals such as rats, pigs, and monkeys were introduced by humans and went on to destroy its nests and eggs. Within a few decades, the species vanished entirely, leaving no chance of recovery. Scientists later understood that the extinction of the dodo was not a natural event but the direct consequence of human interference in a fragile and balanced ecosystem. Today, the dodo stands as a powerful symbol of the irreversible damage caused by human greed and ignorance. Though extinct, it continues to warn us of the urgent need for conservation and responsible coexistence with nature.<br>Select the option that correctly uses the word 'predator'.",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow.<br>The dodo was a flightless bird that lived exclusively on the island of Mauritius, evolving in complete isolation from natural predators. As a result, it developed a fearless nature and showed no instinct to flee from humans. This vulnerability proved disastrous when sailors arrived on the island in the seventeenth century. The dodo was hunted mercilessly for food, while animals such as rats, pigs, and monkeys were introduced by humans and went on to destroy its nests and eggs. Within a few decades, the species vanished entirely, leaving no chance of recovery. Scientists later understood that the extinction of the dodo was not a natural event but the direct consequence of human interference in a fragile and balanced ecosystem. Today, the dodo stands as a powerful symbol of the irreversible damage caused by human greed and ignorance. Though extinct, it continues to warn us of the urgent need for conservation and responsible coexistence with nature.<br>Select the option that correctly uses the word 'predator'.",
+        "op_en": [
+            "He felt like a predator after eating a large meal.",
+            "He acted as a predator in the office.",
+            "Lions are natural predators of deer.",
+            "She used a predator to trim the tall grass in the yard."
+        ],
+        "op_hi": [
+            "He felt like a predator after eating a large meal.",
+            "He acted as a predator in the office.",
+            "Lions are natural predators of deer.",
+            "She used a predator to trim the tall grass in the yard."
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। <b>'Predator'</b> का अर्थ होता है 'शिकारी जानवर' (an animal that naturally preys on others)।</p><ul><li><b>Option 1:</b> ज्यादा खाना खाने से कोई शिकारी नहीं बन जाता।</li><li><b>Option 2:</b> ऑफिस में कोई शिकारी की तरह बर्ताव नहीं करता (यहाँ रूपक हो सकता है, लेकिन शाब्दिक अर्थ नहीं)।</li><li><b>Option 3:</b> 'Lions are natural predators of deer' (शेर हिरणों के प्राकृतिक शिकारी होते हैं)। यहाँ 'predator' का बिल्कुल सही और सटीक प्रयोग हुआ है।</li><li><b>Option 4:</b> घास काटने के लिए मशीन का उपयोग होता है, शिकारी का नहीं।</li></ul><p>अतः सही उत्तर <b>Option 3</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Reading Comprehension",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow.<br>The dodo was a flightless bird that lived exclusively on the island of Mauritius, evolving in complete isolation from natural predators. As a result, it developed a fearless nature and showed no instinct to flee from humans. This vulnerability proved disastrous when sailors arrived on the island in the seventeenth century. The dodo was hunted mercilessly for food, while animals such as rats, pigs, and monkeys were introduced by humans and went on to destroy its nests and eggs. Within a few decades, the species vanished entirely, leaving no chance of recovery. Scientists later understood that the extinction of the dodo was not a natural event but the direct consequence of human interference in a fragile and balanced ecosystem. Today, the dodo stands as a powerful symbol of the irreversible damage caused by human greed and ignorance. Though extinct, it continues to warn us of the urgent need for conservation and responsible coexistence with nature.<br>Choose the antonym of the word 'extinction'.",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow.<br>The dodo was a flightless bird that lived exclusively on the island of Mauritius, evolving in complete isolation from natural predators. As a result, it developed a fearless nature and showed no instinct to flee from humans. This vulnerability proved disastrous when sailors arrived on the island in the seventeenth century. The dodo was hunted mercilessly for food, while animals such as rats, pigs, and monkeys were introduced by humans and went on to destroy its nests and eggs. Within a few decades, the species vanished entirely, leaving no chance of recovery. Scientists later understood that the extinction of the dodo was not a natural event but the direct consequence of human interference in a fragile and balanced ecosystem. Today, the dodo stands as a powerful symbol of the irreversible damage caused by human greed and ignorance. Though extinct, it continues to warn us of the urgent need for conservation and responsible coexistence with nature.<br>Choose the antonym of the word 'extinction'.",
+        "op_en": [
+            "silence",
+            "isolation",
+            "survival",
+            "sadness"
+        ],
+        "op_hi": [
+            "silence",
+            "isolation",
+            "survival",
+            "sadness"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। <b>'Extinction'</b> का अर्थ होता है 'विलुप्ति' (किसी प्रजाति का पूरी तरह खत्म हो जाना)। हमें इसका विलोम (Antonym) खोजना है।</p><ul><li><b>1. silence:</b> खामोशी। (गलत)</li><li><b>2. isolation:</b> अलगाव / अकेलेपन। (गलत)</li><li><b>3. survival:</b> अस्तित्व / जीवित रहना (The state of continuing to live or exist)। यह 'विलुप्ति' का एकदम सही विलोम है।</li><li><b>4. sadness:</b> उदासी। (गलत)</li></ul><p>अतः सही उत्तर <b>Option 3</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Reading Comprehension",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow.<br>The dodo was a flightless bird that lived exclusively on the island of Mauritius, evolving in complete isolation from natural predators. As a result, it developed a fearless nature and showed no instinct to flee from humans. This vulnerability proved disastrous when sailors arrived on the island in the seventeenth century. The dodo was hunted mercilessly for food, while animals such as rats, pigs, and monkeys were introduced by humans and went on to destroy its nests and eggs. Within a few decades, the species vanished entirely, leaving no chance of recovery. Scientists later understood that the extinction of the dodo was not a natural event but the direct consequence of human interference in a fragile and balanced ecosystem. Today, the dodo stands as a powerful symbol of the irreversible damage caused by human greed and ignorance. Though extinct, it continues to warn us of the urgent need for conservation and responsible coexistence with nature.<br>Identify the tone of the passage.",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow.<br>The dodo was a flightless bird that lived exclusively on the island of Mauritius, evolving in complete isolation from natural predators. As a result, it developed a fearless nature and showed no instinct to flee from humans. This vulnerability proved disastrous when sailors arrived on the island in the seventeenth century. The dodo was hunted mercilessly for food, while animals such as rats, pigs, and monkeys were introduced by humans and went on to destroy its nests and eggs. Within a few decades, the species vanished entirely, leaving no chance of recovery. Scientists later understood that the extinction of the dodo was not a natural event but the direct consequence of human interference in a fragile and balanced ecosystem. Today, the dodo stands as a powerful symbol of the irreversible damage caused by human greed and ignorance. Though extinct, it continues to warn us of the urgent need for conservation and responsible coexistence with nature.<br>Identify the tone of the passage.",
+        "op_en": [
+            "Casual and cynical",
+            "Haughty and serious",
+            "Informative and cautionary",
+            "Mocking and unfriendly"
+        ],
+        "op_hi": [
+            "Casual and cynical",
+            "Haughty and serious",
+            "Informative and cautionary",
+            "Mocking and unfriendly"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें पैसेज की टोन (Tone) या स्वर पहचानना है कि लेखक किस भाव से बात कह रहा है।</p><p>लेखक डोडो पक्षी के इतिहास और उसके विलुप्त होने की पूरी <b>जानकारी (information)</b> देता है। और अंत में कहता है: \"warn us of the urgent need for conservation\", जो एक <b>चेतावनी (caution)</b> है।</p><ul><li><b>1. Casual and cynical:</b> लापरवाह और निंदक। (गलत)</li><li><b>2. Haughty and serious:</b> घमंडी और गंभीर। (गलत)</li><li><b>3. Informative and cautionary:</b> ज्ञानवर्धक और चेतावनीपूर्ण। यह बिल्कुल सही है।</li><li><b>4. Mocking and unfriendly:</b> मज़ाक उड़ाने वाला। (गलत)</li></ul><p>अतः सही उत्तर <b>Option 3</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Reading Comprehension",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow.<br>The dodo was a flightless bird that lived exclusively on the island of Mauritius, evolving in complete isolation from natural predators. As a result, it developed a fearless nature and showed no instinct to flee from humans. This vulnerability proved disastrous when sailors arrived on the island in the seventeenth century. The dodo was hunted mercilessly for food, while animals such as rats, pigs, and monkeys were introduced by humans and went on to destroy its nests and eggs. Within a few decades, the species vanished entirely, leaving no chance of recovery. Scientists later understood that the extinction of the dodo was not a natural event but the direct consequence of human interference in a fragile and balanced ecosystem. Today, the dodo stands as a powerful symbol of the irreversible damage caused by human greed and ignorance. Though extinct, it continues to warn us of the urgent need for conservation and responsible coexistence with nature.<br>What can be inferred about ecosystems from the extinction of the dodo?",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow.<br>The dodo was a flightless bird that lived exclusively on the island of Mauritius, evolving in complete isolation from natural predators. As a result, it developed a fearless nature and showed no instinct to flee from humans. This vulnerability proved disastrous when sailors arrived on the island in the seventeenth century. The dodo was hunted mercilessly for food, while animals such as rats, pigs, and monkeys were introduced by humans and went on to destroy its nests and eggs. Within a few decades, the species vanished entirely, leaving no chance of recovery. Scientists later understood that the extinction of the dodo was not a natural event but the direct consequence of human interference in a fragile and balanced ecosystem. Today, the dodo stands as a powerful symbol of the irreversible damage caused by human greed and ignorance. Though extinct, it continues to warn us of the urgent need for conservation and responsible coexistence with nature.<br>What can be inferred about ecosystems from the extinction of the dodo?",
+        "op_en": [
+            "Animal species are fully protected from extinction by natural adaptation.",
+            "Ecosystems can recover quickly when species are lost due to natural reasons.",
+            "Even limited human interference can cause lasting harm to fragile ecosystems.",
+            "The extinction of one species has no effect on the rest of the ecosystem."
+        ],
+        "op_hi": [
+            "Animal species are fully protected from extinction by natural adaptation.",
+            "Ecosystems can recover quickly when species are lost due to natural reasons.",
+            "Even limited human interference can cause lasting harm to fragile ecosystems.",
+            "The extinction of one species has no effect on the rest of the ecosystem."
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। 'Inference' का मतलब होता है कि पैसेज पढ़कर हम क्या निष्कर्ष निकाल सकते हैं।</p><p>पैसेज बताता है कि कैसे केवल कुछ नाविकों के आने और उनके द्वारा लाए गए कुछ जानवरों (चूहे, सूअर) ने एक पूरे ecosystem को बर्बाद कर दिया और डोडो हमेशा के लिए खत्म हो गया।</p><ul><li><b>Option 1:</b> यह गलत है क्योंकि डोडो खुद को नहीं बचा पाया।</li><li><b>Option 2:</b> डोडो के गायब होने से recovery नहीं हुई, बल्कि सब खत्म हो गया (irreversible damage)।</li><li><b>Option 3:</b> 'Even limited human interference can cause lasting harm to fragile ecosystems.' (थोड़ा सा मानवीय हस्तक्षेप भी नाजुक पारिस्थितिक तंत्र को स्थायी नुकसान पहुँचा सकता है)। यह बिल्कुल सही निष्कर्ष है।</li><li><b>Option 4:</b> पैसेज ऐसा नहीं कहता।</li></ul><p>अतः सही उत्तर <b>Option 3</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Reading Comprehension",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the given passage and answer the questions that follow.<br><br>The rise of food delivery services has transformed the way people connect with food, convenience, and time itself. What once required planning, cooking, and shared effort is now available through a few effortless taps on a screen. This immediacy, though liberating, subtly reshapes daily habits and perceptions of nourishment. Meals become transactions rather than experiences, and kitchens fall silent as devices hum with notifications. Yet, food delivery also democratizes access — offering diverse cuisines to those who might never experience them otherwise. It reflects modern society’s pursuit of efficiency, but also its quiet surrender to isolation. While the industry thrives on speed and choice, it also mirrors the paradox of contemporary life — abundance without connection, convenience without reflection. In this evolving culture, the question remains whether humanity is gaining freedom or losing something essential: the communal joy of preparing and sharing food.<br>What is the central idea conveyed in the passage?",
+        "q_hi": "<b>Comprehension:</b><br>Read the given passage and answer the questions that follow.<br><br>The rise of food delivery services has transformed the way people connect with food, convenience, and time itself. What once required planning, cooking, and shared effort is now available through a few effortless taps on a screen. This immediacy, though liberating, subtly reshapes daily habits and perceptions of nourishment. Meals become transactions rather than experiences, and kitchens fall silent as devices hum with notifications. Yet, food delivery also democratizes access — offering diverse cuisines to those who might never experience them otherwise. It reflects modern society’s pursuit of efficiency, but also its quiet surrender to isolation. While the industry thrives on speed and choice, it also mirrors the paradox of contemporary life — abundance without connection, convenience without reflection. In this evolving culture, the question remains whether humanity is gaining freedom or losing something essential: the communal joy of preparing and sharing food.<br>What is the central idea conveyed in the passage?",
+        "op_en": [
+            "Food delivery as a symbol of convenience that challenges social connection and shared experience",
+            "Food delivery as a technological advancement focused solely on expanding culinary variety",
+            "Food delivery as an efficient process that enhances community interaction and togetherness",
+            "Food delivery as a modern practice that simplifies traditional methods of nourishment"
+        ],
+        "op_hi": [
+            "Food delivery as a symbol of convenience that challenges social connection and shared experience",
+            "Food delivery as a technological advancement focused solely on expanding culinary variety",
+            "Food delivery as an efficient process that enhances community interaction and togetherness",
+            "Food delivery as a modern practice that simplifies traditional methods of nourishment"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। पैसेज का मुख्य विचार (Central idea) क्या है?</p><p>लेखक बताता है कि फूड डिलीवरी से सुविधा (convenience) तो बहुत मिली है, लेकिन इसके कारण हम अकेले पड़ रहे हैं (surrender to isolation) और साथ मिलकर खाना बनाने व खाने का आनंद (communal joy of preparing and sharing food) खो रहे हैं।</p><ul><li><b>Option 1:</b> 'सुविधा का एक प्रतीक जो सामाजिक जुड़ाव और साझा अनुभव को चुनौती देता है।' यह पूरे पैसेज के भाव को बिल्कुल सही से पकड़ता है।</li><li><b>Option 2:</b> पैसेज केवल खाने की विविधता पर केंद्रित नहीं है।</li><li><b>Option 3:</b> फूड डिलीवरी समुदाय की बातचीत (community interaction) को बढ़ाता नहीं, बल्कि कम करता है।</li><li><b>Option 4:</b> यह केवल आधा सच है; पैसेज में इसके नुकसान (isolation) पर भी बड़ा जोर दिया गया है।</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Reading Comprehension",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the given passage and answer the questions that follow.<br><br>The rise of food delivery services has transformed the way people connect with food, convenience, and time itself. What once required planning, cooking, and shared effort is now available through a few effortless taps on a screen. This immediacy, though liberating, subtly reshapes daily habits and perceptions of nourishment. Meals become transactions rather than experiences, and kitchens fall silent as devices hum with notifications. Yet, food delivery also democratizes access — offering diverse cuisines to those who might never experience them otherwise. It reflects modern society’s pursuit of efficiency, but also its quiet surrender to isolation. While the industry thrives on speed and choice, it also mirrors the paradox of contemporary life — abundance without connection, convenience without reflection. In this evolving culture, the question remains whether humanity is gaining freedom or losing something essential: the communal joy of preparing and sharing food.<br>Which title best captures the essence of the passage?",
+        "q_hi": "<b>Comprehension:</b><br>Read the given passage and answer the questions that follow.<br><br>The rise of food delivery services has transformed the way people connect with food, convenience, and time itself. What once required planning, cooking, and shared effort is now available through a few effortless taps on a screen. This immediacy, though liberating, subtly reshapes daily habits and perceptions of nourishment. Meals become transactions rather than experiences, and kitchens fall silent as devices hum with notifications. Yet, food delivery also democratizes access — offering diverse cuisines to those who might never experience them otherwise. It reflects modern society’s pursuit of efficiency, but also its quiet surrender to isolation. While the industry thrives on speed and choice, it also mirrors the paradox of contemporary life — abundance without connection, convenience without reflection. In this evolving culture, the question remains whether humanity is gaining freedom or losing something essential: the communal joy of preparing and sharing food.<br>Which title best captures the essence of the passage?",
+        "op_en": [
+            "The Convenience Paradox",
+            "The Digital Kitchen",
+            "The Race for Efficiency",
+            "The Modern Appetite"
+        ],
+        "op_hi": [
+            "The Convenience Paradox",
+            "The Digital Kitchen",
+            "The Race for Efficiency",
+            "The Modern Appetite"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें पैसेज के लिए सबसे उपयुक्त शीर्षक (Title) चुनना है।</p><p>पैसेज की एक बहुत ही महत्वपूर्ण लाइन है: \"mirrors the <b>paradox</b> of contemporary life — abundance without connection, <b>convenience</b> without reflection.\" (यह आधुनिक जीवन के विरोधाभास को दर्शाता है - बिना जुड़ाव के प्रचुरता, बिना सोचे-समझे सुविधा)।</p><p>लेखक बता रहा है कि सुविधा (convenience) तो है, लेकिन इसकी एक कीमत है (अकेलापन), यही एक Paradox (विरोधाभास) है।</p><ul><li><b>1. The Convenience Paradox:</b> यह शीर्षक पैसेज की आत्मा को बिल्कुल सटीक तरीके से प्रस्तुत करता है।</li><li><b>2, 3, 4:</b> ये शीर्षक अच्छे हैं लेकिन पैसेज के उस गहरे दार्शनिक भाव (नुकसान और फायदे का विरोधाभास) को पूरी तरह से नहीं पकड़ पाते।</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Reading Comprehension",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the given passage and answer the questions that follow.<br><br>The rise of food delivery services has transformed the way people connect with food, convenience, and time itself. What once required planning, cooking, and shared effort is now available through a few effortless taps on a screen. This immediacy, though liberating, subtly reshapes daily habits and perceptions of nourishment. Meals become transactions rather than experiences, and kitchens fall silent as devices hum with notifications. Yet, food delivery also democratizes access — offering diverse cuisines to those who might never experience them otherwise. It reflects modern society’s pursuit of efficiency, but also its quiet surrender to isolation. While the industry thrives on speed and choice, it also mirrors the paradox of contemporary life — abundance without connection, convenience without reflection. In this evolving culture, the question remains whether humanity is gaining freedom or losing something essential: the communal joy of preparing and sharing food.<br>What is the tone of the passage?",
+        "q_hi": "<b>Comprehension:</b><br>Read the given passage and answer the questions that follow.<br><br>The rise of food delivery services has transformed the way people connect with food, convenience, and time itself. What once required planning, cooking, and shared effort is now available through a few effortless taps on a screen. This immediacy, though liberating, subtly reshapes daily habits and perceptions of nourishment. Meals become transactions rather than experiences, and kitchens fall silent as devices hum with notifications. Yet, food delivery also democratizes access — offering diverse cuisines to those who might never experience them otherwise. It reflects modern society’s pursuit of efficiency, but also its quiet surrender to isolation. While the industry thrives on speed and choice, it also mirrors the paradox of contemporary life — abundance without connection, convenience without reflection. In this evolving culture, the question remains whether humanity is gaining freedom or losing something essential: the communal joy of preparing and sharing food.<br>What is the tone of the passage?",
+        "op_en": [
+            "Reflective",
+            "Humorous",
+            "Indifferent",
+            "Cynical"
+        ],
+        "op_hi": [
+            "Reflective",
+            "Humorous",
+            "Indifferent",
+            "Cynical"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें पैसेज की टोन (Tone) पहचाननी है।</p><p>लेखक इस बात पर गहराई से विचार (reflect) कर रहा है कि कैसे फूड डिलीवरी हमारे समाज और हमारे रिश्तों को बदल रही है। वह इसके फायदे (विविधता) और नुकसान (अकेलापन) दोनों पर सोच-विचार कर रहा है और अंत में एक सवाल छोड़ता है। इस तरह के विचारशील लेख को <b>Reflective</b> (मननशील/विचारशील) कहा जाता है।</p><ul><li><b>1. Reflective:</b> विचारशील। यह बिल्कुल सही है।</li><li><b>2. Humorous:</b> हास्यपूर्ण। (गलत)</li><li><b>3. Indifferent:</b> उदासीन (जिससे कोई फर्क न पड़े)। (गलत)</li><li><b>4. Cynical:</b> निंदक (हर चीज़ में बुराई देखने वाला)। लेखक बुराई नहीं कर रहा, वह बस एक सच बयान कर रहा है।</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Reading Comprehension",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the given passage and answer the questions that follow.<br><br>The rise of food delivery services has transformed the way people connect with food, convenience, and time itself. What once required planning, cooking, and shared effort is now available through a few effortless taps on a screen. This immediacy, though liberating, subtly reshapes daily habits and perceptions of nourishment. Meals become transactions rather than experiences, and kitchens fall silent as devices hum with notifications. Yet, food delivery also democratizes access — offering diverse cuisines to those who might never experience them otherwise. It reflects modern society’s pursuit of efficiency, but also its quiet surrender to isolation. While the industry thrives on speed and choice, it also mirrors the paradox of contemporary life — abundance without connection, convenience without reflection. In this evolving culture, the question remains whether humanity is gaining freedom or losing something essential: the communal joy of preparing and sharing food.<br>What can be inferred about the author’s view of technology in relation to eating habits?",
+        "q_hi": "<b>Comprehension:</b><br>Read the given passage and answer the questions that follow.<br><br>The rise of food delivery services has transformed the way people connect with food, convenience, and time itself. What once required planning, cooking, and shared effort is now available through a few effortless taps on a screen. This immediacy, though liberating, subtly reshapes daily habits and perceptions of nourishment. Meals become transactions rather than experiences, and kitchens fall silent as devices hum with notifications. Yet, food delivery also democratizes access — offering diverse cuisines to those who might never experience them otherwise. It reflects modern society’s pursuit of efficiency, but also its quiet surrender to isolation. While the industry thrives on speed and choice, it also mirrors the paradox of contemporary life — abundance without connection, convenience without reflection. In this evolving culture, the question remains whether humanity is gaining freedom or losing something essential: the communal joy of preparing and sharing food.<br>What can be inferred about the author’s view of technology in relation to eating habits?",
+        "op_en": [
+            "Technology has restricted culinary choices and reduced the availability of global cuisines.",
+            "Technology has improved accessibility but weakened the emotional and social essence of meals.",
+            "Technology has fully restored traditional values of sharing and human connection.",
+            "Technology has eliminated the importance of convenience and efficiency in modern life."
+        ],
+        "op_hi": [
+            "Technology has restricted culinary choices and reduced the availability of global cuisines.",
+            "Technology has improved accessibility but weakened the emotional and social essence of meals.",
+            "Technology has fully restored traditional values of sharing and human connection.",
+            "Technology has eliminated the importance of convenience and efficiency in modern life."
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। लेखक का टेक्नोलॉजी (फूड डिलीवरी ऐप) के बारे में क्या मानना है?</p><p>लेखक का कहना है कि इसके जरिए हर तरह का खाना मिल जाता है (democratizes access), लेकिन साथ ही खाने का जो असली मज़ा था—सबका मिलकर खाना बनाना और बातें करना—वो खत्म हो रहा है (Meals become transactions rather than experiences... quiet surrender to isolation)।</p><ul><li><b>Option 1:</b> गलत है, क्योंकि टेक्नोलॉजी ने चॉइस बढ़ाई है, घटाई नहीं।</li><li><b>Option 2:</b> 'Technology has improved accessibility but weakened the emotional and social essence of meals.' (टेक्नोलॉजी ने पहुँच में सुधार किया है लेकिन भोजन के भावनात्मक और सामाजिक सार को कमजोर कर दिया है)। यह बिल्कुल सही निष्कर्ष है।</li><li><b>Option 3:</b> गलत है, क्योंकि पारंपरिक मूल्य टूट रहे हैं, जुड़ नहीं रहे।</li><li><b>Option 4:</b> गलत है।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension1",
+        "topic": "Reading Comprehension",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the given passage and answer the questions that follow.<br><br>The rise of food delivery services has transformed the way people connect with food, convenience, and time itself. What once required planning, cooking, and shared effort is now available through a few effortless taps on a screen. This immediacy, though liberating, subtly reshapes daily habits and perceptions of nourishment. Meals become transactions rather than experiences, and kitchens fall silent as devices hum with notifications. Yet, food delivery also democratizes access — offering diverse cuisines to those who might never experience them otherwise. It reflects modern society’s pursuit of efficiency, but also its quiet surrender to isolation. While the industry thrives on speed and choice, it also mirrors the paradox of contemporary life — abundance without connection, convenience without reflection. In this evolving culture, the question remains whether humanity is gaining freedom or losing something essential: the communal joy of preparing and sharing food.<br>Which of the following statements is directly supported by the passage?",
+        "q_hi": "<b>Comprehension:</b><br>Read the given passage and answer the questions that follow.<br><br>The rise of food delivery services has transformed the way people connect with food, convenience, and time itself. What once required planning, cooking, and shared effort is now available through a few effortless taps on a screen. This immediacy, though liberating, subtly reshapes daily habits and perceptions of nourishment. Meals become transactions rather than experiences, and kitchens fall silent as devices hum with notifications. Yet, food delivery also democratizes access — offering diverse cuisines to those who might never experience them otherwise. It reflects modern society’s pursuit of efficiency, but also its quiet surrender to isolation. While the industry thrives on speed and choice, it also mirrors the paradox of contemporary life — abundance without connection, convenience without reflection. In this evolving culture, the question remains whether humanity is gaining freedom or losing something essential: the communal joy of preparing and sharing food.<br>Which of the following statements is directly supported by the passage?",
+        "op_en": [
+            "Food delivery has discouraged people from exploring new culinary options and tastes.",
+            "Food delivery has completely replaced traditional cooking practices around the world.",
+            "Food delivery has strengthened human bonds through increased shared dining experiences.",
+            "Food delivery has made diverse cuisines available to people who lacked such exposure before."
+        ],
+        "op_hi": [
+            "Food delivery has discouraged people from exploring new culinary options and tastes.",
+            "Food delivery has completely replaced traditional cooking practices around the world.",
+            "Food delivery has strengthened human bonds through increased shared dining experiences.",
+            "Food delivery has made diverse cuisines available to people who lacked such exposure before."
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें वह वाक्य ढूँढना है जो सीधे तौर पर पैसेज में लिखा गया हो।</p><p>पैसेज की यह लाइन देखिए: <i>\"Yet, food delivery also democratizes access — <b>offering diverse cuisines to those who might never experience them otherwise</b>.\"</i></p><ul><li><b>Option 1:</b> गलत है, क्योंकि यह लोगों को नए स्वाद चखने का मौका दे रहा है।</li><li><b>Option 2:</b> 'completely replaced' (पूरी तरह बदल दिया) - ऐसा पैसेज में नहीं लिखा है।</li><li><b>Option 3:</b> फूड डिलीवरी ने रिश्ते मज़बूत नहीं किए, बल्कि अकेलापन बढ़ाया है। (गलत)</li><li><b>Option 4:</b> 'फूड डिलीवरी ने उन लोगों को विविध व्यंजन उपलब्ध कराए हैं जिन्हें पहले ऐसा अनुभव नहीं था।' यह बात पैसेज में साफ-साफ लिखी गई है।</li></ul><p>अतः सही उत्तर <b>Option 4</b> है।</p>"
+    }
+]
