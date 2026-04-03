@@ -1,0 +1,422 @@
+[
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Number System",
+        "level": "Moderate",
+        "q_en": "<p>If a nine-digit number <b>1263487xy</b> is divisible by both 8 and 5, then what are the maximum possible values of <b>x</b> and <b>y</b> respectively?</p>",
+        "q_hi": "<p>यदि एक नौ अंकों की संख्या <b>1263487xy</b>, 8 और 5 दोनों से विभाज्य है, तब क्रमशः <b>x</b> और <b>y</b> के अधिकतम संभावित मान क्या हैं?</p>",
+        "op_en": [
+            "2 and 0",
+            "6 and 0",
+            "2 and 5",
+            "6 and 5"
+        ],
+        "op_hi": [
+            "2 और 0",
+            "6 और 0",
+            "2 और 5",
+            "6 और 5"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को Step-by-Step समझते हैं। यहाँ हमें <b>Divisibility Rules</b> (विभाज्यता के नियम) का उपयोग करना है।</p><ul><li><b>5 से विभाज्यता:</b> कोई संख्या 5 से तभी कटती है जब उसका अंतिम अंक (Unit digit) 0 या 5 हो। इसलिए y = 0 या 5 हो सकता है।</li><li><b>8 से विभाज्यता:</b> यदि संख्या 8 से विभाज्य है, तो वह <b>Even</b> (सम) होनी चाहिए। अगर हम y = 5 लेते हैं, तो संख्या Odd हो जाएगी, जो 8 से नहीं कटेगी। इसलिए <b>y = 0</b> निश्चित है।</li><li>अब 8 का नियम कहता है कि अंतिम तीन अंक (7xy यानी <b>7x0</b>) 8 से विभाज्य होने चाहिए।</li><li>x के अलग-अलग मान रखकर देखते हैं: 700 (No), 710 (No), 720 (Yes, 720/8=90), 730 (No), 740 (No), 750 (No), 760 (Yes, 760/8=95), 770 (No), 780 (No), 790 (No)।</li></ul><p><b>Options Analysis:</b></p><ul><li><b>Option 1 (2, 0):</b> यह सही है, लेकिन सवाल में <i>Maximum</i> (अधिकतम) मान पूछा है।</li><li><b>Option 2 (6, 0):</b> यहाँ x = 6 है, जो 2 से बड़ा है और 760, 8 से विभाज्य है। यह <b>Correct</b> उत्तर है।</li><li><b>Option 3 & 4:</b> इनमें y = 5 है, जो संख्या को Odd बना देता है, इसलिए ये 8 से विभाज्य नहीं हो सकते।</li></ul><p><b>Short Trick:</b> हमेशा 5 के नियम से शुरू करें ताकि एक Variable (y) तुरंत मिल जाए!</p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Problems on Ages",
+        "level": "Easy",
+        "q_en": "<p>The sum of the ages of a father and his son is 50 years. Four years ago, the father's age was six times the age of his son. What are the present ages of the father and son respectively?</p>",
+        "q_hi": "<p>एक पिता और उसके पुत्र की आयु का योगफल 50 वर्ष है। चार वर्ष पूर्व, पिता की आयु अपने पुत्र की आयु की छह गुनी थी। पिता और पुत्र की वर्तमान आयु क्रमशः क्या हैं?</p>",
+        "op_en": [
+            "35 years, 15 years",
+            "38 years, 12 years",
+            "40 years, 10 years",
+            "42 years, 8 years"
+        ],
+        "op_hi": [
+            "35 वर्ष, 15 वर्ष",
+            "38 वर्ष, 12 वर्ष",
+            "40 वर्ष, 10 वर्ष",
+            "42 वर्ष, 8 वर्ष"
+        ],
+        "ans": "3",
+        "solution": "<p>प्यारे छात्रों, इस तरह के सवालों को आप <b>Options</b> से बहुत जल्दी हल कर सकते हैं। आइए देखते हैं कैसे:</p><ul><li><b>शर्त 1:</b> दोनों की आयु का योग 50 वर्ष होना चाहिए। (सभी ऑप्शंस में योग 50 है)।</li><li><b>शर्त 2:</b> 4 वर्ष पहले, पिता की उम्र बेटे से 6 गुनी होनी चाहिए।</li></ul><p><b>Options Analysis:</b></p><ul><li><b>Option 1:</b> 4 साल पहले उम्र (35-4=31) और (15-4=11) होती। 31, 11 का 6 गुना नहीं है।</li><li><b>Option 2:</b> 4 साल पहले (38-4=34) और (12-4=8)। 34, 8 का 6 गुना नहीं है।</li><li><b>Option 3:</b> 4 साल पहले <b>(40-4=36)</b> और <b>(10-4=6)</b>। यहाँ 36 = 6 × 6 है। यह <b>Correct</b> है!</li><li><b>Option 4:</b> 4 साल पहले (42-4=38) और (8-4=4)। 38, 4 का 6 गुना नहीं है।</li></ul><p><b>Basic Method:</b> माना पुत्र x है, तो पिता (50-x) होगा। 4 वर्ष पहले: (50-x-4) = 6(x-4) => 46-x = 6x-24 => 7x = 70 => x = 10 वर्ष।</p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Ratio and Proportion",
+        "level": "Moderate",
+        "q_en": "<p>If C scores w runs, D scores x runs, E scores y runs, and F scores z runs, then w : x = 2 : 1, x : y = 3 : 4 and y : z = 3 : 4. If the total runs scored by C, D, E, and F are 440, then what will be the runs scored by each respectively?</p>",
+        "q_hi": "<p>यदि C, w रन बनाता है, D, x रन बनाता है, E, y रन बनाता है और F, z रन बनाता है, तो w : x = 2 : 1, x : y = 3 : 4 और y : z = 3 : 4 है। यदि C, D, E और F के द्वारा बनाये गए कुल रन 440 हैं, तो प्रत्येक के द्वारा बनाया गया रन क्रमशः क्या होगा?</p>",
+        "op_en": [
+            "144, 72, 96, 128",
+            "140, 76, 98, 126",
+            "142, 74, 96, 128",
+            "145, 71, 90, 134"
+        ],
+        "op_hi": [
+            "144, 72, 96, 128",
+            "140, 76, 98, 126",
+            "142, 74, 96, 128",
+            "145, 71, 90, 134"
+        ],
+        "ans": "1",
+        "solution": "<p>नमस्ते बच्चों! इस सवाल में हमें अलग-अलग <b>Ratios</b> को जोड़कर एक Combined Ratio (मिश्रित अनुपात) बनाना है।</p><ul><li>w : x = 2 : 1</li><li>x : y = 3 : 4</li><li>y : z = 3 : 4</li></ul><p><b>Step 1:</b> w : x : y : z निकालने के लिए 'खाली जगह भरने' वाली ट्रिक लगाइए।<br>w : x : y : z = (2×3×3) : (1×3×3) : (1×4×3) : (1×4×4) = <b>18 : 9 : 12 : 16</b></p><p><b>Step 2:</b> कुल अनुपात = 18 + 9 + 12 + 16 = 55 यूनिट।<br>55 यूनिट = 440 रन (दिया है), तो 1 यूनिट = 440 / 55 = <b>8 रन</b>।</p><p><b>Step 3:</b> सबके रन निकालिए:<br>w = 18 × 8 = 144, x = 9 × 8 = 72, y = 12 × 8 = 96, z = 16 × 8 = 128.</p><p><b>Options Analysis:</b> केवल <b>Option 1</b> इन वैल्यूज से मैच करता है। बाकी ऑप्शंस में रन्स का Ratio 18:9:12:16 नहीं बनेगा।</p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "LCM and HCF",
+        "level": "Moderate",
+        "q_en": "<p>Joseph goes to the club every 5th day, Harsh goes every 24th day, while Sumit goes every 9th day. If all three meet at the club on a Sunday, on which day will they meet at the club again?</p>",
+        "q_hi": "<p>जोसेफ क्लब में प्रत्येक 5वें दिन जाता है, हर्ष प्रत्येक 24वें दिन जाता है, जबकि सुमित प्रत्येक 9वें दिन जाता है। यदि सभी तीनों किसी रविवार को क्लब में मिलें, तो वे तीनों पुनः क्लब में किस दिन मिलेंगे?</p>",
+        "op_en": [
+            "Monday",
+            "Wednesday",
+            "Thursday",
+            "Sunday"
+        ],
+        "op_hi": [
+            "सोमवार",
+            "बुधवार",
+            "बृहस्पतिवार",
+            "रविवार"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, जब भी कोई घटना अलग-अलग अंतराल (intervals) पर होती है और उनके एक साथ होने का समय पूछा जाए, तो हमें हमेशा <b>LCM (लघुत्तम समापवर्त्य)</b> निकालना चाहिए।</p><ul><li>अंतराल: 5, 24, और 9 दिन।</li><li>LCM (5, 24, 9) = 5 × 8 × 9 = <b>360 दिन</b>। (क्योंकि 24 और 9 का LCM 72 है, और 72 × 5 = 360)</li><li>इसका मतलब है कि वे 360 दिनों के बाद फिर से मिलेंगे।</li></ul><p><b>Day Calculation:</b></p><ul><li>हफ़्ते में 7 दिन होते हैं, इसलिए हम 360 को 7 से भाग देकर <b>Odd Days</b> (विषम दिन) निकालेंगे।</li><li>360 ÷ 7 = 51 हफ्ते और <b>3 शेष (Remainder)</b> दिन।</li><li>रविवार + 3 दिन = <b>बुधवार (Wednesday)</b>।</li></ul><p><b>Options Analysis:</b></p><ul><li><b>Option 1:</b> सोमवार (रविवार + 1) - गलत।</li><li><b>Option 2:</b> बुधवार (रविवार + 3) - <b>Correct</b>।</li><li><b>Option 3:</b> बृहस्पतिवार (रविवार + 4) - गलत।</li><li><b>Option 4:</b> रविवार - गलत (यह तब होता जब 360, 7 से पूरा कट जाता)।</li></ul>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Pipes and Cisterns",
+        "level": "Moderate",
+        "q_en": "<p>A tank is filled by three pipes A, B, and C in 3 hours. Pipe A is 6 times faster than C and 2 times faster than B. How many hours will pipes B and C take to fill the tank together?</p>",
+        "q_hi": "<p>एक टंकी को तीन पाइपों A, B और C द्वारा 3 घंटे में भरा जाता है। पाइप A, पाइप C से 6 गुना तेज और पाइप B से 2 गुना तेज है। पाइप B और C को टंकी को भरने में कितने घंटे लगेंगे?</p>",
+        "op_en": [
+            "7 4/5",
+            "7",
+            "7 1/4",
+            "7 1/2"
+        ],
+        "op_hi": [
+            "7 4/5",
+            "7",
+            "7 1/4",
+            "7 1/2"
+        ],
+        "ans": "4",
+        "solution": "<p><b>Efficiency (क्षमता) का अनुपात:</b></p><ul><li>A : C = 6 : 1</li><li>A : B = 2 : 1 (इसे 3 से गुणा करने पर 6 : 3 हो जाएगा)</li><li>तो, A : B : C = 6 : 3 : 1</li></ul><p><b>कुल कार्य (Total Work):</b></p><ul><li>तीनों मिलकर 3 घंटे काम करते हैं।</li><li>कुल क्षमता = 6 + 3 + 1 = 10 यूनिट/घंटा।</li><li>कुल कार्य = 10 × 3 = 30 यूनिट।</li></ul><p><b>B और C का समय:</b></p><ul><li>B और C की कुल क्षमता = 3 + 1 = 4 यूनिट/घंटा।</li><li>समय = कुल कार्य / क्षमता = 30 / 4 = 7.5 या <b>7 1/2 घंटे</b>।</li></ul>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Profit and Loss",
+        "level": "Moderate",
+        "q_en": "<p>Kumar bought 100 identical toys. He sells 60% toys at 20% profit and 40% toys at 10% profit. If he had sold all toys at 12.5% (uniform) profit, he would have received Rs. 70 less. Find the cost price (in Rs.) of each toy.</p>",
+        "q_hi": "<p>कुमार ने एक ही प्रकार के 100 खिलौने खरीदे। वह 60% खिलौने 20% के लाभ पर और 40% खिलौने 10% के लाभ पर बेचता है। यदि उसने सभी खिलौने 12.5% (एकसमान) लाभ पर बेचा है तो उसे 70 रु कम प्राप्त होते हैं। प्रत्येक खिलौने का क्र.मू. (रु. में) ज्ञात कीजिए।</p>",
+        "op_en": [
+            "25",
+            "30",
+            "20",
+            "15"
+        ],
+        "op_hi": [
+            "25",
+            "30",
+            "20",
+            "15"
+        ],
+        "ans": "3",
+        "solution": "<p><b>Case 1 का औसत लाभ:</b></p><ul><li>(60% × 20) + (40% × 10) = 12% + 4% = 16%</li></ul><p><b>Case 2 का लाभ:</b> 12.5%</p><p><b>लाभ में अंतर:</b> 16% - 12.5% = 3.5%</p><p>प्रश्नानुसार, यह 3.5% अंतर 70 रुपये के बराबर है।<br>3.5% of Total CP = 70<br>Total CP = (70 × 100) / 3.5 = 2000 रुपये।</p><p><b>प्रत्येक खिलौने का मूल्य:</b> 2000 / 100 = <b>20 रुपये</b>।</p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Number System",
+        "level": "Hard",
+        "q_en": "<p>297 × 7875 × 525 × 462 = 2<sup>a</sup> × 3<sup>b</sup> × 5<sup>c</sup> × 7<sup>d</sup> × 11<sup>e</sup>, then find the value of (a × b + c + e) ÷ d.</p>",
+        "q_hi": "<p>297 × 7875 × 525 × 462 = 2<sup>a</sup> × 3<sup>b</sup> × 5<sup>c</sup> × 7<sup>d</sup> × 11<sup>e</sup> है, तो (a × b + c + e) ÷ d का मान ज्ञात कीजिये।</p>",
+        "op_en": [
+            "16/3",
+            "14/3",
+            "8/3",
+            "9"
+        ],
+        "op_hi": [
+            "16/3",
+            "14/3",
+            "8/3",
+            "9"
+        ],
+        "ans": "2",
+        "solution": "<p><b>अभाज्य गुणनखंड (Prime Factors):</b></p><ul><li>297 = 27 × 11 = 3<sup>3</sup> × 11<sup>1</sup></li><li>7875 = 125 × 63 = 5<sup>3</sup> × 3<sup>2</sup> × 7<sup>1</sup></li><li>525 = 25 × 21 = 5<sup>2</sup> × 3<sup>1</sup> × 7<sup>1</sup></li><li>462 = 2 × 3 × 7 × 11 = 2<sup>1</sup> × 3<sup>1</sup> × 7<sup>1</sup> × 11<sup>1</sup></li></ul><p><b>घातों (Powers) को जोड़ने पर:</b></p><ul><li>a (2 की घात) = 1</li><li>b (3 की घात) = 3+2+1+1 = 7</li><li>c (5 की घात) = 3+2 = 5</li><li>d (7 की घात) = 1+1+1 = 3</li><li>e (11 की घात) = 1+1 = 2</li></ul><p><b>गणना:</b> (1 × 7 + 5 + 2) ÷ 3 = 14 ÷ 3 = <b>14/3</b></p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Average Speed",
+        "level": "Easy",
+        "q_en": "<p>R runs for 10 hours at speeds of 10 km/hr, 9 km/hr, ..., 1 km/hr respectively in the first hour, second hour, and so on. What is his average speed (in km/hr)?</p>",
+        "q_hi": "<p>R, पहले घंटे, दूसरे घंटे, इत्यादि में क्रमशः 10 किमी/घंटा, 9 किमी/घंटा,...., 1 किमी/घंटा की गति से 10 घंटे तक दौड़ता है। उसकी औसत गति ________ किमी/घंटा है।</p>",
+        "op_en": [
+            "4.5",
+            "5.",
+            "6",
+            "5.5"
+        ],
+        "op_hi": [
+            "4.5",
+            "5.",
+            "6",
+            "5.5"
+        ],
+        "ans": "4",
+        "solution": "<p><b>औसत गति = कुल दूरी / कुल समय</b></p><ul><li>कुल समय = 10 घंटे (हर स्पीड 1 घंटे के लिए है)</li><li>कुल दूरी = (10×1) + (9×1) + (8×1) + ... + (1×1)</li><li>दूरी = 1 से 10 तक की संख्याओं का योग = [n(n+1)]/2 = [10 × 11] / 2 = 55 किमी</li></ul><p><b>औसत गति:</b> 55 / 10 = <b>5.5 किमी/घंटा</b></p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Pipes and Cisterns",
+        "level": "Moderate",
+        "q_en": "<p>A tank is filled by three pipes A, B, and C in $3$ hours. Pipe A is $6$ times faster than C and $2$ times faster than B. How many hours will pipes B and C take to fill the tank together?</p>",
+        "q_hi": "<p>एक टंकी को तीन पाइपों A, B और C द्वारा $3$ घंटे में भरा जाता है। पाइप A, पाइप C से $6$ गुना तेज और पाइप B से $2$ गुना तेज है। पाइप B और C को टंकी को भरने में कितने घंटे लगेंगे?</p>",
+        "op_en": [
+            "$7 \\frac{4}{5}$",
+            "$7$",
+            "$7 \\frac{1}{4}$",
+            "$7 \\frac{1}{2}$"
+        ],
+        "op_hi": [
+            "$7 \\frac{4}{5}$",
+            "$7$",
+            "$7 \\frac{1}{4}$",
+            "$7 \\frac{1}{2}$"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, इस सवाल को <b>Efficiency</b> के रेश्यो से हल करना सबसे आसान है।</p><ul><li>सवाल के अनुसार: $A = 6C$ और $A = 2B$</li><li>अगर हम $A:B:C$ का अनुपात निकालें, तो वह होगा $6 : 3 : 1$।</li><li><b>Total Work:</b> तीनों मिलकर $3$ घंटे काम करते हैं, तो कुल काम = $(6+3+1) \\times 3 = 30$ यूनिट।</li><li>अब $B$ और $C$ मिलकर काम करेंगे, तो उनकी क्षमता $3+1 = 4$ होगी।</li><li>समय = $\\frac{30}{4} = 7.5$ यानी $7 \\frac{1}{2}$ घंटे।</li></ul><p><b>Option Analysis:</b> सिर्फ Option 4 हमारी कैलकुलेशन से मैच कर रहा है, इसलिए यही सही उत्तर है।</p>"
+    },
+  {
+    "section": "Quantitative Aptitude",
+    "topic": "Profit and Loss",
+    "level": "Easy",
+    "q_en": "<p>A shopkeeper marks his goods $20\\%$ above the cost price and allows a discount of $10\\%$. What is his gain percentage?</p>",
+    "q_hi": "<p>एक दुकानदार अपने माल का मूल्य क्रय मूल्य से $20\\%$ अधिक अंकित करता है और $10\\%$ की छूट देता है। उसका लाभ प्रतिशत क्या है?</p>",
+    "op_en": [
+      "$8\\%$",
+      "$10\\%$",
+      "$12\\%$",
+      "$15\\%$"
+    ],
+    "op_hi": [
+      "$8\\%$",
+      "$10\\%$",
+      "$12\\%$",
+      "$15\\%$"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, यह 'MarkUp और Discount' का बहुत ही शानदार सवाल है। इसे <b>$100$ मानकर</b> हल करना सबसे आसान होता है।</p><ul><li>मान लीजिए क्रय मूल्य (CP) = $100$</li><li>दुकानदार ने $20\\%$ बढ़ाकर मूल्य अंकित किया, तो अंकित मूल्य (MP) = $100 + 20 = 120$</li><li>अब वह इस MP पर $10\\%$ की छूट (Discount) देता है। (याद रखें: छूट हमेशा अंकित मूल्य पर मिलती है)</li><li>छूट = $120$ का $10\\% = 12$</li><li>विक्रय मूल्य (SP) = $120 - 12 = 108$</li></ul><p><b>लाभ (Profit):</b> $100$ की चीज़ $108$ में बिकी, यानी सीधा-सीधा <b>$8\\%$ का लाभ</b> हुआ।</p><p><b>⚡ Short Trick (Successive Formula):</b><br>हम यहाँ $A + B + \\frac{A \\times B}{100}$ का उपयोग भी कर सकते हैं:<br>वृद्धि (Markup) = $+20$, छूट (Discount) = $-10$<br>लाभ $\\%$ = $20 - 10 + \\frac{20 \\times (-10)}{100} = 10 - 2 = 8\\%$।</p><p><b>Options Analysis:</b> हमारा उत्तर $8\\%$ है, जो कि <b>Option 1</b> में दिया गया है। बाकी सभी विकल्प गलत हैं।</p>"
+  },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Average",
+        "level": "Moderate",
+        "q_en": "<p>If the average marks of three batches of $80$, $70$, and $65$ students are $70$, $65$, and $75$ respectively, then what will be the average marks (to the nearest integer) of all the students?</p>",
+        "q_hi": "<p>यदि $80$, $70$ और $65$ विद्यार्थियों वाले तीन बैच के औसत अंक क्रमशः $70$, $65$ और $75$ हैं, तो समस्त विद्यार्थियों के औसत अंक (निकटतम पूर्णांक तक) इनमें से कितने होंगे?</p>",
+        "op_en": [
+            "$70$",
+            "$72$",
+            "$68$",
+            "$74$"
+        ],
+        "op_hi": [
+            "$70$",
+            "$72$",
+            "$68$",
+            "$74$"
+        ],
+        "ans": "1",
+        "solution": "<p>नमस्ते! यहाँ हमें <b>Weighted Average</b> (भारित औसत) का कॉन्सेप्ट लगाना है।</p><ul><li><b>कुल अंक:</b> $(80 \\times 70) + (70 \\times 65) + (65 \\times 75)$</li><li>कुल अंक = $5600 + 4550 + 4875 = 15025$</li><li><b>कुल विद्यार्थी:</b> $80 + 70 + 65 = 215$</li><li><b>औसत:</b> $\\frac{15025}{215} \\approx 69.88$</li></ul><p>चूँकि हमसे निकटतम पूर्णांक (nearest integer) पूछा गया है, तो $69.88$ का निकटतम मान <b>$70$</b> होगा।</p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Set Theory",
+        "level": "Easy",
+        "q_en": "<p>If $40\\%$ of people read newspaper X, $50\\%$ of people read newspaper Y, and $10\\%$ of people read both newspapers, then what percentage of people do not read any of these newspapers?</p>",
+        "q_hi": "<p>यदि $40\\%$ लोग अखबार X, $50\\%$ लोग अखबार Y और $10\\%$ लोग दोनों अखबार पढ़ते हैं, तब कितने प्रतिशत लोग इनमें से कोई भी अखबार नहीं पढ़ते हैं?</p>",
+        "op_en": [
+            "$10\\%$",
+            "$15\\%$",
+            "$20\\%$",
+            "$25\\%$"
+        ],
+        "op_hi": [
+            "$10\\%$",
+            "$15\\%$",
+            "$20\\%$",
+            "$25\\%$"
+        ],
+        "ans": "3",
+        "solution": "<p>इस सवाल को <b>Venn Diagram</b> से समझना सबसे मस्त रहता है।</p><ul><li>अखबार पढ़ने वाले कुल लोग = $P(X \\cup Y)$</li><li>सूत्र: $P(X \\cup Y) = P(X) + P(Y) - P(X \\cap Y)$</li><li>गणना: $40\\% + 50\\% - 10\\% = 80\\%$</li></ul><p>इसका मतलब है कि $80\\%$ लोग कम से कम एक अखबार पढ़ते हैं।</p><p><b>कोई अखबार न पढ़ने वाले:</b> $100\\% - 80\\% = 20\\%$</p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Time and Work",
+        "level": "Moderate",
+        "q_en": "<p>A and B together can do a work in $50$ hours, B and C together can do the same work in $75$ hours and A and C together can do the same work in $25$ hours. Find the time in which A, B and C together will complete the work.</p>",
+        "q_hi": "<p>A और B मिलकर एक कार्य को $50$ घंटे में कर सकते हैं, B और C मिलकर उसी कार्य को $75$ घंटे में कर सकते हैं और A तथा C मिलकर उसी कार्य को $25$ घंटे में कर सकते हैं। वह समय ज्ञात कीजिए जिसमें A, B और C मिलकर कार्य को पूरा करेंगे।</p>",
+        "op_en": [
+            "$\\frac{400}{11}$ hours",
+            "$\\frac{150}{11}$ hours",
+            "$\\frac{131}{11}$ hours",
+            "$\\frac{300}{11}$ hours"
+        ],
+        "op_hi": [
+            "$\\frac{400}{11}$ घंटे",
+            "$\\frac{150}{11}$ घंटे",
+            "$\\frac{131}{11}$ घंटे",
+            "$\\frac{300}{11}$ घंटे"
+        ],
+        "ans": "4",
+        "solution": "<p><b>Step 1:</b> सबसे पहले $50, 75,$ और $25$ का LCM लें, जो कि <b>$150$</b> (Total Work) होगा।</p><ul><li>$(A+B)$ की क्षमता = $\\frac{150}{50} = 3$</li><li>$(B+C)$ की क्षमता = $\\frac{150}{75} = 2$</li><li>$(A+C)$ की क्षमता = $\\frac{150}{25} = 6$</li></ul><p><b>Step 2:</b> सबको जोड़ने पर: $2(A+B+C) = 3 + 2 + 6 = 11$</p><ul><li>$(A+B+C)$ की क्षमता = $\\frac{11}{2}$</li></ul><p><b>Step 3:</b> समय = $\\frac{\\text{Total Work}}{\\text{Efficiency}} = \\frac{150}{\\frac{11}{2}} = \\frac{300}{11}$ घंटे।</p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Problems on Ages",
+        "level": "Moderate",
+        "q_en": "<p>The ratio of the current ages of A and B is $8 : 15$. After four years from now, the ratio of their ages will be $9 : 16$. What will be the sum of their ages (in years) after $8$ years from now?</p>",
+        "q_hi": "<p>A और B की वर्तमान आयु का अनुपात $8 : 15$ है। अब से चार वर्ष बाद, उनकी आयु का अनुपात $9 : 16$ होगा। अब से $8$ वर्ष बाद उनकी आयु का (वर्षों में) योग क्या होगा?</p>",
+        "op_en": [
+            "$116$",
+            "$108$",
+            "$100$",
+            "$98$"
+        ],
+        "op_hi": [
+            "$116$",
+            "$108$",
+            "$100$",
+            "$98$"
+        ],
+        "ans": "2",
+        "solution": "<p><b>Logic:</b> वर्तमान अनुपात $8:15$ है और $4$ साल बाद $9:16$।</p><ul><li>ध्यान दें कि दोनों के अनुपात में $1$ यूनिट का अंतर आया है ($9-8=1$ और $16-15=1$)।</li><li>यह $1$ यूनिट = $4$ वर्ष है।</li><li>तो वर्तमान आयु: $A = 8 \\times 4 = 32$ वर्ष और $B = 15 \\times 4 = 60$ वर्ष।</li></ul><p><b>$8$ वर्ष बाद की आयु:</b></p><ul><li>$A = 32 + 8 = 40$ वर्ष</li><li>$B = 60 + 8 = 68$ वर्ष</li><li>कुल योग = $40 + 68 = 108$ वर्ष।</li></ul>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Percentage",
+        "level": "Hard",
+        "q_en": "<p>$30\\%$ of men are more than $25$ years old, and $80\\%$ of men are less than or equal to $50$ years old. $20\\%$ of all men play football. If $20\\%$ of men above $50$ years play football, what percentage of football players are less than or equal to $50$ years old?</p>",
+        "q_hi": "<p>$30\\%$ पुरुष $25$ वर्ष से अधिक आयु के हैं, और $80\\%$ पुरुष $50$ वर्ष से कम या उसके बराबर हैं। सभी पुरुषों में से $20\\%$ फुटबॉल खेलते हैं। यदि $50$ वर्ष से अधिक आयु के $20\\%$ पुरुष फुटबॉल खेलते हैं, तो कितने प्रतिशत फुटबॉल खिलाड़ी $50$ वर्ष से कम या उसके बराबर हैं?</p>",
+        "op_en": [
+            "$77\\%$",
+            "$80\\%$",
+            "$71\\%$",
+            "$82\\%$"
+        ],
+        "op_hi": [
+            "$77\\%$",
+            "$80\\%$",
+            "$71\\%$",
+            "$82\\%$"
+        ],
+        "ans": "2",
+        "solution": "<p>मान लीजिए पुरुषों की कुल संख्या $100$ है।</p><ul><li>$50$ वर्ष से कम या बराबर ($\"\\le 50$ वर्ष\") = $80$</li><li>$50$ वर्ष से अधिक ($ \"> 50$ वर्ष\") = $100 - 80 = 20$</li><li>कुल फुटबॉल खिलाड़ी = $100$ का $20\\% = 20$</li></ul><p>अब, $50$ वर्ष से अधिक आयु के $20\\%$ पुरुष फुटबॉल खेलते हैं:</p><ul><li>फुटबॉल खेलने वाले ($> 50$ वर्ष) = $20$ का $20\\% = 4$</li></ul><p>इसका मतलब है कि बाकी फुटबॉल खिलाड़ी $50$ वर्ष से कम आयु के हैं:</p><ul><li>फुटबॉल खेलने वाले ($\"\\le 50$ वर्ष\") = कुल फुटबॉल खिलाड़ी - फुटबॉल खेलने वाले ($> 50$ वर्ष)</li><li>$= 20 - 4 = 16$</li></ul><p><b>अंतिम गणना:</b> फुटबॉल खिलाड़ियों में $50$ साल से कम वालों का प्रतिशत = $\\left( \\frac{16}{20} \\right) \\times 100 = 80\\%$।</p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Ratio and Mixture",
+        "level": "Moderate",
+        "q_en": "<p>The ratio of milk and water in two samples is $5 : 2$ and $7 : 5$. If a mixture is prepared by taking equal quantities of both samples, then what is the ratio of milk and water in the mixture?</p>",
+        "q_hi": "<p>दो नमूनों में दूध और पानी का अनुपात $5 : 2$ और $7 : 5$ है। यदि दोनों नमूनों की समान मात्रा लेकर एक मिश्रण तैयार किया जाता है, तो मिश्रण में दूध और पानी का अनुपात क्या है?</p>",
+        "op_en": [
+            "$12 : 7$",
+            "$7 : 12$",
+            "$109 : 59$",
+            "$59 : 109$"
+        ],
+        "op_hi": [
+            "$12 : 7$",
+            "$7 : 12$",
+            "$109 : 59$",
+            "$59 : 109$"
+        ],
+        "ans": "3",
+        "solution": "<p>जब भी समान मात्रा मिलानी हो, तो सबसे पहले दोनों अनुपातों का योग (Sum) बराबर कर लें।</p><ul><li>अनुपात 1: $5 : 2$ (योग = $7$)</li><li>अनुपात 2: $7 : 5$ (योग = $12$)</li></ul><p>$7$ और $12$ का LCM $84$ है।</p><ul><li>नया अनुपात 1: $(5:2) \\times 12 = 60 : 24$</li><li>नया अनुपात 2: $(7:5) \\times 7 = 49 : 35$</li></ul><p>अब दूध और पानी को अलग-अलग जोड़ लें:</p><ul><li>दूध = $60 + 49 = 109$</li><li>पानी = $24 + 35 = 59$</li></ul><p>अतः मिश्रण में अनुपात <b>$109 : 59$</b> होगा।</p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Time and Work",
+        "level": "Easy",
+        "q_en": "<p>A1 alone can do a work in $12$ days and A2 alone can do the same work in $15$ days. With the help of A3, they complete the same work in $5$ days. In how many days can A3 alone complete the same work?</p>",
+        "q_hi": "<p>A1 अकेले एक कार्य को $12$ दिनों में कर सकता है और A2 अकेले उसी कार्य को $15$ दिनों में कर सकता है। A3 की सहायता से वे उसी कार्य को $5$ दिनों में पूरा करते हैं। A3 अकेले उसी कार्य को कितने दिनों में पूरा कर सकता है?</p>",
+        "op_en": [
+            "$16$ days",
+            "$20$ days",
+            "$24$ days",
+            "$27$ days"
+        ],
+        "op_hi": [
+            "$16$ दिन",
+            "$20$ दिन",
+            "$24$ दिन",
+            "$27$ दिन"
+        ],
+        "ans": "2",
+        "solution": "<p><b>LCM Method:</b></p><ul><li>A1 = $12$ दिन, A2 = $15$ दिन, A1+A2+A3 = $5$ दिन</li><li>LCM ($12, 15, 5$) = <b>$60$ (Total Work)</b></li></ul><p>अब सबकी दक्षता (Efficiency) निकालें:</p><ul><li>A1 की दक्षता = $\\frac{60}{12} = 5$</li><li>A2 की दक्षता = $\\frac{60}{15} = 4$</li><li>A1+A2+A3 की दक्षता = $\\frac{60}{5} = 12$</li></ul><p><b>A3 की दक्षता:</b> $12 - (5 + 4) = 3$</p><p>A3 का समय = $\\frac{60}{3} = 20$ दिन।</p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Interest",
+        "level": "Easy",
+        "q_en": "<p>What is the difference between compound interest (compounded annually) and simple interest on a sum of ₹ $4,000$ for $2$ years at $5\\%$ per annum?</p>",
+        "q_hi": "<p>₹ $4,000$ की राशि पर $2$ सालों के लिए $5\\%$ प्रति वर्ष (वार्षिक देय) पर चक्रवृद्धि ब्याज और साधारण ब्याज के बीच का अंतर क्या है?</p>",
+        "op_en": [
+            "₹ $20$",
+            "₹ $10$",
+            "₹ $50$",
+            "₹ $60$"
+        ],
+        "op_hi": [
+            "₹ $20$",
+            "₹ $10$",
+            "₹ $50$",
+            "₹ $60$"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को एक <b>Short Trick</b> से समझते हैं जो परीक्षा में आपका समय बचाएगी।</p><p>जब हमें $2$ साल के लिए चक्रवृद्धि ब्याज (CI) और साधारण ब्याज (SI) का अंतर ($D$) निकालना हो, तो हम इस जादुई सूत्र का उपयोग करते हैं:</p><p>$$D = P \\times \\left( \\frac{r}{100} \\right)^{2}$$</p><ul><li>यहाँ <b>$P$ (Principal)</b> = ₹ $4000$ है।</li><li><b>$r$ (Rate)</b> = $5\\%$ है।</li><li>अब सूत्र में मान रखते हैं: $D = 4000 \\times \\left( \\frac{5}{100} \\right)^{2}$</li><li>इसे सरल करने पर: $D = 4000 \\times \\left( \\frac{1}{20} \\right)^{2} = 4000 \\times \\frac{1}{400}$</li><li>$D = 10$</li></ul><p>तो, CI और SI के बीच का अंतर <b>₹ $10$</b> है।</p><p><b>Option Analysis:</b> विकल्प 2 में ₹ $10$ दिया गया है, जो हमारी गणना से मेल खाता है।</p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Data Interpretation",
+        "level": "Easy",
+        "q_en": "<p>The following table shows the number of patients visiting a dental clinic for oral health issues during September, October, November, and December 2018. Study the table carefully and answer the following question.</p><table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" style=\"border-collapse: collapse; text-align: center; width: 100%; margin-bottom: 15px;\"><tr><th>Month (2018)</th><th>Filling</th><th>Root Canal</th><th>Tooth Extraction</th><th>Implant</th></tr><tr><td>September</td><td>180</td><td>480</td><td>570</td><td>260</td></tr><tr><td>October</td><td>560</td><td>770</td><td>620</td><td>470</td></tr><tr><td>November</td><td>940</td><td>1080</td><td>890</td><td>220</td></tr><tr><td>December</td><td>820</td><td>590</td><td>530</td><td>1040</td></tr></table><p><b>What is the ratio of the total number of patients in September to the total number of patients in December in 2018?</b></p>",
+        "q_hi": "<p>निम्नलिखित तालिका सितंबर, अक्टूबर, नवंबर और दिसंबर 2018 के दौरान अपने मुख के स्वास्थ्य से संबंधित मुद्दों के लिए एक दंत चिकित्सालय में आने वाले रोगियों की संख्या प्रदर्शित करती है। तालिका का ध्यानपूर्वक अध्ययन कीजिए और निम्नलिखित प्रश्नों का उत्तर दीजिए।</p><table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" style=\"border-collapse: collapse; text-align: center; width: 100%; margin-bottom: 15px;\"><tr><th>महीना (2018)</th><th>भराई</th><th>रूट केनाल</th><th>दाँत निकालना</th><th>प्रत्यारोपण</th></tr><tr><td>सितंबर</td><td>180</td><td>480</td><td>570</td><td>260</td></tr><tr><td>अक्टूबर</td><td>560</td><td>770</td><td>620</td><td>470</td></tr><tr><td>नवंबर</td><td>940</td><td>1080</td><td>890</td><td>220</td></tr><tr><td>दिसंबर</td><td>820</td><td>590</td><td>530</td><td>1040</td></tr></table><p><b>2018 में सितंबर में रोगियों की कुल संख्या और दिसंबर में रोगियों की कुल संख्या का अनुपात कितना है?</b></p>",
+        "op_en": [
+            "$1 : 2$",
+            "$4 : 3$",
+            "$2 : 1$",
+            "$3 : 4$"
+        ],
+        "op_hi": [
+            "$1 : 2$",
+            "$4 : 3$",
+            "$2 : 1$",
+            "$3 : 4$"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, इस <b>Data Interpretation (DI)</b> के सवाल में हमें सिर्फ दी गई तालिका से डेटा को जोड़ना है और उनका अनुपात (Ratio) निकालना है।</p><p><b>Step 1: सितंबर महीने के कुल रोगी</b></p><ul><li>सितंबर = $180 + 480 + 570 + 260$</li><li>कुल योग = $1490$</li></ul><p><b>Step 2: दिसंबर महीने के कुल रोगी</b></p><ul><li>दिसंबर = $820 + 590 + 530 + 1040$</li><li>कुल योग = $2980$</li></ul><p><b>Step 3: अनुपात (Ratio) ज्ञात करना</b></p><ul><li>अनुपात = $\\frac{\\text{सितंबर के कुल रोगी}}{\\text{दिसंबर के कुल रोगी}}$</li><li>अनुपात = $\\frac{1490}{2980}$</li><li>अनुपात = $\\frac{1}{2}$</li></ul><p>अतः सही उत्तर <b>$1 : 2$</b> है।</p>"
+    },
+    {
+        "section": "Quantitative Aptitude",
+        "topic": "Partnership",
+        "level": "Moderate",
+        "q_en": "<p>Radha invested $60\\%$ more than Geeta and Seeta invested $20\\%$ more than Geeta. If the ratio of investment time-period (Radha : Geeta : Seeta) is $2 : 4 : 3$ and the sum of profit shares of Geeta and Seeta is Rs. $8550$, then find the profit share of Radha.</p>",
+        "q_hi": "<p>राधा ने गीता से $60\\%$ अधिक निवेश किया और सीता ने गीता से $20\\%$ अधिक निवेश किया। यदि निवेश समय-अवधि का अनुपात (राधा : गीता : सीता) $2 : 4 : 3$ है और गीता तथा सीता के लाभ के हिस्सों का योग $8550$ रुपये है, तो राधा का लाभ का हिस्सा ज्ञात कीजिए।</p>",
+        "op_en": [
+            "Rs. $5000$",
+            "Rs. $3600$",
+            "Rs. $4400$",
+            "Rs. $3200$"
+        ],
+        "op_hi": [
+            "रुपये $5000$",
+            "रुपये $3600$",
+            "रुपये $4400$",
+            "रुपये $3200$"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, <b>Partnership (साझेदारी)</b> के सवालों का एक ही मूल मंत्र है: <b>Profit = Investment $\\times$ Time</b> (लाभ = निवेश $\\times$ समय)।</p><p><b>Step 1: निवेश (Investment) का अनुपात निकालें</b></p><ul><li>मान लीजिए गीता का निवेश = $100$ यूनिट</li><li>राधा का निवेश ($60\\%$ अधिक) = $160$ यूनिट</li><li>सीता का निवेश ($20\\%$ अधिक) = $120$ यूनिट</li><li>निवेश का अनुपात (राधा : गीता : सीता) = $160 : 100 : 120 = 8 : 5 : 6$</li></ul><p><b>Step 2: समय (Time) का अनुपात</b></p><ul><li>समय का अनुपात दिया है = $2 : 4 : 3$</li></ul><p><b>Step 3: लाभ (Profit) का अनुपात</b></p><ul><li>लाभ का अनुपात = $(8 \\times 2) : (5 \\times 4) : (6 \\times 3)$</li><li>राधा : गीता : सीता = $16 : 20 : 18 = 8 : 10 : 9$</li></ul><p><b>Step 4: राधा का हिस्सा निकालें</b></p><ul><li>गीता और सीता के लाभ का योग = $10 + 9 = 19$ यूनिट</li><li>प्रश्न के अनुसार: $19$ यूनिट = $8550$ रुपये</li><li>$1$ यूनिट = $\\frac{8550}{19} = 450$ रुपये</li><li>राधा का हिस्सा = $8$ यूनिट = $8 \\times 450 = 3600$ रुपये।</li></ul><p>अतः राधा का लाभ का हिस्सा <b>रुपये $3600$</b> है।</p>"
+    }
+]
