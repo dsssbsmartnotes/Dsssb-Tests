@@ -1,0 +1,422 @@
+[
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Moderate",
+        "q_en": "In the given question, a statement divided into different segments is given. The first segment (S1) is fixed, rearrange the other segments to form a coherent statement. <br><br>Industrialization in the 19th century (S1) / and altering traditional labor systems (P) / introducing unprecedented technological advances (Q) / transformed the social and economic landscape (R) / creating new urban centers (S) /",
+        "q_hi": "In the given question, a statement divided into different segments is given. The first segment (S1) is fixed, rearrange the other segments to form a coherent statement. <br><br>Industrialization in the 19th century (S1) / and altering traditional labor systems (P) / introducing unprecedented technological advances (Q) / transformed the social and economic landscape (R) / creating new urban centers (S) /",
+        "op_en": [
+            "QPRS",
+            "RQSP",
+            "RPSQ",
+            "PRQS"
+        ],
+        "op_hi": [
+            "QPRS",
+            "RQSP",
+            "RPSQ",
+            "PRQS"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें दिए गए हिस्सों को सही क्रम में लगाकर एक अर्थपूर्ण वाक्य (meaningful sentence) बनाना है।</p><p>यहाँ पहला हिस्सा (S1) निश्चित है: 'Industrialization in the 19th century' (19वीं सदी में औद्योगीकरण)। इसके तुरंत बाद वाक्य की मुख्य क्रिया (Main Verb) आनी चाहिए।</p><ul><li><b>Option 1 (QPRS):</b> 'introducing' से मुख्य क्रिया नहीं बनती, इसलिए यह गलत है।</li><li><b>Option 2 (RQSP):</b> यह बिल्कुल सही है। (R) 'transformed the social and economic landscape' वाक्य को पूरा करता है। इसके बाद (Q) 'introducing unprecedented technological advances', (S) 'creating new urban centers', और अंत में (P) 'and altering traditional labor systems' आएगा। यह एक तार्किक क्रम (logical sequence) बनाता है।</li><li><b>Option 3 (RPSQ) & Option 4 (PRQS):</b> ग्रामर और अर्थ के अनुसार इनका क्रम सही नहीं बैठता है।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Moderate",
+        "q_en": "Select the correct one-word substitute for the given expression.<br><br>A person that holds beliefs opposed to the accepted religious doctrines",
+        "q_hi": "Select the correct one-word substitute for the given expression.<br><br>A person that holds beliefs opposed to the accepted religious doctrines",
+        "op_en": [
+            "Clergyman",
+            "Heretic",
+            "Atheist",
+            "Rebel"
+        ],
+        "op_hi": [
+            "Clergyman",
+            "Heretic",
+            "Atheist",
+            "Rebel"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें दिए गए वाक्यांश के लिए एक शब्द (One-word substitute) चुनना है।</p><p>वाक्यांश है: 'A person that holds beliefs opposed to the accepted religious doctrines' (वह व्यक्ति जो समाज की स्वीकृत धार्मिक मान्यताओं के विरुद्ध विचार रखता हो)।</p><ul><li><b>1. Clergyman:</b> पादरी या पुरोहित, जो धर्म का प्रचार करता है। यह गलत है।</li><li><b>2. Heretic:</b> विधर्मी या पाखंडी। यह बिल्कुल सही उत्तर है क्योंकि यह वही व्यक्ति होता है जो स्थापित धार्मिक विचारों का विरोध करता है।</li><li><b>3. Atheist:</b> नास्तिक (वह जो भगवान के अस्तित्व को ही न माने)। यहाँ धार्मिक मान्यताओं के विरोध की बात है, भगवान को न मानने की नहीं। इसलिए यह गलत है।</li><li><b>4. Rebel:</b> विद्रोही (जो सरकार या किसी भी सत्ता का विरोध करे)। यह बहुत सामान्य शब्द है, धर्म तक सीमित नहीं है।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Easy",
+        "q_en": "Select the option that can be used as a one word substitute for the underlined words.<br><br>The chef prepared a dish that was <u>pleasing to the sense of taste</u>.",
+        "q_hi": "Select the option that can be used as a one word substitute for the underlined words.<br><br>The chef prepared a dish that was <u>pleasing to the sense of taste</u>.",
+        "op_en": [
+            "Tangible",
+            "Palatable",
+            "Aromatic",
+            "Audible"
+        ],
+        "op_hi": [
+            "Tangible",
+            "Palatable",
+            "Aromatic",
+            "Audible"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ हमें रेखांकित हिस्से (<u>pleasing to the sense of taste</u>) के लिए एक सही शब्द चुनना है, जिसका अर्थ है 'स्वाद में अच्छा या स्वादिष्ट'।</p><ul><li><b>1. Tangible:</b> जिसे छुआ जा सके (स्पर्शनीय)। यह गलत है।</li><li><b>2. Palatable:</b> स्वादिष्ट या खाने में अच्छा लगने वाला। यह बिल्कुल सही उत्तर है।</li><li><b>3. Aromatic:</b> सुगंधित (जिसमें अच्छी महक हो)। यह खुशबू से जुड़ा है, स्वाद से नहीं।</li><li><b>4. Audible:</b> जिसे सुना जा सके। यह आवाज़ से जुड़ा है।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Moderate",
+        "q_en": "In the given question, a statement divided into different segments is given. The first segment is fixed; rearrange the other segments to form a coherent and meaningful statement.<br>1 – Kuchipudi,<br>A – originated in the state of Andhra Pradesh<br>B – in the state’s Krishna district<br>C – and derives its name from the village of Kuchipudi<br>D – one of the nine recognized classical dance forms of India,",
+        "q_hi": "In the given question, a statement divided into different segments is given. The first segment is fixed; rearrange the other segments to form a coherent and meaningful statement.<br>1 – Kuchipudi,<br>A – originated in the state of Andhra Pradesh<br>B – in the state’s Krishna district<br>C – and derives its name from the village of Kuchipudi<br>D – one of the nine recognized classical dance forms of India,",
+        "op_en": [
+            "1 D A C B",
+            "1 A C D B",
+            "1 D C A B",
+            "1 A D C B"
+        ],
+        "op_hi": [
+            "1 D A C B",
+            "1 A C D B",
+            "1 D C A B",
+            "1 A D C B"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें वाक्यों के हिस्सों को सही क्रम में लगाना है ताकि कुचिपुड़ी नृत्य के बारे में एक सार्थक वाक्य बन सके।</p><p>शुरुआत '1 – Kuchipudi' से होती है।</p><ul><li><b>Option 1 (1 D A C B):</b> यह क्रम बिल्कुल सही है। 'Kuchipudi, (D) one of the nine recognized classical dance forms of India' (कुचिपुड़ी, जो भारत के नौ मान्यता प्राप्त शास्त्रीय नृत्यों में से एक है) -> '(A) originated in the state of Andhra Pradesh' (आंध्र प्रदेश राज्य में उत्पन्न हुआ) -> '(C) and derives its name from the village of Kuchipudi' (और इसका नाम कुचिपुड़ी गाँव से पड़ा है) -> '(B) in the state’s Krishna district' (जो राज्य के कृष्णा जिले में है)।</li><li><b>अन्य Options (2, 3, 4):</b> इनमें ग्रामर और अर्थ का प्रवाह (flow) टूट जाता है। जैसे A के बाद C और D का क्रम अर्थहीन हो जाता है।</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Moderate",
+        "q_en": "In the following question, a statement has been given with highlighted text. You are required to replace the text with the correct one-word from the given options.<br><br>The circus audience watched in awe as the <strong>one who walks on ropes</strong> performed high above the ground.",
+        "q_hi": "In the following question, a statement has been given with highlighted text. You are required to replace the text with the correct one-word from the given options.<br><br>The circus audience watched in awe as the <strong>one who walks on ropes</strong> performed high above the ground.",
+        "op_en": [
+            "funambulist",
+            "fielder",
+            "acrobat",
+            "gymnast"
+        ],
+        "op_hi": [
+            "funambulist",
+            "fielder",
+            "acrobat",
+            "gymnast"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें 'one who walks on ropes' (रस्सी पर चलने वाला व्यक्ति) के लिए सही एक शब्द (One-word) खोजना है।</p><ul><li><b>1. funambulist:</b> रस्सी पर चलने वाला नट (A tightrope walker)। यह बिल्कुल सही उत्तर है।</li><li><b>2. fielder:</b> मैदान में गेंद पकड़ने वाला (क्रिकेट आदि में)। यह गलत है।</li><li><b>3. acrobat:</b> कलाबाज़ (जो शारीरिक करतब दिखाता है)। यह रस्सी पर चलने तक सीमित नहीं है, इसलिए सटीक उत्तर नहीं है।</li><li><b>4. gymnast:</b> जिमनास्ट (व्यायाम और शारीरिक संतुलन का खेल खेलने वाला)। यह भी गलत है।</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Easy",
+        "q_en": "Choose the option that best substitutes the underlined expression with one word, without changing the meaning.<br><br>The instructions were <u>so </u><u>unclear that they could be interpreted in different ways</u>.",
+        "q_hi": "Choose the option that best substitutes the underlined expression with one word, without changing the meaning.<br><br>The instructions were <u>so </u><u>unclear that they could be interpreted in different ways</u>.",
+        "op_en": [
+            "detailed",
+            "ambiguous",
+            "informative",
+            "brief"
+        ],
+        "op_hi": [
+            "detailed",
+            "ambiguous",
+            "informative",
+            "brief"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें रेखांकित वाक्यांश 'so unclear that they could be interpreted in different ways' (इतना अस्पष्ट कि इसके कई अर्थ निकाले जा सकें) के लिए एक शब्द बताना है।</p><ul><li><b>1. detailed:</b> विस्तृत (जिसमें पूरी जानकारी हो)। यह विपरीत अर्थ देता है।</li><li><b>2. ambiguous:</b> अस्पष्ट या द्विअर्थी (जिसके एक से ज़्यादा मतलब निकल सकें)। यह बिल्कुल सही उत्तर है।</li><li><b>3. informative:</b> ज्ञानवर्धक (जिससे जानकारी मिले)। यह गलत है।</li><li><b>4. brief:</b> संक्षिप्त (छोटा)। यह भी गलत है।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Fill in the Blanks",
+        "level": "Easy",
+        "q_en": "Choose the correct option to complete the sentence.<br>She ______ to the market yesterday.",
+        "q_hi": "Choose the correct option to complete the sentence.<br>She ______ to the market yesterday.",
+        "op_en": [
+            "went",
+            "goes",
+            "going",
+            "go"
+        ],
+        "op_hi": [
+            "went",
+            "goes",
+            "going",
+            "go"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें वाक्य के रिक्त स्थान में सही Verb (क्रिया) भरनी है।</p><p>वाक्य में <b>'yesterday'</b> (बीता हुआ कल) का प्रयोग हुआ है, जो यह बताता है कि यह वाक्य <i>Simple Past Tense</i> (भूतकाल) का है।</p><ul><li><b>1. went:</b> यह 'go' की Past Form (V2) है। इसलिए यह सही उत्तर है।</li><li><b>2. goes:</b> यह Present Tense (वर्तमान काल) में प्रयोग होता है।</li><li><b>3. going:</b> यह Continuous Tense में Is/Am/Are/Was/Were के साथ आता है।</li><li><b>4. go:</b> यह Base Form (V1) है जो Plural Subject के साथ Present Tense में आती है।</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Moderate",
+        "q_en": "In the given question, a statement divided into different segments is given. The first segment is fixed; rearrange the other segments to form a coherent and meaningful statement.<br>1 – Photosynthesis<br>A – to create their own food<br>B – use sunlight, water, and carbon dioxide<br>C – and release oxygen as a byproduct<br>D – is the process where plants, algae, and some bacteria",
+        "q_hi": "In the given question, a statement divided into different segments is given. The first segment is fixed; rearrange the other segments to form a coherent and meaningful statement.<br>1 – Photosynthesis<br>A – to create their own food<br>B – use sunlight, water, and carbon dioxide<br>C – and release oxygen as a byproduct<br>D – is the process where plants, algae, and some bacteria",
+        "op_en": [
+            "1 A B D C",
+            "1 D B A C",
+            "1 B D A C",
+            "1 D A B C"
+        ],
+        "op_hi": [
+            "1 A B D C",
+            "1 D B A C",
+            "1 B D A C",
+            "1 D A B C"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें प्रकाश संश्लेषण (Photosynthesis) की परिभाषा को सही क्रम में लगाना है।</p><p>शुरुआत '1 – Photosynthesis' से होगी। इसके बाद यह बताना होगा कि यह क्या है, इसलिए (D) 'is the process where plants, algae, and some bacteria' आएगा।</p><p>इसके बाद वे क्या करते हैं? (B) 'use sunlight, water, and carbon dioxide' (सूर्य का प्रकाश, पानी और कार्बन डाइऑक्साइड का उपयोग करते हैं)।</p><p>किसलिए करते हैं? (A) 'to create their own food' (अपना भोजन बनाने के लिए)।</p><p>और अंत में क्या होता है? (C) 'and release oxygen as a byproduct' (और ऑक्सीजन छोड़ते हैं)।</p><p>तो सही क्रम होगा: <b>1 - D - B - A - C</b></p><ul><li><b>Option 1, 3, 4:</b> इन विकल्पों में वाक्यों का अर्थ और ग्रामर दोनों गलत हो जाते हैं।</li><li><b>Option 2:</b> यह क्रम बिल्कुल तार्किक और अर्थपूर्ण है।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Fill in the Blanks",
+        "level": "Easy",
+        "q_en": "Choose the correct option to complete the sentence.<br><br>The athlete fought bravely ______ all odds to win the championship.",
+        "q_hi": "Choose the correct option to complete the sentence.<br><br>The athlete fought bravely ______ all odds to win the championship.",
+        "op_en": [
+            "beyond",
+            "upon",
+            "within",
+            "against"
+        ],
+        "op_hi": [
+            "beyond",
+            "upon",
+            "within",
+            "against"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह सवाल एक बहुत ही प्रसिद्ध Idiom/Phrase पर आधारित है।</p><p>अंग्रेजी में <b>\"against all odds\"</b> एक मुहावरा है, जिसका अर्थ होता है 'सभी बाधाओं या विपरीत परिस्थितियों के बावजूद' (Despite success being very unlikely)।</p><ul><li><b>1. beyond:</b> के परे। (गलत)</li><li><b>2. upon:</b> के ऊपर। (गलत)</li><li><b>3. within:</b> के भीतर। (गलत)</li><li><b>4. against:</b> यह बिल्कुल सही Preposition है जो 'odds' के साथ जुड़कर सही अर्थ देता है। (एथलीट ने चैम्पियनशिप जीतने के लिए सभी बाधाओं के खिलाफ बहादुरी से लड़ाई लड़ी।)</li></ul><p>अतः सही उत्तर <b>Option 4</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Easy",
+        "q_en": "Select the option that can be used as a one word substitute for the underlined words.<br><br>Even in tough situations, he remains a <u>person who looks at the bright side of things</u>.",
+        "q_hi": "Select the option that can be used as a one word substitute for the underlined words.<br><br>Even in tough situations, he remains a <u>person who looks at the bright side of things</u>.",
+        "op_en": [
+            "Optimist",
+            "Realist",
+            "Pessimist",
+            "Reformer"
+        ],
+        "op_hi": [
+            "Optimist",
+            "Realist",
+            "Pessimist",
+            "Reformer"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें 'person who looks at the bright side of things' (वह व्यक्ति जो हमेशा चीजों के सकारात्मक या अच्छे पहलू को देखता है) के लिए सही शब्द चुनना है।</p><ul><li><b>1. Optimist:</b> आशावादी। यह बिल्कुल सही उत्तर है।</li><li><b>2. Realist:</b> यथार्थवादी (जो चीजों को वैसे ही देखता है जैसी वे वास्तव में हैं)। यह गलत है।</li><li><b>3. Pessimist:</b> निराशावादी (जो हमेशा नकारात्मक पहलू देखता है)। यह Optimist का विपरीत (Antonym) है।</li><li><b>4. Reformer:</b> सुधारक (जो समाज या नियमों में सुधार लाना चाहता है)। यह भी गलत है।</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Moderate",
+        "q_en": "Rearrange the segments to form a coherent statement. The first segment (1) is fixed.<br><strong><br>(1) The abandoned mansion loomed before us,</strong><br>(P) with broken windows like empty eyes<br>(Q) and ivy creeping up crumbling walls<br>(R) more haunting at midnight,<br>(S) dark as a forgotten nightmare",
+        "q_hi": "Rearrange the segments to form a coherent statement. The first segment (1) is fixed.<br><strong><br>(1) The abandoned mansion loomed before us,</strong><br>(P) with broken windows like empty eyes<br>(Q) and ivy creeping up crumbling walls<br>(R) more haunting at midnight,<br>(S) dark as a forgotten nightmare",
+        "op_en": [
+            "QPSR",
+            "RSPQ",
+            "SPRQ",
+            "PQRS"
+        ],
+        "op_hi": [
+            "QPSR",
+            "RSPQ",
+            "SPRQ",
+            "PQRS"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें एक डरावनी हवेली (abandoned mansion) के वर्णन को सही क्रम में लगाना है।</p><p>वाक्य की शुरुआत होती है: (1) The abandoned mansion loomed before us, (वीरान हवेली हमारे सामने खड़ी थी)।</p><p>इसके बाद इसकी भयानक स्थिति का वर्णन आएगा: (R) more haunting at midnight, (जो आधी रात को और भी डरावनी लग रही थी)।</p><p>फिर हवेली कैसी दिख रही थी? (S) dark as a forgotten nightmare, (एक भूला दिए गए बुरे सपने की तरह अँधेरी)।</p><p>इसके बाद हवेली के हिस्सों का वर्णन: (P) with broken windows like empty eyes (जिसकी टूटी खिड़कियाँ खाली आँखों जैसी थीं)।</p><p>और अंत में: (Q) and ivy creeping up crumbling walls (और टूटी दीवारों पर बेलें चढ़ रही थीं)।</p><ul><li><b>Option 2 (RSPQ):</b> यह क्रम हवेली के बाहरी डरावनेपन से लेकर उसकी छोटी-छोटी डिटेल्स (खिड़कियाँ और दीवारें) तक एकदम सही और काव्यात्मक फ्लो (poetic flow) बनाता है।</li><li><b>अन्य Options:</b> ग्रामर और अर्थ के फ्लो के हिसाब से गलत हैं।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Fill in the Blanks",
+        "level": "Easy",
+        "q_en": "Complete the sentence with the most suitable adverb.<br><br>The teacher spoke ______ to ensure that every student could understand the complex concept.",
+        "q_hi": "Complete the sentence with the most suitable adverb.<br><br>The teacher spoke ______ to ensure that every student could understand the complex concept.",
+        "op_en": [
+            "quickly",
+            "clearly",
+            "roughly",
+            "loudly"
+        ],
+        "op_hi": [
+            "quickly",
+            "clearly",
+            "roughly",
+            "loudly"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। वाक्य का अर्थ है: \"शिक्षक ने ______ बात की ताकि हर छात्र उस कठिन कॉन्सेप्ट को समझ सके।\"</p><ul><li><b>1. quickly:</b> तेज़ी से। अगर शिक्षक तेज़ी से बोलेगा तो बच्चे समझ नहीं पाएंगे। (गलत)</li><li><b>2. clearly:</b> स्पष्ट रूप से। यह बिल्कुल सही है। कॉन्सेप्ट समझाने के लिए स्पष्ट रूप से बोलना ज़रूरी है।</li><li><b>3. roughly:</b> रूखेपन से या मोटे तौर पर। (गलत)</li><li><b>4. loudly:</b> ज़ोर से। ज़ोर से बोलने से कॉन्सेप्ट समझ में आए, यह ज़रूरी नहीं है; स्पष्टता (clarity) ज़्यादा ज़रूरी है।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Easy",
+        "q_en": "Select the option that can be used as a one word substitute for the underlined words.<br><br>The company hired a/an <u>person whose job is to carry out an official examination of the accounts of a business</u> to produce a detailed report.",
+        "q_hi": "Select the option that can be used as a one word substitute for the underlined words.<br><br>The company hired a/an <u>person whose job is to carry out an official examination of the accounts of a business</u> to produce a detailed report.",
+        "op_en": [
+            "Curator",
+            "Surveyor",
+            "Auditor",
+            "Editor"
+        ],
+        "op_hi": [
+            "Curator",
+            "Surveyor",
+            "Auditor",
+            "Editor"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें उस व्यक्ति के लिए एक शब्द बताना है जिसका काम किसी व्यवसाय के खातों (Accounts) की आधिकारिक जाँच (official examination) करना होता है।</p><ul><li><b>1. Curator:</b> संग्रहालय (Museum) या प्रदर्शनी की देखभाल करने वाला। (गलत)</li><li><b>2. Surveyor:</b> ज़मीन या इमारतों का सर्वेक्षण (Survey) करने वाला। (गलत)</li><li><b>3. Auditor:</b> लेखा परीक्षक (जो खातों की जाँच करता है)। यह बिल्कुल सही उत्तर है।</li><li><b>4. Editor:</b> संपादक (जो अखबार या किताब की सामग्री को सुधारता है)। (गलत)</li></ul><p>अतः सही उत्तर <b>Option 3</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Easy",
+        "q_en": "Choose the one-word substitution that best fits the description.<br><br>One who can use both hands with equal skill.",
+        "q_hi": "Choose the one-word substitution that best fits the description.<br><br>One who can use both hands with equal skill.",
+        "op_en": [
+            "Skillful",
+            "Agile",
+            "Dexterous",
+            "Ambidextrous"
+        ],
+        "op_hi": [
+            "Skillful",
+            "Agile",
+            "Dexterous",
+            "Ambidextrous"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें उस व्यक्ति के लिए एक शब्द चुनना है जो अपने दोनों हाथों का समान कुशलता (equal skill) से उपयोग कर सके।</p><ul><li><b>1. Skillful:</b> कुशल (किसी भी काम में)। यह सामान्य शब्द है।</li><li><b>2. Agile:</b> फुर्तीला (जो आसानी से और तेज़ी से मुड़ या चल सके)।</li><li><b>3. Dexterous:</b> निपुण (खासकर हाथों के इस्तेमाल में माहिर)। लेकिन इसमें दोनों हाथों की बात स्पष्ट नहीं है।</li><li><b>4. Ambidextrous:</b> सव्यसाची या दोनों हाथों से काम करने में कुशल। 'Ambi' का मतलब 'both' (दोनों) और 'dextrous' का मतलब 'skillful' होता है। यह बिल्कुल सही उत्तर है।</li></ul><p>अतः सही उत्तर <b>Option 4</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Fill in the Blanks",
+        "level": "Moderate",
+        "q_en": "Complete the sentence with the most suitable pair of adverbs.<br><br>The manager handled the crisis ______, ensuring that the team responded ______ under pressure.",
+        "q_hi": "Complete the sentence with the most suitable pair of adverbs.<br><br>The manager handled the crisis ______, ensuring that the team responded ______ under pressure.",
+        "op_en": [
+            "calmly, efficiently",
+            "nervously, carelessly",
+            "angrily, hastily",
+            "slowly, passively"
+        ],
+        "op_hi": [
+            "calmly, efficiently",
+            "nervously, carelessly",
+            "angrily, hastily",
+            "slowly, passively"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। वाक्य बता रहा है कि मैनेजर ने संकट (crisis) को कैसे संभाला ताकि दबाव (pressure) में टीम सही तरीके से काम कर सके। एक अच्छे मैनेजर के गुण सकारात्मक (positive) होते हैं।</p><ul><li><b>1. calmly, efficiently:</b> मैनेजर ने संकट को 'शांति से' (calmly) संभाला और सुनिश्चित किया कि टीम 'कुशलता से' (efficiently) काम करे। यह बिल्कुल सही और तार्किक है।</li><li><b>2. nervously, carelessly:</b> घबराहट और लापरवाही से। (नकारात्मक - गलत)</li><li><b>3. angrily, hastily:</b> गुस्से से और जल्दबाजी में। (नकारात्मक - गलत)</li><li><b>4. slowly, passively:</b> धीरे और निष्क्रिय रूप से। (गलत)</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Moderate",
+        "q_en": "<div style=\"text-align: justify;\">In the given question, a statement divided into different segments is given. Rearrange all the segments to form a coherent statement.<br><br>(O) the princess / (P) to a wicked witch / (Q) was secretly promised / (R) by her jealous stepmother / (S) in exchange for a spell of eternal youth</div>",
+        "q_hi": "<div style=\"text-align: justify;\">In the given question, a statement divided into different segments is given. Rearrange all the segments to form a coherent statement.<br><br>(O) the princess / (P) to a wicked witch / (Q) was secretly promised / (R) by her jealous stepmother / (S) in exchange for a spell of eternal youth</div>",
+        "op_en": [
+            "OQSRP",
+            "OQRPS",
+            "OQRSP",
+            "OQPRS"
+        ],
+        "op_hi": [
+            "OQSRP",
+            "OQRPS",
+            "OQRSP",
+            "OQPRS"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें एक कहानी के हिस्से को सही क्रम में लगाना है।</p><p>वाक्य का Subject 'the princess' (O) है। इसके बाद Verb आनी चाहिए, जो (Q) 'was secretly promised' है (राजकुमारी का गुप्त रूप से वादा किया गया था)।</p><p>किसको वादा किया गया था? (P) 'to a wicked witch' (एक दुष्ट चुड़ैल को)।</p><p>किसके द्वारा? (R) 'by her jealous stepmother' (उसकी ईर्ष्यालु सौतेली माँ द्वारा)।</p><p>किसके बदले में? (S) 'in exchange for a spell of eternal youth' (हमेशा जवान रहने के जादू के बदले में)।</p><p>तो सही क्रम होगा: <b>O - Q - P - R - S</b></p><ul><li><b>Option 4 (OQPRS):</b> यह बिल्कुल सही है।</li><li><b>अन्य Options:</b> ग्रामर (Passive voice structure) और अर्थ के अनुसार गलत हैं।</li></ul><p>अतः सही उत्तर <b>Option 4</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Moderate",
+        "q_en": "In the given question, a statement divided into different segments is given. The first segment is fixed. Rearrange the other segments to form a coherent statement. <br><br>Space exploration / (P) inspiring technological innovation / (Q) and uniting nations in scientific pursuit / (R) expanded human knowledge / (S) by enabling interplanetary research",
+        "q_hi": "In the given question, a statement divided into different segments is given. The first segment is fixed. Rearrange the other segments to form a coherent statement. <br><br>Space exploration / (P) inspiring technological innovation / (Q) and uniting nations in scientific pursuit / (R) expanded human knowledge / (S) by enabling interplanetary research",
+        "op_en": [
+            "PSQR",
+            "PRQS",
+            "QRPS",
+            "RSPQ"
+        ],
+        "op_hi": [
+            "PSQR",
+            "PRQS",
+            "QRPS",
+            "RSPQ"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। वाक्य 'Space exploration' (अंतरिक्ष अन्वेषण) से शुरू होता है। इसके तुरंत बाद एक Main Verb आनी चाहिए।</p><p>यहाँ (R) 'expanded human knowledge' (मानव ज्ञान का विस्तार किया) मुख्य क्रिया और कर्म है।</p><p>कैसे विस्तार किया? (S) 'by enabling interplanetary research' (अंतरग्रहीय अनुसंधान को सक्षम करके)।</p><p>इसके और क्या फायदे हुए? (P) 'inspiring technological innovation' (तकनीकी नवाचार को प्रेरित करते हुए) और (Q) 'and uniting nations in scientific pursuit' (और वैज्ञानिक खोज में राष्ट्रों को एकजुट करते हुए)।</p><p>अतः सही क्रम <b>R - S - P - Q</b> बनता है।</p><ul><li><b>Option 4 (RSPQ):</b> यह वाक्य को ग्रामेटिकल रूप से सही और अर्थपूर्ण बनाता है।</li><li><b>अन्य Options:</b> इनमें Verb (क्रिया) सही स्थान पर नहीं है, जिससे वाक्य अधूरा लगता है।</li></ul><p>अतः सही उत्तर <b>Option 4</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Fill in the Blanks",
+        "level": "Easy",
+        "q_en": "Choose the correct option to complete the sentence.<br>You must start revising now ______ you may run out of time before the exams.",
+        "q_hi": "Choose the correct option to complete the sentence.<br>You must start revising now ______ you may run out of time before the exams.",
+        "op_en": [
+            "while",
+            "or",
+            "unless",
+            "but"
+        ],
+        "op_hi": [
+            "while",
+            "or",
+            "unless",
+            "but"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह वाक्य एक चेतावनी या शर्त (Condition) बता रहा है। \"तुम्हें अभी से रिवीज़न शुरू कर देना चाहिए ______ परीक्षा से पहले तुम्हारे पास समय कम पड़ सकता है।\"</p><ul><li><b>1. while:</b> जबकि / के दौरान। (अर्थ सही नहीं बैठता)</li><li><b>2. or:</b> वरना / या। यह यहाँ Conjunction (संयोजक) के रूप में काम कर रहा है जो 'otherwise' का अर्थ देता है। यह बिल्कुल सही है।</li><li><b>3. unless:</b> जब तक कि। यह नकारात्मक शर्त है, यहाँ फिट नहीं होता।</li><li><b>4. but:</b> लेकिन। यह विरोध (contrast) दिखाता है।</li></ul><p>अतः सही उत्तर <b>Option 2</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Fill in the Blanks",
+        "level": "Easy",
+        "q_en": "Choose the most appropriate option to complete the sentence.<br>They _____ to the instructions carefully before starting the task.",
+        "q_hi": "Choose the most appropriate option to complete the sentence.<br>They _____ to the instructions carefully before starting the task.",
+        "op_en": [
+            "listen",
+            "listening",
+            "listened",
+            "listener"
+        ],
+        "op_hi": [
+            "listen",
+            "listening",
+            "listened",
+            "listener"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। वाक्य में काम शुरू करने से पहले (before starting the task) निर्देशों को सुनने की बात हो रही है, यानी यह घटना भूतकाल (Past) की है।</p><ul><li><b>1. listen:</b> यह Present Tense है। अगर यह एक आदत होती तो आ सकता था, लेकिन यहाँ एक विशेष घटना की बात है।</li><li><b>2. listening:</b> यह बिना helping verb (is/are/were) के नहीं आ सकता।</li><li><b>3. listened:</b> यह Simple Past Tense (V2) है जो यहाँ बिल्कुल सही है (उन्होंने निर्देशों को ध्यान से सुना)।</li><li><b>4. listener:</b> यह एक Noun (सुनने वाला) है, जबकि हमें Verb चाहिए।</li></ul><p>अतः सही उत्तर <b>Option 3</b> है।</p>"
+    },
+    {
+        "section": "English Language and Comprehension",
+        "topic": "Fill in the Blanks",
+        "level": "Easy",
+        "q_en": "Choose the most appropriate option to complete the sentence.<br>The machine _____ smoothly after the repairs.",
+        "q_hi": "Choose the most appropriate option to complete the sentence.<br>The machine _____ smoothly after the repairs.",
+        "op_en": [
+            "operated",
+            "operate",
+            "operation",
+            "operating"
+        ],
+        "op_hi": [
+            "operated",
+            "operate",
+            "operation",
+            "operating"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। वाक्य बता रहा है कि मरम्मत (repairs) के बाद मशीन सही से चली। 'after the repairs' यह संकेत देता है कि काम पूरा हो चुका है (Past tense)।</p><ul><li><b>1. operated:</b> यह Verb की Past form (V2) है, जिसका अर्थ है 'चली' या 'काम किया'। यह बिल्कुल सही है।</li><li><b>2. operate:</b> यह Present Tense की Plural form है, जबकि 'The machine' Singular है (इसके साथ operates आता)।</li><li><b>3. operation:</b> यह Noun (संज्ञा) है, जबकि हमें वाक्य पूरा करने के लिए Verb (क्रिया) चाहिए।</li><li><b>4. operating:</b> यह बिना helping verb (is/was) के नहीं आ सकता।</li></ul><p>अतः सही उत्तर <b>Option 1</b> है।</p>"
+    }
+]
