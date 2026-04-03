@@ -1,0 +1,422 @@
+[
+    {
+        "section": "General Awareness",
+        "topic": "Indian Polity",
+        "level": "Easy",
+        "q_en": "Part V of the Indian Constitution deals with which of the following?",
+        "q_hi": "भारतीय संविधान का भाग V निम्नलिखित में से किससे संबंधित है?",
+        "op_en": [
+            "The Union Government",
+            "The States",
+            "Local Government",
+            "Union Territories"
+        ],
+        "op_hi": [
+            "संघ सरकार",
+            "राज्य",
+            "स्थानीय सरकार",
+            "केंद्र शासित प्रदेश"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। भारतीय संविधान का <b>Part V (भाग 5)</b> सबसे बड़ा भाग है और यह <b>The Union Government (संघ सरकार)</b> से संबंधित है।</p><ul><li><b>Option 1:</b> यह सही है। इसमें Articles 52 से 151 तक शामिल हैं, जो President, Parliament और Supreme Court के बारे में बताते हैं।</li><li><b>Option 2:</b> 'The States' का वर्णन <b>Part VI</b> में किया गया है।</li><li><b>Option 3:</b> Local Government (Panchayats और Municipalities) <b>Part IX</b> और <b>IX-A</b> में आते हैं।</li><li><b>Option 4:</b> Union Territories का उल्लेख <b>Part VIII</b> में मिलता है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Geography",
+        "level": "Moderate",
+        "q_en": "Which type of rainfall results from the intense heating of land that causes warm, moist air to rise, cool, and condense?",
+        "q_hi": "किस प्रकार की वर्षा भूमि के तीव्र गर्म होने के कारण होती है, जिससे गर्म, नम हवा ऊपर उठती है, ठंडी होती है और संघनित (condense) होती है?",
+        "op_en": [
+            "Convectional rainfall",
+            "Acid rainfall",
+            "Orographic rainfall",
+            "Cyclonic rainfall"
+        ],
+        "op_hi": [
+            "संवहनीय वर्षा (Convectional rainfall)",
+            "अम्लीय वर्षा (Acid rainfall)",
+            "पर्वतीय वर्षा (Orographic rainfall)",
+            "चक्रवाती वर्षा (Cyclonic rainfall)"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, बारिश होने के पीछे अलग-अलग प्रक्रियाएं होती हैं। यहाँ सही जवाब <b>Convectional rainfall</b> है।</p><ul><li><b>Option 1:</b> जब ज़मीन बहुत गर्म होती है, तो हवा ऊपर उठती है (Convection current) और ठंडी होकर बारिश करती है। इसे '4 o'clock rain' भी कहते हैं क्योंकि यह अक्सर दोपहर बाद होती है।</li><li><b>Option 2:</b> Acid rain प्रदूषण के कारण होती है, न कि गर्मी के कारण।</li><li><b>Option 3:</b> Orographic rain तब होती है जब हवा पहाड़ों से टकराकर ऊपर उठती है।</li><li><b>Option 4:</b> Cyclonic rain चक्रवात या low pressure के कारण होती है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Indian Polity",
+        "level": "Moderate",
+        "q_en": "Which of the following provisions is included under <u>Article 48A</u> of the Constitution of India?",
+        "q_hi": "भारत के संविधान के <u>अनुच्छेद 48A</u> के तहत निम्नलिखित में से कौन सा प्रावधान शामिल है?",
+        "op_en": [
+            "Equal justice and free legal aid",
+            "Organisation of village panchayats",
+            "Protection and improvement of environment",
+            "Promotion of international peace and security"
+        ],
+        "op_hi": [
+            "समान न्याय और मुफ्त कानूनी सहायता",
+            "ग्राम पंचायतों का संगठन",
+            "पर्यावरण का संरक्षण और सुधार",
+            "अंतर्राष्ट्रीय शांति और सुरक्षा को बढ़ावा देना"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, <b>Article 48A</b> हमारे 'Directive Principles of State Policy' (DPSP) का हिस्सा है। इसे 42वें संशोधन (1976) द्वारा जोड़ा गया था।</p><ul><li><b>Option 3:</b> यह सही जवाब है। यह सरकार को निर्देश देता है कि वह पर्यावरण की रक्षा करे और वन्यजीवों का संरक्षण करे।</li><li><b>Option 1:</b> यह <b>Article 39A</b> के तहत आता है।</li><li><b>Option 2:</b> ग्राम पंचायतों का गठन <b>Article 40</b> में दिया गया है।</li><li><b>Option 4:</b> अंतर्राष्ट्रीय शांति की बात <b>Article 51</b> में की गई है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Judiciary",
+        "level": "Moderate",
+        "q_en": "Under the Legal Services Authorities Act, 1987, an award passed by a Lok Adalat is deemed to be which of the following?",
+        "q_hi": "विधिक सेवा प्राधिकरण अधिनियम, 1987 के तहत, लोक अदालत द्वारा पारित निर्णय (award) को निम्नलिखित में से क्या माना जाता है?",
+        "op_en": [
+            "A recommendation with persuasive value only",
+            "An interim order appealable before a High Court",
+            "An advisory opinion subject to approval by a regular court",
+            "A decree of a civil court and final and binding on the parties"
+        ],
+        "op_hi": [
+            "केवल प्रेरक मूल्य वाली एक सिफारिश",
+            "एक अंतरिम आदेश जिसके खिलाफ हाई कोर्ट में अपील की जा सकती है",
+            "एक नियमित अदालत द्वारा अनुमोदन के अधीन एक सलाहकार राय",
+            "एक सिविल कोर्ट की डिक्री और पक्षों पर अंतिम और बाध्यकारी"
+        ],
+        "ans": "4",
+        "solution": "<p>लोक अदालतें विवादों को आपसी समझौते से सुलझाने का एक शानदार माध्यम हैं।</p><ul><li><b>Option 4:</b> लोक अदालत का फैसला एक <b>Civil Court की Decree</b> के बराबर होता है और यह <b>Final and Binding</b> होता है। इसके खिलाफ कहीं भी अपील नहीं की जा सकती।</li><li><b>Option 1, 2, और 3:</b> ये गलत हैं क्योंकि लोक अदालत का फैसला सिर्फ सलाह या सिफारिश नहीं होता, बल्कि कानूनी रूप से मान्य होता है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Economics",
+        "level": "Difficult",
+        "q_en": "Which type of transactions are determined to fill a gap in the balance of payments?",
+        "q_hi": "भुगतान संतुलन (Balance of Payments) में अंतर को भरने के लिए किस प्रकार के लेनदेन निर्धारित किए जाते हैं?",
+        "op_en": [
+            "Errors and omissions",
+            "Current account and capital account transactions",
+            "Accommodating transactions",
+            "Autonomous transactions"
+        ],
+        "op_hi": [
+            "भूल-चूक (Errors and omissions)",
+            "चालू खाता और पूंजी खाता लेनदेन",
+            "समायोजनकारी लेनदेन (Accommodating transactions)",
+            "स्वायत्त लेनदेन (Autonomous transactions)"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, Economics में BoP के दो मुख्य प्रकार के लेनदेन होते हैं: Autonomous और Accommodating।</p><ul><li><b>Option 3:</b> <b>Accommodating transactions</b> वे होते हैं जो BoP के घाटे (deficit) या अधिशेष (surplus) को ठीक करने के लिए किए जाते हैं (जैसे IMF से उधार लेना)।</li><li><b>Option 4:</b> Autonomous transactions वे होते हैं जो लाभ कमाने के उद्देश्य से किए जाते हैं, इनका BoP की स्थिति से लेना-देना नहीं होता।</li><li><b>Option 1:</b> यह केवल गणना की गलतियों को दर्शाता है।</li><li><b>Option 2:</b> ये BoP के मुख्य खाते हैं, लेनदेन का प्रकार नहीं।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Indian History",
+        "level": "Easy",
+        "q_en": "Who were the principal leaders of the Santhal Rebellion of 1855–56?",
+        "q_hi": "1855-56 के संथाल विद्रोह के प्रमुख नेता कौन थे?",
+        "op_en": [
+            "Birsa Munda and Gaya Munda",
+            "Siddhu and Kanhu",
+            "Alluri Sitarama Raju and Gam Mallu Dora",
+            "Titu Mir and Nisar Ali"
+        ],
+        "op_hi": [
+            "बिरसा मुंडा और गया मुंडा",
+            "सिद्धू और कान्हू",
+            "अल्लूरी सीताराम राजू और गम मल्लू डोरा",
+            "टीटू मीर और निसार अली"
+        ],
+        "ans": "2",
+        "solution": "<p>संथाल विद्रोह (Santhal Hul) अंग्रेजों और ज़मींदारों के खिलाफ एक बड़ा आदिवासी विद्रोह था।</p><ul><li><b>Option 2:</b> इसके मुख्य नेता <b>Siddhu Murmu</b> और <b>Kanhu Murmu</b> थे। यह विद्रोह वर्तमान झारखंड और पश्चिम बंगाल के क्षेत्र में हुआ था।</li><li><b>Option 1:</b> बिरसा मुंडा ने 'Munda Rebellion' (1899) का नेतृत्व किया था।</li><li><b>Option 3:</b> अल्लूरी सीताराम राजू 'Rampa Rebellion' (1922) से जुड़े थे।</li><li><b>Option 4:</b> टीटू मीर 'Wahabi/Faraizi' आंदोलन से संबंधित थे।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Indian History",
+        "level": "Easy",
+        "q_en": "What was a major administrative outcome of the First War of Independence (1857)?",
+        "q_hi": "प्रथम स्वतंत्रता संग्राम (1857) का एक प्रमुख प्रशासनिक परिणाम क्या था?",
+        "op_en": [
+            "The granting of complete provincial autonomy to Indian rulers",
+            "The establishment of a fully elected legislative assembly for India",
+            "The immediate introduction of universal adult franchise across the country",
+            "The end of East India Company rule and the transfer of power to the British Crown"
+        ],
+        "op_hi": [
+            "भारतीय शासकों को पूर्ण प्रांतीय स्वायत्तता प्रदान करना",
+            "भारत के लिए पूरी तरह से निर्वाचित विधान सभा की स्थापना",
+            "देश भर में तत्काल सार्वभौमिक वयस्क मताधिकार की शुरुआत",
+            "ईस्ट इंडिया कंपनी के शासन का अंत और ब्रिटिश क्राउन को सत्ता का हस्तांतरण"
+        ],
+        "ans": "4",
+        "solution": "<p>1857 की क्रांति के बाद अंग्रेजों ने महसूस किया कि कंपनी का शासन अब सुरक्षित नहीं है।</p><ul><li><b>Option 4:</b> <b>Government of India Act, 1858</b> के ज़रिए ईस्ट इंडिया कंपनी का शासन खत्म कर दिया गया और भारत का शासन सीधे 'British Crown' (महारानी विक्टोरिया) के हाथ में चला गया।</li><li><b>Option 1, 2, 3:</b> ये सब बहुत बाद में हुआ (जैसे स्वायत्तता 1935 के एक्ट से मिली)। 1858 में ऐसा कोई लोकतंत्र या मताधिकार नहीं दिया गया था।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Modern History",
+        "level": "Moderate",
+        "q_en": "In which princely state of India was a plebiscite conducted to decide whether it would join India or Pakistan?",
+        "q_hi": "भारत की किस रियासत में यह तय करने के लिए जनमत संग्रह (plebiscite) कराया गया था कि वह भारत में शामिल होगी या पाकिस्तान में?",
+        "op_en": [
+            "Junagadh",
+            "Bhopal",
+            "Manipur",
+            "Mysore"
+        ],
+        "op_hi": [
+            "जूनागढ़",
+            "भोपाल",
+            "मणिपुर",
+            "मैसूर"
+        ],
+        "ans": "1",
+        "solution": "<p>आज़ादी के समय कुछ रियासतों के विलय में समस्या आई थी।</p><ul><li><b>Option 1:</b> <b>Junagadh</b> के नवाब पाकिस्तान जाना चाहते थे, लेकिन जनता भारत के पक्ष में थी। फरवरी 1948 में वहाँ <b>Plebiscite</b> (जनमत संग्रह) हुआ, जिसमें 99% से ज़्यादा लोगों ने भारत को चुना।</li><li><b>Option 2, 3, 4:</b> भोपाल, मणिपुर और मैसूर का विलय 'Instrument of Accession' के माध्यम से हुआ था, जनमत संग्रह के ज़रिए नहीं।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Economics",
+        "level": "Moderate",
+        "q_en": "The equilibrium exchange rate is determined by which of the following conditions?",
+        "q_hi": "संतुलित विनिमय दर (Equilibrium exchange rate) निम्नलिखित में से किस स्थिति द्वारा निर्धारित की जाती है?",
+        "op_en": [
+            "Demand of foreign exchange < Supply of foreign exchange",
+            "Demand of foreign exchange > Supply of foreign exchange",
+            "Never determined using demand of foreign exchange and supply of foreign exchange",
+            "Demand of foreign exchange = Supply of foreign exchange"
+        ],
+        "op_hi": [
+            "विदेशी मुद्रा की मांग < विदेशी मुद्रा की आपूर्ति",
+            "विदेशी मुद्रा की मांग > विदेशी मुद्रा की आपूर्ति",
+            "विदेशी मुद्रा की मांग और विदेशी मुद्रा की आपूर्ति का उपयोग करके कभी निर्धारित नहीं किया जाता",
+            "विदेशी मुद्रा की मांग = विदेशी मुद्रा की आपूर्ति"
+        ],
+        "ans": "4",
+        "solution": "<p>जैसे बाज़ार में किसी वस्तु की कीमत तय होती है, वैसे ही विदेशी मुद्रा (जैसे Dollar) की कीमत भी तय होती है।</p><ul><li><b>Option 4:</b> जब <b>Demand of foreign exchange</b> और <b>Supply of foreign exchange</b> बराबर हो जाते हैं, तो उस बिंदु को <b>Equilibrium exchange rate</b> कहते हैं।</li><li><b>Option 1 और 2:</b> ये स्थितियां मुद्रा की वैल्यू को घटाती या बढ़ाती हैं, संतुलन पैदा नहीं करतीं।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Geography",
+        "level": "Easy",
+        "q_en": "On the political map of India, which state occupies the westernmost geographical position?",
+        "q_hi": "भारत के राजनीतिक मानचित्र पर, कौन सा राज्य सबसे पश्चिमी भौगोलिक स्थिति में है?",
+        "op_en": [
+            "Punjab",
+            "Gujarat",
+            "Rajasthan",
+            "Maharashtra"
+        ],
+        "op_hi": [
+            "पंजाब",
+            "गुजरात",
+            "राजस्थान",
+            "महाराष्ट्र"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, भारत का सबसे पश्चिमी बिंदु 'Ghuar Moti' (कच्छ) है।</p><ul><li><b>Option 2:</b> <b>Gujarat</b> भारत का पश्चिमीतम (Westernmost) राज्य है।</li><li><b>Option 3:</b> राजस्थान गुजरात के उत्तर में है, लेकिन गुजरात के कच्छ वाला हिस्सा इससे ज़्यादा पश्चिम तक फैला है।</li><li><b>Option 1 और 4:</b> पंजाब उत्तर में है और महाराष्ट्र दक्षिण-पश्चिम में है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Indian Polity",
+        "level": "Easy",
+        "q_en": "Which Part of the Constitution of India deals with the Executive Power of the Union?",
+        "q_hi": "भारत के संविधान का कौन सा भाग संघ की कार्यकारी शक्ति (Executive Power) से संबंधित है?",
+        "op_en": [
+            "Part VI",
+            "Part XI",
+            "Part V",
+            "Part IV"
+        ],
+        "op_hi": [
+            "भाग VI",
+            "भाग XI",
+            "भाग V",
+            "भाग IV"
+        ],
+        "ans": "3",
+        "solution": "<p>जैसा कि हमने पहले चर्चा की, संघ (Union) के सारे मुख्य प्रावधान <b>Part V</b> में हैं।</p><ul><li><b>Option 3:</b> Part V (Articles 52-78) मुख्य रूप से <b>Union Executive</b> (President, VP, PM, Council of Ministers) की शक्तियों के बारे में बताता है।</li><li><b>Option 1:</b> Part VI राज्य सरकार (State Executive) के बारे में है।</li><li><b>Option 4:</b> Part IV में DPSP शामिल हैं।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Economics",
+        "level": "Moderate",
+        "q_en": "In the labour market, which group is responsible for the demand for labour?",
+        "q_hi": "श्रम बाजार (labour market) में, श्रम की मांग (demand) के लिए कौन सा समूह जिम्मेदार है?",
+        "op_en": [
+            "Firms and employers",
+            "Trade unions",
+            "Government welfare agencies",
+            "Households supplying labour"
+        ],
+        "op_hi": [
+            "फर्में और नियोक्ता",
+            "ट्रेड यूनियन",
+            "सरकारी कल्याण एजेंसियां",
+            "श्रम की आपूर्ति करने वाले परिवार"
+        ],
+        "ans": "1",
+        "solution": "<p>Labour market सामान्य वस्तुओं के बाज़ार से थोड़ा अलग होता है।</p><ul><li><b>Option 1:</b> यहाँ <b>Firms (कंपनियां)</b> और नियोक्ता काम करवाने के लिए लेबर की मांग करते हैं।</li><li><b>Option 4:</b> Households (परिवार) लेबर की <b>Supply</b> करते हैं, डिमांड नहीं।</li><li><b>Option 2:</b> ट्रेड यूनियनें मज़दूरों के अधिकारों की रक्षा करती हैं।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Demographics",
+        "level": "Easy",
+        "q_en": "According to the definitions used by the International Labour Organization (ILO) and adopted in Indian labour and demographic statistics, which age group is generally classified as the working-age population in India?",
+        "q_hi": "ILO की परिभाषाओं और भारतीय जनसांख्यिकीय आंकड़ों के अनुसार, भारत में कार्यशील आयु (working-age) वाली जनसंख्या किस आयु वर्ग को माना जाता है?",
+        "op_en": [
+            "Below 15 years",
+            "15–59 years",
+            "Above 80 years",
+            "60–80 years"
+        ],
+        "op_hi": [
+            "15 वर्ष से कम",
+            "15-59 वर्ष",
+            "80 वर्ष से अधिक",
+            "60-80 वर्ष"
+        ],
+        "ans": "2",
+        "solution": "<p>देश की अर्थव्यवस्था के लिए कार्यशील जनसंख्या बहुत महत्वपूर्ण है।</p><ul><li><b>Option 2:</b> भारत में <b>15 से 59 साल</b> के लोगों को 'Working-age Population' माना जाता है। 60 साल के बाद आमतौर पर रिटायरमेंट की उम्र शुरू हो जाती है।</li><li><b>Option 1:</b> 15 से कम आयु वाले बच्चे (Child Labour के कानून के कारण) इसमें शामिल नहीं होते।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Indian Polity",
+        "level": "Moderate",
+        "q_en": "Article 55 of the Indian Constitution primarily deals with which of the following?",
+        "q_hi": "भारतीय संविधान का अनुच्छेद 55 मुख्य रूप से निम्नलिखित में से किससे संबंधित है?",
+        "op_en": [
+            "Powers of the President",
+            "Qualifications of the President",
+            "Manner of election of the President",
+            "Election of the Vice-President"
+        ],
+        "op_hi": [
+            "राष्ट्रपति की शक्तियां",
+            "राष्ट्रपति की योग्यताएँ",
+            "राष्ट्रपति के चुनाव की विधि",
+            "उपराष्ट्रपति का चुनाव"
+        ],
+        "ans": "3",
+        "solution": "<p>राष्ट्रपति का चुनाव बहुत विशेष तरीके से होता है।</p><ul><li><b>Option 3:</b> <b>Article 55</b> बताता है कि राष्ट्रपति का चुनाव 'Proportional Representation' और 'Single Transferable Vote' के माध्यम से होगा।</li><li><b>Option 2:</b> योग्यताएँ <b>Article 58</b> में दी गई हैं।</li><li><b>Option 1:</b> शक्तियां अलग-अलग अनुच्छेदों (जैसे 53, 72) में हैं।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Economics",
+        "level": "Moderate",
+        "q_en": "Under the market structure of perfect competition, how are the products produced by different firms characterised?",
+        "q_hi": "पूर्ण प्रतियोगिता (perfect competition) की बाजार संरचना के तहत, विभिन्न फर्मों द्वारा उत्पादित उत्पादों की विशेषता क्या है?",
+        "op_en": [
+            "Differentiated by brand and quality",
+            "Produced by a single firm",
+            "Homogeneous and identical",
+            "Sold at different prices"
+        ],
+        "op_hi": [
+            "ब्रांड और गुणवत्ता द्वारा भिन्न",
+            "एक ही फर्म द्वारा उत्पादित",
+            "समरूप और एक समान (Homogeneous)",
+            "अलग-अलग कीमतों पर बेचा गया"
+        ],
+        "ans": "3",
+        "solution": "<p>Perfect Competition एक आदर्श स्थिति है जहाँ बहुत सारे खरीदार और विक्रेता होते हैं।</p><ul><li><b>Option 3:</b> यहाँ उत्पाद <b>Homogeneous</b> (बिल्कुल एक जैसे) होते हैं। जैसे कि गेहूँ का बाज़ार, जहाँ एक किसान का गेहूँ दूसरे जैसा ही होता है।</li><li><b>Option 1:</b> यह Monopolistic Competition की विशेषता है।</li><li><b>Option 2:</b> यह Monopoly की विशेषता है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Geography",
+        "level": "Moderate",
+        "q_en": "Which of the following is a characteristic feature of the Western Coastal Plains of India?",
+        "q_hi": "निम्नलिखित में से कौन सी भारत के पश्चिमी तटीय मैदानों की एक विशेषता है?",
+        "op_en": [
+            "Gently sloping coastal plain with large river-built deltas",
+            "Broad coastal plain formed by slow-moving perennial rivers",
+            "Narrow coastal plain with short, fast-flowing rivers forming estuaries",
+            "Wide coastal plain marked by extensive delta development"
+        ],
+        "op_hi": [
+            "बड़े नदी-निर्मित डेल्टाओं के साथ धीरे-धीरे ढलान वाला तटीय मैदान",
+            "धीमी गति से बहने वाली बारहमासी नदियों द्वारा निर्मित चौड़ा तटीय मैदान",
+            "ज्वारनदमुख (estuaries) बनाने वाली छोटी, तेज़ बहने वाली नदियों वाला संकरा तटीय मैदान",
+            "व्यापक डेल्टा विकास द्वारा चिह्नित चौड़ा तटीय मैदान"
+        ],
+        "ans": "3",
+        "solution": "<p>भारत के पूर्वी और पश्चिमी तटों में बहुत अंतर है।</p><ul><li><b>Option 3:</b> <b>Western Coastal Plains</b> काफी संकरे (Narrow) हैं और यहाँ की नदियाँ (जैसे नर्मदा, तापी) डेल्टा नहीं बल्कि <b>Estuaries</b> बनाती हैं।</li><li><b>Option 1, 2, और 4:</b> ये विशेषताएँ पूर्वी तटीय मैदानों (Eastern Coastal Plains) की हैं, जहाँ गंगा, महानदी और गोदावरी जैसे बड़े डेल्टा बनते हैं।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Geography",
+        "level": "Moderate",
+        "q_en": "Which two neighbouring countries share both land and maritime boundaries with India?",
+        "q_hi": "कौन से दो पड़ोसी देश भारत के साथ भूमि और समुद्री दोनों सीमाएँ साझा करते हैं?",
+        "op_en": [
+            "China and Sri Lanka",
+            "Pakistan and Afghanistan",
+            "Nepal and Bhutan",
+            "Bangladesh and Myanmar"
+        ],
+        "op_hi": [
+            "चीन और श्रीलंका",
+            "पाकिस्तान और अफगानिस्तान",
+            "नेपाल और भूटान",
+            "बांग्लादेश और म्यांमार"
+        ],
+        "ans": "4",
+        "solution": "<p>भारत के कई पड़ोसी हैं, लेकिन कुछ के साथ हमारी ज़मीनी और समुद्री दोनों सीमाएँ लगती हैं।</p><ul><li><b>Option 4:</b> <b>Bangladesh</b> और <b>Myanmar</b> के साथ हमारी ज़मीनी सीमा भी है और बंगाल की खाड़ी में समुद्री सीमा भी। (नोट: पाकिस्तान भी इस श्रेणी में आता है, पर यहाँ जोड़े में बांग्लादेश और म्यांमार सही हैं)।</li><li><b>Option 1:</b> चीन के साथ सिर्फ ज़मीनी और श्रीलंका के साथ सिर्फ समुद्री सीमा है।</li><li><b>Option 2:</b> अफगानिस्तान के साथ कोई समुद्री सीमा नहीं है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Economics",
+        "level": "Moderate",
+        "q_en": "In economics, what is the term used to describe the increase in total output resulting from the employment of one additional unit of labour, while other factors of production remain constant?",
+        "q_hi": "अर्थशास्त्र में, उत्पादन के अन्य कारकों को स्थिर रखते हुए, श्रम की एक अतिरिक्त इकाई के नियोजन के परिणामस्वरूप कुल उत्पादन में होने वाली वृद्धि को क्या कहते हैं?",
+        "op_en": [
+            "Total product of labour",
+            "Average product of labour",
+            "Labour productivity",
+            "Marginal product of labour"
+        ],
+        "op_hi": [
+            "श्रम का कुल उत्पाद",
+            "श्रम का औसत उत्पाद",
+            "श्रम उत्पादकता",
+            "श्रम का सीमांत उत्पाद (Marginal product of labour)"
+        ],
+        "ans": "4",
+        "solution": "<p>इकोनॉमिक्स में 'Marginal' शब्द का मतलब ही 'एक अतिरिक्त' (One additional) होता है।</p><ul><li><b>Option 4:</b> <b>Marginal product of labour (MPL)</b> वह अतिरिक्त उत्पादन है जो एक और मज़दूर लगाने से मिलता है।</li><li><b>Option 2:</b> Average product का मतलब है कुल उत्पादन को लेबर की संख्या से भाग देना।</li><li><b>Option 1:</b> Total product कुल उत्पादन को कहते हैं।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Indian History",
+        "level": "Easy",
+        "q_en": "Mahatma Gandhi’s first Satyagraha in India was launched in 1917 in Champaran. This Satyagraha was related to which specific issue?",
+        "q_hi": "1917 में चंपारण में महात्मा गांधी का भारत में पहला सत्याग्रह शुरू किया गया था। यह सत्याग्रह किस विशिष्ट मुद्दे से संबंधित था?",
+        "op_en": [
+            "Oppression of indigo cultivators under the tinkathia system",
+            "Violation of salt laws imposed by the colonial government",
+            "Wage disputes between mill workers and employers",
+            "Demand for land-revenue remission for drought-affected peasants"
+        ],
+        "op_hi": [
+            "तिनकठिया प्रणाली के तहत नील की खेती करने वालों का उत्पीड़न",
+            "औपनिवेशिक सरकार द्वारा लगाए गए नमक कानूनों का उल्लंघन",
+            "मिल श्रमिकों और नियोक्ताओं के बीच वेतन विवाद",
+            "सूखा प्रभावित किसानों के लिए भू-राजस्व छूट की मांग"
+        ],
+        "ans": "1",
+        "solution": "<p>गांधीजी ने दक्षिण अफ्रीका से लौटने के बाद अपना पहला प्रयोग बिहार के चंपारण में किया था।</p><ul><li><b>Option 1:</b> यहाँ किसानों को अपनी 3/20 ज़मीन पर नील (Indigo) उगाने के लिए मजबूर किया जाता था, जिसे <b>Tinkathia system</b> कहते थे।</li><li><b>Option 2:</b> यह 1930 के 'Dandi March' से संबंधित है।</li><li><b>Option 3:</b> यह 'Ahmedabad Mill Strike' (1918) से जुड़ा है।</li><li><b>Option 4:</b> यह 'Kheda Satyagraha' (1918) से संबंधित है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Indian History",
+        "level": "Easy",
+        "q_en": "Who was the founder of the Brahmo Samaj in the early nineteenth century?",
+        "q_hi": "उन्नीसवीं शताब्दी की शुरुआत में ब्रह्म समाज के संस्थापक कौन थे?",
+        "op_en": [
+            "Raja Ram Mohan Roy",
+            "Dayanand Saraswati",
+            "Jyotirao Phule",
+            "Swami Vivekananda"
+        ],
+        "op_hi": [
+            "राजा राम मोहन राय",
+            "दयानंद सरस्वती",
+            "ज्योतिराव फुले",
+            "स्वामी विवेकानंद"
+        ],
+        "ans": "1",
+        "solution": "<p>ब्रह्म समाज ने भारतीय समाज सुधार आंदोलन में बहुत बड़ी भूमिका निभाई थी।</p><ul><li><b>Option 1:</b> <b>Raja Ram Mohan Roy</b> ने 1828 में ब्रह्म समाज की स्थापना की थी। उन्हें 'Modern India' का जनक भी कहा जाता है।</li><li><b>Option 2:</b> इन्होंने 'Arya Samaj' (1875) की स्थापना की थी।</li><li><b>Option 3:</b> इन्होंने 'Satyashodhak Samaj' बनाया था।</li><li><b>Option 4:</b> इन्होंने 'Ramakrishna Mission' की शुरुआत की थी।</li></ul>"
+    }
+]
