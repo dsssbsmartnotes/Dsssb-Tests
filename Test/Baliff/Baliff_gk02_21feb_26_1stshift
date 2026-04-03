@@ -1,0 +1,422 @@
+[
+    {
+        "section": "Current Affairs",
+        "topic": "Important Days",
+        "level": "Easy",
+        "q_en": "Which international day was observed on 12 August 2025 in India?",
+        "q_hi": "भारत में 12 अगस्त 2025 को कौन सा अंतर्राष्ट्रीय दिवस मनाया गया था?",
+        "op_en": [
+            "World Bee Day",
+            "World Animal Day",
+            "International Youth Day",
+            "World Habitat Day"
+        ],
+        "op_hi": [
+            "विश्व मधुमक्खी दिवस",
+            "विश्व पशु दिवस",
+            "अंतर्राष्ट्रीय युवा दिवस",
+            "विश्व पर्यावास दिवस"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, महत्वपूर्ण दिनों (Important Days) से अक्सर सवाल पूछे जाते हैं। आइए विकल्पों को देखते हैं:</p><ul><li><b>Option 3:</b> <b>International Youth Day</b> (अंतर्राष्ट्रीय युवा दिवस) हर साल 12 अगस्त को मनाया जाता है। इसका उद्देश्य युवाओं के मुद्दों को वैश्विक स्तर पर उठाना है।</li><li><b>Option 1:</b> World Bee Day 20 मई को मनाया जाता है।</li><li><b>Option 2:</b> World Animal Day 4 अक्टूबर को मनाया जाता है।</li><li><b>Option 4:</b> World Habitat Day अक्टूबर के पहले सोमवार को मनाया जाता है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Art & Culture",
+        "level": "Moderate",
+        "q_en": "In November 2025, the Indian Panorama section at IFFI in Goa selected films for screening based on what criteria?",
+        "q_hi": "नवंबर 2025 में, गोवा में IFFI में इंडियन पैनोरमा सेक्शन ने किस मानदंड के आधार पर स्क्रीनिंग के लिए फिल्मों का चयन किया?",
+        "op_en": [
+            "Foreign co-production",
+            "Aesthetic excellence",
+            "Audience voting",
+            "Box office collection"
+        ],
+        "op_hi": [
+            "विदेशी सह-निर्माण",
+            "सौंदर्यपरक उत्कृष्टता (Aesthetic excellence)",
+            "दर्शकों का मतदान",
+            "बॉक्स ऑफिस कलेक्शन"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, International Film Festival of India (IFFI) का <b>Indian Panorama</b> सेक्शन बहुत प्रतिष्ठित है।</p><ul><li><b>Option 2:</b> फिल्मों का चयन उनकी <b>Aesthetic excellence</b> (कलात्मक और सौंदर्यपरक उत्कृष्टता) और सिनेमाई गुणवत्ता के आधार पर किया जाता है।</li><li><b>Option 1:</b> विदेशी सह-निर्माण मुख्य मापदंड नहीं है।</li><li><b>Option 3 & 4:</b> फिल्मों का चयन व्यावसायिक सफलता (Box office) या वोटिंग पर आधारित नहीं होता, बल्कि एक जूरी (Jury) द्वारा गुणवत्ता देखी जाती है।</li></ul>"
+    },
+    {
+        "section": "Current Affairs",
+        "topic": "Budget & Economy",
+        "level": "Moderate",
+        "q_en": "The figure '25 crore', mentioned by FM Sitharaman in her Budget 2026 speech, refers to which of the following?",
+        "q_hi": "वित्त मंत्री सीतारमण द्वारा अपने बजट 2026 के भाषण में उल्लिखित '25 करोड़' का आंकड़ा निम्नलिखित में से किसे संदर्भित करता है?",
+        "op_en": [
+            "Students enrolled in schools",
+            "People moved into employment",
+            "Out of multidimensional poverty",
+            "New businesses created"
+        ],
+        "op_hi": [
+            "स्कूलों में नामांकित छात्र",
+            "रोजगार में आए लोग",
+            "बहुआयामी गरीबी से बाहर",
+            "बनाए गए नए व्यवसाय"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, सरकार अक्सर अपनी उपलब्धियों के आंकड़े बजट में पेश करती है।</p><ul><li><b>Option 3:</b> वित्त मंत्री ने बताया कि पिछले 10 वर्षों में लगभग <b>25 करोड़ लोग बहुआयामी गरीबी (Multidimensional Poverty)</b> से बाहर निकले हैं। यह डेटा NITI Aayog की रिपोर्ट पर आधारित है।</li><li><b>Option 1, 2 & 4:</b> ये आंकड़े इस विशेष संदर्भ (25 करोड़) में बजट भाषण में मुख्य आकर्षण नहीं थे।</li></ul>"
+    },
+    {
+        "section": "Current Affairs",
+        "topic": "International Summits",
+        "level": "Difficult",
+        "q_en": "Where was the 25th Meeting of the Council of Heads of State of the Shanghai Cooperation Organization (SCO) held from 31 August to 1 September 2025?",
+        "q_hi": "31 अगस्त से 1 सितंबर 2025 तक शंघाई सहयोग संगठन (SCO) के राष्ट्राध्यक्षों की परिषद की 25वीं बैठक कहाँ आयोजित की गई थी?",
+        "op_en": [
+            "Shanghai",
+            "Guangzhou",
+            "Tianjin",
+            "Beijing"
+        ],
+        "op_hi": [
+            "शंघाई",
+            "ग्वांगझू",
+            "तियानजिन",
+            "बीजिंग"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, SCO एक महत्वपूर्ण अंतरराष्ट्रीय संगठन है।</p><ul><li><b>Option 3:</b> 2025 में SCO शिखर सम्मेलन की अध्यक्षता चीन के पास थी और इसकी 25वीं बैठक <b>Tianjin (तियानजिन)</b> में आयोजित की गई थी।</li><li><b>Option 1, 2 & 4:</b> हालांकि ये सभी चीन के शहर हैं, लेकिन समिट के लिए तियानजिन को चुना गया था। याद रखें कि 2024 की समिट कजाकिस्तान (Astana) में हुई थी।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Art & Culture",
+        "level": "Easy",
+        "q_en": "With which of the following states is the folk singer Mame Khan associated?",
+        "q_hi": "लोक गायक मामे खान का संबंध निम्नलिखित में से किस राज्य से है?",
+        "op_en": [
+            "Rajasthan",
+            "Gujarat",
+            "Bihar",
+            "Haryana"
+        ],
+        "op_hi": [
+            "राजस्थान",
+            "गुजरात",
+            "बिहार",
+            "हरियाणा"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, मामे खान एक बहुत ही प्रसिद्ध भारतीय लोक (Folk) गायक हैं।</p><ul><li><b>Option 1:</b> मामे खान <b>Rajasthan</b> के जैसलमेर जिले से हैं और वे <b>Manganiyar</b> समुदाय से ताल्लुक रखते हैं। वे राजस्थानी लोक संगीत को अंतरराष्ट्रीय मंचों पर ले जाने के लिए जाने जाते हैं।</li><li><b>Option 2, 3 & 4:</b> इन राज्यों की अपनी लोक परंपराएं हैं, लेकिन मामे खान का जुड़ाव राजस्थान से ही है।</li></ul>"
+    },
+    {
+        "section": "Current Affairs",
+        "topic": "Important Days",
+        "level": "Easy",
+        "q_en": "Which national observance was observed in India on 31 October 2025?",
+        "q_hi": "भारत में 31 अक्टूबर 2025 को कौन सा राष्ट्रीय दिवस मनाया गया था?",
+        "op_en": [
+            "National Science Day",
+            "National Youth Day",
+            "National Voters' Day",
+            "National Unity Day"
+        ],
+        "op_hi": [
+            "राष्ट्रीय विज्ञान दिवस",
+            "राष्ट्रीय युवा दिवस",
+            "राष्ट्रीय मतदाता दिवस",
+            "राष्ट्रीय एकता दिवस"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, 31 अक्टूबर भारत के 'Loh Purush' सरदार वल्लभभाई पटेल की जयंती है।</p><ul><li><b>Option 4:</b> इस दिन को <b>National Unity Day (राष्ट्रीय एकता दिवस)</b> के रूप में मनाया जाता है।</li><li><b>Option 1:</b> National Science Day 28 फरवरी को मनाया जाता है।</li><li><b>Option 2:</b> National Youth Day 12 जनवरी को स्वामी विवेकानंद की जयंती पर मनाया जाता है।</li><li><b>Option 3:</b> National Voters' Day 25 जनवरी को मनाया जाता है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Sports",
+        "level": "Moderate",
+        "q_en": "MotoGP Bharat, India’s first-ever MotoGP race held in 2023, took place in which city?",
+        "q_hi": "2023 में आयोजित भारत की पहली मोटोजीपी रेस, मोटोजीपी भारत, किस शहर में हुई थी?",
+        "op_en": [
+            "Greater Noida",
+            "Bhubaneswar",
+            "Kolkata",
+            "New Delhi"
+        ],
+        "op_hi": [
+            "ग्रेटर नोएडा",
+            "भुवनेश्वर",
+            "कोलकाता",
+            "नई दिल्ली"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, भारत ने 2023 में पहली बार दुनिया की सबसे बड़ी बाइक रेसिंग प्रतियोगिता की मेजबानी की थी।</p><ul><li><b>Option 1:</b> यह रेस <b>Greater Noida</b> के <b>Buddh International Circuit</b> पर आयोजित की गई थी।</li><li><b>Option 2, 3 & 4:</b> इन शहरों में बड़े स्टेडियम तो हैं, लेकिन अंतरराष्ट्रीय स्तर का F1 रेस ट्रैक केवल ग्रेटर नोएडा में ही उपलब्ध है।</li></ul>"
+    },
+    {
+        "section": "Current Affairs",
+        "topic": "Government Schemes",
+        "level": "Moderate",
+        "q_en": "Which sector was the focus of the PM-MKSSY scheme mentioned in November 2025 government releases?",
+        "q_hi": "नवंबर 2025 की सरकारी विज्ञप्तियों में उल्लिखित PM-MKSSY योजना का फोकस किस क्षेत्र पर था?",
+        "op_en": [
+            "Mining",
+            "Textiles",
+            "Tourism",
+            "Fisheries"
+        ],
+        "op_hi": [
+            "खनन",
+            "कपड़ा",
+            "पर्यटन",
+            "मत्स्य पालन (Fisheries)"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, PM-MKSSY का पूरा नाम <b>Pradhan Mantri Matsya Kisan Samridhi Sahayak Yojana</b> है।</p><ul><li><b>Option 4:</b> जैसा कि नाम (Matsya) से ही स्पष्ट है, यह योजना <b>Fisheries</b> (मत्स्य पालन) और मछुआरों के कल्याण के लिए शुरू की गई है। यह PM Matsya Sampada Yojana का ही एक हिस्सा है।</li><li><b>Option 1, 2 & 3:</b> इन क्षेत्रों के लिए अलग-अलग योजनाएं हैं (जैसे टेक्सटाइल के लिए PM MITRA)।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "General Science",
+        "level": "Moderate",
+        "q_en": "When any food-containing box kept inside a refrigerator is brought outside, water droplets are formed on the box. This physical process is called ____.",
+        "q_hi": "जब रेफ्रिजरेटर के अंदर रखे भोजन के डिब्बे को बाहर निकाला जाता है, तो डिब्बे पर पानी की बूंदें बन जाती हैं। इस भौतिक प्रक्रिया को ____ कहा जाता है।",
+        "op_en": [
+            "condensation",
+            "fusion",
+            "deposition",
+            "vaporisation"
+        ],
+        "op_hi": [
+            "संघनन (condensation)",
+            "संलयन (fusion)",
+            "निक्षेपण (deposition)",
+            "वाष्पीकरण (vaporisation)"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, यह विज्ञान का एक बहुत ही व्यावहारिक उदाहरण है।</p><ul><li><b>Option 1:</b> <b>Condensation (संघनन)</b> वह प्रक्रिया है जिसमें हवा में मौजूद 'Water Vapor' (गैस) ठंडी सतह के संपर्क में आने पर तरल (पानी) में बदल जाती है। रेफ्रिजरेटर से निकला डिब्बा ठंडा होता है, इसलिए हवा की नमी उस पर जम जाती है।</li><li><b>Option 2:</b> Fusion मतलब ठोस का पिघलकर तरल बनना।</li><li><b>Option 3:</b> Deposition मतलब गैस का सीधे ठोस बनना।</li><li><b>Option 4:</b> Vaporisation मतलब तरल का भाप बनना।</li></ul>"
+    },
+    {
+        "section": "Current Affairs",
+        "topic": "Defence",
+        "level": "Difficult",
+        "q_en": "Which Indian defence entity signed a technical agreement with France’s DGA in November 2025 to deepen defence R&amp;D ties?",
+        "q_hi": "किस भारतीय रक्षा संस्था ने रक्षा R&amp;D संबंधों को गहरा करने के लिए नवंबर 2025 में फ्रांस के DGA के साथ एक तकनीकी समझौते पर हस्ताक्षर किए?",
+        "op_en": [
+            "Hindustan Aeronautics Limited",
+            "Defence Research and Development Organisation",
+            "Department of Defence Production",
+            "Bharat Electronics Limited"
+        ],
+        "op_hi": [
+            "हिंदुस्तान एयरोनॉटिक्स लिमिटेड (HAL)",
+            "रक्षा अनुसंधान एवं विकास संगठन (DRDO)",
+            "रक्षा उत्पादन विभाग",
+            "भारत इलेक्ट्रॉनिक्स लिमिटेड (BEL)"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, भारत और फ्रांस के रक्षा संबंध बहुत मजबूत हैं।</p><ul><li><b>Option 2:</b> भारत के <b>DRDO</b> और फ्रांस के <b>Directorate General of Armaments (DGA)</b> ने शोध और विकास (R&D) में सहयोग के लिए यह समझौता किया है।</li><li><b>Option 1 & 4:</b> HAL और BEL मुख्य रूप से मैन्युफैक्चरिंग कंपनियां हैं, जबकि R&D का मुख्य काम DRDO देखता है।</li></ul>"
+    },
+    {
+        "section": "Current Affairs",
+        "topic": "Science & Tech",
+        "level": "Moderate",
+        "q_en": "The India-AI Impact Summit 2026 will be the first global AI summit to be hosted in which region?",
+        "q_hi": "इंडिया-AI इम्पैक्ट समिट 2026 किस क्षेत्र में आयोजित होने वाला पहला वैश्विक AI शिखर सम्मेलन होगा?",
+        "op_en": [
+            "Global South",
+            "East Asia",
+            "Europe",
+            "North America"
+        ],
+        "op_hi": [
+            "ग्लोबल साउथ (Global South)",
+            "पूर्वी एशिया",
+            "यूरोप",
+            "उत्तरी अमेरिका"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, भारत आर्टिफिशियल इंटेलिजेंस (AI) के क्षेत्र में नेतृत्व कर रहा है।</p><ul><li><b>Option 1:</b> यह शिखर सम्मेलन <b>Global South</b> (विकासशील देशों) के क्षेत्र में आयोजित होने वाला पहला बड़ा वैश्विक AI समिट होगा। भारत खुद को ग्लोबल साउथ की आवाज़ के रूप में पेश कर रहा है।</li><li><b>Option 3 & 4:</b> यूरोप और अमेरिका में पहले भी ऐसे समिट हो चुके हैं, लेकिन ग्लोबल साउथ के लिए यह नया है।</li></ul>"
+    },
+    {
+        "section": "Current Affairs",
+        "topic": "Important Days",
+        "level": "Difficult",
+        "q_en": "What was the theme of the International Day for the Elimination of Violence Against Women observed on 25 November 2025?",
+        "q_hi": "25 नवंबर 2025 को मनाए गए महिलाओं के खिलाफ हिंसा के उन्मूलन के लिए अंतर्राष्ट्रीय दिवस का विषय (Theme) क्या था?",
+        "op_en": [
+            "Activism to end violence against women and girls",
+            "Orange the World: End Violence against Women Now",
+            "UNiTE! Invest to Prevent Violence Against Women &amp; Girls",
+            "UNiTE to End Digital Violence Against All Women and Girls"
+        ],
+        "op_hi": [
+            "महिलाओं और लड़कियों के खिलाफ हिंसा को समाप्त करने के लिए सक्रियता",
+            "ऑरेंज द वर्ल्ड: महिलाओं के खिलाफ हिंसा को अभी समाप्त करें",
+            "UNiTE! महिलाओं और लड़कियों के खिलाफ हिंसा को रोकने के लिए निवेश करें",
+            "UNiTE to End Digital Violence Against All Women and Girls"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, संयुक्त राष्ट्र द्वारा हर साल 25 नवंबर को यह दिन मनाया जाता है।</p><ul><li><b>Option 4:</b> वर्ष 2025 की थीम <b>\"UNiTE to End Digital Violence Against All Women and Girls\"</b> थी, जो वर्तमान में बढ़ रहे साइबर अपराधों और डिजिटल हिंसा पर केंद्रित है।</li><li><b>Option 1, 2 & 3:</b> ये पिछले वर्षों की थीम्स हैं। याद रखें, परीक्षा के लिए सबसे हालिया थीम बहुत जरूरी होती है।</li></ul>"
+    },
+    {
+        "section": "Current Affairs",
+        "topic": "Defence & Tourism",
+        "level": "Moderate",
+        "q_en": "What is the objective of transforming INS Guldar into an underwater museum?",
+        "q_hi": "INS गुलदार को पानी के नीचे संग्रहालय (underwater museum) में बदलने का उद्देश्य क्या है?",
+        "op_en": [
+            "Submarine base and cargo transport hub",
+            "Sustainable tourism and ecosystem care",
+            "Military training and navy exercises",
+            "Oil extraction and offshore drilling"
+        ],
+        "op_hi": [
+            "पनडुब्बी बेस और कार्गो परिवहन केंद्र",
+            "सतत पर्यटन और पारिस्थितिकी तंत्र की देखभाल",
+            "सैन्य प्रशिक्षण और नौसेना अभ्यास",
+            "तेल निष्कर्षण और अपतटीय ड्रिलिंग"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, INS गुलदार एक नौसैनिक जहाज था जो अब रिटायर हो चुका है।</p><ul><li><b>Option 2:</b> इसका मुख्य उद्देश्य <b>Sustainable Tourism</b> (सतत पर्यटन) को बढ़ावा देना और समुद्र के नीचे एक कृत्रिम रीफ (Artificial Reef) बनाकर समुद्री पारिस्थितिकी तंत्र (Ecosystem) की मदद करना है।</li><li><b>Option 1, 3 & 4:</b> ये सैन्य या औद्योगिक कार्य हैं, जबकि संग्रहालय का काम शिक्षा और पर्यटन से जुड़ा होता है।</li></ul>"
+    },
+    {
+        "section": "Current Affairs",
+        "topic": "Defence",
+        "level": "Moderate",
+        "q_en": "In July 2025, which aircraft launched the Astra missile fitted with an indigenous RF seeker?",
+        "q_hi": "जुलाई 2025 में, किस विमान ने स्वदेशी RF सीकर से लैस अस्त्र (Astra) मिसाइल का प्रक्षेपण किया?",
+        "op_en": [
+            "Tejas",
+            "MiG-29",
+            "Mirage 2000",
+            "Su-30 Mk-I"
+        ],
+        "op_hi": [
+            "तेजस",
+            "मिग-29",
+            "मिराज 2000",
+            "Su-30 Mk-I"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, <b>Astra</b> एक 'Beyond Visual Range Air-to-Air Missile' (BVRAAM) है जिसे भारत ने खुद विकसित किया है।</p><ul><li><b>Option 4:</b> इसका सफल परीक्षण <b>Su-30 Mk-I</b> लड़ाकू विमान से किया गया। 'RF seeker' मिसाइल को लक्ष्य को सटीक तरीके से ट्रैक करने में मदद करता है।</li><li><b>Option 1:</b> हालांकि तेजस में भी अस्त्र मिसाइल लग सकती है, लेकिन इस विशेष परीक्षण के लिए सुखोई (Su-30) का इस्तेमाल हुआ था।</li></ul>"
+    },
+    {
+        "section": "Current Affairs",
+        "topic": "Economy & Finance",
+        "level": "Moderate",
+        "q_en": "Which regulator issued a special circular on re-lodgment of transfer requests of physical shares in July 2025?",
+        "q_hi": "किस नियामक ने जुलाई 2025 में भौतिक शेयरों (physical shares) के हस्तांतरण अनुरोधों को फिर से जमा करने पर एक विशेष सर्कुलर जारी किया?",
+        "op_en": [
+            "Ministry of Corporate Affairs (MCA)",
+            "Reserve Bank of India (RBI)",
+            "Insurance Regulatory and Development Authority of India (IRDAI)",
+            "Securities and Exchange Board of India (SEBI)"
+        ],
+        "op_hi": [
+            "कॉर्पोरेट मामलों के मंत्रालय (MCA)",
+            "भारतीय रिजर्व बैंक (RBI)",
+            "भारतीय बीमा नियामक और विकास प्राधिकरण (IRDAI)",
+            "भारतीय प्रतिभूति और विनिमय बोर्ड (SEBI)"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, भारत में शेयर बाजार और निवेशकों के हितों की रक्षा करने का काम <b>SEBI</b> करता है।</p><ul><li><b>Option 4:</b> <b>SEBI</b> ने ही भौतिक शेयरों के ट्रांसफर को लेकर नए दिशा-निर्देश जारी किए हैं ताकि प्रक्रिया को और पारदर्शी बनाया जा सके।</li><li><b>Option 2:</b> RBI बैंकों और मौद्रिक नीति को नियंत्रित करता है।</li><li><b>Option 3:</b> IRDAI बीमा क्षेत्र को देखता है।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Chemistry",
+        "level": "Easy",
+        "q_en": "Which concept introduced by Dalton’s atomic theory is regarded as its most significant contribution to the understanding of matter?",
+        "q_hi": "डाल्टन के परमाणु सिद्धांत द्वारा पेश की गई किस अवधारणा को पदार्थ की समझ में इसका सबसे महत्वपूर्ण योगदान माना जाता है?",
+        "op_en": [
+            "All substances are continuous without discrete particles",
+            "Atoms are indivisible particles that constitute all matter",
+            "Atoms are created and destroyed during chemical reactions",
+            "Atoms of an element can be converted into atoms of another element"
+        ],
+        "op_hi": [
+            "सभी पदार्थ बिना अलग-अलग कणों के निरंतर होते हैं",
+            "परमाणु अविभाज्य कण हैं जो सभी पदार्थों का निर्माण करते हैं",
+            "रासायनिक प्रतिक्रियाओं के दौरान परमाणु बनाए और नष्ट किए जाते हैं",
+            "एक तत्व के परमाणुओं को दूसरे तत्व के परमाणुओं में बदला जा सकता है"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, जॉन डाल्टन ने 1808 में अपना परमाणु सिद्धांत (Atomic Theory) दिया था।</p><ul><li><b>Option 2:</b> उनका सबसे बड़ा योगदान यह था कि <b>Atoms are indivisible particles</b> (परमाणु अविभाज्य हैं) और वे ही पदार्थ की सबसे छोटी इकाई हैं। हालांकि बाद में इलेक्ट्रॉन-प्रोटॉन की खोज से यह गलत साबित हुआ, लेकिन उस समय यह बहुत बड़ी बात थी।</li><li><b>Option 3:</b> डाल्टन के अनुसार परमाणु न बनाए जा सकते हैं और न ही नष्ट (Law of Conservation of Mass)।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Chemistry",
+        "level": "Moderate",
+        "q_en": "Elements that have an atomic number greater than 92 (uranium) in the modern periodic table are called:",
+        "q_hi": "आधुनिक आवर्त सारणी में वे तत्व जिनका परमाणु क्रमांक 92 (यूरेनियम) से अधिक होता है, कहलाते हैं:",
+        "op_en": [
+            "Lanthanides",
+            "Alkaline Earth elements",
+            "Noble gases",
+            "Transuranic elements"
+        ],
+        "op_hi": [
+            "लैंथेनाइड्स",
+            "क्षारीय मृदा तत्व",
+            "नोबल गैसें",
+            "पराबैंगनी तत्व (Transuranic elements)"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, पीरियोडिक टेबल में यूरेनियम (92) के बाद आने वाले सभी तत्व प्रयोगशाला में बनाए गए हैं।</p><ul><li><b>Option 4:</b> इन्हें <b>Transuranic elements</b> (पराबैंगनी या यूरेनियम-पश्च तत्व) कहा जाता है। ये सभी रेडियोधर्मी (Radioactive) होते हैं।</li><li><b>Option 1:</b> Lanthanides परमाणु क्रमांक 57 से 71 के बीच होते हैं।</li><li><b>Option 3:</b> Noble gases ग्रुप 18 में आती हैं (जैसे हीलियम, नियॉन)।</li></ul>"
+    },
+    {
+        "section": "General Awareness",
+        "topic": "Awards & Honours",
+        "level": "Difficult",
+        "q_en": "Who won a Grammy award in 2015 in the category of 'Best Children's Album' for 'I am Malala'?",
+        "q_hi": "'आई एम मलाला' के लिए 'सर्वश्रेष्ठ बच्चों के एल्बम' की श्रेणी में 2015 में ग्रैमी पुरस्कार किसने जीता?",
+        "op_en": [
+            "Tanvi Shah",
+            "Neela Vaswani",
+            "Ricky Kej",
+            "Falguni Pathak"
+        ],
+        "op_hi": [
+            "तन्वी शाह",
+            "नीला वासवानी",
+            "रिकी केज",
+            "फाल्गुनी पाठक"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, ग्रैमी अवार्ड्स संगीत की दुनिया का सबसे बड़ा सम्मान है।</p><ul><li><b>Option 2:</b> भारतीय मूल की लेखिका <b>Neela Vaswani</b> ने 2015 में 'I Am Malala' के ऑडियोबुक वर्जन के लिए यह पुरस्कार जीता था।</li><li><b>Option 3:</b> रिकी केज ने भी 2015 में 'Winds of Samsara' के लिए ग्रैमी जीता था, लेकिन उनकी श्रेणी 'Best New Age Album' थी।</li><li><b>Option 1:</b> तन्वी शाह पहली भारतीय महिला थीं जिन्होंने 2010 में 'Jai Ho' गाने के लिए ग्रैमी जीता था।</li></ul>"
+    },
+    {
+        "section": "Current Affairs",
+        "topic": "International Summits",
+        "level": "Difficult",
+        "q_en": "In February 2025, which summit in New Delhi addressed sustainable fisheries?",
+        "q_hi": "फरवरी 2025 में, नई दिल्ली में किस शिखर सम्मेलन ने सतत मत्स्य पालन (sustainable fisheries) को संबोधित किया?",
+        "op_en": [
+            "Asian Fisheries and Aquaculture Forum",
+            "Blue Economy Summit",
+            "BIMSTEC Fisheries Conference",
+            "Ocean Conservation Summit"
+        ],
+        "op_hi": [
+            "एशियन फिशरीज एंड एक्वाकल्चर फोरम (AFAF)",
+            "ब्लू इकोनॉमी समिट",
+            "बिम्सटेक मत्स्य सम्मेलन",
+            "महासागर संरक्षण शिखर सम्मेलन"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, नीली अर्थव्यवस्था (Blue Economy) पर भारत का बहुत जोर है।</p><ul><li><b>Option 1:</b> फरवरी 2025 में नई दिल्ली में 14वां <b>Asian Fisheries and Aquaculture Forum (AFAF)</b> आयोजित किया गया था, जिसका उद्देश्य मछली पालन में नई तकनीक और स्थिरता लाना था।</li><li><b>Option 3:</b> BIMSTEC की बैठकें भी होती हैं, लेकिन फरवरी 2025 की विशेष बैठक AFAF थी।</li></ul>"
+    },
+    {
+        "section": "Current Affairs",
+        "topic": "Cyber Security",
+        "level": "Difficult",
+        "q_en": "In November 2025, the Data Security Council of India (DSCI), along with which of the following institutions, unveiled the Cyber Security Innovation Challenge (CSIC) 1.0 for students and researchers under the ISEA initiative?",
+        "q_hi": "नवंबर 2025 में, डेटा सिक्योरिटी काउंसिल ऑफ इंडिया (DSCI) ने निम्नलिखित में से किस संस्थान के साथ मिलकर ISEA पहल के तहत छात्रों और शोधकर्ताओं के लिए साइबर सुरक्षा नवाचार चुनौती (CSIC) 1.0 का अनावरण किया?",
+        "op_en": [
+            "Education and Research Network, Bengaluru",
+            "National Institute of Electronics and Information Technology, New Delhi",
+            "Electronics and Information Technology Innovation Centres, Kochi",
+            "Centre for Development of Advanced Computing, Hyderabad"
+        ],
+        "op_hi": [
+            "शिक्षा और अनुसंधान नेटवर्क, बेंगलुरु",
+            "राष्ट्रीय इलेक्ट्रॉनिक्स और सूचना प्रौद्योगिकी संस्थान, नई दिल्ली",
+            "इलेक्ट्रॉनिक्स और सूचना प्रौद्योगिकी नवाचार केंद्र, कोच्चि",
+            "सेंटर फॉर डेवलपमेंट ऑफ एडवांस्ड कंप्यूटिंग (C-DAC), हैदराबाद"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, साइबर सुरक्षा आज के युग की सबसे बड़ी ज़रूरत है।</p><ul><li><b>Option 4:</b> <b>C-DAC हैदराबाद</b> और <b>DSCI</b> ने मिलकर CSIC 1.0 लॉन्च किया है। इसका मकसद छात्रों को साइबर सुरक्षा की चुनौतियों को हल करने के लिए प्रेरित करना है।</li><li><b>Option 1, 2 & 3:</b> ये भी IT क्षेत्र के संस्थान हैं, लेकिन इस विशेष चुनौती (CSIC) में C-DAC हैदराबाद मुख्य भागीदार है।</li></ul>"
+    }
+]
