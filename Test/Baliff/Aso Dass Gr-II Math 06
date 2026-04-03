@@ -1,0 +1,422 @@
+[
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Number System",
+        "level": "Easy",
+        "q_en": "<p>If the difference between the squares of two numbers is $240$ and the square root of one of them is $4$, then find the square of the other number.</p>",
+        "q_hi": "<p>यदि दो संख्याओं के वर्गों के बीच का अंतर $240$ है और उनमें से एक संख्या का वर्गमूल $4$ है। दूसरी संख्या का वर्ग ज्ञात कीजिये।</p>",
+        "op_en": [
+            "$9$",
+            "$16$",
+            "$25$",
+            "$36$"
+        ],
+        "op_hi": [
+            "$9$",
+            "$16$",
+            "$25$",
+            "$36$"
+        ],
+        "ans": "2",
+        "solution": "<p>नमस्ते अमित! इस सवाल को स्टेप-बाय-स्टेप समझते हैं। यहाँ <b>Square Root</b> और <b>Square</b> के बीच का अंतर समझना बहुत ज़रूरी है।</p><ul><li><b>दिया गया है:</b> एक संख्या का वर्गमूल ($\"\\sqrt{}\"$) $= 4$ है।</li><li>तो वह संख्या खुद $4^2 = 16$ होगी।</li><li>अब इस संख्या का वर्ग (Square) $= 16^2 = 256$ होगा।</li></ul><p><b>गणना:</b></p><ul><li>मान लीजिए दूसरी संख्या का वर्ग $y^2$ है।</li><li>प्रश्न के अनुसार: $256 - y^2 = 240$</li><li>$y^2 = 256 - 240$</li><li>$y^2 = 16$</li></ul><p>अतः दूसरी संख्या का वर्ग <b>$16$</b> है।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Average",
+        "level": "Moderate",
+        "q_en": "<p>A library has an average of $330$ visitors on Sundays and $240$ visitors on other days. Find the average number of visitors per day in a month of $30$ days starting with a Saturday.</p>",
+        "q_hi": "<p>एक पुस्तकालय में रविवार को औसतन $330$ और अन्य दिनों में $240$ आगंतुक आते हैं। शनिवार से शुरू करते हुए $30$ दिनों के एक माह में प्रति दिन आगंतुकों की संख्या का औसत ज्ञात करें।</p>",
+        "op_en": [
+            "$260$",
+            "$255$",
+            "$270$",
+            "$265$"
+        ],
+        "op_hi": [
+            "$260$",
+            "$255$",
+            "$270$",
+            "$265$"
+        ],
+        "ans": "2",
+        "solution": "<p>इस सवाल में सबसे पहले हमें यह देखना होगा कि $30$ दिन के महीने में कितने रविवार पड़ेंगे अगर महीना <b>शनिवार</b> से शुरू हो रहा है।</p><ul><li><b>रविवार की तिथियां:</b> $2, 9, 16, 23$ और $30$। (कुल $5$ रविवार)</li><li><b>अन्य दिन:</b> $30 - 5 = 25$ दिन।</li></ul><p><b>कुल आगंतुक (Total Visitors):</b></p><ul><li>रविवार के आगंतुक $= 5 \\times 330 = 1650$</li><li>अन्य दिनों के आगंतुक $= 25 \\times 240 = 6000$</li><li>कुल योग $= 1650 + 6000 = 7650$</li></ul><p><b>औसत (Average):</b></p><ul><li>औसत $= \\frac{7650}{30} = 255$</li></ul><p>अतः पूरे महीने का औसत <b>$255$</b> है।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Fractions",
+        "level": "Easy",
+        "q_en": "<p>In a bag full of pencils, $\\frac{3}{4}$ of the pencils were coloured pencils, and $\\frac{8}{15}$ of the coloured pencils were red. If there were $40$ red pencils in the bag, what was the total number of pencils in the bag?</p>",
+        "q_hi": "<p>पेंसिलों से भरे एक बैग में, पेंसिलों की कुल संख्या का $\\frac{3}{4}$ भाग रंगीन पेंसिलें थीं, और रंगीन पेंसिलों का $\\frac{8}{15}$ भाग लाल था। यदि बैग में $40$ लाल पेंसिलें थीं, तो बैग में पेंसिलों की कुल संख्या क्या थी?</p>",
+        "op_en": [
+            "$120$",
+            "$150$",
+            "$100$",
+            "$180$"
+        ],
+        "op_hi": [
+            "$120$",
+            "$150$",
+            "$100$",
+            "$180$"
+        ],
+        "ans": "3",
+        "solution": "<p>इस तरह के सवालों में <b>Fractions</b> को आपस में गुणा करना सबसे बढ़िया रहता है।</p><ul><li>मान लीजिए बैग में कुल पेंसिलें $= x$</li><li>रंगीन पेंसिलें $= \\frac{3}{4} x$</li><li>लाल पेंसिलें $= \\frac{8}{15} \\times (\\text{रंगीन पेंसिलें}) = \\frac{8}{15} \\times \\frac{3}{4} x$</li></ul><p><b>सरल करने पर:</b></p><ul><li>लाल पेंसिलें $= \\frac{2}{5} x$</li><li>दिया गया है कि लाल पेंसिलें $= 40$</li><li>तो, $\\frac{2}{5} x = 40$</li><li>$x = \\frac{40 \\times 5}{2} = 100$</li></ul><p>बैग में कुल <b>$100$</b> पेंसिलें थीं।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Time, Speed and Distance",
+        "level": "Moderate",
+        "q_en": "<p>Trains P and Q are running in the same direction on parallel tracks with speeds of $x$ km/h and $90$ km/h ($90 > x$), respectively. The faster train passes a man sitting in the slower train in $30$ seconds. If the length of train Q is $225$ m, then what is the value of $x$?</p>",
+        "q_hi": "<p>ट्रेनें P और Q समानांतर पटरियों पर एक ही दिशा में क्रमशः $x$ किमी/घंटा और $90$ किमी/घंटा ($90 > x$) की गति से चल रही हैं। तेज चलने वाली ट्रेन, धीमी ट्रेन में बैठे एक व्यक्ति को $30$ सेकंड में पार करती है। यदि ट्रेन Q की लंबाई $225$ मीटर है, तो $x$ का मान क्या है?</p>",
+        "op_en": [
+            "$63$",
+            "$60$",
+            "$65$",
+            "$68$"
+        ],
+        "op_hi": [
+            "$63$",
+            "$60$",
+            "$65$",
+            "$68$"
+        ],
+        "ans": "1",
+        "solution": "<p>नमस्ते अमित भाई! इस सवाल में एक बहुत ही महत्वपूर्ण बात ध्यान रखने वाली है: जब एक ट्रेन दूसरी ट्रेन में बैठे <b>व्यक्ति</b> को पार करती है, तो दूरी केवल पार करने वाली ट्रेन की लंबाई के बराबर होती है।</p><ul><li><b>सापेक्ष गति (Relative Speed):</b> चूंकि दोनों ट्रेनें एक ही दिशा में हैं, तो सापेक्ष गति $= (90 - x)$ किमी/घंटा होगी।</li><li><b>दूरी (Distance):</b> ट्रेन Q की लंबाई $= 225$ मीटर।</li><li><b>समय (Time):</b> $30$ सेकंड।</li></ul><p><b>गणना:</b></p><ul><li>सापेक्ष गति (मीटर/सेकंड में) $= \\frac{\\text{दूरी}}{\\text{समय}} = \\frac{225}{30} = 7.5$ मीटर/सेकंड।</li><li>अब इसे किमी/घंटा में बदलने के लिए $\\frac{18}{5}$ से गुणा करेंगे: $7.5 \\times \\frac{18}{5} = 1.5 \\times 18 = 27$ किमी/घंटा।</li></ul><p><b>अंतिम चरण:</b></p><ul><li>$90 - x = 27$</li><li>$x = 90 - 27 = 63$</li></ul><p>अतः धीमी ट्रेन की गति <b>$63$ किमी/घंटा</b> है।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Number System",
+        "level": "Hard",
+        "q_en": "<p>A number when divided by $6, 5$ and $4$ leaves $4, 0$ and $3$ as remainders, respectively, and the last quotient is $11$. What will be the respective remainders be if the order of the divisors is reversed?</p>",
+        "q_hi": "<p>एक संख्या को जब $6, 5$ और $4$ से विभाजित किया जाता है, तो शेषफल क्रमशः $4, 0$ और $3$ प्राप्त होता है, और अंतिम भागफल $11$ है। यदि विभाजकों का क्रम उलट दिया जाए, तो क्रमशः शेषफल क्या होंगे?</p>",
+        "op_en": [
+            "$2, 4$ and $3$",
+            "$3, 4$ and $2$",
+            "$2, 3$ and $4$",
+            "$4, 3$ and $2$"
+        ],
+        "op_hi": [
+            "$2, 4$ और $3$",
+            "$3, 4$ और $2$",
+            "$2, 3$ और $4$",
+            "$4, 3$ और $2$"
+        ],
+        "ans": "3",
+        "solution": "<p>यह <b>Successive Division</b> (क्रमिक विभाजन) का सवाल है। इसे हल करने के लिए हम नीचे से ऊपर (Bottom-to-Top) की ओर चलते हैं।</p><p><b>Step 1: मूल संख्या ज्ञात करना</b></p><ul><li>अंतिम विभाजक $4$, भागफल $11$, शेषफल $3$ $\\Rightarrow$ संख्या $= (11 \\times 4) + 3 = 47$</li><li>अगला विभाजक $5$, भागफल $47$, शेषफल $0$ $\\Rightarrow$ संख्या $= (47 \\times 5) + 0 = 235$</li><li>पहला विभाजक $6$, भागफल $235$, शेषफल $4$ $\\Rightarrow$ संख्या $= (235 \\times 6) + 4 = 1410 + 4 = 1414$</li></ul><p><b>Step 2: विभाजकों का क्रम उलटने पर ($4, 5, 6$)</b></p><ul><li>$1414 \\div 4 \\Rightarrow$ भागफल $= 353$, शेषफल $= 2$</li><li>$353 \\div 5 \\Rightarrow$ भागफल $= 70$, शेषफल $= 3$</li><li>$70 \\div 6 \\Rightarrow$ भागफल $= 11$, शेषफल $= 4$</li></ul><p>अतः नए शेषफल <b>$2, 3$ और $4$</b> होंगे।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Ratio and Proportion",
+        "level": "Hard",
+        "q_en": "<p>If $(15x + 7y) : (7x + 15y) = 29 : 37$, then $(15x^{2} + 7y^{2}) : (7x^{2} + 15y^{2})$ is equal to:</p>",
+        "q_hi": "<p>यदि $(15x + 7y) : (7x + 15y) = 29 : 37$ है, तो $(15x^{2} + 7y^{2}) : (7x^{2} + 15y^{2})$ किसके बराबर है?</p>",
+        "op_en": [
+            "$37 : 67$",
+            "$67 : 37$",
+            "$67 : 43$",
+            "$43 : 67$"
+        ],
+        "op_hi": [
+            "$37 : 67$",
+            "$67 : 37$",
+            "$67 : 43$",
+            "$43 : 67$"
+        ],
+        "ans": "4",
+        "solution": "<p>इस सवाल को हल करने के लिए पहले हमें $x$ और $y$ का अनुपात निकालना होगा।</p><p>$$\\frac{15x + 7y}{7x + 15y} = \\frac{29}{37}$$</p><ul><li>तिरछा गुणा (Cross Multiplication) करने पर:</li><li>$37(15x + 7y) = 29(7x + 15y)$</li><li>$555x + 259y = 203x + 435y$</li><li>$555x - 203x = 435y - 259y$</li><li>$352x = 176y \\Rightarrow \\frac{x}{y} = \\frac{176}{352} = \\frac{1}{2}$</li></ul><p>अब $x = 1$ और $y = 2$ मानकर अभीष्ट अनुपात निकालें:</p><ul><li>$\\frac{15(1)^2 + 7(2)^2}{7(1)^2 + 15(2)^2} = \\frac{15 + 28}{7 + 60} = \\frac{43}{67}$</li></ul><p>अतः सही उत्तर <b>$43 : 67$</b> है।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Mensuration",
+        "level": "Moderate",
+        "q_en": "<p>The ratio of radii of a cylinder and a cone is $2 : 3$ respectively. The respective ratio of volumes of a cylinder and a cone is $9 : 7$. What is the ratio of the heights of cylinder and cone respectively?</p>",
+        "q_hi": "<p>एक बेलन और एक शंकु की त्रिज्याओं का अनुपात क्रमशः $2 : 3$ है। बेलन और शंकु के आयतनों का संबंधित अनुपात $9 : 7$ है। बेलन और शंकु की ऊंचाई का अनुपात क्रमशः क्या है?</p>",
+        "op_en": [
+            "$27 : 28$",
+            "$21 : 27$",
+            "$17 : 29$",
+            "$19 : 17$"
+        ],
+        "op_hi": [
+            "$27 : 28$",
+            "$21 : 27$",
+            "$17 : 29$",
+            "$19 : 17$"
+        ],
+        "ans": "1",
+        "solution": "<p><b>सूत्र:</b></p><ul><li>बेलन का आयतन $(V_{1}) = \\pi r_{1}^{2} h_{1}$</li><li>शंकु का आयतन $(V_{2}) = \\frac{1}{3} \\pi r_{2}^{2} h_{2}$</li></ul><p><b>दिया गया है:</b></p><ul><li>त्रिज्याओं का अनुपात $r_{1} : r_{2} = 2 : 3$</li><li>आयतनों का अनुपात $V_{1} : V_{2} = 9 : 7$</li></ul><p><b>गणना:</b></p><ul><li>$\\frac{\\pi (2)^2 h_{1}}{\\frac{1}{3} \\pi (3)^2 h_{2}} = \\frac{9}{7}$</li><li>$\\frac{4 h_{1}}{\\frac{1}{3} \\times 9 h_{2}} = \\frac{9}{7}$</li><li>$\\frac{4 h_{1}}{3 h_{2}} = \\frac{9}{7}$</li><li>$\\frac{h_{1}}{h_{2}} = \\frac{9 \\times 3}{7 \\times 4} = \\frac{27}{28}$</li></ul><p>अतः ऊंचाइयों का अनुपात <b>$27 : 28$</b> है।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Time and Work",
+        "level": "Moderate",
+        "q_en": "<p>A, B and C individually can complete a work in $12, 10$ and $15$ days, respectively. All three work together and after $3$ days, B and C leave the work. The remaining work will be completed by A in:</p>",
+        "q_hi": "<p>A, B और C व्यक्तिगत रूप से एक कार्य को क्रमशः $12, 10$ और $15$ दिनों में पूरा कर सकते हैं। तीनों एक साथ कार्य करना शुरू करते हैं और $3$ दिनों के बाद, B और C कार्य छोड़ देते हैं। शेष कार्य को A द्वारा कितने दिनों में पूरा किया जाएगा?</p>",
+        "op_en": [
+            "$6$ days",
+            "$5$ days",
+            "$3$ days",
+            "$4$ days"
+        ],
+        "op_hi": [
+            "$6$ दिन",
+            "$5$ दिन",
+            "$3$ दिन",
+            "$4$ दिन"
+        ],
+        "ans": "3",
+        "solution": "<p><b>Step 1: कुल कार्य (LCM Method)</b></p><ul><li>$12, 10$ और $15$ का LCM = <b>$60$ यूनिट</b> (कुल कार्य)</li><li>A की दक्षता = $60 / 12 = 5$ यूनिट/दिन</li><li>B की दक्षता = $60 / 10 = 6$ यूनिट/दिन</li><li>C की दक्षता = $60 / 15 = 4$ यूनिट/दिन</li></ul><p><b>Step 2: $3$ दिनों का कार्य</b></p><ul><li>तीनों की कुल दक्षता = $5 + 6 + 4 = 15$ यूनिट/दिन</li><li>$3$ दिनों में किया गया कार्य = $15 \\times 3 = 45$ यूनिट</li></ul><p><b>Step 3: शेष कार्य और A का समय</b></p><ul><li>शेष कार्य = $60 - 45 = 15$ यूनिट</li><li>A द्वारा लिया गया समय = $15 / 5 = 3$ दिन</li></ul><p>अतः, शेष कार्य A द्वारा <b>$3$ दिनों</b> में पूरा किया जाएगा।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Average",
+        "level": "Moderate",
+        "q_en": "<p>The average age of a husband and a wife was $25$ years when they were married $4$ years ago. The average age of the husband, the wife, and their child, who was born during the interval is $20$ years now. How old is the child now?</p>",
+        "q_hi": "<p>एक पति और पत्नी की औसत आयु $25$ वर्ष थी जब उनकी $4$ वर्ष पहले शादी हुई थी। पति, पत्नी और उनके बच्चे (जिसका जन्म इस अंतराल के दौरान हुआ था) की वर्तमान औसत आयु $20$ वर्ष है। बच्चे की वर्तमान आयु क्या है?</p>",
+        "op_en": [
+            "$1$ year",
+            "$2.5$ years",
+            "$3$ years",
+            "$2$ years"
+        ],
+        "op_hi": [
+            "$1$ वर्ष",
+            "$2.5$ वर्ष",
+            "$3$ वर्ष",
+            "$2$ वर्ष"
+        ],
+        "ans": "4",
+        "solution": "<p><b>Step 1: पति और पत्नी की वर्तमान आयु का योग</b></p><ul><li>$4$ वर्ष पहले योग = $25 \\times 2 = 50$ वर्ष</li><li>वर्तमान योग = $50 + (4 + 4) = 58$ वर्ष (दोनों की आयु में $4-4$ साल जुड़ेंगे)</li></ul><p><b>Step 2: परिवार की कुल वर्तमान आयु</b></p><ul><li>पति + पत्नी + बच्चा = $20 \\times 3 = 60$ वर्ष</li></ul><p><b>Step 3: बच्चे की आयु</b></p><ul><li>बच्चे की आयु = कुल आयु - (पति + पत्नी की आयु)</li><li>बच्चे की आयु = $60 - 58 = 2$ वर्ष</li></ul><p>तो, बच्चा अभी <b>$2$ वर्ष</b> का है।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Percentage",
+        "level": "Easy",
+        "q_en": "<p>Two friends, Ammu and Binu, had some candies. One of them had $10$ more candies than the other. The candies that Ammu had were $60\\%$ of the total candies they had. How many candies did each have?</p>",
+        "q_hi": "<p>दो दोस्त, अम्मू और बीनू के पास कुछ टॉफियां थीं। उनमें से एक के पास दूसरे से $10$ अधिक टॉफियां थीं। अम्मू के पास कुल टॉफियों का $60\\%$ भाग था। प्रत्येक के पास कितनी टॉफियां थीं?</p>",
+        "op_en": [
+            "$30, 50$",
+            "$20, 40$",
+            "$40, 50$",
+            "$20, 30$"
+        ],
+        "op_hi": [
+            "$30, 50$",
+            "$20, 40$",
+            "$40, 50$",
+            "$20, 30$"
+        ],
+        "ans": "4",
+        "solution": "<p><b>Logic:</b></p><ul><li>अम्मू के पास = $60\\%$</li><li>तो बीनू के पास = $100\\% - 60\\% = 40\\%$</li><li>दोनों के बीच प्रतिशत का अंतर = $60\\% - 40\\% = 20\\%$</li></ul><p><b>Calculation:</b></p><ul><li>प्रश्न के अनुसार यह $20\\%$ अंतर $10$ टॉफियों के बराबर है।</li><li>$20\\% = 10$</li><li>$100\\% = 50$ (कुल टॉफियां)</li><li>अम्मू की टॉफियां = $50$ का $60\\% = 30$</li><li>बीनू की टॉफियां = $50$ का $40\\% = 20$</li></ul><p>अतः उनके पास <b>$20$ और $30$</b> टॉफियां थीं।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Ratio and Mixture",
+        "level": "Hard",
+        "q_en": "<p>The ratio of milk and water in the $87.5$ liters of the solution is $2 : 3$ and the ratio of milk and water in the $112.5$ liters of the solution is $4 : 5$. If both solutions are mixed, then find the ratio of milk and water in the new mixture.</p>",
+        "q_hi": "<p>$87.5$ लीटर के घोल में दूध और पानी का अनुपात $2 : 3$ है और $112.5$ लीटर के घोल में दूध और पानी का अनुपात $4 : 5$ है। यदि दोनों घोलों को मिला दिया जाए, तो नए मिश्रण में दूध और पानी का अनुपात ज्ञात कीजिए।</p>",
+        "op_en": [
+            "$17 : 23$",
+            "$21 : 17$",
+            "$8 : 15$",
+            "$3 : 4$"
+        ],
+        "op_hi": [
+            "$17 : 23$",
+            "$21 : 17$",
+            "$8 : 15$",
+            "$3 : 4$"
+        ],
+        "ans": "1",
+        "solution": "<p><b>Step 1: पहले मिश्रण में मात्रा निकालें</b></p><ul><li>कुल = $87.5$ लीटर, अनुपात $2:3$ (कुल $5$ यूनिट)</li><li>$1$ यूनिट = $87.5 / 5 = 17.5$</li><li>दूध = $2 \\times 17.5 = 35$ लीटर</li><li>पानी = $3 \\times 17.5 = 52.5$ लीटर</li></ul><p><b>Step 2: दूसरे मिश्रण में मात्रा निकालें</b></p><ul><li>कुल = $112.5$ लीटर, अनुपात $4:5$ (कुल $9$ यूनिट)</li><li>$1$ यूनिट = $112.5 / 9 = 12.5$</li><li>दूध = $4 \\times 12.5 = 50$ लीटर</li><li>पानी = $5 \\times 12.5 = 62.5$ लीटर</li></ul><p><b>Step 3: नए मिश्रण का अनुपात</b></p><ul><li>कुल दूध = $35 + 50 = 85$ लीटर</li><li>कुल पानी = $52.5 + 62.5 = 115$ लीटर</li><li>अनुपात = $85 : 115$</li><li>सरल करने पर ($5$ से भाग देने पर) = <b>$17 : 23$</b></li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Mensuration",
+        "level": "Moderate",
+        "q_en": "<p>Three solid cubes of sides $8$ cm, $1$ cm, and $6$ cm, respectively, are melted to form a new cube. Find the longest diagonal of the new cube.</p>",
+        "q_hi": "<p>तीन ठोस घन जिनकी भुजाएं क्रमशः $8$ सेमी, $1$ सेमी और $6$ सेमी हैं, को पिघलाकर एक नया घन बनाया जाता है। नए घन का सबसे लंबा विकर्ण ज्ञात कीजिए।</p>",
+        "op_en": [
+            "$9\\sqrt{3}$ cm",
+            "$9\\sqrt{2}$ cm",
+            "$7\\sqrt{3}$ cm",
+            "$7\\sqrt{2}$ cm"
+        ],
+        "op_hi": [
+            "$9\\sqrt{3}$ सेमी",
+            "$9\\sqrt{2}$ सेमी",
+            "$7\\sqrt{3}$ सेमी",
+            "$7\\sqrt{2}$ सेमी"
+        ],
+        "ans": "1",
+        "solution": "<p>नमस्ते! जब भी ठोस वस्तुओं को पिघलाकर नई वस्तु बनाई जाती है, तो उनका <b>आयतन (Volume)</b> समान रहता है।</p><ul><li><b>नए घन का आयतन ($V$):</b> तीनों घनों के आयतन का योग।</li><li>$V = 8^{3} + 1^{3} + 6^{3} = 512 + 1 + 216 = 729$ सेमी$^{3}$।</li><li>यदि नए घन की भुजा $a$ है, तो $a^{3} = 729 \\Rightarrow a = 9$ सेमी।</li></ul><p><b>सबसे लंबा विकर्ण:</b> घन का सबसे लंबा विकर्ण $a\\sqrt{3}$ होता है।</p><ul><li>विकर्ण = $9 \\times \\sqrt{3} = 9\\sqrt{3}$ सेमी।</li></ul><p>अतः सही उत्तर <b>$9\\sqrt{3}$ सेमी</b> है।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Simplification",
+        "level": "Easy",
+        "q_en": "<p>Simplify: $\\left[ \\frac{2}{9} + \\frac{2}{3} \\right] \\times 2 \\frac{1}{4} \\div \\frac{5}{6} \\times \\frac{5}{12}$</p>",
+        "q_hi": "<p>सरल कीजिए: $\\left[ \\frac{2}{9} + \\frac{2}{3} \\right] \\times 2 \\frac{1}{4} \\div \\frac{5}{6} \\times \\frac{5}{12}$</p>",
+        "op_en": [
+            "$4$",
+            "$3$",
+            "$2$",
+            "$1$"
+        ],
+        "op_hi": [
+            "$4$",
+            "$3$",
+            "$2$",
+            "$1$"
+        ],
+        "ans": "4",
+        "solution": "<p>इस सवाल को हल करने के लिए हम <b>BODMAS</b> नियम का पालन करेंगे।</p><ul><li><b>Step 1 (Bracket):</b> $\\frac{2}{9} + \\frac{2}{3} = \\frac{2 + 6}{9} = \\frac{8}{9}$</li><li><b>Step 2 (Mixed Fraction):</b> $2 \\frac{1}{4} = \\frac{9}{4}$</li><li>अब समीकरण है: $\\frac{8}{9} \\times \\frac{9}{4} \\div \\frac{5}{6} \\times \\frac{5}{12}$</li><li><b>Step 3 (Division/Multiplication):</b> $\\left( \\frac{8}{9} \\times \\frac{9}{4} \\right) = 2$</li><li>$2 \\div \\frac{5}{6} \\times \\frac{5}{12} = 2 \\times \\frac{6}{5} \\times \\frac{5}{12}$</li><li>$= \\frac{12}{5} \\times \\frac{5}{12} = 1$</li></ul><p>सरल करने पर प्राप्त उत्तर <b>$1$</b> है।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Number System",
+        "level": "Moderate",
+        "q_en": "<p>The sum of two numbers is $45$ and the sum of the square of the numbers is $1073$. Find the larger number.</p>",
+        "q_hi": "<p>दो संख्याओं का योग $45$ है और संख्याओं के वर्गों का योग $1073$ है। बड़ी संख्या ज्ञात कीजिए।</p>",
+        "op_en": [
+            "$28$",
+            "$17$",
+            "$19$",
+            "$26$"
+        ],
+        "op_hi": [
+            "$28$",
+            "$17$",
+            "$19$",
+            "$26$"
+        ],
+        "ans": "1",
+        "solution": "<p>मान लीजिए दो संख्याएं $x$ और $y$ हैं।</p><ul><li>दिया है: $x + y = 45$ और $x^{2} + y^{2} = 1073$</li><li>हम जानते हैं: $(x + y)^{2} = x^{2} + y^{2} + 2xy$</li><li>$45^{2} = 1073 + 2xy \\Rightarrow 2025 - 1073 = 2xy$</li><li>$952 = 2xy \\Rightarrow xy = 476$</li></ul><p>अब हमें ऐसी दो संख्याएं चाहिए जिनका योग $45$ हो और गुणनफल $476$। विकल्पों की मदद लेने पर:</p><ul><li>यदि बड़ी संख्या $28$ है, तो छोटी संख्या $45 - 28 = 17$ होगी।</li><li>चेक करें: $28 \\times 17 = 476$ (यह सही बैठ रहा है!)</li></ul><p>अतः बड़ी संख्या <b>$28$</b> है।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Time and Work",
+        "level": "Moderate",
+        "q_en": "<p>If A can do half of the work in $5$ days and B can do $\\frac{1}{3^{rd}}$ of the work in $6$ days, then how much money will B get if they were paid a total of $280$ rupees?</p>",
+        "q_hi": "<p>यदि A, $5$ दिनों में आधा कार्य कर सकता है और B, $6$ दिनों में कार्य का $\\frac{1}{3}$ भाग कर सकता है, तो यदि उन्हें कुल $280$ रुपये का भुगतान किया गया था, तो B को कितना पैसा मिलेगा?</p>",
+        "op_en": [
+            "Rs. $140$",
+            "Rs. $120$",
+            "Rs. $100$",
+            "Rs. $80$"
+        ],
+        "op_hi": [
+            "रुपये $140$",
+            "रुपये $120$",
+            "रुपये $100$",
+            "रुपये $80$"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, याद रखिये कि पैसा हमेशा <b>Efficiency (क्षमता)</b> के अनुपात में बाँटा जाता है, न कि दिनों के अनुपात में।</p><ul><li><b>A का कुल समय:</b> आधा काम $5$ दिन में, तो पूरा काम = $5 \\times 2 = 10$ दिन।</li><li><b>B का कुल समय:</b> $\\frac{1}{3}$ काम $6$ दिन में, तो पूरा काम = $6 \\times 3 = 18$ दिन।</li></ul><p><b>क्षमता का अनुपात (Efficiency Ratio):</b></p><ul><li>समय का अनुपात (A:B) = $10 : 18 = 5 : 9$</li><li>क्षमता का अनुपात (A:B) = $9 : 5$ (समय का उल्टा)</li></ul><p><b>पैसे का बँटवारा:</b></p><ul><li>कुल अनुपात = $9 + 5 = 14$ यूनिट</li><li>$14$ यूनिट = रुपये $280$</li><li>$1$ यूनिट = $\\frac{280}{14} = 20$</li><li>B का हिस्सा = $5 \\times 20 = 100$</li></ul><p>अतः, B को <b>रुपये $100$</b> मिलेंगे।</p>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Profit and Loss",
+        "level": "Moderate",
+        "q_en": "<p>A person sold an article at a loss of $4\\%$. Had he sold it at a gain of $1\\%$, he would have received Rs. $42.5$ more. To gain $18\\%$, what must be his selling price?</p>",
+        "q_hi": "<p>एक व्यक्ति ने एक वस्तु को $4\\%$ की हानि पर बेचा। यदि उसने इसे $1\\%$ के लाभ पर बेचा होता, तो उसे $42.5$ रुपये अधिक प्राप्त होते। $18\\%$ लाभ प्राप्त करने के लिए, उसका विक्रय मूल्य क्या होना चाहिए?</p>",
+        "op_en": [
+            "Rs. $756$",
+            "Rs. $900$",
+            "Rs. $1003$",
+            "Rs. $850$"
+        ],
+        "op_hi": [
+            "रुपये $756$",
+            "रुपये $900$",
+            "रुपये $1003$",
+            "रुपये $850$"
+        ],
+        "ans": "3",
+        "solution": "<p><b>Step 1: प्रतिशत अंतर निकालें।</b></p><ul><li>पहले नुकसान हो रहा था $= -4\\%$</li><li>अब लाभ चाहिए $= +1\\%$</li><li>कुल अंतर $= 1\\% - (-4\\%) = 5\\%$</li></ul><p><b>Step 2: क्रय मूल्य (CP) निकालें।</b></p><ul><li>सवाल के अनुसार, यह $5\\%$ का अंतर $= 42.5$ रुपये है।</li><li>$100\\% (CP) = \\frac{42.5}{5} \\times 100 = 8.5 \\times 100 = 850$ रुपये।</li></ul><p><b>Step 3: $18\\%$ लाभ पर विक्रय मूल्य (SP)।</b></p><ul><li>$SP = CP \\times (100 + \\text{Gain})\\%$</li><li>$SP = 850 \\times 118\\% = 850 \\times 1.18 = 1003$ रुपये।</li></ul>"
+    },
+    {
+        "section": "Arithmetical and Numerical Ability",
+        "topic": "Profit and Loss",
+        "level": "Moderate",
+        "q_en": "<p>A dishonest grocer sells the rice at a profit of $10\\%$ and uses weights which are $20\\%$ less than market weights. The total gain earned by him is:</p>",
+        "q_hi": "<p>एक बेईमान दुकानदार चावल को $10\\%$ के लाभ पर बेचता है और ऐसे बाटों का उपयोग करता है जो बाजार के बाटों से $20\\%$ कम हैं। उसके द्वारा अर्जित कुल लाभ है:</p>",
+        "op_en": [
+            "$32\\%$",
+            "$37.5\\%$",
+            "$30.5\\%$",
+            "$35.5\\%$"
+        ],
+        "op_hi": [
+            "$32\\%$",
+            "$37.5\\%$",
+            "$30.5\\%$",
+            "$35.5\\%$"
+        ],
+        "ans": "2",
+        "solution": "<p>बेईमान दुकानदार वाले सवालों के लिए यह <b>Chain Method</b> सबसे बेस्ट है:</p><ul><li>मान लीजिए $1000$ ग्राम चावल की कीमत $100$ रुपये है।</li><li><b>बेचते समय लाभ:</b> वह $10\\%$ लाभ पर बेचता है, यानी $110$ रुपये में।</li><li><b>तौलते समय बेईमानी:</b> वह $20\\%$ कम तौलता है, यानी $1000$ ग्राम की जगह केवल $800$ ग्राम देता है।</li></ul><p>अब गौर करें, दुकानदार की लागत (CP) केवल $800$ ग्राम की है और वह पैसे $110$ रुपये ले रहा है।</p><ul><li>$800$ ग्राम का CP $= 80$ रुपये (अगर $1000$ ग्राम का $100$ है)</li><li>विक्रय मूल्य (SP) $= 110$ रुपये</li><li>लाभ $= 110 - 80 = 30$ रुपये</li><li><b>लाभ प्रतिशत:</b> $\\frac{30}{80} \\times 100 = \\frac{3}{8} \\times 100 = 37.5\\%$</li></ul>"
+    },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Time and Work",
+    "level": "Moderate",
+    "q_en": "<p>If A can do half of the work in $5$ days and B can do $\\frac{1}{3^{rd}}$ of the work in $6$ days, then how much money will B get if they were paid a total of $280$ rupees?</p>",
+    "q_hi": "<p>यदि A, $5$ दिनों में आधा कार्य कर सकता है और B, $6$ दिनों में कार्य का $\\frac{1}{3}$ भाग कर सकता है, तो यदि उन्हें कुल $280$ रुपये का भुगतान किया गया था, तो B को कितना पैसा मिलेगा?</p>",
+    "op_en": [
+      "Rs. $140$",
+      "Rs. $120$",
+      "Rs. $100$",
+      "Rs. $80$"
+    ],
+    "op_hi": [
+      "रुपये $140$",
+      "रुपये $120$",
+      "रुपये $100$",
+      "रुपये $80$"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, याद रखिये कि पैसा हमेशा <b>Efficiency (क्षमता)</b> के अनुपात में बाँटा जाता है, न कि दिनों के अनुपात में।</p><ul><li><b>A का कुल समय:</b> आधा काम $5$ दिन में, तो पूरा काम = $5 \\times 2 = 10$ दिन।</li><li><b>B का कुल समय:</b> $\\frac{1}{3}$ काम $6$ दिन में, तो पूरा काम = $6 \\times 3 = 18$ दिन।</li></ul><p><b>क्षमता का अनुपात (Efficiency Ratio):</b></p><ul><li>समय का अनुपात (A:B) = $10 : 18 = 5 : 9$</li><li>क्षमता का अनुपात (A:B) = $9 : 5$ (समय का उल्टा)</li></ul><p><b>पैसे का बँटवारा:</b></p><ul><li>कुल अनुपात = $9 + 5 = 14$ यूनिट</li><li>$14$ यूनिट = रुपये $280$</li><li>$1$ यूनिट = $\\frac{280}{14} = 20$</li><li>B का हिस्सा = $5 \\times 20 = 100$</li></ul><p>अतः, B को <b>रुपये $100$</b> मिलेंगे।</p>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Profit and Loss",
+    "level": "Moderate",
+    "q_en": "<p>A person sold an article at a loss of $4\\%$. Had he sold it at a gain of $1\\%$, he would have received Rs. $42.5$ more. To gain $18\\%$, what must be his selling price?</p>",
+    "q_hi": "<p>एक व्यक्ति ने एक वस्तु को $4\\%$ की हानि पर बेचा। यदि उसने इसे $1\\%$ के लाभ पर बेचा होता, तो उसे $42.5$ रुपये अधिक प्राप्त होते। $18\\%$ लाभ प्राप्त करने के लिए, उसका विक्रय मूल्य क्या होना चाहिए?</p>",
+    "op_en": [
+      "Rs. $756$",
+      "Rs. $900$",
+      "Rs. $1003$",
+      "Rs. $850$"
+    ],
+    "op_hi": [
+      "रुपये $756$",
+      "रुपये $900$",
+      "रुपये $1003$",
+      "रुपये $850$"
+    ],
+    "ans": "3",
+    "solution": "<p><b>Step 1: प्रतिशत अंतर निकालें।</b></p><ul><li>पहले नुकसान हो रहा था $= -4\\%$</li><li>अब लाभ चाहिए $= +1\\%$</li><li>कुल अंतर $= 1\\% - (-4\\%) = 5\\%$</li></ul><p><b>Step 2: क्रय मूल्य (CP) निकालें।</b></p><ul><li>सवाल के अनुसार, यह $5\\%$ का अंतर $= 42.5$ रुपये है।</li><li>$100\\% (CP) = \\frac{42.5}{5} \\times 100 = 8.5 \\times 100 = 850$ रुपये।</li></ul><p><b>Step 3: $18\\%$ लाभ पर विक्रय मूल्य (SP)।</b></p><ul><li>$SP = CP \\times (100 + \\text{Gain})\\%$</li><li>$SP = 850 \\times 118\\% = 850 \\times 1.18 = 1003$ रुपये।</li></ul>"
+  },
+  {
+    "section": "Arithmetical and Numerical Ability",
+    "topic": "Profit and Loss",
+    "level": "Moderate",
+    "q_en": "<p>A dishonest grocer sells the rice at a profit of $10\\%$ and uses weights which are $20\\%$ less than market weights. The total gain earned by him is:</p>",
+    "q_hi": "<p>एक बेईमान दुकानदार चावल को $10\\%$ के लाभ पर बेचता है और ऐसे बाटों का उपयोग करता है जो बाजार के बाटों से $20\\%$ कम हैं। उसके द्वारा अर्जित कुल लाभ है:</p>",
+    "op_en": [
+      "$32\\%$",
+      "$37.5\\%$",
+      "$30.5\\%$",
+      "$35.5\\%$"
+    ],
+    "op_hi": [
+      "$32\\%$",
+      "$37.5\\%$",
+      "$30.5\\%$",
+      "$35.5\\%$"
+    ],
+    "ans": "2",
+    "solution": "<p>बेईमान दुकानदार वाले सवालों के लिए यह <b>Chain Method</b> सबसे बेस्ट है:</p><ul><li>मान लीजिए $1000$ ग्राम चावल की कीमत $100$ रुपये है।</li><li><b>बेचते समय लाभ:</b> वह $10\\%$ लाभ पर बेचता है, यानी $110$ रुपये में।</li><li><b>तौलते समय बेईमानी:</b> वह $20\\%$ कम तौलता है, यानी $1000$ ग्राम की जगह केवल $800$ ग्राम देता है।</li></ul><p>अब गौर करें, दुकानदार की लागत (CP) केवल $800$ ग्राम की है और वह पैसे $110$ रुपये ले रहा है।</p><ul><li>$800$ ग्राम का CP $= 80$ रुपये (अगर $1000$ ग्राम का $100$ है)</li><li>विक्रय मूल्य (SP) $= 110$ रुपये</li><li>लाभ $= 110 - 80 = 30$ रुपये</li><li><b>लाभ प्रतिशत:</b> $\\frac{30}{80} \\times 100 = \\frac{3}{8} \\times 100 = 37.5\\%$</li></ul>"
+  }
+]
