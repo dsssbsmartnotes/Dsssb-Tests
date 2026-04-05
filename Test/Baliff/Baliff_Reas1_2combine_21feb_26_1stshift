@@ -1,0 +1,844 @@
+[
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>KBXO is related to GXTK in a certain way based on the English alphabetical order. In the same way, JCNU is related to FYJQ. To which of the following is WAQG related, following the same logic?</p>",
+        "q_hi": "<p>KBXO अंग्रेजी वर्णमाला क्रम के आधार पर एक निश्चित तरीके से GXTK से संबंधित है। उसी तरह, JCNU, FYJQ से संबंधित है। समान तर्क का पालन करते हुए, निम्नलिखित में से कौन WAQG से संबंधित है?</p>",
+        "op_en": [
+            "SWMC",
+            "RXOB",
+            "RVNA",
+            "TUNB"
+        ],
+        "op_hi": [
+            "SWMC",
+            "RXOB",
+            "RVNA",
+            "TUNB"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। इस प्रकार के Reasoning के सवालों में हमें Letters के बीच का Pattern खोजना होता है।</p><p>यहाँ KBXO को GXTK लिखा गया है, ध्यान से देखें:<br>K (-4) -> G<br>B (-4) -> X (backward counting in alphabet)<br>X (-4) -> T<br>O (-4) -> K</p><p>इसी तरह JCNU से FYJQ में भी बिलकुल यही -4 का Pattern लागू हो रहा है।</p><p>अब WAQG के लिए यही logic लगाते हैं:<br>W (-4) -> S<br>A (-4) -> W<br>Q (-4) -> M<br>G (-4) -> C</p><p>इस प्रकार हमारा सही उत्तर <b>SWMC</b> बनता है।</p><p><b>Options Analysis:</b><br>Option 1 (SWMC): यह हमारे -4 pattern को पूरी तरह follow करता है, इसलिए यह सही है।<br>Option 2 (RXOB): यह pattern को follow नहीं करता, गलत है।<br>Option 3 (RVNA): यह भी -4 logic में fit नहीं बैठता, गलत है।<br>Option 4 (TUNB): यह भी logic के अनुसार गलत है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>BRWM is related to DUAR in a certain way based on the English alphabetical order. In the same way, GSDU is related to IVHZ. To which of the following is PFIN related to, following the same logic?</p>",
+        "q_hi": "<p>BRWM अंग्रेजी वर्णमाला क्रम के आधार पर एक निश्चित तरीके से DUAR से संबंधित है। उसी तरह, GSDU, IVHZ से संबंधित है। समान तर्क का पालन करते हुए, निम्नलिखित में से कौन PFIN से संबंधित है?</p>",
+        "op_en": [
+            "RJNT",
+            "RIMS",
+            "SIMT",
+            "SJMU"
+        ],
+        "op_hi": [
+            "RJNT",
+            "RIMS",
+            "SIMT",
+            "SJMU"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। चलिए Letters के बीच का गैप चेक करते हैं।</p><p>BRWM को DUAR लिखा गया है:<br>B (+2) -> D<br>R (+3) -> U<br>W (+4) -> A<br>M (+5) -> R</p><p>GSDU से IVHZ में भी समान Pattern है: (+2, +3, +4, +5)</p><p>तो PFIN के लिए:<br>P (+2) -> R<br>F (+3) -> I<br>I (+4) -> M<br>N (+5) -> S</p><p>इससे हमें <b>RIMS</b> मिलता है।</p><p><b>Options Analysis:</b><br>Option 1 (RJNT): Pattern match नहीं कर रहा है, गलत।<br>Option 2 (RIMS): यह हमारे (+2, +3, +4, +5) pattern को बिल्कुल सही तरीके से follow कर रहा है, यह सही उत्तर है।<br>Option 3 (SIMT): गलत है।<br>Option 4 (SJMU): यह भी गलत है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>Based on the English alphabetical order, three of the following four letter cluster pairs are alike in a certain way and thus form a group. Which is the one that does not belong to that group?</p><p>(Note: The odd man out is not based on the number of consonants/vowels or their position in the letter cluster.)</p>",
+        "q_hi": "<p>अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों के युग्मों में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। वह कौन सा है जो उस समूह से संबंधित नहीं है?</p><p>(नोट: बेजोड़ (odd) अक्षर-समूह में स्वरों/व्यंजनों की संख्या या उनकी स्थिति पर आधारित नहीं है।)</p>",
+        "op_en": [
+            "NP−QS",
+            "ZB−CE",
+            "OQ−QV",
+            "FH−IK"
+        ],
+        "op_hi": [
+            "NP−QS",
+            "ZB−CE",
+            "OQ−QV",
+            "FH−IK"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें यहाँ विषम (Odd one out) खोजना है। चलिए हर pair के letters के बीच का अंतर देखते हैं।</p><p>Option 1: NP - QS <br>N (+2) -> P, P (+1) -> Q, Q (+2) -> S (Pattern: +2, +1, +2)</p><p>Option 2: ZB - CE <br>Z (+2) -> B, B (+1) -> C, C (+2) -> E (Pattern: +2, +1, +2)</p><p>Option 4: FH - IK <br>F (+2) -> H, H (+1) -> I, I (+2) -> K (Pattern: +2, +1, +2)</p><p>Option 3: OQ - QV <br>O (+2) -> Q, Q (+0) -> Q, Q (+5) -> V (Pattern: +2, +0, +5)</p><p><b>Options Analysis:</b><br>Option 1, 2, and 4: ये तीनों समान (+2, +1, +2) pattern फॉलो करते हैं, इसलिए एक Group बनाते हैं।<br>Option 3 (OQ - QV): इसका pattern बाकी तीनों से अलग है, इसलिए यह Odd one out है और यही सही उत्तर है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>6 is related to 40 following a certain logic. Following the same logic, 11 is related to 70. To which of the following is 8 related, following the same logic?</p><p>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed . Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)</p>",
+        "q_hi": "<p>6 एक निश्चित तर्क के अनुसार 40 से संबंधित है। उसी तर्क का पालन करते हुए, 11, 70 से संबंधित है। समान तर्क का पालन करते हुए, निम्नलिखित में से कौन 8 से संबंधित है?</p><p>(नोट: संक्रियाएं (Operations) पूर्ण संख्याओं पर की जानी चाहिए, संख्याओं को उनके घटक अंकों में तोड़े बिना। उदाहरण के लिए 13 - 13 पर संक्रियाएं जैसे 13 में जोड़ना/घटाना/गुणा करना आदि किया जा सकता है। 13 को 1 और 3 में तोड़ना और फिर 1 और 3 पर गणितीय संक्रियाएं करने की अनुमति नहीं है।)</p>",
+        "op_en": [
+            "46",
+            "52",
+            "32",
+            "38"
+        ],
+        "op_hi": [
+            "46",
+            "52",
+            "32",
+            "38"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें दिए गए Numbers के बीच का Mathematical Logic खोजना है।</p><p>Logic देखते हैं:<br>6 से 40: (6 &times; 6) + 4 = 40<br>11 से 70: (11 &times; 6) + 4 = 70</p><p>यहाँ Pattern है: <b>(Number &times; 6) + 4</b></p><p>तो 8 के लिए:<br>(8 &times; 6) + 4 = 48 + 4 = 52</p><p><b>Options Analysis:</b><br>Option 1 (46): Pattern के हिसाब से गलत है।<br>Option 2 (52): हमारे निकाले गए logic से पूरी तरह match करता है, यह सही है।<br>Option 3 (32): गलत है।<br>Option 4 (38): गलत है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>If ‘I’ stands for ‘+’ , ‘J’ stands for ‘&times;’, ‘K’ stands for ‘&divide;’, and ‘L’ stands for ‘-’ what will come in place of the question mark ‘?’ in the following equation?</p><p>(24 K 6) J 5 I 13 J 3 L 14 = ?</p>",
+        "q_hi": "<p>यदि ‘I’ का अर्थ ‘+’ है, ‘J’ का अर्थ ‘×’ है, ‘K’ का अर्थ ‘÷’ है, और ‘L’ का अर्थ ‘-’ है, तो निम्नलिखित समीकरण में प्रश्न चिह्न ‘?’ के स्थान पर क्या आएगा?</p><p>(24 K 6) J 5 I 13 J 3 L 14 = ?</p>",
+        "op_en": [
+            "20",
+            "34",
+            "45",
+            "56"
+        ],
+        "op_hi": [
+            "20",
+            "34",
+            "45",
+            "56"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें Letters को Mathematical signs से replace करके BODMAS rule लगाना है।</p><p>दिया गया Equation: (24 K 6) J 5 I 13 J 3 L 14 = ?<br>Signs बदलने के बाद: (24 &divide; 6) &times; 5 + 13 &times; 3 - 14</p><p>BODMAS के अनुसार:<br>Step 1 (Bracket): 4 &times; 5 + 13 &times; 3 - 14<br>Step 2 (Multiply): 20 + 39 - 14<br>Step 3 (Add/Subtract): 59 - 14 = 45</p><p><b>Options Analysis:</b><br>Option 1 (20): गलत Calculation।<br>Option 2 (34): गलत।<br>Option 3 (45): BODMAS rule से सही उत्तर 45 आया है।<br>Option 4 (56): गलत।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>If ‘P’ stands for ‘&times;’ , ‘Q’ stands for ‘&divide;’, ‘R’ stands for ‘-’ and ‘S’ stands for ‘+’ , what will come in place of the question mark ‘?’ in the following equation?</p><p>9 P 4 S (15 Q 5) P 2 R 14 = ?</p>",
+        "q_hi": "<p>यदि ‘P’ का अर्थ ‘×’ है, ‘Q’ का अर्थ ‘÷’ है, ‘R’ का अर्थ ‘-’ है, और ‘S’ का अर्थ ‘+’ है, तो निम्नलिखित समीकरण में प्रश्न चिह्न ‘?’ के स्थान पर क्या आएगा?</p><p>9 P 4 S (15 Q 5) P 2 R 14 = ?</p>",
+        "op_en": [
+            "28",
+            "51",
+            "22",
+            "36"
+        ],
+        "op_hi": [
+            "28",
+            "51",
+            "22",
+            "36"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह भी BODMAS का एक सीधा सवाल है।</p><p>Equation: 9 P 4 S (15 Q 5) P 2 R 14 = ?<br>Signs बदलने पर: 9 &times; 4 + (15 &divide; 5) &times; 2 - 14</p><p>Solve करते हैं:<br>Bracket: 9 &times; 4 + (3) &times; 2 - 14<br>Multiply: 36 + 6 - 14<br>Add/Subtract: 42 - 14 = 28</p><p><b>Options Analysis:</b><br>Option 1 (28): सही Calculation के बाद 28 आता है, यह सही है।<br>Option 2 (51): गलत।<br>Option 3 (22): गलत।<br>Option 4 (36): गलत।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>Based on the English alphabetical order, three of the following four letter cluster pairs are alike in a certain way and thus form a group. Which is the one that does not belong to that group?</p><p>(Note: The odd man out is not based on the number of consonants/vowels or their position in the letter cluster.)</p>",
+        "q_hi": "<p>अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों के युग्मों में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। वह कौन सा है जो उस समूह से संबंधित नहीं है?</p><p>(नोट: बेजोड़ अक्षर-समूह स्वरों/व्यंजनों की संख्या या उनकी स्थिति पर आधारित नहीं है।)</p>",
+        "op_en": [
+            "TU - VX",
+            "CP - ET",
+            "MV - OY",
+            "YF - AI"
+        ],
+        "op_hi": [
+            "TU - VX",
+            "CP - ET",
+            "MV - OY",
+            "YF - AI"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ हमें Letters के बीच का अंतर देखना है ताकि Odd one out निकाल सकें।</p><p>Pair के पहले और दूसरे letters का अंतर चेक करते हैं:<br>Option 1: TU - VX &rarr; T (+2) = V, U (+3) = X<br>Option 3: MV - OY &rarr; M (+2) = O, V (+3) = Y<br>Option 4: YF - AI &rarr; Y (+2) = A, F (+3) = I</p><p>Option 2: CP - ET &rarr; C (+2) = E, P (+4) = T</p><p><b>Options Analysis:</b><br>Option 1, 3, 4: इन सभी में (+2, +3) का Pattern follow हो रहा है।<br>Option 2 (CP - ET): इसमें (+2, +4) का pattern है, जो बाकी ग्रुप से अलग है। इसलिए यह सही उत्तर है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>In the following triad, each group of letters is related to the subsequent one following a certain logic. Select from the given options, the one which follows the same logic.</p><p>GIND - IGND - DNIG<br>PLOW - LPOW - WOLP</p>",
+        "q_hi": "<p>निम्नलिखित त्रिक (triad) में, अक्षरों का प्रत्येक समूह एक निश्चित तर्क का पालन करते हुए अगले वाले से संबंधित है। दिए गए विकल्पों में से उस विकल्प का चयन करें जो समान तर्क का पालन करता है।</p><p>GIND - IGND - DNIG<br>PLOW - LPOW - WOLP</p>",
+        "op_en": [
+            "SEAD - SEAD - EADS",
+            "MOLD - OMLD - DOLM",
+            "GEAL - EGAL - LAEG",
+            "ROST - ORST - TOSR"
+        ],
+        "op_hi": [
+            "SEAD - SEAD - EADS",
+            "MOLD - OMLD - DOLM",
+            "GEAL - EGAL - LAEG",
+            "ROST - ORST - TOSR"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ Letters की Position को आपस में बदला (Swap) गया है।</p><p>Pattern समझते हैं:<br>Word 1: 1-2-3-4 (G-I-N-D)<br>Word 2: 2-1-3-4 (I-G-N-D) -> पहले दो letters swap हुए।<br>Word 3: 4-3-2-1 (D-N-I-G) -> पूरा word reverse हो गया।</p><p>PLOW में भी यही है: PLOW (1234) -> LPOW (2134) -> WOLP (4321).</p><p>अब Options चेक करते हैं:<br>Option 3: GEAL (1234) -> EGAL (2134) -> LAEG (4321). यह पूरी तरह से Pattern match कर रहा है।</p><p><b>Options Analysis:</b><br>Option 1: SEAD -> SEAD (swap नहीं हुआ), गलत है।<br>Option 2: MOLD -> OMLD (2134) -> DOLM (4123 - reverse नहीं हुआ), गलत है।<br>Option 3 (GEAL - EGAL - LAEG): यह हमारे Logic में एकदम fit है, सही उत्तर है।<br>Option 4: ROST -> ORST (2134) -> TOSR (4213 - reverse नहीं हुआ), गलत है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>11 is related to 130 following a certain logic. Following the same logic, 17 is related to 298. To which of the following is 21 related, following the same logic?</p><p>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying etc. to 13, can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)</p>",
+        "q_hi": "<p>11 एक निश्चित तर्क के अनुसार 130 से संबंधित है। उसी तर्क का पालन करते हुए, 17, 298 से संबंधित है। समान तर्क का पालन करते हुए, निम्नलिखित में से कौन 21 से संबंधित है?</p><p>(नोट: संक्रियाएं पूर्ण संख्याओं पर की जानी चाहिए, संख्याओं को उनके घटक अंकों में तोड़े बिना। उदाहरण के लिए 13 – 13 पर संक्रियाएं जैसे 13 में जोड़ना/घटाना/गुणा करना आदि किया जा सकता है। 13 को 1 और 3 में तोड़ना और फिर 1 और 3 पर गणितीय संक्रियाएं करने की अनुमति नहीं है।)</p>",
+        "op_en": [
+            "425",
+            "450",
+            "463",
+            "410"
+        ],
+        "op_hi": [
+            "425",
+            "450",
+            "463",
+            "410"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यहाँ Number Series / Analogy का Square Based logic लगा है।</p><p>Logic: <b>(Number&amp;sup2;) + 9</b><br>11 से 130: 11&amp;sup2; + 9 = 121 + 9 = 130<br>17 से 298: 17&amp;sup2; + 9 = 289 + 9 = 298</p><p>उसी प्रकार 21 के लिए:<br>21&amp;sup2; + 9 = 441 + 9 = 450</p><p><b>Options Analysis:</b><br>Option 1 (425): गलत उत्तर।<br>Option 2 (450): Pattern से निकाला गया सही उत्तर है।<br>Option 3 (463): गलत।<br>Option 4 (410): गलत।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>Select the pair that follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern.</p><p>BLP : EOS<br>GNV : JQY</p>",
+        "q_hi": "<p>उस युग्म का चयन करें जो नीचे दिए गए दो युग्मों द्वारा अनुसरण किए गए समान पैटर्न का अनुसरण करता है। दोनों युग्म समान पैटर्न का अनुसरण करते हैं।</p><p>BLP : EOS<br>GNV : JQY</p>",
+        "op_en": [
+            "QHY : OFW",
+            "KBS : NEV",
+            "MDU : LCT",
+            "KBS : MDU"
+        ],
+        "op_hi": [
+            "QHY : OFW",
+            "KBS : NEV",
+            "MDU : LCT",
+            "KBS : MDU"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। Letters के बीच का Forward Shift देखते हैं।</p><p>BLP से EOS:<br>B (+3) -> E<br>L (+3) -> O<br>P (+3) -> S</p><p>GNV से JQY:<br>G (+3) -> J<br>N (+3) -> Q<br>V (+3) -> Y</p><p>Pattern <b>+3, +3, +3</b> का है। अब ऑप्शंस चेक करते हैं।</p><p><b>Options Analysis:</b><br>Option 1 (QHY : OFW): Q (-2) = O, गलत।<br>Option 2 (KBS : NEV): K (+3) = N, B (+3) = E, S (+3) = V. यह एकदम सही Pattern है।<br>Option 3 (MDU : LCT): M (-1) = L, गलत।<br>Option 4 (KBS : MDU): K (+2) = M, गलत।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group?</p><p>(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)</p>",
+        "q_hi": "<p>अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों के युग्मों में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। कौन सा अक्षर-समूह युग्म उस समूह से संबंधित नहीं है?</p><p>(नोट: बेजोड़ अक्षर-समूह स्वरों/व्यंजनों की संख्या या उनकी स्थिति पर आधारित नहीं है।)</p>",
+        "op_en": [
+            "PS  -  QT",
+            "EH  -  FI",
+            "DG  -  EI",
+            "TW  -  UX"
+        ],
+        "op_hi": [
+            "PS  -  QT",
+            "EH  -  FI",
+            "DG  -  EI",
+            "TW  -  UX"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें विषम (Odd pair) ढूँढना है।</p><p>Option 1: PS - QT &rarr; P (+1) = Q, S (+1) = T<br>Option 2: EH - FI &rarr; E (+1) = F, H (+1) = I<br>Option 4: TW - UX &rarr; T (+1) = U, W (+1) = X</p><p>Option 3: DG - EI &rarr; D (+1) = E, G (+2) = I</p><p><b>Options Analysis:</b><br>Option 1, 2, 4 में दोनों letters में समान (+1, +1) का shift है, इसलिए ये एक group बनाते हैं।<br>Option 3 (DG - EI) में (+1, +2) का shift है, जो कि अलग है। अतः यह हमारा सही उत्तर है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>If 2 is added to each even digit and 1 is subtracted from each odd digit in the number 956327, what will be the sum of the last two digits in the new number thus formed?</p>",
+        "q_hi": "<p>यदि संख्या 956327 में प्रत्येक सम अंक में 2 जोड़ा जाता है और प्रत्येक विषम अंक से 1 घटाया जाता है, तो इस प्रकार बनी नई संख्या में अंतिम दो अंकों का योग क्या होगा?</p>",
+        "op_en": [
+            "8",
+            "14",
+            "10",
+            "12"
+        ],
+        "op_hi": [
+            "8",
+            "14",
+            "10",
+            "12"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें Number के Digits को दी गई शर्त के अनुसार बदलना है।</p><p>Original Number: 956327<br>Rule: Even (सम) अंक + 2, Odd (विषम) अंक - 1</p><p>9 (Odd) - 1 = 8<br>5 (Odd) - 1 = 4<br>6 (Even) + 2 = 8<br>3 (Odd) - 1 = 2<br>2 (Even) + 2 = 4<br>7 (Odd) - 1 = 6</p><p>New Number बना: 848246</p><p>सवाल में अंतिम दो अंकों (last two digits) का Sum (योग) पूछा है:<br>अंतिम दो अंक 4 और 6 हैं।<br>4 + 6 = 10</p><p><b>Options Analysis:</b><br>Option 1 (8): गलत।<br>Option 2 (14): गलत।<br>Option 3 (10): यह हमारा निकाला गया सही योग है, अतः सही है।<br>Option 4 (12): गलत।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>98 is related to 33 following a certain logic. Following the same logic, 77 is related to 26. To which of the following is 134 related, following the same logic?</p><p>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)</p>",
+        "q_hi": "<p>98 एक निश्चित तर्क के अनुसार 33 से संबंधित है। उसी तर्क का पालन करते हुए, 77, 26 से संबंधित है। समान तर्क का पालन करते हुए, निम्नलिखित में से कौन 134 से संबंधित है?</p><p>(नोट: संक्रियाएं पूर्ण संख्याओं पर की जानी चाहिए, संख्याओं को उनके घटक अंकों में तोड़े बिना। उदाहरण के लिए 13 – 13 पर संक्रियाएं जैसे 13 में जोड़ना/घटाना/गुणा करना आदि किया जा सकता है। 13 को 1 और 3 में तोड़ना और फिर 1 और 3 पर गणितीय संक्रियाएं करने की अनुमति नहीं है।)</p>",
+        "op_en": [
+            "45",
+            "55",
+            "35",
+            "15"
+        ],
+        "op_hi": [
+            "45",
+            "55",
+            "35",
+            "15"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। Number Analogy में हमें संबंध (Logic) पता करना है।</p><p>उलटा करके देखते हैं, 33 से 98 कैसे बना?<br>33 &times; 3 - 1 = 99 - 1 = 98</p><p>26 से 77 कैसे बना?<br>26 &times; 3 - 1 = 78 - 1 = 77</p><p>Pattern: <b>(Second Number &times; 3) - 1 = First Number</b><br>या <b>(First Number + 1) / 3 = Second Number</b></p><p>तो 134 के लिए:<br>(134 + 1) / 3 = 135 / 3 = 45</p><p><b>Options Analysis:</b><br>Option 1 (45): हमारे Logic के अनुसार एकदम सही है।<br>Option 2 (55): गलत है।<br>Option 3 (35): गलत है।<br>Option 4 (15): गलत है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>If ‘A’ stands for ‘&divide;’, ‘B’ stands for ‘&times;’, ‘C’ stands for ‘+’ and ‘D’ stands for ‘&minus;’, then what will come in place of the question mark (?) in the following equation?</p><p>54  D  16  C  132  A  11  B  9  =  ?</p>",
+        "q_hi": "<p>यदि ‘A’ का अर्थ ‘÷’ है, ‘B’ का अर्थ ‘×’ है, ‘C’ का अर्थ ‘+’ है और ‘D’ का अर्थ ‘−’ है, तो निम्नलिखित समीकरण में प्रश्न चिह्न (?) के स्थान पर क्या आएगा?</p><br><p>54  D  16  C  132  A  11  B  9  =  ?</p>",
+        "op_en": [
+            "145",
+            "146",
+            "147",
+            "144"
+        ],
+        "op_hi": [
+            "145",
+            "146",
+            "147",
+            "144"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। BODMAS Rule का एक और बेहतरीन सवाल।</p><p>Equation: 54 D 16 C 132 A 11 B 9 = ?<br>Signs बदलिए: 54 - 16 + 132 &divide; 11 &times; 9</p><p>BODMAS लगाते हैं:<br>Divide: 54 - 16 + 12 &times; 9<br>Multiply: 54 - 16 + 108<br>Add/Subtract: (54 + 108) - 16 = 162 - 16 = 146</p><p><b>Options Analysis:</b><br>Option 1 (145): गलत Calculation।<br>Option 2 (146): सही नियम लगाने पर 146 आता है, यह सही है।<br>Option 3 (147): गलत।<br>Option 4 (144): गलत।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>What should come in place of the question mark (?) in the given series based on the English alphabetical order?</p><p>FGI        JKM         NOQ         RSU        ?</p>",
+        "q_hi": "<p>अंग्रेजी वर्णमाला क्रम के आधार पर दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए?</p><p>FGI        JKM         NOQ         RSU        ?</p>",
+        "op_en": [
+            "VWY",
+            "WXY",
+            "VWX",
+            "VWZ"
+        ],
+        "op_hi": [
+            "VWY",
+            "WXY",
+            "VWX",
+            "VWZ"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। Letter Series में हम position values के बीच का अंतर देखते हैं।</p><p>Series: FGI -> JKM -> NOQ -> RSU -> ?</p><p>First Letters: F (+4) -> J (+4) -> N (+4) -> R (+4) -> <b>V</b><br>Second Letters: G (+4) -> K (+4) -> O (+4) -> S (+4) -> <b>W</b><br>Third Letters: I (+4) -> M (+4) -> Q (+4) -> U (+4) -> <b>Y</b></p><p>इस प्रकार हमारा अगला पद <b>VWY</b> होगा।</p><p><b>Options Analysis:</b><br>Option 1 (VWY): Pattern follow करता है, सही उत्तर है।<br>Option 2 (WXY): गलत पद है।<br>Option 3 (VWX): गलत पद है।<br>Option 4 (VWZ): गलत पद है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on the first number results in the second number. Similarly, certain mathematical operations on the second number result in the third number, and so on. Which of the given options follows the same set of operations as in the question?</p><p>(NOTE &ndash; A two/three-digit number cannot be broken into individual digits for operations e.g. if 37 is followed by 10, the operation cannot be 3+7 as a two-digit number cannot be broken into individual digits)</p><p>3 &ndash; 9 &ndash; 27 &ndash; 81; 4 &ndash; 16 &ndash; 64 &ndash; 256</p>",
+        "q_hi": "<p>नीचे संख्याओं के दो सेट दिए गए हैं। संख्याओं के प्रत्येक सेट में, पहली संख्या पर एक निश्चित गणितीय संक्रिया का परिणाम दूसरी संख्या होता है। इसी तरह, दूसरी संख्या पर कुछ गणितीय संक्रियाओं का परिणाम तीसरी संख्या होता है, और इसी तरह। दिए गए विकल्पों में से कौन सा प्रश्न के समान संक्रियाओं के सेट का अनुसरण करता है?</p><p>(नोट – एक दो/तीन-अंकीय संख्या को संक्रियाओं के लिए अलग-अलग अंकों में नहीं तोड़ा जा सकता है, उदाहरण के लिए यदि 37 के बाद 10 है, तो संक्रिया 3+7 नहीं हो सकती क्योंकि दो-अंकीय संख्या को अलग-अलग अंकों में नहीं तोड़ा जा सकता है)</p><p>3 &ndash; 9 &ndash; 27 &ndash; 81; 4 &ndash; 16 &ndash; 64 &ndash; 256</p>",
+        "op_en": [
+            "2 &ndash; 4 &ndash; 16 &ndash; 32",
+            "7 &ndash; 14 &ndash; 21 &ndash; 84",
+            "5 &ndash; 15 &ndash; 25 &ndash; 625",
+            "6 &ndash; 36 &ndash; 216 &ndash; 1296"
+        ],
+        "op_hi": [
+            "2 &ndash; 4 &ndash; 16 &ndash; 32",
+            "7 &ndash; 14 &ndash; 21 &ndash; 84",
+            "5 &ndash; 15 &ndash; 25 &ndash; 625",
+            "6 &ndash; 36 &ndash; 216 &ndash; 1296"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें दिए गए Numbers के Set में Pattern समझना है।</p><p>Set 1: 3 - 9 - 27 - 81<br>यहाँ 3 को 3 से गुणा किया गया है (3 &times; 3 = 9, 9 &times; 3 = 27, 27 &times; 3 = 81)। अर्थात् हर संख्या को पहली संख्या (3) से गुणा किया जा रहा है।</p><p>Set 2: 4 - 16 - 64 - 256<br>यहाँ हर पद को पहली संख्या (4) से गुणा किया जा रहा है (4 &times; 4 = 16, 16 &times; 4 = 64, 64 &times; 4 = 256)।</p><p>General Pattern: <b>x - (x &times; x) - (x&amp;sup2; &times; x) - (x&amp;sup3; &times; x)</b> या सरल भाषा में Base Number की powers: x&amp;sup1;, x&amp;sup2;, x&amp;sup3;, x⁴.</p><p><b>Options Analysis:</b><br>Option 1 (2 - 4 - 16 - 32): 4 &times; 2 = 8 होना चाहिए, लेकिन 16 है। गलत।<br>Option 2 (7 - 14 - ...): 7 &times; 7 = 49 होना चाहिए, लेकिन 14 है। गलत।<br>Option 3 (5 - 15 - ...): 5 &times; 5 = 25 होना चाहिए, लेकिन 15 है। गलत।<br>Option 4 (6 - 36 - 216 - 1296): 6&amp;sup1;=6, 6&amp;sup2;=36, 6&amp;sup3;=216, 6⁴=1296. यह Pattern को पूरी तरह Follow करता है, अतः यह सही है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>Below are given two sets of numbers. In each set of numbers, a certain mathematical operation on the first number results in the second number. Similarly, certain mathematical operation on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the question?</p><p>(NOTE &ndash; A two/three-digit number cannot be broken into individual digits for operations e.g. if 37 is followed by 10, the operation cannot be 3+7 as a two-digit number cannot be broken into individual digits)</p><p>10 - 5 - 25 - 30    ; 4 - 2 - 4 - 6</p>",
+        "q_hi": "<p>नीचे संख्याओं के दो सेट दिए गए हैं। संख्याओं के प्रत्येक सेट में, पहली संख्या पर एक निश्चित गणितीय संक्रिया का परिणाम दूसरी संख्या होता है। इसी तरह, दूसरी संख्या पर एक निश्चित गणितीय संक्रिया का परिणाम तीसरी संख्या होता है और इसी तरह। दिए गए विकल्पों में से कौन सा प्रश्न के समान संक्रियाओं के सेट का अनुसरण करता है?</p><p>(नोट – एक दो/तीन-अंकीय संख्या को संक्रियाओं के लिए अलग-अलग अंकों में नहीं तोड़ा जा सकता है, उदाहरण के लिए यदि 37 के बाद 10 है, तो संक्रिया 3+7 नहीं हो सकती क्योंकि दो-अंकीय संख्या को अलग-अलग अंकों में नहीं तोड़ा जा सकता है)</p><p>10 - 5 - 25 - 30    ; 4 - 2 - 4 - 6</p>",
+        "op_en": [
+            "14 - 7 - 49 - 55",
+            "12 - 6 - 36 - 40",
+            "6 - 3 - 9 - 18",
+            "20 - 10 - 100 - 110"
+        ],
+        "op_hi": [
+            "14 - 7 - 49 - 55",
+            "12 - 6 - 36 - 40",
+            "6 - 3 - 9 - 18",
+            "20 - 10 - 100 - 110"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह एक बहुत ही बेहतरीन Pattern का सवाल है।</p><p>Set 1: 10 - 5 - 25 - 30<br>10 &divide; 2 = 5<br>5 &times; 5 = 25 (यानी 5 का square)<br>25 + 5 = 30</p><p>Set 2: 4 - 2 - 4 - 6<br>4 &divide; 2 = 2<br>2 &times; 2 = 4 (यानी 2 का square)<br>4 + 2 = 6</p><p>Pattern: <b>x,  (x&divide;2),  (x&divide;2)&amp;sup2;,  (x&divide;2)&amp;sup2; + (x&divide;2)</b></p><p>अब Options को इसी Rule पर चेक करते हैं:<br>Option 4: 20 - 10 - 100 - 110<br>20 &divide; 2 = 10<br>10&amp;sup2; = 100<br>100 + 10 = 110<br>यह पूरी तरह से Match कर गया!</p><p><b>Options Analysis:</b><br>Option 1: 7&amp;sup2; = 49, 49+7=56 होना चाहिए, 55 है। गलत।<br>Option 2: 6&amp;sup2; = 36, 36+6=42 होना चाहिए, 40 है। गलत।<br>Option 3: 3&amp;sup2; = 9, 9+3=12 होना चाहिए, 18 है। गलत।<br>Option 4: Pattern बिलकुल सही लगा है, यह सही उत्तर है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "level": "",
+        "q_en": "<p>What should come in place of the question mark (?) in the given series based on the English alphabetical order?</p><p>BJP          CLS            DNV          EPY         ?</p>",
+        "q_hi": "<p>अंग्रेजी वर्णमाला क्रम के आधार पर दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए?</p><p>BJP          CLS            DNV          EPY         ?</p>",
+        "op_en": [
+            "FQA",
+            "FRB",
+            "FQB",
+            "FRA"
+        ],
+        "op_hi": [
+            "FQA",
+            "FRB",
+            "FQB",
+            "FRA"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। Letter Series में अलग-अलग Position के letters का Pattern देखते हैं।</p><p>Series: BJP -> CLS -> DNV -> EPY -> ?</p><p>First Letters: B (+1) -> C (+1) -> D (+1) -> E (+1) -> <b>F</b><br>Second Letters: J (+2) -> L (+2) -> N (+2) -> P (+2) -> <b>R</b><br>Third Letters: P (+3) -> S (+3) -> V (+3) -> Y (+3) -> <b>B</b> (Y के बाद Z, A, B)</p><p>तो अगला शब्द बनेगा: <b>FRB</b></p><p><b>Options Analysis:</b><br>Option 1 (FQA): Pattern match नहीं कर रहा है।<br>Option 2 (FRB): यह हमने Step-by-step निकाला है, यही सही उत्तर है।<br>Option 3 (FQB): गलत।<br>Option 4 (FRA): गलत।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Water Image",
+        "level": "Easy",
+        "q_en": "If the water source is placed along X-Y, as shown in the figure, which of the following options will be the water reflection of the given figure?<br><br><img loading=\"lazy\" src=\"data:image/png;base64,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\" style=\"max-width:100%;height:auto;\">",
+        "q_hi": "<p>यदि जल स्रोत को X-Y के अनुदिश रखा गया है, जैसा कि चित्र में दिखाया गया है, तो निम्नलिखित में से कौन सा विकल्प दी गई आकृति का जल प्रतिबिंब होगा?<br><br><img loading=\"lazy\" src=\"data:image/png;base64,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\" style=\"max-width:100%;height:auto;\">",
+
+        "op_en": [
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABGCAYAAABbnhMrAAADwElEQVR42u2cDW4iMQxGLXXVlZC6Z+AGcAO4CUfpETgSR9tVkFx5wyRjx58zATJSpKo/wLz4OR5PpvR3Hq6DJoIJcAKcACdA/3G73e7jfD7/DCL6Gfy97+/v+5gAM2gSlnYw0LcEmE6cQfz6+Pjv6zR+f34WB/+OhPmsIM0AL5fLHQLDYih/vr7MY7fbPcB8NpAmgMfj8X6SrcBKgydEqu09ek0EaXMdn1yKGiS8WjSm9/Wkl9a/hwKUuQ4deSWQ/F4tSsvJRkSyCyB/GM510fByrTkaLZGUr/SbAuRISCfSE95SbrSoK+vQaI2Ln0zWdlF5z6L0mo4y1Uh7ojWm2ofZQt1SJKZRyocSnvydHhpTLY9spW5phV6CIReNHHAPjakWfVuqWwJYgrQUnT00ptGjLw2Gl6/KctFYW5W7ABwt9+VDFtj5orG2GEZpTKWVdzR4sqzZ7/fqa+dojWl0fZdWY2vjwXtpqALISqTZReqLXIjkYpK6QtojUmOKXn2RhbgEaFEyUmOKzH98FYF6TdmpscKI0vgBIDL/5Z1qxGQkdVsARmlMUQtIrpunc82TwXmvpbaL0jgMoIw+zrGt9SV3hLzFcYTGDwARK7DMfbLUYI0s78GvJU+6FWCExiE5kCMtP0nrrQGGd71eISpGaBwCsFboykswzUScTicoBLTG8DKm1nqyTBZHcWkCWu+6oTWmpfsfnsK31HZaiqLSylyChwCI1pi0J+Xt22m73mvRi2hPITUmq1re6Ct1fzS7EzT9v94aU2mVRC8ea/dwNX/r1TdCY7LkJu193JZdBBowyO4ySmPylBkefXOltLctUXteUBpT7Ya6Ngo1pcuaUrUT0bbvt9AYcl/YE32WaEG/PkLj1Z0JaxC90afNkRHNUITGpJmh2v4YBhwRfRHqojVW7c6SEPOrlKgTlPBCdxY438O0PzA1NHkTpNQXHX2W0mZrjc07VLm7HLEHL9/x32OHqbu70zJbaRwOB1juy8H12FmK0pg8eqWR+nWezkj+jMkWu/T5M7RMHHlzVH7yaSwVxvw9+TTTKM+JeDQmT8gzMM+TSmtXIaNr7FJ46WcMtPSs3EjQEBqTJ/pe6WjVmFDR9wpHi8ZNAF8t+jwa04w+n8Y0o8+nMbW88Ggr6JYak1Xf2pPncjwrZKvGaoC1Gk9bNOegR41mS4eGEDPGjx14IY8SzRaNqacaKNDR0WzRmEbLP6NA1mr8lEVdD9BajV+2KkZBfluASNA1jef/zlJCngCjLv0mgglwApwA3/j4B/QFuR13smrrAAAAAElFTkSuQmCC\" style=\"max-width:100%;height:auto;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABGCAYAAABmDHJNAAADzElEQVR42u2cAW4iMQxFI3XVlZC64ggcgRvAzTgCR+JorIzkyrhJxo7tTGaakaK2UAJ5+d9xMgnpOS/VlSaCCWwCm8AGuh6Px6vcbrdXuV6v3yWl9Crw/O6BIYgcDAQhLZtXmEQV0kJfC3Vh3VgXPDYsME9VcBAUBrVYMVZl7NgVGIcRoQoJCOlnzdnRBVhNFVoYVlV4XfC+OTuKgW1BFa6pQ8GOYmA1QKOowjN0lOyoUhilvkUQHnZUxbDSMLu7TL5iRxWwJanuSV21NqpajyrbqyWX7KgGhioDcL/Rjk152F5VJrFjE7CSyugcLJer8dRji3ZszvQRxv1+f5uotiSzo8CT2LEZGB0xaeNPp9Pz7+fn88/Hx+sx+Al/8wKP0/9ZO12R2rEJGK0cCgCgv0M5HA7Pf19fokIBrwVOasfmtAIKqAl/hwZLAZWgcbWuYUfR/2otCI1Bn1NlWYBBAVVCXefzWRxPPNUl7aSksSCXLFWcJ7TL5dLNoho7LgKjyspVSJ/3AIbQwOIUWqTStNO9JKmsRp+qzAMYFg5tBDtWgUlXJ1BlOEJ6AeP2jBgItHYsAtOSt6qslIYgtKilpRb1plYreqkMoZSg8TxtTTtmgbXI1KIygHE8HquvA2iY93mprLWdyUOmrSrj6qklwDSx9Rg1W9uZPKi3qAytyKdZJdj4nAewVjv+AGYNrhqVgZqozSSv9Zo6WYSRPGSaq2MpJuUCOTYEVzlqscyiMks7k5cdc1OpXKO5FTXTLQ9bWuwYAmxpUk4z+NJ7UWg83bDa0trOFLFWX1KJNKfiC5QcuEkhxrATAiw3KV+yYs3aNN1AS7YAs9rxDZh3Js1TDIkVSw2kIyeNY73tGAqMpgl0DV/7HggeR05c/mlKOj2ygChgXGWWBUFqTXofobcdw2JYKXhbE2IaF7UN98oCQoFxlXnld02rDE4OCgeG6vDI72r3F3rY8Q1Y5EYTz07AqRH87G3HbsAiVklVd3ocB7TsasWoO3NQKZp7l552/AFsdJVRa9F4VoPmaccisFFVxq2Fjqh1sHd+maIlHKEu6aKnt7qywGivjKKy2nak2t35bsBGU9nS0nkplERM98x3vnupa6nzuAoj1FUFRntoLWianYF8EFgF2NLunV6wNLGUr5C4j9RR87c15ow9OrlpB2IUOL4j23pnaDVgObl7fhgOymN0jupU8y5qy0GF3B7/0U/LJY84w+HlzlTSQ6e5kyJbOVaYPKRvOQmytQOrruNu7asT6BmkLZ/qnd+9M4FNYBPYBDaBzWsCc7r+A0pmksosrRvVAAAAAElFTkSuQmCC\" style=\"max-width:100%;height:auto;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAABGCAYAAABi+aJwAAADbklEQVR42u2ci2kDMQyGBS0tBFoyQkbIBslmGSEjZbQWBVRU46ce9vniA1How8l9/n9J9jmFn3WJLlgIFrgFboFb4NblCu7xeDzjer3+BQD8BX3vdrs946XBcVgcUm0QyJcChzccUxTBxIhBJsWFEGcCCFbAQkgtY4XjzQCwGRy3pAZYaUJwbIvxhoNDQF7Awpvlk6NRsubvTcBxJfSykeY1w0keAo6/id65h8NrUQ79zfvb2/PrEHCjEzaH1/L7nx8faruLwVGuGV3lCEbJdhwyqg3hYXjYFbRvttdVmsSwpTkcDj/fX19NajUBt7Weiufa3M84NAzKc9Z2hdzsba0RTamOvk/2JGgYXnaFnNq2dnFlkYJ4MQihUXjcD8yitlBdtOYlaKi2GDRSnbVdYauVtKS60+n0r4KmoHnZFWaxaWq9HBaDVFj3dNDLppazfTwek8Wgl127gLNccNNYLdA87AqpxGtagZitLKDlKmgvu7qDi216aluRUjHoYVfwLgyxLXLJG28tBt52dQUXQuM7FtIqKoVmbddu4PCGERz1X7WzLi0G3nZ1zXGxnNRiWWtoBA7H09rVDRy/aW4vyjMl1VExKC2nRtnVDVyuAnLLpnpGbQWtKRJm4GiWtTJOqS0267GJCnOjNTgcU3ufLuBq1JKyrDc0K7tCbtvGe0kUWtajGHjZFVJJWao6bsGWmee9njc0/tri+6zZZZWsJWuTOresRwX16umyzxxaZ0O6LMIbwK2intBcwHEItYOGzzQltvEsBrnXPZ/PduBaVVfTgpRahN7QNEXC5Em+Vm2jQ2JXk7MjWrWNDmqLTMHVnFaaWW1Su6rPx82uNqldxScyCWBrw7t11ZmDi+3GXi6XbkukranO5NT5qB5sZJEQ75PP3oJo7SoGx6HtQW2tdoWlNpldYakt/jDHHNye1dZiVzG4Paqtxa6gaUP2CI0/zDEHt5eGt2TX+/1uAy5sehEgBfVAOFsUe+7pQLNa4IE5gSoSRQrwDHBLdm0CRxH7vH1N4BY1Ak6B5VC3Xl1NjiaFHxmXwuWK3QLQXHXterxcA3gE0Fye29y5/Fa4NbbXgE3Zddp/2JICjHk0VpRiYEO4IeDc4Zxd/6ebGFwES3DDLoAD5p+wfjlwlukhtOsC1wB3gTO4FrgFboGb4voFqz4FwXwqjocAAAAASUVORK5CYII=\" style=\"max-width:100%;height:auto;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABDCAYAAAAPplKlAAADrElEQVR42u2cgYnrMAyGA/e4B4U7OkJH6AbtJh2lI3SkjvYeCqgIYcuyLSmJE4PgytE4+fL/lmynmf4dzaRNB4ID5AHyALmD9n6/53g+n3Pc7/dPTNM0B/x/tyAREIV0vV7nADh/v7/n+PP19QkExz8Pq8icihASgsoBQogQp9PpE78/P3PgZ/gOHH9zIFMq4jajgbAoqBQkBFQbOVsvCpJDSo1FuZCA9YCSAo4L/YQlG0lFGkg16vIAlgvo//F42IJsURGPy+UyR0ld0cAkkK/XyxakBI4DopCkAX4NsFpt3aVIDlDKgGuGpFWjC0iqSoS2dVg9tu4CyVU5KkSNrbuz9h5UCRBvt5svSFQlJJdRVQnXVbK1SR2JqsREs0dbm4CkqhwNZKkIN5/Z0LpyhHJHM7d2AUkz+CiqrLG1CUiYKvLifG+2Nit/aOYeoRSqVaPJFBFg4jgyiio1U8JukNTKfLV4lAK91tbVIKkSU0vuI0wbW2xdDVKCOIoqASLs9biBREASxK2XQqUNrm6QOC4CzNps3gJzqaK+1dZqkBpLW00bURVLwGy1tQokqrFW7lSVtRdzPp/DkxWqscXWKpDS0wUaVdYkHboRhn9HqrHlOlUgW9XYokq0NN+SjUpYNTmgGqQ2U1uoEhSB00zoD78bsc7Za+siyFZbp44hqZLvbadmUZ4we20tguy1NT9OTpXc0rlpp1cmRzX22DoEJFVlKnng5pLUF93O8FAj3ODe65xK46N2hbilQM9Z2qICiLR1GMjUtLFk6dohYklbiyAtEo1UCmksnYNplclRjSbDVxRIqkrNo8QRG22W1xgGMvcUW9NKi8Gap6Wtw8bI3MJvb6Hfk8ktbR0OkqvSsz6NtPUiIFFNFkpoTT7WthZB4gVbdkaPbdVwfl4zjbS29WIgLRtPXppM7pFIVas/1va2amht+sOkUib3sHUR5NpVSdcDaPKRMrmHrdUg16pKbtHSVjCdlpqfi/aur02VudUp6cFXiwXcZpD0zq9FlXTBt1T0U5hetlaDXJsqS1sgHCb+3sdqyawZpObko9VYuqlUtWhzL1tXgaQWXwqmZGnp5gNE73M3fRotCmLNWI0wMWO7VRA9FxQFs6fPqJtv8sSu1wlCP6WXcvSUSouDTC2JWZ4kB2hRLXi7x/xXDThdswC4hiohDGQOKIWKr2bg0DBSbyHYCkBzkBRoy6sZ6C8k1rraFAqSQ829Yoa+D2Or8MJA7qkdIA+QB8gh238x9pWLB7egXQAAAABJRU5ErkJggg==\" style=\"max-width:100%;height:auto;\">"
+        ],
+        "op_hi": [
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABGCAYAAABbnhMrAAADwElEQVR42u2cDW4iMQxGLXXVlZC6Z+AGcAO4CUfpETgSR9tVkFx5wyRjx58zATJSpKo/wLz4OR5PpvR3Hq6DJoIJcAKcACdA/3G73e7jfD7/DCL6Gfy97+/v+5gAM2gSlnYw0LcEmE6cQfz6+Pjv6zR+f34WB/+OhPmsIM0AL5fLHQLDYih/vr7MY7fbPcB8NpAmgMfj8X6SrcBKgydEqu09ek0EaXMdn1yKGiS8WjSm9/Wkl9a/hwKUuQ4deSWQ/F4tSsvJRkSyCyB/GM510fByrTkaLZGUr/SbAuRISCfSE95SbrSoK+vQaI2Ln0zWdlF5z6L0mo4y1Uh7ojWm2ofZQt1SJKZRyocSnvydHhpTLY9spW5phV6CIReNHHAPjakWfVuqWwJYgrQUnT00ptGjLw2Gl6/KctFYW5W7ABwt9+VDFtj5orG2GEZpTKWVdzR4sqzZ7/fqa+dojWl0fZdWY2vjwXtpqALISqTZReqLXIjkYpK6QtojUmOKXn2RhbgEaFEyUmOKzH98FYF6TdmpscKI0vgBIDL/5Z1qxGQkdVsARmlMUQtIrpunc82TwXmvpbaL0jgMoIw+zrGt9SV3hLzFcYTGDwARK7DMfbLUYI0s78GvJU+6FWCExiE5kCMtP0nrrQGGd71eISpGaBwCsFboykswzUScTicoBLTG8DKm1nqyTBZHcWkCWu+6oTWmpfsfnsK31HZaiqLSylyChwCI1pi0J+Xt22m73mvRi2hPITUmq1re6Ct1fzS7EzT9v94aU2mVRC8ea/dwNX/r1TdCY7LkJu193JZdBBowyO4ySmPylBkefXOltLctUXteUBpT7Ya6Ngo1pcuaUrUT0bbvt9AYcl/YE32WaEG/PkLj1Z0JaxC90afNkRHNUITGpJmh2v4YBhwRfRHqojVW7c6SEPOrlKgTlPBCdxY438O0PzA1NHkTpNQXHX2W0mZrjc07VLm7HLEHL9/x32OHqbu70zJbaRwOB1juy8H12FmK0pg8eqWR+nWezkj+jMkWu/T5M7RMHHlzVH7yaSwVxvw9+TTTKM+JeDQmT8gzMM+TSmtXIaNr7FJ46WcMtPSs3EjQEBqTJ/pe6WjVmFDR9wpHi8ZNAF8t+jwa04w+n8Y0o8+nMbW88Ggr6JYak1Xf2pPncjwrZKvGaoC1Gk9bNOegR41mS4eGEDPGjx14IY8SzRaNqacaKNDR0WzRmEbLP6NA1mr8lEVdD9BajV+2KkZBfluASNA1jef/zlJCngCjLv0mgglwApwA3/j4B/QFuR13smrrAAAAAElFTkSuQmCC\" style=\"max-width:100%;height:auto;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABGCAYAAABmDHJNAAADzElEQVR42u2cAW4iMQxFI3XVlZC64ggcgRvAzTgCR+JorIzkyrhJxo7tTGaakaK2UAJ5+d9xMgnpOS/VlSaCCWwCm8AGuh6Px6vcbrdXuV6v3yWl9Crw/O6BIYgcDAQhLZtXmEQV0kJfC3Vh3VgXPDYsME9VcBAUBrVYMVZl7NgVGIcRoQoJCOlnzdnRBVhNFVoYVlV4XfC+OTuKgW1BFa6pQ8GOYmA1QKOowjN0lOyoUhilvkUQHnZUxbDSMLu7TL5iRxWwJanuSV21NqpajyrbqyWX7KgGhioDcL/Rjk152F5VJrFjE7CSyugcLJer8dRji3ZszvQRxv1+f5uotiSzo8CT2LEZGB0xaeNPp9Pz7+fn88/Hx+sx+Al/8wKP0/9ZO12R2rEJGK0cCgCgv0M5HA7Pf19fokIBrwVOasfmtAIKqAl/hwZLAZWgcbWuYUfR/2otCI1Bn1NlWYBBAVVCXefzWRxPPNUl7aSksSCXLFWcJ7TL5dLNoho7LgKjyspVSJ/3AIbQwOIUWqTStNO9JKmsRp+qzAMYFg5tBDtWgUlXJ1BlOEJ6AeP2jBgItHYsAtOSt6qslIYgtKilpRb1plYreqkMoZSg8TxtTTtmgbXI1KIygHE8HquvA2iY93mprLWdyUOmrSrj6qklwDSx9Rg1W9uZPKi3qAytyKdZJdj4nAewVjv+AGYNrhqVgZqozSSv9Zo6WYSRPGSaq2MpJuUCOTYEVzlqscyiMks7k5cdc1OpXKO5FTXTLQ9bWuwYAmxpUk4z+NJ7UWg83bDa0trOFLFWX1KJNKfiC5QcuEkhxrATAiw3KV+yYs3aNN1AS7YAs9rxDZh3Js1TDIkVSw2kIyeNY73tGAqMpgl0DV/7HggeR05c/mlKOj2ygChgXGWWBUFqTXofobcdw2JYKXhbE2IaF7UN98oCQoFxlXnld02rDE4OCgeG6vDI72r3F3rY8Q1Y5EYTz07AqRH87G3HbsAiVklVd3ocB7TsasWoO3NQKZp7l552/AFsdJVRa9F4VoPmaccisFFVxq2Fjqh1sHd+maIlHKEu6aKnt7qywGivjKKy2nak2t35bsBGU9nS0nkplERM98x3vnupa6nzuAoj1FUFRntoLWianYF8EFgF2NLunV6wNLGUr5C4j9RR87c15ow9OrlpB2IUOL4j23pnaDVgObl7fhgOymN0jupU8y5qy0GF3B7/0U/LJY84w+HlzlTSQ6e5kyJbOVaYPKRvOQmytQOrruNu7asT6BmkLZ/qnd+9M4FNYBPYBDaBzWsCc7r+A0pmksosrRvVAAAAAElFTkSuQmCC\" style=\"max-width:100%;height:auto;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAABGCAYAAABi+aJwAAADbklEQVR42u2ci2kDMQyGBS0tBFoyQkbIBslmGSEjZbQWBVRU46ce9vniA1How8l9/n9J9jmFn3WJLlgIFrgFboFb4NblCu7xeDzjer3+BQD8BX3vdrs946XBcVgcUm0QyJcChzccUxTBxIhBJsWFEGcCCFbAQkgtY4XjzQCwGRy3pAZYaUJwbIvxhoNDQF7Awpvlk6NRsubvTcBxJfSykeY1w0keAo6/id65h8NrUQ79zfvb2/PrEHCjEzaH1/L7nx8faruLwVGuGV3lCEbJdhwyqg3hYXjYFbRvttdVmsSwpTkcDj/fX19NajUBt7Weiufa3M84NAzKc9Z2hdzsba0RTamOvk/2JGgYXnaFnNq2dnFlkYJ4MQihUXjcD8yitlBdtOYlaKi2GDRSnbVdYauVtKS60+n0r4KmoHnZFWaxaWq9HBaDVFj3dNDLppazfTwek8Wgl127gLNccNNYLdA87AqpxGtagZitLKDlKmgvu7qDi216aluRUjHoYVfwLgyxLXLJG28tBt52dQUXQuM7FtIqKoVmbddu4PCGERz1X7WzLi0G3nZ1zXGxnNRiWWtoBA7H09rVDRy/aW4vyjMl1VExKC2nRtnVDVyuAnLLpnpGbQWtKRJm4GiWtTJOqS0267GJCnOjNTgcU3ufLuBq1JKyrDc0K7tCbtvGe0kUWtajGHjZFVJJWao6bsGWmee9njc0/tri+6zZZZWsJWuTOresRwX16umyzxxaZ0O6LMIbwK2intBcwHEItYOGzzQltvEsBrnXPZ/PduBaVVfTgpRahN7QNEXC5Em+Vm2jQ2JXk7MjWrWNDmqLTMHVnFaaWW1Su6rPx82uNqldxScyCWBrw7t11ZmDi+3GXi6XbkukranO5NT5qB5sZJEQ75PP3oJo7SoGx6HtQW2tdoWlNpldYakt/jDHHNye1dZiVzG4Paqtxa6gaUP2CI0/zDEHt5eGt2TX+/1uAy5sehEgBfVAOFsUe+7pQLNa4IE5gSoSRQrwDHBLdm0CRxH7vH1N4BY1Ak6B5VC3Xl1NjiaFHxmXwuWK3QLQXHXterxcA3gE0Fye29y5/Fa4NbbXgE3Zddp/2JICjHk0VpRiYEO4IeDc4Zxd/6ebGFwES3DDLoAD5p+wfjlwlukhtOsC1wB3gTO4FrgFboGb4voFqz4FwXwqjocAAAAASUVORK5CYII=\" style=\"max-width:100%;height:auto;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABDCAYAAAAPplKlAAADrElEQVR42u2cgYnrMAyGA/e4B4U7OkJH6AbtJh2lI3SkjvYeCqgIYcuyLSmJE4PgytE4+fL/lmynmf4dzaRNB4ID5AHyALmD9n6/53g+n3Pc7/dPTNM0B/x/tyAREIV0vV7nADh/v7/n+PP19QkExz8Pq8icihASgsoBQogQp9PpE78/P3PgZ/gOHH9zIFMq4jajgbAoqBQkBFQbOVsvCpJDSo1FuZCA9YCSAo4L/YQlG0lFGkg16vIAlgvo//F42IJsURGPy+UyR0ld0cAkkK/XyxakBI4DopCkAX4NsFpt3aVIDlDKgGuGpFWjC0iqSoS2dVg9tu4CyVU5KkSNrbuz9h5UCRBvt5svSFQlJJdRVQnXVbK1SR2JqsREs0dbm4CkqhwNZKkIN5/Z0LpyhHJHM7d2AUkz+CiqrLG1CUiYKvLifG+2Nit/aOYeoRSqVaPJFBFg4jgyiio1U8JukNTKfLV4lAK91tbVIKkSU0vuI0wbW2xdDVKCOIoqASLs9biBREASxK2XQqUNrm6QOC4CzNps3gJzqaK+1dZqkBpLW00bURVLwGy1tQokqrFW7lSVtRdzPp/DkxWqscXWKpDS0wUaVdYkHboRhn9HqrHlOlUgW9XYokq0NN+SjUpYNTmgGqQ2U1uoEhSB00zoD78bsc7Za+siyFZbp44hqZLvbadmUZ4we20tguy1NT9OTpXc0rlpp1cmRzX22DoEJFVlKnng5pLUF93O8FAj3ODe65xK46N2hbilQM9Z2qICiLR1GMjUtLFk6dohYklbiyAtEo1UCmksnYNplclRjSbDVxRIqkrNo8QRG22W1xgGMvcUW9NKi8Gap6Wtw8bI3MJvb6Hfk8ktbR0OkqvSsz6NtPUiIFFNFkpoTT7WthZB4gVbdkaPbdVwfl4zjbS29WIgLRtPXppM7pFIVas/1va2amht+sOkUib3sHUR5NpVSdcDaPKRMrmHrdUg16pKbtHSVjCdlpqfi/aur02VudUp6cFXiwXcZpD0zq9FlXTBt1T0U5hetlaDXJsqS1sgHCb+3sdqyawZpObko9VYuqlUtWhzL1tXgaQWXwqmZGnp5gNE73M3fRotCmLNWI0wMWO7VRA9FxQFs6fPqJtv8sSu1wlCP6WXcvSUSouDTC2JWZ4kB2hRLXi7x/xXDThdswC4hiohDGQOKIWKr2bg0DBSbyHYCkBzkBRoy6sZ6C8k1rraFAqSQ829Yoa+D2Or8MJA7qkdIA+QB8gh238x9pWLB7egXQAAAABJRU5ErkJggg==\" style=\"max-width:100%;height:auto;\">"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। Water Image (जल प्रतिबिंब) के सवालों में हमेशा एक बात याद रखें: आकृति का ऊपर (Top) का भाग नीचे (Bottom) और नीचे का भाग ऊपर हो जाता है, जबकि दायां (Right) और बायां (Left) हिस्सा अपनी जगह पर ही रहता है।</p><p>प्रश्न आकृति को ध्यान से देखें:<br>1. इसमें एक वृत्त (Circle) है जो ऊपर बाईं (Top-Left) ओर है। जल प्रतिबिंब में यह नीचे बाईं (Bottom-Left) ओर आ जाएगा।<br>2. एक पहाड़ जैसी आकृति है जिसका नुकीला सिरा ऊपर की ओर है, प्रतिबिंब में यह सिरा नीचे की ओर होगा।</p><p><b>Options Analysis:</b><br>Option 1: इसमें वृत्त ऊपर ही है, जो गलत है।<br>Option 2: इसमें वृत्त नीचे बाईं ओर है और पहाड़ का नुकीला हिस्सा नीचे है। यह बिल्कुल सही Water Image है।<br>Option 3: इसमें पहाड़ पूरी तरह से काले रंग का कर दिया गया है, जो गलत है।<br>Option 4: इसमें भी रंग भर दिया गया है, जो मूल आकृति से मेल नहीं खाता।</p><p>इसलिए, सही उत्तर <b>विकल्प 2</b> है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Water Image",
+        "level": "Easy",
+        "q_en": "If the water source is placed along X-Y, as shown in the figure, which of the following options will be the water reflection of the given figure?<br><br><img loading=\"lazy\" src=\"data:image/png;base64,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\" style=\"max-width:100%;height:auto;\">",
+        "q_hi": "<p>यदि जल स्रोत को X-Y के अनुदिश रखा गया है, जैसा कि चित्र में दिखाया गया है, तो निम्नलिखित में से कौन सा विकल्प दी गई आकृति का जल प्रतिबिंब होगा?<br><br><img loading=\"lazy\" src=\"data:image/png;base64,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\" style=\"max-width:100%;height:auto;\">",
+
+        "op_en": [
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABrCAYAAAD6kOVNAAAEIklEQVR42u2d7WrkMAxFL3TpwkD7SjNvNo82jzaLCwbjTZpYvpIlx4Ewv5rIp8rxZ2K812F6YCFYwBfwdTgE/nq9wp7hgD8ejzeAkGeKPRTwlCFl8JHOHHdI4NaZwjiez+dP7Ok3DPCcKdYuZAK3TBawdBK21WAcP66qk1FawVV1EhJ4dJ2MKIf4LjPoZESWi4HPoJNQwGfRiXV5RHeYSSfWWS4CPpNOQgDPj99MwK20gqWT/59czSzH0omtVrB0YqsVRNdJykZmRmprBZF1khXABKStFUTVSQmbDV1TK4iokxr2389PKnRNrSCaTmrYt9vt/f319fPLgq6pFUTSyR7sfDKha2kFUXRyBJsNnV0vNAHPOhkF/CxsJnQtrTQBH6GTVtgs6FoT5PCskxL2n4+P07BZ0DXqLXjVSQ27BTQLuoZW4FEnLNi90DW0Am86ybBTZ4YBuxc6WyvwpBMt2D3Q2VqBF51ow5ZCZ2sFHnRiBVsKnakVjNaJNWwJdKZWMFInJex0WsFuhV62mlSAWyxDHg27FboJcC2deIHdAp2lFVjrJAeefO0B9lnorLclYKkTr7DPQmdwgZVOvMM+A52hFVjoJArsI+gMrUBbJ9FgH0Hv5QNNnUSF/Rv0Xq1gSyeMHlV02HvQe3vgm8B7oc8Cewt6Lx/81o1N/4DWyrP8+xlgp7NcaJTO+/3O72lKsn1W2DVwaoZLFTMb7BpyXWmKJ6ZbsnZPMVeBvVXeVuinV17tZftMsFPlmCv6ozpMCh3SCjEFMxPso6xmQRe/VFUvF44OO2W2JGNboaOnnV2uHYnakywV0rsO8cw10HPx1B4ts1yyHC2SQhjQ0XvRukKNoJhaIayR0TPQwbpYCd2rYnJW9yqkhxOYj0vdavGkGLZCpLzArhS2FDMaetk9l4wPmQOXNH/qFbAjFGOZ1VSlSKGXbfYE3VIxHmF3NwvPFsJaMYy2tYtmYQ90C8WMyGr1jk8P9LJCZStGq23tomvfO2ImfTNNs3tuVX6MuClLMaMUYjY8y775lmIkChn5hp3KBIR2EC2KyTPoIxRiMsVmFUw9zr6lmJEKYcCmA2cEtaeYsntuDZoFWwU4I7itr/3MAFsNOCPIrUGw0R9XUH2pykuw7K+2jYStDlwr6KiwTYBHhK4ZL2YoRKQ4MVNhIsSHGQvlOS7MXDiP8eAKhfQUB66SWV7ujys9zh7u62JfGOvCj3yy3GzEYwVhtMZc7XykDcNDRe1uqyktKF5aRS739mLD8dTud7uZGguSt06W693rmDNHXoYR3G8XyFj34mnMJsT+jD1Lpb2NSobZEFPyFobHIeBQO5AewYwwyRFuy9c9qFFmlELusVvDjTRnGnZTY82twRbwoBXkdMAz9EjrXebZJ30BX8cCvoAv4OtQPv4BQ5U1S8HO5dgAAAAASUVORK5CYII=\" style=\"max-width:100%;height:auto;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABuCAYAAABFnx/AAAAD9UlEQVR42u3ca4riQBSG4Q90eqChZxNuRHBhLs2lOVNCoEYSU5dzzwkUzB+1fbp8rVQyjWce4geSINETPY9EXz1ut9trJLogOIDX8ASPCODe4OEd/PfX12t4god38D8/P6/hCR4RwL3BIwq4J3hEAvcCj2jgHuAREdw6PKKCW4ZHZHCr8IgObhEeRwC3Bo+jgFuCx5HArcDjaOAW4HFEcG14HBVcEx5HBteCx9HBNeCR4PLwSHB5eCS4PDwSXB4eCS4PD+vg5bHf39+h4GEdPOIJFCyD148/n06voTXrKeFhDXx5c5/ua/EODy/gyyjgZcZr5YYCHpbAex6rmZtZeGiDF7TZWyy8bQtDE5wCTTM3o/DQBC9YlAAauRmBhzT4TE40n5sSHpLgEg1eckP5KaKGhyS4JIRGblrhwQ2u9ZHXeu0WeHCCay7p1tb0VuDZ0KVz0gohkRsS9B547dN07TU9WV5a4a3kRGsLgfyLdA9e6+TESm7Yloxr8L/OZ7M5kcoN+8nR/X5/Pfnp3w+7vJClL0zpNT37NsACXkb5dz3jvWSFcnnLuuH1eDye1+v1P/AoV/xHtxBYt3br2V1G+QVEu9WiNzesFzHecxL5HpfWLQS2y3VlNtezew88MnydG7YL0/XsLh0/2l1dezkp43K50N2C0ZOTFniv6/et1NRL5ZEJuYq+rFBmnjAafA1e3tMyMcnQlyecmeWR4N/B64m5toobbvryItQ3IXmDXwOvfUjRl98k1Wz3CL8FvqzqZvO7uXqhRPcEvwVOlZbNdTp1YrzAfwKnSssmOkdirMPvgVOlZROdKzFW4ffAKdPyce+FKzHv8L1362qAU6alCZ1rtr/Da1wIaQWnTMtHdO7EaMO3glOfqX9Er3cauQ9p+B5w6p7v7qdTdswKfC84dVqaL2JwJ0YKvhecIy276JKJ4YYfAedIS9M1UsnErF0IoYAfBedIS9eFaanEUMOPgnOlpQldIzFb8L331syAc6WlCV0rMWvwPTc1zYJzpaUZXSsxo/Cz4Jxp6UbXSEwvPAU4Z1qa0SU2wCjgqcC5v8ean1U7MXvwVODcPR9C5/pBZuCp/wgOZ1q60K0kZgueClxiiTx0f7p2Ytbgqf6+FndahtEtJKaGp/xLctxp6Ua3lhjqQ+rse/j/HFlJDAc69yd5GN1SYjylZQg9amIkN/aGXiFiYqTSkugKaRlGj5gYyfcz/CqRZrtkWhJdIS1T6JESI/0+pl4pwmyXTkuiK6RlGj1CYjQuuoNqpnic7RppIUH3nBiNtJCg1x/R8iY8Da37eUA5YzwOjd1SULXR61D58n7mkeiJnkeiJ3oeiZ7oeSS6teMv+YeSM5RFzXMAAAAASUVORK5CYII=\" style=\"max-width:100%;height:auto;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABuCAYAAADYkhZIAAAEPklEQVR42u2dS4rbQBRFL3TAYOgsoDPxqAPehD3yQjoL8dK8NIcSCGQhWfV5v3p6BTUJOCrdozqqj6TGM4pqQUQQAAJAlAAQAKIEAJJyv9+HGgCUwgcw1F4gwGP4PUGAxyu/p54Ab+H3piN4DL8nCPAafi8Q4Dn8HiDAe/jWIWAP4VuGgL2EbxUC9hS+RQjYW/jWIGCP4VuCgL2GbwUC9hy+BQjYe/jax0WEr3t8RPi67UCEr9seRPi67UKEr9s+RPi67USEr9teRPi67UZvJ6H54BUHBPTS+Mfj8fLMz/V6Hf6tdwjoodHT36fgU/UyY0ZP4a8995OA9AoBVhs5f9Rw6fdzLUkriQICrIef81tNJbVCgLVG1YY5V5Jkb2g5X1hpzFw5NQGm32j1htrzhrXwKULrCQI0Dz6/iXI99SCppNIcoBW+xDBSS0kleUA7fOlNd6k5Q+45QjL8nLE9V9GYM+TkA43wNVdBpZW0dd7gDl9zaGjlBv0uL1YAFGN7TiVJXRjkAHIg9LjlyHGDZlHQu/+cc2zfm5JYb8JLB7lcLqpLxJaUJDIMtTC8tKgktYmYBwCtcwbRpYjpwf79/Dx/f34+f318uIBQM2cQW4yb+jIFfj6fh/DH6glC7g1abDl6eqDD4fASvFcIWzdosQ2Z8UAp3LXgvUJYu0GLbEmON6UU6PF4zAp/DxBOpxP/pvx4wHe62RuEdEFOw0/zn9qCrfBrrnrvEJaG3rVzBmwNwyjC9wRhGv7tdhvOK9mBBUA6GCWAsbG9QlgKP9WWld7Ne0DuiMc7hLXwx3NhA0CtoR4hrIXfqp/sURAHgF4gTMOfz/hb9ZM9D+DQUA8QtsJPF6YIAC4NWYawFT6FfrIBcGrIIoSc8Cn0U7QWxKkhSxCm613vwqfQTxGAdDDuXqANoWSxkUI/RQAkNKQJoXSll2rfOxtA6moSGtKAUBo+lf+L9wOkNCQJoSZ8Kv1UbchIAuCGULvUnmCpAJDWECeEln0Oyscsi/eEpTXEAaElfEr9VAHQ0BAlhNYdPnUAWhqigECxvUr9lHfVc0FaGprPQmvexGwJn/rqrwagqaEaCBThmwOgqaESCFThc+inGoAFDeVAGMOnaOd476EuTW/IWACwBoEyfC79NAOwoKElCNThc+mnCYAlDc0hULeLSz/NACxpaAqB41kmrleumgFY0hBX5XzFtrlfWdMQl9a4Csk7Yp4BcOqHDIBnDXG/4U/St7xqiFs/ZAC8aohbP6QAPGoonRP3B0bI+pdHDXHrhxSANw1J6IccgCcNSeiHFIA3DUnohxyAFw1J6YcFgAcNJQBSn1cj72ceNCT5fTtyANxv03jSDwuA3jUkqR8WAJoa+vP1VVT/fn+/1NZ3fs0ASF04ncxSTb2jpM6/ycBdpT82yAIgXUG9Vuli9m/K76UEgAAQAKIEgAAQRan8Bz8nUXIhvcc3AAAAAElFTkSuQmCC\" style=\"max-width:100%;height:auto;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABpCAYAAADFlybwAAAEWUlEQVR42u2dS44aMRCGS5pISEiTAwwbVhOJFTcYVhxkchCOwJE4GpGRjDodoNtVf72cttRLZPN9rt+mHzRdl+baaEGwCFgELG0RsAhAtMPhcCWilMfpdMovICv8eqQWcLlcbl+iVEG2Vma/VxUQOn68Svm/F1DLuFRCysXQKYYgPWaOH+8KJuTgMwvwiiGogKzx4xlD4t56iB/PGCLUoHsQ4BFDMAHZ48crhkQ99RQ/XjFEiMH2JMA6hiACeokfjxhi91Ljx+skloUAiyog6ezvKX48YkgsoLf4sa5uij7AljEhJ4PVyUWRgCjxM5wQKGBWMcQSECl+hvCREqyqnDLHz3AsZabWWYuSYBFDlDV+xvDH0YEAZxFDlDF+nsFHS7CodsoWP1Pw0RK0Y4gyxc9c+EgJ2jFEWeKnFT5KwvDz7gK84ocLHyUhhACv+JHCR0jQjCGKHD8o+FIJ9XMak4+ixg8avlSC1veniPGjBV8iQSuGKFr8aMPnStCKIYoUP1bwuRI0OFCU+LGGz5GgEUMUIX684LdK0Ighmlt2WgK84bdKQMcQecZPFPgtEtAxRF7xEw3+XAmmArTiJyr8uRKQMUTW8RMd/hwJyCogy/jJAn9KgokAdPxkgz8lARVDZBE/WeG/koCqAnoVPwhY2eE/k6AqoHZURKDuKsgM/5GE/X4PiaGnETT84w0OvN7g1/b19fWXBOkaSXONt6wHvcKvPH68vd0OxCaFWmDO6bBH+MOJuFqtrj/f328HQkLzNeFXYHuHv9vt7vBREog7mPEC3SP8OukK5Efw61Gqgn3LC2dxHVdDz7udYeS8OrgSCDHIHuFPzXqUBNEm9nw+3+Fvt9vUz4sNK7vAbwEvkQB5THWz2dw7z36q4dfnJxs+R4L4Ib3f39//dC79BZ0lchASCAkfsSuIvNC2Huv1evoaMxf+8XicNQuiX/FCznqOBNbzAS0zJlokIRZajoBnp3JYz4i1lmwdRJTbTrQiZ3xsPj4mz6OxnxPmfIlaDb0stFL4om2oVILVjb6c2LSCL/4hxpVQIqnMRqu7nxF7ew34YgESCZrV4BE5HPgQAQgJqN8MHgutBD5MgFQCIpIs9/Yo+FABVYL0RBYnkqz39ij4cAEoCZwn4a0jBwFfRQBCQr3U9+qLeS20SPhqAlASHkWS195eA76qAKSER3/IVCBkh68uYCih7HQQIrwiRwO+iYDhLkUqQfr5aPDNBCAl9ATfVEBWCZrwzQVkk6AN30VAFgkW8N0EcC9v9gbfVUBUCZbw3QVEk2ANP4SAKBI84IcR4C3BC34oAV4SPOGHE2AtwRt+SAFWEiLADytAW0IU+KEFaEqYutq2CFCUEAl+CgFICdHgpxGAkOB1Y3A3AiQSosJPJ2AoYe7F/sjwUwpokRAdfloBcyRkgJ9awCsJ5Upblre8pn8Z8FhCJvhdCBhLyPZ+425eh13AZ3y5dH/vI18ELG0RkKj9Ac8QblTRGn0IAAAAAElFTkSuQmCC\" style=\"max-width:100%;height:auto;\">"
+        ],
+        "op_hi": [
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABrCAYAAAD6kOVNAAAEIklEQVR42u2d7WrkMAxFL3TpwkD7SjNvNo82jzaLCwbjTZpYvpIlx4Ewv5rIp8rxZ2K812F6YCFYwBfwdTgE/nq9wp7hgD8ejzeAkGeKPRTwlCFl8JHOHHdI4NaZwjiez+dP7Ok3DPCcKdYuZAK3TBawdBK21WAcP66qk1FawVV1EhJ4dJ2MKIf4LjPoZESWi4HPoJNQwGfRiXV5RHeYSSfWWS4CPpNOQgDPj99MwK20gqWT/59czSzH0omtVrB0YqsVRNdJykZmRmprBZF1khXABKStFUTVSQmbDV1TK4iokxr2389PKnRNrSCaTmrYt9vt/f319fPLgq6pFUTSyR7sfDKha2kFUXRyBJsNnV0vNAHPOhkF/CxsJnQtrTQBH6GTVtgs6FoT5PCskxL2n4+P07BZ0DXqLXjVSQ27BTQLuoZW4FEnLNi90DW0Am86ybBTZ4YBuxc6WyvwpBMt2D3Q2VqBF51ow5ZCZ2sFHnRiBVsKnakVjNaJNWwJdKZWMFInJex0WsFuhV62mlSAWyxDHg27FboJcC2deIHdAp2lFVjrJAeefO0B9lnorLclYKkTr7DPQmdwgZVOvMM+A52hFVjoJArsI+gMrUBbJ9FgH0Hv5QNNnUSF/Rv0Xq1gSyeMHlV02HvQe3vgm8B7oc8Cewt6Lx/81o1N/4DWyrP8+xlgp7NcaJTO+/3O72lKsn1W2DVwaoZLFTMb7BpyXWmKJ6ZbsnZPMVeBvVXeVuinV17tZftMsFPlmCv6ozpMCh3SCjEFMxPso6xmQRe/VFUvF44OO2W2JGNboaOnnV2uHYnakywV0rsO8cw10HPx1B4ts1yyHC2SQhjQ0XvRukKNoJhaIayR0TPQwbpYCd2rYnJW9yqkhxOYj0vdavGkGLZCpLzArhS2FDMaetk9l4wPmQOXNH/qFbAjFGOZ1VSlSKGXbfYE3VIxHmF3NwvPFsJaMYy2tYtmYQ90C8WMyGr1jk8P9LJCZStGq23tomvfO2ImfTNNs3tuVX6MuClLMaMUYjY8y775lmIkChn5hp3KBIR2EC2KyTPoIxRiMsVmFUw9zr6lmJEKYcCmA2cEtaeYsntuDZoFWwU4I7itr/3MAFsNOCPIrUGw0R9XUH2pykuw7K+2jYStDlwr6KiwTYBHhK4ZL2YoRKQ4MVNhIsSHGQvlOS7MXDiP8eAKhfQUB66SWV7ujys9zh7u62JfGOvCj3yy3GzEYwVhtMZc7XykDcNDRe1uqyktKF5aRS739mLD8dTud7uZGguSt06W693rmDNHXoYR3G8XyFj34mnMJsT+jD1Lpb2NSobZEFPyFobHIeBQO5AewYwwyRFuy9c9qFFmlELusVvDjTRnGnZTY82twRbwoBXkdMAz9EjrXebZJ30BX8cCvoAv4OtQPv4BQ5U1S8HO5dgAAAAASUVORK5CYII=\" style=\"max-width:100%;height:auto;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABuCAYAAABFnx/AAAAD9UlEQVR42u3ca4riQBSG4Q90eqChZxNuRHBhLs2lOVNCoEYSU5dzzwkUzB+1fbp8rVQyjWce4geSINETPY9EXz1ut9trJLogOIDX8ASPCODe4OEd/PfX12t4god38D8/P6/hCR4RwL3BIwq4J3hEAvcCj2jgHuAREdw6PKKCW4ZHZHCr8IgObhEeRwC3Bo+jgFuCx5HArcDjaOAW4HFEcG14HBVcEx5HBteCx9HBNeCR4PLwSHB5eCS4PDwSXB4eCS4PD+vg5bHf39+h4GEdPOIJFCyD148/n06voTXrKeFhDXx5c5/ua/EODy/gyyjgZcZr5YYCHpbAex6rmZtZeGiDF7TZWyy8bQtDE5wCTTM3o/DQBC9YlAAauRmBhzT4TE40n5sSHpLgEg1eckP5KaKGhyS4JIRGblrhwQ2u9ZHXeu0WeHCCay7p1tb0VuDZ0KVz0gohkRsS9B547dN07TU9WV5a4a3kRGsLgfyLdA9e6+TESm7Yloxr8L/OZ7M5kcoN+8nR/X5/Pfnp3w+7vJClL0zpNT37NsACXkb5dz3jvWSFcnnLuuH1eDye1+v1P/AoV/xHtxBYt3br2V1G+QVEu9WiNzesFzHecxL5HpfWLQS2y3VlNtezew88MnydG7YL0/XsLh0/2l1dezkp43K50N2C0ZOTFniv6/et1NRL5ZEJuYq+rFBmnjAafA1e3tMyMcnQlyecmeWR4N/B64m5toobbvryItQ3IXmDXwOvfUjRl98k1Wz3CL8FvqzqZvO7uXqhRPcEvwVOlZbNdTp1YrzAfwKnSssmOkdirMPvgVOlZROdKzFW4ffAKdPyce+FKzHv8L1362qAU6alCZ1rtr/Da1wIaQWnTMtHdO7EaMO3glOfqX9Er3cauQ9p+B5w6p7v7qdTdswKfC84dVqaL2JwJ0YKvhecIy276JKJ4YYfAedIS9M1UsnErF0IoYAfBedIS9eFaanEUMOPgnOlpQldIzFb8L331syAc6WlCV0rMWvwPTc1zYJzpaUZXSsxo/Cz4Jxp6UbXSEwvPAU4Z1qa0SU2wCjgqcC5v8ean1U7MXvwVODcPR9C5/pBZuCp/wgOZ1q60K0kZgueClxiiTx0f7p2Ytbgqf6+FndahtEtJKaGp/xLctxp6Ua3lhjqQ+rse/j/HFlJDAc69yd5GN1SYjylZQg9amIkN/aGXiFiYqTSkugKaRlGj5gYyfcz/CqRZrtkWhJdIS1T6JESI/0+pl4pwmyXTkuiK6RlGj1CYjQuuoNqpnic7RppIUH3nBiNtJCg1x/R8iY8Da37eUA5YzwOjd1SULXR61D58n7mkeiJnkeiJ3oeiZ7oeSS6teMv+YeSM5RFzXMAAAAASUVORK5CYII=\" style=\"max-width:100%;height:auto;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABuCAYAAADYkhZIAAAEPklEQVR42u2dS4rbQBRFL3TAYOgsoDPxqAPehD3yQjoL8dK8NIcSCGQhWfV5v3p6BTUJOCrdozqqj6TGM4pqQUQQAAJAlAAQAKIEAJJyv9+HGgCUwgcw1F4gwGP4PUGAxyu/p54Ab+H3piN4DL8nCPAafi8Q4Dn8HiDAe/jWIWAP4VuGgL2EbxUC9hS+RQjYW/jWIGCP4VuCgL2GbwUC9hy+BQjYe/jax0WEr3t8RPi67UCEr9seRPi67UKEr9s+RPi67USEr9teRPi67UZvJ6H54BUHBPTS+Mfj8fLMz/V6Hf6tdwjoodHT36fgU/UyY0ZP4a8995OA9AoBVhs5f9Rw6fdzLUkriQICrIef81tNJbVCgLVG1YY5V5Jkb2g5X1hpzFw5NQGm32j1htrzhrXwKULrCQI0Dz6/iXI99SCppNIcoBW+xDBSS0kleUA7fOlNd6k5Q+45QjL8nLE9V9GYM+TkA43wNVdBpZW0dd7gDl9zaGjlBv0uL1YAFGN7TiVJXRjkAHIg9LjlyHGDZlHQu/+cc2zfm5JYb8JLB7lcLqpLxJaUJDIMtTC8tKgktYmYBwCtcwbRpYjpwf79/Dx/f34+f318uIBQM2cQW4yb+jIFfj6fh/DH6glC7g1abDl6eqDD4fASvFcIWzdosQ2Z8UAp3LXgvUJYu0GLbEmON6UU6PF4zAp/DxBOpxP/pvx4wHe62RuEdEFOw0/zn9qCrfBrrnrvEJaG3rVzBmwNwyjC9wRhGv7tdhvOK9mBBUA6GCWAsbG9QlgKP9WWld7Ne0DuiMc7hLXwx3NhA0CtoR4hrIXfqp/sURAHgF4gTMOfz/hb9ZM9D+DQUA8QtsJPF6YIAC4NWYawFT6FfrIBcGrIIoSc8Cn0U7QWxKkhSxCm613vwqfQTxGAdDDuXqANoWSxkUI/RQAkNKQJoXSll2rfOxtA6moSGtKAUBo+lf+L9wOkNCQJoSZ8Kv1UbchIAuCGULvUnmCpAJDWECeEln0Oyscsi/eEpTXEAaElfEr9VAHQ0BAlhNYdPnUAWhqigECxvUr9lHfVc0FaGprPQmvexGwJn/rqrwagqaEaCBThmwOgqaESCFThc+inGoAFDeVAGMOnaOd476EuTW/IWACwBoEyfC79NAOwoKElCNThc+mnCYAlDc0hULeLSz/NACxpaAqB41kmrleumgFY0hBX5XzFtrlfWdMQl9a4Csk7Yp4BcOqHDIBnDXG/4U/St7xqiFs/ZAC8aohbP6QAPGoonRP3B0bI+pdHDXHrhxSANw1J6IccgCcNSeiHFIA3DUnohxyAFw1J6YcFgAcNJQBSn1cj72ceNCT5fTtyANxv03jSDwuA3jUkqR8WAJoa+vP1VVT/fn+/1NZ3fs0ASF04ncxSTb2jpM6/ycBdpT82yAIgXUG9Vuli9m/K76UEgAAQAKIEgAAQRan8Bz8nUXIhvcc3AAAAAElFTkSuQmCC\" style=\"max-width:100%;height:auto;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABpCAYAAADFlybwAAAEWUlEQVR42u2dS44aMRCGS5pISEiTAwwbVhOJFTcYVhxkchCOwJE4GpGRjDodoNtVf72cttRLZPN9rt+mHzRdl+baaEGwCFgELG0RsAhAtMPhcCWilMfpdMovICv8eqQWcLlcbl+iVEG2Vma/VxUQOn68Svm/F1DLuFRCysXQKYYgPWaOH+8KJuTgMwvwiiGogKzx4xlD4t56iB/PGCLUoHsQ4BFDMAHZ48crhkQ99RQ/XjFEiMH2JMA6hiACeokfjxhi91Ljx+skloUAiyog6ezvKX48YkgsoLf4sa5uij7AljEhJ4PVyUWRgCjxM5wQKGBWMcQSECl+hvCREqyqnDLHz3AsZabWWYuSYBFDlDV+xvDH0YEAZxFDlDF+nsFHS7CodsoWP1Pw0RK0Y4gyxc9c+EgJ2jFEWeKnFT5KwvDz7gK84ocLHyUhhACv+JHCR0jQjCGKHD8o+FIJ9XMak4+ixg8avlSC1veniPGjBV8iQSuGKFr8aMPnStCKIYoUP1bwuRI0OFCU+LGGz5GgEUMUIX684LdK0Ighmlt2WgK84bdKQMcQecZPFPgtEtAxRF7xEw3+XAmmArTiJyr8uRKQMUTW8RMd/hwJyCogy/jJAn9KgokAdPxkgz8lARVDZBE/WeG/koCqAnoVPwhY2eE/k6AqoHZURKDuKsgM/5GE/X4PiaGnETT84w0OvN7g1/b19fWXBOkaSXONt6wHvcKvPH68vd0OxCaFWmDO6bBH+MOJuFqtrj/f328HQkLzNeFXYHuHv9vt7vBREog7mPEC3SP8OukK5Efw61Gqgn3LC2dxHVdDz7udYeS8OrgSCDHIHuFPzXqUBNEm9nw+3+Fvt9vUz4sNK7vAbwEvkQB5THWz2dw7z36q4dfnJxs+R4L4Ib3f39//dC79BZ0lchASCAkfsSuIvNC2Huv1evoaMxf+8XicNQuiX/FCznqOBNbzAS0zJlokIRZajoBnp3JYz4i1lmwdRJTbTrQiZ3xsPj4mz6OxnxPmfIlaDb0stFL4om2oVILVjb6c2LSCL/4hxpVQIqnMRqu7nxF7ew34YgESCZrV4BE5HPgQAQgJqN8MHgutBD5MgFQCIpIs9/Yo+FABVYL0RBYnkqz39ij4cAEoCZwn4a0jBwFfRQBCQr3U9+qLeS20SPhqAlASHkWS195eA76qAKSER3/IVCBkh68uYCih7HQQIrwiRwO+iYDhLkUqQfr5aPDNBCAl9ATfVEBWCZrwzQVkk6AN30VAFgkW8N0EcC9v9gbfVUBUCZbw3QVEk2ANP4SAKBI84IcR4C3BC34oAV4SPOGHE2AtwRt+SAFWEiLADytAW0IU+KEFaEqYutq2CFCUEAl+CgFICdHgpxGAkOB1Y3A3AiQSosJPJ2AoYe7F/sjwUwpokRAdfloBcyRkgJ9awCsJ5Upblre8pn8Z8FhCJvhdCBhLyPZ+425eh13AZ3y5dH/vI18ELG0RkKj9Ac8QblTRGn0IAAAAAElFTkSuQmCC\" style=\"max-width:100%;height:auto;\">"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। यह भी Water Reflection (जल प्रतिबिंब) का सवाल है जहाँ Top हिस्सा Bottom में और Bottom हिस्सा Top में बदल जाता है (Left/Right में कोई बदलाव नहीं होता)।</p><p>प्रश्न आकृति को देखते हैं:<br>1. बाहरी आकृति एक पंचभुज (Pentagon) है जिसका नुकीला हिस्सा नीचे (Bottom) की ओर है। जल प्रतिबिंब में यह नुकीला हिस्सा ऊपर (Top) की ओर हो जाएगा।<br>2. अंदर एक काले रंग का समचतुर्भुज (Rhombus) है जो ऊपर की तरफ है। प्रतिबिंब में यह काला हिस्सा नीचे की ओर खिसक जाएगा।</p><p><b>Options Analysis:</b><br>Option 1: बाहरी पंचभुज का नुकीला सिरा ऊपर है और अंदर का काला हिस्सा नीचे की तरफ है। यह पूरी तरह से सही जल प्रतिबिंब है।<br>Option 2: इसमें नुकीला हिस्सा नीचे ही है, यह गलत है।<br>Option 3: इसमें अंदर का काला हिस्सा गलत तरीके से काटा गया है।<br>Option 4: इसमें भी पंचभुज का नुकीला हिस्सा नीचे की ओर है, जो गलत है।</p><p>अतः, सही उत्तर <b>विकल्प 1</b> है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "level": "Medium",
+        "q_en": "<p>Five people, S, T, U, V, and W are sitting in a row, facing north. Exactly two people sit to the left of T. W sits to the immediate left of U. S sits to the immediate left of V. W is an immediate neighbor of T. Who is sitting at the extreme left end of the line?</p>",
+        "q_hi": "<p>पांच व्यक्ति, S, T, U, V और W एक पंक्ति में उत्तर की ओर मुख करके बैठे हैं। T के बाईं ओर ठीक दो व्यक्ति बैठे हैं। W, U के ठीक बाईं ओर बैठा है। S, V के ठीक बाईं ओर बैठा है। W, T का निकटतम पड़ोसी है। पंक्ति के अंतिम बाएं छोर पर कौन बैठा है?</p>",
+        "op_en": [
+            "T",
+            "V",
+            "U",
+            "S"
+        ],
+        "op_hi": [
+            "T",
+            "V",
+            "U",
+            "S"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को समझते हैं। हमें 5 लोगों (S, T, U, V, W) को एक पंक्ति में उत्तर (North) की ओर मुख करके बैठाना है।</p><ul><li><b>Step 1:</b> दिया गया है कि T के बाईं ओर ठीक 2 लोग हैं। इसका मतलब T पंक्ति के बिल्कुल बीच में यानी तीसरे स्थान पर बैठा है: _ _ T _ _</li><li><b>Step 2:</b> W, T का निकटतम पड़ोसी है। तो W या तो दूसरे या चौथे स्थान पर हो सकता है।</li><li><b>Step 3:</b> W, U के ठीक बाईं ओर (immediate left) बैठा है। अगर हम W को दूसरे स्थान पर रखते हैं, तो U तीसरे स्थान पर आएगा, जो कि संभव नहीं है क्योंकि वहाँ पहले से T है। इसलिए, W चौथे स्थान पर होगा और U पाँचवें स्थान पर: _ _ T W U</li><li><b>Step 4:</b> S, V के ठीक बाईं ओर है। हमारे पास केवल पहला और दूसरा स्थान खाली है। तो S पहले और V दूसरे स्थान पर आएगा: <b>S V T W U</b></li></ul><p>प्रश्न में पूछा गया है कि सबसे बाएँ छोर (extreme left end) पर कौन है? आप देख सकते हैं कि S सबसे बाईं ओर है। इसलिए सही उत्तर <b>S</b> (विकल्प 4) है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Blood Relations",
+        "level": "Medium",
+        "q_en": "<p>B is the husband of C. E is the daughter of B. F is the brother of E. M is the father of both B and A. A is the son of N. How is N related to F?</p>",
+        "q_hi": "<p>B, C का पति है। E, B की पुत्री है। F, E का भाई है। M, B और A दोनों का पिता है। A, N का पुत्र है। N, F से किस प्रकार संबंधित है?</p>",
+        "op_en": [
+            "Mother's mother",
+            "Daughter",
+            "Father's mother",
+            "Mother"
+        ],
+        "op_hi": [
+            "माँ की माँ (नानी)",
+            "पुत्री",
+            "पिता की माँ (दादी)",
+            "माँ"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, चलिए इस Family Tree को स्टेप-बाय-स्टेप बनाते हैं:</p><ul><li>B, C का पति है ➔ B (पुरुष) और C (महिला) पति-पत्नी हैं।</li><li>E, B की पुत्री है ➔ E, B और C की बेटी है।</li><li>F, E का भाई है ➔ F, B और C का बेटा है।</li><li>M, B और A दोनों का पिता है ➔ M (पुरुष) पिता है।</li><li>A, N का पुत्र है ➔ चूँकि M पिता है, तो N (महिला) माँ होगी। इसलिए, M और N पति-पत्नी हैं तथा B और A उनके बच्चे हैं।</li></ul><p>अब हमें N और F का संबंध देखना है। F, B का पुत्र है और N, B की माँ है। इसका अर्थ है कि N, F के पिता (B) की माँ है, यानी F की दादी (Father's mother) है। अतः विकल्प 3 सही है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding-Decoding",
+        "level": "Hard",
+        "q_en": "<p>Each vowel in the word HOMESICK is changed to the following second letter in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. Which letter will appear exactly twice in the group of letters thus formed?</p>",
+        "q_hi": "<p>शब्द HOMESICK में प्रत्येक स्वर को अंग्रेजी वर्णमाला श्रृंखला में उसके आगे आने वाले दूसरे अक्षर से बदल दिया जाता है और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला श्रृंखला में उसके ठीक पहले आने वाले अक्षर से बदल दिया जाता है। इस प्रकार बने अक्षरों के समूह में कौन सा अक्षर ठीक दो बार आएगा?</p>",
+        "op_en": [
+            "G",
+            "Q",
+            "B",
+            "K"
+        ],
+        "op_hi": [
+            "G",
+            "Q",
+            "B",
+            "K"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस word coding को हल करते हैं। हमारा शब्द है: <b>HOMESICK</b></p><ul><li>शर्त 1: <b>Vowels (स्वर)</b> - O, E, I। इन्हें अगले दूसरे अक्षर (+2) से बदलना है: <b>O</b>(+2) ➔ Q, <b>E</b>(+2) ➔ G, <b>I</b>(+2) ➔ K</li><li>शर्त 2: <b>Consonants (व्यंजन)</b> - H, M, S, C, K। इन्हें ठीक पहले वाले अक्षर (-1) से बदलना है: <b>H</b>(-1) ➔ G, <b>M</b>(-1) ➔ L, <b>S</b>(-1) ➔ R, <b>C</b>(-1) ➔ B, <b>K</b>(-1) ➔ J</li></ul><p>नया शब्द इस प्रकार बनेगा: H(G) O(Q) M(L) E(G) S(R) I(K) C(B) K(J) ➔ <b>GQLGRKBJ</b></p><p>हम स्पष्ट रूप से देख सकते हैं कि अक्षर <b>G</b> इस नए समूह में ठीक दो बार (H और E की जगह) आया है। इसलिए सही उत्तर <b>G</b> (विकल्प 1) है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Medium",
+        "q_en": "<p>Refer to the following letter and symbol series and answer the question. Counting to be done from left to right only.<br><br>(Left) L Ω S \\\\\\$ P * N @ R &amp; T * M Ω C \\\\\\$ B % K Ω D (Right)<br><br>How many such consonants are there, each of which is immediately preceded by a consonant and also immediately followed by another symbol?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर और प्रतीक श्रृंखला को देखें और प्रश्न का उत्तर दें। गिनती केवल बाएँ से दाएँ की जानी है।<br><br>(बाएँ) L Ω S \\\\\\$ P * N @ R &amp; T * M Ω C \\\\\\$ B % K Ω D (दाएँ)<br><br>ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन और ठीक बाद में एक अन्य प्रतीक (symbol) है?</p>",
+        "op_en": [
+            "One",
+            "Two",
+            "None",
+            "Three"
+        ],
+        "op_hi": [
+            "एक",
+            "दो",
+            "कोई primary नहीं",
+            "तीन"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस श्रृंखला (series) को ध्यान से देखते हैं। हमें ऐसा पैटर्न ढूँढना है: <b>[व्यंजन (Consonant)] + [व्यंजन (Consonant)] + [प्रतीक (Symbol)]</b></p><p>दी गई श्रृंखला: L Ω S \\\\\\$ P * N @ R &amp; T * M Ω C \\\\\\$ B % K Ω D</p><p>आइए प्रतीक (Symbol) से ठीक पहले वाले स्थानों को चेक करते हैं:</p><ul><li>Ω से पहले: L (कोई दूसरा व्यंजन नहीं है) ❌</li><li>\\\\\\$ से पहले: S (उससे पहले Ω है) ❌</li><li>* से पहले: P (उससे पहले \\\\\\$ है) ❌</li><li>@ से पहले: N (उससे पहले * है) ❌</li><li>&amp; से पहले: R (उससे पहले @ है) ❌</li><li>* से पहले: T (उससे पहले &amp; है) ❌</li><li>Ω से पहले: M (उससे पहले * है) ❌</li><li>\\\\\\$ से पहले: C (उससे पहले Ω है) ❌</li><li>% से पहले: B (उससे पहले \\\\\\$ है) ❌</li><li>Ω से पहले: K (उससे पहले % है) ❌</li></ul><p>पूरी श्रृंखला में ऐसा <b>एक भी</b> जोड़ा नहीं है जहाँ लगातार दो व्यंजन (consonants) हों और उनके तुरंत बाद कोई प्रतीक (symbol) हो। इसलिए सही उत्तर 'None' यानी 'कोई नहीं' (विकल्प 3) है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Order and Ranking",
+        "level": "Easy",
+        "q_en": "<p>In a row of 75 students facing north, Nidhi's position is 14<sup>th</sup> from the left end and Jaya's position is 18<sup>th</sup> from the right end. How many students are sitting between Nidhi and Jaya?</p>",
+        "q_hi": "<p>उत्तर की ओर मुख किए हुए 75 छात्रों की एक पंक्ति में, निधि का स्थान बाएँ छोर से 14वाँ है और जया का स्थान दाएँ छोर से 18वाँ है। निधि और जया के बीच कितने छात्र बैठे हैं?</p>",
+        "op_en": [
+            "43",
+            "42",
+            "41",
+            "44"
+        ],
+        "op_hi": [
+            "43",
+            "42",
+            "41",
+            "44"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस रैंकिंग के सवाल को एक सिंपल फॉर्मूले से हल करते हैं।</p><ul><li>पंक्ति में कुल छात्र (Total) = 75</li><li>निधि का बाएँ से स्थान (Left) = 14</li><li>जया का दाएँ से स्थान (Right) = 18</li></ul><p>चूँकि (Left + Right) = (14 + 18) = 32, जो कि कुल छात्रों (75) से कम है, इसका मतलब यहाँ कोई overlapping नहीं हो रही है।</p><p>बीच में बैठे छात्रों की संख्या = कुल छात्र - (Left + Right)</p><p>बीच के छात्र = 75 - 32 = <b>43</b></p><p>अतः निधि और जया के बीच 43 छात्र बैठे हैं। सही विकल्प 1 है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Letter Series",
+        "level": "Medium",
+        "q_en": "<p>Refer to the following letter series and answer the question that follows. Counting to be done from left to right only.<br><br>(Left) N N O M B F Q A B B J O D A F H I H A O M S (Right)<br><br>How many such consonants are there each of which is immediately preceded by a consonant and also immediately followed by a vowel?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गिनती केवल बाएँ से दाएँ की जानी है।<br><br>(बाएँ) N N O M B F Q A B B J O D A F H I H A O M S (दाएँ)<br><br>ऐसे कितने व्यंजन हैं जिनमें से प्रत्येक के ठीक पहले एक व्यंजन और ठीक बाद में एक स्वर (vowel) है?</p>",
+        "op_en": [
+            "4",
+            "3",
+            "6",
+            "5"
+        ],
+        "op_hi": [
+            "4",
+            "3",
+            "6",
+            "5"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए सीरीज़ में इस पैटर्न को ढूँढते हैं: <b>[व्यंजन (Consonant)] + [व्यंजन (Consonant)] + [स्वर (Vowel)]</b></p><p>श्रृंखला: N N O M B F Q A B B J O D A F H I H A O M S</p><ul><li><b>N N O</b> ➔ N(व्यंजन), N(व्यंजन), O(स्वर) - यह पहला जोड़ा है। (1)</li><li>M B F ➔ तीनों व्यंजन हैं। ❌</li><li><b>F Q A</b> ➔ F(व्यंजन), Q(व्यंजन), A(स्वर) - यह दूसरा जोड़ा है। (2)</li><li>B B J ➔ तीनों व्यंजन हैं। ❌</li><li><b>B J O</b> ➔ B(व्यंजन), J(व्यंजन), O(स्वर) - यह तीसरा जोड़ा है। (3)</li><li>D A ➔ इसके पहले व्यंजन नहीं है। ❌</li><li><b>F H I</b> ➔ F(व्यंजन), H(व्यंजन), I(स्वर) - यह चौथा जोड़ा है। (4)</li><li>H A ➔ इसके पहले स्वर (I) है। ❌</li><li>O M S ➔ पैटर्न मैच नहीं होता। ❌</li></ul><p>हमें ऐसे कुल <b>4</b> जोड़े मिले हैं। इसलिए सही उत्तर विकल्प 1 है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "level": "Hard",
+        "q_en": "<p>P, Q, R, S, T, and U live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it, number 2 and so on till the topmost floor is numbered 6. Only two people live between R and T. S lives on the lowermost floor. U lives immediately above P. T lives immediately above Q. Only one person lives between T and S. Who lives on floor number 4?</p>",
+        "q_hi": "<p>P, Q, R, S, T, और U एक ही इमारत की छह अलग-अलग मंजिलों पर रहते हैं। इमारत में सबसे निचली मंजिल की संख्या 1 है, उसके ऊपर की मंजिल की संख्या 2 है और इसी तरह सबसे ऊपरी मंजिल की संख्या 6 है। R और T के बीच केवल दो व्यक्ति रहते हैं। S सबसे निचली मंजिल पर रहता है। U, P के ठीक ऊपर रहता है। T, Q के ठीक ऊपर रहता है। T और S के बीच केवल एक व्यक्ति रहता है। मंजिल संख्या 4 पर कौन रहता है?</p>",
+        "op_en": [
+            "P",
+            "S",
+            "R",
+            "U"
+        ],
+        "op_hi": [
+            "P",
+            "S",
+            "R",
+            "U"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस Floor Puzzle को ध्यान से सॉल्व करते हैं:</p><ul><li><b>Step 1:</b> सबसे निचली मंजिल (Floor 1) पर S रहता है। ➔ <b>Floor 1: S</b></li><li><b>Step 2:</b> T और S के बीच केवल 1 व्यक्ति रहता है। चूँकि S मंजिल 1 पर है, T को मंजिल 3 पर होना चाहिए। ➔ <b>Floor 3: T</b></li><li><b>Step 3:</b> T, Q के ठीक ऊपर रहता है। मतलब Q मंजिल 2 पर है। ➔ <b>Floor 2: Q</b></li><li><b>Step 4:</b> R और T के बीच 2 लोग रहते हैं। T मंजिल 3 पर है, इसलिए 2 मंजिल छोड़कर R मंजिल 6 पर होगा। ➔ <b>Floor 6: R</b></li><li><b>Step 5:</b> U, P के ठीक ऊपर रहता है। हमारे पास केवल मंजिल 4 और 5 खाली हैं। इसलिए U मंजिल 5 पर और P मंजिल 4 पर होगा। ➔ <b>Floor 5: U, Floor 4: P</b></li></ul><p>क्रम इस प्रकार है: 6-R, 5-U, 4-P, 3-T, 2-Q, 1-S</p><p>प्रश्न में पूछा गया है कि मंजिल 4 पर कौन रहता है? सही उत्तर <b>P</b> है। अतः विकल्प 1 सही है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Medium",
+        "q_en": "<p>Refer to the following letter series and answer the question.<br><br>(Left) U B I C X O R A V E Z I N O M Q Y (Right)<br><br>How many letters are there in the English alphabetical series between the letter that is fourth from the right end and fourth from the left end of the series?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर श्रृंखला को देखें और प्रश्न का उत्तर दें।<br><br>(बाएँ) U B I C X O R A V E Z I N O M Q Y (दाएँ)<br><br>श्रृंखला के दाएँ छोर से चौथे और बाएँ छोर से चौथे अक्षर के बीच अंग्रेजी वर्णमाला श्रृंखला में कितने अक्षर होते हैं?</p>",
+        "op_en": [
+            "Nine",
+            "Six",
+            "Eleven",
+            "Four"
+        ],
+        "op_hi": [
+            "नौ",
+            "छह",
+            "ग्यारह",
+            "चार"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, आइए इस सवाल को स्टेप-बाय-स्टेप हल करते हैं:</p><ul><li><b>Step 1:</b> दी गई श्रृंखला में बाएँ छोर (Left) से चौथा अक्षर ढूँढें: U, B, I, <b>C</b> ➔ बाएँ से चौथा अक्षर <b>C</b> है।</li><li><b>Step 2:</b> दाएँ छोर (Right) से चौथा अक्षर ढूँढें: Y, Q, M, <b>O</b> ➔ दाएँ से चौथा अक्षर <b>O</b> है।</li><li><b>Step 3:</b> अब हमें बताना है कि वास्तविक अंग्रेज़ी वर्णमाला (A to Z) में C और O के बीच कितने अक्षर आते हैं।</li></ul><p>C (3) और O (15) के बीच: D, E, F, G, H, I, J, K, L, M, N।<br>यह कुल <b>11</b> अक्षर (Eleven) होते हैं। अतः सही विकल्प 3 है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Blood Relations",
+        "level": "Hard",
+        "q_en": "<p>In a certain code language:<br>A + B means 'A is the mother of B',<br>A - B means 'A is the brother of B',<br>A × B means 'A is the wife of B',<br>A ÷ B means 'A is the father of B'.<br>Based on the above, how is V related to Y if: 'V + W ÷ X - Z × Y'?</p>",
+        "q_hi": "<p>एक निश्चित कूट भाषा में:<br>A + B का अर्थ है 'A, B की माता है',<br>A - B का अर्थ है 'A, B का भाई है',<br>A × B का अर्थ है 'A, B की पत्नी है',<br>A ÷ B का अर्थ है 'A, B का पिता है'।<br>उपरोक्त के आधार पर, 'V + W ÷ X - Z × Y' समीकरण में V, Y से किस प्रकार संबंधित है?</p>",
+        "op_en": [
+            "Mother's mother",
+            "Wife's father's mother",
+            "Brother's wife's mother",
+            "Father's sister"
+        ],
+        "op_hi": [
+            "माता की माता (नानी)",
+            "पत्नी के पिता की माता",
+            "भाई की पत्नी की माता",
+            "पिता की बहन (बुआ)"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस कोडेड रिलेशन को डीकोड करते हैं। समीकरण है: <b>V + W ÷ X - Z × Y</b></p><ul><li><b>V + W:</b> V, W की माता है। (V महिला है)</li><li><b>W ÷ X:</b> W, X का पिता है। (W पुरुष है)</li><li><b>X - Z:</b> X, Z का भाई है। (X पुरुष है)</li><li><b>Z × Y:</b> Z, Y की पत्नी है। (Z महिला है और Y उसका पति)</li></ul><p>अब Y से V का रिश्ता देखते हैं:<br>Y की पत्नी Z है। Z और X भाई-बहन हैं, जिनके पिता W हैं। इसका अर्थ है Y के ससुर W हैं।<br>W की माता V है। इसलिए, V, Y की पत्नी (Z) के पिता (W) की माता है।</p><p>अंग्रेज़ी में इसे <b>Wife's father's mother</b> कहेंगे। अतः सही उत्तर विकल्प 2 है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Letter Series",
+        "level": "Medium",
+        "q_en": "<p>Refer to the following letter series and answer the question that follows. Counting to be done from left to right only.<br><br>(Left) H G I Z Z U S I K I S U W R K A U S G A P K (Right)<br><br>How many such vowels are there each of which is immediately preceded by a consonant and also immediately followed by a consonant?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गिनती केवल बाएँ से दाएँ की जानी है।<br><br>(बाएँ) H G I Z Z U S I K I S U W R K A U S G A P K (दाएँ)<br><br>ऐसे कितने स्वर (vowels) हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन और ठीक बाद में एक व्यंजन है?</p>",
+        "op_en": [
+            "8",
+            "7",
+            "6",
+            "5"
+        ],
+        "op_hi": [
+            "8",
+            "7",
+            "6",
+            "5"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, हमें यहाँ इस पैटर्न को खोजना है: <b>[व्यंजन] + [स्वर] + [व्यंजन]</b> (C-V-C)</p><p>दी गई श्रृंखला: H G I Z Z U S I K I S U W R K A U S G A P K</p><ul><li>H <b>G I Z</b> Z ➔ G(C), I(V), Z(C) ➔ ✅ (1)</li><li>Z <b>Z U S</b> I ➔ Z(C), U(V), S(C) ➔ ✅ (2)</li><li>U <b>S I K</b> I ➔ S(C), I(V), K(C) ➔ ✅ (3)</li><li>S I <b>K I S</b> U ➔ K(C), I(V), S(C) ➔ ✅ (4)</li><li>I <b>S U W</b> R ➔ S(C), U(V), W(C) ➔ ✅ (5)</li><li>K A U ➔ स्वर (A) के बाद स्वर (U) है ❌</li><li>U S G ➔ यह C-C-C या V-C-C है ❌</li><li>S <b>G A P</b> K ➔ G(C), A(V), P(C) ➔ ✅ (6)</li></ul><p>इस प्रकार, हमें कुल <b>6</b> ऐसे जोड़े मिलते हैं जहाँ स्वर दो व्यंजनों के बीच में है। अतः विकल्प 3 सही है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "level": "Medium",
+        "q_en": "<p>H, J, K, L, and M, are sitting around a circular table, facing the center. J sits second to the right of H. K sits immediately to the left of M. Who is sitting to the immediate right of L?</p>",
+        "q_hi": "<p>H, J, K, L, और M एक गोलाकार मेज के चारों ओर केंद्र की ओर मुख करके बैठे हैं। J, H के दाएँ से दूसरे स्थान पर बैठा है। K, M के ठीक बाएँ बैठा है। L के ठीक दाएँ कौन बैठा है?</p>",
+        "op_en": [
+            "J",
+            "K",
+            "H",
+            "M"
+        ],
+        "op_hi": [
+            "J",
+            "K",
+            "H",
+            "M"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, आइए इस Circular Arrangement को बनाते हैं। केंद्र की ओर (Facing Center) मुख होने पर दायाँ (Right) Anti-clockwise और बायाँ (Left) Clockwise होता है। 5 कुर्सियाँ हैं।</p><ul><li><b>Step 1:</b> J, H के दाएँ से दूसरे स्थान पर है। अगर H को नीचे बैठाएँ, तो 1 स्थान छोड़कर J उसके दाएँ (Anti-clockwise) होगा। (क्रम: H - _ - J - _ - _)</li><li><b>Step 2:</b> K, M के ठीक बाएँ (immediate left) बैठा है। हमारे पास केवल 2 लगातार खाली स्थान होने चाहिए जहाँ K और M बैठ सकें।</li><li>व्यवस्था में 3 स्थान बचे हैं। K को M के तुरंत बाएँ (Clockwise) बैठाना है। यह केवल तभी संभव है जब M, J के तुरंत बाएँ हो और K उसके बाएँ हो।</li><li>पूरी व्यवस्था (Anti-clockwise): <b>H ➔ L ➔ J ➔ K ➔ M</b><br>आइए चेक करें: H के दाएँ दूसरा J है (सही), M के तुरंत बाएँ K है (सही, क्योंकि केंद्र की ओर मुख है)।</li><li>अब बचा हुआ व्यक्ति L, H और J के बीच बैठेगा।</li></ul><p>प्रश्न: L के ठीक दाएँ (immediate right) कौन है? L के तुरंत Anti-clockwise दिशा में <b>J</b> बैठा है। अतः सही उत्तर विकल्प 1 है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Medium",
+        "q_en": "<p>Refer to the following letter series and answer the question.<br><br>(Left) A E I O U B C D F G H J K L M N P Q R S T V W X Y Z (Right)<br><br>How many letters are there in the English alphabetical series between the letter that is fourth from the right end and fourth from the left end of the series?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर श्रृंखला को देखें और प्रश्न का उत्तर दें。<br><br>(बाएँ) A E I O U B C D F G H J K L M N P Q R S T V W X Y Z (दाएँ)<br><br>श्रृंखला के दाएँ छोर से चौथे और बाएँ छोर से चौथे अक्षर के बीच अंग्रेजी वर्णमाला श्रृंखला में कितने अक्षर होते हैं?</p>",
+        "op_en": [
+            "Six",
+            "Four",
+            "Five",
+            "Seven"
+        ],
+        "op_hi": [
+            "छह",
+            "चार",
+            "पांच",
+            "सात"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, आइए इस सवाल को हल करते हैं:</p><ul><li><b>Step 1:</b> दी गई श्रृंखला में बाएँ छोर (Left) से चौथा अक्षर ढूँढें: A, E, I, <b>O</b> ➔ बाएँ से चौथा अक्षर <b>O</b> है।</li><li><b>Step 2:</b> दाएँ छोर (Right) से चौथा अक्षर ढूँढें: Z, Y, X, <b>W</b> ➔ दाएँ से चौथा अक्षर <b>W</b> है।</li><li><b>Step 3:</b> अब हमें बताना है कि वास्तविक अंग्रेज़ी वर्णमाला (A to Z) में O और W के बीच कितने अक्षर आते हैं।</li></ul><p>O (15) और W (23) के बीच: P, Q, R, S, T, U, V।<br>यह कुल <b>7</b> अक्षर (Seven) होते हैं। अतः सही विकल्प 4 है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "level": "Hard",
+        "q_en": "<p>Each of Anmol, Binod, Chand, Divya, Ekansh, Fatima and Golu has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. Only one person has exam after Ekansh. Only two persons have exam between Ekansh and Anmol. Binod has exam immediately before Divya and only one person has exam between Divya and Golu. Golu has exam on the last day. Chand's exam is not on the Monday. On which day does Chand have the exam?</p>",
+        "q_hi": "<p>अनमोल, विनोद, चंद, दिव्या, एकांश, फातिमा और गोलू में से प्रत्येक की परीक्षा सोमवार से शुरू होकर उसी सप्ताह के रविवार को समाप्त होने वाले सप्ताह के अलग-अलग दिन है। एकांश के बाद केवल एक व्यक्ति की परीक्षा है। एकांश और अनमोल के बीच केवल दो व्यक्तियों की परीक्षा है। विनोद की परीक्षा दिव्या से ठीक पहले है और दिव्या और गोलू के बीच केवल एक व्यक्ति की परीक्षा है। गोलू की परीक्षा अंतिम दिन है। चंद की परीक्षा सोमवार को नहीं है। चंद की परीक्षा किस दिन है?</p>",
+        "op_en": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+        ],
+        "op_hi": [
+            "सोमवार",
+            "मंगलवार",
+            "बुधवार",
+            "शुक्रवार"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस Scheduling Puzzle को हल करते हैं (सोमवार से रविवार):</p><ul><li><b>Step 1:</b> गोलू की परीक्षा अंतिम दिन (रविवार) है। ➔ <b>Sunday: Golu</b></li><li><b>Step 2:</b> एकांश के बाद केवल 1 व्यक्ति की परीक्षा है। इसका मतलब एकांश शनिवार को है। ➔ <b>Saturday: Ekansh</b></li><li><b>Step 3:</b> दिव्या और गोलू के बीच केवल 1 परीक्षा है। गोलू रविवार को है, इसलिए दिव्या शुक्रवार को होगी। ➔ <b>Friday: Divya</b></li><li><b>Step 4:</b> विनोद, दिव्या से ठीक पहले है। तो विनोद गुरुवार को होगा। ➔ <b>Thursday: Binod</b></li><li><b>Step 5:</b> एकांश (शनिवार) और अनमोल के बीच 2 लोग हैं। पीछे जाने पर शुक्रवार और गुरुवार छोड़कर बुधवार को अनमोल होगा। ➔ <b>Wednesday: Anmol</b></li><li><b>Step 6:</b> अब केवल 2 दिन (सोमवार, मंगलवार) और 2 लोग (चंद, फातिमा) बचे हैं। दिया है कि चंद सोमवार को नहीं है। इसलिए चंद मंगलवार को होगा और फातिमा सोमवार को। ➔ <b>Tuesday: Chand, Monday: Fatima</b></li></ul><p>पूरा शेड्यूल: Mon-Fatima, Tue-Chand, Wed-Anmol, Thu-Binod, Fri-Divya, Sat-Ekansh, Sun-Golu.<br>चंद की परीक्षा <b>मंगलवार (Tuesday)</b> को है। सही विकल्प 2 है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Order and Ranking",
+        "level": "Easy",
+        "q_en": "<p>Rahul ranked 5th from the top and 21st from the bottom in his class. How many students are there in the class?</p>",
+        "q_hi": "<p>अपनी कक्षा में राहुल का स्थान ऊपर से 5वां और नीचे से 21वां है। कक्षा में कितने छात्र हैं?</p>",
+        "op_en": [
+            "26",
+            "23",
+            "25",
+            "24"
+        ],
+        "op_hi": [
+            "26",
+            "23",
+            "25",
+            "24"
+        ],
+        "ans": "3",
+        "solution": "<p>बच्चों, रैंकिंग का यह बहुत ही आसान और सीधा सवाल है। जब हमें किसी एक ही व्यक्ति की दोनों ओर से (ऊपर और नीचे या दाएँ और बाएँ) रैंक दी गई हो, तो कुल संख्या निकालने का सूत्र (formula) है:</p><p><b>कुल छात्र = (ऊपर से रैंक) + (नीचे से रैंक) - 1</b></p><ul><li>ऊपर से राहुल की रैंक (Top) = 5</li><li>नीचे से राहुल की रैंक (Bottom) = 21</li></ul><p>कुल छात्र = 5 + 21 - 1 = 26 - 1 = <b>25</b></p><p>हमने '-1' इसलिए किया क्योंकि राहुल को दोनों तरफ से दो बार गिन लिया गया था। अतः सही उत्तर 25 (विकल्प 3) है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "level": "Hard",
+        "q_en": "<p>Seven people A, B, C, D, E, F and G are sitting in a row, facing north. Only two people sit to the right of A. Only two people sit to the left of D. B is an immediate neighbour of both D and A. E sits immediate right to the G and G sits at an extreme end. C does not sit at any extreme end. How many people sit between D and F?</p>",
+        "q_hi": "<p>सात लोग A, B, C, D, E, F और G एक पंक्ति में उत्तर की ओर मुख करके बैठे हैं। A के दाईं ओर केवल दो व्यक्ति बैठे हैं। D के बाईं ओर केवल दो व्यक्ति बैठे हैं। B, D और A दोनों का निकटतम पड़ोसी है। E, G के ठीक दाईं ओर बैठा है और G एक अंतिम छोर पर बैठा है। C किसी भी अंतिम छोर पर नहीं बैठा है। D और F के बीच कितने लोग बैठे हैं?</p>",
+        "op_en": [
+            "One",
+            "Two",
+            "None",
+            "Three"
+        ],
+        "op_hi": [
+            "एक",
+            "दो",
+            "कोई नहीं",
+            "तीन"
+        ],
+        "ans": "4",
+        "solution": "<p>बच्चों, 7 लोगों को पंक्ति (1 से 7, बाएँ से दाएँ) में बैठाते हैं:</p><ul><li><b>Step 1:</b> A के दाएँ केवल 2 लोग हैं। मतलब A 5वें स्थान पर है। ➔ _ _ _ _ <b>A</b> _ _</li><li><b>Step 2:</b> D के बाएँ केवल 2 लोग हैं। मतलब D तीसरे स्थान पर है। ➔ _ _ <b>D</b> _ A _ _</li><li><b>Step 3:</b> B, D और A दोनों का पड़ोसी है। इसका मतलब B ठीक उनके बीच (चौथे स्थान) पर होगा। ➔ _ _ <b>D B A</b> _ _</li><li><b>Step 4:</b> E, G के ठीक दाएँ बैठा है और G अंतिम छोर पर है। बाएँ छोर (स्थान 1, 2) पर ही G और E एक साथ आ सकते हैं। ➔ <b>G E</b> D B A _ _</li><li><b>Step 5:</b> C अंतिम छोर पर नहीं है। स्थान 6 और 7 खाली हैं। C, स्थान 6 पर आएगा। बचा हुआ F स्थान 7 पर जाएगा। ➔ <b>G E D B A C F</b></li></ul><p>प्रश्न: D (स्थान 3) और F (स्थान 7) के बीच कितने लोग बैठे हैं?<br>D और F के बीच B, A और C बैठे हैं। यानी कुल <b>3</b> लोग। अतः सही विकल्प 4 है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding-Decoding",
+        "level": "Easy",
+        "q_en": "<p>In a certain code language, ‘tables are very strong’ is coded as ‘ra ku st kp’ and ‘she is strong girl’ is coded as ‘ku xg lo hd’. How is ‘strong’ coded in the given language?<br>(All letters are two-letters codes.)</p>",
+        "q_hi": "<p>एक निश्चित कूट भाषा में, ‘tables are very strong’ को ‘ra ku st kp’ के रूप में कूटबद्ध किया जाता है और ‘she is strong girl’ को ‘ku xg lo hd’ के रूप में कूटबद्ध किया जाता है। दी गई भाषा में ‘strong’ को किस प्रकार कूटबद्ध किया गया है?<br>(सभी अक्षर दो-अक्षर वाले कूट हैं।)</p>",
+        "op_en": [
+            "ku",
+            "lo",
+            "xg",
+            "ra"
+        ],
+        "op_hi": [
+            "ku",
+            "lo",
+            "xg",
+            "ra"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, यह 'Substitution Coding' का बहुत आसान सवाल है। हमें बस दोनों वाक्यों की तुलना करनी है (Common ढूँढना है)।</p><ul><li>वाक्य 1: tables are very <b>strong</b> ➔ ra <b>ku</b> st kp</li><li>वाक्य 2: she is <b>strong</b> girl ➔ <b>ku</b> xg lo hd</li></ul><p>ध्यान से देखिए, दोनों वाक्यों में केवल एक ही शब्द Common है: <b>'strong'</b>.<br>उसी तरह उनके कूट (codes) में भी केवल एक ही कोड Common है: <b>'ku'</b>.</p><p>इसलिए 'strong' का कोड 'ku' होगा। सही उत्तर विकल्प 1 है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding-Decoding",
+        "level": "Medium",
+        "q_en": "<p>In a certain code language, ‘HUTS’ is coded as ‘4837’ and ‘SHOT’ is coded as ‘4782’. What is the code for ‘O’ in the given code language?</p>",
+        "q_hi": "<p>एक निश्चित कूट भाषा में, ‘HUTS’ को ‘4837’ के रूप में कूटबद्ध किया जाता है और ‘SHOT’ को ‘4782’ के रूप में कूटबद्ध किया जाता है। दी गई कूट भाषा में ‘O’ के लिए कूट क्या है?</p>",
+        "op_en": [
+            "8",
+            "2",
+            "7",
+            "4"
+        ],
+        "op_hi": [
+            "8",
+            "2",
+            "7",
+            "4"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए इस Number Coding को डिकोड करते हैं। यहाँ शब्दों के अक्षरों को संख्याओं से दर्शाया गया है (पर जरूरी नहीं कि वे उसी क्रम में हों)।</p><ul><li><b>H U T S</b> ➔ 4, 8, 3, 7</li><li><b>S H O T</b> ➔ 4, 7, 8, 2</li></ul><p>दोनों शब्दों (HUTS और SHOT) में कॉमन अक्षर हैं: <b>H, T, S</b><br>और दोनों के कोड्स में कॉमन संख्याएँ हैं: <b>4, 8, 7</b></p><p>इसका मतलब H, T, और S के कोड 4, 8, 7 में से ही होंगे।<br>अब शब्द <b>SHOT</b> में 'S, H, T' का काम 4, 8, 7 से हो गया। बचा हुआ अक्षर <b>'O'</b> है और बची हुई संख्या <b>'2'</b> है।</p><p>इसलिए 'O' का कोड <b>2</b> होगा। सही विकल्प 2 है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "level": "Hard",
+        "q_en": "<p>Seven people F, G, H, Q, R, S and T are sitting in a straight line facing north. Only three people sit to the right of T. R sits to the immediate left of G. No one sits to the left of H. Only four people sit between H and S. F is not an immediate neighbor of T. Who sits at the rightmost end of the line?</p>",
+        "q_hi": "<p>सात व्यक्ति F, G, H, Q, R, S और T उत्तर की ओर मुख करके एक सीधी रेखा में बैठे हैं। T के दाईं ओर केवल तीन व्यक्ति बैठे हैं। R, G के ठीक बाईं ओर बैठा है। H के बाईं ओर कोई नहीं बैठा है। H और S के बीच केवल चार व्यक्ति बैठे हैं। F, T का निकटतम पड़ोसी नहीं है। पंक्ति के सबसे दाएँ छोर पर कौन बैठा है?</p>",
+        "op_en": [
+            "Q",
+            "F",
+            "R",
+            "S"
+        ],
+        "op_hi": [
+            "Q",
+            "F",
+            "R",
+            "S"
+        ],
+        "ans": "2",
+        "solution": "<p>बच्चों, आइए 7 लोगों को पंक्ति में बैठाते हैं:</p><ul><li><b>Step 1:</b> T के दाएँ 3 लोग हैं। इसका अर्थ है T बीच में (चौथे स्थान पर) है। ➔ _ _ _ <b>T</b> _ _ _</li><li><b>Step 2:</b> H के बाएँ कोई नहीं है। इसका अर्थ है H पहले स्थान (extreme left) पर है। ➔ <b>H</b> _ _ <b>T</b> _ _ _</li><li><b>Step 3:</b> H और S के बीच 4 लोग हैं। H पहले स्थान पर है, 4 लोग (स्थान 2,3,4,5) छोड़कर S छठे स्थान पर होगा। ➔ <b>H</b> _ _ <b>T</b> _ <b>S</b> _</li><li><b>Step 4:</b> R, G के ठीक बाएँ बैठा है। यानी R और G एक साथ (RG) बैठेंगे। केवल स्थान 2 और 3 ही एक साथ खाली हैं। ➔ <b>H R G T</b> _ <b>S</b> _</li><li><b>Step 5:</b> F, T का पड़ोसी नहीं है। T का पड़ोसी 5वाँ स्थान खाली है, इसलिए F वहाँ नहीं आ सकता। F 7वें (अंतिम) स्थान पर आएगा। ➔ <b>H R G T</b> _ <b>S F</b></li><li><b>Step 6:</b> बचा हुआ व्यक्ति Q, 5वें स्थान पर आ जाएगा। ➔ <b>H R G T Q S F</b></li></ul><p>प्रश्न: पंक्ति के सबसे दाएँ छोर (rightmost end) पर कौन है? आप देख सकते हैं कि दाएँ छोर पर <b>F</b> बैठा है। अतः सही उत्तर 2 है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Medium",
+        "q_en": "<p>Refer to the following letter series and answer the question that follows. Counting to be done from left to right only.<br><br>(Left) I P Y U K G R O B L Y K E I X E R A Z A (Right)<br><br>How many consonants are there in the series that are immediately preceded by a consonant and also immediately followed by a consonant?</p>",
+        "q_hi": "<p>निम्नलिखित अक्षर श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गिनती केवल बाएँ से दाएँ की जानी है।<br><br>(बाएँ) I P Y U K G R O B L Y K E I X E R A Z A (दाएँ)<br><br>श्रृंखला में ऐसे कितने व्यंजन हैं जिनके ठीक पहले एक व्यंजन और ठीक बाद में भी एक व्यंजन है?</p>",
+        "op_en": [
+            "Three",
+            "Two",
+            "One",
+            "Four"
+        ],
+        "op_hi": [
+            "तीन",
+            "दो",
+            "एक",
+            "चार"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, यहाँ हमें ऐसा व्यंजन खोजना है जिसके आगे और पीछे दोनों तरफ व्यंजन हों। यानी पैटर्न होगा: <b>[व्यंजन] + [व्यंजन (टार्गेट)] + [व्यंजन]</b> (C-C-C)</p><p>आइए श्रृंखला में लगातार तीन व्यंजनों (Consonants) के जोड़े खोजते हैं:<br>श्रृंखला: I P Y U <b>K G R</b> O <b>B L Y</b> K E I X E R A Z A</p><ul><li><b>K G R</b> ➔ K(C), G(C), R(C)। बीच में <b>G</b> है जो C-C-C को पूरा करता है। ✅ (1)</li><li><b>B L Y</b> ➔ B(C), L(C), Y(C)। बीच में <b>L</b> है जो C-C-C को पूरा करता है। ✅ (2)</li><li><b>L Y K</b> ➔ L(C), Y(C), K(C)। बीच में <b>Y</b> है जो C-C-C को पूरा करता है। ✅ (3)</li></ul><p>यहाँ पर G, L और Y ऐसे व्यंजन हैं जो दो अन्य व्यंजनों के बीच में आए हैं। अतः ऐसे कुल <b>3</b> (Three) व्यंजन हैं। विकल्प 1 सही है।</p>"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "level": "Medium",
+        "q_en": "<p>Refer to the following series and answer the question.<br><br>(Left) STTARURPATEMEYETINOPLUJGHFSDHBNV (Right)<br><br>If all the consonants are dropped from the series, which letter will be fourth from the right?</p>",
+        "q_hi": "<p>निम्नलिखित श्रृंखला को देखें और प्रश्न का उत्तर दें।<br><br>(बाएँ) STTARURPATEMEYETINOPLUJGHFSDHBNV (दाएँ)<br><br>यदि श्रृंखला से सभी व्यंजनों को हटा दिया जाए, तो दाएँ से चौथा अक्षर कौन सा होगा?</p>",
+        "op_en": [
+            "E",
+            "I",
+            "U",
+            "O"
+        ],
+        "op_hi": [
+            "E",
+            "I",
+            "U",
+            "O"
+        ],
+        "ans": "1",
+        "solution": "<p>बच्चों, सवाल में कहा गया है कि सभी व्यंजनों (Consonants) को हटा दिया जाए। इसका मतलब हमें केवल <b>स्वरों (Vowels: A, E, I, O, U)</b> पर ध्यान देना है।</p><p>श्रृंखला: STTARURPATEMEYETINOPLUJGHFSDHBNV</p><p>आइए दाएँ छोर (Right side) से बाईं ओर चलते हुए स्वरों को गिनते हैं:</p><ul><li>अंतिम हिस्से JGHFSDHBNV में कोई स्वर नहीं है।</li><li>दाएँ से <b>पहला</b> स्वर: <b>U</b> (PL<b>U</b>)</li><li>दाएँ से <b>दूसरा</b> स्वर: <b>O</b> (IN<b>O</b>P)</li><li>दाएँ से <b>तीसरा</b> स्वर: <b>I</b> (T<b>I</b>N)</li><li>दाएँ से <b>चौथा</b> स्वर: <b>E</b> (Y<b>E</b>T)</li></ul><p>अतः व्यंजनों को हटाने के बाद दाएँ से चौथा अक्षर <b>E</b> होगा। सही विकल्प 1 है।</p>"
+    }
+]
