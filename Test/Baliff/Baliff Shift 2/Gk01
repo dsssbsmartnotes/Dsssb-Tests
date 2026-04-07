@@ -1,0 +1,422 @@
+[
+  {
+    "section": "General Awareness",
+    "topic": "Indian History",
+    "level": "Easy",
+    "q_en": "<p>Who was popularly known as the \u201cPunjab Kesari\u201d?</p>",
+    "q_hi": "<p>किसे लोकप्रिय रूप से \u201cपंजाब केसरी\u201d के रूप में जाना जाता था?</p>",
+    "op_en": [
+      "Ranjit Singh",
+      "Bhagat Singh",
+      "Lala Lajpat Rai",
+      "Bipin Chandra Pal"
+    ],
+    "op_hi": [
+      "रणजीत सिंह",
+      "भगत सिंह",
+      "लाला लाजपत राय",
+      "बिपिन चंद्र पाल"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, आइए इस सवाल को विस्तार से समझते हैं। <b>Lala Lajpat Rai</b> को ही <b>'पंजाब केसरी'</b> (Lion of Punjab) के नाम से जाना जाता था। वे भारतीय स्वतंत्रता संग्राम में 'लाल-बाल-पाल' की प्रसिद्ध तिकड़ी का हिस्सा थे।</p><p>बाकी विकल्पों का विश्लेषण इस प्रकार है:<ul><li><b>Ranjit Singh:</b> इन्हें 'शेर-ए-पंजाब' कहा जाता है, जो सिख साम्राज्य के संस्थापक थे।</li><li><b>Bhagat Singh:</b> इन्हें 'शहीद-ए-आजम' के नाम से जाना जाता है।</li><li><b>Bipin Chandra Pal:</b> ये बंगाल के एक महान क्रांतिकारी और राष्ट्रवादी नेता थे।</li></ul>लाला लाजपत राय की मृत्यु 1928 में साइमन कमीशन के विरोध प्रदर्शन के दौरान हुए लाठीचार्ज में घायल होने के कारण हुई थी।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Geography",
+    "level": "Easy",
+    "q_en": "<p>In the context of India’s coastal ecosystems, the Sundarbans mangrove forests lie predominantly in which Indian state?</p>",
+    "q_hi": "<p>भारत के तटीय पारिस्थितिकी तंत्र के संदर्भ में, सुंदरवन मैंग्रोव वन मुख्य रूप से किस भारतीय राज्य में स्थित हैं?</p>",
+    "op_en": [
+      "West Bengal",
+      "Odisha",
+      "Bihar",
+      "Assam"
+    ],
+    "op_hi": [
+      "पश्चिम बंगाल",
+      "ओडिशा",
+      "बिहार",
+      "असम"
+    ],
+    "ans": "1",
+    "solution": "<p>दोस्तों, <b>Sundarbans</b> दुनिया का सबसे बड़ा नदी डेल्टा है। यह मुख्य रूप से <b>West Bengal</b> और बांग्लादेश में फैला हुआ है। यह <b>Ganga</b> और <b>Brahmaputra</b> नदियों द्वारा बनाया गया है। <ul><li><b>Odisha:</b> यहाँ 'भीतरकनिका' मैंग्रोव प्रसिद्ध हैं।</li><li><b>Bihar & Assam:</b> ये तटीय (Coastal) राज्य नहीं हैं, इसलिए यहाँ मैंग्रोव वन नहीं पाए जाते।</li></ul> याद रखें, सुंदरवन अपने <b>Royal Bengal Tigers</b> और 'सुंदरी' पेड़ों के लिए जाना जाता है।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Polity",
+    "level": "Medium",
+    "q_en": "<p>Which Article of the Constitution of India empowers Parliament to regulate matters relating to citizenship by making appropriate laws?</p>",
+    "q_hi": "<p>भारत के संविधान का कौन सा अनुच्छेद संसद को उचित कानून बनाकर नागरिकता से संबंधित मामलों को विनियमित करने की शक्ति प्रदान करता है?</p>",
+    "op_en": [
+      "Article 9",
+      "Article 10",
+      "Article 5",
+      "Article 11"
+    ],
+    "op_hi": [
+      "अनुच्छेद 9",
+      "अनुच्छेद 10",
+      "अनुच्छेद 5",
+      "अनुच्छेद 11"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, भारतीय संविधान के <b>Part II</b> (अनुच्छेद 5-11) में नागरिकता की बात की गई है। <b>Article 11</b> संसद को यह पावर देता है कि वह नागरिकता के अधिकार को कानून बनाकर रेगुलेट करे। <ul><li><b>Article 5:</b> संविधान लागू होने के समय की नागरिकता।</li><li><b>Article 9:</b> यदि कोई स्वेच्छा से विदेशी नागरिकता लेता है, तो उसकी भारतीय नागरिकता समाप्त हो जाएगी।</li><li><b>Article 10:</b> नागरिकता के अधिकारों का बने रहना।</li></ul> इसी आर्टिकल 11 का उपयोग करके संसद ने <b>Citizenship Act, 1955</b> बनाया था।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "History",
+    "level": "Medium",
+    "q_en": "<p>Which movement launched by Mahatma Gandhi was the first nationwide mass agitation against British rule, mobilising people across provinces rather than being confined to a single region?</p>",
+    "q_hi": "<p>महात्मा गांधी द्वारा शुरू किया गया कौन सा आंदोलन ब्रिटिश शासन के खिलाफ पहला देशव्यापी जन आंदोलन था, जिसने एक क्षेत्र तक सीमित रहने के बजाय विभिन्न प्रांतों के लोगों को लामबंद किया?</p>",
+    "op_en": [
+      "Quit India Movement",
+      "Swadeshi Movement",
+      "Civil Disobedience Movement",
+      "Non-Cooperation Movement"
+    ],
+    "op_hi": [
+      "भारत छोड़ो आंदोलन",
+      "स्वदेशी आंदोलन",
+      "सविनय अवज्ञा आंदोलन",
+      "असहयोग आंदोलन"
+    ],
+    "ans": "4",
+    "solution": "<p>प्यारे बच्चों, इस सवाल का सही जवाब <b>Non-Cooperation Movement</b> (1920) है। यह गांधीजी का पहला 'Nationwide' मास मूवमेंट था। <ul><li><b>Swadeshi Movement (1905):</b> यह बंगाल विभाजन के खिलाफ था, गांधीजी तब भारत में सक्रिय नहीं थे।</li><li><b>Civil Disobedience (1930):</b> यह नमक सत्याग्रह से शुरू हुआ था।</li><li><b>Quit India (1942):</b> यह आखिरी बड़ा आंदोलन था।</li></ul> असहयोग आंदोलन का उद्देश्य ब्रिटिश सरकार के साथ सहयोग न करना था, जो चौरी-चौरा कांड के बाद वापस ले लिया गया था।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Polity",
+    "level": "Medium",
+    "q_en": "<p>In a State, the Council of Ministers headed by the Chief Minister is collectively responsible to which constitutional body?</p>",
+    "q_hi": "<p>किसी राज्य में, मुख्यमंत्री की अध्यक्षता वाली मंत्रिपरिषद सामूहिक रूप से किस संवैधानिक निकाय के प्रति उत्तरदायी होती है?</p>",
+    "op_en": [
+      "The Governor",
+      "The State Legislative Assembly",
+      "The State Legislative Council",
+      "President of India"
+    ],
+    "op_hi": [
+      "राज्यपाल",
+      "राज्य विधानसभा",
+      "राज्य विधान परिषद",
+      "भारत के राष्ट्रपति"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, संसदीय व्यवस्था में <b>Collective Responsibility</b> का सिद्धांत बहुत जरूरी है। राज्य स्तर पर मंत्रिपरिषद <b>State Legislative Assembly</b> (विधानसभा) के प्रति उत्तरदायी होती है। <ul><li><b>Governor:</b> मंत्री व्यक्तिगत रूप से (Individually) राज्यपाल के प्रति उत्तरदायी होते हैं।</li><li><b>Legislative Council:</b> यह उच्च सदन है, लेकिन मंत्रिपरिषद इसके प्रति उत्तरदायी नहीं होती।</li><li><b>President:</b> केंद्र में मंत्रिपरिषद लोकसभा के प्रति उत्तरदायी होती है।</li></ul> विधानसभा में बहुमत खोने पर पूरी सरकार को इस्तीफा देना पड़ता है।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Geography",
+    "level": "Easy",
+    "q_en": "<p>The Konkan Coast, forming a part of India’s western littoral, stretches primarily between which two states?</p>",
+    "q_hi": "<p>कोंकण तट, जो भारत के पश्चिमी तट का एक हिस्सा है, मुख्य रूप से किन दो राज्यों के बीच फैला हुआ है?</p>",
+    "op_en": [
+      "Gujarat and Maharashtra",
+      "Kerala and Tamil Nadu",
+      "Odisha and Andhra Pradesh",
+      "Maharashtra and Goa"
+    ],
+    "op_hi": [
+      "गुजरात और महाराष्ट्र",
+      "केरल और तमिलनाडु",
+      "ओडिशा और आंध्र प्रदेश",
+      "महाराष्ट्र और गोवा"
+    ],
+    "ans": "4",
+    "solution": "<p>साथियों, भारत के पश्चिमी तट को अलग-अलग नामों से जाना जाता है। <b>Maharashtra and Goa</b> के तटीय क्षेत्र को <b>Konkan Coast</b> कहा जाता है। <ul><li><b>Gujarat:</b> इसके तट को काठियावाड़ तट कहते हैं।</li><li><b>Kerala:</b> यहाँ के तट को मालाबार (Malabar) तट कहा जाता है।</li><li><b>Odisha/AP:</b> यह पूर्वी तट है, जिसे उत्कल या उत्तरी सरकार तट कहते हैं।</li></ul> कोंकण तट अपनी प्राकृतिक सुंदरता और कोंकणी भाषा के लिए प्रसिद्ध है।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Economics/Demography",
+    "level": "Medium",
+    "q_en": "<p>In demographic studies, how is the Natural Growth Rate of population calculated?</p>",
+    "q_hi": "<p>जनसांख्यिकीय अध्ययनों में, जनसंख्या की प्राकृतिक विकास दर (Natural Growth Rate) की गणना कैसे की जाती है?</p>",
+    "op_en": [
+      "Crude Birth Rate minus Total Fertility Rate",
+      "Crude Birth Rate minus Infant Mortality Rate",
+      "Crude Death Rate minus Migration Rate",
+      "Crude Birth Rate minus Crude Death Rate"
+    ],
+    "op_hi": [
+      "अशोधित जन्म दर माइनस कुल प्रजनन दर",
+      "अशोधित जन्म दर माइनस शिशु मृत्यु दर",
+      "अशोधित मृत्यु दर माइनस प्रवासन दर",
+      "अशोधित जन्म दर माइनस अशोधित मृत्यु दर"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, किसी देश की जनसंख्या स्वाभाविक रूप से कैसे बढ़ रही है, यह <b>Birth Rate</b> और <b>Death Rate</b> के अंतर से पता चलता है। <b>Natural Growth Rate = Crude Birth Rate - Crude Death Rate</b>। <ul><li><b>Migration Rate:</b> प्रवासन से 'Actual Growth' पता चलती है, न कि 'Natural'।</li><li><b>Infant Mortality:</b> यह स्वास्थ्य स्तर को दर्शाता है, ग्रोथ रेट को नहीं।</li><li><b>Fertility Rate:</b> यह प्रति महिला बच्चों की औसत संख्या होती है।</li></ul> यदि जन्म दर मृत्यु दर से अधिक है, तो जनसंख्या बढ़ेगी।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Economics",
+    "level": "Hard",
+    "q_en": "<p>Which of the following industries continued to require industrial licensing even after the 1991 reforms?</p>",
+    "q_hi": "<p>1991 के सुधारों के बाद भी निम्नलिखित में से किस उद्योग के लिए औद्योगिक लाइसेंस की आवश्यकता बनी रही?</p>",
+    "op_en": [
+      "Alcohol, cigarettes, and industrial explosives",
+      "IT and software services",
+      "Food processing and textiles",
+      "Automobile and steel production"
+    ],
+    "op_hi": [
+      "शराब, सिगरेट और औद्योगिक विस्फोटक",
+      "आईटी और सॉफ्टवेयर सेवाएं",
+      "खाद्य प्रसंस्करण और कपड़ा",
+      "ऑटोमोबाइल और इस्पात उत्पादन"
+    ],
+    "ans": "1",
+    "solution": "<p>दोस्तों, 1991 के <b>LPG (Liberalization, Privatization, Globalization)</b> सुधारों में अधिकांश उद्योगों को लाइसेंस मुक्त कर दिया गया था। लेकिन सामाजिक और सुरक्षा कारणों से <b>Alcohol, Cigarettes, Industrial Explosives</b>, खतरनाक रसायन और रक्षा उपकरण के लिए लाइसेंस अनिवार्य रखा गया। <ul><li><b>IT/Software:</b> ये पूरी तरह से डी-रेगुलेटेड हैं।</li><li><b>Food/Textile:</b> यहाँ लाइसेंस की जरूरत नहीं है।</li><li><b>Steel/Auto:</b> इन्हें भी 1991 के बाद मुक्त कर दिया गया था।</li></ul> वर्तमान में केवल 5 उद्योगों के लिए ही अनिवार्य लाइसेंसिंग है।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Polity",
+    "level": "Easy",
+    "q_en": "<p>The First Schedule of the Constitution of India contains information related to which of the following?</p>",
+    "q_hi": "<p>भारत के संविधान की पहली अनुसूची में निम्नलिखित में से किससे संबंधित जानकारी है?</p>",
+    "op_en": [
+      "Names of States and Union Territories and their territorial extent",
+      "Forms of oaths and affirmations",
+      "Salaries and allowances of constitutional authorities",
+      "Distribution of legislative powers between the Union and the States"
+    ],
+    "op_hi": [
+      "राज्यों और केंद्र शासित प्रदेशों के नाम और उनका क्षेत्रीय विस्तार",
+      "शपथ और प्रतिज्ञान के प्रारूप",
+      "संवैधानिक अधिकारियों के वेतन और भत्ते",
+      "संघ और राज्यों के बीच विधायी शक्तियों का वितरण"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, संविधान की अनुसूचियाँ (Schedules) बहुत महत्वपूर्ण हैं। <b>First Schedule</b> में भारत के सभी <b>States and UTs</b> के नाम और उनकी सीमाओं का विवरण है। <ul><li><b>Oaths (शपथ):</b> यह तीसरी (3rd) अनुसूची में है।</li><li><b>Salaries (वेतन):</b> यह दूसरी (2nd) अनुसूची में है।</li><li><b>Powers Distribution:</b> यह सातवीं (7th) अनुसूची में है।</li></ul> याद रखने की ट्रिक: 1st Schedule = भारत का नक्शा (राज्यों के नाम)।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Economics",
+    "level": "Hard",
+    "q_en": "<p>Which of the following terms is used to describe the mixture of the 'flexible exchange rate system' and the 'fixed rate system'?</p>",
+    "q_hi": "<p>'लचीली विनिमय दर प्रणाली' और 'निश्चित दर प्रणाली' के मिश्रण का वर्णन करने के लिए निम्नलिखित में से किस शब्द का उपयोग किया जाता है?</p>",
+    "op_en": [
+      "Pure floating",
+      "Dirty floating",
+      "Pegged floating",
+      "Clean floating"
+    ],
+    "op_hi": [
+      "शुद्ध फ्लोटिंग (Pure floating)",
+      "डर्टी फ्लोटिंग (Dirty floating)",
+      "पेग्ड फ्लोटिंग (Pegged floating)",
+      "क्लीन फ्लोटिंग (Clean floating)"
+    ],
+    "ans": "2",
+    "solution": "<p>प्यारे बच्चों, जब विनिमय दर (Exchange Rate) बाजार द्वारा तय होती है लेकिन सेंट्रल बैंक (जैसे RBI) हस्तक्षेप करता है, तो उसे <b>Managed Floating</b> या <b>Dirty Floating</b> कहते हैं। <ul><li><b>Pure/Clean Floating:</b> इसमें सरकार या बैंक कोई हस्तक्षेप नहीं करता।</li><li><b>Pegged:</b> जब करेंसी को किसी दूसरी करेंसी (जैसे डॉलर) से फिक्स कर दिया जाए।</li></ul> भारत में 'Dirty Floating' का ही उपयोग किया जाता है ताकि रुपया बहुत ज्यादा न गिरे।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Geography",
+    "level": "Medium",
+    "q_en": "<p>The Western Ghats, running parallel to India’s western coastline, are primarily known for which distinct geographical and ecological characteristics?</p>",
+    "q_hi": "<p>भारत की पश्चिमी तटरेखा के समानांतर चलने वाले पश्चिमी घाट मुख्य रूप से किन विशिष्ट भौगोलिक और पारिस्थितिक विशेषताओं के लिए जाने जाते हैं?</p>",
+    "op_en": [
+      "Low average elevation and sparse natural vegetation",
+      "High biological diversity and heavy orographic rainfall",
+      "Cold arid climatic conditions with limited rainfall",
+      "Flat physical terrain with minimal ecological variation"
+    ],
+    "op_hi": [
+      "कम औसत ऊंचाई और विरल प्राकृतिक वनस्पति",
+      "उच्च जैविक विविधता और भारी पर्वतीय वर्षा (Orographic rainfall)",
+      "सीमित वर्षा के साथ ठंडी शुष्क जलवायु परिस्थितियाँ",
+      "न्यूनतम पारिस्थितिक भिन्नता के साथ सपाट भौतिक क्षेत्र"
+    ],
+    "ans": "2",
+    "solution": "<p>साथियों, <b>Western Ghats</b> (सह्याद्रि) भारत का एक प्रमुख <b>Biodiversity Hotspot</b> है। यहाँ <b>Orographic Rainfall</b> (पर्वतीय वर्षा) होती है क्योंकि पहाड़ नमी वाली हवाओं को रोकते हैं। <ul><li><b>Option 1:</b> गलत है, क्योंकि यहाँ ऊँचाई ज्यादा है और घने जंगल हैं।</li><li><b>Option 3:</b> यह लद्दाख जैसी जगहों की विशेषता है।</li><li><b>Option 4:</b> पश्चिमी घाट बहुत उबड़-खाबड़ और विविधतापूर्ण हैं।</li></ul> यहाँ कई लुप्तप्राय प्रजातियाँ जैसे 'Lion-tailed macaque' पाई जाती हैं।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Polity",
+    "level": "Medium",
+    "q_en": "<p>At the State Authority level, which body is responsible for organising Lok Adalats in India?</p>",
+    "q_hi": "<p>राज्य प्राधिकरण स्तर पर, भारत में लोक अदालतों के आयोजन के लिए कौन सा निकाय जिम्मेदार है?</p>",
+    "op_en": [
+      "District Collector",
+      "Member Secretary of the State Legal Services Authority",
+      "National Legal Services Authority (NALSA)",
+      "Chief Justice of India"
+    ],
+    "op_hi": [
+      "जिला कलेक्टर",
+      "राज्य कानूनी सेवा प्राधिकरण के सदस्य सचिव",
+      "राष्ट्रीय कानूनी सेवा प्राधिकरण (NALSA)",
+      "भारत के मुख्य न्यायाधीश"
+    ],
+    "ans": "2",
+    "solution": "<p>बच्चों, लोक अदालतें आपसी समझौते से मामले सुलझाने का एक माध्यम हैं। राज्य स्तर पर इसका आयोजन <b>State Legal Services Authority (SLSA)</b> के <b>Member Secretary</b> द्वारा किया जाता है। <ul><li><b>District Collector:</b> इनका काम प्रशासन संभालना है, न्यायिक आयोजन नहीं।</li><li><b>NALSA:</b> यह राष्ट्रीय स्तर पर नीति बनाती है।</li><li><b>CJI:</b> ये सुप्रीम कोर्ट के प्रधान हैं।</li></ul> लोक अदालत के फैसले की कोई अपील नहीं होती क्योंकि यह आपसी सहमति से होता है।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Economics",
+    "level": "Easy",
+    "q_en": "<p>In economics, what are goods called that are used as inputs in the production of other goods and services, such as steel used in the manufacture of cars?</p>",
+    "q_hi": "<p>अर्थशास्त्र में, उन वस्तुओं को क्या कहा जाता है जिनका उपयोग अन्य वस्तुओं और सेवाओं के उत्पादन में इनपुट के रूप में किया जाता है, जैसे कारों के निर्माण में उपयोग किया जाने वाला स्टील?</p>",
+    "op_en": [
+      "Durable goods",
+      "Consumer goods",
+      "Luxury goods",
+      "Intermediate goods"
+    ],
+    "op_hi": [
+      "टिकाऊ वस्तुएं (Durable goods)",
+      "उपभोक्ता वस्तुएं (Consumer goods)",
+      "विलासिता की वस्तुएं (Luxury goods)",
+      "मध्यवर्ती वस्तुएं (Intermediate goods)"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, जो वस्तुएं अंतिम उत्पाद (Final Product) बनाने के लिए बीच में इस्तेमाल होती हैं, उन्हें <b>Intermediate Goods</b> कहते हैं। <ul><li><b>Consumer Goods:</b> जो सीधे ग्राहक इस्तेमाल करता है (जैसे ब्रेड)।</li><li><b>Durable Goods:</b> जो लंबे समय तक चलती हैं (जैसे टीवी, फ्रिज)।</li><li><b>Luxury Goods:</b> जो बहुत महंगी और स्टेटस सिंबल होती हैं।</li></ul> ध्यान दें, जीडीपी (GDP) की गणना में केवल 'Final Goods' का मूल्य जोड़ा जाता है।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Current Affairs",
+    "level": "Hard",
+    "q_en": "<p>The central theme of the <b>Human Development Report 2025</b> published by the United Nations Development Programme (UNDP) is:</p>",
+    "q_hi": "<p>संयुक्त राष्ट्र विकास कार्यक्रम (UNDP) द्वारा प्रकाशित <b>मानव विकास रिपोर्ट 2025</b> का मुख्य विषय (Theme) क्या है?</p>",
+    "op_en": [
+      "Reforming global taxation for AI economies",
+      "A Matter of Choice: People and Possibilities in the Age of AI",
+      "Expanding global trade through digital markets",
+      "Eliminating manual labour through automation"
+    ],
+    "op_hi": [
+      "AI अर्थव्यवस्थाओं के लिए वैश्विक कराधान में सुधार",
+      "A Matter of Choice: People and Possibilities in the Age of AI",
+      "डिजिटल बाजारों के माध्यम से वैश्विक व्यापार का विस्तार",
+      "स्वचालन के माध्यम से शारीरिक श्रम को समाप्त करना"
+    ],
+    "ans": "2",
+    "solution": "<p>प्यारे छात्रों, <b>UNDP</b> हर साल मानव विकास रिपोर्ट जारी करता है। 2025 की थीम <b>\"A Matter of Choice: People and Possibilities in the Age of AI\"</b> है। <ul><li>यह रिपोर्ट <b>HDI (Human Development Index)</b> पर आधारित होती है।</li><li>इसमें शिक्षा, स्वास्थ्य और प्रति व्यक्ति आय को मापा जाता है।</li></ul> वर्तमान दौर में AI (आर्टिफिशियल इंटेलिजेंस) मानव विकास को कैसे प्रभावित कर रहा है, इस रिपोर्ट में उस पर ध्यान दिया गया है।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "History",
+    "level": "Medium",
+    "q_en": "<p>Which event is regarded as the immediate trigger for the rise of the Extremist phase of the Indian National Movement (1905\u20131917)?</p>",
+    "q_hi": "<p>भारतीय राष्ट्रीय आंदोलन (1905-1917) के चरमपंथी (Extremist) चरण के उदय के लिए किस घटना को तत्काल ट्रिगर माना जाता है?</p>",
+    "op_en": [
+      "The Partition of Bengal carried out in 1905",
+      "The launch of the Home Rule Movement in 1916",
+      "The passage of the Indian Councils Act in 1892",
+      "The formation of the Muslim League in 1906"
+    ],
+    "op_hi": [
+      "1905 में बंगाल का विभाजन",
+      "1916 में होम रूल आंदोलन की शुरुआत",
+      "1892 में भारतीय परिषद अधिनियम का पारित होना",
+      "1906 में मुस्लिम लीग का गठन"
+    ],
+    "ans": "1",
+    "solution": "<p>बच्चों, 1905 में लॉर्ड कर्जन द्वारा किया गया <b>Partition of Bengal</b> ही वह घटना थी जिसने नरमपंथियों (Moderates) के बजाय गरमपंथियों (Extremists) को ताकत दी। <ul><li><b>1892 Act:</b> इससे नरमपंथी संतुष्ट नहीं थे, लेकिन यह चरमपंथ का कारण नहीं बना।</li><li><b>Home Rule (1916):</b> यह तो चरमपंथी दौर के काफी बाद की घटना है।</li><li><b>Muslim League:</b> यह अंग्रेजों की 'बांटो और राज करो' नीति का हिस्सा थी।</li></ul> बंगाल विभाजन के विरोध में ही स्वदेशी आंदोलन शुरू हुआ था।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Geography",
+    "level": "Easy",
+    "q_en": "<p>Among the major rivers of India, which one has a predominantly west-to-east flow across the country?</p>",
+    "q_hi": "<p>भारत की प्रमुख नदियों में से कौन सी नदी मुख्य रूप से पश्चिम से पूर्व की ओर बहती है?</p>",
+    "op_en": [
+      "Godavari",
+      "Luni",
+      "Narmada",
+      "Tapi"
+    ],
+    "op_hi": [
+      "गोदावरी",
+      "लूनी",
+      "नर्मदा",
+      "तापी"
+    ],
+    "ans": "1",
+    "solution": "<p>साथियों, भारत की अधिकांश बड़ी नदियाँ पश्चिम से पूर्व की ओर बहकर बंगाल की खाड़ी में गिरती हैं। <b>Godavari</b> उनमें से एक है। <ul><li><b>Narmada & Tapi:</b> ये दोनों नदियाँ रिफ्ट वैली में पूर्व से पश्चिम की ओर बहती हैं और अरब सागर में गिरती हैं।</li><li><b>Luni:</b> यह राजस्थान की नदी है जो रेगिस्तान में ही विलुप्त हो जाती है (Endorheic)।</li></ul> गोदावरी को 'दक्षिण गंगा' या 'बूढ़ी गंगा' भी कहा जाता है।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Polity",
+    "level": "Easy",
+    "q_en": "<p>Which constitutional body is responsible for ensuring free and fair polls in India?</p>",
+    "q_hi": "<p>भारत में स्वतंत्र और निष्पक्ष चुनाव सुनिश्चित करने के लिए कौन सा संवैधानिक निकाय जिम्मेदार है?</p>",
+    "op_en": [
+      "Planning Commission",
+      "Finance Commission",
+      "Election Commission",
+      "Supreme Court"
+    ],
+    "op_hi": [
+      "योजना आयोग",
+      "वित्त आयोग",
+      "चुनाव आयोग",
+      "सुप्रीम कोर्ट"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, संविधान के <b>Article 324</b> के तहत <b>Election Commission of India (ECI)</b> की स्थापना की गई है। <ul><li><b>Finance Commission:</b> यह केंद्र और राज्यों के बीच पैसे के बंटवारे की सलाह देता है।</li><li><b>Supreme Court:</b> यह संविधान का रक्षक है, लेकिन चुनाव नहीं कराता।</li><li><b>Planning Commission:</b> इसे अब 'नीति आयोग' से बदल दिया गया है।</li></ul> चुनाव आयोग लोकसभा, राज्यसभा, विधानसभा और राष्ट्रपति के चुनाव कराता है।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "History",
+    "level": "Medium",
+    "q_en": "<p>The system under which Indian rulers were required to accept British troops within their territory, bear the full cost of their maintenance, and conduct external relations exclusively through the British government was officially known by which specific name?</p>",
+    "q_hi": "<p>वह प्रणाली जिसके तहत भारतीय शासकों को अपने क्षेत्र के भीतर ब्रिटिश सेना को स्वीकार करना, उनके रखरखाव का पूरा खर्च वहन करना और विशेष रूप से ब्रिटिश सरकार के माध्यम से बाहरी संबंध संचालित करना आवश्यक था, किस नाम से जानी जाती थी?</p>",
+    "op_en": [
+      "Permanent Settlement",
+      "Doctrine of Lapse",
+      "Subsidiary Alliance",
+      "Ryotwari System"
+    ],
+    "op_hi": [
+      "स्थायी बंदोबस्त",
+      "व्यपगत का सिद्धांत (Doctrine of Lapse)",
+      "सहायक संधि (Subsidiary Alliance)",
+      "रैयतवाड़ी प्रणाली"
+    ],
+    "ans": "3",
+    "solution": "<p>बच्चों, <b>Subsidiary Alliance</b> (सहायक संधि) को लॉर्ड वेलेस्ली (Lord Wellesley) ने लोकप्रिय बनाया था। <ul><li><b>Doctrine of Lapse:</b> यह डलहौजी का था (उत्तराधिकारी न होने पर राज्य हड़पना)।</li><li><b>Permanent Settlement:</b> यह कॉर्नवालिस की भू-राजस्व (Land Revenue) प्रणाली थी।</li><li><b>Ryotwari:</b> इसमें किसान सीधे सरकार को टैक्स देते थे।</li></ul> हैदराबाद का निजाम सहायक संधि स्वीकार करने वाला पहला शासक था।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Polity",
+    "level": "Medium",
+    "q_en": "<p>The core doctrine of judicial review, as adopted in India, is primarily derived from the constitutional practice of which country?</p>",
+    "q_hi": "<p>भारत में अपनाई गई न्यायिक समीक्षा (Judicial Review) का मूल सिद्धांत मुख्य रूप से किस देश के संवैधानिक अभ्यास से लिया गया है?</p>",
+    "op_en": [
+      "Russia",
+      "United States of America",
+      "United Kingdom",
+      "France"
+    ],
+    "op_hi": [
+      "रूस",
+      "संयुक्त राज्य अमेरिका",
+      "यूनाइटेड किंगडम",
+      "फ्रांस"
+    ],
+    "ans": "2",
+    "solution": "<p>प्यारे बच्चों, <b>Judicial Review</b> का मतलब है कि कोर्ट संसद द्वारा बनाए गए किसी भी कानून की जांच कर सकता है कि वह संविधान के अनुसार है या नहीं। यह हमने <b>USA</b> से लिया है। <ul><li><b>UK:</b> यहाँ संसद सर्वोच्च (Supreme) है, कोर्ट उसके कानून को रद्द नहीं कर सकता।</li><li><b>Russia:</b> यहाँ से हमने मौलिक कर्तव्य (Fundamental Duties) लिए हैं।</li><li><b>France:</b> यहाँ से स्वतंत्रता, समानता और बंधुत्व के आदर्श लिए गए हैं।</li></ul> भारत में सुप्रीम कोर्ट और हाई कोर्ट दोनों को यह पावर प्राप्त है।</p>"
+  },
+  {
+    "section": "General Awareness",
+    "topic": "Economics",
+    "level": "Medium",
+    "q_en": "<p>Which of the following features of a perfectly competitive market is INCORRECT?</p>",
+    "q_hi": "<p>पूर्णतः प्रतिस्पर्धी बाजार (Perfectly competitive market) की निम्नलिखित विशेषताओं में से कौन सी गलत है?</p>",
+    "op_en": [
+      "Large number of firms",
+      "Free entry and exit",
+      "Large number of buyers",
+      "Unidentical firm"
+    ],
+    "op_hi": [
+      "फर्मों की बड़ी संख्या",
+      "स्वतंत्र प्रवेश और निकास",
+      "खरीददारों की बड़ी संख्या",
+      "असमान फर्में (Unidentical firm)"
+    ],
+    "ans": "4",
+    "solution": "<p>बच्चों, <b>Perfect Competition</b> में सभी फर्में बिल्कुल एक जैसा (Homogeneous) सामान बेचती हैं। इसलिए <b>Unidentical Firm</b> (अलग-अलग तरह की फर्में) इसकी विशेषता नहीं है। <ul><li><b>Large Number:</b> यहाँ बेचने वाले और खरीदने वाले बहुत ज्यादा होते हैं।</li><li><b>Free Entry/Exit:</b> कोई भी नई फर्म आ सकती है या जा सकती है।</li><li><b>Identical Products:</b> सभी उत्पाद एक समान होने चाहिए।</li></ul> वास्तविक दुनिया में पूर्ण प्रतिस्पर्धा कम ही देखने को मिलती है।</p>"
+  }
+]
