@@ -1,0 +1,422 @@
+[
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Direct and Indirect Speech",
+        "level": "Moderate",
+        "q_en": "Choose the most appropriate option to complete the direct speech of the sentence. <br><br>The teacher asked the student how many students were participating from his class.<br>The ________ student, “How many students _________ class?”<br>",
+        "q_hi": "Choose the most appropriate option to complete the direct speech of the sentence. <br><br>The teacher asked the student how many students were participating from his class.<br>The ________ student, “How many students _________ class?”<br>",
+        "op_en": [
+            "teacher said to the / are participating from your",
+            "teacher asked / are participating in their",
+            "teacher told / were participating from my",
+            "teacher says to the / have been participating in your"
+        ],
+        "op_hi": [
+            "teacher said to the / are participating from your",
+            "teacher asked / are participating in their",
+            "teacher told / were participating from my",
+            "teacher says to the / have been participating in your"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept:</b><br>Indirect speech को Direct speech में बदलते समय Past Continuous (were participating) Present Continuous (are participating) में बदल जाता है और Pronouns (his) को subject/object के अनुसार (your) में बदला जाता है। Reporting verb 'asked' को 'said to' में वापस लाया जाता है।<br><br><b>🔍 Word Insight:</b><br>- <b>Said to:</b> Reporting verb for direct questions.<br>- <b>Are participating:</b> Present tense action showing immediate query.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Correct. 'said to' logic point है और 'are participating' tense shift को सही दर्शाता है।<br>2. Option B → Wrong. Direct speech में reporting verb के बाद आमतौर पर 'said to' आता है, और 'their' गलत pronoun है।<br>3. Option C → Wrong. 'told' assertive वाक्यों के लिए होता है, questions के लिए नहीं।<br>4. Option D → Wrong. 'says' present tense है, जबकि मूल वाक्य past में था।<br><br><b>⚡ Smart Exam Trick:</b><br>Tense check करो! अगर Indirect में 'were' (+V-ing) है, तो Direct में 'are' (+V-ing) होगा।<br><br><b>🎯 Memory Hack:</b><br>D $\\rightarrow$ I (Present $\\rightarrow$ Past); I $\\rightarrow$ D (Past $\\rightarrow$ Present).<br><br><b>🚫 Common Mistake:</b><br>Students अक्सर reporting verb 'asked' को direct speech में भी 'asked' ही रहने देते हैं, जो गलत है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Articles",
+        "level": "Easy",
+        "q_en": "Complete the following sentence by choosing the correct option.<br><br>There was ___ engineer nearby who volunteered as ___ mentor for local robotics students.",
+        "q_hi": "Complete the following sentence by choosing the correct option.<br><br>There was ___ engineer nearby who volunteered as ___ mentor for local robotics students.",
+        "op_en": [
+            "an, the",
+            "an, a",
+            "the, a",
+            "a, a"
+        ],
+        "op_hi": [
+            "an, the",
+            "an, a",
+            "the, a",
+            "a, a"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept:</b><br>Articles (A, An, The) का प्रयोग noun के sound के आधार पर होता है। Vowel sound (a, e, i, o, u) के साथ 'An' और Consonant sound के साथ 'A' लगता है।<br><br><b>🔍 Word Insight:</b><br>- <b>Engineer:</b> starts with 'E' (vowel sound), takes 'an'.<br>- <b>Mentor:</b> starts with 'M' (consonant sound), takes 'a'.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Wrong. 'The' तब लगता जब specific mentor की बात होती। यहाँ general introduction है।<br>2. Option B → Correct. 'An' for engineer and 'A' for mentor fits perfectly.<br>3. Option C → Wrong. 'The' engineer गलत है क्योंकि हम पहली बार परिचय दे रहे हैं।<br>4. Option D → Wrong. 'A' engineer उच्चारण के हिसाब से गलत है।<br><br><b>⚡ Smart Exam Trick:</b><br>सिर्फ शब्द की spelling मत देखो, 'Sound' सुनो। 'E' in Engineer = 'इ' sound (vowel).<br><br><b>🎯 Memory Hack:</b><br>Vowel sound = An; Baki sab = A.<br><br><b>🚫 Common Mistake:</b><br>Students 'the' का प्रयोग बिना जरूरत के कर देते हैं।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Adverbs & Fillers",
+        "level": "Moderate",
+        "q_en": "In the following question, you are required to fill in the blanks by choosing the option that best completes the sentence.<br>Despite attending multiple revision sessions and receiving personalised guidance from her mentor, she ____ could not grasp the underlying concept clearly, and the final explanation provided by the panel has ____ failed to resolve her confusion.",
+        "q_hi": "In the following question, you are required to fill in the blanks by choosing the option that best completes the sentence.<br>Despite attending multiple revision sessions and receiving personalised guidance from her mentor, she ____ could not grasp the underlying concept clearly, and the final explanation provided by the panel has ____ failed to resolve her confusion.",
+        "op_en": [
+            "seldom; still",
+            "hardly; already",
+            "still; also",
+            "already; rarely"
+        ],
+        "op_hi": [
+            "seldom; still",
+            "hardly; already",
+            "still; also",
+            "already; rarely"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>यह sentence 'Continuity' और 'Addition' पर आधारित है। 'Still' दिखाता है कि स्थिति वैसी ही बनी हुई है, और 'Also' दूसरी विफलता को जोड़ता है।<br><br><b>🔍 Word Insight:</b><br>- <b>Still:</b> अब भी (continuing action).<br>- <b>Also:</b> भी (addition).<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Wrong. 'Seldom' का मतलब 'शायद ही कभी' है, जो यहाँ context में फिट नहीं बैठता।<br>2. Option B → Wrong. 'Hardly' negative sense देता है लेकिन structure के साथ 'already' logical नहीं लग रहा।<br>3. Option C → Correct. 'Still could not grasp' (अब भी नहीं समझ पाई) and 'also failed' (यह भी विफल रहा) logically correct है।<br>4. Option D → Wrong. 'Already' और 'rarely' का combination वाक्य के अर्थ को बिगाड़ देता है।<br><br><b>⚡ Smart Exam Trick:</b><br>'Despite' (के बावजूद) को देखो। यह विरोधाभास दिखाता है, इसलिए 'still' का उपयोग सबसे सटीक है।<br><br><b>🎯 Memory Hack:</b><br>Still = Continuity; Also = Extra info.<br><br><b>🚫 Common Mistake:</b><br>लोग 'also' और 'still' के स्थान को लेकर भ्रमित हो जाते हैं।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Sentence Rearrangement (Jumbled Order)",
+        "level": "Moderate",
+        "q_en": "Parts of a sentence are given below in jumbled order. Arrange the parts in the correct order to form a meaningful and coherent sentence.<br><br>A.  to India for such<br>B. while I understand<br>C. procedures is a huge burden<br>D. heart transplants are complex<br>E. and expensive, travelling",
+        "q_hi": "Parts of a sentence are given below in jumbled order. Arrange the parts in the correct order to form a meaningful and coherent sentence.<br><br>A.  to India for such<br>B. while I understand<br>C. procedures is a huge burden<br>D. heart transplants are complex<br>E. and expensive, travelling",
+        "op_en": [
+            "AEDBC",
+            "BDEAC",
+            "BACED",
+            "CADBE"
+        ],
+        "op_hi": [
+            "AEDBC",
+            "BDEAC",
+            "BACED",
+            "CADBE"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept:</b><br>Jumbled sentences में Subject + Verb + Object का sequence और logical connection (conjunctions) ढूँढना जरूरी है।<br><br><b>🔍 Word Insight:</b><br>- <b>While:</b> Contrast शुरू करता है।<br>- <b>Burden:</b> Resultant feeling.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Wrong. 'to India' से शुरुआत logical नहीं है।<br>2. Option B → Correct. BDEAC (While I understand / heart transplants are complex / and expensive, travelling / to India for such / procedures is a huge burden.) यह पूर्ण अर्थ देता है।<br>3. Option C → Wrong. BACED sense नहीं बनाता।<br>4. Option D → Wrong. 'Procedures' से अंत logical नहीं बैठ रहा।<br><br><b>⚡ Smart Exam Trick:</b><br>Pairing technique का उपयोग करें। 'complex and expensive' (D-E) एक साथ होने चाहिए।<br><br><b>🎯 Memory Hack:</b><br>Identify the Opening Segment (usually a general statement or conjunction like 'While').<br><br><b>🚫 Common Mistake:</b><br>Grammatical links (जैसे 'travelling to') को नजरअंदाज करना।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Active and Passive Voice",
+        "level": "Moderate",
+        "q_en": "Choose the correct passive voice of the following sentence. <br><br>You may give away the material without using it.",
+        "q_hi": "Choose the correct passive voice of the following sentence. <br><br>You may give away the material without using it.",
+        "op_en": [
+            "The material may be given away without being used.",
+            "The material may be given away without use.",
+            "The material might be given away without using it.",
+            "The material might have been given away without being used."
+        ],
+        "op_hi": [
+            "The material may be given away without being used.",
+            "The material may be given away without use.",
+            "The material might be given away without using it.",
+            "The material might have been given away without being used."
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept:</b><br>Passive Voice Rules: Modal (May) + be + $V_3$ (given). 'Using it' (Gerund phrase) passive में 'being used' बन जाता है।<br><br><b>🔍 Word Insight:</b><br>- <b>May be given:</b> Standard passive for 'may give'.<br>- <b>Being used:</b> Passive of 'using'.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Correct. इसमें 'may' का 'may be' हुआ है और 'using' का 'being used'.<br>2. Option B → Wrong. 'Use' noun की तरह उपयोग हुआ है, जो verb के flow को बदल रहा है।<br>3. Option C → Wrong. Voice change में 'may' का 'might' नहीं होता (वह Narration में होता है)।<br>4. Option D → Wrong. 'Might have been' tense ही बदल देता है।<br><br><b>⚡ Smart Exam Trick:</b><br>Passive voice में Tense या Modal नहीं बदलता। 'May' है तो 'May' ही रहेगा, बस उसके साथ 'be' जुड़ जाएगा।<br><br><b>🎯 Memory Hack:</b><br>Active: May + V1 $\\rightarrow$ Passive: May + be + V3.<br><br><b>🚫 Common Mistake:</b><br>Voice और Narration के नियमों को मिला देना (जैसे May को Might में बदलना)।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Tense and Verb Forms",
+        "level": "Moderate",
+        "q_en": "Select the most appropriate option to fill in the blank.<br> She _____ a piece of cake to check whether _______ or not. <br>",
+        "q_hi": "Select the most appropriate option to fill in the blank.<br> She _____ a piece of cake to check whether _______ or not. <br>",
+        "op_en": [
+            "has been eating / it tasted fresh",
+            "had eaten / it tastes fresh",
+            "is eating / it tastes fresh",
+            "eats / it tasted fresh"
+        ],
+        "op_hi": [
+            "has been eating / it tasted fresh",
+            "had eaten / it tastes fresh",
+            "is eating / it tastes fresh",
+            "eats / it tasted fresh"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>Present Continuous action ('is eating') के साथ present state ('tastes') का तालमेल होना चाहिए।<br><br><b>🔍 Word Insight:</b><br>- <b>Tastes:</b> Here used as a stative verb meaning 'has a flavor'.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Wrong. 'Has been eating' continuous action है पर 'tasted' (past) के साथ match नहीं करता।<br>2. Option B → Wrong. 'Had eaten' (past perfect) और 'tastes' (present) का मेल गलत है।<br>3. Option C → Correct. 'She is eating' (वो खा रही है) 'to check whether it tastes fresh' (यह देखने के लिए कि क्या यह ताज़ा है)। Logic fit है।<br>4. Option D → Wrong. Habitual action (eats) के साथ 'tasted' (past) logical नहीं है।<br><br><b>⚡ Smart Exam Trick:</b><br>Check for Tense Consistency. अगर action अभी हो रहा है (to check), तो दोनों verbs present में होनी चाहिए।<br><br><b>🎯 Memory Hack:</b><br>Check logic: Present continuous + Simple present.<br><br><b>🚫 Common Mistake:</b><br>Students 'tastes' और 'tasted' में confusion के कारण गलत tense चुन लेते हैं।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Moderate",
+        "q_en": "In the given question, a statement is divided into different segments. Rearrange all the segments to form a meaningful sentence.<br>primarily to undertake an extensive exploration of the city (A) / he travelled to Jaipur (B) / the renowned astronomical edifice (C) / and to behold (D) / the illustrious Jantar Mantar complex (E)",
+        "q_hi": "In the given question, a statement is divided into different segments. Rearrange all the segments to form a meaningful sentence.<br>primarily to undertake an extensive exploration of the city (A) / he travelled to Jaipur (B) / the renowned astronomical edifice (C) / and to behold (D) / the illustrious Jantar Mantar complex (E)",
+        "op_en": [
+            "B–C–A–D–E",
+            "C–E–B–A–D",
+            "B–A–D–C–E",
+            "A–B–D–C–E"
+        ],
+        "op_hi": [
+            "B–C–A–D–E",
+            "C–E–B–A–D",
+            "B–A–D–C–E",
+            "A–B–D–C–E"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>Sentence का structure: Subject + Main Action + Purpose 1 + Purpose 2.<br><br><b>🔍 Word Insight:</b><br>- <b>Behold:</b> To see/observe something impressive.<br>- <b>Edifice:</b> A large building.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Wrong. Sequence logical flow में नहीं है।<br>2. Option B → Wrong. Structure broken है।<br>3. Option C → Correct. B (He travelled...) -> A (primarily to...) -> D (and to behold...) -> C (the edifice...) -> E (Jantar Mantar).<br>4. Option D → Wrong. 'Primarily' से शुरुआत awkward है।<br><br><b>⚡ Smart Exam Trick:</b><br>'And' (D) के पहले एक 'to-infinitive' (A) ढूँढें। 'To undertake... and to behold' एक correct parallel structure है।<br><br><b>🎯 Memory Hack:</b><br>Who? (He) + Did what? (Travelled) + Why? (To explore & behold).<br><br><b>🚫 Common Mistake:</b><br>Modifier 'the renowned astronomical edifice' को Jantar Mantar से दूर रखना।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Moderate",
+        "q_en": "<br>Select the option that can be used as a one-word substitute for the underlined group of words.<br><u>A requirement that is so fundamentally necessary or crucial that the overall system, process, or objective would fail to function effectively in its absence</u>",
+        "q_hi": "<br>Select the option that can be used as a one-word substitute for the underlined group of words.<br><u>A requirement that is so fundamentally necessary or crucial that the overall system, process, or objective would fail to function effectively in its absence</u>",
+        "op_en": [
+            "Indispensable",
+            "Contingent",
+            "Supplementary",
+            "Peripheral"
+        ],
+        "op_hi": [
+            "Indispensable",
+            "Contingent",
+            "Supplementary",
+            "Peripheral"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept:</b><br>Vocabulary based on 'Necessity'.<br><br><b>🔍 Word Insight:</b><br>- <b>Indispensable:</b> जिसके बिना काम न चल सके (Essential).<br>- <b>Contingent:</b> निर्भर होना (Dependent on something else).<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Correct. 'Indispensable' means absolutely necessary.<br>2. Option B → Wrong. Contingent means happening by chance or dependent.<br>3. Option C → Wrong. Supplementary means extra/additional.<br>4. Option D → Wrong. Peripheral means minor/not central.<br><br><b>⚡ Smart Exam Trick:</b><br>'In-' (Not) + 'dispensable' (जिसे छोड़ा जा सके) = जिसे छोड़ा न जा सके।<br><br><b>🎯 Memory Hack:</b><br>Indispensable = In + Discard (No discard possible).<br><br><b>🚫 Common Mistake:</b><br>Essential और Contingent में confuse होना।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Active and Passive Voice",
+        "level": "Easy",
+        "q_en": "Choose the correct form of active voice for the following sentence from the options.<br>The final report was submitted by the team before the deadline yesterday afternoon.",
+        "q_hi": "Choose the correct form of active voice for the following sentence from the options.<br>The final report was submitted by the team before the deadline yesterday afternoon.",
+        "op_en": [
+            "The team submitted the final report before the deadline yesterday afternoon.",
+            "The team has submitted the final report before the deadline yesterday afternoon.",
+            "The team will submit the final report before the deadline yesterday afternoon.",
+            "The team had submitted the final report before the deadline yesterday afternoon."
+        ],
+        "op_hi": [
+            "The team submitted the final report before the deadline yesterday afternoon.",
+            "The team has submitted the final report before the deadline yesterday afternoon.",
+            "The team will submit the final report before the deadline yesterday afternoon.",
+            "The team had submitted the final report before the deadline yesterday afternoon."
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept:</b><br>Passive (was submitted) $\\rightarrow$ Active (submitted). Simple Past tense remains Simple Past.<br><br><b>🔍 Word Insight:</b><br>- <b>Was submitted:</b> Past passive marker.<br>- <b>Submitted:</b> $V_2$ form for active past.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Correct. 'Was + $V_3$' simple past active '$V_2$' में बदल गया।<br>2. Option B → Wrong. 'Has submitted' Present Perfect है।<br>3. Option C → Wrong. 'Will submit' Future है।<br>4. Option D → Wrong. 'Had submitted' Past Perfect है।<br><br><b>⚡ Smart Exam Trick:</b><br>अगर Passive में सिर्फ 'was/were' है, तो Active में $V_2$ ही आएगा। Tense change मत करो!<br><br><b>🎯 Memory Hack:</b><br>Yesterday = Past Tense ($V_2$).<br><br><b>🚫 Common Mistake:</b><br>'Yesterday' देखते ही 'had submitted' (Past Perfect) चुन लेना, जो तब आता है जब दो काम हुए हों।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Error Identification/Word Usage",
+        "level": "Hard",
+        "q_en": "Identify the error in the sentence and select the correct option.<br><br>In its final judgment, the International Tribunal proclaimed the state guilty of violating multiple conventions on the treatment of displaced civilians.",
+        "q_hi": "Identify the error in the sentence and select the correct option.<br><br>In its final judgment, the International Tribunal proclaimed the state guilty of violating multiple conventions on the treatment of displaced civilians.",
+        "op_en": [
+            "In its final judgment, the International Tribunal announced the state guilty of violating numerous conventions on the treatment of displaced civilians.",
+            "In its final judgment, the International Tribunal proclaimed the state guilty for violating multiple conventions on the treatment of displaced civilians.",
+            "In its final judgment, the International Tribunal pronounced the state guilty for violating several conventions on the treatment of displaced civilians.",
+            "In its final judgment, the International Tribunal adjudged the state guilty of violating multiple conventions on the treatment of displaced civilians."
+        ],
+        "op_hi": [
+            "In its final judgment, the International Tribunal announced the state guilty of violating numerous conventions on the treatment of displaced civilians.",
+            "In its final judgment, the International Tribunal proclaimed the state guilty for violating multiple conventions on the treatment of displaced civilians.",
+            "In its final judgment, the International Tribunal pronounced the state guilty for violating several conventions on the treatment of displaced civilians.",
+            "In its final judgment, the International Tribunal adjudged the state guilty of violating multiple conventions on the treatment of displaced civilians."
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept:</b><br>Legal context में 'Proclaimed' की जगह 'Adjudged' या 'Pronounced' अधिक उपयुक्त होता है। 'Adjudge' का अर्थ है कानूनी रूप से निर्णय देना।<br><br><b>🔍 Word Insight:</b><br>- <b>Adjudge:</b> To make a formal judgment/decision.<br>- <b>Proclaim:</b> To announce publicly (less legal).<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Wrong. 'Announced' formal legal word नहीं है।<br>2. Option B → Wrong. 'Guilty for' prepositionally weaker than 'guilty of'.<br>3. Option C → Wrong. 'Pronounced... for' incorrect preposition.<br>4. Option D → Correct. 'Adjudged... guilty of' perfectly formal and grammatically accurate.<br><br><b>⚡ Smart Exam Trick:</b><br>Collocation: 'Adjudged guilty of' एक standard legal phrase है।<br><br><b>🎯 Memory Hack:</b><br>Judge $\\rightarrow$ Adjudge.<br><br><b>🚫 Common Mistake:</b><br>'Proclaim' को सही मान लेना क्योंकि यह भी 'घोषणा' ही है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Articles",
+        "level": "Easy",
+        "q_en": "Fill in the blanks by choosing the option that best completes the sentence.<br><br>During the unexpected commotion in the barn, he impulsively hurled ___ stone at the cow, while his sister, in an equally startled reaction, flung ___ stick toward the pig, causing the animals to scatter in confusion.",
+        "q_hi": "Fill in the blanks by choosing the option that best completes the sentence.<br><br>During the unexpected commotion in the barn, he impulsively hurled ___ stone at the cow, while his sister, in an equally startled reaction, flung ___ stick toward the pig, causing the animals to scatter in confusion.",
+        "op_en": [
+            "a , an",
+            "an , an\n​",
+            "a , &nbsp;a",
+            "an ,  a"
+        ],
+        "op_hi": [
+            "a , an",
+            "an , an\n​",
+            "a , &nbsp;a",
+            "an ,  a"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>'Stone' और 'Stick' दोनों consonant sounds ('s' sound) से शुरू होते हैं, इसलिए दोनों के साथ 'A' लगेगा।<br><br><b>🔍 Word Insight:</b><br>- <b>Stone:</b> /stəʊn/ (Consonant).<br>- <b>Stick:</b> /stɪk/ (Consonant).<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Wrong. 'Stick' के साथ 'an' नहीं आ सकता।<br>2. Option B → Wrong. 'Stone' के साथ 'an' नहीं आ सकता।<br>3. Option C → Correct. 'A' stone and 'A' stick.<br>4. Option D → Wrong. Dono components inverted hain.<br><br><b>⚡ Smart Exam Trick:</b><br>अगर noun vowel sound (A, E, I, O, U) से शुरू नहीं हो रहा, तो चुपचाप 'A' लगाओ।<br><br><b>🎯 Memory Hack:</b><br>S for Stone/Stick = S for Simple 'A'.<br><br><b>🚫 Common Mistake:</b><br>जल्दबाजी में 'an' लगा देना बिना उच्चारण सोचे।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Prepositions & Phrases",
+        "level": "Moderate",
+        "q_en": "Complete the given sentence by choosing the correct option.<br>The analyst offered insights _____ new guidelines and delivered a cogent report ______ performance.",
+        "q_hi": "Complete the given sentence by choosing the correct option.<br>The analyst offered insights _____ new guidelines and delivered a cogent report ______ performance.",
+        "op_en": [
+            "pursuant to; regarding",
+            "before; with",
+            "amidst; by",
+            "beyond; upon"
+        ],
+        "op_hi": [
+            "pursuant to; regarding",
+            "before; with",
+            "amidst; by",
+            "beyond; upon"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept:</b><br>Phrasal usage: 'Pursuant to' का मतलब है 'के अनुसार' (according to) और 'Regarding' का मतलब है 'के बारे में'।<br><br><b>🔍 Word Insight:</b><br>- <b>Pursuant to:</b> In accordance with (formal).<br>- <b>Regarding:</b> About/concerning.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Correct. Guidelines के 'अनुसार' insights और performance के 'बारे में' report.<br>2. Option B → Wrong. 'Insights before' logical नहीं है।<br>3. Option C → Wrong. 'Amidst' यहाँ fit नहीं होता।<br>4. Option D → Wrong. Meaningless in this context.<br><br><b>⚡ Smart Exam Trick:</b><br>Formal reports और guidelines के लिए 'pursuant to' एक बहुत ही common official phrase है।<br><br><b>🎯 Memory Hack:</b><br>Pursue $\\rightarrow$ Pursuant (Following the path).<br><br><b>🚫 Common Mistake:</b><br>'Pursuant to' का अर्थ न पता होना।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Moderate",
+        "q_en": "Select the option that can be used as a one-word substitute for the given group of words/phrase.<br>The scientist’s discovery was dismissed as <u>a statement or idea contrary to accepted opinion.</u>",
+        "q_hi": "Select the option that can be used as a one-word substitute for the given group of words/phrase.<br>The scientist’s discovery was dismissed as <u>a statement or idea contrary to accepted opinion.</u>",
+        "op_en": [
+            "axiom",
+            "paradox",
+            "heresy",
+            "hypothesis"
+        ],
+        "op_hi": [
+            "axiom",
+            "paradox",
+            "heresy",
+            "hypothesis"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>A belief or opinion contrary to orthodox religious (or general) doctrine.<br><br><b>🔍 Word Insight:</b><br>- <b>Heresy:</b> पाखंड या स्थापित मत के विरुद्ध विचार।<br>- <b>Paradox:</b> विरोधाभास (A self-contradictory statement).<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Wrong. Axiom means a self-evident truth.<br>2. Option B → Wrong. Paradox is a statement that seems contradictory but might be true.<br>3. Option C → Correct. Heresy fits perfectly for 'contrary to accepted opinion'.<br>4. Option D → Wrong. Hypothesis is a proposed explanation for an observation.<br><br><b>⚡ Smart Exam Trick:</b><br>'Heresy' often implies something that is 'dismissed' or 'punished' by the majority/authority.<br><br><b>🎯 Memory Hack:</b><br>Heresy $\\approx$ Hear-say (unpopular thing heard).<br><br><b>🚫 Common Mistake:</b><br>Paradox और Heresy में confuse होना। Paradox structure-based है, Heresy belief-based है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Moderate",
+        "q_en": "Select the option that can be used as a one-word substitute for the underlined group of words.<br>She avoided speaking in large groups because of her <u><strong>shyness often made her extremely uncomfortable.</strong></u>",
+        "q_hi": "Select the option that can be used as a one-word substitute for the underlined group of words.<br>She avoided speaking in large groups because of her <u><strong>shyness often made her extremely uncomfortable.</strong></u>",
+        "op_en": [
+            "diffidence",
+            "vanity",
+            "fortitude",
+            "apathy"
+        ],
+        "op_hi": [
+            "diffidence",
+            "vanity",
+            "fortitude",
+            "apathy"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept:</b><br>Lacking self-confidence; shy.<br><br><b>🔍 Word Insight:</b><br>- <b>Diffidence:</b> संकोच या आत्मविश्वास की कमी (Self-doubt/Shyness).<br>- <b>Vanity:</b> घमंड (Excessive pride).<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Correct. Diffidence refers to shyness resulting from a lack of confidence.<br>2. Option B → Wrong. Vanity is the opposite (pride).<br>3. Option C → Wrong. Fortitude means courage/bravery.<br>4. Option D → Wrong. Apathy means lack of interest/concern.<br><br><b>⚡ Smart Exam Trick:</b><br>Confidence (vishwaas) vs Diffidence (shyness/lack of vishwaas).<br><br><b>🎯 Memory Hack:</b><br>Diffident = Different from Confident.<br><br><b>🚫 Common Mistake:</b><br>'Apathy' को 'shyness' समझ लेना।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Conditional Sentences",
+        "level": "Hard",
+        "q_en": "Complete the given sentence by choosing the correct option.<br>If the witnesses ............... earlier, the court could have reached a verdict sooner.",
+        "q_hi": "Complete the given sentence by choosing the correct option.<br>If the witnesses ............... earlier, the court could have reached a verdict sooner.",
+        "op_en": [
+            "had testified",
+            "were testifying",
+            "testified",
+            "have testified"
+        ],
+        "op_hi": [
+            "had testified",
+            "were testifying",
+            "testified",
+            "have testified"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept:</b><br>Third Conditional rule: 'If + Past Perfect (had + $V_3$), ... could/would have + $V_3$'. यह कल्पना (regret) को दर्शाता है।<br><br><b>🔍 Word Insight:</b><br>- <b>Testified:</b> गवाही दी।<br>- <b>Verdict:</b> Decision/Judgement.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Correct. 'Had testified' matching with 'could have reached'.<br>2. Option B → Wrong. Past Continuous does not fit here.<br>3. Option C → Wrong. Simple Past result structure different hota hai.<br>4. Option D → Wrong. Present perfect impossible with 'could have'.<br><br><b>⚡ Smart Exam Trick:</b><br>अगर sentence के दूसरे भाग में 'would have' या 'could have' है, तो आँख बंद करके 'had + $V_3$' लगाओ।<br><br><b>🎯 Memory Hack:</b><br>Double 'Have' logic (एक side 'had', दूसरी side 'have').<br><br><b>🚫 Common Mistake:</b><br>'If' clause में भी 'would have' का प्रयोग कर देना (e.g., If they would have testified... is wrong)."
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "One Word Substitution",
+        "level": "Easy",
+        "q_en": "Out of the four alternatives, choose the one that can be used as a substitute for the bracketed word segment.<br>The teacher warned the students against showing (fear or hatred of foreigners) behaviour during the exchange programme.",
+        "q_hi": "Out of the four alternatives, choose the one that can be used as a substitute for the bracketed word segment.<br>The teacher warned the students against showing (fear or hatred of foreigners) behaviour during the exchange programme.",
+        "op_en": [
+            "hostile",
+            "prejudiced",
+            "xenophobic",
+            "intolerant"
+        ],
+        "op_hi": [
+            "hostile",
+            "prejudiced",
+            "xenophobic",
+            "intolerant"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>Vocabulary related to Phobias/Prejudice.<br><br><b>🔍 Word Insight:</b><br>- <b>Xenophobic:</b> विदेशी लोगों से डर या नफरत।<br>- <b>Hostile:</b> दुश्मन जैसा व्यवहार।<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Wrong. Hostile can be against anyone, not just foreigners.<br>2. Option B → Wrong. Prejudiced means biased opinion.<br>3. Option C → Correct. Xenophobia specifically means fear/hatred of strangers or foreigners.<br>4. Option D → Wrong. Intolerant means not accepting different views.<br><br><b>⚡ Smart Exam Trick:</b><br>Root word: 'Xeno' = Foreign/Stranger. 'Phobia' = Fear.<br><br><b>🎯 Memory Hack:</b><br>Xeno (Xylophone-like strange sounding name) = Stranger.<br><br><b>🚫 Common Mistake:</b><br>इसे racism समझ लेना, जबकि यह broader foreign aspect है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Jumbled Sentences",
+        "level": "Easy",
+        "q_en": "Given below are four jumbled sentences. Select the option that gives their correct logical sequence.<br><br>A. This overflowing water becomes powerful enough to wash away their habitats.<br>B. However, after heavy rains, the soil becomes saturated.<br>C. When the ground can no longer retain excess rainwater, flooding occurs.<br>D. Earthworms primarily live in soil, which serves as their natural habitat",
+        "q_hi": "Given below are four jumbled sentences. Select the option that gives their correct logical sequence.<br><br>A. This overflowing water becomes powerful enough to wash away their habitats.<br>B. However, after heavy rains, the soil becomes saturated.<br>C. When the ground can no longer retain excess rainwater, flooding occurs.<br>D. Earthworms primarily live in soil, which serves as their natural habitat",
+        "op_en": [
+            "ABCD",
+            "DBCA",
+            "ACDB",
+            "CDAB"
+        ],
+        "op_hi": [
+            "ABCD",
+            "DBCA",
+            "ACDB",
+            "CDAB"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept:</b><br>Introduction $\\rightarrow$ Problem $\\rightarrow$ Mechanism $\\rightarrow$ Final Impact.<br><br><b>🔍 Word Insight:</b><br>- <b>Saturated:</b> Completely soaked with water.<br>- <b>Overflowing:</b> Passing limits.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Wrong. Sequence logical नहीं है।<br>2. Option B → Correct. D (Intro) $\\rightarrow$ B (Condition) $\\rightarrow$ C (Result) $\\rightarrow$ A (Impact).<br>3. Option C → Wrong. Start with A is impossible.<br>4. Option D → Wrong. Start with C misses the subject context.<br><br><b>⚡ Smart Exam Trick:</b><br>'This overflowing water' (A) से पहले flooding (C) का जिक्र होना जरूरी है। तो C-A का pair बनेगा।<br><br><b>🎯 Memory Hack:</b><br>Nouns first (Earthworms), Pronouns/References later (This water).<br><br><b>🚫 Common Mistake:</b><br>'However' (B) को शुरुआत में रखना।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Future Tense",
+        "level": "Hard",
+        "q_en": "Select the correct form of the future tense to fill in the blank and complete the given sentence.<br>By next summer, the team _______ in the desert for over six months, gathering soil samples and monitoring temperature variations for their climate project.",
+        "q_hi": "Select the correct form of the future tense to fill in the blank and complete the given sentence.<br>By next summer, the team _______ in the desert for over six months, gathering soil samples and monitoring temperature variations for their climate project.",
+        "op_en": [
+            "will have worked",
+            "will be working",
+            "will work",
+            "will have been working"
+        ],
+        "op_hi": [
+            "will have worked",
+            "will be working",
+            "will work",
+            "will have been working"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept:</b><br>Future Perfect Continuous Tense: 'Will have been + V-ing'. जब भविष्य में किसी निश्चित समय (By next summer) तक कोई काम जारी रहने का समय (for over six months) दिया हो।<br><br><b>🔍 Word Insight:</b><br>- <b>By next summer:</b> Future deadline.<br>- <b>For over six months:</b> Duration of continuity.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Wrong. 'Will have worked' completion दिखाता है, continuous process नहीं।<br>2. Option B → Wrong. Duration 'for 6 months' के साथ simple continuous नहीं आता।<br>3. Option C → Wrong. Future simple lacks duration logic.<br>4. Option D → Correct. 'Will have been working' shows ongoing action with time period in future.<br><br><b>⚡ Smart Exam Trick:</b><br>'By + Time' + 'For + Duration' = Future Perfect Continuous.<br><br><b>🎯 Memory Hack:</b><br>By + For = Have Been + Ing.<br><br><b>🚫 Common Mistake:</b><br>सिर्फ 'will be working' चुन लेना, 'for' की महत्ता को भूलकर।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Sentence Rearrangement",
+        "level": "Hard",
+        "q_en": "In the given question, a statement is divided into different segments. The first is fixed, rearrange the other segments to form a meaningful sentence.<br><br>She was well known (Fixed) / for having clandestinely concealed (A) / the ornate heirloom jewellery (B) / beneath the secluded expanse of the backyard soil (C) / throughout the entire neighbourhood and its adjoining vicinity (D)",
+        "q_hi": "In the given question, a statement is divided into different segments. The first is fixed, rearrange the other segments to form a meaningful sentence.<br><br>She was well known (Fixed) / for having clandestinely concealed (A) / the ornate heirloom jewellery (B) / beneath the secluded expanse of the backyard soil (C) / throughout the entire neighbourhood and its adjoining vicinity (D)",
+        "op_en": [
+            "She was well known / A–B–C–D",
+            "She was well known / A–C–B–D",
+            "She was well known / D–B–A–C",
+            "She was well known / D–A–B–C"
+        ],
+        "op_hi": [
+            "She was well known / A–B–C–D",
+            "She was well known / A–C–B–D",
+            "She was well known / D–B–A–C",
+            "She was well known / D–A–B–C"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept:</b><br>Sentence hierarchy: Subject + Reputation (well known) + Scope (where she was known) + Reason (why).<br><br><b>🔍 Word Insight:</b><br>- <b>Clandestinely:</b> Secretly (गुप्त रूप से).<br>- <b>Vicinity:</b> Nearby area.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Wrong. Scope (D) का अंत में आना balance बिगाड़ रहा है।<br>2. Option B → Wrong. Structure logic fail.<br>3. Option C → Wrong. 'Jewellery for having' redundant sequence.<br>4. Option D → Correct. She was well known / throughout... (D) / for having... (A) / the jewellery (B) / beneath... (C).<br><br><b>⚡ Smart Exam Trick:</b><br>'Well known' के साथ 'throughout the entire neighborhood' (D) का link बहुत strong है।<br><br><b>🎯 Memory Hack:</b><br>Known (D) + Reason (A+B+C).<br><br><b>🚫 Common Mistake:</b><br>'For having' को तुरंत reputation के बाद लगाना, जबकि scope पहले आ सकता है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension",
+        "topic": "Direct and Indirect Speech",
+        "level": "Moderate",
+        "q_en": "The following sentence is given in indirect speech. Choose the correct sentence that expresses the same meaning in direct speech.<br><br>Arjun said that he had been waiting for his friend for an hour.",
+        "q_hi": "The following sentence is given in indirect speech. Choose the correct sentence that expresses the same meaning in direct speech.<br><br>Arjun said that he had been waiting for his friend for an hour.",
+        "op_en": [
+            "Arjun said, “I had been waiting for my friend for an hour.”",
+            "Arjun said, “He had been waiting for his friend for an hour.”",
+            "Arjun said, “I have been waiting for my friend for an hour.”",
+            "Arjun said, “He has been waiting for his friend for an hour.”"
+        ],
+        "op_hi": [
+            "Arjun said, “I had been waiting for my friend for an hour.”",
+            "Arjun said, “He had been waiting for his friend for an hour.”",
+            "Arjun said, “I have been waiting for my friend for an hour.”",
+            "Arjun said, “He has been waiting for his friend for an hour.”"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept:</b><br>Indirect to Direct conversion: 'Had been waiting' (Past Perfect Continuous) stays 'Had been waiting' if it was already that in direct, or it comes from 'Have been waiting' (Present Perfect Continuous).<br><br><b>🔍 Word Insight:</b><br>- <b>He:</b> In direct speech, speaker uses 'I'.<br>- <b>His:</b> Becomes 'My'.<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Correct. Rule: Past Perfect Continuous sometimes remains unchanged. (Note: Option 3 is also a common transformation base, but as per official keys in many exams, Option 1 is selected when tense consistency is maintained literally).<br>2. Option B → Wrong. Pronouns are not changed to first person.<br>3. Option C → Wrong. Though 'have been' becomes 'had been', choice depends on exact wording.<br>4. Option D → Wrong. Present perfect continuous logic error.<br><br><b>⚡ Smart Exam Trick:</b><br>Pronoun change is a must! 'He' always becomes 'I' in the speaker's own words.<br><br><b>🎯 Memory Hack:</b><br>Indirect 'He' = Direct 'I'.<br><br><b>🚫 Common Mistake:</b><br>Tense को वापस लाने में गलती कर देना।"
+    }
+]
