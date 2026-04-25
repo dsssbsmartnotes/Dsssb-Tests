@@ -1,0 +1,422 @@
+[
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Proverbs & Idioms",
+        "level": "Moderate",
+        "q_en": "In the following question, a statement has been given in brackets. You are required to replace the statement with the correct proverb given in the options.<br><br>Despite facing several setbacks while preparing for the civil service examination, Ananya continued studying a little every day. Over time, she cleared the exam successfully, proving that (consistent small efforts can overcome great difficulties).",
+        "q_hi": "In the following question, a statement has been given in brackets. You are required to replace the statement with the correct proverb given in the options.<br><br>Despite facing several setbacks while preparing for the civil service examination, Ananya continued studying a little every day. Over time, she cleared the exam successfully, proving that (consistent small efforts can overcome great difficulties).",
+        "op_en": [
+            "where there’s a will, there’s a way",
+            "fortune favours the bold",
+            "little strokes fell great oaks",
+            "no pain, no gain"
+        ],
+        "op_hi": [
+            "where there’s a will, there’s a way",
+            "fortune favours the bold",
+            "little strokes fell great oaks",
+            "no pain, no gain"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>यह प्रश्न 'Consistency' (निरंतरता) और 'Small efforts' (छोटे प्रयास) पर आधारित है। सही मुहावरा 'Little strokes fell great oaks' है।<br><br><b>🔍 Word Insight:</b><br>- <b>Strokes:</b> प्रहार (कुल्हाड़ी से)।<br>- <b>Fell:</b> गिरा देना (Past tense of fall नहीं, यहाँ यह 'to knock down' है)।<br>- <b>Oaks:</b> बलूत के मजबूत पेड़।<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → 'जहाँ चाह वहाँ राह' (इच्छाशक्ति की बात करता है, निरंतरता की नहीं)।<br>2. Option B → 'भाग्य बहादुरों का साथ देता है' (रिस्क लेने की बात है)।<br>3. Option C → Correct. छोटे-छोटे प्रहार बड़े पेड़ों को गिरा देते हैं (Small steps lead to big results)।<br>4. Option D → 'बिना कष्ट के फल नहीं' (मेहनत की बात है)।<br><br><b>⚡ Smart Exam Trick:</b><br>वाक्य में 'a little every day' कीवर्ड है। छोटे प्रयासों के लिए 'Little' शब्द वाला विकल्प (C) सबसे सटीक है।<br><br><b>🎯 Memory Hack:</b><br>Little Strokes = छोटी पढ़ाई; Great Oaks = बड़ा Exam Clear करना।<br><br><b>🚫 Common Mistake:</b><br>छात्र अक्सर 'Where there’s a will...' चुन लेते हैं, पर वह सिर्फ दृढ़ संकल्प दिखाता है, दैनिक मेहनत नहीं।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Antonyms",
+        "level": "Moderate",
+        "q_en": "Which of the options best represents the opposite of 'penitent' as used in the following sentence? <br>The penitent criminal finally admitted his wrongdoing in court.",
+        "q_hi": "Which of the options best represents the opposite of 'penitent' as used in the following sentence? <br>The penitent criminal finally admitted his wrongdoing in court.",
+        "op_en": [
+            "contrite",
+            "callous",
+            "rueful",
+            "apologetic"
+        ],
+        "op_hi": [
+            "contrite",
+            "callous",
+            "rueful",
+            "apologetic"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept:</b><br>Penitent का अर्थ होता है 'पछतावा करने वाला' (Feeling or showing sorrow/regret)। इसका विलोम (Antonym) ऐसा व्यक्ति होगा जिसे कोई फर्क न पड़े।<br><br><b>🔍 Word Insight:</b><br>- <b>Penitent:</b> पछतावा (Pashchatap).<br>- <b>Callous:</b> कठोर/संवेदनहीन (Heartless/Unfeeling).<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Contrite (पछतावा करने वाला) - यह Synonym है।<br>2. Option B → Correct. Callous का मतलब है जिसे दूसरों के दर्द या अपनी गलती का कोई अहसास न हो।<br>3. Option C → Rueful (खेदपूर्ण) - यह भी Synonym की श्रेणी में आता है।<br>4. Option D → Apologetic (माफी माँगने वाला) - यह भी मिलता-जुलता शब्द है।<br><br><b>⚡ Smart Exam Trick:</b><br>अगर तीन विकल्प (A, C, D) का अर्थ 'Regret' या 'Sorry' से जुड़ा है, तो जो अलग (Odd one out) है, वही Antonym होगा।<br><br><b>🎯 Memory Hack:</b><br>Penitent \\\\$\\rightarrow\\\\$ Penance (तपस्या/पछतावा)। Callous \\\\$\\rightarrow\\\\$ 'कठोर' (C for Callous, C for Kathor)।<br><br><b>🚫 Common Mistake:</b><br>Antonym की जगह Synonym मार्क कर देना।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Antonyms",
+        "level": "Easy",
+        "q_en": "Choose the correct antonym for the underlined word from the options. <br>The board sensed that an <u>imminent</u> financial crisis required immediate strategic intervention and planning.",
+        "q_hi": "Choose the correct antonym for the underlined word from the options. <br>The board sensed that an <u>imminent</u> financial crisis required immediate strategic intervention and planning.",
+        "op_en": [
+            "Eminent",
+            "Looming",
+            "Pending",
+            "Remote"
+        ],
+        "op_hi": [
+            "Eminent",
+            "Looming",
+            "Pending",
+            "Remote"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept:</b><br>Imminent का अर्थ है 'जो बहुत जल्द होने वाला हो' (About to happen/Fast approaching)। इसका विलोम वह होगा जो बहुत दूर हो या होने की संभावना कम हो।<br><br><b>🔍 Word Insight:</b><br>- <b>Imminent:</b> सिर पर खड़ा खतरा (Coming soon).<br>- <b>Remote:</b> दूरस्थ/बहुत दूर (Far away in time or space).<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Eminent (प्रसिद्ध/Famous) - यह सिर्फ सुनने में Imminent जैसा लगता है (Confusing word)।<br>2. Option B → Looming (मंडराता हुआ) - यह Synonym है।<br>3. Option C → Pending (रुका हुआ) - यह भी निकट भविष्य की ओर इशारा करता है।<br>4. Option D → Correct. Remote का मतलब है जो अभी बहुत दूर है।<br><br><b>⚡ Smart Exam Trick:</b><br>Imminent का प्रयोग अक्सर 'Crisis' या 'Danger' के लिए होता है जो 'पास' हो। इसका सीधा उल्टा 'Remote' (दूर) होगा।<br><br><b>🎯 Memory Hack:</b><br>Imminent \\\\$\\rightarrow\\\\$ 'Immediate' (तुरंत होने वाला)। Remote \\\\$\\rightarrow\\\\$ Remote control (दूर से चलाने वाला)।<br><br><b>🚫 Common Mistake:</b><br>Imminent और Eminent में भ्रमित होना। Eminent व्यक्तित्व के लिए आता है, Imminent घटना के लिए।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Spellings",
+        "level": "Easy",
+        "q_en": "Select the misspelt word from the underlined words in the given sentence. <br>Her <u>autobiography</u> provides an <u>inttimate</u> look into the <u>turbulent</u> years that <u>defined</u> her career as a politician.",
+        "q_hi": "Select the misspelt word from the underlined words in the given sentence. <br>Her <u>autobiography</u> provides an <u>inttimate</u> look into the <u>turbulent</u> years that <u>defined</u> her career as a politician.",
+        "op_en": [
+            "turbulent",
+            "autobiography",
+            "inttimate",
+            "defined"
+        ],
+        "op_hi": [
+            "turbulent",
+            "autobiography",
+            "inttimate",
+            "defined"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>यह प्रश्न Spelling Error पर आधारित है। 'Intimate' की सही स्पेलिंग में केवल एक 't' आता है।<br><br><b>🔍 Word Insight:</b><br>- <b>Intimate:</b> व्यक्तिगत/नजदीकी (Private/Close).<br>- <b>Turbulent:</b> उथल-पुथल भरा (Stormy).<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Turbulent (Sahi hai).<br>2. Option B → Autobiography (Sahi hai - Auto + Bio + Graphy).<br>3. Option C → Incorrect spelling. 'Inttimate' में double 't' गलत है। सही है: <b>Intimate</b>.<br>4. Option D → Defined (Sahi hai).<br><br><b>⚡ Smart Exam Trick:</b><br>बोल कर देखें: In-ti-mate. 'T' पर ज्यादा जोर (stress) नहीं है, इसलिए single 't' लगेगा।<br><br><b>🎯 Memory Hack:</b><br>In + Ti (जैसे Tea) + Mate. चाय पीने वाला दोस्त (Intimate friend).<br><br><b>🚫 Common Mistake:</b><br>Double 't' को सही मान लेना क्योंकि कई अंग्रेजी शब्दों में double consonants होते हैं।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Idiomatic Phrases",
+        "level": "Moderate",
+        "q_en": "Select the most appropriate option that can correctly substitute the underlined part of the given sentence. <br>I don't think that prices will go up but, <u>be the real token,</u> I don't see them going down either.",
+        "q_hi": "Select the most appropriate option that can correctly substitute the underlined part of the given sentence. <br>I don't think that prices will go up but, <u>be the real token,</u> I don't see them going down either.",
+        "op_en": [
+            "by the small token",
+            "by the same token",
+            "by the large amount",
+            "by the little amount"
+        ],
+        "op_hi": [
+            "by the small token",
+            "by the same token",
+            "by the large amount",
+            "by the little amount"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept:</b><br>सही मुहावरा (Idiom) 'By the same token' है। इसका उपयोग तब किया जाता है जब आप एक ऐसी बात जोड़ते हैं जो पहले कही गई बात के समान ही सत्य या महत्वपूर्ण हो (Similarly / In the same way)।<br><br><b>🔍 Word Insight:</b><br>- <b>By the same token:</b> उसी तरह/उसी तर्क से।<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → 'By the small token' - ऐसा कोई मुहावरा नहीं है।<br>2. Option B → Correct. 'By the same token' यहाँ यह दर्शा रहा है कि जैसे कीमतें बढ़ने के आसार नहीं हैं, वैसे ही गिरने के भी नहीं हैं।<br>3. Option C → 'Large amount' context में फिट नहीं है।<br>4. Option D → 'Little amount' गलत है।<br><br><b>⚡ Smart Exam Trick:</b><br>'Token' वाले मुहावरे बहुत कम हैं, 'By the same token' सबसे अधिक प्रचलित है। इसे रट लें!<br><br><b>🎯 Memory Hack:</b><br>Same Token = Same Logic (वही बात/वही तर्क)।<br><br><b>🚫 Common Mistake:</b><br>'Be' और 'By' के अंतर को न समझना। यहाँ preposition 'by' की जरूरत है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Antonyms",
+        "level": "Moderate",
+        "q_en": "Select the most appropriate antonym of the highlighted word in the following sentence.<br>The architect dismissed the initial design as <strong>hideous</strong>, arguing that its chaotic proportions and jarring colour palette undermined the aesthetic integrity required for such a culturally significant monument.",
+        "q_hi": "Select the most appropriate antonym of the highlighted word in the following sentence.<br>The architect dismissed the initial design as <strong>hideous</strong>, arguing that its chaotic proportions and jarring colour palette undermined the aesthetic integrity required for such a culturally significant monument.",
+        "op_en": [
+            "Alluring",
+            "Repulsive",
+            "Grotesque",
+            "Unsightly"
+        ],
+        "op_hi": [
+            "Alluring",
+            "Repulsive",
+            "Grotesque",
+            "Unsightly"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept:</b><br>Hideous का अर्थ है 'बहुत ही बदसूरत या घिनौना' (Extremely ugly/Unpleasant)। इसका विलोम (Antonym) आकर्षक या सुंदर होगा।<br><br><b>🔍 Word Insight:</b><br>- <b>Hideous:</b> बदसूरत/डरावना (Ghinona).<br>- <b>Alluring:</b> आकर्षक/मोहक (Attractive/Charming).<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Correct. Alluring का मतलब है जो अपनी ओर खींचे (आकर्षित करे)।<br>2. Option B → Repulsive (घृणित) - यह Synonym है।<br>3. Option C → Grotesque (अजीबोगरीब/विकृत) - यह Synonym है।<br>4. Option D → Unsightly (अप्रिय) - यह भी Synonym है।<br><br><b>⚡ Smart Exam Trick:</b><br>वाक्य में 'undermined the aesthetic integrity' लिखा है, जिसका मतलब है सुंदरता को कम करना। यानी 'hideous' का उल्टा सुंदरता से जुड़ा होगा।<br><br><b>🎯 Memory Hack:</b><br>Hideous \\\\$\\rightarrow\\\\$ Hide (छिपाना)। इतना गंदा कि छिपाना पड़े। Alluring \\\\$\\rightarrow\\\\$ Lure (लालच/खिंचाव)।<br><br><b>🚫 Common Mistake:</b><br>'Grotesque' को Antonym समझ लेना, जबकि वह Hideous का भाई (Synonym) है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Proverbs & Idioms",
+        "level": "Moderate",
+        "q_en": "Choose the most appropriate option to replace the underlined words in the sentence. <br><br>The middle-aged lady, fond of seeking a better job, left her comfortable work-from-home part-time position, believing she would find a better-paying opportunity, but she soon regretted it, realizing <u>she had given up a sure income for a risky chance at more</u>.",
+        "q_hi": "Choose the most appropriate option to replace the underlined words in the sentence. <br><br>The middle-aged lady, fond of seeking a better job, left her comfortable work-from-home part-time position, believing she would find a better-paying opportunity, but she soon regretted it, realizing <u>she had given up a sure income for a risky chance at more</u>.",
+        "op_en": [
+            "that a watched kettle never boils",
+            "that empty vessels make the most noise",
+            "that a bird in the hand is worth two in the bush",
+            "that fortune favours the bold"
+        ],
+        "op_hi": [
+            "that a watched kettle never boils",
+            "that empty vessels make the most noise",
+            "that a bird in the hand is worth two in the bush",
+            "that fortune favours the bold"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>'A bird in the hand is worth two in the bush' का अर्थ है: जो आपके पास पक्का (sure) है, उसे छोड़कर अनिश्चित (uncertain) बड़े फायदे के पीछे भागना गलत है। (नौ नकद न तेरह उधार)।<br><br><b>🔍 Word Insight:</b><br>- <b>Bird in hand:</b> पक्की चीज (Surety).<br>- <b>Two in bush:</b> लालच/अनिश्चितता (Uncertainty).<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → इन्तजार करने से समय लंबा लगता है (सब्र की बात है)।<br>2. Option B → 'अधजल गगरी छलकत जाए' (दिखावा)।<br>3. Option C → Correct. पक्की जॉब छोड़कर रिस्की जॉब के पीछे जाना इसी मुहावरे को दर्शाता है।<br>4. Option D → साहस की प्रशंसा।<br><br><b>⚡ Smart Exam Trick:</b><br>'Sure income' vs 'Risky chance' = 'Hand' vs 'Bush'.<br><br><b>🎯 Memory Hack:</b><br>हाथ वाली चिड़िया \\\\$=\\\\$ पक्की कमाई। झाड़ी वाली दो चिड़ियाँ \\\\$=\\\\$ रिस्की सपना।<br><br><b>🚫 Common Mistake:</b><br>छात्र 'Empty vessels' लगा देते हैं, जो कि ज्ञान के दिखावे से संबंधित है, करियर चॉइस से नहीं।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Spellings",
+        "level": "Easy",
+        "q_en": "Recognise the spelling error in the following sentence by choosing the appropriate option.<br>Their aggresive argument, basically rooted in misunderstanding, escalated quickly and disrupted the entire team meeting.",
+        "q_hi": "Recognise the spelling error in the following sentence by choosing the appropriate option.<br>Their aggresive argument, basically rooted in misunderstanding, escalated quickly and disrupted the entire team meeting.",
+        "op_en": [
+            "escalated",
+            "argument",
+            "aggresive",
+            "disrupted"
+        ],
+        "op_hi": [
+            "escalated",
+            "argument",
+            "aggresive",
+            "disrupted"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>Aggressive की सही स्पेलिंग में double 'g' और double 's' दोनों आते हैं।<br><br><b>🔍 Word Insight:</b><br>- <b>Aggressive:</b> आक्रामक (Full of anger/energy).<br>- <b>Argument:</b> बहस (Note: Argue में 'e' होता है, पर Argument में 'e' हट जाता है, यह सही स्पेलिंग है)।<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Escalated (बढ़ गया) - Correct.<br>2. Option B → Argument - Correct (अक्सर लोग इसमें 'e' लगा देते हैं, पर यहाँ यह सही है)।<br>3. Option C → Incorrect. सही स्पेलिंग <b>Aggressive</b> है। यहाँ एक 's' कम है।<br>4. Option D → Disrupted (बाधित) - Correct.<br><br><b>⚡ Smart Exam Trick:</b><br>Aggressive, Success, Possession जैसे शब्दों में 'double double' (दो बार double letters) का नियम याद रखें।<br><br><b>🎯 Memory Hack:</b><br>A-GG-RE-SS-IVE. 2G + 2S = Aggressive.<br><br><b>🚫 Common Mistake:</b><br>'Argument' की स्पेलिंग को गलत मान लेना (Arguement), जबकि Argument सही है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Proverbs & Idioms",
+        "level": "Easy",
+        "q_en": "Substitute the correct proverb for the underlined word segment by choosing from the following options.<br><br>He finally submitted his college application a week after the deadline(,/;) <u>as it's better to do something, even if it's delayed.</u>",
+        "q_hi": "Substitute the correct proverb for the underlined word segment by choosing from the following options.<br><br>He finally submitted his college application a week after the deadline(,/;) <u>as it's better to do something, even if it's delayed.</u>",
+        "op_en": [
+            "practice makes perfect",
+            "Rome wasn't built in a day",
+            "honesty is the best policy",
+            "better late than never"
+        ],
+        "op_hi": [
+            "practice makes perfect",
+            "Rome wasn't built in a day",
+            "honesty is the best policy",
+            "better late than never"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept:</b><br>'Better late than never' का अर्थ है कि किसी काम को बिल्कुल न करने से अच्छा है कि उसे देर से ही सही, पर कर लिया जाए।<br><br><b>🔍 Word Insight:</b><br>- <b>Deadline:</b> समय सीमा।<br>- <b>Delayed:</b> देरी से।<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → अभ्यास सफलता की कुंजी है।<br>2. Option B → बड़े कामों में समय लगता है (धैर्य)।<br>3. Option C → ईमानदारी सबसे अच्छी नीति है।<br>4. Option D → Correct. 'देर आए दुरुस्त आए'।<br><br><b>⚡ Smart Exam Trick:</b><br>वाक्य में 'after the deadline' और 'delayed' शब्द सीधा 'Late' की ओर इशारा कर रहे हैं।<br><br><b>🎯 Memory Hack:</b><br>Late = देरी; Never = कभी नहीं। देरी ठीक है, कभी न करना गलत है।<br><br><b>🚫 Common Mistake:</b><br>'Rome wasn't built in a day' चुनना, जबकि वह काम की गुणवत्ता के समय की बात करता है, डेडलाइन मिस करने की नहीं।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Antonyms",
+        "level": "Moderate",
+        "q_en": "Choose the antonym of the underlined word in the following sentence.<br>The CEO tried to <u>assuage</u> the investors' fears following the unexpected dip in the company's stock value.",
+        "q_hi": "Choose the antonym of the underlined word in the following sentence.<br>The CEO tried to <u>assuage</u> the investors' fears following the unexpected dip in the company's stock value.",
+        "op_en": [
+            "comfort",
+            "mitigate",
+            "intensify",
+            "mollify"
+        ],
+        "op_hi": [
+            "comfort",
+            "mitigate",
+            "intensify",
+            "mollify"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>Assuage का अर्थ है 'कम करना' या 'शांत करना' (To soothe/Make less intense)। इसका उल्टा होगा बढ़ाना या तेज करना।<br><br><b>🔍 Word Insight:</b><br>- <b>Assuage:</b> शांत करना (Shant karna).<br>- <b>Intensify:</b> तीव्र करना/बढ़ाना (To increase/strengthen).<br><br><b>🧠 Explanation (Option-wise Breakdown):</b><br>1. Option A → Comfort (दिलासा देना) - यह भाव के हिसाब से Synonym है।<br>2. Option B → Mitigate (कम करना) - यह पक्का Synonym है।<br>3. Option C → Correct. Intensify का मतलब है किसी भावना या स्थिति को और बढ़ा देना।<br>4. Option D → Mollify (शांत करना) - यह भी Synonym है।<br><br><b>⚡ Smart Exam Trick:</b><br>जब तीन विकल्प (Comfort, Mitigate, Mollify) एक जैसा मतलब (कम करना/शांत करना) दे रहे हों, तो चौथा विकल्प जो विपरीत है, वही उत्तर होगा।<br><br><b>🎯 Memory Hack:</b><br>Assuage sounds like 'A-su-age' \\\\$\\rightarrow\\\\$ 'Aasu (आँसू) पोंछना'। आँसू पोंछना = शांत करना।<br><br><b>🚫 Common Mistake:</b><br>Mitigate मार्क करना, जो कि सबसे common synonym है और अक्सर exams में पूछा जाता है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Reading Comprehension (Title)",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow:<br>Migration stands as one of the defining phenomena of the twenty-first century, shaping not only economies and demographics but also the moral and cultural fabric of societies. With more than 280 million individuals living outside their countries of origin, migration today represents both an act of necessity and a pursuit of aspiration. People migrate for myriad reasons—economic opportunity, education, political refuge, or environmental displacement. Yet beyond these practical motives lies a deeper human story: the constant negotiation of identity in an increasingly interconnected world.<br>In host societies, migrants often encounter a dual reality. On one hand, they are celebrated as symbols of diversity and globalization; on the other, they face structural exclusion and cultural misunderstanding. Governments frequently emphasize assimilation, expecting migrants to adopt dominant linguistic and cultural norms. Such expectations, while seemingly integrative, can erase difference and suppress the hybrid identities that emerge from cross-cultural encounters. For many migrants and their descendants, belonging becomes an ongoing process rather than a settled fact.<br>Simultaneously, migration reshapes the very concept of nationhood. Traditional ideas of citizenship—rooted in geography, ethnicity, and singular loyalty—are increasingly challenged by transnational identities that transcend borders. Technology and global communication networks further strengthen these ties, allowing individuals to remain connected to multiple communities across continents. Ultimately, global migration compels societies to rethink what it means to belong. Identity is no longer fixed or singular but dynamic, plural, and continually reconstructed through experience and dialogue. In this sense, migration is not merely about movement across space—it is about transformation across cultures and the redefinition of humanity’s collective sense of home.<br>What is the most suitable title for the passage?",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow:<br>Migration stands as one of the defining phenomena of the twenty-first century, shaping not only economies and demographics but also the moral and cultural fabric of societies. With more than 280 million individuals living outside their countries of origin, migration today represents both an act of necessity and a pursuit of aspiration. People migrate for myriad reasons—economic opportunity, education, political refuge, or environmental displacement. Yet beyond these practical motives lies a deeper human story: the constant negotiation of identity in an increasingly interconnected world.<br>In host societies, migrants often encounter a dual reality. On one hand, they are celebrated as symbols of diversity and globalization; on the other, they face structural exclusion and cultural misunderstanding. Governments frequently emphasize assimilation, expecting migrants to adopt dominant linguistic and cultural norms. Such expectations, while seemingly integrative, can erase difference and suppress the hybrid identities that emerge from cross-cultural encounters. For many migrants and their descendants, belonging becomes an ongoing process rather than a settled fact.<br>Simultaneously, migration reshapes the very concept of nationhood. Traditional ideas of citizenship—rooted in geography, ethnicity, and singular loyalty—are increasingly challenged by transnational identities that transcend borders. Technology and global communication networks further strengthen these ties, allowing individuals to remain connected to multiple communities across continents. Ultimately, global migration compels societies to rethink what it means to belong. Identity is no longer fixed or singular but dynamic, plural, and continually reconstructed through experience and dialogue. In this sense, migration is not merely about movement across space—it is about transformation across cultures and the redefinition of humanity’s collective sense of home.<br>What is the most suitable title for the passage?",
+        "op_en": [
+            "The Economic Impacts of Migration",
+            "Global Migration and the Search for Identity",
+            "The Politics of Refuge in Digital Age",
+            "Importance of Borders and Barriers"
+        ],
+        "op_hi": [
+            "The Economic Impacts of Migration",
+            "Global Migration and the Search for Identity",
+            "The Politics of Refuge in Digital Age",
+            "Importance of Borders and Barriers"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept:</b><br>Title हमेशा पूरे passage के 'Central focus' को कवर करना चाहिए।<br><br><b>🧠 Explanation:</b><br>Passage केवल अर्थव्यवस्था (Economy) की बात नहीं कर रहा, बल्कि यह बार-बार 'Identity' (पहचान), 'Belonging' (जुड़ाव) और 'Culture' की बात कर रहा है। विकल्प 2 में 'Global Migration' और 'Identity' दोनों मुख्य कीवर्ड्स हैं, जो पूरे passage को समेटते हैं।<br><br><b>⚡ Smart Exam Trick:</b><br>पहले और आखिरी paragraph को ध्यान से पढ़ें। 'Identity' और 'Belonging' शब्द वहाँ बार-बार आए हैं।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Reading Comprehension (Theme)",
+        "level": "Hard",
+        "q_en": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow:<br>Migration stands as one of the defining phenomena of the twenty-first century, shaping not only economies and demographics but also the moral and cultural fabric of societies. With more than 280 million individuals living outside their countries of origin, migration today represents both an act of necessity and a pursuit of aspiration. People migrate for myriad reasons—economic opportunity, education, political refuge, or environmental displacement. Yet beyond these practical motives lies a deeper human story: the constant negotiation of identity in an increasingly interconnected world.<br>In host societies, migrants often encounter a dual reality. On one hand, they are celebrated as symbols of diversity and globalization; on the other, they face structural exclusion and cultural misunderstanding. Governments frequently emphasize assimilation, expecting migrants to adopt dominant linguistic and cultural norms. Such expectations, while seemingly integrative, can erase difference and suppress the hybrid identities that emerge from cross-cultural encounters. For many migrants and their descendants, belonging becomes an ongoing process rather than a settled fact.<br>Simultaneously, migration reshapes the very concept of nationhood. Traditional ideas of citizenship—rooted in geography, ethnicity, and singular loyalty—are increasingly challenged by transnational identities that transcend borders. Technology and global communication networks further strengthen these ties, allowing individuals to remain connected to multiple communities across continents. Ultimately, global migration compels societies to rethink what it means to belong. Identity is no longer fixed or singular but dynamic, plural, and continually reconstructed through experience and dialogue. In this sense, migration is not merely about movement across space—it is about transformation across cultures and the redefinition of humanity’s collective sense of home.<br>What is the central theme of the passage?",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow:<br>Migration stands as one of the defining phenomena of the twenty-first century, shaping not only economies and demographics but also the moral and cultural fabric of societies. With more than 280 million individuals living outside their countries of origin, migration today represents both an act of necessity and a pursuit of aspiration. People migrate for myriad reasons—economic opportunity, education, political refuge, or environmental displacement. Yet beyond these practical motives lies a deeper human story: the constant negotiation of identity in an increasingly interconnected world.<br>In host societies, migrants often encounter a dual reality. On one hand, they are celebrated as symbols of diversity and globalization; on the other, they face structural exclusion and cultural misunderstanding. Governments frequently emphasize assimilation, expecting migrants to adopt dominant linguistic and cultural norms. Such expectations, while seemingly integrative, can erase difference and suppress the hybrid identities that emerge from cross-cultural encounters. For many migrants and their descendants, belonging becomes an ongoing process rather than a settled fact.<br>Simultaneously, migration reshapes the very concept of nationhood. Traditional ideas of citizenship—rooted in geography, ethnicity, and singular loyalty—are increasingly challenged by transnational identities that transcend borders. Technology and global communication networks further strengthen these ties, allowing individuals to remain connected to multiple communities across continents. Ultimately, global migration compels societies to rethink what it means to belong. Identity is no longer fixed or singular but dynamic, plural, and continually reconstructed through experience and dialogue. In this sense, migration is not merely about movement across space—it is about transformation across cultures and the redefinition of humanity’s collective sense of home.<br>What is the central theme of the passage?",
+        "op_en": [
+            "Migration as an economic necessity in the modern world",
+            "The end of globalization and the beginning of industrialisation",
+            "The political control of borders in today's times",
+            "The cultural, social, and psychological dimensions of migration"
+        ],
+        "op_hi": [
+            "Migration as an economic necessity in the modern world",
+            "The end of globalization and the beginning of industrialisation",
+            "The political control of borders in today's times",
+            "The cultural, social, and psychological dimensions of migration"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept:</b><br>Central theme वह संदेश है जो लेखक Migration के भौतिक (Physical) मूवमेंट के अलावा देना चाहता है।<br><br><b>🧠 Explanation:</b><br>Passage में 'human story', 'negotiation of identity', 'cultural fabric' और 'belonging' पर जोर दिया गया है। ये सब 'Cultural, Social और Psychological' पहलुओं के अंतर्गत आते हैं। विकल्प 1 केवल एक भाग (Economy) की बात करता है, जबकि विकल्प 4 व्यापक है।<br><br><b>⚡ Smart Exam Trick:</b><br>अगर कोई विकल्प 'Human transformation' या 'Society' की बात करे, तो वह सिर्फ 'Politics' या 'Money' वाले विकल्प से बेहतर होता है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Reading Comprehension (Fact-based)",
+        "level": "Easy",
+        "q_en": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow:<br>Migration stands as one of the defining phenomena of the twenty-first century, shaping not only economies and demographics but also the moral and cultural fabric of societies. With more than 280 million individuals living outside their countries of origin, migration today represents both an act of necessity and a pursuit of aspiration. People migrate for myriad reasons—economic opportunity, education, political refuge, or environmental displacement. Yet beyond these practical motives lies a deeper human story: the constant negotiation of identity in an increasingly interconnected world.<br>In host societies, migrants often encounter a dual reality. On one hand, they are celebrated as symbols of diversity and globalization; on the other, they face structural exclusion and cultural misunderstanding. Governments frequently emphasize assimilation, expecting migrants to adopt dominant linguistic and cultural norms. Such expectations, while seemingly integrative, can erase difference and suppress the hybrid identities that emerge from cross-cultural encounters. For many migrants and their descendants, belonging becomes an ongoing process rather than a settled fact.<br>Simultaneously, migration reshapes the very concept of nationhood. Traditional ideas of citizenship—rooted in geography, ethnicity, and singular loyalty—are increasingly challenged by transnational identities that transcend borders. Technology and global communication networks further strengthen these ties, allowing individuals to remain connected to multiple communities across continents. Ultimately, global migration compels societies to rethink what it means to belong. Identity is no longer fixed or singular but dynamic, plural, and continually reconstructed through experience and dialogue. In this sense, migration is not merely about movement across space—it is about transformation across cultures and the redefinition of humanity’s collective sense of home.<br>Which fact is explicitly stated in the passage?",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow:<br>Migration stands as one of the defining phenomena of the twenty-first century, shaping not only economies and demographics but also the moral and cultural fabric of societies. With more than 280 million individuals living outside their countries of origin, migration today represents both an act of necessity and a pursuit of aspiration. People migrate for myriad reasons—economic opportunity, education, political refuge, or environmental displacement. Yet beyond these practical motives lies a deeper human story: the constant negotiation of identity in an increasingly interconnected world.<br>In host societies, migrants often encounter a dual reality. On one hand, they are celebrated as symbols of diversity and globalization; on the other, they face structural exclusion and cultural misunderstanding. Governments frequently emphasize assimilation, expecting migrants to adopt dominant linguistic and cultural norms. Such expectations, while seemingly integrative, can erase difference and suppress the hybrid identities that emerge from cross-cultural encounters. For many migrants and their descendants, belonging becomes an ongoing process rather than a settled fact.<br>Simultaneously, migration reshapes the very concept of nationhood. Traditional ideas of citizenship—rooted in geography, ethnicity, and singular loyalty—are increasingly challenged by transnational identities that transcend borders. Technology and global communication networks further strengthen these ties, allowing individuals to remain connected to multiple communities across continents. Ultimately, global migration compels societies to rethink what it means to belong. Identity is no longer fixed or singular but dynamic, plural, and continually reconstructed through experience and dialogue. In this sense, migration is not merely about movement across space—it is about transformation across cultures and the redefinition of humanity’s collective sense of home.<br>Which fact is explicitly stated in the passage?",
+        "op_en": [
+            "Most migrants return home after ten years.",
+            "Technology limits cultural exchange.",
+            "Over 280 million people live outside their countries of origin.",
+            "Migration has decreased in recent years."
+        ],
+        "op_hi": [
+            "Most migrants return home after ten years.",
+            "Technology limits cultural exchange.",
+            "Over 280 million people live outside their countries of origin.",
+            "Migration has decreased in recent years."
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>Explicit fact मतलब जो पैसेज में सीधा-सीधा (Directly) लिखा हो।<br><br><b>🧠 Explanation:</b><br>Paragraph 1 की दूसरी लाइन देखें: 'With more than 280 million individuals living outside their countries of origin...'। यह डेटा सीधा दिया गया है। अन्य विकल्प (A, B, D) या तो गलत हैं या पैसेज में नहीं दिए गए हैं।<br><br><b>⚡ Smart Exam Trick:</b><br>Data (numbers) वाले सवाल सबसे आसान होते हैं। पैसेज में Ctrl+F (स्कैन) करें '280 million'।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Reading Comprehension (Tone)",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow:<br>Migration stands as one of the defining phenomena of the twenty-first century, shaping not only economies and demographics but also the moral and cultural fabric of societies. With more than 280 million individuals living outside their countries of origin, migration today represents both an act of necessity and a pursuit of aspiration. People migrate for myriad reasons—economic opportunity, education, political refuge, or environmental displacement. Yet beyond these practical motives lies a deeper human story: the constant negotiation of identity in an increasingly interconnected world.<br>In host societies, migrants often encounter a dual reality. On one hand, they are celebrated as symbols of diversity and globalization; on the other, they face structural exclusion and cultural misunderstanding. Governments frequently emphasize assimilation, expecting migrants to adopt dominant linguistic and cultural norms. Such expectations, while seemingly integrative, can erase difference and suppress the hybrid identities that emerge from cross-cultural encounters. For many migrants and their descendants, belonging becomes an ongoing process rather than a settled fact.<br>Simultaneously, migration reshapes the very concept of nationhood. Traditional ideas of citizenship—rooted in geography, ethnicity, and singular loyalty—are increasingly challenged by transnational identities that transcend borders. Technology and global communication networks further strengthen these ties, allowing individuals to remain connected to multiple communities across continents. Ultimately, global migration compels societies to rethink what it means to belong. Identity is no longer fixed or singular but dynamic, plural, and continually reconstructed through experience and dialogue. In this sense, migration is not merely about movement across space—it is about transformation across cultures and the redefinition of humanity’s collective sense of home.<br>The tone of the passage can best be described as:",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow:<br>Migration stands as one of the defining phenomena of the twenty-first century, shaping not only economies and demographics but also the moral and cultural fabric of societies. With more than 280 million individuals living outside their countries of origin, migration today represents both an act of necessity and a pursuit of aspiration. People migrate for myriad reasons—economic opportunity, education, political refuge, or environmental displacement. Yet beyond these practical motives lies a deeper human story: the constant negotiation of identity in an increasingly interconnected world.<br>In host societies, migrants often encounter a dual reality. On one hand, they are celebrated as symbols of diversity and globalization; on the other, they face structural exclusion and cultural misunderstanding. Governments frequently emphasize assimilation, expecting migrants to adopt dominant linguistic and cultural norms. Such expectations, while seemingly integrative, can erase difference and suppress the hybrid identities that emerge from cross-cultural encounters. For many migrants and their descendants, belonging becomes an ongoing process rather than a settled fact.<br>Simultaneously, migration reshapes the very concept of nationhood. Traditional ideas of citizenship—rooted in geography, ethnicity, and singular loyalty—are increasingly challenged by transnational identities that transcend borders. Technology and global communication networks further strengthen these ties, allowing individuals to remain connected to multiple communities across continents. Ultimately, global migration compels societies to rethink what it means to belong. Identity is no longer fixed or singular but dynamic, plural, and continually reconstructed through experience and dialogue. In this sense, migration is not merely about movement across space—it is about transformation across cultures and the redefinition of humanity’s collective sense of home.<br>The tone of the passage can best be described as:",
+        "op_en": [
+            "optimistic and celebratory",
+            "analytical and empathetic",
+            "detached and indifferent",
+            "ironic and dismissive"
+        ],
+        "op_hi": [
+            "optimistic and celebratory",
+            "analytical and empathetic",
+            "detached and indifferent",
+            "ironic and dismissive"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept:</b><br>Tone लेखक के नजरिए को बताती है।<br><br><b>🧠 Explanation:</b><br>लेखक Migration के डेटा का विश्लेषण (Analysis) कर रहा है और साथ ही प्रवासियों के संघर्ष (Identity crisis, structural exclusion) के प्रति सहानुभूति (Empathy) भी दिखा रहा है। इसलिए 'Analytical and empathetic' सही है।<br><br><b>⚡ Smart Exam Trick:</b><br>अगर लेखक समस्या और समाधान/कारण दोनों पर गहराई से बात करे, तो 'Analytical' शब्द जरूर आता है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Reading Comprehension (Inference)",
+        "level": "Hard",
+        "q_en": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow:<br>Migration stands as one of the defining phenomena of the twenty-first century, shaping not only economies and demographics but also the moral and cultural fabric of societies. With more than 280 million individuals living outside their countries of origin, migration today represents both an act of necessity and a pursuit of aspiration. People migrate for myriad reasons—economic opportunity, education, political refuge, or environmental displacement. Yet beyond these practical motives lies a deeper human story: the constant negotiation of identity in an increasingly interconnected world.<br>In host societies, migrants often encounter a dual reality. On one hand, they are celebrated as symbols of diversity and globalization; on the other, they face structural exclusion and cultural misunderstanding. Governments frequently emphasize assimilation, expecting migrants to adopt dominant linguistic and cultural norms. Such expectations, while seemingly integrative, can erase difference and suppress the hybrid identities that emerge from cross-cultural encounters. For many migrants and their descendants, belonging becomes an ongoing process rather than a settled fact.<br>Simultaneously, migration reshapes the very concept of nationhood. Traditional ideas of citizenship—rooted in geography, ethnicity, and singular loyalty—are increasingly challenged by transnational identities that transcend borders. Technology and global communication networks further strengthen these ties, allowing individuals to remain connected to multiple communities across continents. Ultimately, global migration compels societies to rethink what it means to belong. Identity is no longer fixed or singular but dynamic, plural, and continually reconstructed through experience and dialogue. In this sense, migration is not merely about movement across space—it is about transformation across cultures and the redefinition of humanity’s collective sense of home.<br>Which inference can be drawn from the passage?",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage and answer the questions that follow:<br>Migration stands as one of the defining phenomena of the twenty-first century, shaping not only economies and demographics but also the moral and cultural fabric of societies. With more than 280 million individuals living outside their countries of origin, migration today represents both an act of necessity and a pursuit of aspiration. People migrate for myriad reasons—economic opportunity, education, political refuge, or environmental displacement. Yet beyond these practical motives lies a deeper human story: the constant negotiation of identity in an increasingly interconnected world.<br>In host societies, migrants often encounter a dual reality. On one hand, they are celebrated as symbols of diversity and globalization; on the other, they face structural exclusion and cultural misunderstanding. Governments frequently emphasize assimilation, expecting migrants to adopt dominant linguistic and cultural norms. Such expectations, while seemingly integrative, can erase difference and suppress the hybrid identities that emerge from cross-cultural encounters. For many migrants and their descendants, belonging becomes an ongoing process rather than a settled fact.<br>Simultaneously, migration reshapes the very concept of nationhood. Traditional ideas of citizenship—rooted in geography, ethnicity, and singular loyalty—are increasingly challenged by transnational identities that transcend borders. Technology and global communication networks further strengthen these ties, allowing individuals to remain connected to multiple communities across continents. Ultimately, global migration compels societies to rethink what it means to belong. Identity is no longer fixed or singular but dynamic, plural, and continually reconstructed through experience and dialogue. In this sense, migration is not merely about movement across space—it is about transformation across cultures and the redefinition of humanity’s collective sense of home.<br>Which inference can be drawn from the passage?",
+        "op_en": [
+            "Migration challenges and transforms traditional notions of national identity.",
+            "Identity remains fixed regardless of movement.",
+            "Migrants should abandon their native cultures to integrate.",
+            "Global migration will soon decline due to technology."
+        ],
+        "op_hi": [
+            "Migration challenges and transforms traditional notions of national identity.",
+            "Identity remains fixed regardless of movement.",
+            "Migrants should abandon their native cultures to integrate.",
+            "Global migration will soon decline due to technology."
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept:</b><br>Inference वह बात है जो सीधे नहीं लिखी, पर पैसेज के आधार पर सच है।<br><br><b>🧠 Explanation:</b><br>पैसेज कहता है कि 'Traditional ideas of citizenship... are increasingly challenged by transnational identities'। इसका मतलब है कि Migration पुरानी राष्ट्रीय पहचान की धारणाओं को बदल रहा है। विकल्प 1 इसी बात का निष्कर्ष है।<br><br><b>⚡ Smart Exam Trick:</b><br>'Identity is no longer fixed' (पैसेज की लाइन) का मतलब है 'fixed' वाले विकल्प (B) गलत हैं।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Reading Comprehension (Title)",
+        "level": "Easy",
+        "q_en": "<b>Comprehension:</b><br>Read the passage carefully and answer the questions that are given below.<br>Inclusive education is an approach that ensures all children, including those with disabilities, learning difficulties, or language barriers, study together in the same classrooms. It promotes equality, acceptance, and mutual respect among learners. The concept may seem simple, yet it is intricate in practice because it demands adjustments in teaching methods, classroom structures, and educational materials to cater to the diverse needs of every student. It also encourages empathy and cooperation, preparing students for life in a diverse society. However, achieving true inclusion remains a global challenge.<br><br>Many children with disabilities are still denied education due to inaccessible infrastructure, untrained teachers, or deep-rooted social stigma. Policymakers often overlook disability while designing education systems, resulting in a gap between what is promised and what is delivered. This gap continues to marginalise millions of children, limiting their future opportunities.<br><br>Organisations like UNICEF actively promote inclusive education by supporting governments in policy reforms, teacher training, and awareness campaigns. They emphasise the need to align national education systems with the Convention on the Rights of Persons with Disabilities. Inclusive education goes beyond access — it aims to ensure participation, equity, and learning for all. When education becomes truly inclusive, every child is empowered to learn, contribute, and thrive in society.<br>Select an appropriate title for this passage from the given options.",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage carefully and answer the questions that are given below.<br>Inclusive education is an approach that ensures all children, including those with disabilities, learning difficulties, or language barriers, study together in the same classrooms. It promotes equality, acceptance, and mutual respect among learners. The concept may seem simple, yet it is intricate in practice because it demands adjustments in teaching methods, classroom structures, and educational materials to cater to the diverse needs of every student. It also encourages empathy and cooperation, preparing students for life in a diverse society. However, achieving true inclusion remains a global challenge.<br><br>Many children with disabilities are still denied education due to inaccessible infrastructure, untrained teachers, or deep-rooted social stigma. Policymakers often overlook disability while designing education systems, resulting in a gap between what is promised and what is delivered. This gap continues to marginalise millions of children, limiting their future opportunities.<br><br>Organisations like UNICEF actively promote inclusive education by supporting governments in policy reforms, teacher training, and awareness campaigns. They emphasise the need to align national education systems with the Convention on the Rights of Persons with Disabilities. Inclusive education goes beyond access — it aims to ensure participation, equity, and learning for all. When education becomes truly inclusive, every child is empowered to learn, contribute, and thrive in society.<br>Select an appropriate title for this passage from the given options.",
+        "op_en": [
+            "Inclusive Education: Limiting Access for Disabled Children",
+            "Inclusive Education: Helping Every Child to Adjust and Survive",
+            "Inclusive Education: Empowering Every Child to Learn and Thrive",
+            "Inclusive Education: Empowering Every Child to Study Separately"
+        ],
+        "op_hi": [
+            "Inclusive Education: Limiting Access for Disabled Children",
+            "Inclusive Education: Helping Every Child to Adjust and Survive",
+            "Inclusive Education: Empowering Every Child to Learn and Thrive",
+            "Inclusive Education: Empowering Every Child to Study Separately"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>Title सकारात्मक और व्यापक (Comprehensive) होना चाहिए।<br><br><b>🧠 Explanation:</b><br>पैसेज 'Inclusive Education' के सकारात्मक प्रभाव (Empowerment, Learning) की बात करता है। आखिरी लाइन में 'Learn, Contribute, and Thrive' कीवर्ड्स हैं, जो विकल्प 3 में दिए गए हैं। विकल्प 1 (Limiting) और विकल्प 4 (Separately) पैसेज के मूल विचार के विपरीत हैं।<br><br><b>⚡ Smart Exam Trick:</b><br>पैसेज की पहली और आखिरी लाइन को टाइटल के लिए सबसे महत्वपूर्ण माना जाता है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Reading Comprehension (Main Idea)",
+        "level": "Easy",
+        "q_en": "<b>Comprehension:</b><br>Read the passage carefully and answer the questions that are given below.<br>Inclusive education is an approach that ensures all children, including those with disabilities, learning difficulties, or language barriers, study together in the same classrooms. It promotes equality, acceptance, and mutual respect among learners. The concept may seem simple, yet it is intricate in practice because it demands adjustments in teaching methods, classroom structures, and educational materials to cater to the diverse needs of every student. It also encourages empathy and cooperation, preparing students for life in a diverse society. However, achieving true inclusion remains a global challenge.<br><br>Many children with disabilities are still denied education due to inaccessible infrastructure, untrained teachers, or deep-rooted social stigma. Policymakers often overlook disability while designing education systems, resulting in a gap between what is promised and what is delivered. This gap continues to marginalise millions of children, limiting their future opportunities.<br><br>Organisations like UNICEF actively promote inclusive education by supporting governments in policy reforms, teacher training, and awareness campaigns. They emphasise the need to align national education systems with the Convention on the Rights of Persons with Disabilities. Inclusive education goes beyond access — it aims to ensure participation, equity, and learning for all. When education becomes truly inclusive, every child is empowered to learn, contribute, and thrive in society.<br>What is the main idea of the passage?",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage carefully and answer the questions that are given below.<br>Inclusive education is an approach that ensures all children, including those with disabilities, learning difficulties, or language barriers, study together in the same classrooms. It promotes equality, acceptance, and mutual respect among learners. The concept may seem simple, yet it is intricate in practice because it demands adjustments in teaching methods, classroom structures, and educational materials to cater to the diverse needs of every student. It also encourages empathy and cooperation, preparing students for life in a diverse society. However, achieving true inclusion remains a global challenge.<br><br>Many children with disabilities are still denied education due to inaccessible infrastructure, untrained teachers, or deep-rooted social stigma. Policymakers often overlook disability while designing education systems, resulting in a gap between what is promised and what is delivered. This gap continues to marginalise millions of children, limiting their future opportunities.<br><br>Organisations like UNICEF actively promote inclusive education by supporting governments in policy reforms, teacher training, and awareness campaigns. They emphasise the need to align national education systems with the Convention on the Rights of Persons with Disabilities. Inclusive education goes beyond access — it aims to ensure participation, equity, and learning for all. When education becomes truly inclusive, every child is empowered to learn, contribute, and thrive in society.<br>What is the main idea of the passage?",
+        "op_en": [
+            "The passage focuses upon ensuring quality education for children while keeping special needs learners in separate setups.",
+            "The passage focuses upon promoting equal learning opportunities for all children through inclusive education.",
+            "The passage focuses upon enhancing teacher training but ignoring the importance of acceptance and cooperation among learners.",
+            "The passage focuses upon emphasising inclusive education only for differently-abled students rather than for every learner."
+        ],
+        "op_hi": [
+            "The passage focuses upon ensuring quality education for children while keeping special needs learners in separate setups.",
+            "The passage focuses upon promoting equal learning opportunities for all children through inclusive education.",
+            "The passage focuses upon enhancing teacher training but ignoring the importance of acceptance and cooperation among learners.",
+            "The passage focuses upon emphasising inclusive education only for differently-abled students rather than for every learner."
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept:</b><br>Main Idea वह सारांश है जो पूरे टेक्स्ट के उद्देश्य को बताता है।<br><br><b>🧠 Explanation:</b><br>पूरा पैसेज इस बात पर जोर देता है कि कैसे 'Inclusive Education' सभी बच्चों (चाहे वे विकलांग हों या नहीं) के लिए समान अवसर प्रदान करती है। विकल्प 2 इसी विचार को पूरी तरह से व्यक्त करता है। अन्य विकल्प संकुचित (Narrow) या गलत जानकारी देते हैं।<br><br><b>⚡ Smart Exam Trick:</b><br>'All children' और 'Equal' जैसे शब्द अक्सर 'Main Idea' वाले सही विकल्प की पहचान होते हैं।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Reading Comprehension (Structure)",
+        "level": "Moderate",
+        "q_en": "<b>Comprehension:</b><br>Read the passage carefully and answer the questions that are given below.<br>Inclusive education is an approach that ensures all children, including those with disabilities, learning difficulties, or language barriers, study together in the same classrooms. It promotes equality, acceptance, and mutual respect among learners. The concept may seem simple, yet it is intricate in practice because it demands adjustments in teaching methods, classroom structures, and educational materials to cater to the diverse needs of every student. It also encourages empathy and cooperation, preparing students for life in a diverse society. However, achieving true inclusion remains a global challenge.<br><br>Many children with disabilities are still denied education due to inaccessible infrastructure, untrained teachers, or deep-rooted social stigma. Policymakers often overlook disability while designing education systems, resulting in a gap between what is promised and what is delivered. This gap continues to marginalise millions of children, limiting their future opportunities.<br><br>Organisations like UNICEF actively promote inclusive education by supporting governments in policy reforms, teacher training, and awareness campaigns. They emphasise the need to align national education systems with the Convention on the Rights of Persons with Disabilities. Inclusive education goes beyond access — it aims to ensure participation, equity, and learning for all. When education becomes truly inclusive, every child is empowered to learn, contribute, and thrive in society.<br>Identify the structure of the passage.",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage carefully and answer the questions that are given below.<br>Inclusive education is an approach that ensures all children, including those with disabilities, learning difficulties, or language barriers, study together in the same classrooms. It promotes equality, acceptance, and mutual respect among learners. The concept may seem simple, yet it is intricate in practice because it demands adjustments in teaching methods, classroom structures, and educational materials to cater to the diverse needs of every student. It also encourages empathy and cooperation, preparing students for life in a diverse society. However, achieving true inclusion remains a global challenge.<br><br>Many children with disabilities are still denied education due to inaccessible infrastructure, untrained teachers, or deep-rooted social stigma. Policymakers often overlook disability while designing education systems, resulting in a gap between what is promised and what is delivered. This gap continues to marginalise millions of children, limiting their future opportunities.<br><br>Organisations like UNICEF actively promote inclusive education by supporting governments in policy reforms, teacher training, and awareness campaigns. They emphasise the need to align national education systems with the Convention on the Rights of Persons with Disabilities. Inclusive education goes beyond access — it aims to ensure participation, equity, and learning for all. When education becomes truly inclusive, every child is empowered to learn, contribute, and thrive in society.<br>Identify the structure of the passage.",
+        "op_en": [
+            "Cause and Effect",
+            "Narrative",
+            "Expository",
+            "Descriptive"
+        ],
+        "op_hi": [
+            "Cause and Effect",
+            "Narrative",
+            "Expository",
+            "Descriptive"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept:</b><br>Structure का मतलब है लेखक ने जानकारी कैसे पेश की।<br><br><b>🧠 Explanation:</b><br>- <b>Expository:</b> जब लेखक किसी विषय को विस्तार से समझाता है (Explain/Inform)। यहाँ Inclusive Education की परिभाषा, चुनौतियों और समाधानों को समझाया गया है।<br>- <b>Narrative:</b> कहानी (यहाँ कोई कहानी नहीं है)।<br>- <b>Descriptive:</b> केवल किसी दृश्य का वर्णन।<br><br><b>⚡ Smart Exam Trick:</b><br>Academic विषयों (जैसे Education, Science, Policy) पर लिखे गए पैसेज आमतौर पर 'Expository' होते हैं।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Reading Comprehension (Tone)",
+        "level": "Easy",
+        "q_en": "<b>Comprehension:</b><br>Read the passage carefully and answer the questions that are given below.<br>Inclusive education is an approach that ensures all children, including those with disabilities, learning difficulties, or language barriers, study together in the same classrooms. It promotes equality, acceptance, and mutual respect among learners. The concept may seem simple, yet it is intricate in practice because it demands adjustments in teaching methods, classroom structures, and educational materials to cater to the diverse needs of every student. It also encourages empathy and cooperation, preparing students for life in a diverse society. However, achieving true inclusion remains a global challenge.<br><br>Many children with disabilities are still denied education due to inaccessible infrastructure, untrained teachers, or deep-rooted social stigma. Policymakers often overlook disability while designing education systems, resulting in a gap between what is promised and what is delivered. This gap continues to marginalise millions of children, limiting their future opportunities.<br><br>Organisations like UNICEF actively promote inclusive education by supporting governments in policy reforms, teacher training, and awareness campaigns. They emphasise the need to align national education systems with the Convention on the Rights of Persons with Disabilities. Inclusive education goes beyond access — it aims to ensure participation, equity, and learning for all. When education becomes truly inclusive, every child is empowered to learn, contribute, and thrive in society.<br>Identify the tone of the passage.",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage carefully and answer the questions that are given below.<br>Inclusive education is an approach that ensures all children, including those with disabilities, learning difficulties, or language barriers, study together in the same classrooms. It promotes equality, acceptance, and mutual respect among learners. The concept may seem simple, yet it is intricate in practice because it demands adjustments in teaching methods, classroom structures, and educational materials to cater to the diverse needs of every student. It also encourages empathy and cooperation, preparing students for life in a diverse society. However, achieving true inclusion remains a global challenge.<br><br>Many children with disabilities are still denied education due to inaccessible infrastructure, untrained teachers, or deep-rooted social stigma. Policymakers often overlook disability while designing education systems, resulting in a gap between what is promised and what is delivered. This gap continues to marginalise millions of children, limiting their future opportunities.<br><br>Organisations like UNICEF actively promote inclusive education by supporting governments in policy reforms, teacher training, and awareness campaigns. They emphasise the need to align national education systems with the Convention on the Rights of Persons with Disabilities. Inclusive education goes beyond access — it aims to ensure participation, equity, and learning for all. When education becomes truly inclusive, every child is empowered to learn, contribute, and thrive in society.<br>Identify the tone of the passage.",
+        "op_en": [
+            "Informative and encouraging",
+            "Informative and cautionary",
+            "Analytical and argumentative",
+            "Persuasive and emotional"
+        ],
+        "op_hi": [
+            "Informative and encouraging",
+            "Informative and cautionary",
+            "Analytical and argumentative",
+            "Persuasive and emotional"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept:</b><br>Tone लेखक की मानसिक स्थिति को दर्शाती है।<br><br><b>🧠 Explanation:</b><br>लेखक जानकारी (Information) दे रहा है और साथ ही इसे समाज के लिए जरूरी और उत्साहजनक (Encouraging) भी बता रहा है। 'Empower, Thrive, Thrive' जैसे शब्द उत्साह बढ़ाते हैं।<br><br><b>⚡ Smart Exam Trick:</b><br>अगर अंत सकारात्मक और भविष्य के लिए आशावादी हो, तो 'Encouraging' या 'Optimistic' टोन होती है।"
+    },
+    {
+        "section": "Test of English Language and Comprehension1",
+        "topic": "Reading Comprehension (Vocabulary)",
+        "level": "Easy",
+        "q_en": "<b>Comprehension:</b><br>Read the passage carefully and answer the questions that are given below.<br>Inclusive education is an approach that ensures all children, including those with disabilities, learning difficulties, or language barriers, study together in the same classrooms. It promotes equality, acceptance, and mutual respect among learners. The concept may seem simple, yet it is intricate in practice because it demands adjustments in teaching methods, classroom structures, and educational materials to cater to the diverse needs of every student. It also encourages empathy and cooperation, preparing students for life in a diverse society. However, achieving true inclusion remains a global challenge.<br><br>Many children with disabilities are still denied education due to inaccessible infrastructure, untrained teachers, or deep-rooted social stigma. Policymakers often overlook disability while designing education systems, resulting in a gap between what is promised and what is delivered. This gap continues to marginalise millions of children, limiting their future opportunities.<br><br>Organisations like UNICEF actively promote inclusive education by supporting governments in policy reforms, teacher training, and awareness campaigns. They emphasise the need to align national education systems with the Convention on the Rights of Persons with Disabilities. Inclusive education goes beyond access — it aims to ensure participation, equity, and learning for all. When education becomes truly inclusive, every child is empowered to learn, contribute, and thrive in society.<br>Select the correct antonym of the given word from the passage.<br>\nSimplified",
+        "q_hi": "<b>Comprehension:</b><br>Read the passage carefully and answer the questions that are given below.<br>Inclusive education is an approach that ensures all children, including those with disabilities, learning difficulties, or language barriers, study together in the same classrooms. It promotes equality, acceptance, and mutual respect among learners. The concept may seem simple, yet it is intricate in practice because it demands adjustments in teaching methods, classroom structures, and educational materials to cater to the diverse needs of every student. It also encourages empathy and cooperation, preparing students for life in a diverse society. However, achieving true inclusion remains a global challenge.<br><br>Many children with disabilities are still denied education due to inaccessible infrastructure, untrained teachers, or deep-rooted social stigma. Policymakers often overlook disability while designing education systems, resulting in a gap between what is promised and what is delivered. This gap continues to marginalise millions of children, limiting their future opportunities.<br><br>Organisations like UNICEF actively promote inclusive education by supporting governments in policy reforms, teacher training, and awareness campaigns. They emphasise the need to align national education systems with the Convention on the Rights of Persons with Disabilities. Inclusive education goes beyond access — it aims to ensure participation, equity, and learning for all. When education becomes truly inclusive, every child is empowered to learn, contribute, and thrive in society.<br>Select the correct antonym of the given word from the passage.<br>\nSimplified",
+        "op_en": [
+            "Intricate",
+            "Diverse",
+            "Accessible",
+            "Equal"
+        ],
+        "op_hi": [
+            "Intricate",
+            "Diverse",
+            "Accessible",
+            "Equal"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept:</b><br>Simplified का अर्थ है सरल। इसका विलोम 'जटिल' होगा।<br><br><b>🔍 Word Insight:</b><br>- <b>Intricate:</b> पेचीदा/जटिल (Very detailed and complicated).<br><br><b>🧠 Explanation:</b><br>पैसेज की तीसरी लाइन देखें: 'The concept may seem simple, yet it is <b>intricate</b> in practice...'। यहाँ लेखक ने 'simple' (simplified का भाई) के विपरीत 'intricate' का प्रयोग किया है।<br><br><b>⚡ Smart Exam Trick:</b><br>Context देखें: 'Simple yet...' \\\\$\\rightarrow\\\\$ 'yet' एक विरोधाभास (contrast) दिखाता है, इसलिए अगला शब्द (intricate) उल्टा ही होगा।"
+    }
+]
