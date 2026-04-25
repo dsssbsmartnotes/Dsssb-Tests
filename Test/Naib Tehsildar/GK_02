@@ -1,0 +1,422 @@
+[
+    {
+        "section": "General Awareness1",
+        "topic": "1857 Revolt",
+        "level": "Easy",
+        "q_en": "Who among the following was the leader of the 1857 Revolt in Lucknow?",
+        "q_hi": "निम्नलिखित में से कौन लखनऊ में 1857 के विद्रोह के नेता थे?",
+        "op_en": [
+            "Kunwar Singh",
+            "Begum Hazrat Mahal",
+            "Tantia Tope",
+            "Nana Saheb"
+        ],
+        "op_hi": [
+            "कुंवर सिंह",
+            "बेगम हजरत महल",
+            "तांत्या टोपे",
+            "नाना साहेब"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept (EN):</b> Leaders of 1857 Revolt<br><b>📌 संकल्पना (HI):</b> 1857 के विद्रोह के नेता<br><br><b>🧠 Explanation (EN):</b> 1. Begum Hazrat Mahal led the rebellion in Lucknow after her husband, Nawab Wajid Ali Shah, was exiled. 2. She proclaimed her son, Birjis Qadr, as the Nawab of Awadh.<br><b>🧠 व्याख्या (HI):</b> 1. बेगम हजरत महल ने अपने पति नवाब वाजिद अली शाह के निर्वासन के बाद लखनऊ में विद्रोह का नेतृत्व किया। 2. उन्होंने अपने बेटे बिरजिस कादर को अवध का नवाब घोषित किया था।<br><br><b>📚 Extra Fact (EN):</b> Kunwar Singh led in Bihar, Nana Saheb in Kanpur, and Tantia Tope assisted in Kanpur/Gwalior.<br><b>📚 अतिरिक्त तथ्य (HI):</b> कुंवर सिंह ने बिहार में, नाना साहेब ने कानपुर में और तांत्या टोपे ने कानपुर/ग्वालियर में नेतृत्व किया था।<br><br><b>⚡ Quick Trick (EN):</b> Lucknow = L (Luck) -> Begum (Queen) had no luck.<br><b>⚡ त्वरित ट्रिक (HI):</b> लखनऊ = 'ल' से लोग 'बेगम' के साथ थे।<br><br><b>🎯 Memory Hook (EN):</b> 'Begum of Lucknow' sounds like a royal title.<br><b>🎯 याद रखने का तरीका (HI):</b> लखनऊ की शान - बेगम हजरत महल।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Indian Climate",
+        "level": "Moderate",
+        "q_en": "What primarily causes the seasonal reversal of winds in India?",
+        "q_hi": "भारत में हवाओं के मौसमी उत्क्रमण (उल्टा होने) का मुख्य कारण क्या है?",
+        "op_en": [
+            "Jet streams",
+            "Differential heating of land and sea",
+            "Coriolis effect",
+            "Ocean currents"
+        ],
+        "op_hi": [
+            "जेट स्ट्रीम",
+            "भूमि और समुद्र का विभेदी तापन",
+            "कोरिओलिस प्रभाव",
+            "समुद्री धाराएं"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept (EN):</b> Indian Monsoon Mechanism<br><b>📌 संकल्पना (HI):</b> भारतीय मानसून की प्रक्रिया<br><br><b>🧠 Explanation (EN):</b> 1. During summer, the land heats up faster than the sea, creating low pressure over land. 2. This causes wind to blow from high-pressure sea areas to the land, reversing in winter when land cools faster.<br><b>🧠 व्याख्या (HI):</b> 1. गर्मियों के दौरान, जमीन समुद्र की तुलना में तेजी से गर्म होती है, जिससे जमीन पर कम दबाव बनता है। 2. इसके कारण हवा उच्च दबाव वाले समुद्री क्षेत्रों से जमीन की ओर चलती है, जो सर्दियों में जमीन के तेजी से ठंडा होने पर उलट जाती है।<br><br><b>📚 Extra Fact (EN):</b> This phenomenon is known as the 'Monsoon'.<br><b>📚 अतिरिक्त तथ्य (HI):</b> इस घटना को 'मानसून' के रूप में जाना जाता है।<br><br><b>🎯 Memory Hook (EN):</b> Land is hot, Wind is sought.<br><b>🎯 याद रखने का तरीका (HI):</b> गर्म जमीन - खिंची आई हवा।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Indian Polity - Citizenship",
+        "level": "Moderate",
+        "q_en": "Which of the following combinations correctly matches the Constitutional Article with the corresponding provision on citizenship under Part II of the Constitution of India?",
+        "q_hi": "निम्नलिखित में से कौन सा संयोजन भारत के संविधान के भाग II के तहत नागरिकता पर संबंधित प्रावधान के साथ संवैधानिक अनुच्छेद का सही मिलान करता है?",
+        "op_en": [
+            "Article 7 – Migrants from Pakistan to India",
+            "Article 8 – Persons of Indian origin living abroad",
+            "Article 5 – Citizenship by birth abroad",
+            "Article 9 – Citizenship by services to the government"
+        ],
+        "op_hi": [
+            "अनुच्छेद 7 – पाकिस्तान से भारत आने वाले प्रवासी",
+            "अनुच्छेद 8 – विदेश में रहने वाले भारतीय मूल के व्यक्ति",
+            "अनुच्छेद 5 – विदेश में जन्म द्वारा नागरिकता",
+            "अनुच्छेद 9 – सरकार की सेवाओं द्वारा नागरिकता"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept (EN):</b> Constitutional Provisions for Citizenship<br><b>📌 संकल्पना (HI):</b> नागरिकता के लिए संवैधानिक प्रावधान<br><br><b>🧠 Explanation (EN):</b> 1. Article 8 deals with citizenship of certain persons of Indian origin residing outside India. 2. Article 5 deals with citizenship at the commencement of the Constitution for residents of India.<br><b>🧠 व्याख्या (HI):</b> 1. अनुच्छेद 8 भारत के बाहर रहने वाले भारतीय मूल के कुछ व्यक्तियों की नागरिकता से संबंधित है। 2. अनुच्छेद 5 भारत के निवासियों के लिए संविधान के प्रारंभ में नागरिकता से संबंधित है।<br><br><b>📚 Extra Fact (EN):</b> Article 9 states that persons voluntarily acquiring foreign citizenship cease to be Indian citizens.<br><b>📚 अतिरिक्त तथ्य (HI):</b> अनुच्छेद 9 कहता है कि स्वेच्छा से विदेशी नागरिकता प्राप्त करने वाले व्यक्ति भारतीय नागरिक नहीं रहेंगे।<br><br><b>🚫 Trap Alert (EN):</b> Article 7 is for migrants WHO WENT to Pakistan and then returned.<br><b>🚫 सावधानी (HI):</b> अनुच्छेद 7 उन प्रवासियों के लिए है जो पाकिस्तान गए और फिर वापस आ गए।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Indian Polity - Reservation",
+        "level": "Moderate",
+        "q_en": "The reservation of seats for Scheduled Castes and Scheduled Tribes in the Lok Sabha is provided under which article?",
+        "q_hi": "लोकसभा में अनुसूचित जातियों और अनुसूचित जनजातियों के लिए सीटों का आरक्षण किस अनुच्छेद के तहत प्रदान किया गया है?",
+        "op_en": [
+            "Article 335",
+            "Article 332",
+            "Article 330",
+            "Article 338"
+        ],
+        "op_hi": [
+            "अनुच्छेद 335",
+            "अनुच्छेद 332",
+            "अनुच्छेद 330",
+            "अनुच्छेद 338"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept (EN):</b> Political Reservation for SC/ST<br><b>📌 संकल्पना (HI):</b> SC/ST के लिए राजनीतिक आरक्षण<br><br><b>🧠 Explanation (EN):</b> 1. Article 330 provides for the reservation of seats for Scheduled Castes and Scheduled Tribes in the Lok Sabha (House of the People). 2. These seats are reserved based on the population ratio.<br><b>🧠 व्याख्या (HI):</b> 1. अनुच्छेद 330 लोकसभा (हाउस ऑफ द पीपल) में अनुसूचित जातियों और अनुसूचित जनजातियों के लिए सीटों के आरक्षण का प्रावधान करता है। 2. ये सीटें जनसंख्या अनुपात के आधार पर आरक्षित की जाती हैं।<br><br><b>📚 Extra Fact (EN):</b> Article 332 provides reservation in State Legislative Assemblies.<br><b>📚 अतिरिक्त तथ्य (HI):</b> अनुच्छेद 332 राज्य विधानसभाओं में आरक्षण प्रदान करता है।<br><br><b>⚡ Quick Trick (EN):</b> 330 = Central (Lok Sabha), 332 = State.<br><b>⚡ त्वरित ट्रिक (HI):</b> 330 = केंद्र (लोकसभा), 332 = राज्य।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Indian Polity - Emergency",
+        "level": "Hard",
+        "q_en": "Under which Article of the Constitution of India are the effects of a Proclamation of National Emergency clearly defined?",
+        "q_hi": "भारत के संविधान के किस अनुच्छेद के तहत राष्ट्रीय आपातकाल की उद्घोषणा के प्रभावों को स्पष्ट रूप से परिभाषित किया गया है?",
+        "op_en": [
+            "Article 354",
+            "Article 353",
+            "Article 352",
+            "Article 355"
+        ],
+        "op_hi": [
+            "अनुच्छेद 354",
+            "अनुच्छेद 353",
+            "अनुच्छेद 352",
+            "अनुच्छेद 355"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept (EN):</b> Consequences of National Emergency<br><b>📌 संकल्पना (HI):</b> राष्ट्रीय आपातकाल के परिणाम<br><br><b>🧠 Explanation (EN):</b> 1. While Article 352 deals with the PROCLAMATION, Article 353 defines the EFFECTS (executive power extension to states). 2. It allows the Centre to give directions to states on any matter.<br><b>🧠 व्याख्या (HI):</b> 1. जबकि अनुच्छेद 352 उद्घोषणा से संबंधित है, अनुच्छेद 353 प्रभावों (राज्यों तक कार्यकारी शक्ति विस्तार) को परिभाषित करता है। 2. यह केंद्र को किसी भी मामले पर राज्यों को निर्देश देने की अनुमति देता है।<br><br><b>📚 Extra Fact (EN):</b> Article 354 deals with the distribution of revenue during emergency.<br><b>📚 अतिरिक्त तथ्य (HI):</b> अनुच्छेद 354 आपातकाल के दौरान राजस्व के वितरण से संबंधित है।<br><br><b>🚫 Trap Alert (EN):</b> 352 is for 'Start', 353 is for 'Effect'.<br><b>🚫 सावधानी (HI):</b> 352 'शुरुआत' के लिए है, 353 'प्रभाव' के लिए।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Indian Polity - Fundamental Rights",
+        "level": "Moderate",
+        "q_en": "The right to form associations or unions under Article 19 of the Indian Constitution does NOT include which of the following?",
+        "q_hi": "भारतीय संविधान के अनुच्छेद 19 के तहत संघ या यूनियन बनाने के अधिकार में निम्नलिखित में से क्या शामिल नहीं है?",
+        "op_en": [
+            "The right to form political parties",
+            "The right to strike as a fundamental right",
+            "The right to form trade unions",
+            "The right to form cooperative societies"
+        ],
+        "op_hi": [
+            "राजनीतिक दल बनाने का अधिकार",
+            "मौलिक अधिकार के रूप में हड़ताल का अधिकार",
+            "ट्रेड यूनियन बनाने का अधिकार",
+            "सहकारी समितियां बनाने का अधिकार"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept (EN):</b> Right to Form Association<br><b>📌 संकल्पना (HI):</b> संघ बनाने का अधिकार<br><br><b>🧠 Explanation (EN):</b> 1. Article 19(1)(c) allows forming unions/associations, but the Supreme Court has ruled that 'Strike' is a legal right, not a Fundamental Right. 2. Citizens can form parties, societies, and clubs under this.<br><b>🧠 व्याख्या (HI):</b> 1. अनुच्छेद 19(1)(c) यूनियन/संघ बनाने की अनुमति देता है, लेकिन सुप्रीम कोर्ट ने फैसला सुनाया है कि 'हड़ताल' एक कानूनी अधिकार है, मौलिक अधिकार नहीं। 2. इसके तहत नागरिक दल, समितियां और क्लब बना सकते हैं।<br><br><b>📚 Extra Fact (EN):</b> The 97th Amendment added 'Cooperative Societies' to Article 19.<br><b>📚 अतिरिक्त तथ्य (HI):</b> 97वें संशोधन ने अनुच्छेद 19 में 'सहकारी समितियों' को जोड़ा।<br><br><b>⚡ Quick Trick (EN):</b> 19(1)(c) = <b>C</b>ompany/Club/Cooperative.<br><b>⚡ त्वरित ट्रिक (HI):</b> 19(1)(c) = <b>C</b> से 'कंपनी' या 'क्लब'।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Biology - Muscular System",
+        "level": "Moderate",
+        "q_en": "Each organised skeletal muscle in our body is made up of a number of muscle bundles or fascicles held together by a common collagenous connective tissue layer called:",
+        "q_hi": "हमारे शरीर में प्रत्येक संगठित कंकाल मांसपेशी कई मांसपेशी बंडलों या फासकुलस (fascicles) से बनी होती है जो एक सामान्य कोलेजनयुक्त संयोजी ऊतक परत द्वारा एक साथ जुड़ी होती है, जिसे क्या कहा जाता है?",
+        "op_en": [
+            "plasma membran",
+            "muscle fibre",
+            "fascia",
+            "sarcolemma"
+        ],
+        "op_hi": [
+            "प्लाज्मा झिल्ली",
+            "मांसपेशी फाइबर",
+            "फासिआ (fascia)",
+            "सारकोलेमा"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept (EN):</b> Skeletal Muscle Structure<br><b>📌 संकल्पना (HI):</b> कंकाल मांसपेशी संरचना<br><br><b>🧠 Explanation (EN):</b> 1. Fascicles (muscle bundles) are bundled together by a layer called fascia. 2. Fascia is made of tough collagenous tissue.<br><b>🧠 व्याख्या (HI):</b> 1. फासकुलस (मांसपेशी बंडल) 'फासिआ' नामक परत द्वारा एक साथ बंधे होते हैं। 2. फासिआ सख्त कोलेजनयुक्त ऊतक से बना होता है।<br><br><b>📚 Extra Fact (EN):</b> Sarcolemma is the plasma membrane of an individual muscle fibre.<br><b>📚 अतिरिक्त तथ्य (HI):</b> सारकोलेमा एक व्यक्तिगत मांसपेशी फाइबर की प्लाज्मा झिल्ली है।<br><br><b>🎯 Memory Hook (EN):</b> Fascia Fastens Fascicles.<br><b>🎯 याद रखने का तरीका (HI):</b> फासिआ (Fascia) - फासकुलस (Fascicles) को बांधता है।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Indian Polity - Constitutional Bodies",
+        "level": "Easy",
+        "q_en": "The establishment of the National Commission for Scheduled Castes (NCSC) under the Constitution of India is provided in _______.",
+        "q_hi": "भारत के संविधान के तहत राष्ट्रीय अनुसूचित जाति आयोग (NCSC) की स्थापना का प्रावधान _______ में दिया गया है।",
+        "op_en": [
+            "Article 341",
+            "Article 338",
+            "Article 340",
+            "Article 339"
+        ],
+        "op_hi": [
+            "अनुच्छेद 341",
+            "अनुच्छेद 338",
+            "अनुच्छेद 340",
+            "अनुच्छेद 339"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept (EN):</b> Constitutional Body - NCSC<br><b>📌 संकल्पना (HI):</b> संवैधानिक निकाय - NCSC<br><br><b>🧠 Explanation (EN):</b> 1. Article 338 provides for the NCSC to investigate and monitor all matters relating to the safeguards provided for the Scheduled Castes. 2. It reports to the President of India.<br><b>🧠 व्याख्या (HI):</b> 1. अनुच्छेद 338 अनुसूचित जातियों के लिए प्रदान किए गए सुरक्षा उपायों से संबंधित सभी मामलों की जांच और निगरानी के लिए NCSC का प्रावधान करता है। 2. यह भारत के राष्ट्रपति को रिपोर्ट करता है।<br><br><b>📚 Extra Fact (EN):</b> Article 338A was added for STs, and 338B for OBCs.<br><b>📚 अतिरिक्त तथ्य (HI):</b> STs के लिए अनुच्छेद 338A और OBCs के लिए 338B जोड़ा गया था।<br><br><b>⚡ Quick Trick (EN):</b> 338 (SC) -> 338A (ST) -> 338B (OBC).<br><b>⚡ त्वरित ट्रिक (HI):</b> 338 (SC) -> 338A (ST) -> 338B (OBC)।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Ancient History - Vedic Literature",
+        "level": "Moderate",
+        "q_en": "Which of the following is NOT a Vedanga?",
+        "q_hi": "निम्नलिखित में से कौन सा वेदांग नहीं है?",
+        "op_en": [
+            "Nirukta",
+            "Kathasaritsagara",
+            "Jyotisha",
+            "Vyakarana"
+        ],
+        "op_hi": [
+            "निरुक्त",
+            "कथासरित्सागर",
+            "ज्योतिष",
+            "व्याकरण"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept (EN):</b> Six Vedangas<br><b>📌 संकल्पना (HI):</b> छह वेदांग<br><br><b>🧠 Explanation (EN):</b> 1. There are 6 Vedangas: Shiksha, Kalpa, Vyakarana, Nirukta, Chhanda, and Jyotisha. 2. Kathasaritsagara is a 11th-century collection of Indian legends and folk tales by Somadeva.<br><b>🧠 व्याख्या (HI):</b> 1. 6 वेदांग हैं: शिक्षा, कल्प, व्याकरण, निरुक्त, छंद और ज्योतिष। 2. कथासरित्सागर सोमदेव द्वारा रचित भारतीय किंवदंतियों और लोक कथाओं का 11वीं शताब्दी का संग्रह है।<br><br><b>📚 Extra Fact (EN):</b> Nirukta deals with the etymology of words in the Vedas.<br><b>📚 अतिरिक्त तथ्य (HI):</b> निरुक्त वेदों में शब्दों की व्युत्पत्ति से संबंधित है।<br><br><b>🎯 Memory Hook (EN):</b> 'Katha' means story, not part of the core Vedic structure.<br><b>🎯 याद रखने का तरीका (HI):</b> 'कथा' का अर्थ कहानी है, यह वेदों का अंग नहीं है।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Biology - Plant Physiology",
+        "level": "Hard",
+        "q_en": "Which of the following statements is INCORRECT about C4 plants?",
+        "q_hi": "C4 पौधों के बारे में निम्नलिखित में से कौन सा कथन गलत है?",
+        "op_en": [
+            "Calvin pathway occurs in all the mesophyll cells of the C4 plants.",
+            "Maize and sorghum are C4 plants.",
+            "The bundle sheath cells may form several layers around the vascular bundles.",
+            "The leaves of C4 plants have Kranz’ anatomy."
+        ],
+        "op_hi": [
+            "कैलविन पथ C4 पौधों की सभी मेसोफिल कोशिकाओं में होता है।",
+            "मक्का और ज्वार C4 पौधे हैं।",
+            "बंडल शीथ कोशिकाएं संवहनी बंडलों के चारों ओर कई परतें बना सकती हैं।",
+            "C4 पौधों की पत्तियों में 'क्रान्ज़' शारीरिक रचना होती है।"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept (EN):</b> C4 Photosynthesis<br><b>📌 संकल्पना (HI):</b> C4 प्रकाश संश्लेषण<br><br><b>🧠 Explanation (EN):</b> 1. In C4 plants, the Calvin cycle (C3 pathway) occurs ONLY in the bundle sheath cells, not in mesophyll cells. 2. Mesophyll cells are where the initial CO2 fixation happens via the C4 pathway.<br><b>🧠 व्याख्या (HI):</b> 1. C4 पौधों में, कैलविन चक्र (C3 पथ) केवल बंडल शीथ कोशिकाओं में होता है, मेसोफिल कोशिकाओं में नहीं। 2. मेसोफिल कोशिकाएं वे होती हैं जहां C4 पथ के माध्यम से प्रारंभिक CO2 स्थिरीकरण होता है।<br><br><b>📚 Extra Fact (EN):</b> Kranz anatomy is a special leaf structure where bundle sheath cells are prominent.<br><b>📚 अतिरिक्त तथ्य (HI):</b> क्रान्ज़ शारीरिक रचना एक विशेष पत्ती की संरचना है जहाँ बंडल शीथ कोशिकाएँ प्रमुख होती हैं।<br><br><b>🚫 Trap Alert (EN):</b> While Calvin cycle is universal, its location varies in C4 plants.<br><b>🚫 सावधानी (HI):</b> हालांकि कैलविन चक्र सार्वभौमिक है, C4 पौधों में इसका स्थान अलग होता है।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Chemistry - Periodic Table",
+        "level": "Easy",
+        "q_en": "Which of the following groups in the modern periodic table contains the metal sodium?",
+        "q_hi": "आधुनिक आवर्त सारणी के निम्नलिखित में से किस समूह में धातु सोडियम (Na) होती है?",
+        "op_en": [
+            "Group 1",
+            "Group 2",
+            "Group 13",
+            "Group 14"
+        ],
+        "op_hi": [
+            "समूह 1",
+            "समूह 2",
+            "समूह 13",
+            "समूह 14"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept (EN):</b> Alkali Metals<br><b>📌 संकल्पना (HI):</b> क्षारीय धातुएं<br><br><b>🧠 Explanation (EN):</b> 1. Sodium (Atomic Number 11) belongs to Group 1, which consists of Alkali Metals. 2. These elements have one valence electron.<br><b>🧠 व्याख्या (HI):</b> 1. सोडियम (परमाणु क्रमांक 11) समूह 1 से संबंधित है, जिसमें क्षारीय धातुएं शामिल हैं। 2. इन तत्वों में एक वैलेंस इलेक्ट्रॉन होता है।<br><br><b>📚 Extra Fact (EN):</b> Group 1 elements are highly reactive and stored in kerosene.<br><b>📚 अतिरिक्त तथ्य (HI):</b> समूह 1 के तत्व अत्यधिक क्रियाशील होते हैं और इन्हें केरोसिन में रखा जाता है।<br><br><b>⚡ Quick Trick (EN):</b> Na = Group 1 (starts with 'O'ne valence electron).<br><b>⚡ त्वरित ट्रिक (HI):</b> Na = समूह 1।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Indian Geography",
+        "level": "Easy",
+        "q_en": "The Indian Desert mainly extends over which of the following Indian states?",
+        "q_hi": "भारतीय मरुस्थल मुख्य रूप से निम्नलिखित में से किस भारतीय राज्य में फैला हुआ है?",
+        "op_en": [
+            "Madhya Pradesh and Maharashtra",
+            "Gujarat and Rajasthan",
+            "Uttar Pradesh and Bihar",
+            "Punjab and Himachal Pradesh"
+        ],
+        "op_hi": [
+            "मध्य प्रदेश और महाराष्ट्र",
+            "गुजरात और राजस्थान",
+            "उत्तर प्रदेश और बिहार",
+            "पंजाब और हिमाचल प्रदेश"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept (EN):</b> The Thar Desert<br><b>📌 संकल्पना (HI):</b> थार मरुस्थल<br><br><b>🧠 Explanation (EN):</b> 1. The Indian Desert (Thar) lies towards the western margins of the Aravalli Hills. 2. Most of it is in Rajasthan, extending into parts of Gujarat, Punjab, and Haryana.<br><b>🧠 व्याख्या (HI):</b> 1. भारतीय मरुस्थल (थार) अरावली पहाड़ियों के पश्चिमी छोर पर स्थित है। 2. इसका अधिकांश भाग राजस्थान में है, और यह गुजरात, पंजाब और हरियाणा के कुछ हिस्सों तक फैला हुआ है।<br><br><b>📚 Extra Fact (EN):</b> Luni is the only large river in this region.<br><b>📚 अतिरिक्त तथ्य (HI):</b> लूणी इस क्षेत्र की एकमात्र बड़ी नदी है।<br><br><b>🎯 Memory Hook (EN):</b> Desert = Camel = Rajasthan/Gujarat border.<br><b>🎯 याद रखने का तरीका (HI):</b> मरुस्थल - ऊँट - राजस्थान।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Human Geography - Tribes",
+        "level": "Moderate",
+        "q_en": "The Onge tribes of Andaman Islands are a part of which of the following racial stock?",
+        "q_hi": "अंडमान द्वीप समूह की ओंगे जनजातियाँ निम्नलिखित में से किस नस्लीय स्टॉक का हिस्सा हैं?",
+        "op_en": [
+            "Negrito",
+            "Austroasiatic",
+            "Dravidian",
+            "Mongoloid"
+        ],
+        "op_hi": [
+            "नीग्रिटो",
+            "ऑस्ट्रो-एशियाई",
+            "द्रविड़",
+            "मंगोलॉयड"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept (EN):</b> Racial Groups in India<br><b>📌 संकल्पना (HI):</b> भारत में नस्लीय समूह<br><br><b>🧠 Explanation (EN):</b> 1. The tribes of Andaman and Nicobar, like Onge, Jarawa, and Sentinelese, belong to the Negrito race. 2. They are characterized by dark skin and frizzy hair.<br><b>🧠 व्याख्या (HI):</b> 1. अंडमान और निकोबार की जनजातियाँ, जैसे ओंगे, जारवा और सेंटिनली, नीग्रिटो नस्ल से संबंधित हैं। 2. उनकी विशेषता काली त्वचा और घुंघराले बाल हैं।<br><br><b>📚 Extra Fact (EN):</b> They are believed to be the earliest inhabitants of the islands.<br><b>📚 अतिरिक्त तथ्य (HI):</b> माना जाता है कि वे इन द्वीपों के सबसे पुराने निवासी हैं।<br><br><b>⚡ Quick Trick (EN):</b> Andaman = A-N (Andaman-Negrito).<br><b>⚡ त्वरित ट्रिक (HI):</b> अंडमान = 'न' से नीग्रिटो।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Census 2011",
+        "level": "Easy",
+        "q_en": "According to the Census 2011, which Union Territory has the highest number of in-migrants?",
+        "q_hi": "2011 की जनगणना के अनुसार, किस केंद्र शासित प्रदेश में प्रवासियों (इन-माइग्रेंट्स) की संख्या सबसे अधिक है?",
+        "op_en": [
+            "Lakshadweep",
+            "Delhi",
+            "Chandigarh",
+            "Daman and Diu"
+        ],
+        "op_hi": [
+            "लक्षद्वीप",
+            "दिल्ली",
+            "चंडीगढ़",
+            "दमन और दीव"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept (EN):</b> Migration Patterns in India<br><b>📌 संकल्पना (HI):</b> भारत में प्रवासन पैटर्न<br><br><b>🧠 Explanation (EN):</b> 1. Delhi, as the national capital, attracts the maximum number of people from various states for jobs and education. 2. UTs like Delhi and Chandigarh see massive in-migration compared to states.<br><b>🧠 व्याख्या (HI):</b> 1. दिल्ली, राष्ट्रीय राजधानी होने के नाते, नौकरियों और शिक्षा के लिए विभिन्न राज्यों के अधिकतम लोगों को आकर्षित करती है। 2. राज्यों की तुलना में दिल्ली और चंडीगढ़ जैसे केंद्र शासित प्रदेशों में बड़े पैमाने पर प्रवासन देखा जाता है।<br><br><b>📚 Extra Fact (EN):</b> Maharashtra is the state with the highest number of net in-migrants.<br><b>📚 अतिरिक्त तथ्य (HI):</b> महाराष्ट्र सर्वाधिक शुद्ध प्रवासियों वाला राज्य है।<br><br><b>🎯 Memory Hook (EN):</b> Delhi is the 'Heart' (Dil) where everyone goes.<br><b>🎯 याद रखने का तरीका (HI):</b> दिल्ली - जहाँ दिल (और लोग) बसते हैं।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Constitutional Amendments",
+        "level": "Moderate",
+        "q_en": "Which Constitutional Amendment extended the reservation of seats for Scheduled Castes (SCs) and Scheduled Tribes (STs) in the Parliament and State Assemblies while discontinuing the reserved seats for Anglo-Indians?",
+        "q_hi": "किस संवैधानिक संशोधन ने एंग्लो-इंडियन के लिए आरक्षित सीटों को समाप्त करते हुए संसद और राज्य विधानसभाओं में अनुसूचित जातियों (SCs) और अनुसूचित जनजातियों (STs) के लिए सीटों के आरक्षण को बढ़ा दिया?",
+        "op_en": [
+            "104th Amendment Act",
+            "100th Amendment Act",
+            "102nd Amendment Act",
+            "101st Amendment Act"
+        ],
+        "op_hi": [
+            "104वाँ संशोधन अधिनियम",
+            "100वाँ संशोधन अधिनियम",
+            "102वाँ संशोधन अधिनियम",
+            "101वाँ संशोधन अधिनियम"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept (EN):</b> Recent Constitutional Changes<br><b>📌 संकल्पना (HI):</b> हालिया संवैधानिक बदलाव<br><br><b>🧠 Explanation (EN):</b> 1. The 104th Amendment (2020) extended SC/ST reservation for another 10 years until 2030. 2. It removed the provision for nominating 2 Anglo-Indians to the Lok Sabha.<br><b>🧠 व्याख्या (HI):</b> 1. 104वें संशोधन (2020) ने SC/ST आरक्षण को 2030 तक अगले 10 वर्षों के लिए बढ़ा दिया। 2. इसने लोकसभा में 2 एंग्लो-इंडियन को नामांकित करने के प्रावधान को हटा दिया।<br><br><b>📚 Extra Fact (EN):</b> 101st Amendment introduced GST; 102nd gave constitutional status to NCBC.<br><b>📚 अतिरिक्त तथ्य (HI):</b> 101वें संशोधन ने GST पेश किया; 102वें ने NCBC को संवैधानिक दर्जा दिया।<br><br><b>⚡ Quick Trick (EN):</b> 104 = One-Zero-Four (For SC/ST).<br><b>⚡ त्वरित ट्रिक (HI):</b> 104 = SC/ST के लिए।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Ancient Architecture",
+        "level": "Moderate",
+        "q_en": "The Lomas Rishi cave is located in which of the following states?",
+        "q_hi": "लोमस ऋषि गुफा निम्नलिखित में से किस राज्य में स्थित है?",
+        "op_en": [
+            "Odisha",
+            "Maharashtra",
+            "Karnataka",
+            "Bihar"
+        ],
+        "op_hi": [
+            "ओडिशा",
+            "महाराष्ट्र",
+            "कर्नाटक",
+            "बिहार"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept (EN):</b> Mauryan Architecture<br><b>📌 संकल्पना (HI):</b> मौर्यकालीन वास्तुकला<br><br><b>🧠 Explanation (EN):</b> 1. Lomas Rishi cave is part of the Barabar caves in Jehanabad district, Bihar. 2. It was built during the Mauryan period for the Ajivika sect.<br><b>🧠 व्याख्या (HI):</b> 1. लोमस ऋषि गुफा बिहार के जहानाबाद जिले में बराबर गुफाओं का हिस्सा है। 2. इसका निर्माण मौर्य काल के दौरान आजीवक संप्रदाय के लिए किया गया था।<br><br><b>📚 Extra Fact (EN):</b> It is famous for its ornamental arch that mimics wooden architecture.<br><b>📚 अतिरिक्त तथ्य (HI):</b> यह अपने अलंकृत मेहराब के लिए प्रसिद्ध है जो लकड़ी की वास्तुकला की नकल करता है।<br><br><b>🎯 Memory Hook (EN):</b> Rishi in Bihar (Lomas Rishi).<br><b>🎯 याद रखने का तरीका (HI):</b> ऋषि बिहार चले गए।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Ancient History - Buddhism",
+        "level": "Easy",
+        "q_en": "Which of the following Buddhist canonical literatures contains the monastic rules of the order of Buddhist monks?",
+        "q_hi": "निम्नलिखित में से किस बौद्ध विहित साहित्य में बौद्ध भिक्षुओं के संघ के मठवासी नियम शामिल हैं?",
+        "op_en": [
+            "Sutta Pitaka",
+            "Vinaya Pitaka",
+            "Jataka Katha",
+            "Abhidhamma Pitaka"
+        ],
+        "op_hi": [
+            "सुत्त पिटक",
+            "विनय पिटक",
+            "जातक कथा",
+            "अभिधम्म पिटक"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept (EN):</b> Tripitaka - Buddhist Scriptures<br><b>📌 संकल्पना (HI):</b> त्रिपिटक - बौद्ध ग्रंथ<br><br><b>🧠 Explanation (EN):</b> 1. Vinaya Pitaka deals with rules of discipline for monks. 2. Sutta Pitaka contains the teachings/sermons of Buddha.<br><b>🧠 व्याख्या (HI):</b> 1. विनय पिटक भिक्षुओं के लिए अनुशासन के नियमों से संबंधित है। 2. सुत्त पिटक में बुद्ध की शिक्षाएँ/उपदेश शामिल हैं।<br><br><b>📚 Extra Fact (EN):</b> Abhidhamma Pitaka deals with the philosophy of Buddhism.<br><b>📚 अतिरिक्त तथ्य (HI):</b> अभिधम्म पिटक बौद्ध धर्म के दर्शन से संबंधित है।<br><br><b>⚡ Quick Trick (EN):</b> Vinaya = Discipline/Rules.<br><b>⚡ त्वरित ट्रिक (HI):</b> विनय = अनुशासन।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Indian Geography - Physical",
+        "level": "Moderate",
+        "q_en": "Which coastal plain of India is broader and more gently sloping?",
+        "q_hi": "भारत का कौन सा तटीय मैदान अधिक चौड़ा और धीमी ढलान वाला है?",
+        "op_en": [
+            "Malabar Coast",
+            "Konkan Coast",
+            "Eastern Coastal Plain",
+            "Western Coastal Plain"
+        ],
+        "op_hi": [
+            "मालाबार तट",
+            "कोंकण तट",
+            "पूर्वी तटीय मैदान",
+            "पश्चिमी तटीय मैदान"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept (EN):</b> Coastal Plains of India<br><b>📌 संकल्पना (HI):</b> भारत के तटीय मैदान<br><br><b>🧠 Explanation (EN):</b> 1. The Eastern Coastal Plain is broader because of the large deltas formed by rivers like Ganga, Mahanadi, Godavari, and Krishna. 2. Western plains are narrow and emergent.<br><b>🧠 व्याख्या (HI):</b> 1. गंगा, महानदी, गोदावरी और कृष्णा जैसी नदियों द्वारा बनाए गए बड़े डेल्टा के कारण पूर्वी तटीय मैदान अधिक चौड़ा है। 2. पश्चिमी मैदान संकरे और उभरते हुए हैं।<br><br><b>📚 Extra Fact (EN):</b> Coromandel Coast is a part of the Eastern Coastal Plain.<br><b>📚 अतिरिक्त तथ्य (HI):</b> कोरोमंडल तट पूर्वी तटीय मैदान का एक हिस्सा है।<br><br><b>⚡ Quick Trick (EN):</b> East = <b>E</b>xtended (Broad).<br><b>⚡ त्वरित ट्रिक (HI):</b> पूर्व (East) = बड़ा।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Geography - General",
+        "level": "Easy",
+        "q_en": "Which ocean lies to the south of India?",
+        "q_hi": "भारत के दक्षिण में कौन सा महासागर स्थित है?",
+        "op_en": [
+            "Pacific Ocean",
+            "Southern Ocean",
+            "Indian Ocean",
+            "Atlantic Ocean"
+        ],
+        "op_hi": [
+            "प्रशांत महासागर",
+            "दक्षिणी महासागर",
+            "हिंद महासागर",
+            "अटलांटिक महासागर"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept (EN):</b> Indian Peninsula Surroundings<br><b>📌 संकल्पना (HI):</b> भारतीय प्रायद्वीप का परिवेश<br><br><b>🧠 Explanation (EN):</b> 1. India is bounded by the Indian Ocean on the south. 2. It has the Arabian Sea on the west and the Bay of Bengal on the east.<br><b>🧠 व्याख्या (HI):</b> 1. भारत दक्षिण में हिंद महासागर से घिरा हुआ है। 2. इसके पश्चिम में अरब सागर और पूर्व में बंगाल की खाड़ी है।<br><br><b>📚 Extra Fact (EN):</b> The Indian Ocean is the only ocean named after a country.<br><b>📚 अतिरिक्त तथ्य (HI):</b> हिंद महासागर एकमात्र ऐसा महासागर है जिसका नाम किसी देश के नाम पर रखा गया है।<br><br><b>🎯 Memory Hook (EN):</b> India -> Indian Ocean.<br><b>🎯 याद रखने का तरीका (HI):</b> भारत - हिंदुस्तान - हिंद महासागर।"
+    },
+    {
+        "section": "General Awareness1",
+        "topic": "Indian Polity - Federalism",
+        "level": "Moderate",
+        "q_en": "Which of the following bodies facilitates coordination between the Centre and States on common policy matters?",
+        "q_hi": "निम्नलिखित में से कौन सा निकाय सामान्य नीतिगत मामलों पर केंद्र और राज्यों के बीच समन्वय की सुविधा प्रदान करता है?",
+        "op_en": [
+            "Inter-State Council",
+            "Planning Commission",
+            "NITI Aayog Governing Council",
+            "Zonal Councils"
+        ],
+        "op_hi": [
+            "अंतर-राज्य परिषद",
+            "योजना आयोग",
+            "नीति आयोग गवर्निंग काउंसिल",
+            "क्षेत्रीय परिषदें"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept (EN):</b> Inter-State Coordination<br><b>📌 संकल्पना (HI):</b> अंतर-राज्य समन्वय<br><br><b>🧠 Explanation (EN):</b> 1. The Inter-State Council is established under Article 263. 2. It is chaired by the Prime Minister and includes Chief Ministers of all states.<br><b>🧠 व्याख्या (HI):</b> 1. अंतर-राज्य परिषद अनुच्छेद 263 के तहत स्थापित है। 2. इसकी अध्यक्षता प्रधानमंत्री करते हैं और इसमें सभी राज्यों के मुख्यमंत्री शामिल होते हैं।<br><br><b>📚 Extra Fact (EN):</b> It was established in 1990 following the Sarkaria Commission's recommendation.<br><b>📚 अतिरिक्त तथ्य (HI):</b> इसकी स्थापना 1990 में सरकारिया आयोग की सिफारिश के बाद की गई थी।<br><br><b>⚡ Quick Trick (EN):</b> Article 263 = <b>C</b>ouncil for Coordination.<br><b>⚡ त्वरित ट्रिक (HI):</b> 263 = समन्वय के लिए परिषद।"
+    }
+]
