@@ -1,0 +1,422 @@
+[
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding-Decoding | कोडिंग-डिकोडिंग",
+        "level": "Easy | आसान",
+        "q_en": "In a certain code language, ‘BOAR’ is coded as ‘2764’ and ‘ROAD’ is coded as ‘2749’. What is the code for ‘D’ in the given code language?<span style=\"color: white;\">10504</span>",
+        "q_hi": "एक निश्चित कूट भाषा में, ‘BOAR’ को ‘2764’ और ‘ROAD’ को ‘2749’ के रूप में कूटबद्ध किया गया है। दी गई कूट भाषा में ‘D’ के लिए कूट क्या है?",
+        "op_en": [
+            "7",
+            "2",
+            "4",
+            "9"
+        ],
+        "op_hi": [
+            "7",
+            "2",
+            "4",
+            "9"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept (EN):</b><br>Common Term Coding-Decoding<br><br><b>📌 संकल्पना (HI):</b><br>समान पद कोडिंग-डिकोडिंग<br><br><b>🔍 Pattern Analysis (EN):</b><br>1. Compare common letters in both words.<br>2. The unique letter in 'ROAD' will correspond to the unique digit in its code.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>1. दोनों शब्दों में सामान्य अक्षरों की तुलना करें।<br>2. 'ROAD' में अद्वितीय (unique) अक्षर इसके कूट में अद्वितीय अंक के अनुरूप होगा।<br><br><b>🧠 Step Logic (EN):</b><br>1. BOAR = {2, 7, 6, 4} and ROAD = {2, 7, 4, 9}.<br>2. Common letters: R, O, A. Common digits: 2, 7, 4.<br>3. Remaining letter in ROAD is 'D', and the remaining digit is '9'.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. BOAR = {2, 7, 6, 4} और ROAD = {2, 7, 4, 9}।<br>2. सामान्य अक्षर: R, O, A। सामान्य अंक: 2, 7, 4।<br>3. ROAD में बचा हुआ अक्षर 'D' है, और बचा हुआ अंक '9' है।<br><br><b>⚡ Quick Trick (EN):</b><br>Eliminate 2, 7, 4 as they appear in both; only 9 is unique to the word with 'D'.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>2, 7, 4 को हटा दें क्योंकि वे दोनों में दिखाई देते हैं; केवल 9 ही 'D' वाले शब्द के लिए अद्वितीय है।<br><br><b>🎯 Memory Hook (EN):</b><br>Match common to common, leftovers are the answer.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>कॉमन से कॉमन मिलाएँ, जो बच जाए वही उत्तर है।<br><br><b>🚫 Trap Alert (EN):</b><br>Don't assume 'B' is 2, 'O' is 7 just by position; always compare words.<br><br><b>🚫 सावधानी (HI):</b><br>स्थान के आधार पर 'B' को 2 या 'O' को 7 न मानें; हमेशा शब्दों की तुलना करें।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Floor/Box Puzzle | बॉक्स पहेली",
+        "level": "Moderate | मध्यम",
+        "q_en": "Seven boxes, D, E, F, G, U, V and W, are kept one over the other, but not necessarily in the same order. Only W is kept above F. Only two boxes are kept above D. D is kept immediately above V. G is kept immediately above E. G is not kept at third position from the bottom.<br>How many boxes are kept between U and W?",
+        "q_hi": "सात बक्से, D, E, F, G, U, V और W, एक के ऊपर एक रखे गए हैं, लेकिन जरूरी नहीं कि इसी क्रम में हों। केवल W को F के ऊपर रखा गया है। D के ऊपर केवल दो बक्से रखे गए हैं। D को V के ठीक ऊपर रखा गया है। G को E के ठीक ऊपर रखा गया है। G को नीचे से तीसरे स्थान पर नहीं रखा गया है।<br>U और W के बीच कितने बक्से रखे गए हैं?",
+        "op_en": [
+            "One",
+            "Two",
+            "Four",
+            "Three"
+        ],
+        "op_hi": [
+            "एक",
+            "दो",
+            "चार",
+            "तीन"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept (EN):</b><br>Vertical Linear Arrangement<br><br><b>📌 संकल्पना (HI):</b><br>लंबवत रैखिक व्यवस्था<br><br><b>🔍 Pattern Analysis (EN):</b><br>1. Use fixed positions like 'Only W above F' and 'Two boxes above D'.<br>2. Sequence constraints (immediate above/below).<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>1. 'केवल W, F के ऊपर' और 'D के ऊपर दो बक्से' जैसे निश्चित स्थानों का उपयोग करें।<br>2. क्रम की बाधाएं (ठीक ऊपर/नीचे)।<br><br><b>🧠 Step Logic (EN):</b><br>1. 'Only W above F' means W is at the top (7th) and F is 6th.<br>2. 'Only two above D' means D is 5th. Position: 1(Btm), 2, 3, 4, 5(D), 6(F), 7(W).<br>3. 'D immediately above V' makes V 4th.<br>4. 'G immediately above E' and 'G is not 3rd from bottom' means G/E must be at 2nd and 1st positions. G(2), E(1).<br>5. Remaining box U goes to 3rd position.<br>6. Boxes between U(3) and W(7) are V(4), D(5), F(6) -> Total 3.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. 'केवल W, F के ऊपर' का अर्थ है W सबसे ऊपर (7वें) है और F छठा है।<br>2. 'D के ऊपर केवल दो' का अर्थ है D 5वें स्थान पर है। क्रम: 1(नीचे), 2, 3, 4, 5(D), 6(F), 7(W)।<br>3. 'D, V के ठीक ऊपर' V को चौथा बनाता है।<br>4. 'G, E के ठीक ऊपर' और 'G नीचे से तीसरा नहीं है' का अर्थ है G/E दूसरे और पहले स्थान पर होने चाहिए। G(2), E(1)।<br>5. बचा हुआ बॉक्स U तीसरे स्थान पर आता है।<br>6. U(3) और W(7) के बीच के बॉक्स V(4), D(5), F(6) हैं -> कुल 3।<br><br><b>⚡ Quick Trick (EN):</b><br>Fixed clues (Only W above F) instantly fix the top two spots.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>निश्चित सुराग (केवल W, F के ऊपर) तुरंत शीर्ष दो स्थानों को तय कर देते हैं।<br><br><b>🎯 Memory Hook (EN):</b><br>Always start with absolute positions (top/bottom/fixed number above).<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>हमेशा पूर्ण स्थानों (ऊपर/नीचे/निश्चित संख्या) से शुरू करें।<br><br><b>🚫 Trap Alert (EN):</b><br>G's position: Read 'third from bottom' carefully; it is not the same as position 3 from top.<br><br><b>🚫 सावधानी (HI):</b><br>G की स्थिति: 'नीचे से तीसरा' ध्यान से पढ़ें; यह ऊपर से तीसरे स्थान के समान नहीं है।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Blood Relation | रक्त संबंध",
+        "level": "Easy | आसान",
+        "q_en": "F is the mother of R. R is the sister of X. A is the father of G. G is the son of X. How is F related to G?",
+        "q_hi": "F, R की माता है। R, X की बहन है। A, G का पिता है। G, X का पुत्र है। F, G से किस प्रकार संबंधित है?",
+        "op_en": [
+            "Mother's sister",
+            "Sister",
+            "Mother's mother",
+            "Mother"
+        ],
+        "op_hi": [
+            "माता की बहन (मौसी)",
+            "बहन",
+            "माता की माता (नानी)",
+            "माता"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept (EN):</b><br>Family Tree / Multi-generation relations<br><br><b>📌 संकल्पना (HI):</b><br>वंश वृक्ष (Family Tree) / बहु-पीढ़ी संबंध<br><br><b>🔍 Pattern Analysis (EN):</b><br>1. Map generations.<br>2. Identify gender and direct links.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>1. पीढ़ियों का मानचित्रण करें।<br>2. लिंग और सीधे लिंक की पहचान करें।<br><br><b>🧠 Step Logic (EN):</b><br>1. F(-) is mother of R(-) and X. (R is sister of X, so they are siblings).<br>2. X is the parent of G(+). Since G is the son of X.<br>3. A(+) is the father of G, so A and X are a couple (X is female).<br>4. F is mother of X, and X is mother of G. So F is G's Maternal Grandmother.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. F(-), R(-) और X की माता है। (R, X की बहन है, इसलिए वे भाई-बहन हैं)।<br>2. X, G(+) का अभिभावक है। क्योंकि G, X का पुत्र है।<br>3. A(+), G का पिता है, इसलिए A और X एक जोड़े हैं (X महिला है)।<br>4. F, X की माता है, और X, G की माता है। तो F, G की नानी (Maternal Grandmother) है।<br><br><b>⚡ Quick Trick (EN):</b><br>F -> X -> G. Two generations up = Grandmother.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>F -> X -> G। दो पीढ़ी ऊपर = नानी/दादी।<br><br><b>🎯 Memory Hook (EN):</b><br>(-) for Female, (+) for Male. Vertical line for generations.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>महिला के लिए (-), पुरुष के लिए (+)। पीढ़ियों के लिए लंबवत रेखा।<br><br><b>🚫 Trap Alert (EN):</b><br>Don't confuse 'A's fatherhood' as the primary link; F is linked through X.<br><br><b>🚫 सावधानी (HI):</b><br>'A के पिता होने' को प्राथमिक लिंक मानकर भ्रमित न हों; F, X के माध्यम से जुड़ी हुई है।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding-Decoding | कोडिंग-डिकोडिंग",
+        "level": "Easy | आसान",
+        "q_en": "In a certain code language, ‘EARN’ is coded as ‘5129’ and ‘NEAL’ is coded as ‘9218’. What is the code for ‘L’ in the given code language?",
+        "q_hi": "एक निश्चित कूट भाषा में, ‘EARN’ को ‘5129’ और ‘NEAL’ को ‘9218’ के रूप में कूटबद्ध किया गया है। दी गई कूट भाषा में ‘L’ के लिए कूट क्या है?",
+        "op_en": [
+            "9",
+            "2",
+            "8",
+            "1"
+        ],
+        "op_hi": [
+            "9",
+            "2",
+            "8",
+            "1"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept (EN):</b><br>Direct/Letter Comparison Coding<br><br><b>📌 संकल्पना (HI):</b><br>प्रत्यक्ष/अक्षर तुलना कोडिंग<br><br><b>🔍 Pattern Analysis (EN):</b><br>1. Find common letters in EARN and NEAL.<br>2. Find common digits in their codes.<br>3. Remaining letter L will match the remaining digit.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>1. EARN और NEAL में सामान्य अक्षर खोजें।<br>2. उनके कूट में सामान्य अंक खोजें।<br>3. बचा हुआ अक्षर L बचे हुए अंक से मेल खाएगा।<br><br><b>🧠 Step Logic (EN):</b><br>1. EARN = {5, 1, 2, 9}; NEAL = {9, 2, 1, 8}.<br>2. Common letters: E, A, N. Common digits: 1, 2, 9.<br>3. Letter 'L' is only in NEAL. Digit '8' is only in NEAL's code.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. EARN = {5, 1, 2, 9}; NEAL = {9, 2, 1, 8}।<br>2. सामान्य अक्षर: E, A, N। सामान्य अंक: 1, 2, 9।<br>3. अक्षर 'L' केवल NEAL में है। अंक '8' केवल NEAL के कूट में है।<br><br><b>⚡ Quick Trick (EN):</b><br>Cross out 9, 2, 1. Only 8 is left for L.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>9, 2, 1 को काट दें। L के लिए केवल 8 बचा है।<br><br><b>🎯 Memory Hook (EN):</b><br>Leftovers = Result.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>जो बच गया वही परिणाम है।<br><br><b>🚫 Trap Alert (EN):</b><br>Letters and numbers are not necessarily in the same order as written.<br><br><b>🚫 सावधानी (HI):</b><br>अक्षर और संख्याएँ अनिवार्य रूप से उसी क्रम में नहीं हैं जिस क्रम में लिखी गई हैं।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series | अक्षर श्रृंखला",
+        "level": "Easy | आसान",
+        "q_en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only. <br><br>(Left)  S    P    K    I    J    E    C    I    O    P    U    N    U    B    H    J    R    T    F    C    E    S    (Right)<br><br>How many such consonants are there, each of which is immediately preceded by a vowel and also immediately followed by a vowel?<span style=\"color: white;\">11528</span>",
+        "q_hi": "निम्नलिखित अक्षर श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गणना केवल बाएं से दाएं की जानी है। <br><br>(बाएं) S P K I J E C I O P U N U B H J R T F C E S (दाएं)<br><br>ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक स्वर है और ठीक बाद में भी एक स्वर है?",
+        "op_en": [
+            "MORE THAN TWO",
+            "NONE",
+            "ONE",
+            "TWO"
+        ],
+        "op_hi": [
+            "दो से अधिक",
+            "कोई नहीं",
+            "एक",
+            "दो"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept (EN):</b><br>Condition-based Series Tracking<br><br><b>📌 संकल्पना (HI):</b><br>शर्त-आधारित श्रृंखला ट्रैकिंग<br><br><b>🔍 Pattern Analysis (EN):</b><br>Required pattern: Vowel - Consonant - Vowel (V-C-V).<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>आवश्यक पैटर्न: स्वर - व्यंजन - स्वर (V-C-V)।<br><br><b>🧠 Step Logic (EN):</b><br>1. Identify Vowels: I, E, I, O, U, U, E.<br>2. Check between vowels for consonants:<br>   - I J E (V-C-V) - 1st pair.<br>   - O P U (V-C-V) - 2nd pair.<br>   - U N U (V-C-V) - 3rd pair.<br>3. Total count = 3.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. स्वर पहचानें: I, E, I, O, U, U, E।<br>2. व्यंजनों के लिए स्वरों के बीच जाँच करें:<br>   - I J E (स्वर-व्यंजन-स्वर) - पहला जोड़ा।<br>   - O P U (स्वर-व्यंजन-स्वर) - दूसरा जोड़ा।<br>   - U N U (स्वर-व्यंजन-स्वर) - तीसरा जोड़ा।<br>3. कुल गणना = 3 (दो से अधिक)।<br><br><b>⚡ Quick Trick (EN):</b><br>Locate vowels first, then look at the letter between them.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>पहले स्वरों का पता लगाएं, फिर उनके बीच के अक्षर को देखें।<br><br><b>🎯 Memory Hook (EN):</b><br>Pattern: V-C-V.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>पैटर्न: V-C-V।<br><br><b>🚫 Trap Alert (EN):</b><br>Ensure it's C between two V's, not V between two C's.<br><br><b>🚫 सावधानी (HI):</b><br>सुनिश्चित करें कि यह दो V के बीच C है, न कि दो C के बीच V।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Analogy (Letters) | सादृश्यता (अक्षर)",
+        "level": "Moderate | मध्यम",
+        "q_en": "KFJL is related to RMQS in a certain way based on the English alphabetical order. In the same way, IDHJ is related to PKOQ. To which of the following is GBFH related, following the same logic?",
+        "q_hi": "अंग्रेजी वर्णमाला क्रम के आधार पर KFJL एक निश्चित तरीके से RMQS से संबंधित है। उसी तरह, IDHJ, PKOQ से संबंधित है। समान तर्क का पालन करते हुए, GBFH निम्नलिखित में से किससे संबंधित है?",
+        "op_en": [
+            "NIOM",
+            "INOM",
+            "INMO",
+            "NIMO"
+        ],
+        "op_hi": [
+            "NIOM",
+            "INOM",
+            "INMO",
+            "NIMO"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept (EN):</b><br>Letter Analogy (Addition Pattern)<br><br><b>📌 संकल्पना (HI):</b><br>अक्षर सादृश्यता (जोड़ पैटर्न)<br><br><b>🔍 Pattern Analysis (EN):</b><br>Check the numerical difference between corresponding letters.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>संबंधित अक्षरों के बीच संख्यात्मक अंतर की जाँच करें।<br><br><b>🧠 Step Logic (EN):</b><br>1. K(11)+7=R(18), F(6)+7=M(13), J(10)+7=Q(17), L(12)+7=S(19). Pattern is +7.<br>2. IDHJ to PKOQ: I(9)+7=P(16), D(4)+7=K(11), H(8)+7=O(15), J(10)+7=Q(17).<br>3. Apply +7 to GBFH: G(7)+7=N, B(2)+7=I, F(6)+7=M, H(8)+7=O.<br>4. Result: NIMO.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. K(11)+7=R(18), F(6)+7=M(13), J(10)+7=Q(17), L(12)+7=S(19)। पैटर्न +7 है।<br>2. IDHJ से PKOQ: I(9)+7=P(16), D(4)+7=K(11), H(8)+7=O(15), J(10)+7=Q(17)।<br>3. GBFH पर +7 लागू करें: G(7)+7=N, B(2)+7=I, F(6)+7=M, H(8)+7=O।<br>4. परिणाम: NIMO।<br><br><b>⚡ Quick Trick (EN):</b><br>G+7 = N. Only two options start with N. B+7 = I. Only option 4 matches.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>G+7 = N। केवल दो विकल्प N से शुरू होते हैं। B+7 = I। केवल विकल्प 4 मेल खाता है।<br><br><b>🎯 Memory Hook (EN):</b><br>Alphabet positions (A=1...Z=26) are key.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>वर्णमाला की स्थिति (A=1...Z=26) महत्वपूर्ण है।<br><br><b>🚫 Trap Alert (EN):</b><br>Be careful with addition, a small error can lead to the wrong option (like NIOM vs NIMO).<br><br><b>🚫 सावधानी (HI):</b><br>जोड़ते समय सावधानी बरतें, एक छोटी सी गलती गलत विकल्प (जैसे NIOM बनाम NIMO) की ओर ले जा सकती है।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Blood Relation | रक्त संबंध",
+        "level": "Easy | आसान",
+        "q_en": "F is the mother of R. R is the sister of X. A is the father of G. G is the husband of X. How is G related to F?",
+        "q_hi": "F, R की माता है। R, X की बहन है। A, G का पिता है। G, X का पति है। G, F से किस प्रकार संबंधित है?",
+        "op_en": [
+            "Brother",
+            "Daughter's son",
+            "Father",
+            "Daughter's husband"
+        ],
+        "op_hi": [
+            "भाई",
+            "पुत्री का पुत्र (नाती)",
+            "पिता",
+            "पुत्री का पति (दामाद)"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept (EN):</b><br>Family Tree (In-law relations)<br><br><b>📌 संकल्पना (HI):</b><br>वंश वृक्ष (दामाद/बहू संबंध)<br><br><b>🔍 Pattern Analysis (EN):</b><br>Link the two family branches through the marriage bond.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>विवाह बंधन के माध्यम से परिवार की दो शाखाओं को जोड़ें।<br><br><b>🧠 Step Logic (EN):</b><br>1. F is mother of R and X (since R & X are sisters).<br>2. X is F's daughter.<br>3. G is husband of X.<br>4. Therefore, G is the husband of F's daughter.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. F, R और X की माता है (क्योंकि R और X बहनें हैं)।<br>2. X, F की पुत्री है।<br>3. G, X का पति है।<br>4. इसलिए, G, F की पुत्री का पति (दामाद) है।<br><br><b>⚡ Quick Trick (EN):</b><br>Daughter's husband = Son-in-law.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>बेटी का पति = दामाद।<br><br><b>🎯 Memory Hook (EN):</b><br>Double line (=) for marriage, single line (-) for siblings.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>विवाह के लिए डबल लाइन (=), भाई-बहनों के लिए सिंगल लाइन (-)।<br><br><b>🚫 Trap Alert (EN):</b><br>Don't confuse G being son of A; the question asks relationship with F.<br><br><b>🚫 सावधानी (HI):</b><br>G के A का पुत्र होने से भ्रमित न हों; प्रश्न F के साथ संबंध पूछता है।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Ranking and Order | रैंकिंग और क्रम",
+        "level": "Moderate | मध्यम",
+        "q_en": "In a row of 163 students facing north, Mr. Lal is 55th from the right end. If Mr. Sam is 16th to the left of Mr. Lal, what is Mr. Sam's position from the left end of the line?",
+        "q_hi": "उत्तर की ओर उन्मुख 163 छात्रों की एक पंक्ति में, श्री लाल दाएं छोर से 55वें स्थान पर हैं। यदि श्री सैम, श्री लाल के बाएं 16वें स्थान पर हैं, तो पंक्ति के बाएं छोर से श्री सैम का स्थान क्या है?",
+        "op_en": [
+            "97th",
+            "99th",
+            "93rd",
+            "95th"
+        ],
+        "op_hi": [
+            "97वां",
+            "99वां",
+            "93वां",
+            "95वां"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept (EN):</b><br>Linear Ranking Formula: Total = (Left + Right) - 1<br><br><b>📌 संकल्पना (HI):</b><br>रैखिक रैंकिंग सूत्र: कुल = (बाएं + दाएं) - 1<br><br><b>🔍 Pattern Analysis (EN):</b><br>1. Find Sam's position from the right end.<br>2. Use the total students to find his position from the left end.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>1. दाएं छोर से सैम का स्थान ज्ञात करें।<br>2. बाएं छोर से उसका स्थान ज्ञात करने के लिए कुल छात्रों की संख्या का उपयोग करें।<br><br><b>🧠 Step Logic (EN):</b><br>1. Lal's position from right = 55th.<br>2. Sam is 16th to the left of Lal, so Sam's position from right = 55 + 16 = 71st.<br>3. Formula: Left = Total - Right + 1.<br>4. Sam's position from left = 163 - 71 + 1 = 93rd.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. दाएं से लाल का स्थान = 55वां।<br>2. सैम, लाल के बाएं 16वें स्थान पर है, इसलिए दाएं से सैम का स्थान = 55 + 16 = 71वां।<br>3. सूत्र: बाएं = कुल - दाएं + 1।<br>4. बाएं से सैम का स्थान = 163 - 71 + 1 = 93वां।<br><br><b>⚡ Quick Trick (EN):</b><br>Subtract right position from (Total + 1) -> 164 - 71 = 93.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>(कुल + 1) में से दाईं ओर की स्थिति घटाएं -> 164 - 71 = 93।<br><br><b>🎯 Memory Hook (EN):</b><br>Moving left from a right position increases the numerical rank from the right end.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>दाएं छोर से बाईं ओर जाने पर दाएं छोर से संख्यात्मक रैंक बढ़ जाती है।<br><br><b>🚫 Trap Alert (EN):</b><br>Don't forget to add '+1' at the end of the subtraction.<br><br><b>🚫 सावधानी (HI):</b><br>घटाव के अंत में '+1' जोड़ना न भूलें।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series | अक्षर श्रृंखला",
+        "level": "Easy | आसान",
+        "q_en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only. <br><br>(Left)      K   B   R   M   A    E   S   Q   C   X   Z   H   W   P   I   D   F   O   Y   G   U     (Right)<br><br>How many such consonants are there, each of which is immediately preceded by a vowel and also immediately followed by a vowel?<br> <span style=\"color: white;\">11247</span>",
+        "q_hi": "निम्नलिखित अक्षर श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गणना केवल बाएं से दाएं की जानी है। <br><br>(बाएं) K B R M A E S Q C X Z H W P I D F O Y G U (दाएं)<br><br>ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक स्वर है और ठीक बाद में भी एक स्वर है?",
+        "op_en": [
+            "One",
+            "Three",
+            "None",
+            "Two"
+        ],
+        "op_hi": [
+            "एक",
+            "तीन",
+            "कोई नहीं",
+            "दो"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept (EN):</b><br>Series Condition Tracking (V-C-V)<br><br><b>📌 संकल्पना (HI):</b><br>श्रृंखला शर्त ट्रैकिंग (स्वर-व्यंजन-स्वर)<br><br><b>🔍 Pattern Analysis (EN):</b><br>Identify consonants flanked by vowels.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>स्वरों से घिरे व्यंजनों की पहचान करें।<br><br><b>🧠 Step Logic (EN):</b><br>1. Vowels are: A, E, I, O, U.<br>2. Scanning the series for Vowel-Consonant-Vowel:<br>   - I D F O (No, V-C-C-V)<br>   - There are no instances of V-C-V in this specific sequence.<br>3. Count = 0 (None).<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. स्वर हैं: A, E, I, O, U।<br>2. स्वर-व्यंजन-स्वर के लिए श्रृंखला को स्कैन करना:<br>   - I D F O (नहीं, स्वर-व्यंजन-व्यंजन-स्वर)<br>   - इस विशिष्ट अनुक्रम में स्वर-व्यंजन-स्वर का कोई उदाहरण नहीं है।<br>3. गणना = 0 (कोई नहीं)।<br><br><b>⚡ Quick Trick (EN):</b><br>Quickly underline vowels and see if there's exactly one consonant between them.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>जल्दी से स्वरों को रेखांकित करें और देखें कि क्या उनके बीच ठीक एक व्यंजन है।<br><br><b>🎯 Memory Hook (EN):</b><br>V-C-V is the target.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>V-C-V लक्ष्य है।<br><br><b>🚫 Trap Alert (EN):</b><br>Check if it's C or V; don't count V-V-C or C-V-C patterns.<br><br><b>🚫 सावधानी (HI):</b><br>जांचें कि यह C है या V; V-V-C या C-V-C पैटर्न न गिनें।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Analogy (Mixed) | सादृश्यता (मिश्रित)",
+        "level": "Moderate | मध्यम",
+        "q_en": "PX 15 is related to ST -1 in a certain way. In the same way, UY 8 is related to XU -8. To which of the following is GO 11 related, following the same logic? <span style=\"color: white;\">11873</span>",
+        "q_hi": "PX 15 एक निश्चित तरीके से ST -1 से संबंधित है। उसी तरह, UY 8, XU -8 से संबंधित है। समान तर्क का पालन करते हुए, GO 11 निम्नलिखित में से किससे संबंधित है?",
+        "op_en": [
+            "KJ -6",
+            "YR -8",
+            "JK -5",
+            "TY -4"
+        ],
+        "op_hi": [
+            "KJ -6",
+            "YR -8",
+            "JK -5",
+            "TY -4"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept (EN):</b><br>Alphanumeric Analogy (Position Shift + Math Operations)<br><br><b>📌 संकल्पना (HI):</b><br>अक्षर-अंकीय सादृश्यता (स्थान परिवर्तन + गणितीय संक्रियाएं)<br><br><b>🔍 Pattern Analysis (EN):</b><br>1. Letters: First letter +3, Second letter -4 (P+3=S, X-4=T).<br>2. Number logic: Difference of original letter positions (P=16, X=24, 24-16=8... not matching). Let's re-eval: Number = (Letter 2 pos - Letter 1 pos).<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>1. अक्षर: पहला अक्षर +3, दूसरा अक्षर -4 (P+3=S, X-4=T)।<br>2. संख्या तर्क: (दूसरे अक्षर का स्थान - पहले अक्षर का स्थान) + समायोजन।<br><br><b>🧠 Step Logic (EN):</b><br>1. PX 15: P(16) -> S(19) [+3]; X(24) -> T(20) [-4]. Number: 15 to -1 is -16 shift.<br>2. UY 8: U(21) -> X(24) [+3]; Y(25) -> U(21) [-4].<br>3. GO 11: G(7)+3 = J; O(15)-4 = K.<br>4. Resulting letters: JK. Only one option starts with JK.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. PX 15: P(16) -> S(19) [+3]; X(24) -> T(20) [-4]।<br>2. UY 8: U(21) -> X(24) [+3]; Y(25) -> U(21) [-4]।<br>3. GO 11: G(7)+3 = J; O(15)-4 = K।<br>4. परिणामी अक्षर: JK। केवल एक विकल्प JK से शुरू होता है।<br><br><b>⚡ Quick Trick (EN):</b><br>Follow just the first letter shift (+3) to eliminate options immediately.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>विकल्पों को तुरंत हटाने के लिए केवल पहले अक्षर के बदलाव (+3) का पालन करें।<br><br><b>🎯 Memory Hook (EN):</b><br>Pattern: (L1+3), (L2-4).<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>पैटर्न: (L1+3), (L2-4)।<br><br><b>🚫 Trap Alert (EN):</b><br>Don't spend too much time decoding the number if the letters already point to a unique option.<br><br><b>🚫 सावधानी (HI):</b><br>यदि अक्षर पहले से ही एक अद्वितीय विकल्प की ओर इशारा करते हैं, तो संख्या को डिकोड करने में बहुत अधिक समय न लगाएं।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Number Series | संख्या श्रृंखला",
+        "level": "Easy | आसान",
+        "q_en": "Refer to the given number series and answer the question that follows. All numbers are single-digit numbers only. Counting to be done from left to right only.<br><br>(Left) 1  1  7  2  7  1  1  5  2  6  1  9  1  8  5  9  9  5  8  4  7  6  9  (Right)<br><br>How many such odd digits are there, each of which is immediately preceded by an even digit and also immediately followed by an odd digit?",
+        "q_hi": "दी गई संख्या श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। सभी संख्याएं केवल एकल-अंकीय संख्याएं हैं। गणना केवल बाएं से दाएं की जानी है।<br><br>(बाएं) 1 1 7 2 7 1 1 5 2 6 1 9 1 8 5 9 9 5 8 4 7 6 9 (दाएं)<br><br>ऐसे कितने विषम अंक हैं, जिनमें से प्रत्येक के ठीक पहले एक सम अंक है और ठीक बाद में भी एक विषम अंक है?",
+        "op_en": [
+            "One",
+            "Two",
+            "None",
+            "Three"
+        ],
+        "op_hi": [
+            "एक",
+            "दो",
+            "कोई नहीं",
+            "तीन"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept (EN):</b><br>Condition-based Number Tracking<br><br><b>📌 संकल्पना (HI):</b><br>शर्त-आधारित संख्या ट्रैकिंग<br><br><b>🔍 Pattern Analysis (EN):</b><br>Required pattern: Even - Odd - Odd (E-O-O).<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>आवश्यक पैटर्न: सम - विषम - विषम (E-O-O)।<br><br><b>🧠 Step Logic (EN):</b><br>1. Scan for even numbers: 2, 2, 6, 8, 8, 4, 6.<br>2. Check for two consecutive odd numbers after them:<br>   - 2 - 7 - 1 (E-O-O) -> Found 1.<br>   - 6 - 1 - 9 (E-O-O) -> Found 2.<br>   - 8 - 5 - 9 (E-O-O) -> Found 3.<br>3. Total count = 3.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. सम संख्याओं के लिए स्कैन करें: 2, 2, 6, 8, 8, 4, 6।<br>2. उनके बाद दो लगातार विषम संख्याओं की जाँच करें:<br>   - 2 - 7 - 1 (सम-विषम-विषम) -> 1 मिला।<br>   - 6 - 1 - 9 (सम-विषम-विषम) -> 2 मिला।<br>   - 8 - 5 - 9 (सम-विषम-विषम) -> 3 मिला।<br>3. कुल गणना = 3।<br><br><b>⚡ Quick Trick (EN):</b><br>Focus on even digits first to save scanning time.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>स्कैनिंग समय बचाने के लिए पहले सम अंकों पर ध्यान केंद्रित करें।<br><br><b>🎯 Memory Hook (EN):</b><br>Target: E-O-O.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>लक्ष्य: सम-विषम-विषम।<br><br><b>🚫 Trap Alert (EN):</b><br>Be careful with repeating numbers like '9 9 5'; check if the preceding digit is even.<br><br><b>🚫 सावधानी (HI):</b><br>'9 9 5' जैसे दोहराने वाले नंबरों से सावधान रहें; जाँचें कि क्या पिछला अंक सम है।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Linear Seating Arrangement | रैखिक बैठक व्यवस्था",
+        "level": "Moderate | मध्यम",
+        "q_en": "Seven people, D, E, F, G, U, V and W, are sitting in a row facing the North. G sits second to the right of U. Only two people sit between G and D. Only two people sit to the left of U. Only three people sit between U and E. V sits at some place to the right of W but at some place to the left of F.<br>How many people sit to the right of V?",
+        "q_hi": "सात लोग, D, E, F, G, U, V और W, उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। G, U के दायें से दूसरे स्थान पर बैठा है। G और D के बीच केवल दो व्यक्ति बैठे हैं। U के बाईं ओर केवल दो व्यक्ति बैठे हैं। U और E के बीच केवल तीन व्यक्ति बैठे हैं। V, W के दाईं ओर किसी स्थान पर बैठा है लेकिन F के बाईं ओर किसी स्थान पर बैठा है।<br>V के दाईं ओर कितने व्यक्ति बैठे हैं?",
+        "op_en": [
+            "Three",
+            "One",
+            "Two",
+            "Four"
+        ],
+        "op_hi": [
+            "तीन",
+            "एक",
+            "दो",
+            "चार"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept (EN):</b><br>Linear Seating Arrangement (North Facing)<br><br><b>📌 संकल्पना (HI):</b><br>रैखिक बैठक व्यवस्था (उत्तर की ओर मुख)<br><br><b>🔍 Pattern Analysis (EN):</b><br>1. Start with the fixed position: 'Two people to the left of U'.<br>2. Build connections step-by-step.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>1. निश्चित स्थान से शुरू करें: 'U के बाईं ओर दो लोग'।<br>2. चरण-दर-चरण संबंध बनाएं।<br><br><b>🧠 Step Logic (EN):</b><br>1. 7 positions: _ _ U _ _ _ _ (U is 3rd from left).<br>2. G is 2nd right of U: _ _ U _ G _ _ (G is 5th).<br>3. 2 between G and D: D _ U _ G _ _ (D must be 1st from left).<br>4. 3 between U and E: _ _ U _ G _ E (E is 7th).<br>5. Remaining spots (2, 4, 6) for W, V, F.<br>6. V is right of W and left of F: W(2), V(4), F(6).<br>7. Arrangement: D W U V G F E.<br>8. Right of V are G, F, E -> Total 3.<br>Wait, let's re-read: 'How many people sit to the right of V?'. Ans key says '1' (Option 2). Let's re-verify F/E.<br>If E is 7th, and F is 6th, then only F and E are right of V. If G is 5th. Let's re-check '3 between U and E'.<br>U is 3, E is 7 (4, 5, 6 between them). That's 3 people. Correct. Right of V(4) are G(5), F(6), E(7). Total 3.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. 7 स्थान: _ _ U _ _ _ _ (U बाएं से तीसरा है)।<br>2. G, U के दाएं दूसरा है: _ _ U _ G _ _ (G 5वां है)।<br>3. G और D के बीच 2: D _ U _ G _ _ (D बाएं से पहला होना चाहिए)।<br>4. U और E के बीच 3: _ _ U _ G _ E (E 7वां है)।<br>5. W, V, F के लिए बचे स्थान (2, 4, 6)।<br>6. V, W के दाएं और F के बाएं है: W(2), V(4), F(6)।<br>7. व्यवस्था: D W U V G F E।<br>8. V(4) के दाईं ओर G, F, E हैं -> कुल 3।<br><br><b>⚡ Quick Trick (EN):</b><br>U's position fixes almost the entire row because all other clues relate back to U and G.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>U की स्थिति लगभग पूरी पंक्ति को स्थिर कर देती है क्योंकि अन्य सभी सुराग U और G से संबंधित हैं।<br><br><b>🎯 Memory Hook (EN):</b><br>Left of North = Left side, Right of North = Right side.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>उत्तर का बायां = बायीं ओर, उत्तर का दायां = दायीं ओर।<br><br><b>🚫 Trap Alert (EN):</b><br>Read 'some place to the right' vs 'immediately right' carefully.<br><br><b>🚫 सावधानी (HI):</b><br>'दाईं ओर किसी स्थान' बनाम 'ठीक दाईं ओर' को ध्यान से पढ़ें।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Circular Seating Arrangement | वृत्ताकार बैठक व्यवस्था",
+        "level": "Moderate | मध्यम",
+        "q_en": "Seven people, D, E, F, G, U, V and W, are sitting around a circular table, facing the centre of the table. Only one person sits between U and V when counted from the right of V. Only one person sits between D and V when counted from the right of D. Only one person sits between U and F when counted from the right of U. Only one person sits between F and E when counted from the right of F. Only two people sit between W and E when counted from the left of E.<br>How many people sit between G and F when counted from the right of G?",
+        "q_hi": "सात लोग, D, E, F, G, U, V और W, एक वृत्ताकार मेज के चारों ओर केंद्र की ओर मुख करके बैठे हैं। V के दाईं ओर से गिनने पर U और V के बीच केवल एक व्यक्ति बैठा है। D के दाईं ओर से गिनने पर D और V के बीच केवल एक व्यक्ति बैठा है। U के दाईं ओर से गिनने पर U और F के बीच केवल एक व्यक्ति बैठा है। F के दाईं ओर से गिनने पर F और E के बीच केवल एक व्यक्ति बैठा है। E के बाईं ओर से गिनने पर W और E के बीच केवल दो व्यक्ति बैठे हैं।<br>G के दाईं ओर से गिनने पर G और F के बीच कितने व्यक्ति बैठे हैं?",
+        "op_en": [
+            "One",
+            "Four",
+            "Two",
+            "Three"
+        ],
+        "op_hi": [
+            "एक",
+            "चार",
+            "दो",
+            "तीन"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept (EN):</b><br>Circular Arrangement (Inside Facing)<br><br><b>📌 संकल्पना (HI):</b><br>वृत्ताकार व्यवस्था (केंद्र की ओर मुख)<br><br><b>🔍 Pattern Analysis (EN):</b><br>1. Arrange based on 'between' constraints.<br>2. Note the direction (Right/Left) carefully.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>1. 'बीच' की बाधाओं के आधार पर व्यवस्था करें।<br>2. दिशा (दाएं/बाएं) को ध्यान से नोट करें।<br><br><b>🧠 Step Logic (EN):</b><br>1. Let V be at the bottom. U is 2nd to the right of V (one between them).<br>2. D is 2nd to the left of V (so V is 2nd to the right of D).<br>3. F is 2nd to the right of U.<br>4. E is 2nd to the right of F.<br>5. Sequence clockwise: V _ U _ F _ E... wait, total 7 seats.<br>6. Placing them: V(1), U(3), F(5), E(7), D(6).<br>7. Two between E and W from left of E: E is 7, W is 4.<br>8. Remaining G is at pos 2.<br>9. Order (1 to 7 clockwise): V, G, U, W, F, D, E.<br>10. Between G(2) and F(5) from right of G: U, W. That's 2 people.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. मान लीजिए V नीचे है। U, V के दाएं से दूसरे स्थान पर है।<br>2. D, V के बाएं से दूसरे स्थान पर है।<br>3. F, U के दाएं से दूसरे स्थान पर है।<br>4. E, F के दाएं से दूसरे स्थान पर है।<br>5. कुल 7 सीटें: V(1), G(2), U(3), W(4), F(5), D(6), E(7)।<br>6. G(2) के दाईं ओर से G और F(5) के बीच: U और W हैं। यानी 2 लोग।<br><br><b>⚡ Quick Trick (EN):</b><br>Sketch a circle with 7 marks. For 'one person between', skip one seat.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>7 निशानों के साथ एक घेरा बनाएं। 'बीच में एक व्यक्ति' के लिए, एक सीट छोड़ दें।<br><br><b>🎯 Memory Hook (EN):</b><br>Facing center: Clockwise = Left, Anti-clockwise = Right.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>केंद्र की ओर मुख: घड़ी की दिशा = बायां, घड़ी की विपरीत दिशा = दायां।<br><br><b>🚫 Trap Alert (EN):</b><br>Don't confuse '2nd to the right' with 'between 2 people'.<br><br><b>🚫 सावधानी (HI):</b><br>'दाएं से दूसरे' और '2 लोगों के बीच' के बीच भ्रमित न हों।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Ranking | रैंकिंग",
+        "level": "Easy | आसान",
+        "q_en": "Surbhi ranked 9th from the top and 28th from the bottom in her class. How many students are there in the class?",
+        "q_hi": "सुरभि अपनी कक्षा में ऊपर से 9वें और नीचे से 28वें स्थान पर है। कक्षा में कुल कितने छात्र हैं?",
+        "op_en": [
+            "24",
+            "37",
+            "26",
+            "36"
+        ],
+        "op_hi": [
+            "24",
+            "37",
+            "26",
+            "36"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept (EN):</b><br>Basic Ranking Formula<br><br><b>📌 संकल्पना (HI):</b><br>बेसिक रैंकिंग सूत्र<br><br><b>🔍 Pattern Analysis (EN):</b><br>Total = (Rank from Top + Rank from Bottom) - 1.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>कुल = (ऊपर से रैंक + नीचे से रैंक) - 1।<br><br><b>🧠 Step Logic (EN):</b><br>1. Rank from top = 9.<br>2. Rank from bottom = 28.<br>3. Total students = (9 + 28) - 1 = 37 - 1 = 36.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. ऊपर से रैंक = 9।<br>2. नीचे से रैंक = 28।<br>3. कुल छात्र = (9 + 28) - 1 = 37 - 1 = 36।<br><br><b>⚡ Quick Trick (EN):</b><br>Sum the ranks and subtract 1 because the person is counted twice.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>रैंकों को जोड़ें और 1 घटाएं क्योंकि व्यक्ति को दो बार गिना गया है।<br><br><b>🎯 Memory Hook (EN):</b><br>T + B - 1 = Total.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>ऊपर + नीचे - 1 = कुल।<br><br><b>🚫 Trap Alert (EN):</b><br>Common mistake: Forgetting to subtract 1 and choosing 37.<br><br><b>🚫 सावधानी (HI):</b><br>सामान्य गलती: 1 घटाना भूल जाना और 37 चुनना।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series | अक्षर श्रृंखला",
+        "level": "Easy | आसान",
+        "q_en": "Refer to the following letter, number and symbol series and answer the question that follows. All numbers are single-digit numbers only. Counting to be done from left to right only.<br><br>(Left)  B  7  @  F  B  #  X  $  &amp;  6  * G  T  %  8  F  C  F  T  =  T  F  X  M   (Right)<br><br>How many such symbols are there, each of which is immediately preceded by a number and also immediately followed by a letter?<span style=\"color: white;\">8950</span>",
+        "q_hi": "निम्नलिखित अक्षर, संख्या और प्रतीक श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। सभी संख्याएं केवल एकल-अंकीय संख्याएं हैं। गणना केवल बाएं से दाएं की जानी है।<br><br>(बाएं) B 7 @ F B # X $ & 6 * G T % 8 F C F T = T F X M (दाएं)<br><br>ऐसे कितने प्रतीक हैं, जिनमें से प्रत्येक के ठीक पहले एक संख्या है और ठीक बाद में भी एक अक्षर है?",
+        "op_en": [
+            "None",
+            "Two",
+            "Three",
+            "One"
+        ],
+        "op_hi": [
+            "कोई नहीं",
+            "दो",
+            "तीन",
+            "एक"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept (EN):</b><br>Series Conditional Tracking (N-S-L)<br><br><b>📌 संकल्पना (HI):</b><br>श्रृंखला शर्त ट्रैकिंग (N-S-L)<br><br><b>🔍 Pattern Analysis (EN):</b><br>Required pattern: Number - Symbol - Letter.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>आवश्यक पैटर्न: संख्या - प्रतीक - अक्षर।<br><br><b>🧠 Step Logic (EN):</b><br>1. Symbols in series: @, #, $, &, *, %, =.<br>2. Check condition (Number before, Letter after):<br>   - 7 @ F (Number - Symbol - Letter) -> Found 1.<br>   - 6 * G (Number - Symbol - Letter) -> Found 2.<br>   - 8 F (Wait, % is after 8, but F is after %). Let's check 8 % F? No, it's % 8 F. Pattern is Letter-Symbol-Number-Letter.<br>3. Checking others: B # X (Letter-Symbol-Letter), X $ & (Letter-Symbol-Symbol).<br>4. Total = 2.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. श्रृंखला में प्रतीक: @, #, $, &, *, %, =।<br>2. शर्त की जाँच करें (पहले संख्या, बाद में अक्षर):<br>   - 7 @ F (संख्या - प्रतीक - अक्षर) -> 1 मिला।<br>   - 6 * G (संख्या - प्रतीक - अक्षर) -> 2 मिला।<br>3. अन्य की जाँच: B # X (अक्षर-प्रतीक-अक्षर), X $ & (अक्षर-प्रतीक-प्रतीक)।<br>4. कुल = 2।<br><br><b>⚡ Quick Trick (EN):</b><br>Scan only for symbols and check their neighbors.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>केवल प्रतीकों को स्कैन करें और उनके पड़ोसियों की जांच करें।<br><br><b>🎯 Memory Hook (EN):</b><br>Num-Sym-Let.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>संख्या-प्रतीक-अक्षर।<br><br><b>🚫 Trap Alert (EN):</b><br>Don't confuse digits and letters (e.g., 'B' and '8').<br><br><b>🚫 सावधानी (HI):</b><br>अंकों और अक्षरों (जैसे 'B' और '8') के बीच भ्रमित न हों।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series | अक्षर श्रृंखला",
+        "level": "Easy | आसान",
+        "q_en": "Refer to the following letter, number, symbol series and answer the question that follows. All numbers are single digit numbers only. Counting to be done from left to right only. <br><br>(Left)  L  =  T  \\  A  M  8  V  G  &amp;  9  %  7  ^  7  R  3  P  9  W  \\  S  J  4   (Right)<br><br>How many such letters are there, each of which is immediately preceded by a number and also immediately followed by a symbol?",
+        "q_hi": "निम्नलिखित अक्षर, संख्या, प्रतीक श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। सभी संख्याएं केवल एकल अंक वाली संख्याएं हैं। गणना केवल बाएं से दाएं की जानी है। <br><br>(बाएं) L = T \\ A M 8 V G & 9 % 7 ^ 7 R 3 P 9 W \\ S J 4 (दाएं)<br><br>ऐसे कितने अक्षर हैं, जिनमें से प्रत्येक के ठीक पहले एक संख्या है और ठीक बाद में भी एक प्रतीक है?",
+        "op_en": [
+            "Two",
+            "None",
+            "More than three",
+            "One"
+        ],
+        "op_hi": [
+            "दो",
+            "कोई नहीं",
+            "तीन से अधिक",
+            "एक"
+        ],
+        "ans": "4",
+        "solution": "<b>📌 Concept (EN):</b><br>Series Conditional Tracking (N-L-S)<br><br><b>📌 संकल्पना (HI):</b><br>श्रृंखला शर्त ट्रैकिंग (N-L-S)<br><br><b>🔍 Pattern Analysis (EN):</b><br>Required pattern: Number - Letter - Symbol.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>आवश्यक पैटर्न: संख्या - अक्षर - प्रतीक।<br><br><b>🧠 Step Logic (EN):</b><br>1. Locate Letters: L, T, A, M, V, G, R, P, W, S, J.<br>2. Check for Number before and Symbol after:<br>   - 9 W \\ (Number - Letter - Symbol) -> Found 1.<br>3. Check other positions carefully.<br>   - 8 V G (No symbol after V)<br>   - 7 R 3 (No symbol after R)<br>   - 3 P 9 (No symbol after P)<br>4. Result: One.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. अक्षर खोजें: L, T, A, M, V, G, R, P, W, S, J।<br>2. पहले संख्या और बाद में प्रतीक की जाँच करें:<br>   - 9 W \\ (संख्या - अक्षर - प्रतीक) -> 1 मिला।<br>3. अन्य स्थितियों की सावधानीपूर्वक जांच करें।<br>4. परिणाम: एक (One)।<br><br><b>⚡ Quick Trick (EN):</b><br>Focus on digits, check if the next character is a letter, then check for a symbol.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>अंकों पर ध्यान दें, जांचें कि क्या अगला वर्ण एक अक्षर है, फिर एक प्रतीक की जांच करें।<br><br><b>🎯 Memory Hook (EN):</b><br>N-L-S.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>N-L-S।<br><br><b>🚫 Trap Alert (EN):</b><br>Symbols like '\\' and '^' are often missed; look closely.<br><br><b>🚫 सावधानी (HI):</b><br>'\\' और '^' जैसे प्रतीकों को अक्सर छोड़ दिया जाता है; बारीकी से देखें।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Symbol-Number Series | प्रतीक-संख्या श्रृंखला",
+        "level": "Easy | आसान",
+        "q_en": "Refer to the following number and symbol series and answer the question that follows. Counting to be done from left to right only. All numbers are single-digit numbers only.<br><br>(Left) ? 5 # > @ 5 + 5 5 9 2 % 7 4 8 $ 7 < $ & > (Right)<br><br>How many such symbols are there, each of which is immediately preceded by a number and also immediately followed by a number?<span style=\"color: white;\">8936</span>",
+        "q_hi": "निम्नलिखित संख्या और प्रतीक श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गणना केवल बाएं से दाएं की जानी है। सभी संख्याएं केवल एकल-अंकीय संख्याएं हैं।<br><br>(बाएं) ? 5 # > @ 5 + 5 5 9 2 % 7 4 8 $ 7 < $ & > (दाएं)<br><br>ऐसे कितने प्रतीक हैं, जिनमें से प्रत्येक के ठीक पहले एक संख्या है और ठीक बाद में भी एक संख्या है?",
+        "op_en": [
+            "Three",
+            "None",
+            "Two",
+            "One"
+        ],
+        "op_hi": [
+            "तीन",
+            "कोई नहीं",
+            "दो",
+            "एक"
+        ],
+        "ans": "1",
+        "solution": "<b>📌 Concept (EN):</b><br>Series Tracking (N-S-N)<br><br><b>📌 संकल्पना (HI):</b><br>श्रृंखला ट्रैकिंग (N-S-N)<br><br><b>🔍 Pattern Analysis (EN):</b><br>Required pattern: Number - Symbol - Number.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>आवश्यक पैटर्न: संख्या - प्रतीक - संख्या।<br><br><b>🧠 Step Logic (EN):</b><br>1. Locate symbols: ?, #, >, @, +, %, $, <, $, &, >.<br>2. Check for numbers on both sides:<br>   - 5 + 5 (Number - Symbol - Number) -> Found 1.<br>3. Check others: 5 # > (No), 2 % 7 (Number - Symbol - Number) -> Found 2.<br>4. Re-scanning: 5 + 5 is one. 2 % 7 is two.<br>Wait, let's re-scan precisely.<br>Pattern 1: 5 + 5.<br>Pattern 2: 2 % 7.<br>Total = 2.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. प्रतीक खोजें: ?, #, >, @, +, %, $, <, $, &, >।<br>2. दोनों तरफ संख्याओं की जाँच करें:<br>   - 5 + 5 (संख्या - प्रतीक - संख्या) -> 1 मिला।<br>   - 2 % 7 (संख्या - प्रतीक - संख्या) -> 2 मिला।<br>3. कुल = 2।<br><br><b>⚡ Quick Trick (EN):</b><br>Scan for symbols, if both neighbors are digits, count it.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>प्रतीकों को स्कैन करें, यदि दोनों पड़ोसी अंक हैं, तो इसे गिनें।<br><br><b>🎯 Memory Hook (EN):</b><br>Digit - Symbol - Digit.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>अंक - प्रतीक - अंक।<br><br><b>🚫 Trap Alert (EN):</b><br>Characters like '?' or '>' are also symbols.<br><br><b>🚫 सावधानी (HI):</b><br>'?' या '>' जैसे वर्ण भी प्रतीक हैं।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding-Decoding | कोडिंग-डिकोडिंग",
+        "level": "Easy | आसान",
+        "q_en": "In a certain code language, ‘ROAD’ is coded as ‘1864’ and ‘DRAW’ is coded as ‘1748’. What is the code for ‘W’ in that language?",
+        "q_hi": "एक निश्चित कूट भाषा में, ‘ROAD’ को ‘1864’ और ‘DRAW’ को ‘1748’ के रूप में कूटबद्ध किया गया है। उस भाषा में ‘W’ के लिए कूट क्या है?",
+        "op_en": [
+            "8",
+            "4",
+            "7",
+            "1"
+        ],
+        "op_hi": [
+            "8",
+            "4",
+            "7",
+            "1"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept (EN):</b><br>Common Term Comparison<br><br><b>📌 संकल्पना (HI):</b><br>समान पद तुलना<br><br><b>🔍 Pattern Analysis (EN):</b><br>Compare the two words to isolate the code for the unique letter.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>अद्वितीय अक्षर के कूट को अलग करने के लिए दो शब्दों की तुलना करें।<br><br><b>🧠 Step Logic (EN):</b><br>1. ROAD = {1, 8, 6, 4}.<br>2. DRAW = {1, 7, 4, 8}.<br>3. Common letters: R, A, D. Common digits: 1, 4, 8.<br>4. Unique letter in DRAW is 'W'. Unique digit in DRAW's code is '7'.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. ROAD = {1, 8, 6, 4}।<br>2. DRAW = {1, 7, 4, 8}।<br>3. सामान्य अक्षर: R, A, D। सामान्य अंक: 1, 4, 8।<br>4. DRAW में अद्वितीय अक्षर 'W' है। DRAW के कूट में अद्वितीय अंक '7' है।<br><br><b>⚡ Quick Trick (EN):</b><br>The digit '7' is not in ROAD, and 'W' is not in ROAD. They must match.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>अंक '7', ROAD में नहीं है, और 'W', ROAD में नहीं है। उनका मिलान होना चाहिए।<br><br><b>🎯 Memory Hook (EN):</b><br>Cancel out the common, find the unique.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>सामान्य को काटें, अद्वितीय को खोजें।<br><br><b>🚫 Trap Alert (EN):</b><br>Don't assume R=1 just because it's first; check the other word too.<br><br><b>🚫 सावधानी (HI):</b><br>सिर्फ इसलिए कि R पहले है, R=1 न मानें; दूसरे शब्द की भी जांच करें।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Box Puzzle | बॉक्स पहेली",
+        "level": "Moderate | मध्यम",
+        "q_en": "Six boxes A, B, C, D, E and F are kept one over the other but not necessarily in the same order. E is kept immediately between C and F. C is kept immediately above box B. There are exactly two boxes kept between A and E. Box E is kept somewhere below box A. Which box is kept immediately above F?",
+        "q_hi": "छह बॉक्स A, B, C, D, E और F एक के ऊपर एक रखे गए हैं लेकिन जरूरी नहीं कि इसी क्रम में हों। E को C और F के ठीक बीच में रखा गया है। C को बॉक्स B के ठीक ऊपर रखा गया है। A और E के बीच ठीक दो बॉक्स रखे गए हैं। बॉक्स E को बॉक्स A के नीचे कहीं रखा गया है। F के ठीक ऊपर कौन सा बॉक्स रखा गया है?",
+        "op_en": [
+            "E",
+            "B",
+            "D",
+            "A"
+        ],
+        "op_hi": [
+            "E",
+            "B",
+            "D",
+            "A"
+        ],
+        "ans": "3",
+        "solution": "<b>📌 Concept (EN):</b><br>Vertical Sequencing Puzzle<br><br><b>📌 संकल्पना (HI):</b><br>लंबवत अनुक्रमण पहेली<br><br><b>🔍 Pattern Analysis (EN):</b><br>1. Use relative positions (immediately between/above).<br>2. Fixed gap constraints (2 boxes between A and E).<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>1. सापेक्ष स्थितियों (ठीक बीच/ऊपर) का उपयोग करें।<br>2. निश्चित अंतराल बाधाएं (A और E के बीच 2 बॉक्स)।<br><br><b>🧠 Step Logic (EN):</b><br>1. 'E between C and F' means the block is CEF or FEC.<br>2. 'C immediately above B' means CB is a pair.<br>3. Combining these: FECB is a likely block (if F-E-C-B) or E is between C and F and C is above B.<br>4. 'Exactly two between A and E' and 'E below A': A _ _ E.<br>5. Let's arrange: A (pos 6), X (pos 5), Y (pos 4), E (pos 3).<br>6. Since E is between C and F, and C is above B: Pos 4 must be C or F. If Pos 4 is C, Pos 3 is E, Pos 2 is F. But C is above B, so Pos 3 would be B. This contradicts E at 3.<br>7. Let's try: A(6), D(5), F(4), E(3), C(2), B(1).<br>8. Check: E is between F and C (Yes). C above B (Yes). 2 between A and E (Yes).<br>9. The box above F is D.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. 'E, C और F के बीच' का अर्थ है ब्लॉक CEF या FEC है।<br>2. 'C, B के ठीक ऊपर' का अर्थ है CB एक जोड़ा है।<br>3. 'A और E के बीच ठीक दो' और 'E, A के नीचे': A _ _ E।<br>4. व्यवस्था: A(6), D(5), F(4), E(3), C(2), B(1)।<br>5. जाँच करें: E, F और C के बीच है (हाँ)। C, B के ऊपर है (हाँ)। A और E के बीच 2 हैं (हाँ)।<br>6. F के ऊपर वाला बॉक्स D है।<br><br><b>⚡ Quick Trick (EN):</b><br>Start with the A...E gap as it fixes the frame for 4 out of 6 boxes.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>A...E अंतराल के साथ शुरू करें क्योंकि यह 6 में से 4 बॉक्स के फ्रेम को स्थिर करता है।<br><br><b>🎯 Memory Hook (EN):</b><br>Immediately between = Neighbor on both sides.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>ठीक बीच में = दोनों तरफ पड़ोसी।<br><br><b>🚫 Trap Alert (EN):</b><br>Ensure all conditions (especially C above B) are met in the final order.<br><br><b>🚫 सावधानी (HI):</b><br>सुनिश्चित करें कि अंतिम क्रम में सभी शर्तें (विशेष रूप से C, B के ऊपर) पूरी होती हैं।"
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Letter Series | अक्षर श्रृंखला",
+        "level": "Easy | आसान",
+        "q_en": "Refer to the following letter series and answer the question that follows. Counting to be done from left to right only. <br><br>(Left) P E Q E V K C N U X U B K R I T Z W J (Right)<br><br>How many such consonants are there, each of which is immediately preceded by a consonant and also immediately followed by a vowel?<span style=\"color: white;\">8098</span>",
+        "q_hi": "निम्नलिखित अक्षर श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गणना केवल बाएं से दाएं की जानी है। <br><br>(बाएं) P E Q E V K C N U X U B K R I T Z W J (दाएं)<br><br>ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन है और ठीक बाद में भी एक स्वर है?",
+        "op_en": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "op_hi": [
+            "एक",
+            "दो",
+            "तीन",
+            "चार"
+        ],
+        "ans": "2",
+        "solution": "<b>📌 Concept (EN):</b><br>Series Condition Tracking (C-C-V)<br><br><b>📌 संकल्पना (HI):</b><br>श्रृंखला शर्त ट्रैकिंग (व्यंजन-व्यंजन-स्वर)<br><br><b>🔍 Pattern Analysis (EN):</b><br>Required pattern: Consonant - Consonant - Vowel.<br><br><b>🔍 पैटर्न विश्लेषण (HI):</b><br>आवश्यक पैटर्न: व्यंजन - व्यंजन - स्वर।<br><br><b>🧠 Step Logic (EN):</b><br>1. Vowels: E, E, U, U, I.<br>2. Look for two consonants before these vowels:<br>   - Q E (No, only one C)<br>   - V K C N U (C-C-C-C-V? No, looking for exactly C-C-V). Look at N U: preceded by C (C). So C N U is (Consonant-Consonant-Vowel) -> Found 1.<br>   - X U: preceded by U (Vowel). No.<br>   - R I: preceded by K (Consonant). So K R I is (Consonant-Consonant-Vowel) -> Found 2.<br>3. Total count = 2.<br><br><b>🧠 चरणबद्ध तर्क (HI):</b><br>1. स्वर: E, E, U, U, I।<br>2. इन स्वरों से पहले दो व्यंजनों की तलाश करें:<br>   - C N U (व्यंजन-व्यंजन-स्वर) -> 1 मिला।<br>   - K R I (व्यंजन-व्यंजन-स्वर) -> 2 मिला।<br>3. कुल गणना = 2।<br><br><b>⚡ Quick Trick (EN):</b><br>Identify vowels first, then check the two letters to their left.<br><br><b>⚡ त्वरित ट्रिक (HI):</b><br>पहले स्वरों की पहचान करें, फिर उनके बाईं ओर के दो अक्षरों की जाँच करें।<br><br><b>🎯 Memory Hook (EN):</b><br>Pattern: C-C-V.<br><br><b>🎯 याद रखने का तरीका (HI):</b><br>पैटर्न: C-C-V।<br><br><b>🚫 Trap Alert (EN):</b><br>Don't count the same letter in two different patterns; scan carefully.<br><br><b>🚫 सावधानी (HI):</b><br>दो अलग-अलग पैटर्न में एक ही अक्षर को न गिनें; सावधानी से स्कैन करें।"
+    }
+]
