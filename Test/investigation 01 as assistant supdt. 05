@@ -1991,8 +1991,8 @@
             "64",
             "54"
         ],
-        "ans": "3",
-        "solution": ""
+         "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>Let the number be n.<br>According to the question:<br>n<sup>2</sup> - 35<sup>2</sup> = 144<br>We know that 35<sup>2</sup> = 1225<br>n<sup>2</sup> - 1225 = 144<br>n<sup>2</sup> = 1225 + 144<br>n<sup>2</sup> = 1369<br>n = &radic;1369<br>n = 37<br><br>Now, we need to find the value of 2n - 10:<br>= 2 &times; 37 - 10<br>= 74 - 10<br>= 64<br><br><b>Solution (HI):</b><br>माना संख्या n है।<br>प्रश्नानुसार:<br>n<sup>2</sup> - 35<sup>2</sup> = 144<br>हम जानते हैं कि 35<sup>2</sup> = 1225<br>n<sup>2</sup> - 1225 = 144<br>n<sup>2</sup> = 1225 + 144<br>n<sup>2</sup> = 1369<br>n = &radic;1369<br>n = 37<br><br>अब, हमें 2n - 10 का मान ज्ञात करना है:<br>= 2 &times; 37 - 10<br>= 74 - 10<br>= 64<br><br><b>Short Trick:</b><br>35<sup>2</sup> = 1225.<br>Adding 144 to it gives 1369.<br>Since 1369 ends in 9 and is between 35<sup>2</sup> (1225) and 40<sup>2</sup> (1600), the number must be 37.<br>Required value = 2 &times; 37 - 10 = 74 - 10 = 64."
     },
     {
         "section": "Arithmetical and Numerical Ability",
@@ -2013,7 +2013,7 @@
             "132"
         ],
         "ans": "1",
-        "solution": ""
+        "solution": "<b>Solution (EN):</b><br>1. Find the total number of bats sold by stores A and C together in 2019:<br>Bats sold by Store A in 2019 = 215<br>Bats sold by Store C in 2019 = 314<br>Total (A + C) in 2019 = 215 + 314 = 529<br><br>2. Find the total number of bats sold by stores B and E together in 2023:<br>Bats sold by Store B in 2023 = 201<br>Bats sold by Store E in 2023 = 215<br>Total (B + E) in 2023 = 201 + 215 = 416<br><br>3. Calculate the required difference:<br>Difference = 529 - 416 = 113<br><br><b>Solution (HI):</b><br>1. 2019 में स्टोर A और C द्वारा मिलकर बेचे गए बल्लों की कुल संख्या ज्ञात कीजिए:<br>2019 में स्टोर A द्वारा बेचे गए बल्ले = 215<br>2019 में स्टोर C द्वारा बेचे गए बल्ले = 314<br>2019 में कुल (A + C) = 215 + 314 = 529<br><br>2. 2023 में स्टोर B और E द्वारा मिलकर बेचे गए बल्लों की कुल संख्या ज्ञात कीजिए:<br>2023 में स्टोर B द्वारा बेचे गए बल्ले = 201<br>2023 में स्टोर E द्वारा बेचे गए बल्ले = 215<br>2023 में कुल (B + E) = 201 + 215 = 416<br><br>3. अभीष्ट अंतर की गणना कीजिए:<br>अंतर = 529 - 416 = 113<br><br><b>Direct Calculation:</b><br>(215 + 314) - (201 + 215) = 529 - 416 = 113."
     },
     {
         "section": "Arithmetical and Numerical Ability",
@@ -2034,7 +2034,7 @@
             "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAxCAIAAABCqI4WAAAA8ElEQVR42u2X2xXDIAhAmYuBnMdpWIZhUp9JYzAaa3vSFj71eEXewvI2AUXfEs1kEAzNRTNZRw0yFc0WjSVeFjKz0asoWtE/i0bLE9HssjyleRJEbGuv9VrR/4CG10Rt/dVoP6vQNXQYm/DQAULlLuQK2mniKnMcnISm0OwJcMY1xPV+M4hudcFhdLTE2clRdCLTNvh6i/MBjdXtKjq5H7P/OC4828fdjllrF0QodnqQlZaCrW4B6UgvumV98WroCo8udFtrQe1ixYN2HPlmqL8vJwyXbspu5e1fJmUBNL9cIcz2ablWlrwtmkpbwefQD8BcsQQmAj07AAAAAElFTkSuQmCC\" style=\"height: auto; max-width: 100%;\">"
         ],
         "ans": "2",
-        "solution": ""
+        "solution": "<b>Solution (EN):</b><br>Let's simplify the expression term by term:<br><br><b>1. First Term:</b><br>(729/64)<sup>-3/2</sup> = (64/729)<sup>3/2</sup><br>Since 64 = 8<sup>2</sup> and 729 = 27<sup>2</sup>:<br>= [(8/27)<sup>2</sup>]<sup>3/2</sup> = (8/27)<sup>3</sup> = 8<sup>3</sup> / 27<sup>3</sup><br>= (2<sup>3</sup>)<sup>3</sup> / (3<sup>3</sup>)<sup>3</sup> = 2<sup>9</sup> / 3<sup>9</sup><br><br><b>2. Second Term:</b><br>(3/8)<sup>4</sup> = 3<sup>4</sup> / 8<sup>4</sup> = 3<sup>4</sup> / (2<sup>3</sup>)<sup>4</sup> = 3<sup>4</sup> / 2<sup>12</sup><br><br><b>Multiplying First and Second Term:</b><br>(2<sup>9</sup> / 3<sup>9</sup>) &times; (3<sup>4</sup> / 2<sup>12</sup>) = 1 / (2<sup>3</sup> &times; 3<sup>5</sup>)<br><br><b>3. Third Term:</b><br><sup>4</sup>&radic;(81)<sup>-3</sup> = (81<sup>-3</sup>)<sup>1/4</sup> = 81<sup>-3/4</sup><br>Since 81 = 3<sup>4</sup>:<br>= (3<sup>4</sup>)<sup>-3/4</sup> = 3<sup>-3</sup> = 1 / 3<sup>3</sup><br><br><b>Now, performing the division:</b><br>[1 / (2<sup>3</sup> &times; 3<sup>5</sup>)] &divide; [1 / 3<sup>3</sup>]<br>= [1 / (2<sup>3</sup> &times; 3<sup>5</sup>)] &times; 3<sup>3</sup><br>= 1 / (2<sup>3</sup> &times; 3<sup>2</sup>)<br>= 1 / (8 &times; 9)<br>= 1 / 72<br><br><b>Solution (HI):</b><br>व्यंजक को पद दर पद सरल करते हैं:<br><br><b>1. पहला पद:</b><br>(729/64)<sup>-3/2</sup> = (64/729)<sup>3/2</sup><br>चूंकि 64 = 8<sup>2</sup> और 729 = 27<sup>2</sup>:<br>= [(8/27)<sup>2</sup>]<sup>3/2</sup> = (8/27)<sup>3</sup> = 8<sup>3</sup> / 27<sup>3</sup><br>= (2<sup>3</sup>)<sup>3</sup> / (3<sup>3</sup>)<sup>3</sup> = 2<sup>9</sup> / 3<sup>9</sup><br><br><b>2. दूसरा पद:</b><br>(3/8)<sup>4</sup> = 3<sup>4</sup> / 8<sup>4</sup> = 3<sup>4</sup> / (2<sup>3</sup>)<sup>4</sup> = 3<sup>4</sup> / 2<sup>12</sup><br><br><b>पहले और दूसरे पद का गुणन:</b><br>(2<sup>9</sup> / 3<sup>9</sup>) &times; (3<sup>4</sup> / 2<sup>12</sup>) = 1 / (2<sup>3</sup> &times; 3<sup>5</sup>)<br><br><b>3. तीसरा पद:</b><br><sup>4</sup>&radic;(81)<sup>-3</sup> = (81<sup>-3</sup>)<sup>1/4</sup> = 81<sup>-3/4</sup><br>चूंकि 81 = 3<sup>4</sup>:<br>= (3<sup>4</sup>)<sup>-3/4</sup> = 3<sup>-3</sup> = 1 / 3<sup>3</sup><br><br><b>अब, भाग करने पर:</b><br>[1 / (2<sup>3</sup> &times; 3<sup>5</sup>)] &divide; [1 / 3<sup>3</sup>]<br>= [1 / (2<sup>3</sup> &times; 3<sup>5</sup>)] &times; 3<sup>3</sup><br>= 1 / (2<sup>3</sup> &times; 3<sup>2</sup>)<br>= 1 / (8 &times; 9)<br>= 1 / 72"
     },
     {
         "section": "Arithmetical and Numerical Ability",
@@ -2055,7 +2055,7 @@
             "0"
         ],
         "ans": "1",
-        "solution": ""
+        "solution": "<b>Solution (EN):</b><br>Let the original number be x.<br>Given increase percentage = 247<sup>1</sup>/<sub>2</sub>% = 495/2 %<br><br>According to the question, the total increment is 990:<br>x &times; (495 / (2 &times; 100)) = 990<br>x &times; (99 / 40) = 990<br>x = 990 &times; (40 / 99)<br>x = 10 &times; 40 = 400<br><br>The original number is 400.<br>Therefore, the number of zeros at the end of the original number is 2.<br><br><b>Solution (HI):</b><br>माना मूल संख्या x है।<br>दी गई वृद्धि प्रतिशत = 247<sup>1</sup>/<sub>2</sub>% = 495/2 %<br><br>प्रश्नानुसार, कुल वृद्धि 990 है:<br>x &times; (495 / (2 &times; 100)) = 990<br>x &times; (99 / 40) = 990<br>x = 990 &times; (40 / 99)<br>x = 10 &times; 40 = 400<br><br>मूल संख्या 400 है।<br>अतः मूल संख्या के अंत में शून्यों की संख्या 2 है।<br><br><b>Fraction Method:</b><br>247<sup>1</sup>/<sub>2</sub>% = 200% + 47.5% = 2 + 19/40 = 99/40<br>Here, the numerator (99 units) represents the increment, and the denominator (40 units) represents the original number.<br>99 units = 990 &rArr; 1 unit = 10<br>Original number = 40 units = 40 &times; 10 = 400<br>Number of trailing zeros in 400 = 2."
     },
     {
         "section": "Arithmetical and Numerical Ability",
@@ -2076,7 +2076,7 @@
             "16 : 9"
         ],
         "ans": "4",
-        "solution": ""
+        "solution": "<b>Solution (EN):</b><br>1. Find the total number of persons who purchased products A and B together in 2001:<br>Persons who purchased Product A in 2001 = 250<br>Persons who purchased Product B in 2001 = 150<br>Total (A + B) in 2001 = 250 + 150 = 400<br><br>2. Find the number of persons who purchased product C in 2002:<br>Persons who purchased Product C in 2002 = 225<br><br>3. Calculate the required ratio:<br>Ratio = 400 : 225<br>Dividing both sides by 25:<br>Ratio = 16 : 9<br><br><b>Solution (HI):</b><br>1. 2001 में उत्पाद A और B को मिलाकर खरीदने वाले व्यक्तियों की कुल संख्या ज्ञात कीजिए:<br>2001 में उत्पाद A खरीदने वाले व्यक्ति = 250<br>2001 में उत्पाद B खरीदने वाले व्यक्ति = 150<br>2001 में कुल (A + B) = 250 + 150 = 400<br><br>2. 2002 में उत्पाद C खरीदने वाले व्यक्तियों की संख्या ज्ञात कीजिए:<br>2002 में उत्पाद C खरीदने वाले व्यक्ति = 225<br><br>3. अभीष्ट अनुपात की गणना कीजिए:<br>अनुपात = 400 : 225<br>दोनों पक्षों को 25 से भाग देने पर:<br>अनुपात = 16 : 9"
     },
     {
         "section": "Arithmetical and Numerical Ability",
@@ -2097,7 +2097,7 @@
             "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAxCAIAAACtauUoAAAA+klEQVR42u2XgRHDIAhFmYuBmMdpXMZhWqvmGguJFuGuvZMBHvrz+RJ4eBZs+p/RUwyECK2QQjKjp/DiUkytEZUOrMEC/Qw7uvno7kovcC7MOj1l0fHioy7RqxyHZWLy8Xv2ZmnDZDebpuJJprwVXTYN6I/aoUzPXofzPauy3dXK9Cmz4MgsKT+VNiPrpfuypaN4z013pyPhvde09GxAPM7exkR9FVAECNzWd9MkJ4jVxlHoynGCUfhdPZlqereo4EIQcGU+Vqx5Q0php36bpsJuiT78HJvuQx+FnZo+FXY/uS1Nhp0t3WvTk8POaNMjz00PHf499p+8vp4J6E+6lgSuJgAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\">"
         ],
         "ans": "4",
-        "solution": ""
+        "solution": "<b>Solution (EN):</b><br>Let's solve the expression step by step using BODMAS rules:<br><br><b>Step 1: Simplify the bracket in the denominator</b><br>(6/7) + (2/4)<br>Simplify 2/4 to 1/2:<br>= (6/7) + (1/2)<br>Take the LCM of 7 and 2, which is 14:<br>= (12 + 7) / 14 = 19/14<br><br><b>Step 2: Substitute back into the term</b><br>1 / (19/14) = 14/19<br><br><b>Step 3: Perform the division operation</b><br>(14/19) &divide; (5/38)<br>Change division to multiplication by taking the reciprocal of the second fraction:<br>= (14/19) &times; (38/5)<br>= 14 &times; (38 / 19) / 5<br>= (14 &times; 2) / 5<br>= 28/5<br><br><b>Step 4: Convert to a mixed fraction</b><br>28/5 = 5<sup>3</sup>/<sub>5</sub><br><br><b>Solution (HI):</b><br>BODMAS नियम का उपयोग करके व्यंजक को पद दर पद हल करते हैं:<br><br><b>चरण 1: हर (denominator) के कोष्ठक को सरल करें</b><br>(6/7) + (2/4)<br>2/4 को सरल करके 1/2 लिखें:<br>= (6/7) + (1/2)<br>7 और 2 का लघुत्तम समापवर्त्य (LCM) लें, जो कि 14 है:<br>= (12 + 7) / 14 = 19/14<br><br><b>चरण 2: मान वापस रखें</b><br>1 / (19/14) = 14/19<br><br><b>चरण 3: भाग की संक्रिया करें</b><br>(14/19) &divide; (5/38)<br>दूसरी भिन्न का व्युत्क्रम (reciprocal) लेकर भाग को गुणा में बदलें:<br>= (14/19) &times; (38/5)<br>= 14 &times; (38 / 19) / 5<br>= (14 &times; 2) / 5<br>= 28/5<br><br><b>चरण 4: मिश्रित भिन्न में बदलें</b><br>28/5 = 5<sup>3</sup>/<sub>5</sub>"
     },
     {
         "section": "Arithmetical and Numerical Ability1",
