@@ -1,0 +1,422 @@
+[
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Analogy",
+        "difficulty": "Moderate",
+        "q_en": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y so that the pattern followed by the two numbers on the left side of :: is same as that on the right side of ::?<br><br>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)<br><br>X : 272 :: 24 : Y",
+        "q_hi": "निम्नलिखित संख्या-युग्मों में, दूसरी संख्या पहली संख्या पर कुछ गणितीय संक्रियाएं लागू करके प्राप्त की जाती है। X और Y के स्थान पर कौन सी संख्याएँ आनी चाहिए ताकि :: के बाईं ओर की दो संख्याओं द्वारा अनुसरण किया जाने वाला पैटर्न :: के दाईं ओर के पैटर्न के समान हो?<br><br>(नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना, पूर्ण संख्याओं पर संक्रियाएँ की जानी चाहिए। उदा. 13 - 13 पर संक्रियाएं जैसे 13 में जोड़ना/घटाना/गुणा करना किया जा सकता है। 13 को 1 और 3 में तोड़कर 1 और 3 पर गणितीय संक्रियाएं करने की अनुमति नहीं है।)<br><br>X : 272 :: 24 : Y",
+        "op_en": [
+            "X = 17, Y = 552",
+            "X = 11, Y = 415",
+            "X = 8, Y = 370",
+            "X = 19, Y = 575"
+        ],
+        "op_hi": [
+            "X = 17, Y = 552",
+            "X = 11, Y = 415",
+            "X = 8, Y = 370",
+            "X = 19, Y = 575"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>The pattern followed here is n : n<sup>2</sup> &minus; n<br>For X : 272 &rarr; 17 : 17<sup>2</sup> &minus; 17 = 289 &minus; 17 = 272. So, X = 17.<br>For 24 : Y &rarr; 24 : 24<sup>2</sup> &minus; 24 = 576 &minus; 24 = 552. So, Y = 552.<br>Therefore, X = 17, Y = 552.<br><br><b>Solution (HI):</b><br>यहाँ अनुसरण किया गया पैटर्न n : n<sup>2</sup> &minus; n है।<br>X : 272 के लिए &rarr; 17 : 17<sup>2</sup> &minus; 17 = 289 &minus; 17 = 272. इसलिए, X = 17.<br>24 : Y के लिए &rarr; 24 : 24<sup>2</sup> &minus; 24 = 576 &minus; 24 = 552. इसलिए, Y = 552.<br>अतः, X = 17, Y = 552.<br><br><b>Short Trick:</b><br>Check the options: 17 &times; 16 = 272, and 24 &times; 23 = 552."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Letter Classification",
+        "difficulty": "Easy",
+        "q_en": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? <br>(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+        "q_hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। कौन सा अक्षर-समूह उस समूह से संबंधित नहीं है?<br>(नोट: बेजोड़ का चयन व्यंजनों/स्वरों की संख्या या अक्षर-समूह में उनके स्थान पर आधारित नहीं है।)",
+        "op_en": [
+            "HKQ",
+            "PSX",
+            "ILQ",
+            "BEJ"
+        ],
+        "op_hi": [
+            "HKQ",
+            "PSX",
+            "ILQ",
+            "BEJ"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>The pattern followed is:<br>P &rarr; (+3) &rarr; S &rarr; (+5) &rarr; X<br>I &rarr; (+3) &rarr; L &rarr; (+5) &rarr; Q<br>B &rarr; (+3) &rarr; E &rarr; (+5) &rarr; J<br>But in HKQ:<br>H &rarr; (+3) &rarr; K &rarr; (+6) &rarr; Q<br>So, HKQ is the odd one out.<br><br><b>Solution (HI):</b><br>अनुसरण किया गया पैटर्न है:<br>P &rarr; (+3) &rarr; S &rarr; (+5) &rarr; X<br>I &rarr; (+3) &rarr; L &rarr; (+5) &rarr; Q<br>B &rarr; (+3) &rarr; E &rarr; (+5) &rarr; J<br>लेकिन HKQ में:<br>H &rarr; (+3) &rarr; K &rarr; (+6) &rarr; Q<br>इसलिए, HKQ बेजोड़ है।<br><br><b>Short Trick:</b><br>Look at positional differences: P-S-X (16-19-24), I-L-Q (9-12-17), B-E-J (2-5-10) all have difference of 3 and 5. H-K-Q (8-11-17) has difference of 3 and 6."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Series",
+        "difficulty": "Easy",
+        "q_en": "What should come in place of the question mark (?) in the given series?<br><br>98  108  128  158  198 ?",
+        "q_hi": "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए?<br><br>98  108  128  158  198 ?",
+        "op_en": [
+            "238",
+            "248",
+            "228",
+            "258"
+        ],
+        "op_hi": [
+            "238",
+            "248",
+            "228",
+            "258"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>The pattern is:<br>98 + 10 = 108<br>108 + 20 = 128<br>128 + 30 = 158<br>158 + 40 = 198<br>198 + 50 = 248<br>So, the missing number is 248.<br><br><b>Solution (HI):</b><br>पैटर्न इस प्रकार है:<br>98 + 10 = 108<br>108 + 20 = 128<br>128 + 30 = 158<br>158 + 40 = 198<br>198 + 50 = 248<br>अतः, लुप्त संख्या 248 है।<br><br><b>Short Trick:</b><br>The difference between consecutive terms is increasing by 10 (+10, +20, +30, +40, +50). 198 + 50 = 248."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "difficulty": "",
+        "q_en": "Select the correct mirror image of the given figure when the mirror is placed at MN as shown below.<br><br><img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHUAAACcCAYAAABBT+T2AAAFm0lEQVR42u2dgU3kMBBFtwRKoARKoAQ6gA6gA+gAOoAOlg6gA+gAOqCEPf3VfTTyJfYkhzbx8r5kLXBxkvWzx2PnlL/ZoaPThiYAKgIqAioC6tr18PCwu7u7222320n1Pj4+9vVU9DNQV6TT09PdZrPZnZyc7L6+vtL1rq6u9vVUXl5egLpGqCoaddlR6jpAXTnUs7OzVB3BB2on4TcLaE4doC4A9ebmZv95fn5ePf7x8fH7OBWgrhjq29vb98irJUwG+fT0BNS1Q/38/PwerWMJkxMk1YmAgbpiqILjubK2jNEnUDuB2gLlY73ZANROoGqHaShhcoJ0cXHxz/wK1JVDVZI0lDAZ4PPzM1B7gxo3F5wwlQkSUDuEaojeD3aCpGUMUDuFWq5HHY7LpzFA7QyqlzcuXsYAtWOokkfoGDigdgjVCVOZIAEVARWoCKgIqAioCKhARUBFPwvg764SUIEKVKAioCKgIqACFahABSpQEVARUIEKVKACFagIqAioCKhABSpQgQpUBFQEVKACFahABSoCKgIqAipQgQpUoAIVARUBFahABSpQgYqAioCKgApUoAK1gCqjOb0xWqY4WckoR3XmvEH6kJKzhL6X3lcvUx95r72+vqbq2oZ6qMhLZo7F9MGgRjOcLCS/UnzNUKOrRFkEuWUtHc1tx0rmPIuFX7+7PWO3rF5aew/8GqTR6Ia7vb3dRyMVRRjDavma+jjVVz0Xj/zseRaD2nIPjCqdBNcod9L7+/vBkJyJTK1opPA715n4YIlS9gbHjHLG5rT39/f9yMnOQXKJiCFNv6u+SibU6ZhWo9nXtJZHZKaYlj/q4lB9g/qsJUgZA3UB9GiJRX+rwbV9lo4THCU35Tl0fzW4+rdW4ld6r82F6vPU2mxRqJkQ7EYuPcpKMNE4XWFaX1odoWa0U0J1mNfParwIuNWpsuE5OiLOgRqtvla7Tq2Z3bjBW6HX8IZ6r5KOaGRXu4aOUXIz1mGmhrwyiWolejWoundHtjkJ40GhOpwMJUFDJq5zGqzWuyPUsd4/JamrRZHW6PJx6qS6Zxf9rmurqJOudklTJhlDIykTatx7a8e4cwx1nAi11lhu8HIktxIo18vMgZl1qgBPDb2LbBMOzTdjJq5jdT0nDhXPjUPru+x1xvxHa/J1s/NxLfyqM11fXzejymqgeiTFRq+NriGomXJIqD5e580urTKJktbBc6aCg0P14jyGYCc/rTWsR4M6gRqvVeZC9XVq2WuZJ0wBOmUrdM5UsMhTmrg4zzZ0dlHfSmSmzKmtBp8LdMo15thjLgLVGaZueAqoWK92jEZYa0kztmTJ7j3/D9As1LhVOOUaiz1P9c1Ovenaw4HWkmLKOlXLiTHp3GPn+CmoWr55Wpq6qb8YVPf0qTcdG16fSlJ0rphEXV5eVsOv6jlCaP5UfZ3HHayWwcaO4XONldr3irtiZb34SG9OJFgMqnr43JRdX9IZZyxesLeAqKEUnstzqH5r7zc+dmuVWgivrVN1H+pYXWw+/LT0hRW+VDJhcCgp099cf04DrlG/6v8oTcm0gQpUoAIVqD8KtZWVArUzqL9FQAUqUIGKgIqAioAKVKACFahARUBFQAUqUIEKVKAioCKgIqACFahABSpQEVARUIEKVKACFagIqAioCKhABSpQgQpUBFQEVKACFahABSo6ko5CEwAVARUB9Qhlm86sdZotPIG6YkVPm5bi+4mB2gHUjAcOUDuEmnkPP1A7gmqrFb9pHKhHAFUj1N4BY2EYqB1CbTkiA7VDqJLtw4bCMFA7hSp5fi2tSoHaMdRo9RnduIDaMVQpGvp6twmonUOV7IxlnwCgHgHUMgwD9QigxjCsst1ugXoMUGMYjmaAQO0cqmSrTqAeEdS42wTUI4EqebcJqAioQEVd6g9BYTrmIy+ymQAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\">",
+        "q_hi": "Select the correct mirror image of the given figure when the mirror is placed at MN as shown below.<br><br><img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHUAAACcCAYAAABBT+T2AAAFm0lEQVR42u2dgU3kMBBFtwRKoARKoAQ6gA6gA+gAOoAOlg6gA+gAOqCEPf3VfTTyJfYkhzbx8r5kLXBxkvWzx2PnlL/ZoaPThiYAKgIqAioC6tr18PCwu7u7222320n1Pj4+9vVU9DNQV6TT09PdZrPZnZyc7L6+vtL1rq6u9vVUXl5egLpGqCoaddlR6jpAXTnUs7OzVB3BB2on4TcLaE4doC4A9ebmZv95fn5ePf7x8fH7OBWgrhjq29vb98irJUwG+fT0BNS1Q/38/PwerWMJkxMk1YmAgbpiqILjubK2jNEnUDuB2gLlY73ZANROoGqHaShhcoJ0cXHxz/wK1JVDVZI0lDAZ4PPzM1B7gxo3F5wwlQkSUDuEaojeD3aCpGUMUDuFWq5HHY7LpzFA7QyqlzcuXsYAtWOokkfoGDigdgjVCVOZIAEVARWoCKgIqAioCKhARUBFPwvg764SUIEKVKAioCKgIqACFahABSpQEVARUIEKVKACFagIqAioCKhABSpQgQpUBFQEVKACFahABSoCKgIqAipQgQpUoAIVARUBFahABSpQgYqAioCKgApUoAK1gCqjOb0xWqY4WckoR3XmvEH6kJKzhL6X3lcvUx95r72+vqbq2oZ6qMhLZo7F9MGgRjOcLCS/UnzNUKOrRFkEuWUtHc1tx0rmPIuFX7+7PWO3rF5aew/8GqTR6Ia7vb3dRyMVRRjDavma+jjVVz0Xj/zseRaD2nIPjCqdBNcod9L7+/vBkJyJTK1opPA715n4YIlS9gbHjHLG5rT39/f9yMnOQXKJiCFNv6u+SibU6ZhWo9nXtJZHZKaYlj/q4lB9g/qsJUgZA3UB9GiJRX+rwbV9lo4THCU35Tl0fzW4+rdW4ld6r82F6vPU2mxRqJkQ7EYuPcpKMNE4XWFaX1odoWa0U0J1mNfParwIuNWpsuE5OiLOgRqtvla7Tq2Z3bjBW6HX8IZ6r5KOaGRXu4aOUXIz1mGmhrwyiWolejWoundHtjkJ40GhOpwMJUFDJq5zGqzWuyPUsd4/JamrRZHW6PJx6qS6Zxf9rmurqJOudklTJhlDIykTatx7a8e4cwx1nAi11lhu8HIktxIo18vMgZl1qgBPDb2LbBMOzTdjJq5jdT0nDhXPjUPru+x1xvxHa/J1s/NxLfyqM11fXzejymqgeiTFRq+NriGomXJIqD5e580urTKJktbBc6aCg0P14jyGYCc/rTWsR4M6gRqvVeZC9XVq2WuZJ0wBOmUrdM5UsMhTmrg4zzZ0dlHfSmSmzKmtBp8LdMo15thjLgLVGaZueAqoWK92jEZYa0kztmTJ7j3/D9As1LhVOOUaiz1P9c1Ovenaw4HWkmLKOlXLiTHp3GPn+CmoWr55Wpq6qb8YVPf0qTcdG16fSlJ0rphEXV5eVsOv6jlCaP5UfZ3HHayWwcaO4XONldr3irtiZb34SG9OJFgMqnr43JRdX9IZZyxesLeAqKEUnstzqH5r7zc+dmuVWgivrVN1H+pYXWw+/LT0hRW+VDJhcCgp099cf04DrlG/6v8oTcm0gQpUoAIVqD8KtZWVArUzqL9FQAUqUIGKgIqAioAKVKACFahARUBFQAUqUIEKVKAioCKgIqACFahABSpQEVARUIEKVKACFagIqAioCKhABSpQgQpUBFQEVKACFahABSo6ko5CEwAVARUB9Qhlm86sdZotPIG6YkVPm5bi+4mB2gHUjAcOUDuEmnkPP1A7gmqrFb9pHKhHAFUj1N4BY2EYqB1CbTkiA7VDqJLtw4bCMFA7hSp5fi2tSoHaMdRo9RnduIDaMVQpGvp6twmonUOV7IxlnwCgHgHUMgwD9QigxjCsst1ugXoMUGMYjmaAQO0cqmSrTqAeEdS42wTUI4EqebcJqAioQEVd6g9BYTrmIy+ymQAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\">",
+        "op_en": [
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAAhCAYAAAC7kad5AAADL0lEQVR42u2ZjY3CMAyFMwIjMAIjMAIbwAhsABvABrABbAAbwAawASP09Cq9k68ktlMqjjs5kgUt+ak/O7ZTUhPt7S0FgoAe0KMF9IAe7Q3Q7/d7s9/vm+1226zX6yfBfU87n8/NcrlsZrNZs1gs2jlvt9tHQzqdTq2Oh8PBPYaccrqZ0B+PRwsopaTKeDw255lOp8WxgP/J0PGco9HI1R+gqVsv6ASFBeGhu93uh+CeBzq8mv0wDg8DZXgfgutPbdDf+4xkAt2qwwtCAUGVQoDs03eezWbT/g4Df2pDqNBAygY90fd4PNZD50KwnAdo33kQeuhJ+O4JedfrtV1bGhF5B+JpmAPjIZ41L5fL947X+nt4JM82AbQhoGvzMPFoCuE39KGBKPA+mTM08ICXyy2Yw0roHKflH4ZLbUckKwNb294DHTF8iPAxmUy+vQ1KwQBM8nAQCzqqD0JGX4yBMBxoYdTLg3PBuL2gw3s4San88UCX4aNvsuRuyYHBtfT+EnTqslqtnn7DPQso9OAauR3pYeGqXqAQvIpK4aGk0PushZgsLW+yPKhkNBqlBJ27DTvDCh+aY7BP7lzC0GKVvyZ0bEmCfaVOlzkC83mSV+1u0qBzbe0Qx/ChFQ6s2XM7go5pOZUKnd7BLYnJurC8W4pgaMCa+I7Sy/JSuRty0Omh+IRH5oT5QVunVGnV5K3kUQKh4RUvLOUJT80rFbL6e6B7xAKXq+poMM/JOll1qQWzFjrzhEzQ74AOY2NdTbze2g0xPPZbNbwJnTARDoaGXgteHkw87zu8B6Q+MT2X2L1OYUL3Wq8v9C546y2lVXISmObpyA3am0KrQiod+DxVjzumczJ4O47dQ0OnFxOoFg+1Ol3OUYLOgxH6dcfDIN4Xd91qievW6J+8nsgFcN0Va1EYLzeOIoFp5ZYsXZG4pJfJk2UpvMzn86fx8gxSe4aQydkbWtyHI1QvULj7zsNbp0vDWaJtUemRUgBTVkVaTEfpm3seAKw9tMmQVjP2T/5dB8AwDkQq64EuQxLG47PmoDZE+1f/kdZA/80W0AN6QP9zjVVSQI8W0AN6QI/2rvYFUbsDt4dTKIQAAAAASUVORK5CYII=\" style=\"height: auto; max-width: 100%;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAfCAYAAABu1nqnAAADMklEQVR42u2ZjY3iQAyFpwRKoARKoAQ62C1hO4AOoAPoADrY7QA6gA4oIacP6SErZDweiO6Ou7FkAWF+4ufnn0lS1+SPSGoQNOAb8E0a8A34Jg34/wf4y+XS7Xa7brPZdKvV6kG5HpGfn5/u6+urWywW3efn523N8/ncgO/L9Xq9gZRScnU6nXaldebzeXYuDng32W63dxuOx+O4wAusyWRyYyqbWeVaBHjYrXHMg+Xf39/36yi/30kskYj60YAnLQisXDqwY55dZ71e3/7HkHcR7BAh9Tka8HiRRWF1BNRn1yENyQC+l4Qxp9Pptrd1JHUIjQhrMB+N7NkXappsEvNrIzYLvNKIF0Y1wHvrqGh7IPAfY+QkKenK1hAPfHLxUK1hjZoij73MY451wijAa0EvBUSAVxF6NZXMZrN7WAMUTlDht8zLAb/f7+9AM5Y5qED0UuqQzdyPjVi0JnqSxzDdFEYO3VQEeJtKni2gipohcPhtoyAHvGxZLpcP/3EtSg41BLYTk9NrurNUKiJsJMPYwKpYWOpqVECjrMqBlnOcHJMDXlFHhJS6lBI5bJrpR1NNVLvAs6DAfaWPtzWD9WpCMhpVHvDa2zvoRXJ1Lm3WNggu8PaAQCji4f6iEVDszcmJNcw4HA5FtlomDgEvNvNJBA+p6oW3j8YMpRSloGhPn0qGkCZeYWOubnCjNSfE0vgI8BHNkUK9ez/NSEhRNaRKubYrAmgt8DLAFu3fATwOZ19PS91XpE7UNBEp0jKNCXwt+CKBdzq0bIweompzvNKk17molkR6+lQ6EnvF4lng++CXnm6WmCTQPMZTK2gWnumcLB6eKN1EHiGkUnuFpzmijw282CxQPSZ5fbxdIwe82j3G9efjlNLDPhXOSF2KppsUYaRumt99LQGPA4fmSS1oXo9v21ryLM4QOewJNJdqPj4+HubbM4p3xtDaRE30sFcqssUDFF0NRvefkUT7eOu8knosscy0CqC2W/JyPG3x0P0A0itPYHPpxkvTb/fqD2MwDrVgRYC36Yn5fJYOPIyDxTWPA/TQz3tB8s+8c60B/m+QBnwDvgH/lqLuqQHfxJVf+ryaJpMf2VMAAAAASUVORK5CYII=\" style=\"height: auto; max-width: 100%;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAAfCAYAAABqI6qaAAADHElEQVR42u2ZDa0qMRCFKwEJSEACEpCABByAA3AADsABOAAH4AAJ+3I2OTfz9rUzp7CPcJM2mQSW/s3X+euSutY+2lJD0IA34K014A14aw347wX+eDy6w+HQ7Xa7brPZ/CN4rrTL5dKtVqtusVh0y+Wyn/N+v4+iyHw+76bTab/XMdv5fO51PB6P8hhyyunmAn8+nz2clJIrUDSaB0BKYwH+3YZ5MN//AI55J5OJ1B+QqVs1cELCYrDM/X7/l+CZAhzWzH4Yh41AET6H4Ps3AkeD/uoeyQS6VYUUuD8hldze9nl1nu122/+Ow/1W4AgPHsTcPk6nUx1wLoITU2C+Og/CDS0In6OGPrfbrV/bHmANcI6HKGter9cfT/f6KzxS5BoANgZwbx4mGU8Z/IY98XAosDr8pgDHGsPxnCNK3gyvXr5hiPQ8IXkQIldXgCNmjxEyZrPZj5VBIcBjQsdBRMBtvsBeMB7POM4LnSoPzgWPqAZuraZU4ijAbch4NTHSS3JQoJy12hxwHnoJ6nq9DmFCD66R80SFRVilYHOwAiqEDVmh1UWLMDFGVhRZTqkW5oGUgAMQxnoHzpCh9MndO+hBUYnrAscmCfWdOtzmBMynJKpaL/KAq5eVqEhgTZ7zBBplZFApir0QuBwmGoJS3YhQeHg18RzlFcYgXr9aFuJZJNTXW6dUUdXkqRQpgHDwjvWV8oJS01plov4e8NItNycRtFz1xuSt3JiTV3dGIGuBMy/YZPxJ4HyHkxP2iYAPwwqv8lGN7gInSISAsYHXQlcOP4rhSkLjwXoxfHi4gK8ahAtcPbVXgQ+hR28bo7LS5huvLFRqaKV0tZc5pbqRYjgngpXjKjw28GEN7Vnfu3W4TXY5j7IVlJqLaJC1+ifFAjk5vg8lWpDvqUtiYXkllS1PEYutddkYXCoLGXsJFpDtHaP2jmATsRpOpIsPqhRsMPcOQqnD7aFF4rkl36UMxwC+fd/u1eHQJ1ex4FnthYx1u1J7V//j800NcHEwEKsonquK8308wlHNJWyM1v7T/HBrwBvwBry1Bvz3tj9WbKI6QYiKyAAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAAiCAYAAAA9BdXXAAADMklEQVR42u2ZjY0iMQyFpwRKoARKoAQ6gA6gA+gAOoAOoAPoADqADighp4f0kDXr2E7YhdtVLFnobseZ+Iv/Al1q8nbpGoIGvUFv0qA36E0a9L8L/X6/p81mk2azWZpMJmmxWKTT6eTawWa1Wql6OBzS9Xr9ryEdj8fHXvf7fdiGPmu+haHvdrs0GAxS13VfFIeAA8nJcDhU7UrW+DR07BH+RwSg6Vc1dEQzF1kul+l8Pj90u90+gY7HYxc6bGFDZdZE1vi0MOBwAJ6gAjCQqssLYGCR9XqtlhxvQ4Sa+zuiocSpTwhKhQVS8xelswo6oDLKvZNF5NZAl2vAucieLpfLIwNl+t5ut4dG+xPsoZGyhsxmibGeZ1WAz9WNFC8AiBxQGQU5YBHoXAPwvb30ewv7ATPSAg94fK6/htfQaYf+lhOs42XEt4yM3EwunSLQIw6NRqNntMEpHACmKB6WBx3TByHjWdhAuT98WuAReNH+hcP9MeiRdLKgI0JZWqw1mAkaGNkTLOiyofcF/+cBlaVWKzERFi9Dh7N0xIpQPoNIhVNU/BuwoHA6MnbmsoWHkoOOaQl/Q2Z42RbJSK3csrRYLF6CDkAEYdXh6JyOA8htNhJBMgo16F6zl+XD8oczu5YRzDavN1RDZy0FrOgIpUUQat98Pn8C08CjV3hRKt+jQWeE4hMRqSl9st4jR2SZmcykyF2jCjrTyGs8JY0Ud4DcrY8OeTNyBHpEPXDaeMsD80pLFXSrob0C3er83wEdUYn9WhqN1n6J4bXfm+GroNcAL4Gea2TyYhL5viN6Qaqp6ZpP0aAohl4LPApdjn3a+t7XBARmRTp6g/VNYTQ4+hfCyNRTDB11ipFmDf21zmA64cUnl9rWoWNP3pzOixGe69tH7wratMT3Ru1C0GXacvGc5oAROjbYt5GwvCziwXDCkFEmb5a58jKdTr/YoyRIcCVZLJtztLSEoMuvdT3NnbY1p8NhwPQuR/2IlAqY8t5g1XS8R9sPAJaWTVnSSmx/5c91AIxSBZXORqDLkgR7fL77x5M/9RtpCfRPSoPeoDfov07QDAG+QW/SoDfoDXqTd8k/dax29O/cyJIAAAAASUVORK5CYII=\" style=\"height: auto; max-width: 100%;\">"
+        ],
+        "op_hi": [
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAAhCAYAAAC7kad5AAADL0lEQVR42u2ZjY3CMAyFMwIjMAIjMAIbwAhsABvABrABbAAbwAawASP09Cq9k68ktlMqjjs5kgUt+ak/O7ZTUhPt7S0FgoAe0KMF9IAe7Q3Q7/d7s9/vm+1226zX6yfBfU87n8/NcrlsZrNZs1gs2jlvt9tHQzqdTq2Oh8PBPYaccrqZ0B+PRwsopaTKeDw255lOp8WxgP/J0PGco9HI1R+gqVsv6ASFBeGhu93uh+CeBzq8mv0wDg8DZXgfgutPbdDf+4xkAt2qwwtCAUGVQoDs03eezWbT/g4Df2pDqNBAygY90fd4PNZD50KwnAdo33kQeuhJ+O4JedfrtV1bGhF5B+JpmAPjIZ41L5fL947X+nt4JM82AbQhoGvzMPFoCuE39KGBKPA+mTM08ICXyy2Yw0roHKflH4ZLbUckKwNb294DHTF8iPAxmUy+vQ1KwQBM8nAQCzqqD0JGX4yBMBxoYdTLg3PBuL2gw3s4San88UCX4aNvsuRuyYHBtfT+EnTqslqtnn7DPQso9OAauR3pYeGqXqAQvIpK4aGk0PushZgsLW+yPKhkNBqlBJ27DTvDCh+aY7BP7lzC0GKVvyZ0bEmCfaVOlzkC83mSV+1u0qBzbe0Qx/ChFQ6s2XM7go5pOZUKnd7BLYnJurC8W4pgaMCa+I7Sy/JSuRty0Omh+IRH5oT5QVunVGnV5K3kUQKh4RUvLOUJT80rFbL6e6B7xAKXq+poMM/JOll1qQWzFjrzhEzQ74AOY2NdTbze2g0xPPZbNbwJnTARDoaGXgteHkw87zu8B6Q+MT2X2L1OYUL3Wq8v9C546y2lVXISmObpyA3am0KrQiod+DxVjzumczJ4O47dQ0OnFxOoFg+1Ol3OUYLOgxH6dcfDIN4Xd91qievW6J+8nsgFcN0Va1EYLzeOIoFp5ZYsXZG4pJfJk2UpvMzn86fx8gxSe4aQydkbWtyHI1QvULj7zsNbp0vDWaJtUemRUgBTVkVaTEfpm3seAKw9tMmQVjP2T/5dB8AwDkQq64EuQxLG47PmoDZE+1f/kdZA/80W0AN6QP9zjVVSQI8W0AN6QI/2rvYFUbsDt4dTKIQAAAAASUVORK5CYII=\" style=\"height: auto; max-width: 100%;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAfCAYAAABu1nqnAAADMklEQVR42u2ZjY3iQAyFpwRKoARKoAQ62C1hO4AOoAPoADrY7QA6gA4oIacP6SErZDweiO6Ou7FkAWF+4ufnn0lS1+SPSGoQNOAb8E0a8A34Jg34/wf4y+XS7Xa7brPZdKvV6kG5HpGfn5/u6+urWywW3efn523N8/ncgO/L9Xq9gZRScnU6nXaldebzeXYuDng32W63dxuOx+O4wAusyWRyYyqbWeVaBHjYrXHMg+Xf39/36yi/30kskYj60YAnLQisXDqwY55dZ71e3/7HkHcR7BAh9Tka8HiRRWF1BNRn1yENyQC+l4Qxp9Pptrd1JHUIjQhrMB+N7NkXappsEvNrIzYLvNKIF0Y1wHvrqGh7IPAfY+QkKenK1hAPfHLxUK1hjZoij73MY451wijAa0EvBUSAVxF6NZXMZrN7WAMUTlDht8zLAb/f7+9AM5Y5qED0UuqQzdyPjVi0JnqSxzDdFEYO3VQEeJtKni2gipohcPhtoyAHvGxZLpcP/3EtSg41BLYTk9NrurNUKiJsJMPYwKpYWOpqVECjrMqBlnOcHJMDXlFHhJS6lBI5bJrpR1NNVLvAs6DAfaWPtzWD9WpCMhpVHvDa2zvoRXJ1Lm3WNggu8PaAQCji4f6iEVDszcmJNcw4HA5FtlomDgEvNvNJBA+p6oW3j8YMpRSloGhPn0qGkCZeYWOubnCjNSfE0vgI8BHNkUK9ez/NSEhRNaRKubYrAmgt8DLAFu3fATwOZ19PS91XpE7UNBEp0jKNCXwt+CKBdzq0bIweompzvNKk17molkR6+lQ6EnvF4lng++CXnm6WmCTQPMZTK2gWnumcLB6eKN1EHiGkUnuFpzmijw282CxQPSZ5fbxdIwe82j3G9efjlNLDPhXOSF2KppsUYaRumt99LQGPA4fmSS1oXo9v21ryLM4QOewJNJdqPj4+HubbM4p3xtDaRE30sFcqssUDFF0NRvefkUT7eOu8knosscy0CqC2W/JyPG3x0P0A0itPYHPpxkvTb/fqD2MwDrVgRYC36Yn5fJYOPIyDxTWPA/TQz3tB8s+8c60B/m+QBnwDvgH/lqLuqQHfxJVf+ryaJpMf2VMAAAAASUVORK5CYII=\" style=\"height: auto; max-width: 100%;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAAfCAYAAABqI6qaAAADHElEQVR42u2ZDa0qMRCFKwEJSEACEpCABByAA3AADsABOAAH4AAJ+3I2OTfz9rUzp7CPcJM2mQSW/s3X+euSutY+2lJD0IA34K014A14aw347wX+eDy6w+HQ7Xa7brPZ/CN4rrTL5dKtVqtusVh0y+Wyn/N+v4+iyHw+76bTab/XMdv5fO51PB6P8hhyyunmAn8+nz2clJIrUDSaB0BKYwH+3YZ5MN//AI55J5OJ1B+QqVs1cELCYrDM/X7/l+CZAhzWzH4Yh41AET6H4Ps3AkeD/uoeyQS6VYUUuD8hldze9nl1nu122/+Ow/1W4AgPHsTcPk6nUx1wLoITU2C+Og/CDS0In6OGPrfbrV/bHmANcI6HKGter9cfT/f6KzxS5BoANgZwbx4mGU8Z/IY98XAosDr8pgDHGsPxnCNK3gyvXr5hiPQ8IXkQIldXgCNmjxEyZrPZj5VBIcBjQsdBRMBtvsBeMB7POM4LnSoPzgWPqAZuraZU4ijAbch4NTHSS3JQoJy12hxwHnoJ6nq9DmFCD66R80SFRVilYHOwAiqEDVmh1UWLMDFGVhRZTqkW5oGUgAMQxnoHzpCh9MndO+hBUYnrAscmCfWdOtzmBMynJKpaL/KAq5eVqEhgTZ7zBBplZFApir0QuBwmGoJS3YhQeHg18RzlFcYgXr9aFuJZJNTXW6dUUdXkqRQpgHDwjvWV8oJS01plov4e8NItNycRtFz1xuSt3JiTV3dGIGuBMy/YZPxJ4HyHkxP2iYAPwwqv8lGN7gInSISAsYHXQlcOP4rhSkLjwXoxfHi4gK8ahAtcPbVXgQ+hR28bo7LS5huvLFRqaKV0tZc5pbqRYjgngpXjKjw28GEN7Vnfu3W4TXY5j7IVlJqLaJC1+ifFAjk5vg8lWpDvqUtiYXkllS1PEYutddkYXCoLGXsJFpDtHaP2jmATsRpOpIsPqhRsMPcOQqnD7aFF4rkl36UMxwC+fd/u1eHQJ1ex4FnthYx1u1J7V//j800NcHEwEKsonquK8308wlHNJWyM1v7T/HBrwBvwBry1Bvz3tj9WbKI6QYiKyAAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAAiCAYAAAA9BdXXAAADMklEQVR42u2ZjY0iMQyFpwRKoARKoAQ6gA6gA+gAOoAOoAPoADqADighp4f0kDXr2E7YhdtVLFnobseZ+Iv/Al1q8nbpGoIGvUFv0qA36E0a9L8L/X6/p81mk2azWZpMJmmxWKTT6eTawWa1Wql6OBzS9Xr9ryEdj8fHXvf7fdiGPmu+haHvdrs0GAxS13VfFIeAA8nJcDhU7UrW+DR07BH+RwSg6Vc1dEQzF1kul+l8Pj90u90+gY7HYxc6bGFDZdZE1vi0MOBwAJ6gAjCQqssLYGCR9XqtlhxvQ4Sa+zuiocSpTwhKhQVS8xelswo6oDLKvZNF5NZAl2vAucieLpfLIwNl+t5ut4dG+xPsoZGyhsxmibGeZ1WAz9WNFC8AiBxQGQU5YBHoXAPwvb30ewv7ATPSAg94fK6/htfQaYf+lhOs42XEt4yM3EwunSLQIw6NRqNntMEpHACmKB6WBx3TByHjWdhAuT98WuAReNH+hcP9MeiRdLKgI0JZWqw1mAkaGNkTLOiyofcF/+cBlaVWKzERFi9Dh7N0xIpQPoNIhVNU/BuwoHA6MnbmsoWHkoOOaQl/Q2Z42RbJSK3csrRYLF6CDkAEYdXh6JyOA8htNhJBMgo16F6zl+XD8oczu5YRzDavN1RDZy0FrOgIpUUQat98Pn8C08CjV3hRKt+jQWeE4hMRqSl9st4jR2SZmcykyF2jCjrTyGs8JY0Ud4DcrY8OeTNyBHpEPXDaeMsD80pLFXSrob0C3er83wEdUYn9WhqN1n6J4bXfm+GroNcAL4Gea2TyYhL5viN6Qaqp6ZpP0aAohl4LPApdjn3a+t7XBARmRTp6g/VNYTQ4+hfCyNRTDB11ipFmDf21zmA64cUnl9rWoWNP3pzOixGe69tH7wratMT3Ru1C0GXacvGc5oAROjbYt5GwvCziwXDCkFEmb5a58jKdTr/YoyRIcCVZLJtztLSEoMuvdT3NnbY1p8NhwPQuR/2IlAqY8t5g1XS8R9sPAJaWTVnSSmx/5c91AIxSBZXORqDLkgR7fL77x5M/9RtpCfRPSoPeoDfov07QDAG+QW/SoDfoDXqTd8k/dax29O/cyJIAAAAASUVORK5CYII=\" style=\"height: auto; max-width: 100%;\">"
+        ],
+        "ans": 1,
+        "solution": ""
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Syllogism",
+        "difficulty": "Easy",
+        "q_en": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.<br><strong>Statements:</strong><br>All iron are weeder.<br>All weeder are drill.<br><strong>Conclusions:</strong><br>(I): Some drill are weeder.<br>(II): All iron are drill.",
+        "q_hi": "दिए गए कथनों और निष्कर्षों को ध्यानपूर्वक पढ़ें। यह मानते हुए कि कथनों में दी गई जानकारी सत्य है, भले ही यह सामान्य रूप से ज्ञात तथ्यों से भिन्न प्रतीत होती हो, तय करें कि दिए गए निष्कर्षों में से कौन सा तार्किक रूप से कथनों का अनुसरण करता है।<br><strong>कथन:</strong><br>सभी आयरन वीडर हैं।<br>सभी वीडर ड्रिल हैं।<br><strong>निष्कर्ष:</strong><br>(I): कुछ ड्रिल वीडर हैं।<br>(II): सभी आयरन ड्रिल हैं।",
+        "op_en": [
+            "Neither conclusion (I) nor (II) follows.",
+            "Only conclusion (I) follows.",
+            "Both conclusions (I) and (II) follow.",
+            "Only conclusion (II) follows."
+        ],
+        "op_hi": [
+            "निष्कर्ष (I) और (II) दोनों में से कोई भी अनुसरण नहीं करता है।",
+            "केवल निष्कर्ष (I) अनुसरण करता है।",
+            "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।",
+            "केवल निष्कर्ष (II) अनुसरण करता है।"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>According to the statements:<br>1. All iron are weeder.<br>2. All weeder are drill.<br>From this, we can conclude that the set of iron is completely inside weeder, and weeder is completely inside drill.<br>Conclusion (I): Some drill are weeder - True (Since all weeder are drill, some drill must be weeder).<br>Conclusion (II): All iron are drill - True (Since all iron are inside weeder and all weeder are inside drill).<br>Therefore, both conclusions (I) and (II) follow.<br><br><b>Solution (HI):</b><br>कथनों के अनुसार:<br>1. सभी आयरन वीडर हैं।<br>2. सभी वीडर ड्रिल हैं।<br>इससे, हम यह निष्कर्ष निकाल सकते हैं कि आयरन का सेट पूरी तरह से वीडर के अंदर है, और वीडर पूरी तरह से ड्रिल के अंदर है।<br>निष्कर्ष (I): कुछ ड्रिल वीडर हैं - सत्य (चूंकि सभी वीडर ड्रिल हैं, कुछ ड्रिल वीडर होने चाहिए)।<br>निष्कर्ष (II): सभी आयरन ड्रिल हैं - सत्य (चूंकि सभी आयरन वीडर के अंदर हैं और सभी वीडर ड्रिल के अंदर हैं)।<br>अतः, निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।<br><br><b>Short Trick:</b><br>All A are B + All B are C &rarr; All A are C (Conclusion II is True). All B are C &rarr; Some C are B (Conclusion I is True)."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Analogy",
+        "difficulty": "Easy",
+        "q_en": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y so that the pattern followed by the two numbers on the left side of :: is same as that on the right side of ::?<br><br>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)<br><br>X : 35 :: 12 : Y",
+        "q_hi": "निम्नलिखित संख्या-युग्मों में, दूसरी संख्या पहली संख्या पर कुछ गणितीय संक्रियाएं लागू करके प्राप्त की जाती है। X और Y के स्थान पर कौन सी संख्याएँ आनी चाहिए ताकि :: के बाईं ओर की दो संख्याओं द्वारा अनुसरण किया जाने वाला पैटर्न :: के दाईं ओर के पैटर्न के समान हो?<br><br>(नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना, पूर्ण संख्याओं पर संक्रियाएँ की जानी चाहिए। उदा. 13 - 13 पर संक्रियाएं जैसे 13 में जोड़ना/घटाना/गुणा करना किया जा सकता है। 13 को 1 और 3 में तोड़कर 1 और 3 पर गणितीय संक्रियाएं करने की अनुमति नहीं है।)<br><br>X : 35 :: 12 : Y",
+        "op_en": [
+            "X = 7, Y = 152",
+            "X = 9, Y =  174",
+            "X = 11, Y = 211",
+            "X = 6, Y = 143"
+        ],
+        "op_hi": [
+            "X = 7, Y = 152",
+            "X = 9, Y =  174",
+            "X = 11, Y = 211",
+            "X = 6, Y = 143"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>The pattern followed is n : n<sup>2</sup> &minus; 1<br>For X : 35 &rarr; 6 : 6<sup>2</sup> &minus; 1 = 36 &minus; 1 = 35. So, X = 6.<br>For 12 : Y &rarr; 12 : 12<sup>2</sup> &minus; 1 = 144 &minus; 1 = 143. So, Y = 143.<br>Therefore, X = 6, Y = 143.<br><br><b>Solution (HI):</b><br>अनुसरण किया गया पैटर्न n : n<sup>2</sup> &minus; 1 है।<br>X : 35 के लिए &rarr; 6 : 6<sup>2</sup> &minus; 1 = 36 &minus; 1 = 35. इसलिए, X = 6.<br>12 : Y के लिए &rarr; 12 : 12<sup>2</sup> &minus; 1 = 144 &minus; 1 = 143. इसलिए, Y = 143.<br>अतः, X = 6, Y = 143.<br><br><b>Short Trick:</b><br>Check values: 35 is 6<sup>2</sup> &minus; 1. So X = 6. Y will be 12<sup>2</sup> &minus; 1 = 143."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Letter Classification",
+        "difficulty": "Moderate",
+        "q_en": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group?<br>(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+        "q_hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। कौन सा अक्षर-समूह युग्म उस समूह से संबंधित नहीं है?<br>(नोट: बेजोड़ का चयन व्यंजनों/स्वरों की संख्या या अक्षर-समूह में उनके स्थान पर आधारित नहीं है।)",
+        "op_en": [
+            "GM - BV",
+            "SY - MH",
+            "AG - VP",
+            "LR - GA"
+        ],
+        "op_hi": [
+            "GM - BV",
+            "SY - MH",
+            "AG - VP",
+            "LR - GA"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>The pattern followed in the pairs is:<br>First letter &minus; 5, Second letter + 9<br>G(7) &minus; 5 = B(2); M(13) + 9 = V(22) &rarr; GM - BV<br>A(1 or 27) &minus; 5 = V(22); G(7) + 9 = P(16) &rarr; AG - VP<br>L(12) &minus; 5 = G(7); R(18) + 9 = A(27 or 1) &rarr; LR - GA<br>But in SY - MH:<br>S(19) &minus; 6 = M(13); Y(25) + 9 = H(8 or 34)<br>So, SY - MH is the odd one out.<br><br><b>Solution (HI):</b><br>युग्मों में अनुसरण किया गया पैटर्न है:<br>पहला अक्षर &minus; 5, दूसरा अक्षर + 9<br>G(7) &minus; 5 = B(2); M(13) + 9 = V(22) &rarr; GM - BV<br>A(1 या 27) &minus; 5 = V(22); G(7) + 9 = P(16) &rarr; AG - VP<br>L(12) &minus; 5 = G(7); R(18) + 9 = A(27 या 1) &rarr; LR - GA<br>लेकिन SY - MH में:<br>S(19) &minus; 6 = M(13); Y(25) + 9 = H(8 या 34)<br>इसलिए, SY - MH बेजोड़ है।<br><br><b>Short Trick:</b><br>Difference between corresponding first letters: G-B = 5, A-V = 5, L-G = 5. But S-M = 6."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Arrangement",
+        "difficulty": "Easy",
+        "q_en": "Each of the digits in the number 586234791 is arranged in ascending order from left to right. What will be the sum of the digits which are second from the left and second from the right in the new number thus formed?",
+        "q_hi": "संख्या 586234791 के प्रत्येक अंक को बाएं से दाएं आरोही क्रम में व्यवस्थित किया जाता है। इस प्रकार बनी नई संख्या में बाएं से दूसरे और दाएं से दूसरे अंकों का योग क्या होगा?",
+        "op_en": [
+            "9",
+            "8",
+            "7",
+            "10"
+        ],
+        "op_hi": [
+            "9",
+            "8",
+            "7",
+            "10"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>Original number: 586234791<br>Digits arranged in ascending order from left to right: 123456789<br>The digit second from the left is 2.<br>The digit second from the right is 8.<br>Sum = 2 + 8 = 10.<br><br><b>Solution (HI):</b><br>मूल संख्या: 586234791<br>बाएं से दाएं आरोही क्रम में व्यवस्थित अंक: 123456789<br>बाएं से दूसरा अंक 2 है।<br>दाएं से दूसरा अंक 8 है।<br>योग = 2 + 8 = 10.<br><br><b>Short Trick:</b><br>Ascending order means numbers from 1 to 9. Second lowest is 2, second highest is 8. Sum = 10."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Letter Analogy",
+        "difficulty": "Moderate",
+        "q_en": "UTSN is related to YRUR in a certain way based on the English alphabetical order. In the same way, HINR is related to LGPV. To which of the given options is TEHP related, following the same logic?",
+        "q_hi": "अंग्रेजी वर्णमाला क्रम के आधार पर UTSN एक निश्चित तरीके से YRUR से संबंधित है। उसी तरह, HINR, LGPV से संबंधित है। समान तर्क का अनुसरण करते हुए, TEHP दिए गए विकल्पों में से किससे संबंधित है?",
+        "op_en": [
+            "XGFT",
+            "XCJT",
+            "PCJL",
+            "PJCL"
+        ],
+        "op_hi": [
+            "XGFT",
+            "XCJT",
+            "PCJL",
+            "PJCL"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>The pattern followed is +4, &minus;2, +2, +4.<br>U(+4) &rarr; Y; T(&minus;2) &rarr; R; S(+2) &rarr; U; N(+4) &rarr; R<br>H(+4) &rarr; L; I(&minus;2) &rarr; G; N(+2) &rarr; P; R(+4) &rarr; V<br>Similarly for TEHP:<br>T(+4) &rarr; X; E(&minus;2) &rarr; C; H(+2) &rarr; J; P(+4) &rarr; T<br>Thus, TEHP is related to XCJT.<br><br><b>Solution (HI):</b><br>अनुसरण किया गया पैटर्न +4, &minus;2, +2, +4 है।<br>U(+4) &rarr; Y; T(&minus;2) &rarr; R; S(+2) &rarr; U; N(+4) &rarr; R<br>H(+4) &rarr; L; I(&minus;2) &rarr; G; N(+2) &rarr; P; R(+4) &rarr; V<br>उसी प्रकार TEHP के लिए:<br>T(+4) &rarr; X; E(&minus;2) &rarr; C; H(+2) &rarr; J; P(+4) &rarr; T<br>इस प्रकार, TEHP, XCJT से संबंधित है।<br><br><b>Short Trick:</b><br>Check first and last letter transformations: T+4 = X, P+4 = T. Only option 2 starts with X and ends with T."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Arrangement",
+        "difficulty": "Easy",
+        "q_en": "Each of the digits in the number 68532165974 is arranged in ascending order from left to right. What will be the sum of the digits which are third from the left and third from the right in the new number thus formed?",
+        "q_hi": "संख्या 68532165974 के प्रत्येक अंक को बाएं से दाएं आरोही क्रम में व्यवस्थित किया जाता है। इस प्रकार बनी नई संख्या में बाएं से तीसरे और दाएं से तीसरे अंकों का योग क्या होगा?",
+        "op_en": [
+            "10",
+            "8",
+            "7",
+            "9"
+        ],
+        "op_hi": [
+            "10",
+            "8",
+            "7",
+            "9"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>Original number: 68532165974<br>Digits arranged in ascending order from left to right: 12345566789<br>The digit third from the left is 3.<br>The digit third from the right is 7.<br>Sum = 3 + 7 = 10.<br><br><b>Solution (HI):</b><br>मूल संख्या: 68532165974<br>बाएं से दाएं आरोही क्रम में व्यवस्थित अंक: 12345566789<br>बाएं से तीसरा अंक 3 है।<br>दाएं से तीसरा अंक 7 है।<br>योग = 3 + 7 = 10.<br><br><b>Short Trick:</b><br>List sorted elements from ends: 1, 2, 3... and ..., 7, 8, 9. The required digits are 3 and 7. Sum = 10."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Arrangement",
+        "difficulty": "Moderate",
+        "q_en": "If 2 is added to each odd digit and 1 is subtracted from each even digit in the number 7146283, what will be difference between the highest and lowest digits thus formed?",
+        "q_hi": "यदि संख्या 7146283 में प्रत्येक विषम अंक में 2 जोड़ा जाता है और प्रत्येक सम अंक से 1 घटाया जाता है, तो इस प्रकार बने सबसे बड़े और सबसे छोटे अंकों के बीच क्या अंतर होगा?",
+        "op_en": [
+            "9",
+            "7",
+            "6",
+            "8"
+        ],
+        "op_hi": [
+            "9",
+            "7",
+            "6",
+            "8"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>Original number: 7146283<br>Adding 2 to each odd digit and subtracting 1 from each even digit:<br>7 + 2 = 9<br>1 + 2 = 3<br>4 &minus; 1 = 3<br>6 &minus; 1 = 5<br>2 &minus; 1 = 1<br>8 &minus; 1 = 7<br>3 + 2 = 5<br>The new digits formed are: 9, 3, 3, 5, 1, 7, 5.<br>Highest digit = 9. Lowest digit = 1.<br>Difference = 9 &minus; 1 = 8.<br><br><b>Solution (HI):</b><br>मूल संख्या: 7146283<br>प्रत्येक विषम अंक में 2 जोड़ने और प्रत्येक सम अंक से 1 घटाने पर:<br>7 + 2 = 9<br>1 + 2 = 3<br>4 &minus; 1 = 3<br>6 &minus; 1 = 5<br>2 &minus; 1 = 1<br>8 &minus; 1 = 7<br>3 + 2 = 5<br>बने नए अंक हैं: 9, 3, 3, 5, 1, 7, 5.<br>सबसे बड़ा अंक = 9. सबसे छोटा अंक = 1.<br>अंतर = 9 &minus; 1 = 8.<br><br><b>Short Trick:</b><br>Max digit generated comes from highest odd (7+2=9). Min digit generated comes from lowest even (2-1=1). Difference = 9 &minus; 1 = 8."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Analogy",
+        "difficulty": "Moderate",
+        "q_en": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Which numbers should replace X and Y so that the pattern followed by the two numbers on the left side of :: is same as that on the right side of ::?<br><br>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 – Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)<br><br>X : 55 :: 13 : Y",
+        "q_hi": "निम्नलिखित संख्या-युग्मों में, दूसरी संख्या पहली संख्या पर कुछ गणितीय संक्रियाएं लागू करके प्राप्त की जाती है। X और Y के स्थान पर कौन सी संख्याएँ आनी चाहिए ताकि :: के बाईं ओर की दो संख्याओं द्वारा अनुसरण किया जाने वाला पैटर्न :: के दाईं ओर के पैटर्न के समान हो?<br><br>(नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना, पूर्ण संख्याओं पर संक्रियाएँ की जानी चाहिए। उदा. 13 - 13 पर संक्रियाएं जैसे 13 में जोड़ना/घटाना/गुणा करना किया जा सकता है। 13 को 1 और 3 में तोड़कर 1 और 3 पर गणितीय संक्रियाएं करने की अनुमति नहीं है।)<br><br>X : 55 :: 13 : Y",
+        "op_en": [
+            "X = 12, Y = 240",
+            "X = 8, Y = 160",
+            "X = 13, Y = 180",
+            "X = 18, Y = 320"
+        ],
+        "op_hi": [
+            "X = 12, Y = 240",
+            "X = 8, Y = 160",
+            "X = 13, Y = 180",
+            "X = 18, Y = 320"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>The pattern followed is n : n<sup>2</sup> &minus; 9<br>For X : 55 &rarr; 8 : 8<sup>2</sup> &minus; 9 = 64 &minus; 9 = 55. So, X = 8.<br>For 13 : Y &rarr; 13 : 13<sup>2</sup> &minus; 9 = 169 &minus; 9 = 160. So, Y = 160.<br>Therefore, X = 8, Y = 160.<br><br><b>Solution (HI):</b><br>अनुसरण किया गया पैटर्न n : n<sup>2</sup> &minus; 9 है।<br>X : 55 के लिए &rarr; 8 : 8<sup>2</sup> &minus; 9 = 64 &minus; 9 = 55. इसलिए, X = 8.<br>13 : Y के लिए &rarr; 13 : 13<sup>2</sup> &minus; 9 = 169 &minus; 9 = 160. इसलिए, Y = 160.<br>अतः, X = 8, Y = 160.<br><br><b>Short Trick:</b><br>Check values: 55 is near 64 (8<sup>2</sup>). 8<sup>2</sup> &minus; 9 = 55. So X = 8. Then Y = 13<sup>2</sup> &minus; 9 = 160."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Mathematical Operations",
+        "difficulty": "Easy",
+        "q_en": "What will come in the place of the question mark (?) in the following equation, if ‘÷’ and ‘×’ are interchanged and ‘+’ and ‘−’ are interchanged?<br><br>48 − 8 ÷ 1 + 30 × 5 = ?",
+        "q_hi": "निम्नलिखित समीकरण में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आएगा, यदि ‘÷’ और ‘×’ को आपस में बदल दिया जाए और ‘+’ और ‘−’ को आपस में बदल दिया जाए?<br><br>48 − 8 ÷ 1 + 30 × 5 = ?",
+        "op_en": [
+            "52",
+            "53",
+            "51",
+            "50"
+        ],
+        "op_hi": [
+            "52",
+            "53",
+            "51",
+            "50"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>Given equation: 48 &minus; 8 &divide; 1 + 30 &times; 5 = ?<br>After interchanging &lsquo;&divide;&rsquo; and &lsquo;&times;&rsquo;, and &lsquo;+&rsquo; and &lsquo;&minus;&rsquo;:<br>Equation becomes: 48 + 8 &times; 1 &minus; 30 &divide; 5 = ?<br>According to BODMAS rule:<br>&rArr; 48 + 8 &times; 1 &minus; 6 = ?<br>&rArr; 48 + 8 &minus; 6 = ?<br>&rArr; 56 &minus; 6 = 50.<br><br><b>Solution (HI):</b><br>दिया गया समीकरण: 48 &minus; 8 &divide; 1 + 30 &times; 5 = ?<br>&lsquo;&divide;&rsquo; और &lsquo;&times;&rsquo; को, तथा &lsquo;+&rsquo; और &lsquo;&minus;&rsquo; को आपस में बदलने के बाद:<br>समीकरण बन जाता है: 48 + 8 &times; 1 &minus; 30 &divide; 5 = ?<br>BODMAS नियम के अनुसार:<br>&rArr; 48 + 8 &times; 1 &minus; 6 = ?<br>&rArr; 48 + 8 &minus; 6 = ?<br>&rArr; 56 &minus; 6 = 50.<br><br><b>Short Trick:</b><br>Write directly with new symbols and solve mentally: 48 + (8&times;1) &minus; (30/5) = 48 + 8 &minus; 6 = 50."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Letter Analogy",
+        "difficulty": "Moderate",
+        "q_en": "HOEN is related to JKAP in a certain way based on the English alphabetical order. In the same way, SVCE is related to URYG. To which of the given options is GPUO related, following the same logic?",
+        "q_hi": "अंग्रेजी वर्णमाला क्रम के आधार पर HOEN एक निश्चित तरीके से JKAP से संबंधित है। उसी तरह, SVCE, URYG से संबंधित है। समान तर्क का अनुसरण करते हुए, GPUO दिए गए विकल्पों में से किससे संबंधित है?",
+        "op_en": [
+            "ILQQ",
+            "IQYT",
+            "ELYM",
+            "ITYQ"
+        ],
+        "op_hi": [
+            "ILQQ",
+            "IQYT",
+            "ELYM",
+            "ITYQ"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>The pattern followed is +2, &minus;4, &minus;4, +2.<br>H(+2) &rarr; J; O(&minus;4) &rarr; K; E(&minus;4) &rarr; A; N(+2) &rarr; P<br>S(+2) &rarr; U; V(&minus;4) &rarr; R; C(&minus;4) &rarr; Y; E(+2) &rarr; G<br>Similarly for GPUO:<br>G(+2) &rarr; I; P(&minus;4) &rarr; L; U(&minus;4) &rarr; Q; O(+2) &rarr; Q<br>Thus, GPUO is related to ILQQ.<br><br><b>Solution (HI):</b><br>अनुसरण किया गया पैटर्न +2, &minus;4, &minus;4, +2 है।<br>H(+2) &rarr; J; O(&minus;4) &rarr; K; E(&minus;4) &rarr; A; N(+2) &rarr; P<br>S(+2) &rarr; U; V(&minus;4) &rarr; R; C(&minus;4) &rarr; Y; E(+2) &rarr; G<br>उसी प्रकार GPUO के लिए:<br>G(+2) &rarr; I; P(&minus;4) &rarr; L; U(&minus;4) &rarr; Q; O(+2) &rarr; Q<br>इस प्रकार, GPUO, ILQQ से संबंधित है।<br><br><b>Short Trick:</b><br>Check first and last letters: G+2 = I, O+2 = Q. Option 1 starts with I and ends with Q."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Arrangement",
+        "difficulty": "Easy",
+        "q_en": "Each of the digits in the number 2458653297 is arranged in ascending order from left to right. What will be the sum of the digits which are third from the left and second from the right in the new number thus formed?",
+        "q_hi": "संख्या 2458653297 के प्रत्येक अंक को बाएं से दाएं आरोही क्रम में व्यवस्थित किया जाता है। इस प्रकार बनी नई संख्या में बाएं से तीसरे और दाएं से दूसरे अंकों का योग क्या होगा?",
+        "op_en": [
+            "9",
+            "10",
+            "11",
+            "8"
+        ],
+        "op_hi": [
+            "9",
+            "10",
+            "11",
+            "8"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>Original number: 2458653297<br>Digits arranged in ascending order from left to right: 2234556789<br>The digit third from the left is 3.<br>The digit second from the right is 8.<br>Sum = 3 + 8 = 11.<br><br><b>Solution (HI):</b><br>मूल संख्या: 2458653297<br>बाएं से दाएं आरोही क्रम में व्यवस्थित अंक: 2234556789<br>बाएं से तीसरा अंक 3 है।<br>दाएं से दूसरा अंक 8 है।<br>योग = 3 + 8 = 11.<br><br><b>Short Trick:</b><br>List lowest numbers: 2, 2, 3 (third is 3). List highest numbers: 9, 8 (second highest is 8). Sum = 11."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Series",
+        "difficulty": "Easy",
+        "q_en": "What should come in place of the question mark (?) in the given series?<br><br>210  212  209  213  208  ?",
+        "q_hi": "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए?<br><br>210  212  209  213  208  ?",
+        "op_en": [
+            "209",
+            "214",
+            "213",
+            "210"
+        ],
+        "op_hi": [
+            "209",
+            "214",
+            "213",
+            "210"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>The pattern is:<br>210 + 2 = 212<br>212 &minus; 3 = 209<br>209 + 4 = 213<br>213 &minus; 5 = 208<br>208 + 6 = 214<br>So, the missing number is 214.<br><br><b>Solution (HI):</b><br>पैटर्न इस प्रकार है:<br>210 + 2 = 212<br>212 &minus; 3 = 209<br>209 + 4 = 213<br>213 &minus; 5 = 208<br>208 + 6 = 214<br>अतः, लुप्त संख्या 214 है।<br><br><b>Short Trick:</b><br>Alternate series: 210, 209, 208 (decreasing by 1). 212, 213, ? (increasing by 1). Next is 214."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "",
+        "difficulty": "",
+        "q_en": "Select the correct mirror image of the given figure when the mirror is placed at MN as shown below.<br><br><img loading=\"lazy\" src=\"data:image/png;base64,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\" style=\"height: auto; max-width: 100%;\">",
+        "q_hi": "Select the correct mirror image of the given figure when the mirror is placed at MN as shown below.<br><br><img loading=\"lazy\" src=\"data:image/png;base64,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\" style=\"height: auto; max-width: 100%;\">",
+        "op_en": [
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAfCAYAAAAY7MgsAAADcElEQVR42u1ZDa1yMQydBCQgAQlIwAFIwAE4AAfgAByAA3AADpCwl3OTc9MsW9uN+/3kZU0W3rvhdm1Pe9aOELv8Uwk9BB2ADkCXDkAHoMsvBOB4PMb9fh8/n88k+qDnfD6PetOF5zXyer3Gd1ttxHv3+z1ut9u42WziarUa/sazSQCgcijGgpMw3CPz+TyGEOL7/f4q8NhvuVwOurSF/WoEAeO7t9ut2q7L5RJns5lqjxWroDnNAKYLmyIT/wYAyDDqwb5IBiTB6XQaF561ACD9A8A1gqqR78ImAIIFe6TNj8ejDgAZfCiHUjxDltRkzRQAIMBWNqFKawG4Xq/DO4vFYsxiLw0hoIzBbrcrJs56vR5BKOkOWmmCcnLCjLOyJgUARjyfzyFgXmcRIOjQKq4FAPoIvfTHe4aQDqHD+11UjBsABB7OlDIcmUhkvQDAuZQvsY/FkXxHK+NaAAA+bWBle2mIvvNdS6i7VAVNXRBL0AsA+RIOItskR1oHlYfGagEgrckK9wDdKqziXEI3AYBs1igqd8jluJIcqWWeVcItAFCnpDXSkLZPq5DuchRXBQBKiNmMjLFKkACUuBL6mHklumO2ap1XDQAl+pRUMbUwZjlwXQDAsbRl85Qq30HHURLPAchKYZCxv1wscQ8ArN5cUtBerbsD2On+XCU/CQB8bQIgnQPgsKdjoEMaWMxwq6PA97ShxwuAFmQGSrOF9uZWqUK/rgBJGTDAopaaA9QLgOw+DofD8D+XnBWsqV6ClVtW3869kPHSBqzSOzgrSwA1HcLYzOJuLwAaJeQOslyQvWeAHCKtVcpmdoA1M4fWYTVfxpG7c7yWAqANUQyK1n3I7M8B7gXAQ4lMiFJn5mkccvpKtoWcswiYdnB6+VJeZ1hXHlpQCFJpLw8AXpqSQ1qJUmgPzkJtoodPBKuUhMGaEmt6aW0OSDMc+5AbtTlA8vY3d0Hcy9M8WLOHvCDEJ65Xcu06g68ladAMyE2pUC5vHz1TLA7NdBKmcV4dmhMWALXXB6wWZLiW3TLB2B7Lyz0Oq1qVmLehDBx/bKByfOKW1MO5EEzC6UHHTsLT8mnfswCQnYu32/PwPGxCXHLX9tjLc2UfWpV7f5RJHYNDWFP9Sva/CCoCfuGzxrfwJ5V3mQiALh2ADkCXDkAHoMv08gMKkTb1XdJvDAAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAAAeCAYAAADermvOAAADZklEQVR42u1ZbY0CMRBdCUhAAhJwwDkACTgAB+AAHIADcAAOwAES9vI2eWSy2em8drkcPzrJ5HLQTjvz5rM0baWvpKaaoAJTqQJTgalUganAFNHr9Wq322273++ltVi3Wq3an5+fdr1et+fzOfu84/HYycG5fVbuYenxeLz3QnapDa7Xa6eP1Q2f/RswUKxpmnY6nSbXwZiTyaRb22fshZzonPl8Pri/LyuHYEjuvVwu2fqfTidXL1W3fwOGa8DwJBjgdrt1Ss1ms/d+z2PxOb7HOhgBMhAZh8PhzfisBBjKBQP4HEKU2b24E3QC4z72ztD364Chp282m8HvEfoEbYhg+Mj7kDZygUEaxR44B71eTWcwNEHx9IKs5XL5BkeR3YzJpWAeogBDpT2vQQRh/2KxGPyeUYV06FEJMExjkMuIU2sUnQ0y1LWIsI8C4+V3HJQDzPP5LIrKCNgSYOBY1AM6wDnUdGZTs1I/KFuJmiYHFJsr4SHwLgKl5PYcj0nVgRSwucAwPSKN5jhAKTHqowZDBoZGhQJ9tJFblW4IilLp3HZWBTYXGMq06ZFOVupAStqM9JeAYYFLFV0qGBmknw6xPte7Aa5XZ3KAYSqCPC/lfJrYwUWgNznCUgWOnU1kEMiyrSlZJXY3PAsgW7Ztd0TwWk8v3jGVcuAE/fPJ3sBMW3qdZxYwSvgpxd/WIXh/6YSNvalhTgUmZXzFGRnBQ+xF9EcjxraTpcDYFJMzAUfd0G636/4n21knRbyPTad9jjoonoUIsXcAe3s4q6Vs+VFgbB1KRYvS76v3GTpLrTH2CSZiT+9I59KWXwaGuTiVF6MaQ0NEIQwjgD2Ps9EylIJUYBgRKQNRb2+mwR1paOV9jfIUICVglMGIIeodGimpDmwE2Is8BRg13dnh09Ob90HTkaqZdlSI0tjH5hj7iOcpa71rKGrsAGuHPa8ujHkroxMps1Q0O9mHVfy93++DP4dQdzWVF03++Iu0Zid/eEFkEPs0jr8wEC7an2s8o/P8lHIRMLnPKIwuREQqGuwIwDbePop6Tv1nb2U4GJ1RJ0wcMIcKL+TgBSHqgCKDRsDYTkp9S1PqCPUamtFwlpK+Rr8u87EPnjLm1z7IAI9tn7+NYJex9qm/+X8pVWAqMJUqMBWYSn9FvwiNhmjoxytCAAAAAElFTkSuQmCC\" style=\"height: auto; max-width: 100%;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAAAfCAYAAADz23MvAAADaklEQVR42u2Zi40iMQyGpwRKoARKoAO2AyiBDqAD6AA6gA6gA0qADihhTt9IP7KiPJwZ7YnTxZK1u5A4sX8/s13f6GuoayZoYDRqYDQwGjUw/kMw3u93v9/v++Px6FrLus1m0//8/PTb7ba/Xq/V553P50EO54bsuYel5/P52YvssXS/3wd9pug2GQyU6bqun8/n2XUYcDabDWtDZi9ySucsl8vo/lBWDWE87b3dbtX6Px6P7L24D7p/DRhaA+MxKI0Sl8ulXywWn/0pz+RzvmcdgCKDCDidTh/mszFgSC6MUWuBkIPxc7fbDTqhH/ezsom8rwBDnsNlY0RYC6gYYexSBJEmasEgjbAHh5BRvamKe8jY6/U6uQ+dvZHX1eZrlIZ1uAcMKYonxYhLsn+1WkW/V/Tkwn0MGEpRyFVkeWuO9nrOk7OVIq/zekEsLxJ6NWC8Xq9R0VcCcwwYOJP0QAccoiZVee5k05nOytmgqwlHLoBH4EUCx5OrtdaTN3N5PadILRhKfXhtrYF1FhH7V1tbGZJLh3nR5sOcEWyhq209vWDWgiGZNvXJsUpOgw4hkL8OhsIrVzilVMkIYapjfa0XA2iqbtSAodSKvLB2xT4PCbCmRPooMHQoqanUkZSMgCzb6om9RMdigQRYy7ZFLpE8O6aX7pjrfFS8U2DgGOH9xLlBsPN0DLnU4ingtq7g5WMnXfamBseaoS9ncI8Dak2pFY9xriN0gZETUALDpo/SlO1NL/DhcBj+FttZxFN8baoMWakq5TSx4h92avZusCJ3cmTkwLB1JRcVOU+rnQtiZ3lrhn3+KHFKb1tzvFHuSX+dJ7emwtFTM0r51b5dwSnlbFTEFPKCIaPk2lfpnZs5atp1O2eMLuC2u0gZSdNlyggexayhU6lMoKYizAOGN5XZgbCUqrBNDlj7rlbKDpPmDBWynILsUdGNeZEdKlM52Ob5KW9TchzPrOPxfMlDv5hM7mS7vFLNrJrA+UnKshM4qaVkBF4y7esmSuAl4dyRuqzHs0pgeKIv5vm5KRtHszUI3dTC2jae3z3PJqPfpjiYjmYQ4hz6YsVTT8+ldFAyYgkMyfG+PdmILr22IlsRUKPbpFdbPaiB8thZgX3IgKe2ut9GU3Vr/wP/ImpgNDAaNTAaGI0aGP8g/QGQl6lR9Bw3BgAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGEAAAAeCAYAAAA8cnC3AAADY0lEQVR42u2ZgW0qMQyGbwRGYARG6Ahs0I7ABnSDsgFsABuUDWCDdoOOcE/fST+yoovj5PR4T1UsRXftJY7t33bsMIyd/jkN3QQdhE4dhA5Cpw7CLwHh5+dnfH9/Hw+HQ3j+/X4fr9fr9PwNhE7os9vtxre3t3G73U7v/O8pIHx9fY3DMIzr9bo47+XlZZprB+sQnO9zdDwep3mr1So7B0JhTw6chO/IEDWsZLzdbtl55/N5ki3Vy+rnyf00EKygPPEUDG9B8YTVPNa0gmCN+v39XdRL4Ht6kQHEExkBGl0ZRAJrpbMH5F8Hge8SBsEwRu57zks/Pz8fyvLeAoIFE+OVSHNPp9Psd4wqmfb7fRb419fXBxCp7k0gKPcxxLAEgjzKSwPiwcgJKqPk+ERAEJiR1Cl5lkRnDfhDxNvn8jlMSyAgZMT7CGEAyyltPW8uGiIgALDSYi6iIo4TAWkOfC8ahhIANrdhVNKKQOHdU17feS4lATpnnAgIVp7IyKWiFtpsNi74QySUOExTFMmF9mAteUHEa0rpUJ58uVymA1aDvyMg2POFuemwBYSXw1sdKFfKZ0FQCohULp7yOpyYg3e1KocCXjkYAQFSZM95pUrZSK6vIVVSubQ8lBZ6AkU98OPj4xGSdtR6kvYCfDvEOwKC9JpLkR5ANvWl+2tgj9o9XRBKIVTTrBFVaV8QMVjasC0pUdOeIU05NvIj8tScI82RIBC8AyoCAnOURjhHatNRqWavBcHytKBK31IqstUTutmR040z1dNhEQgR75EApKQWEoBe11kLwtw1hlJRqYCIRkyNDkNJUK+8jJwJESNGFPCuG2pBUKWllKT1nC01VZp3dqR29GQbljQZ8vIICDkjYgDWw+tZ6cjKjpEiUT+XJQDNS684nvT3eDf3CfYCK3Jnk4soGSOXi7WPVyq3gCAnQz4ZKtrLYAulL57ptbyu+MW3dM6EO2aeGNJ2zKAbvbORMBhMDZbtM3IGSBWGB97L3hoWqJZUJ0erIbxcctnSmehI+ZaKkaa7IzbRQRst63KNVuTOne+2V1jSrOWuMVquKSSXBcNeb0d5DjUb4tV4QEvXy3o8GM/Qr0+Rgy3lwWUffPD+dER/4bPerLVLCV6t9um/Mf8H1EHoIHTqIHQQOon+ALjyMDDvg7P/AAAAAElFTkSuQmCC\" style=\"height: auto; max-width: 100%;\">"
+        ],
+        "op_hi": [
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAfCAYAAAAY7MgsAAADcElEQVR42u1ZDa1yMQydBCQgAQlIwAFIwAE4AAfgAByAA3AADpCwl3OTc9MsW9uN+/3kZU0W3rvhdm1Pe9aOELv8Uwk9BB2ADkCXDkAHoMsvBOB4PMb9fh8/n88k+qDnfD6PetOF5zXyer3Gd1ttxHv3+z1ut9u42WziarUa/sazSQCgcijGgpMw3CPz+TyGEOL7/f4q8NhvuVwOurSF/WoEAeO7t9ut2q7L5RJns5lqjxWroDnNAKYLmyIT/wYAyDDqwb5IBiTB6XQaF561ACD9A8A1gqqR78ImAIIFe6TNj8ejDgAZfCiHUjxDltRkzRQAIMBWNqFKawG4Xq/DO4vFYsxiLw0hoIzBbrcrJs56vR5BKOkOWmmCcnLCjLOyJgUARjyfzyFgXmcRIOjQKq4FAPoIvfTHe4aQDqHD+11UjBsABB7OlDIcmUhkvQDAuZQvsY/FkXxHK+NaAAA+bWBle2mIvvNdS6i7VAVNXRBL0AsA+RIOItskR1oHlYfGagEgrckK9wDdKqziXEI3AYBs1igqd8jluJIcqWWeVcItAFCnpDXSkLZPq5DuchRXBQBKiNmMjLFKkACUuBL6mHklumO2ap1XDQAl+pRUMbUwZjlwXQDAsbRl85Qq30HHURLPAchKYZCxv1wscQ8ArN5cUtBerbsD2On+XCU/CQB8bQIgnQPgsKdjoEMaWMxwq6PA97ShxwuAFmQGSrOF9uZWqUK/rgBJGTDAopaaA9QLgOw+DofD8D+XnBWsqV6ClVtW3869kPHSBqzSOzgrSwA1HcLYzOJuLwAaJeQOslyQvWeAHCKtVcpmdoA1M4fWYTVfxpG7c7yWAqANUQyK1n3I7M8B7gXAQ4lMiFJn5mkccvpKtoWcswiYdnB6+VJeZ1hXHlpQCFJpLw8AXpqSQ1qJUmgPzkJtoodPBKuUhMGaEmt6aW0OSDMc+5AbtTlA8vY3d0Hcy9M8WLOHvCDEJ65Xcu06g68ladAMyE2pUC5vHz1TLA7NdBKmcV4dmhMWALXXB6wWZLiW3TLB2B7Lyz0Oq1qVmLehDBx/bKByfOKW1MO5EEzC6UHHTsLT8mnfswCQnYu32/PwPGxCXHLX9tjLc2UfWpV7f5RJHYNDWFP9Sva/CCoCfuGzxrfwJ5V3mQiALh2ADkCXDkAHoMv08gMKkTb1XdJvDAAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAAAeCAYAAADermvOAAADZklEQVR42u1ZbY0CMRBdCUhAAhJwwDkACTgAB+AAHIADcAAOwAES9vI2eWSy2em8drkcPzrJ5HLQTjvz5rM0baWvpKaaoAJTqQJTgalUganAFNHr9Wq322273++ltVi3Wq3an5+fdr1et+fzOfu84/HYycG5fVbuYenxeLz3QnapDa7Xa6eP1Q2f/RswUKxpmnY6nSbXwZiTyaRb22fshZzonPl8Pri/LyuHYEjuvVwu2fqfTidXL1W3fwOGa8DwJBjgdrt1Ss1ms/d+z2PxOb7HOhgBMhAZh8PhzfisBBjKBQP4HEKU2b24E3QC4z72ztD364Chp282m8HvEfoEbYhg+Mj7kDZygUEaxR44B71eTWcwNEHx9IKs5XL5BkeR3YzJpWAeogBDpT2vQQRh/2KxGPyeUYV06FEJMExjkMuIU2sUnQ0y1LWIsI8C4+V3HJQDzPP5LIrKCNgSYOBY1AM6wDnUdGZTs1I/KFuJmiYHFJsr4SHwLgKl5PYcj0nVgRSwucAwPSKN5jhAKTHqowZDBoZGhQJ9tJFblW4IilLp3HZWBTYXGMq06ZFOVupAStqM9JeAYYFLFV0qGBmknw6xPte7Aa5XZ3KAYSqCPC/lfJrYwUWgNznCUgWOnU1kEMiyrSlZJXY3PAsgW7Ztd0TwWk8v3jGVcuAE/fPJ3sBMW3qdZxYwSvgpxd/WIXh/6YSNvalhTgUmZXzFGRnBQ+xF9EcjxraTpcDYFJMzAUfd0G636/4n21knRbyPTad9jjoonoUIsXcAe3s4q6Vs+VFgbB1KRYvS76v3GTpLrTH2CSZiT+9I59KWXwaGuTiVF6MaQ0NEIQwjgD2Ps9EylIJUYBgRKQNRb2+mwR1paOV9jfIUICVglMGIIeodGimpDmwE2Is8BRg13dnh09Ob90HTkaqZdlSI0tjH5hj7iOcpa71rKGrsAGuHPa8ujHkroxMps1Q0O9mHVfy93++DP4dQdzWVF03++Iu0Zid/eEFkEPs0jr8wEC7an2s8o/P8lHIRMLnPKIwuREQqGuwIwDbePop6Tv1nb2U4GJ1RJ0wcMIcKL+TgBSHqgCKDRsDYTkp9S1PqCPUamtFwlpK+Rr8u87EPnjLm1z7IAI9tn7+NYJex9qm/+X8pVWAqMJUqMBWYSn9FvwiNhmjoxytCAAAAAElFTkSuQmCC\" style=\"height: auto; max-width: 100%;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAAAfCAYAAADz23MvAAADaklEQVR42u2Zi40iMQyGpwRKoARKoAO2AyiBDqAD6AA6gA6gA0qADihhTt9IP7KiPJwZ7YnTxZK1u5A4sX8/s13f6GuoayZoYDRqYDQwGjUw/kMw3u93v9/v++Px6FrLus1m0//8/PTb7ba/Xq/V553P50EO54bsuYel5/P52YvssXS/3wd9pug2GQyU6bqun8/n2XUYcDabDWtDZi9ySucsl8vo/lBWDWE87b3dbtX6Px6P7L24D7p/DRhaA+MxKI0Sl8ulXywWn/0pz+RzvmcdgCKDCDidTh/mszFgSC6MUWuBkIPxc7fbDTqhH/ezsom8rwBDnsNlY0RYC6gYYexSBJEmasEgjbAHh5BRvamKe8jY6/U6uQ+dvZHX1eZrlIZ1uAcMKYonxYhLsn+1WkW/V/Tkwn0MGEpRyFVkeWuO9nrOk7OVIq/zekEsLxJ6NWC8Xq9R0VcCcwwYOJP0QAccoiZVee5k05nOytmgqwlHLoBH4EUCx5OrtdaTN3N5PadILRhKfXhtrYF1FhH7V1tbGZJLh3nR5sOcEWyhq209vWDWgiGZNvXJsUpOgw4hkL8OhsIrVzilVMkIYapjfa0XA2iqbtSAodSKvLB2xT4PCbCmRPooMHQoqanUkZSMgCzb6om9RMdigQRYy7ZFLpE8O6aX7pjrfFS8U2DgGOH9xLlBsPN0DLnU4ingtq7g5WMnXfamBseaoS9ncI8Dak2pFY9xriN0gZETUALDpo/SlO1NL/DhcBj+FttZxFN8baoMWakq5TSx4h92avZusCJ3cmTkwLB1JRcVOU+rnQtiZ3lrhn3+KHFKb1tzvFHuSX+dJ7emwtFTM0r51b5dwSnlbFTEFPKCIaPk2lfpnZs5atp1O2eMLuC2u0gZSdNlyggexayhU6lMoKYizAOGN5XZgbCUqrBNDlj7rlbKDpPmDBWynILsUdGNeZEdKlM52Ob5KW9TchzPrOPxfMlDv5hM7mS7vFLNrJrA+UnKshM4qaVkBF4y7esmSuAl4dyRuqzHs0pgeKIv5vm5KRtHszUI3dTC2jae3z3PJqPfpjiYjmYQ4hz6YsVTT8+ldFAyYgkMyfG+PdmILr22IlsRUKPbpFdbPaiB8thZgX3IgKe2ut9GU3Vr/wP/ImpgNDAaNTAaGI0aGP8g/QGQl6lR9Bw3BgAAAABJRU5ErkJggg==\" style=\"height: auto; max-width: 100%;\">",
+            "<img loading=\"lazy\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGEAAAAeCAYAAAA8cnC3AAADY0lEQVR42u2ZgW0qMQyGbwRGYARG6Ahs0I7ABnSDsgFsABuUDWCDdoOOcE/fST+yoovj5PR4T1UsRXftJY7t33bsMIyd/jkN3QQdhE4dhA5Cpw7CLwHh5+dnfH9/Hw+HQ3j+/X4fr9fr9PwNhE7os9vtxre3t3G73U7v/O8pIHx9fY3DMIzr9bo47+XlZZprB+sQnO9zdDwep3mr1So7B0JhTw6chO/IEDWsZLzdbtl55/N5ki3Vy+rnyf00EKygPPEUDG9B8YTVPNa0gmCN+v39XdRL4Ht6kQHEExkBGl0ZRAJrpbMH5F8Hge8SBsEwRu57zks/Pz8fyvLeAoIFE+OVSHNPp9Psd4wqmfb7fRb419fXBxCp7k0gKPcxxLAEgjzKSwPiwcgJKqPk+ERAEJiR1Cl5lkRnDfhDxNvn8jlMSyAgZMT7CGEAyyltPW8uGiIgALDSYi6iIo4TAWkOfC8ahhIANrdhVNKKQOHdU17feS4lATpnnAgIVp7IyKWiFtpsNi74QySUOExTFMmF9mAteUHEa0rpUJ58uVymA1aDvyMg2POFuemwBYSXw1sdKFfKZ0FQCohULp7yOpyYg3e1KocCXjkYAQFSZM95pUrZSK6vIVVSubQ8lBZ6AkU98OPj4xGSdtR6kvYCfDvEOwKC9JpLkR5ANvWl+2tgj9o9XRBKIVTTrBFVaV8QMVjasC0pUdOeIU05NvIj8tScI82RIBC8AyoCAnOURjhHatNRqWavBcHytKBK31IqstUTutmR040z1dNhEQgR75EApKQWEoBe11kLwtw1hlJRqYCIRkyNDkNJUK+8jJwJESNGFPCuG2pBUKWllKT1nC01VZp3dqR29GQbljQZ8vIICDkjYgDWw+tZ6cjKjpEiUT+XJQDNS684nvT3eDf3CfYCK3Jnk4soGSOXi7WPVyq3gCAnQz4ZKtrLYAulL57ptbyu+MW3dM6EO2aeGNJ2zKAbvbORMBhMDZbtM3IGSBWGB97L3hoWqJZUJ0erIbxcctnSmehI+ZaKkaa7IzbRQRst63KNVuTOne+2V1jSrOWuMVquKSSXBcNeb0d5DjUb4tV4QEvXy3o8GM/Qr0+Rgy3lwWUffPD+dER/4bPerLVLCV6t9um/Mf8H1EHoIHTqIHQQOon+ALjyMDDvg7P/AAAAAElFTkSuQmCC\" style=\"height: auto; max-width: 100%;\">"
+        ],
+        "ans": 2,
+        "solution": ""
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Number Series",
+        "difficulty": "Moderate",
+        "q_en": "What should come in place of the question mark (?) in the given series?<br><br>138     131.6     125.2     ?     112.4     106",
+        "q_hi": "दी गई श्रृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आना चाहिए?<br><br>138     131.6     125.2     ?     112.4     106",
+        "op_en": [
+            "121.4",
+            "120.6",
+            "118.8",
+            "115.8"
+        ],
+        "op_hi": [
+            "121.4",
+            "120.6",
+            "118.8",
+            "115.8"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>The pattern is a constant subtraction of 6.4.<br>138 &minus; 6.4 = 131.6<br>131.6 &minus; 6.4 = 125.2<br>125.2 &minus; 6.4 = 118.8<br>118.8 &minus; 6.4 = 112.4<br>112.4 &minus; 6.4 = 106<br>So, the missing number is 118.8.<br><br><b>Solution (HI):</b><br>पैटर्न में लगातार 6.4 घटाया जा रहा है।<br>138 &minus; 6.4 = 131.6<br>131.6 &minus; 6.4 = 125.2<br>125.2 &minus; 6.4 = 118.8<br>118.8 &minus; 6.4 = 112.4<br>112.4 &minus; 6.4 = 106<br>अतः, लुप्त संख्या 118.8 है।<br><br><b>Short Trick:</b><br>Calculate difference: 138 &minus; 131.6 = 6.4. Simply subtract 6.4 from 125.2 to get 118.8."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Letter Analogy",
+        "difficulty": "Moderate",
+        "q_en": "ANIT is related to GINX a certain way based on the English alphabetical order. In the same way, ECLV is related to KLCZ. To which of the given options is MGIL related, following the same logic?",
+        "q_hi": "अंग्रेजी वर्णमाला क्रम के आधार पर ANIT एक निश्चित तरीके से GINX से संबंधित है। उसी तरह, ECLV, KLCZ से संबंधित है। समान तर्क का अनुसरण करते हुए, MGIL दिए गए विकल्पों में से किससे संबंधित है?",
+        "op_en": [
+            "SGIP",
+            "QGIR",
+            "QIGR",
+            "SIGP"
+        ],
+        "op_hi": [
+            "SGIP",
+            "QGIR",
+            "QIGR",
+            "SIGP"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>The pattern followed is:<br>First letter + 6, Last letter + 4, and the middle two letters are reversed.<br>A(+6) &rarr; G; NI &rarr; IN; T(+4) &rarr; X &rArr; GINX<br>E(+6) &rarr; K; CL &rarr; LC; V(+4) &rarr; Z &rArr; KLCZ<br>Similarly for MGIL:<br>M(+6) &rarr; S; GI &rarr; IG; L(+4) &rarr; P<br>Thus, MGIL is related to SIGP.<br><br><b>Solution (HI):</b><br>अनुसरण किया गया पैटर्न है:<br>पहला अक्षर + 6, अंतिम अक्षर + 4, और बीच के दो अक्षरों को उलट दिया जाता है।<br>A(+6) &rarr; G; NI &rarr; IN; T(+4) &rarr; X &rArr; GINX<br>E(+6) &rarr; K; CL &rarr; LC; V(+4) &rarr; Z &rArr; KLCZ<br>उसी प्रकार MGIL के लिए:<br>M(+6) &rarr; S; GI &rarr; IG; L(+4) &rarr; P<br>इस प्रकार, MGIL, SIGP से संबंधित है।<br><br><b>Short Trick:</b><br>Middle letters of MGIL are GI. They reverse to IG. Only option 4 has IG in the middle (SIGP)."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability1",
+        "topic": "Letter Classification",
+        "difficulty": "Moderate",
+        "q_en": "Based on the English alphabetical order, three of the following four letter-cluster pairs are alike in a certain way and thus form a group. Which letter-cluster pair DOES NOT belong to that group? <br>(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+        "q_hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूह युग्मों में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। कौन सा अक्षर-समूह युग्म उस समूह से संबंधित नहीं है?<br>(नोट: बेजोड़ का चयन व्यंजनों/स्वरों की संख्या या अक्षर-समूह में उनके स्थान पर आधारित नहीं है।)",
+        "op_en": [
+            "DM-JF",
+            "KT-QM",
+            "MV-SP",
+            "AJ-GC"
+        ],
+        "op_hi": [
+            "DM-JF",
+            "KT-QM",
+            "MV-SP",
+            "AJ-GC"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>The pattern followed in the pairs is: First letter + 6, Second letter &minus; 7.<br>D(+6) &rarr; J; M(&minus;7) &rarr; F &rArr; DM-JF<br>K(+6) &rarr; Q; T(&minus;7) &rarr; M &rArr; KT-QM<br>A(+6) &rarr; G; J(&minus;7) &rarr; C &rArr; AJ-GC<br>But in MV-SP:<br>M(+6) &rarr; S; V(&minus;6) &rarr; P<br>Here, the second letter is subtracted by 6 instead of 7. So, MV-SP is the odd one out.<br><br><b>Solution (HI):</b><br>युग्मों में अनुसरण किया गया पैटर्न है: पहला अक्षर + 6, दूसरा अक्षर &minus; 7.<br>D(+6) &rarr; J; M(&minus;7) &rarr; F &rArr; DM-JF<br>K(+6) &rarr; Q; T(&minus;7) &rarr; M &rArr; KT-QM<br>A(+6) &rarr; G; J(&minus;7) &rarr; C &rArr; AJ-GC<br>लेकिन MV-SP में:<br>M(+6) &rarr; S; V(&minus;6) &rarr; P<br>यहाँ, दूसरे अक्षर में 7 के बजाय 6 घटाया गया है। इसलिए, MV-SP बेजोड़ है।<br><br><b>Short Trick:</b><br>Check difference between second letters: M-F = 7, T-M = 7, J-C = 7. V-P = 6."
+    }
+]
