@@ -1,0 +1,422 @@
+[
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Blood Relation",
+        "difficulty": "Medium",
+        "q_en": "In a certain code language,<br>A @ B means ‘A is the mother of B’,<br>A – B means ‘A is the brother of B’,<br>A ÷ B means ‘A is the wife of B’ and<br>A &amp; B means ‘A is the father of B’.<br>How is R related to G if ‘R @ P – C ÷ D &amp; G’?",
+        "q_hi": "एक निश्चित कूट भाषा में,<br>A @ B का अर्थ है 'A, B की माता है',<br>A – B का अर्थ है 'A, B का भाई है',<br>A ÷ B का अर्थ है 'A, B की पत्नी है' और<br>A &amp; B का अर्थ है 'A, B का पिता है'।<br>यदि ‘R @ P – C ÷ D &amp; G’ है, तो R, G से किस प्रकार संबंधित है?",
+        "op_en": [
+            "Mother's mother",
+            "Mother's sister",
+            "Sister",
+            "Mother"
+        ],
+        "op_hi": [
+            "माता की माता",
+            "माता की बहन",
+            "बहन",
+            "माता"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>Given expression: R @ P – C ÷ D &amp; G<br>1) R @ P &rarr; R is the mother of P.<br>2) P – C &rarr; P is the brother of C.<br>3) C ÷ D &rarr; C is the wife of D.<br>4) D &amp; G &rarr; D is the father of G.<br>From the relations, C and D are the parents of G (C is mother, D is father). P is the brother of C. R is the mother of P and C. Therefore, R is the maternal grandmother (Mother's mother) of G.<br><br><b>Solution (HI):</b><br>दी गई अभिव्यक्ति: R @ P – C ÷ D &amp; G<br>1) R @ P &rarr; R, P की माता है।<br>2) P – C &rarr; P, C का भाई है।<br>3) C ÷ D &rarr; C, D की पत्नी है।<br>4) D &amp; G &rarr; D, G का पिता है।<br>इन संबंधों से, C और D, G के माता-पिता हैं (C माता है, D पिता है)। P, C का भाई है। R, P और C की माता है। इसलिए, R, G की नानी (माता की माता) है।<br><br><b>Short Trick:</b><br>Trace backwards from G: G's father is D, D's wife is C (G's mother), C's brother is P, P's mother is R. So, R is C's mother &rarr; G's mother's mother."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Blood Relation",
+        "difficulty": "Medium",
+        "q_en": "In a certain code language,<br>A @ B means ‘A is the son of B’,<br>A – B means ‘A is the brother of B’,<br>A ÷ B means ‘A is the wife of B’ and<br>A &amp; B means ‘A is the father of B’.<br>How is R related to G if ‘R @ P – C ÷ D &amp; G’?",
+        "q_hi": "एक निश्चित कूट भाषा में,<br>A @ B का अर्थ है 'A, B का पुत्र है',<br>A – B का अर्थ है 'A, B का भाई है',<br>A ÷ B का अर्थ है 'A, B की पत्नी है' और<br>A &amp; B का अर्थ है 'A, B का पिता है'।<br>यदि ‘R @ P – C ÷ D &amp; G’ है, तो R, G से किस प्रकार संबंधित है?",
+        "op_en": [
+            "Mother's father",
+            "Mother's brother's son",
+            "Mother's son",
+            "Brother's son"
+        ],
+        "op_hi": [
+            "माता के पिता",
+            "माता के भाई का पुत्र",
+            "माता का पुत्र",
+            "भाई का पुत्र"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>Given expression: R @ P – C ÷ D &amp; G<br>1) R @ P &rarr; R is the son of P.<br>2) P – C &rarr; P is the brother of C.<br>3) C ÷ D &rarr; C is the wife of D.<br>4) D &amp; G &rarr; D is the father of G.<br>Here, C (mother) and D (father) are the parents of G. P is the brother of C, making P the maternal uncle of G. R is the son of P. Thus, R is the son of G's mother's brother.<br><br><b>Solution (HI):</b><br>दी गई अभिव्यक्ति: R @ P – C ÷ D &amp; G<br>1) R @ P &rarr; R, P का पुत्र है।<br>2) P – C &rarr; P, C का भाई है।<br>3) C ÷ D &rarr; C, D की पत्नी है।<br>4) D &amp; G &rarr; D, G का पिता है।<br>यहाँ, C (माता) और D (पिता), G के माता-पिता हैं। P, C का भाई है, जिससे P, G का मामा बन जाता है। R, P का पुत्र है। इस प्रकार, R, G की माता के भाई का पुत्र है।<br><br><b>Short Trick:</b><br>G's parents are C &amp; D. C's brother is P (Maternal Uncle). R is P's son. Hence, R = Mother's brother's son."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "difficulty": "Medium",
+        "q_en": "Six boxes, D, E, F, G, H and Z, are kept one over the other but not necessarily in the same order. Only G is kept above E. Only H is kept between E and Z. Only two boxes are kept between H and F. How many boxes are kept between E and D?",
+        "q_hi": "छह डिब्बे, D, E, F, G, H और Z, एक के ऊपर एक रखे गए हैं लेकिन जरूरी नहीं कि इसी क्रम में हों। E के ऊपर केवल G रखा गया है। E और Z के बीच केवल H रखा गया है। H और F के बीच केवल दो डिब्बे रखे गए हैं। E और D के बीच कितने डिब्बे रखे गए हैं?",
+        "op_en": [
+            "Three",
+            "One",
+            "Four",
+            "Two"
+        ],
+        "op_hi": [
+            "तीन",
+            "एक",
+            "चार",
+            "दो"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>Let the positions be 1 to 6 from bottom to top.<br>1) 'Only G is kept above E' &rarr; G is at the topmost position (6) and E is at (5).<br>2) 'Only H is kept between E and Z' &rarr; E is at (5), so H must be at (4) and Z at (3).<br>3) 'Only two boxes are kept between H and F' &rarr; H is at (4), leaving two gaps (3 and 2) means F must be at (1).<br>4) The remaining box D will be at position (2).<br>Arrangement (Top to Bottom): G, E, H, Z, D, F.<br>The boxes between E and D are H and Z (Two boxes).<br><br><b>Solution (HI):</b><br>मान लीजिए कि नीचे से ऊपर तक स्थान 1 से 6 हैं।<br>1) 'E के ऊपर केवल G रखा गया है' &rarr; G सबसे ऊपरी स्थान (6) पर है और E (5) पर है।<br>2) 'E और Z के बीच केवल H रखा गया है' &rarr; E (5) पर है, इसलिए H (4) पर और Z (3) पर होना चाहिए।<br>3) 'H और F के बीच केवल दो डिब्बे रखे गए हैं' &rarr; H (4) पर है, दो स्थान (3 और 2) छोड़ने पर F (1) पर होना चाहिए।<br>4) शेष डिब्बा D स्थान (2) पर होगा।<br>क्रम (ऊपर से नीचे): G, E, H, Z, D, F.<br>E और D के बीच H और Z (दो डिब्बे) हैं।<br><br><b>Short Trick:</b><br>Fix positions directly: Top is G, then E. H is between E and Z &rarr; G - E - H - Z. Two boxes between H and F &rarr; G - E - H - Z - D - F. Between E and D, there are 2 boxes."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphabet Test",
+        "difficulty": "Medium",
+        "q_en": "Each vowel in the word ITINERUNTLY is changed to the letter immediately preceding it in the English alphabetical order, and each consonant is changed to the letter immediately following it in the English alphabetical order. How many letters will appear exactly twice in the group of letters thus formed?",
+        "q_hi": "शब्द ITINERUNTLY के प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके ठीक पहले वाले अक्षर से बदल दिया जाता है, और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद वाले अक्षर से बदल दिया जाता है। इस प्रकार बने अक्षरों के समूह में कितने अक्षर ठीक दो बार दिखाई देंगे?",
+        "op_en": [
+            "Three",
+            "Two",
+            "One",
+            "Four"
+        ],
+        "op_hi": [
+            "तीन",
+            "दो",
+            "एक",
+            "चार"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>Word: I T I N E R U N T L Y<br>Vowels (changed to -1): I &rarr; H, E &rarr; D, U &rarr; T<br>Consonants (changed to +1): T &rarr; U, N &rarr; O, R &rarr; S, L &rarr; M, Y &rarr; Z<br>New sequence: H - U - H - O - D - S - T - O - U - M - Z<br>Frequencies of letters in the new sequence:<br>H: 2, U: 2, O: 2, D: 1, S: 1, T: 1, M: 1, Z: 1.<br>Letters appearing exactly twice are H, U, and O (Three letters).<br><br><b>Solution (HI):</b><br>शब्द: I T I N E R U N T L Y<br>स्वर (-1 में बदले गए): I &rarr; H, E &rarr; D, U &rarr; T<br>व्यंजन (+1 में बदले गए): T &rarr; U, N &rarr; O, R &rarr; S, L &rarr; M, Y &rarr; Z<br>नया क्रम: H - U - H - O - D - S - T - O - U - M - Z<br>नए क्रम में अक्षरों की आवृत्ति:<br>H: 2, U: 2, O: 2, D: 1, S: 1, T: 1, M: 1, Z: 1.<br>ठीक दो बार आने वाले अक्षर H, U और O (तीन अक्षर) हैं।<br><br><b>Short Trick:</b><br>Direct mapping: I&rarr;H, T&rarr;U, I&rarr;H, N&rarr;O, E&rarr;D, R&rarr;S, U&rarr;T, N&rarr;O, T&rarr;U, L&rarr;M, Y&rarr;Z. Count duplicates directly: H(2), U(2), O(2). Total = 3."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding-Decoding",
+        "difficulty": "Easy",
+        "q_en": "In a certain code language, ‘CROP’ is coded as ‘2935’ and ‘COPE’ is coded as ‘7352’. What is the code for ‘E’ in that language?",
+        "q_hi": "एक निश्चित कूट भाषा में, ‘CROP’ को ‘2935’ के रूप में और ‘COPE’ को ‘7352’ के रूप में कूटबद्ध किया जाता है। उस भाषा में ‘E’ के लिए कूट क्या है?",
+        "op_en": [
+            "2",
+            "3",
+            "5",
+            "7"
+        ],
+        "op_hi": [
+            "2",
+            "3",
+            "5",
+            "7"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>CROP = 2, 9, 3, 5<br>COPE = 7, 3, 5, 2<br>The common letters between 'CROP' and 'COPE' are C, O, P.<br>The common digits between '2935' and '7352' are 2, 3, 5.<br>Thus, the codes for C, O, P are 2, 3, 5 in any order.<br>The remaining letter in 'COPE' is 'E' and the remaining digit is '7'. Therefore, 'E' is coded as '7'.<br><br><b>Solution (HI):</b><br>CROP = 2, 9, 3, 5<br>COPE = 7, 3, 5, 2<br>'CROP' और 'COPE' के बीच सामान्य अक्षर C, O, P हैं।<br>'2935' और '7352' के बीच सामान्य अंक 2, 3, 5 हैं।<br>इस प्रकार, C, O, P के कूट किसी भी क्रम में 2, 3, 5 हैं।<br>'COPE' में शेष अक्षर 'E' है और शेष अंक '7' है। इसलिए, 'E' को '7' के रूप में कूटबद्ध किया गया है।<br><br><b>Short Trick:</b><br>Eliminate common parts: C, O, P are common in both words. Numbers 2, 3, 5 are common. The only unique letter in COPE is E, and its unique number is 7."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "difficulty": "Medium",
+        "q_en": "Six students, A, B, C, D, E and F, are sitting around a circular table facing the centre. F is sitting second to the right of C. Both A and D are immediate neighbours of E. A is sitting to the immediate right of F.<br>Who is sitting to the immediate right of C?",
+        "q_hi": "छह छात्र A, B, C, D, E और F एक वृत्ताकार मेज के चारों ओर केंद्र की ओर मुख करके बैठे हैं। F, C के दायें से दूसरे स्थान पर बैठा है। A और D दोनों E के निकटतम पड़ोसी हैं। A, F के ठीक दायें बैठा है।<br>C के ठीक दायें कौन बैठा है?",
+        "op_en": [
+            "B",
+            "F",
+            "A",
+            "D"
+        ],
+        "op_hi": [
+            "B",
+            "F",
+            "A",
+            "D"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>1) F is sitting second to the right of C. If C is at position 1, F is at position 3 (Rightwards).<br>2) A is to the immediate right of F. So A is at position 4.<br>3) Both A and D are immediate neighbours of E. Since A is at 4, E must be at 5 and D must be at 6.<br>4) Only position 2 is empty, which is occupied by the remaining student B.<br>Circle from C (Rightwards): C, B, F, A, E, D.<br>The person sitting to the immediate right of C is B.<br><br><b>Solution (HI):</b><br>1) F, C के दायें से दूसरे स्थान पर बैठा है। यदि C स्थान 1 पर है, तो F स्थान 3 पर है (दायें की ओर)।<br>2) A, F के ठीक दायें है। इसलिए A स्थान 4 पर है।<br>3) A और D दोनों E के निकटतम पड़ोसी हैं। चूँकि A 4 पर है, E को 5 पर और D को 6 पर होना चाहिए।<br>4) केवल स्थान 2 खाली है, जिस पर शेष छात्र B बैठेगा।<br>C से (दायें की ओर) वृत्त का क्रम: C, B, F, A, E, D.<br>C के ठीक दायें बैठा व्यक्ति B है।<br><br><b>Short Trick:</b><br>Trace right: C &rarr; _ &rarr; F &rarr; A. Since E is between A &amp; D, it forms A &rarr; E &rarr; D. Full circle: C &rarr; B &rarr; F &rarr; A &rarr; E &rarr; D. Right of C is B."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Inequalities",
+        "difficulty": "Easy",
+        "q_en": "A statement is given followed by two conclusions. Identify which of the given conclusions is/are true based on the given statement.<br><br><strong>Statement:</strong><br>J &lt; Y &lt; O &gt; K &gt; E<br><br><strong>Conclusions:</strong><br>I. E &lt; O<br>II. J &lt; K",
+        "q_hi": "एक कथन और उसके बाद दो निष्कर्ष दिए गए हैं। ज्ञात कीजिए कि दिए गए कथन के आधार पर दिए गए निष्कर्षों में से कौन-सा/से सत्य है/हैं।<br><br><strong>कथन:</strong><br>J &lt; Y &lt; O &gt; K &gt; E<br><br><strong>निष्कर्ष:</strong><br>I. E &lt; O<br>II. J &lt; K",
+        "op_en": [
+            "Only I is true",
+            "Only II is true",
+            "Neither I nor II is true",
+            "Both I and II are true"
+        ],
+        "op_hi": [
+            "केवल I सत्य है",
+            "केवल II सत्य है",
+            "न तो I और न ही II सत्य है",
+            "I और II दोनों सत्य हैं"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>Statement: J &lt; Y &lt; O &gt; K &gt; E<br>Conclusion I: E &lt; O<br>From the statement, we have O &gt; K &gt; E. This directly implies O &gt; E, which is the same as E &lt; O. So, Conclusion I is true.<br>Conclusion II: J &lt; K<br>From the statement, we have J &lt; Y &lt; O &gt; K. Because the inequality signs face opposite directions between J and K, no definite relation can be established. So, Conclusion II is false.<br>Therefore, Only I is true.<br><br><b>Solution (HI):</b><br>कथन: J &lt; Y &lt; O &gt; K &gt; E<br>निष्कर्ष I: E &lt; O<br>कथन से, हमारे पास O &gt; K &gt; E है। इसका सीधा अर्थ है O &gt; E, जो E &lt; O के समान है। अतः, निष्कर्ष I सत्य है।<br>निष्कर्ष II: J &lt; K<br>कथन से, हमारे पास J &lt; Y &lt; O &gt; K है। चूँकि J और K के बीच असमानता चिह्न विपरीत दिशाओं में हैं, कोई निश्चित संबंध स्थापित नहीं किया जा सकता है। अतः, निष्कर्ष II असत्य है।<br>इसलिए, केवल I सत्य है।<br><br><b>Short Trick:</b><br>Look at the signs. O &gt; K &gt; E &rarr; O &gt; E (True). J &lt; ... &gt; K &rarr; Opposite signs mean no relation (False)."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "difficulty": "Medium",
+        "q_en": "A, B, C, D, E and I live on six different floors of the same building. The lowermost floor in the building is numbered 1, the floor above it is numbered 2 and so on till the topmost floor, which is numbered 6.<br>Only D lives above A. B lives immediately below A. Only C lives below I. Who lives on floor number 3?",
+        "q_hi": "A, B, C, D, E और I एक ही इमारत की छह अलग-अलग मंजिलों पर रहते हैं। इमारत में सबसे निचली मंजिल की संख्या 1 है, उसके ऊपर की मंजिल की संख्या 2 है और इसी तरह सबसे ऊपरी मंजिल की संख्या 6 है।<br>A के ऊपर केवल D रहता है। B, A के ठीक नीचे रहता है। I के नीचे केवल C रहता है। मंजिल संख्या 3 पर कौन रहता है?",
+        "op_en": [
+            "A",
+            "I",
+            "B",
+            "E"
+        ],
+        "op_hi": [
+            "A",
+            "I",
+            "B",
+            "E"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>1) 'Only D lives above A' &rarr; D must be on the topmost floor (6), and A is on floor 5.<br>2) 'B lives immediately below A' &rarr; B is on floor 4.<br>3) 'Only C lives below I' &rarr; C must be on the lowermost floor (1), and I is on floor 2.<br>4) The remaining person E must occupy the only vacant floor, which is floor 3.<br>Therefore, E lives on floor number 3.<br><br><b>Solution (HI):</b><br>1) 'A के ऊपर केवल D रहता है' &rarr; D सबसे ऊपरी मंजिल (6) पर होना चाहिए, और A मंजिल 5 पर है।<br>2) 'B, A के ठीक नीचे रहता है' &rarr; B मंजिल 4 पर है।<br>3) 'I के नीचे केवल C रहता है' &rarr; C सबसे निचली मंजिल (1) पर होना चाहिए, और I मंजिल 2 पर है।<br>4) शेष व्यक्ति E को एकमात्र खाली मंजिल, जो कि मंजिल 3 है, पर होना चाहिए।<br>इसलिए, E मंजिल संख्या 3 पर रहता है।<br><br><b>Short Trick:</b><br>Top-down fill: 6-D, 5-A (Only D above A). B below A &rarr; 4-B. Bottom-up fill: 1-C, 2-I (Only C below I). Remaining spot 3 is for E."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphabet Test",
+        "difficulty": "Medium",
+        "q_en": "Each vowel in the word NOTICE is changed to the fourth letter preceding it in the English alphabetical order and then all the letters thus formed are arranged in the English alphabetical order. Which of the following letters will be third from the right in the new letter-cluster thus formed?",
+        "q_hi": "शब्द NOTICE के प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके चार स्थान पहले वाले अक्षर से बदल दिया जाता है और फिर इस प्रकार बने सभी अक्षरों को अंग्रेजी वर्णमाला क्रम में व्यवस्थित किया जाता है। इस प्रकार बने नए अक्षर-समूह में दायें से तीसरा अक्षर निम्नलिखित में से कौन सा होगा?",
+        "op_en": [
+            "T",
+            "E",
+            "K",
+            "A"
+        ],
+        "op_hi": [
+            "T",
+            "E",
+            "K",
+            "A"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>Original word: N O T I C E<br>Vowels are O(15), I(9), E(5).<br>Consonants remain unchanged: N, T, C.<br>Vowels minus 4 positions:<br>O - 4 = K(11)<br>I - 4 = E(5)<br>E - 4 = A(1)<br>New letters formed: N, K, T, E, C, A.<br>Arranging alphabetically: A, C, E, K, N, T.<br>The third letter from the right is K.<br><br><b>Solution (HI):</b><br>मूल शब्द: N O T I C E<br>स्वर O(15), I(9), E(5) हैं।<br>व्यंजन अपरिवर्तित रहते हैं: N, T, C.<br>स्वरों में से 4 स्थान घटाने पर:<br>O - 4 = K(11)<br>I - 4 = E(5)<br>E - 4 = A(1)<br>बने नए अक्षर: N, K, T, E, C, A.<br>वर्णमाला क्रम में व्यवस्थित करने पर: A, C, E, K, N, T.<br>दायें से तीसरा अक्षर K है।<br><br><b>Short Trick:</b><br>Change vowels: O&rarr;K, I&rarr;E, E&rarr;A. Set is {N, K, T, E, C, A}. Sorted: A, C, E, K, N, T. 3rd from right = K."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding-Decoding",
+        "difficulty": "Easy",
+        "q_en": "In a certain code language, ‘STEM’ is coded as ‘5718’ and ‘MAST’ is coded as ‘9571’. What is the code for ‘A’ in that language?<span style=\"color: white;\"></span>",
+        "q_hi": "एक निश्चित कूट भाषा में, ‘STEM’ को ‘5718’ के रूप में और ‘MAST’ को ‘9571’ के रूप में कूटबद्ध किया जाता है। उस भाषा में ‘A’ के लिए कूट क्या है?",
+        "op_en": [
+            "7",
+            "9",
+            "1",
+            "5"
+        ],
+        "op_hi": [
+            "7",
+            "9",
+            "1",
+            "5"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>STEM = 5, 7, 1, 8<br>MAST = 9, 5, 7, 1<br>The common letters between 'STEM' and 'MAST' are S, T, M.<br>The common digits between '5718' and '9571' are 5, 7, 1.<br>So, S, T, M are coded as 5, 7, 1 in some order.<br>The only remaining letter in 'MAST' is 'A', and the remaining digit is '9'. Therefore, the code for 'A' is '9'.<br><br><b>Solution (HI):</b><br>STEM = 5, 7, 1, 8<br>MAST = 9, 5, 7, 1<br>'STEM' और 'MAST' के बीच सामान्य अक्षर S, T, M हैं।<br>'5718' और '9571' के बीच सामान्य अंक 5, 7, 1 हैं।<br>अतः, S, T, M को किसी क्रम में 5, 7, 1 के रूप में कूटबद्ध किया गया है।<br>'MAST' में एकमात्र शेष अक्षर 'A' है, और शेष अंक '9' है। इसलिए, 'A' का कूट '9' है।<br><br><b>Short Trick:</b><br>Compare STEM and MAST. Common: S, T, M (5, 7, 1). Unique to MAST is A, and unique number in its code is 9. A = 9."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphabet Test",
+        "difficulty": "Easy",
+        "q_en": "The position(s) of how many letters will remain unchanged if each of the letters in the word FORMULA is arranged in reverse English alphabetical order?",
+        "q_hi": "यदि शब्द FORMULA के प्रत्येक अक्षर को अंग्रेजी वर्णमाला के विपरीत क्रम में व्यवस्थित किया जाता है, तो कितने अक्षरों का स्थान अपरिवर्तित रहेगा?",
+        "op_en": [
+            "Three",
+            "Two",
+            "One",
+            "Four"
+        ],
+        "op_hi": [
+            "तीन",
+            "दो",
+            "एक",
+            "चार"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>Word: F O R M U L A<br>Reverse alphabetical order: U, R, O, M, L, F, A<br>Original: F - O - R - M - U - L - A<br>New: U - R - O - M - L - F - A<br>The letters at the 4th position (M) and 7th position (A) remain unchanged. Total 2 letters.<br><br><b>Solution (HI):</b><br>शब्द: F O R M U L A<br>विपरीत वर्णमाला क्रम: U, R, O, M, L, F, A<br>मूल: F - O - R - M - U - L - A<br>नया: U - R - O - M - L - F - A<br>चौथे स्थान (M) और सातवें स्थान (A) पर अक्षर अपरिवर्तित रहते हैं। कुल 2 अक्षर।<br><br><b>Short Trick:</b><br>Sort FORMULA backwards: U R O M L F A. Compare with original: F O R <b>M</b> U L <b>A</b>. Only M and A match."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "difficulty": "Medium",
+        "q_en": "Seven people, R, S, T, U, H, I and J are sitting in a row, facing north.<br>Only two people sit between T and R. Only I sits to the right of S. Only one person sits between R and S. J sits at some place to the right of U but at some place to the left of H.<br>How many people sit between H and U?",
+        "q_hi": "सात व्यक्ति R, S, T, U, H, I और J उत्तर की ओर मुख करके एक पंक्ति में बैठे हैं। T और R के बीच केवल दो व्यक्ति बैठे हैं। S के दायें केवल I बैठा है। R और S के बीच केवल एक व्यक्ति बैठा है। J, U के दायें किसी स्थान पर बैठा है लेकिन H के बायें किसी स्थान पर बैठा है। H और U के बीच कितने व्यक्ति बैठे हैं?",
+        "op_en": [
+            "Four",
+            "Two",
+            "Three",
+            "One"
+        ],
+        "op_hi": [
+            "चार",
+            "दो",
+            "तीन",
+            "एक"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>1) 'Only I sits to the right of S' &rarr; S is 6th and I is 7th.<br>2) 'Only one person sits between R and S' &rarr; R is 4th.<br>3) 'Only two people sit between T and R' &rarr; T is 1st.<br>4) 'J sits at some place to the right of U but left of H' &rarr; U is 2nd, J is 3rd, H is 5th.<br>Arrangement (Left to Right): T, U, J, R, H, S, I.<br>The people between H and U are J and R (Two people).<br><br><b>Solution (HI):</b><br>1) 'S के दायें केवल I बैठा है' &rarr; S छठे और I सातवें स्थान पर है।<br>2) 'R और S के बीच केवल एक व्यक्ति बैठा है' &rarr; R चौथे स्थान पर है।<br>3) 'T और R के बीच केवल दो व्यक्ति बैठे हैं' &rarr; T पहले स्थान पर है।<br>4) 'J, U के दायें लेकिन H के बायें बैठा है' &rarr; U दूसरे, J तीसरे और H पाँचवें स्थान पर है।<br>क्रम (बायें से दायें): T, U, J, R, H, S, I.<br>H और U के बीच J और R (दो व्यक्ति) बैठे हैं।<br><br><b>Short Trick:</b><br>Rightmost is S, I. R is 4th. T is 1st. Empty spots: 2, 3, 5 for U, J, H in order. Arrangement: T U J R H S I. Between U and H are J, R (2 people)."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "difficulty": "Hard",
+        "q_en": "Each of A, B, C, D, W, X and Y has an exam on a different day of a week, starting from Monday and ending on Sunday of the same week. D has exam on Thursday. X has exam on one of the days after A and on one of the days before C. Y has exam on one of the days after W but on one of the days before B. W has exam on one of the days after D. How many people have exam between Y and X?",
+        "q_hi": "A, B, C, D, W, X और Y में से प्रत्येक की परीक्षा एक सप्ताह के अलग-अलग दिनों में होती है, जो सोमवार से शुरू होकर उसी सप्ताह के रविवार को समाप्त होती है। D की परीक्षा गुरुवार को है। X की परीक्षा A के बाद किसी एक दिन और C से पहले किसी एक दिन होती है। Y की परीक्षा W के बाद किसी एक दिन लेकिन B से पहले किसी एक दिन होती है। W की परीक्षा D के बाद किसी एक दिन होती है। Y और X के बीच कितने लोगों की परीक्षा है?",
+        "op_en": [
+            "Three",
+            "Two",
+            "One",
+            "Four"
+        ],
+        "op_hi": [
+            "तीन",
+            "दो",
+            "एक",
+            "चार"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>1) D is on Thursday.<br>2) W is after D, Y is after W, and B is after Y (W &lt; Y &lt; B). Since D is Thursday, W must be Friday, Y must be Saturday, and B must be Sunday.<br>3) X is after A and before C (A &lt; X &lt; C). The remaining days are Mon, Tue, Wed. So A is Monday, X is Tuesday, and C is Wednesday.<br>Schedule: Mon-A, Tue-X, Wed-C, Thu-D, Fri-W, Sat-Y, Sun-B.<br>Between Y (Saturday) and X (Tuesday), the exams are of C, D, and W (Three people).<br><br><b>Solution (HI):</b><br>1) D की परीक्षा गुरुवार को है।<br>2) W, D के बाद है, Y, W के बाद है, और B, Y के बाद है (W &lt; Y &lt; B)। चूँकि D गुरुवार को है, W शुक्रवार, Y शनिवार और B रविवार को होना चाहिए।<br>3) X, A के बाद और C से पहले है (A &lt; X &lt; C)। शेष दिन सोम, मंगल, बुध हैं। अतः A सोमवार, X मंगलवार और C बुधवार को है।<br>कार्यक्रम: सोम-A, मंगल-X, बुध-C, गुरु-D, शुक्र-W, शनि-Y, रवि-B.<br>Y (शनिवार) और X (मंगलवार) के बीच C, D और W (तीन लोग) की परीक्षा है।<br><br><b>Short Trick:</b><br>D=Thu. After D are W,Y,B &rarr; Fri=W, Sat=Y, Sun=B. Before D are A,X,C &rarr; Mon=A, Tue=X, Wed=C. Between X(Tue) and Y(Sat) are Wed(C), Thu(D), Fri(W). Total 3."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding-Decoding",
+        "difficulty": "Easy",
+        "q_en": "In a certain code language, ‘Suhani Dances Well’ is written as ‘sc he bu’, and ‘Well Done Reeta’ is coded as ‘bu ke np’. How is ‘Well’ coded in that language?",
+        "q_hi": "एक निश्चित कूट भाषा में, 'Suhani Dances Well' को 'sc he bu' लिखा जाता है, और 'Well Done Reeta' को 'bu ke np' के रूप में कूटबद्ध किया जाता है। उस भाषा में 'Well' को कैसे कूटबद्ध किया जाता है?",
+        "op_en": [
+            "bu",
+            "ke",
+            "np",
+            "he"
+        ],
+        "op_hi": [
+            "bu",
+            "ke",
+            "np",
+            "he"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>Suhani Dances Well = sc he bu<br>Well Done Reeta = bu ke np<br>The only common word in both sentences is 'Well'.<br>The only common code in both is 'bu'.<br>Therefore, the code for 'Well' is 'bu'.<br><br><b>Solution (HI):</b><br>Suhani Dances Well = sc he bu<br>Well Done Reeta = bu ke np<br>दोनों वाक्यों में एकमात्र सामान्य शब्द 'Well' है।<br>दोनों में एकमात्र सामान्य कूट 'bu' है।<br>इसलिए, 'Well' का कूट 'bu' है।<br><br><b>Short Trick:</b><br>Match common words: 'Well' is common. Match common codes: 'bu' is common. So, Well = bu."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphabet Test",
+        "difficulty": "Medium",
+        "q_en": "Each vowel in the word ITINERATION is changed to the letter immediately following it in the English alphabetical order, and each consonant is changed to the letter immediately preceding it in the English alphabetical order. Which of the following letters will appear more than twice in the group of letters thus formed?",
+        "q_hi": "शब्द ITINERATION के प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद वाले अक्षर से बदल दिया जाता है, और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक पहले वाले अक्षर से बदल दिया जाता है। इस प्रकार बने अक्षरों के समूह में निम्नलिखित में से कौन सा अक्षर दो से अधिक बार दिखाई देगा?",
+        "op_en": [
+            "P",
+            "M",
+            "S",
+            "J"
+        ],
+        "op_hi": [
+            "P",
+            "M",
+            "S",
+            "J"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>Word: I T I N E R A T I O N<br>Vowels (+1): I&rarr;J, E&rarr;F, A&rarr;B, O&rarr;P.<br>Consonants (-1): T&rarr;S, N&rarr;M, R&rarr;Q.<br>New sequence: J - S - J - M - F - Q - B - S - J - P - M.<br>Frequencies: J=3, S=2, M=2, F=1, Q=1, B=1, P=1.<br>The letter 'J' appears 3 times, which is more than twice.<br><br><b>Solution (HI):</b><br>शब्द: I T I N E R A T I O N<br>स्वर (+1): I&rarr;J, E&rarr;F, A&rarr;B, O&rarr;P.<br>व्यंजन (-1): T&rarr;S, N&rarr;M, R&rarr;Q.<br>नया क्रम: J - S - J - M - F - Q - B - S - J - P - M.<br>आवृत्ति: J=3, S=2, M=2, F=1, Q=1, B=1, P=1.<br>अक्षर 'J' 3 बार आता है, जो दो बार से अधिक है।<br><br><b>Short Trick:</b><br>Convert only repeating letters to save time. I appears 3 times, T (2), N (2). I (vowel) &rarr; J. T (consonant) &rarr; S. N (consonant) &rarr; M. J appears 3 times."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphabet Test",
+        "difficulty": "Easy",
+        "q_en": "The position(s) of how many letters will remain unchanged if each of the letters in the word NERVOUS is arranged in reverse English alphabetical order?",
+        "q_hi": "यदि शब्द NERVOUS के प्रत्येक अक्षर को अंग्रेजी वर्णमाला के विपरीत क्रम में व्यवस्थित किया जाता है, तो कितने अक्षरों का स्थान अपरिवर्तित रहेगा?",
+        "op_en": [
+            "Three",
+            "Four",
+            "One",
+            "Two"
+        ],
+        "op_hi": [
+            "तीन",
+            "चार",
+            "एक",
+            "दो"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>Word: N E R V O U S<br>Reverse alphabetical order: V, U, S, R, O, N, E<br>Original: N - E - R - V - <b>O</b> - U - S<br>New: V - U - S - R - <b>O</b> - N - E<br>Only the letter 'O' at the 5th position remains unchanged. Total 1 letter.<br><br><b>Solution (HI):</b><br>शब्द: N E R V O U S<br>विपरीत वर्णमाला क्रम: V, U, S, R, O, N, E<br>मूल: N - E - R - V - <b>O</b> - U - S<br>नया: V - U - S - R - <b>O</b> - N - E<br>केवल 5वें स्थान पर अक्षर 'O' अपरिवर्तित रहता है। कुल 1 अक्षर।<br><br><b>Short Trick:</b><br>Sort NERVOUS backwards: VUS RONE. Compare to original: NER VOUS. Only O matches its original position."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Inequalities",
+        "difficulty": "Easy",
+        "q_en": "A statement is given followed by two conclusions. Identify which of the given conclusions is/are true based on the given statement.<br><br><strong>Statement:</strong><br>O &lt; K &gt; E &gt; Y ≤ J<br><br><strong>Conclusions:</strong><br>I. J &lt; K<br>II. O &lt; Y",
+        "q_hi": "एक कथन और उसके बाद दो निष्कर्ष दिए गए हैं। ज्ञात कीजिए कि दिए गए कथन के आधार पर दिए गए निष्कर्षों में से कौन-सा/से सत्य है/हैं।<br><br><strong>कथन:</strong><br>O &lt; K &gt; E &gt; Y &le; J<br><br><strong>निष्कर्ष:</strong><br>I. J &lt; K<br>II. O &lt; Y",
+        "op_en": [
+            "Only II is true",
+            "Neither I nor II is true",
+            "Only I is true",
+            "Both I and II are true"
+        ],
+        "op_hi": [
+            "केवल II सत्य है",
+            "न तो I और न ही II सत्य है",
+            "केवल I सत्य है",
+            "I और II दोनों सत्य हैं"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>Statement: O &lt; K &gt; E &gt; Y &le; J<br>Conclusion I (J &lt; K): We have K &gt; E &gt; Y &le; J. Opposite signs between K and J mean no relation can be established. False.<br>Conclusion II (O &lt; Y): We have O &lt; K &gt; E &gt; Y. Opposite signs between O and Y mean no relation can be established. False.<br>Therefore, neither I nor II is true.<br><br><b>Solution (HI):</b><br>कथन: O &lt; K &gt; E &gt; Y &le; J<br>निष्कर्ष I (J &lt; K): हमारे पास K &gt; E &gt; Y &le; J है। K और J के बीच विपरीत चिह्नों का मतलब है कि कोई संबंध स्थापित नहीं किया जा सकता। असत्य।<br>निष्कर्ष II (O &lt; Y): हमारे पास O &lt; K &gt; E &gt; Y है। O और Y के बीच विपरीत चिह्नों का मतलब है कि कोई संबंध स्थापित नहीं किया जा सकता। असत्य।<br>इसलिए, न तो I और न ही II सत्य है।<br><br><b>Short Trick:</b><br>In inequalities, if signs face opposite directions (&lt; and &gt;) between two elements, no conclusion is valid. Both J/K and O/Y have opposite signs between them. Both false."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Syllogism",
+        "difficulty": "Medium",
+        "q_en": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.<br><strong>Statements:</strong><br>All testers are drills.<br>All testers are chisels.<br><strong>Conclusions:</strong><br>(I): Some drills are chisels.<br>(II): All chisels are testers.",
+        "q_hi": "दिए गए कथनों और निष्कर्षों को ध्यानपूर्वक पढ़ें। यह मानते हुए कि कथनों में दी गई जानकारी सत्य है, भले ही यह सामान्य रूप से ज्ञात तथ्यों से भिन्न प्रतीत होती हो, तय करें कि दिए गए निष्कर्षों में से कौन सा/से कथनों का तार्किक रूप से अनुसरण करता है/करते हैं।<br><strong>कथन:</strong><br>सभी टेस्टर ड्रिल हैं।<br>सभी टेस्टर छेनी हैं।<br><strong>निष्कर्ष:</strong><br>(I): कुछ ड्रिल छेनी हैं。<br>(II): सभी छेनी टेस्टर हैं।",
+        "op_en": [
+            "Both conclusions (I) and (II) follow.",
+            "Only conclusion (II) follows.",
+            "Only conclusion (I) follows.",
+            "Neither conclusion (I) nor (II) follows."
+        ],
+        "op_hi": [
+            "(I) और (II) दोनों अनुसरण करते हैं।",
+            "केवल निष्कर्ष (II) अनुसरण करता है।",
+            "केवल निष्कर्ष (I) अनुसरण करता है।",
+            "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>Statements:<br>1) All testers are drills.<br>2) All testers are chisels.<br>Conclusion I: Some drills are chisels. Since all testers are both drills and chisels, the intersection of drills and chisels is not empty (it contains at least the testers). So, some drills are chisels is True.<br>Conclusion II: All chisels are testers. We only know testers are chisels, not vice versa. So, False.<br>Therefore, only conclusion (I) follows.<br><br><b>Solution (HI):</b><br>कथन:<br>1) सभी टेस्टर ड्रिल हैं।<br>2) सभी टेस्टर छेनी हैं।<br>निष्कर्ष I: कुछ ड्रिल छेनी हैं। चूँकि सभी टेस्टर ड्रिल और छेनी दोनों हैं, ड्रिल और छेनी का प्रतिच्छेदन खाली नहीं है (इसमें कम से कम टेस्टर शामिल हैं)। अतः, कुछ ड्रिल छेनी हैं, यह सत्य है।<br>निष्कर्ष II: सभी छेनी टेस्टर हैं। हम केवल यह जानते हैं कि टेस्टर छेनी हैं, इसके विपरीत नहीं। अतः, असत्य।<br>इसलिए, केवल निष्कर्ष (I) अनुसरण करता है।<br><br><b>Short Trick:</b><br>Draw a Venn diagram. Testers circle is fully inside Drills and Chisels. This means Drills and Chisels must overlap. So, \"Some drills are chisels\" is always true."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "difficulty": "Medium",
+        "q_en": "Six boxes, F, G, H, I, J and Y, are kept one over the other but not necessarily in the same order. Only one box is kept below G. Only one box is kept above F. Only one box is kept between F and Y. J is kept immediately above F. I is kept at some place below Y. How many boxes are kept between H and I?",
+        "q_hi": "छह डिब्बे F, G, H, I, J और Y एक के ऊपर एक रखे गए हैं, लेकिन जरूरी नहीं कि इसी क्रम में हों। G के नीचे केवल एक डिब्बा रखा गया है। F के ऊपर केवल एक डिब्बा रखा गया है। F और Y के बीच केवल एक डिब्बा रखा गया है। J, F के ठीक ऊपर रखा गया है। I, Y के नीचे किसी स्थान पर रखा गया है। H और I के बीच कितने डिब्बे रखे गए हैं?",
+        "op_en": [
+            "Four",
+            "Two",
+            "One",
+            "Three"
+        ],
+        "op_hi": [
+            "चार",
+            "दो",
+            "एक",
+            "तीन"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>Let positions be 1 (bottom) to 6 (top).<br>1) 'Only one box is kept below G' &rarr; G is at 2.<br>2) 'Only one box is kept above F' &rarr; F is at 5.<br>3) 'Only one box is kept between F and Y' &rarr; Y must be at 3.<br>4) 'J is kept immediately above F' &rarr; J is at 6.<br>5) 'I is kept below Y' &rarr; I must be at 1.<br>6) Remaining box H is at 4.<br>Arrangement (Top to Bottom): J, F, H, Y, G, I.<br>The boxes between H(4) and I(1) are Y(3) and G(2). Total 2 boxes.<br><br><b>Solution (HI):</b><br>मान लीजिए कि स्थान 1 (नीचे) से 6 (ऊपर) हैं।<br>1) 'G के नीचे केवल एक डिब्बा है' &rarr; G 2 पर है।<br>2) 'F के ऊपर केवल एक डिब्बा है' &rarr; F 5 पर है।<br>3) 'F और Y के बीच केवल एक डिब्बा है' &rarr; Y 3 पर होना चाहिए।<br>4) 'J, F के ठीक ऊपर है' &rarr; J 6 पर है।<br>5) 'I, Y के नीचे है' &rarr; I 1 पर होना चाहिए।<br>6) शेष डिब्बा H 4 पर है।<br>क्रम (ऊपर से नीचे): J, F, H, Y, G, I.<br>H(4) और I(1) के बीच Y(3) और G(2) हैं। कुल 2 डिब्बे।<br><br><b>Short Trick:</b><br>Bottom-up fill: _, _, _, _, _, _. G is 2nd from bottom. F is 2nd from top. &rarr; _, F, _, _, G, _. J is above F &rarr; J, F, _, _, G, _. Y is separated by 1 from F &rarr; J, F, _, Y, G, _. I is below Y &rarr; J, F, _, Y, G, I. H takes the remaining spot &rarr; J, F, H, Y, G, I. H and I have 2 boxes between them."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Letter Series",
+        "difficulty": "Medium",
+        "q_en": "Refer to the given letter series and answer the question that follows. Counting to be done from left to right only.<br>(Left) T H K O I U G H L O K E M D R I D U Q D N Z X Z (Right)<br>How many consonants are there in the series, each of which is immediately preceded by a consonant and also immediately followed by a consonant?",
+        "q_hi": "दी गई अक्षर श्रृंखला को देखें और उसके बाद आने वाले प्रश्न का उत्तर दें। गिनती केवल बायें से दायें की जानी चाहिए।<br>(बायां) T H K O I U G H L O K E M D R I D U Q D N Z X Z (दायां)<br>श्रृंखला में ऐसे कितने व्यंजन हैं, जिनमें से प्रत्येक के ठीक पहले एक व्यंजन और ठीक बाद में भी एक व्यंजन है?",
+        "op_en": [
+            "Three",
+            "Four",
+            "Two",
+            "More than four"
+        ],
+        "op_hi": [
+            "तीन",
+            "चार",
+            "दो",
+            "चार से अधिक"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>Series: T H K O I U G H L O K E M D R I D U Q D N Z X Z<br>We need to find the pattern: Consonant - Consonant - Consonant. We are looking for the middle consonant.<br>Let's find all consecutive consonants:<br>1) T H K &rarr; middle is H<br>2) G H L &rarr; middle is H<br>3) M D R &rarr; middle is D<br>4) Q D N &rarr; middle is D<br>5) D N Z &rarr; middle is N<br>6) N Z X &rarr; middle is Z<br>7) Z X Z &rarr; middle is X<br>There are 7 such instances, which is 'More than four'.<br><br><b>Solution (HI):</b><br>श्रृंखला: T H K O I U G H L O K E M D R I D U Q D N Z X Z<br>हमें यह पैटर्न खोजना है: व्यंजन - व्यंजन - व्यंजन। हम बीच वाले व्यंजन की तलाश में हैं।<br>आइए सभी लगातार व्यंजनों को खोजें:<br>1) T H K &rarr; बीच में H है<br>2) G H L &rarr; बीच में H है<br>3) M D R &rarr; बीच में D है<br>4) Q D N &rarr; बीच में D है<br>5) D N Z &rarr; बीच में N है<br>6) N Z X &rarr; बीच में Z है<br>7) Z X Z &rarr; बीच में X है<br>ऐसे 7 उदाहरण हैं, जो 'चार से अधिक' हैं।<br><br><b>Short Trick:</b><br>Scan for clusters of consonants: THK (1), GHL (1), MDR (1), QDNZXZ (4). Total = 1+1+1+4 = 7. 7 &gt; 4, so answer is More than four."
+    }
+]
