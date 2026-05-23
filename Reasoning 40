@@ -1,0 +1,842 @@
+[
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "difficulty": "Medium",
+        "q_en": "A, B, C, D, E, F and G are sitting around a circular table, facing the centre. D sits second to the left of E. B sits fourth to the right of A. A is not an immediate neighbour of E. F sits to the immediate left of G and is not the immediate neighbour of B. What is the position of G with respect to C?",
+        "q_hi": "A, B, C, D, E, F और G एक वृत्ताकार मेज के चारों ओर केंद्र की ओर मुख करके बैठे हैं। D, E के बाएँ से दूसरे स्थान पर बैठा है। B, A के दाएँ से चौथे स्थान पर बैठा है। A, E का निकटतम पड़ोसी नहीं है। F, G के ठीक बाएँ बैठा है और B का निकटतम पड़ोसी नहीं है। C के संबंध में G का स्थान क्या है?",
+        "op_en": [
+            "Third from left",
+            "Third from right",
+            "Second from right",
+            "Second from left"
+        ],
+        "op_hi": [
+            "बाएँ से तीसरा",
+            "दाएँ से तीसरा",
+            "दाएँ से दूसरा",
+            "बाएँ से दूसरा"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>1. E is fixed at a position. D is second to the left of E.<br>2. A is not an immediate neighbour of E, so A can be at 3 possible positions.<br>3. B is fourth to the right of A, fixing their relative positions.<br>4. F is to the immediate left of G, and F is not next to B. This places G and F.<br>5. The final arrangement clockwise is: E, B, D, G, F, A, C.<br>6. From C, G is 3rd to the right or 4th to the left.<br><br><b>Solution (HI):</b><br>1. E को एक स्थान पर तय करें। D, E के बाएँ से दूसरे स्थान पर है।<br>2. A, E का निकटतम पड़ोसी नहीं है, इसलिए A के 3 संभावित स्थान हैं।<br>3. B, A के दाएँ से चौथे स्थान पर है, जो उनकी सापेक्ष स्थिति तय करता है।<br>4. F, G के ठीक बाएँ है, और F, B के बगल में नहीं है। इससे G और F का स्थान तय होता है।<br>5. अंतिम व्यवस्था दक्षिणावर्त है: E, B, D, G, F, A, C.<br>6. C से देखने पर, G दाएँ से तीसरे या बाएँ से चौथे स्थान पर है।<br><br><b>Short Trick:</b><br>Draw a circle of 7 spots. Place E. D is at +2 (left). A is not at +1 or -1. F and G are adjacent. Place them avoiding B's neighbor constraint. Directly find G's position from C."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Ranking and Order",
+        "difficulty": "Medium",
+        "q_en": "D, E, F, J, K and L each scored different marks. Only two people have scored more than J. Only E has scored less than D. L has scored more than K but less than F. How many people have scored more than K?",
+        "q_hi": "D, E, F, J, K और L में से प्रत्येक ने अलग-अलग अंक प्राप्त किए हैं। केवल दो व्यक्तियों ने J से अधिक अंक प्राप्त किए हैं। केवल E ने D से कम अंक प्राप्त किए हैं। L ने K से अधिक लेकिन F से कम अंक प्राप्त किए हैं। कितने लोगों ने K से अधिक अंक प्राप्त किए हैं?",
+        "op_en": [
+            "One",
+            "Four",
+            "Two",
+            "Three"
+        ],
+        "op_hi": [
+            "एक",
+            "चार",
+            "दो",
+            "तीन"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>1. Only two people scored more than J: _ > _ > J > _ > _ > _.<br>2. Only E scored less than D: D is second lowest, E is lowest. Arrangement becomes: _ > _ > J > _ > D > E.<br>3. L scored more than K but less than F: F > L > K.<br>4. Placing them in the remaining spots: F > L > J > K > D > E.<br>5. People scoring more than K are F, L, and J (Total 3).<br><br><b>Solution (HI):</b><br>1. केवल दो लोगों ने J से अधिक अंक प्राप्त किए: _ > _ > J > _ > _ > _.<br>2. केवल E ने D से कम अंक प्राप्त किए: D दूसरा सबसे कम है, E सबसे कम है। क्रम: _ > _ > J > _ > D > E.<br>3. L ने K से अधिक लेकिन F से कम अंक प्राप्त किए: F > L > K.<br>4. उन्हें शेष स्थानों पर रखने पर: F > L > J > K > D > E.<br>5. K से अधिक अंक प्राप्त करने वाले F, L और J हैं (कुल 3)।<br><br><b>Short Trick:</b><br>Position J at 3rd from top. E is at bottom (6th), D at 5th. 3 spots left for F, L, K in order. F(1), L(2), K(4). Above K are 1st, 2nd, and 3rd (3 people)."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "difficulty": "Easy",
+        "q_en": "This question is based on the given words.<br><br>(Left) GUN HIT PRO FAD (Right)<br><br>If in each of the words, each letter is changed to the next letter in the English alphabetical order, how many words thus formed will have no vowel?",
+        "q_hi": "यह प्रश्न दिए गए शब्दों पर आधारित है।<br><br>(बाएँ) GUN HIT PRO FAD (दाएँ)<br><br>यदि प्रत्येक शब्द में, प्रत्येक अक्षर को अंग्रेजी वर्णमाला क्रम में अगले अक्षर में बदल दिया जाता है, तो इस प्रकार बने कितने शब्दों में कोई स्वर नहीं होगा?",
+        "op_en": [
+            "2",
+            "3",
+            "1",
+            "0"
+        ],
+        "op_hi": [
+            "2",
+            "3",
+            "1",
+            "0"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>1. Words: GUN, HIT, PRO, FAD.<br>2. Change each letter to the next letter in alphabetical order.<br>3. GUN &rarr; HVO (contains vowel O).<br>4. HIT &rarr; IJU (contains vowels I, U).<br>5. PRO &rarr; QSP (contains NO vowel).<br>6. FAD &rarr; GBE (contains vowel E).<br>7. Only 1 word (QSP) has no vowel.<br><br><b>Solution (HI):</b><br>1. शब्द: GUN, HIT, PRO, FAD.<br>2. प्रत्येक अक्षर को वर्णमाला के अगले अक्षर में बदलें।<br>3. GUN &rarr; HVO (स्वर O है)।<br>4. HIT &rarr; IJU (स्वर I, U हैं)।<br>5. PRO &rarr; QSP (कोई स्वर नहीं है)।<br>6. FAD &rarr; GBE (स्वर E है)।<br>7. केवल 1 शब्द (QSP) में कोई स्वर नहीं है।<br><br><b>Short Trick:</b><br>Check if any letter in the original word is exactly one letter before a vowel (i.e., Z, D, H, N, T). GUN has N(&rarr;O), HIT has H(&rarr;I), FAD has D(&rarr;E). PRO has none of these, so no vowels in the new word."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Ranking and Order",
+        "difficulty": "Medium",
+        "q_en": "All 49 people are standing in a row, facing north. Deepen is 24<sup>th</sup> from the right end, while Deepshika is 31<sup>st</sup> from the left end. How many people are there between Deepen and Deepshika?",
+        "q_hi": "सभी 49 लोग उत्तर की ओर मुख करके एक पंक्ति में खड़े हैं। दीपेन दाएँ छोर से 24वें स्थान पर है, जबकि दीपशिखा बाएँ छोर से 31वें स्थान पर है। दीपेन और दीपशिखा के बीच कितने लोग हैं?",
+        "op_en": [
+            "3",
+            "1",
+            "4",
+            "2"
+        ],
+        "op_hi": [
+            "3",
+            "1",
+            "4",
+            "2"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>1. Total people = 49.<br>2. Deepen's position from right = 24.<br>3. Deepen's position from left = Total - Right + 1 = 49 - 24 + 1 = 26.<br>4. Deepshika's position from left = 31.<br>5. People between them = 31 - 26 - 1 = 4.<br><br><b>Solution (HI):</b><br>1. कुल लोग = 49.<br>2. दीपेन का दाएँ से स्थान = 24.<br>3. दीपेन का बाएँ से स्थान = कुल - दाएँ + 1 = 49 - 24 + 1 = 26.<br>4. दीपशिखा का बाएँ से स्थान = 31.<br>5. उनके बीच के लोग = 31 - 26 - 1 = 4.<br><br><b>Short Trick:</b><br>Between = (Total) - (Left Pos + Right Pos) if no overlapping. Here, Left + Right = 31 + 24 = 55 (Overlapping). Number of people between = (Sum of positions) - Total - 2 = 55 - 49 - 2 = 4."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "difficulty": "Hard",
+        "q_en": "Each of P, Q, R, S, T, U and V has an exam on a different day of a week starting from Monday and ending on Sunday of the same week. V has exam on Friday. Only two people have exam between Q and V. Only four people have exam between P and Q. T has exam immediately after S. R does not have exam on Monday. Who has an exam on Monday?",
+        "q_hi": "P, Q, R, S, T, U और V में से प्रत्येक की परीक्षा एक ही सप्ताह के सोमवार से शुरू होकर रविवार को समाप्त होने वाले अलग-अलग दिनों में है। V की परीक्षा शुक्रवार को है। Q और V के बीच केवल दो लोगों की परीक्षा है। P और Q के बीच केवल चार लोगों की परीक्षा है। T की परीक्षा S के ठीक बाद है। R की परीक्षा सोमवार को नहीं है। सोमवार को किसकी परीक्षा है?",
+        "op_en": [
+            "T",
+            "P",
+            "U",
+            "R"
+        ],
+        "op_hi": [
+            "T",
+            "P",
+            "U",
+            "R"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>1. Days: Mon to Sun (1 to 7). V is on Friday (5).<br>2. Two people between Q and V &rarr; Q must be on Tuesday (2).<br>3. Four people between P and Q &rarr; P must be on Sunday (7).<br>4. T is immediately after S. Consecutive spots are Wed (3) and Thu (4). So S = Wed, T = Thu.<br>5. R does not have an exam on Monday, so R is on Saturday (6).<br>6. U is the only one left, so U is on Monday (1).<br><br><b>Solution (HI):</b><br>1. दिन: सोम से रवि (1 से 7)। V शुक्रवार (5) को है।<br>2. Q और V के बीच दो लोग &rarr; Q मंगलवार (2) को होना चाहिए।<br>3. P और Q के बीच चार लोग &rarr; P रविवार (7) को होना चाहिए।<br>4. T, S के ठीक बाद है। लगातार स्थान बुध (3) और गुरु (4) हैं। इसलिए S = बुध, T = गुरु।<br>5. R की परीक्षा सोमवार को नहीं है, इसलिए R शनिवार (6) को है।<br>6. केवल U बचा है, इसलिए U की परीक्षा सोमवार (1) को है।<br><br><b>Short Trick:</b><br>V=Fri. Q=Tue (2 gap). P=Sun (4 gap). S,T pair needs 2 adjacent days &rarr; Wed,Thu. R&ne;Mon &rarr; R=Sat. Remaining U=Mon."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Ranking and Order",
+        "difficulty": "Easy",
+        "q_en": "P, Q, R, S and T have different heights. P is taller than T. R is taller than S but shorter than Q. Only two people are taller than S. Who is the second tallest?",
+        "q_hi": "P, Q, R, S और T की ऊँचाई अलग-अलग है। P, T से लंबा है। R, S से लंबा है लेकिन Q से छोटा है। केवल दो व्यक्ति S से लंबे हैं। दूसरा सबसे लंबा कौन है?",
+        "op_en": [
+            "Q",
+            "R",
+            "P",
+            "T"
+        ],
+        "op_hi": [
+            "Q",
+            "R",
+            "P",
+            "T"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>1. Q is taller than R, and R is taller than S &rarr; Q > R > S.<br>2. Only two people are taller than S. So S is the 3rd tallest.<br>3. This makes Q the 1st and R the 2nd tallest.<br>4. P is taller than T, so P and T occupy the 4th and 5th spots (P > T).<br>5. Complete order: Q > R > S > P > T. The second tallest is R.<br><br><b>Solution (HI):</b><br>1. Q, R से लंबा है, और R, S से लंबा है &rarr; Q > R > S.<br>2. S से केवल दो व्यक्ति लंबे हैं। इसलिए S तीसरा सबसे लंबा है।<br>3. इससे Q पहला और R दूसरा सबसे लंबा हो जाता है।<br>4. P, T से लंबा है, इसलिए P और T चौथे और पांचवें स्थान पर होंगे (P > T)।<br>5. पूरा क्रम: Q > R > S > P > T. दूसरा सबसे लंबा R है।<br><br><b>Short Trick:</b><br>\"Only two taller than S\" + \"Q > R > S\" directly implies Q and R are the top two. Thus R is the 2nd tallest."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Blood Relation",
+        "difficulty": "Easy",
+        "q_en": "D is the sister of E. F is the brother of E. F is the father of G. G is the brother of H. How is D related to H?",
+        "q_hi": "D, E की बहन है। F, E का भाई है। F, G का पिता है। G, H का भाई है। D का H से क्या संबंध है?",
+        "op_en": [
+            "Father's mother",
+            "Father's sister",
+            "Mother",
+            "Sister"
+        ],
+        "op_hi": [
+            "पिता की माता",
+            "पिता की बहन",
+            "माता",
+            "बहन"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>1. D is the sister of E, and F is the brother of E. Therefore, D, E, and F are siblings, and F is a male.<br>2. F is the father of G, and G is the brother of H. This means F is the father of both G and H.<br>3. Since D is the sister of F (who is H's father), D is the father's sister (paternal aunt) of H.<br><br><b>Solution (HI):</b><br>1. D, E की बहन है, और F, E का भाई है। इसलिए, D, E, और F भाई-बहन हैं, और F एक पुरुष है।<br>2. F, G का पिता है, और G, H का भाई है। इसका अर्थ है कि F, G और H दोनों का पिता है।<br>3. चूंकि D, F (जो H का पिता है) की बहन है, इसलिए D, H की पिता की बहन (बुआ) है।<br><br><b>Short Trick:</b><br>Draw family tree: D(-) - E - F(+) &rarr; G(+) - H. D is sister of F. F is father of H. D is father's sister of H."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "difficulty": "Hard",
+        "q_en": "A, B, C, D, E, F, and G are sitting around a circular table facing the centre. Only two people sit between G and D when counted from the left of D. F sits third to the left of E. A sits to the immediate right of E. A sits second to the left of G. C is an immediate neighbour of F. How many people sit between B and D when counted from the left of B?",
+        "q_hi": "A, B, C, D, E, F, और G एक वृत्ताकार मेज के चारों ओर केंद्र की ओर मुख करके बैठे हैं। D के बायीं ओर से गिनने पर G और D के बीच केवल दो व्यक्ति बैठे हैं। F, E के बायीं ओर तीसरे स्थान पर बैठा है। A, E के ठीक दायीं ओर बैठा है। A, G के बायीं ओर दूसरे स्थान पर बैठा है। C, F का निकटतम पड़ोसी है। B के बायीं ओर से गिनने पर B और D के बीच कितने व्यक्ति बैठे हैं?",
+        "op_en": [
+            "Two",
+            "One",
+            "Three",
+            "Four"
+        ],
+        "op_hi": [
+            "दो",
+            "एक",
+            "तीन",
+            "चार"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>1. Total 7 people. Fix E. A is immediate right of E.<br>2. F is third to the left of E.<br>3. A sits second to the left of G. So, G is second to the right of A.<br>4. Now we have: E, A, _, G, F, _, _ (Clockwise). Wait, let's re-place.<br>Let positions be 1 to 7 clockwise.<br>Let E = 1. A = 2 (immediate right). F = 5 (third to left of E).<br>A is second to the left of G &rarr; G = 4. (So A(2) is second left of G(4)).<br>So far: 1:E, 2:A, 3:_, 4:G, 5:F, 6:_, 7:_.<br>5. C is an immediate neighbor of F. C can be at 6 (since 4 is G). So C = 6.<br>6. Two people sit between G and D when counted from the left of D. Left of D means clockwise from D. If D = 7, clockwise from D to G (4) are 1, 2, 3 (Three people). If D = 3, clockwise to G (4) is 0 people. Let's re-read: \"left of D\" means clockwise. We need 2 people between D and G. If D = 7, left of D is 1, 2, 3.. Wait. G is at 4. If D is at 7, left of D is 1, 2, 3, 4. So between D(7) and G(4) are E(1), A(2), _(3). That's 3 people. Let's check D = 1... occupied. <br>Wait, \"left of D\" for center-facing means clockwise. Between D and G there are two people. If G is at 4, D could be at 7 (wait, 7,1,2,3 - 3 people). If D is at 1, 1 to 4 is 2,3 (2 people). But E is at 1. If D is at 6, left to 4 is 7,1,2,3 (4 people). If D is at 3, left to G(4) is 0 people. Let's re-evaluate \"left of D\".<br>Let's draw carefully:<br>E at bottom. A is immediate right (anti-clockwise). F is 3rd left (clockwise). <br>Positions: (E), (Right 1 = A), (Right 2), (Right 3 = G), (Right 4 = F), (Right 5), (Right 6).<br>Wait, F is 3rd to the LEFT of E. Left means clockwise. So from E, 1st left, 2nd left, 3rd left = F. <br>Let's assign positions 1 to 7 anti-clockwise (Right).<br>Pos 1: E.<br>Pos 2: A (immediate right).<br>A sits 2nd to the left of G. Left = clockwise. So A is clockwise from G by 2 positions. Meaning G is anti-clockwise from A by 2 positions. G = Pos 4.<br>F sits 3rd to the left of E. Left = clockwise. So F is clockwise from E by 3 positions. Meaning F = Pos 5. <br>Let's check positions (anti-clockwise): 1:E, 2:A, 3:?, 4:G, 5:F, 6:?, 7:?.<br>C is an immediate neighbor of F. Empty spots for C are 6. So C = 6.<br>\"Only two people sit between G and D when counted from the left of D.\" Left of D = clockwise. So sequence is D, _, _, G. Since G is at 4, D must be at 7. Let's check: clockwise from D(7) are 6, 5. So between 7 and 4 are 6(C) and 5(F). Yes, 2 people! So D = 7.<br>The remaining person B must be at 3. B = 3.<br>Arrangement (anti-clockwise / right): E(1), A(2), B(3), G(4), F(5), C(6), D(7).<br>Question: How many people sit between B and D when counted from the left of B?<br>Left of B = clockwise from B. Clockwise from B(3) to D(7) are positions 2 and 1. So A and E. Total 2 people.<br><br><b>Solution (HI):</b><br>1. कुल 7 व्यक्ति। E को एक स्थान पर तय करें। A, E के ठीक दायीं ओर है।<br>2. F, E के बायीं ओर तीसरे स्थान पर है।<br>3. A, G के बायीं ओर दूसरे स्थान पर है।<br>4. वामावर्त (दायीं ओर) स्थितियाँ 1 से 7: 1:E, 2:A, 4:G, 5:F.<br>5. C, F का पड़ोसी है, इसलिए C = 6.<br>6. D के बायीं ओर (दक्षिणावर्त) से गिनने पर G और D के बीच दो व्यक्ति हैं। अतः D = 7 (7 और 4 के बीच 6 और 5 हैं)।<br>7. शेष B = 3.<br>8. B के बायीं ओर (दक्षिणावर्त) से D तक गिनने पर, बीच में 2 और 1 (A और E) आते हैं। कुल 2 व्यक्ति।<br><br><b>Short Trick:</b><br>Draw circle. Place E. A is right of E. F is 3rd left of E. G is 2nd right of A. C is next to F. D is placed such that 2 people are between D and G (left of D). B takes last spot. Count from B's left to D."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding Decoding",
+        "difficulty": "Easy",
+        "q_en": "In a certain code language, 'TYRE' is coded as '8194' and 'VERT' is coded as '9815'. What is the code for 'V' in the given code language?",
+        "q_hi": "एक निश्चित कूट भाषा में, 'TYRE' को '8194' और 'VERT' को '9815' के रूप में कूटबद्ध किया जाता है। दी गई कूट भाषा में 'V' के लिए क्या कूट है?",
+        "op_en": [
+            "5",
+            "9",
+            "8",
+            "1"
+        ],
+        "op_hi": [
+            "5",
+            "9",
+            "8",
+            "1"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>1. TYRE = 8, 1, 9, 4 (Letters T, Y, R, E)<br>2. VERT = 9, 8, 1, 5 (Letters V, E, R, T)<br>3. Common letters in TYRE and VERT are T, R, E.<br>4. Common digits are 8, 1, 9.<br>5. The only uncommon letter in VERT is 'V', and the only uncommon digit is '5'.<br>6. Therefore, the code for 'V' is 5.<br><br><b>Solution (HI):</b><br>1. TYRE = 8, 1, 9, 4 (अक्षर T, Y, R, E)<br>2. VERT = 9, 8, 1, 5 (अक्षर V, E, R, T)<br>3. TYRE और VERT में सामान्य अक्षर T, R, E हैं।<br>4. सामान्य अंक 8, 1, 9 हैं।<br>5. VERT में एकमात्र असमान अक्षर 'V' है, और एकमात्र असमान अंक '5' है।<br>6. इसलिए, 'V' के लिए कूट 5 है।<br><br><b>Short Trick:</b><br>Compare TYRE and VERT. 'V' is the unique letter in VERT. Digits 8,1,9 are common. Unique digit is 5. So V=5."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "difficulty": "Hard",
+        "q_en": "A, B, C, D, E, F, G and H are sitting around a square table, facing the centre of the table. Some of them are sitting at the corners while some are sitting at the exact centre of the sides.<br>Exactly 3 people sit between D and C when counted from the left of C, neither of who sits on the corners. A sits 2<sup>nd</sup> to the right of C. B sits 3<sup>rd</sup> to the right of G. B is not an immediate neighbour of A. H is not an immediate neighbour of C and E is not an immediate neighbour of A.<br>How many people sit between A and H when counted from the right of A?",
+        "q_hi": "A, B, C, D, E, F, G और H एक वर्गाकार मेज के चारों ओर, मेज के केंद्र की ओर मुख करके बैठे हैं। उनमें से कुछ कोनों पर बैठे हैं जबकि कुछ भुजाओं के ठीक मध्य में बैठे हैं।<br>C के बायीं ओर से गिनने पर D और C के बीच ठीक 3 व्यक्ति बैठे हैं, जिनमें से कोई भी कोनों पर नहीं बैठा है। A, C के दायीं ओर दूसरे स्थान पर बैठा है। B, G के दायीं ओर तीसरे स्थान पर बैठा है। B, A का निकटतम पड़ोसी नहीं है। H, C का निकटतम पड़ोसी नहीं है और E, A का निकटतम पड़ोसी नहीं है।<br>A के दायीं ओर से गिनने पर A और H के बीच कितने व्यक्ति बैठे हैं?",
+        "op_en": [
+            "4",
+            "2",
+            "3",
+            "1"
+        ],
+        "op_hi": [
+            "4",
+            "2",
+            "3",
+            "1"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>1. 8 people around a square. 4 at corners, 4 at middle of sides. All face centre.<br>2. \"Exactly 3 people between D and C when counted from left of C, neither sits on corners.\" &rarr; This means D and C are opposite each other and both sit in the middle of the sides.<br>Let side middles be 1(N), 3(E), 5(S), 7(W) and corners be 2(NE), 4(SE), 6(SW), 8(NW).<br>Let C be at 5 (South middle). Then D is at 1 (North middle).<br>3. \"A sits 2nd to the right of C.\" &rarr; Right of C(5) is anti-clockwise. 2nd right is 3 (East middle). So A is at 3.<br>4. \"B sits 3rd to the right of G. B is not an immediate neighbor of A.\" &rarr; A is at 3. So B cannot be at 2 or 4. <br>G can be anywhere. Let's test positions for G and B (B = G + 3 anti-clockwise).<br>If G=2, B=5 (occupied by C).<br>If G=4, B=7 (West middle). Valid.<br>If G=6, B=1 (occupied by D).<br>If G=7, B=2 (neighbor of A). Invalid.<br>If G=8, B=3 (occupied by A).<br>So G must be at 4 (SE corner) and B is at 7 (West middle).<br>Wait, B is not an immediate neighbor of A. A is at 3. B is at 7. Good.<br>Positions so far: D(1), G(4), C(5), B(7), A(3). Empty: 2, 6, 8 (all corners).<br>Wait, earlier we assumed C and D are at middle of sides. Let's re-read: \"neither of who sits on the corners\". Yes, both are in the middle.<br>5. \"H is not an immediate neighbor of C.\" &rarr; C is at 5. Neighbors of C are 4 and 6. G is at 4. So 6 cannot be H. Thus H must be at 2 or 8.<br>6. \"E is not an immediate neighbor of A.\" &rarr; A is at 3. Neighbors of A are 2 and 4. G is at 4. So 2 cannot be E. <br>We have E, F, H left. Empty spots: 2, 6, 8.<br>H cannot be at 6. E cannot be at 2.<br>Let's check H. H &ne; 6. So H is 2 or 8.<br>Let's check E. E &ne; 2. So E is 6 or 8.<br>This means F can be anywhere. <br>Wait, does the question give a unique placement for H? <br>Let's re-evaluate A's position. \"A sits 2nd to the right of C\". If C is at side-middle, 2nd right is also a side-middle! Wait, in an 8-person square, corners and middles alternate. 1(middle), 2(corner), 3(middle). So yes, A is at 3 (middle).<br>Then all 4 side-middles are occupied: D(1), A(3), C(5), B(7).<br>Corners are 2, 4, 6, 8. G is at 4. <br>Empty corners for E, F, H are 2, 6, 8.<br>H is not neighbor of C(5), so H &ne; 4,6. Thus H must be at 2 or 8.<br>E is not neighbor of A(3), so E &ne; 2,4. Thus E must be at 6 or 8.<br>If H=2, E=6, F=8. (Case 1)<br>If H=8, E=6, F=2. (Case 2)<br>Question: \"How many people sit between A and H when counted from the right of A?\"<br>Right of A is anti-clockwise. A is at 3. Right from A goes towards 2, 1, 8...<br>In Case 1: H=2. Between A(3) and H(2) from right... Wait! Right of A(3) facing centre is anti-clockwise. So 4, 5, 6, 7, 8, 1, 2. That's 6 people. Options are 1,2,3,4. <br>Let me re-check \"right\". If facing centre, left is clockwise, right is anti-clockwise. <br>Let's draw: Top(N)=D, Bottom(S)=C, Right(E)=A. Left(W)=B.<br>A is at East. Facing centre, A's left is North(D). A's right is South(C).<br>So A sits 2nd to the RIGHT of C. C is South. Facing centre, C's right is East(A). Correct.<br>B sits 3rd to the right of G. G is SE(4). Facing centre, right of G is anti-clockwise. 1st=E(A), 2nd=NE(2), 3rd=N(D). But B is at W(7). So G cannot be SE(4).<br>Let's re-evaluate G's position. Right = anti-clockwise.<br>B is at 7 (West). We need G such that 3rd right of G is 7.<br>So G is 3 positions clockwise from 7 &rarr; 7, 8, 1. Wait. Clockwise from 7 is 8, 1, 2. (West &rarr; NW &rarr; North &rarr; NE).<br>Let's count back: 7 - 3 = 4? No, 7 is West. 3rd right means G + 3 = 7. So G = 4 (SE).<br>Let's check G at SE(4). Facing centre. Right is East, NE, North. So 1st right=3(A), 2nd right=2, 3rd right=1(D). This means B would be at 1. But D is at 1! My numbering anti-clockwise: 1(N), 2(NW), 3(W) etc... let's fix standard numbering.<br>Let 1=N, 2=NE, 3=E, 4=SE, 5=S, 6=SW, 7=W, 8=NW. Clockwise.<br>Facing centre: Right is ANTI-clockwise. Left is CLOCKWISE.<br>D=1, C=5. (Middles).<br>A sits 2nd to right of C(5). Right of C is 4(SE), 3(E). So A=3 (East Middle).<br>B is 3rd to right of G. Right is anti-clockwise. So G - 3 = B or G + 5 = B. <br>B is not neighbor of A(3). So B &ne; 2, 4. B is middle, so B=7 (West).<br>If B=7, G must be such that 3rd right is 7. Anti-clockwise 3 steps to 7: 10 &rarr; 2 (NE). Let's check: G at 2. Anti-clockwise: 1st=1(N), 2nd=8(NW), 3rd=7(W). Yes! G=2.<br>So G is at 2 (NE corner).<br>Positions: D(1), G(2), A(3), _(4), C(5), _(6), B(7), _(8).<br>Empty corners: 4, 6, 8.<br>H is not neighbor of C(5). So H &ne; 4, 6. Thus H=8 (NW corner).<br>E is not neighbor of A(3). So E &ne; 2(G), 4. Thus E=6 (SW corner).<br>Then F must be at 4 (SE corner).<br>All placed: D(1), G(2), A(3), F(4), C(5), E(6), B(7), H(8).<br>Question: How many sit between A(3) and H(8) when counted from right of A?<br>Right of A is anti-clockwise. A(3) &rarr; 2, 1, 8. <br>Between 3 and 8 are 2(G) and 1(D).<br>Total 2 people.<br><br><b>Solution (HI):</b><br>1. वर्गाकार मेज, 8 लोग। 4 कोनों पर, 4 भुजाओं के मध्य में।<br>2. C और D के बीच 3 लोग, दोनों मध्य में हैं। मान लें C दक्षिण(5) में है, तो D उत्तर(1) में होगा।<br>3. A, C के दायें (वामावर्त) दूसरा है। तो A पूर्व(3) में है।<br>4. B, A का पड़ोसी नहीं है, इसलिए B पश्चिम(7) में होगा।<br>5. B, G के दायें तीसरा है। यदि G, NE(2) कोने पर है, तो उसका दायां (वामावर्त) 1(N), 8(NW), 7(W) होगा। तो G=2.<br>6. H, C(5) का पड़ोसी नहीं है, इसलिए H 4 या 6 पर नहीं हो सकता। अतः H=8 (NW कोना)।<br>7. A(3) के दायें (वामावर्त) से गिनने पर A(3) और H(8) के बीच 2(G) और 1(D) हैं।<br>8. कुल 2 व्यक्ति।<br><br><b>Short Trick:</b><br>Draw square. Place C at bottom middle. D at top middle. A is 2nd right of C (right middle). B is not next to A, so B is left middle. G is 3rd left of B (since B is 3rd right of G), so G is top-right corner. H is not next to C, so H is top-left corner. Count from right of A (anti-clockwise) to H. There are 2 spots (top-right, top-middle)."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Seating Arrangement",
+        "difficulty": "Hard",
+        "q_en": "A, B, C, D, E, F, G and H are sitting around a square table, facing the centre of the table. Some of them are sitting at the corners, while some are sitting at the exact centre of the sides. E sits third to the left of F. E sits at one of the corners. B sits second to the right of F. C sits at one of the corners. C is not an immediate neighbour of F. H is an immediate neighbour of B. D does not sit at any of the centre of the sides. Only three people sit between B and A. How many people sit between G and A when counted from the right of A?",
+        "q_hi": "A, B, C, D, E, F, G और H एक वर्गाकार मेज के चारों ओर, मेज के केंद्र की ओर मुख करके बैठे हैं। उनमें से कुछ कोनों पर बैठे हैं, जबकि कुछ भुजाओं के ठीक मध्य में बैठे हैं। E, F के बायीं ओर तीसरे स्थान पर बैठा है। E किसी एक कोने पर बैठा है। B, F के दायीं ओर दूसरे स्थान पर बैठा है। C किसी एक कोने पर बैठा है। C, F का निकटतम पड़ोसी नहीं है। H, B का निकटतम पड़ोसी है। D किसी भी भुजा के मध्य में नहीं बैठा है। B और A के बीच केवल तीन व्यक्ति बैठे हैं। A के दायीं ओर से गिनने पर G और A के बीच कितने व्यक्ति बैठे हैं?",
+        "op_en": [
+            "Five",
+            "Three",
+            "None",
+            "One"
+        ],
+        "op_hi": [
+            "पांच",
+            "तीन",
+            "कोई नहीं",
+            "एक"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>1. 8 people, square table, facing centre. Corners and side-middles.<br>2. \"E sits at one of the corners. E sits third to the left of F.\" &rarr; Left is clockwise. E is at corner, so F must be at a side-middle. (Because corner - 1 = middle, corner - 2 = corner, corner - 3 = middle). <br>Let F be at 1 (North middle). Then left (clockwise) 3 positions is E. So E is at 4 (SE corner).<br>3. \"B sits second to the right of F.\" &rarr; Right is anti-clockwise. 2nd right of 1 is 7 (West middle). So B = 7.<br>4. \"Only three people sit between B and A.\" &rarr; In an 8-person circle/square, 3 people between means they are opposite. So A is opposite B. A = 3 (East middle).<br>5. \"H is an immediate neighbour of B.\" &rarr; Neighbors of B(7) are 6 (SW corner) and 8 (NW corner). So H is 6 or 8.<br>6. \"C sits at one of the corners. C is not an immediate neighbour of F.\" &rarr; F is at 1. Neighbors of F are 2(NE) and 8(NW). So C &ne; 2, 8. Since C is a corner, C must be 4 or 6. But E is already at 4. So C = 6 (SW corner).<br>7. Since C=6 and H is a neighbor of B(7), H must be 8 (NW corner).<br>8. \"D does not sit at any of the centre of the sides.\" &rarr; D is at a corner. Empty corners: only 2 (NE corner) is empty. So D = 2.<br>9. The only person left is G. Empty spot is 5 (South middle). So G = 5.<br>10. Layout (anti-clockwise / right): 1(F), 8(H), 7(B), 6(C), 5(G), 4(E), 3(A), 2(D).<br>11. Question: \"How many people sit between G and A when counted from the right of A?\"<br>Right of A(3) is anti-clockwise. Counting from A(3) to G(5): 3 &rarr; 2(D), 1(F), 8(H), 7(B), 6(C) &rarr; 5(G).<br>The people are D, F, H, B, C. Total 5 people.<br><br><b>Solution (HI):</b><br>1. वर्गाकार मेज, 8 लोग।<br>2. 'E एक कोने पर है। E, F के बायें तीसरा है।' &rarr; मान लें F उत्तर-मध्य (1) में है, तो E वामावर्त (बायें) SE कोने (4) पर है।<br>3. 'B, F के दायें दूसरा है।' &rarr; F के दायें (दक्षिणावर्त) दूसरा B पश्चिम-मध्य (7) पर है।<br>4. 'B और A के बीच 3 लोग हैं।' &rarr; A, B के विपरीत पूर्व-मध्य (3) पर है।<br>5. 'C कोने पर है, F का पड़ोसी नहीं है।' &rarr; F(1) के पड़ोसी कोने 2 और 8 हैं। C वहाँ नहीं है। E(4) पर है। अतः C = 6 (SW कोना)।<br>6. 'H, B का पड़ोसी है।' &rarr; B(7) का पड़ोसी 6 या 8 है। 6 पर C है, तो H = 8 (NW कोना)।<br>7. 'D मध्य में नहीं है (कोने पर है)।' &rarr; खाली कोना केवल 2 (NE कोना) है, तो D = 2।<br>8. शेष G दक्षिण-मध्य (5) पर होगा।<br>9. A(3) के दायें (दक्षिणावर्त) से G(5) तक गिनने पर: 2(D), 1(F), 8(H), 7(B), 6(C) आते हैं। कुल 5 व्यक्ति।<br><br><b>Short Trick:</b><br>Place F at North. E (3rd left) is at bottom-right corner. B (2nd right) is at West. A (opp B) is at East. C (corner, not next to F) must be bottom-left. H (next to B) is top-left. D (corner) is top-right. G is at South. Right of A means counter-clockwise. From A(East) to G(South) counter-clockwise covers top-right, top, top-left, left, bottom-left. Total 5."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Blood Relation",
+        "difficulty": "Medium",
+        "q_en": "In a certain code language,<br>'A * B' means 'A is the father of B',<br>'A x B' means 'A is the brother of B',<br>'A + B' means 'A is the sister of B' and<br>'A - B' means 'A is the wife of B'.<br><br>How is T related to R if 'T x O + W - E * R'?",
+        "q_hi": "एक निश्चित कूट भाषा में,<br>'A * B' का अर्थ है 'A, B का पिता है',<br>'A x B' का अर्थ है 'A, B का भाई है',<br>'A + B' का अर्थ है 'A, B की बहन है' और<br>'A - B' का अर्थ है 'A, B की पत्नी है'।<br><br>यदि 'T x O + W - E * R' है, तो T, R से किस प्रकार संबंधित है?",
+        "op_en": [
+            "Mother's father",
+            "Mother's mother",
+            "Mother's brother",
+            "Mother's mother's brother"
+        ],
+        "op_hi": [
+            "माता का पिता",
+            "माता की माता",
+            "माता का भाई",
+            "माता की माता का भाई"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>1. Analyze the expression: T x O + W - E * R<br>2. T x O &rarr; T is the brother of O. (T is male)<br>3. O + W &rarr; O is the sister of W. (O is female)<br>4. W - E &rarr; W is the wife of E. (W is female, E is male husband)<br>5. E * R &rarr; E is the father of R.<br>6. From 4 and 5: W is the mother of R.<br>7. From 2 and 3: T is the brother of W (since T is brother of O, and O is sister of W).<br>8. Therefore, T is the brother of R's mother (W).<br>9. T is R's Mother's brother (Maternal Uncle).<br><br><b>Solution (HI):</b><br>1. समीकरण: T x O + W - E * R<br>2. T x O &rarr; T, O का भाई है। (T पुरुष है)<br>3. O + W &rarr; O, W की बहन है। (O महिला है)<br>4. W - E &rarr; W, E की पत्नी है। (W महिला है, E पति है)<br>5. E * R &rarr; E, R का पिता है।<br>6. चरण 4 और 5 से: W, R की माता है।<br>7. चरण 2 और 3 से: T, W का भाई है (क्योंकि T, O का भाई है, और O, W की बहन है)।<br>8. इसलिए, T, R की माता (W) का भाई है।<br>9. T, R का मामा (माता का भाई) है।<br><br><b>Short Trick:</b><br>Read backwards: R's father is E. E's wife is W (R's mother). W's sister is O. O's brother is T. So T is W's brother. W is R's mother. Thus, T is R's mother's brother."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Puzzle",
+        "difficulty": "Hard",
+        "q_en": "Seven boxes R, S, T, U, V, W and Y are kept one over the other but not necessarily in the same order. Only three boxes are kept above W. Only two boxes are kept between W and V. Only three boxes are kept between V and S. Y is kept immediately above V. U is kept at some place below R and at some place above T. Which box is kept at second position from the top?",
+        "q_hi": "सात बॉक्स R, S, T, U, V, W और Y एक के ऊपर एक रखे गए हैं लेकिन जरूरी नहीं कि इसी क्रम में हों। W के ऊपर केवल तीन बॉक्स रखे गए हैं। W और V के बीच केवल दो बॉक्स रखे गए हैं। V और S के बीच केवल तीन बॉक्स रखे गए हैं। Y को V के ठीक ऊपर रखा गया है। U को R के नीचे किसी स्थान पर और T के ऊपर किसी स्थान पर रखा गया है। ऊपर से दूसरे स्थान पर कौन सा बॉक्स रखा गया है?",
+        "op_en": [
+            "U",
+            "R",
+            "T",
+            "Y"
+        ],
+        "op_hi": [
+            "U",
+            "R",
+            "T",
+            "Y"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>1. Total 7 boxes, positions 1 (top) to 7 (bottom).<br>2. \"Only three boxes are kept above W.\" &rarr; W is fixed at the 4th position.<br>3. \"Only two boxes are kept between W and V.\" &rarr; V can be at the 1st or 7th position.<br>4. \"Y is kept immediately above V.\" &rarr; V cannot be at the 1st position because there's no space above it. So, V is at the 7th position, and Y is at the 6th position.<br>5. \"Only three boxes are kept between V and S.\" &rarr; Since V is at 7th, S must be at the 3rd position (leaving 4th, 5th, 6th between them).<br>6. So far we have: 1:_, 2:_, 3:S, 4:W, 5:_, 6:Y, 7:V.<br>7. Remaining boxes R, U, T must fill spots 1, 2, 5.<br>8. \"U is kept at some place below R and at some place above T.\" &rarr; Order from top to bottom is R, then U, then T. So R=1st, U=2nd, T=5th.<br>9. Complete arrangement: 1-R, 2-U, 3-S, 4-W, 5-T, 6-Y, 7-V.<br>10. The box at the second position from the top is U.<br><br><b>Solution (HI):</b><br>1. कुल 7 बॉक्स, स्थान 1 (ऊपर) से 7 (नीचे)।<br>2. \"W के ऊपर केवल तीन बॉक्स हैं\" &rarr; W चौथे स्थान पर है।<br>3. \"W और V के बीच केवल दो बॉक्स हैं\" &rarr; V पहले या 7वें स्थान पर हो सकता है।<br>4. \"Y, V के ठीक ऊपर है\" &rarr; V पहले स्थान पर नहीं हो सकता। अतः V 7वें स्थान पर है, और Y 6वें स्थान पर है।<br>5. \"V और S के बीच केवल तीन बॉक्स हैं\" &rarr; चूँकि V 7वें पर है, S को तीसरे स्थान पर होना चाहिए (बीच में 4, 5, 6)।<br>6. अब तक: 1:_, 2:_, 3:S, 4:W, 5:_, 6:Y, 7:V.<br>7. शेष बॉक्स R, U, T को 1, 2, 5 में भरना है।<br>8. \"U, R के नीचे और T के ऊपर है\" &rarr; क्रम R, U, T होगा। अतः R=पहला, U=दूसरा, T=5वाँ।<br>9. पूरा क्रम: 1-R, 2-U, 3-S, 4-W, 5-T, 6-Y, 7-V.<br>10. ऊपर से दूसरे स्थान पर U है।<br><br><b>Short Trick:</b><br>W = 4. V = 7 (as Y is above V). Y = 6. S = 3 (gap of 3 from V). Empty spots: 1, 2, 5. Condition R > U > T fills them as R=1, U=2, T=5. Second from top is U."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "difficulty": "Easy",
+        "q_en": "Each vowel in the word DRIVES is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. How many vowels are there in the letter-cluster thus formed?",
+        "q_hi": "DRIVES शब्द के प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद वाले अक्षर में बदल दिया जाता है और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक पहले वाले अक्षर में बदल दिया जाता है। इस प्रकार बने अक्षर-समूह में कितने स्वर हैं?",
+        "op_en": [
+            "1",
+            "3",
+            "0",
+            "2"
+        ],
+        "op_hi": [
+            "1",
+            "3",
+            "0",
+            "2"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>1. Original Word: DRIVES.<br>2. Rule: Consonant &rarr; Previous Letter (-1), Vowel &rarr; Next Letter (+1).<br>3. Let's apply the rule:<br>- D (Consonant) &rarr; C<br>- R (Consonant) &rarr; Q<br>- I (Vowel) &rarr; J<br>- V (Consonant) &rarr; U<br>- E (Vowel) &rarr; F<br>- S (Consonant) &rarr; R<br>4. New letter-cluster: CQJUFR.<br>5. Number of vowels in the new cluster: Only 'U' is a vowel. Total = 1.<br><br><b>Solution (HI):</b><br>1. मूल शब्द: DRIVES.<br>2. नियम: व्यंजन &rarr; पिछला अक्षर (-1), स्वर &rarr; अगला अक्षर (+1)।<br>3. नियम लागू करने पर:<br>- D (व्यंजन) &rarr; C<br>- R (व्यंजन) &rarr; Q<br>- I (स्वर) &rarr; J<br>- V (व्यंजन) &rarr; U<br>- E (स्वर) &rarr; F<br>- S (व्यंजन) &rarr; R<br>4. नया अक्षर-समूह: CQJUFR.<br>5. नए समूह में स्वरों की संख्या: केवल 'U' एक स्वर है। कुल = 1.<br><br><b>Short Trick:</b><br>A vowel in the output can only come from consonants B, F, J, P, V (which become A, E, I, O, U). In 'DRIVES', 'V' is present, which becomes 'U'. Vowels (I, E) become consonants (J, F). So, exactly 1 vowel is formed."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "difficulty": "Medium",
+        "q_en": "This question is based on the following words.<br><br>JUTE, FIND, PANE, VINE<br><br>In each of the words, each vowel is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. In how many letter-clusters thus formed, will no vowel appear?",
+        "q_hi": "यह प्रश्न निम्नलिखित शब्दों पर आधारित है।<br><br>JUTE, FIND, PANE, VINE<br><br>प्रत्येक शब्द में, प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद वाले अक्षर में बदल दिया जाता है और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक पहले वाले अक्षर में बदल दिया जाता है। इस प्रकार बने कितने अक्षर-समूहों में कोई स्वर नहीं होगा?",
+        "op_en": [
+            "Three",
+            "Two",
+            "Zero",
+            "One"
+        ],
+        "op_hi": [
+            "तीन",
+            "दो",
+            "शून्य",
+            "एक"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>1. Rule: Vowel &rarr; +1 (A&rarr;B, E&rarr;F, I&rarr;J, O&rarr;P, U&rarr;V). Note that NO vowel becomes another vowel.<br>2. Rule: Consonant &rarr; -1. A consonant becomes a vowel ONLY if it is exactly one letter after a vowel (i.e., B&rarr;A, F&rarr;E, J&rarr;I, P&rarr;O, V&rarr;U).<br>3. Check each word for the presence of B, F, J, P, or V:<br>- JUTE: Contains 'J' &rarr; becomes 'I' (vowel).<br>- FIND: Contains 'F' &rarr; becomes 'E' (vowel).<br>- PANE: Contains 'P' &rarr; becomes 'O' (vowel).<br>- VINE: Contains 'V' &rarr; becomes 'U' (vowel).<br>4. Since every word has at least one consonant that changes into a vowel, ALL the new letter-clusters will have at least one vowel.<br>5. Therefore, ZERO letter-clusters will have NO vowel.<br><br><b>Solution (HI):</b><br>1. नियम: स्वर &rarr; +1 (A&rarr;B, E&rarr;F, I&rarr;J, O&rarr;P, U&rarr;V)। कोई भी स्वर स्वर नहीं बनता।<br>2. नियम: व्यंजन &rarr; -1। कोई व्यंजन स्वर तभी बनता है जब वह (B, F, J, P, V) हो (क्योंकि B&rarr;A, F&rarr;E, J&rarr;I, P&rarr;O, V&rarr;U)।<br>3. प्रत्येक शब्द में B, F, J, P, या V की जाँच करें:<br>- JUTE: 'J' है &rarr; 'I' (स्वर) बन जाएगा।<br>- FIND: 'F' है &rarr; 'E' (स्वर) बन जाएगा।<br>- PANE: 'P' है &rarr; 'O' (स्वर) बन जाएगा।<br>- VINE: 'V' है &rarr; 'U' (स्वर) बन जाएगा।<br>4. चूँकि हर शब्द में कम से कम एक ऐसा व्यंजन है जो स्वर में बदलता है, इसलिए सभी नए समूहों में स्वर होगा।<br>5. अतः 'शून्य' समूहों में कोई स्वर नहीं होगा।<br><br><b>Short Trick:</b><br>Check if words contain B, F, J, P, or V. JUTE (J), FIND (F), PANE (P), VINE (V). All contain them. Thus, all will produce a vowel. Zero words will be without a vowel."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "difficulty": "Easy",
+        "q_en": "Each vowel in the word JOCULAR is changed to the letter immediately following it in the English alphabetical order and each consonant is changed to the letter immediately preceding it in the English alphabetical order. How many letters will appear exactly twice in the new letter-cluster thus formed?",
+        "q_hi": "JOCULAR शब्द के प्रत्येक स्वर को अंग्रेजी वर्णमाला क्रम में उसके ठीक बाद वाले अक्षर में बदल दिया जाता है और प्रत्येक व्यंजन को अंग्रेजी वर्णमाला क्रम में उसके ठीक पहले वाले अक्षर में बदल दिया जाता है। इस प्रकार बने नए अक्षर-समूह में कितने अक्षर ठीक दो बार दिखाई देंगे?",
+        "op_en": [
+            "0",
+            "3",
+            "2",
+            "1"
+        ],
+        "op_hi": [
+            "0",
+            "3",
+            "2",
+            "1"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>1. Original Word: JOCULAR.<br>2. Rule: Vowel &rarr; +1, Consonant &rarr; -1.<br>3. Let's apply the changes:<br>- J (Consonant) &rarr; I<br>- O (Vowel) &rarr; P<br>- C (Consonant) &rarr; B<br>- U (Vowel) &rarr; V<br>- L (Consonant) &rarr; K<br>- A (Vowel) &rarr; B<br>- R (Consonant) &rarr; Q<br>4. New letter-cluster: I P B V K B Q.<br>5. Let's check frequencies: I(1), P(1), B(2), V(1), K(1), Q(1).<br>6. Only the letter 'B' appears exactly twice. So, 1 letter appears twice.<br><br><b>Solution (HI):</b><br>1. मूल शब्द: JOCULAR.<br>2. नियम: स्वर &rarr; +1, व्यंजन &rarr; -1।<br>3. बदलाव लागू करने पर:<br>- J (व्यंजन) &rarr; I<br>- O (स्वर) &rarr; P<br>- C (व्यंजन) &rarr; B<br>- U (स्वर) &rarr; V<br>- L (व्यंजन) &rarr; K<br>- A (स्वर) &rarr; B<br>- R (व्यंजन) &rarr; Q<br>4. नया अक्षर-समूह: I P B V K B Q.<br>5. आवृत्ति जाँचें: I(1), P(1), B(2), V(1), K(1), Q(1).<br>6. केवल 'B' अक्षर ठीक दो बार दिखाई देता है। अतः 1 अक्षर दो बार आता है।<br><br><b>Short Trick:</b><br>Just write down the transformed word: I P B V K B Q. Notice 'B' repeats. Only 1 letter repeats."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Coding Decoding",
+        "difficulty": "Easy",
+        "q_en": "In a certain code, 'school is knowledge' is coded as 'df bv os', 'knowledge power house' is coded as 'lp os st', and 'house road side' is coded as 'st bq hy'. What is code for 'knowledge' that language?<br><br>(NOTE: All the codes are two letter-coded only)",
+        "q_hi": "एक निश्चित कूट में, 'school is knowledge' को 'df bv os' के रूप में, 'knowledge power house' को 'lp os st' के रूप में, और 'house road side' को 'st bq hy' के रूप में कूटबद्ध किया जाता है। उस भाषा में 'knowledge' के लिए कूट क्या है?<br><br>(नोट: सभी कूट केवल दो अक्षरों के हैं)",
+        "op_en": [
+            "bv",
+            "os",
+            "lp",
+            "st"
+        ],
+        "op_hi": [
+            "bv",
+            "os",
+            "lp",
+            "st"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>1. Statement 1: 'school is knowledge' = 'df bv os'<br>2. Statement 2: 'knowledge power house' = 'lp os st'<br>3. By comparing Statement 1 and Statement 2, the only common word is 'knowledge'.<br>4. The only common code between them is 'os'.<br>5. Therefore, the code for 'knowledge' is 'os'.<br><br><b>Solution (HI):</b><br>1. कथन 1: 'school is knowledge' = 'df bv os'<br>2. कथन 2: 'knowledge power house' = 'lp os st'<br>3. कथन 1 और कथन 2 की तुलना करने पर, केवल एक ही सामान्य शब्द 'knowledge' है।<br>4. दोनों में केवल एक ही सामान्य कूट 'os' है।<br>5. इसलिए, 'knowledge' के लिए कूट 'os' है।<br><br><b>Short Trick:</b><br>'knowledge' appears in sentences 1 and 2. The only common code in these two sentences is 'os'. Thus, 'knowledge' = 'os'."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Analogy",
+        "difficulty": "Medium",
+        "q_en": "Select the pair that follows the same pattern as that followed by the two pairs given below. Both pairs follow the same pattern.<br><br>GSU : JNW<br>KZR : NUT",
+        "q_hi": "उस युग्म का चयन करें जो नीचे दिए गए दो युग्मों द्वारा अनुसरण किए गए समान पैटर्न का अनुसरण करता है। दोनों युग्म समान पैटर्न का अनुसरण करते हैं।<br><br>GSU : JNW<br>KZR : NUT",
+        "op_en": [
+            "MMQ : PHT",
+            "ART : DMW",
+            "FQQ : ILS",
+            "JIL : MEN"
+        ],
+        "op_hi": [
+            "MMQ : PHT",
+            "ART : DMW",
+            "FQQ : ILS",
+            "JIL : MEN"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>1. Pattern for GSU : JNW<br>G(7) + 3 = J(10)<br>S(19) - 5 = N(14)<br>U(21) + 2 = W(23)<br>2. Pattern for KZR : NUT<br>K(11) + 3 = N(14)<br>Z(26) - 5 = U(21)<br>R(18) + 2 = T(20)<br>The logic is +3, -5, +2.<br>3. Checking the given options:<br>Option 1: M(13) + 3 = P(16), M(13) - 5 = H(8), Q(17) + 2 = S(19) &ne; T. (Incorrect)<br>Option 2: A(1) + 3 = D(4), R(18) - 5 = M(13), T(20) + 2 = V(22) &ne; W. (Incorrect)<br>Option 3: F(6) + 3 = I(9), Q(17) - 5 = L(12), Q(17) + 2 = S(19). (Matches!)<br>Option 4: J(10) + 3 = M(13), I(9) - 5 = D(4) &ne; E. (Incorrect)<br><br><b>Solution (HI):</b><br>1. GSU : JNW के लिए पैटर्न<br>G(7) + 3 = J(10)<br>S(19) - 5 = N(14)<br>U(21) + 2 = W(23)<br>2. KZR : NUT के लिए पैटर्न<br>K(11) + 3 = N(14)<br>Z(26) - 5 = U(21)<br>R(18) + 2 = T(20)<br>तर्क +3, -5, +2 है।<br>3. दिए गए विकल्पों की जाँच करने पर:<br>विकल्प 1: M(13) + 3 = P(16), M(13) - 5 = H(8), Q(17) + 2 = S(19) &ne; T. (गलत)<br>विकल्प 2: A(1) + 3 = D(4), R(18) - 5 = M(13), T(20) + 2 = V(22) &ne; W. (गलत)<br>विकल्प 3: F(6) + 3 = I(9), Q(17) - 5 = L(12), Q(17) + 2 = S(19). (सही!)<br>विकल्प 4: J(10) + 3 = M(13), I(9) - 5 = D(4) &ne; E. (गलत)<br><br><b>Short Trick:</b><br>Identify the shift: +3, -5, +2. Test only the first and last letters of the options to save time. Option 3: F+3=I, Q+2=S. Correct."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Syllogism",
+        "difficulty": "Easy",
+        "q_en": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.<br><br><b>Statements:</b><br>All thumbs are fingers.<br>Some fingers are toes.<br><br><b>Conclusions:</b><br>(I) Some toes are thumbs.<br>(II) Some thumbs are toes.",
+        "q_hi": "दिए गए कथनों और निष्कर्षों को ध्यानपूर्वक पढ़ें। यह मानते हुए कि कथनों में दी गई जानकारी सत्य है, भले ही यह सामान्य रूप से ज्ञात तथ्यों से भिन्न प्रतीत होती हो, तय करें कि दिए गए निष्कर्षों में से कौन सा/से तार्किक रूप से कथनों का अनुसरण करता है/करते हैं।<br><br><b>कथन:</b><br>सभी अंगूठे उंगलियां हैं।<br>कुछ उंगलियां पैर की उंगलियां हैं।<br><br><b>निष्कर्ष:</b><br>(I) कुछ पैर की उंगलियां अंगूठे हैं।<br>(II) कुछ अंगूठे पैर की उंगलियां हैं।",
+        "op_en": [
+            "Only conclusion (II) follows.",
+            "Neither conclusion (I) nor (II) follows.",
+            "Only conclusion (I) follows.",
+            "Both conclusions (I) and (II) follow."
+        ],
+        "op_hi": [
+            "केवल निष्कर्ष (II) अनुसरण करता है।",
+            "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
+            "केवल निष्कर्ष (I) अनुसरण करता है।",
+            "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>1. Draw a basic Venn diagram based on the statements.<br>2. \"All thumbs are fingers\": Draw the circle for 'thumbs' completely inside the circle for 'fingers'.<br>3. \"Some fingers are toes\": Draw a circle for 'toes' intersecting the circle for 'fingers'.<br>4. Conclusion (I) \"Some toes are thumbs\": The 'toes' circle and the 'thumbs' circle do not necessarily intersect. Hence, it does not logically follow.<br>5. Conclusion (II) \"Some thumbs are toes\": Similarly, there is no direct connection given between 'thumbs' and 'toes'. Hence, it also does not logically follow.<br>Both conclusions do not follow.<br><br><b>Solution (HI):</b><br>1. कथनों के आधार पर एक बुनियादी वेन आरेख बनाएं।<br>2. \"सभी अंगूठे उंगलियां हैं\": 'अंगूठे' का वृत्त 'उंगलियों' के वृत्त के पूरी तरह से अंदर बनाएं।<br>3. \"कुछ उंगलियां पैर की उंगलियां हैं\": 'पैर की उंगलियों' का एक वृत्त बनाएं जो 'उंगलियों' के वृत्त को काटता हो।<br>4. निष्कर्ष (I) \"कुछ पैर की उंगलियां अंगूठे हैं\": 'पैर की उंगलियों' का वृत्त और 'अंगूठे' का वृत्त अनिवार्य रूप से एक दूसरे को नहीं काटते हैं। इसलिए, यह तार्किक रूप से अनुसरण नहीं करता है।<br>5. निष्कर्ष (II) \"कुछ अंगूठे पैर की उंगलियां हैं\": इसी तरह, 'अंगूठे' और 'पैर की उंगलियों' के बीच कोई सीधा संबंध नहीं दिया गया है। इसलिए, यह भी तार्किक रूप से अनुसरण नहीं करता है।<br>दोनों ही निष्कर्ष अनुसरण नहीं करते हैं।<br><br><b>Short Trick:</b><br>Rule: (All A are B) + (Some B are C) = No definite relation between A and C. Hence, any conclusion making a definite link between thumbs and toes is invalid."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Odd One Out",
+        "difficulty": "Easy",
+        "q_en": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group?<br>(Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+        "q_hi": "अंग्रेजी वर्णमाला क्रम के आधार पर, निम्नलिखित चार अक्षर-समूहों में से तीन एक निश्चित तरीके से समान हैं और इस प्रकार एक समूह बनाते हैं। कौन सा अक्षर-समूह उस समूह से संबंधित नहीं है?<br>(नोट: बेजोड़ का चयन व्यंजनों/स्वरों की संख्या या अक्षर-समूह में उनके स्थान पर आधारित नहीं है।)",
+        "op_en": [
+            "PSR",
+            "OPK",
+            "SVU",
+            "HKJ"
+        ],
+        "op_hi": [
+            "PSR",
+            "OPK",
+            "SVU",
+            "HKJ"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>Let's evaluate the difference in positional values for each option:<br>1. PSR: P(16) &rarr; S(19) [+3]; S(19) &rarr; R(18) [-1]. Pattern: +3, -1.<br>2. OPK: O(15) &rarr; P(16) [+1]; P(16) &rarr; K(11) [-5]. Pattern: +1, -5.<br>3. SVU: S(19) &rarr; V(22) [+3]; V(22) &rarr; U(21) [-1]. Pattern: +3, -1.<br>4. HKJ: H(8) &rarr; K(11) [+3]; K(11) &rarr; J(10) [-1]. Pattern: +3, -1.<br>Option 2 (OPK) does not follow the (+3, -1) pattern.<br><br><b>Solution (HI):</b><br>आइए प्रत्येक विकल्प के लिए स्थितीय मानों में अंतर का मूल्यांकन करें:<br>1. PSR: P(16) &rarr; S(19) [+3]; S(19) &rarr; R(18) [-1]. पैटर्न: +3, -1.<br>2. OPK: O(15) &rarr; P(16) [+1]; P(16) &rarr; K(11) [-5]. पैटर्न: +1, -5.<br>3. SVU: S(19) &rarr; V(22) [+3]; V(22) &rarr; U(21) [-1]. पैटर्न: +3, -1.<br>4. HKJ: H(8) &rarr; K(11) [+3]; K(11) &rarr; J(10) [-1]. पैटर्न: +3, -1.<br>विकल्प 2 (OPK) (+3, -1) पैटर्न का अनुसरण नहीं करता है।<br><br><b>Short Trick:</b><br>Check the gap of the first two letters: P to S (+3), S to V (+3), H to K (+3). But O to P is +1. OPK is the odd one."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Letter Series",
+        "difficulty": "Easy",
+        "q_en": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?<br><br>OLP NKO MJN LIM ?",
+        "q_hi": "अंग्रेजी वर्णमाला क्रम के आधार पर दी गई श्रृंखला में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आना चाहिए?<br><br>OLP NKO MJN LIM ?",
+        "op_en": [
+            "KGM",
+            "KHL",
+            "KGL",
+            "KHM"
+        ],
+        "op_hi": [
+            "KGM",
+            "KHL",
+            "KGL",
+            "KHM"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>Let's break down the series letter by letter.<br>1. First letters: O(15) &rarr; N(14) &rarr; M(13) &rarr; L(12) &rarr; ?<br>The pattern is -1. So, L(12) - 1 = K(11).<br>2. Second letters: L(12) &rarr; K(11) &rarr; J(10) &rarr; I(9) &rarr; ?<br>The pattern is -1. So, I(9) - 1 = H(8).<br>3. Third letters: P(16) &rarr; O(15) &rarr; N(14) &rarr; M(13) &rarr; ?<br>The pattern is -1. So, M(13) - 1 = L(12).<br>Combining them, the next term is KHL.<br><br><b>Solution (HI):</b><br>आइए श्रृंखला को अक्षर दर अक्षर विभाजित करें।<br>1. पहले अक्षर: O(15) &rarr; N(14) &rarr; M(13) &rarr; L(12) &rarr; ?<br>पैटर्न -1 है। अतः, L(12) - 1 = K(11).<br>2. दूसरे अक्षर: L(12) &rarr; K(11) &rarr; J(10) &rarr; I(9) &rarr; ?<br>पैटर्न -1 है। अतः, I(9) - 1 = H(8).<br>3. तीसरे अक्षर: P(16) &rarr; O(15) &rarr; N(14) &rarr; M(13) &rarr; ?<br>पैटर्न -1 है। अतः, M(13) - 1 = L(12).<br>इन्हें मिलाने पर, अगला पद KHL होगा।<br><br><b>Short Trick:</b><br>All corresponding letters in the series decrease by 1 consecutively. O &rarr; N &rarr; M &rarr; L &rarr; <b>K</b>; L &rarr; K &rarr; J &rarr; I &rarr; <b>H</b>; P &rarr; O &rarr; N &rarr; M &rarr; <b>L</b>. Result is KHL."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Alphanumeric Series",
+        "difficulty": "Easy",
+        "q_en": "Refer to the given letter, number, symbol series and answer the question that follows. All numbers are single-digit numbers only.<br><br>(Left) H J $ 4 L ? 2 3 T A @ + C ? > $ D 6 9 3 K M N > & S X # 9 & @ $ % K L (Right)<br><br>If all the symbols are dropped from the series, which of the following will be fifth from the right?",
+        "q_hi": "दी गई अक्षर, संख्या, प्रतीक श्रृंखला का संदर्भ लें और निम्नलिखित प्रश्न का उत्तर दें। सभी संख्याएँ केवल एकल-अंकीय संख्याएँ हैं।<br><br>(बाएँ) H J $ 4 L ? 2 3 T A @ + C ? > $ D 6 9 3 K M N > & S X # 9 & @ $ % K L (दाएँ)<br><br>यदि श्रृंखला से सभी प्रतीकों को हटा दिया जाता है, तो निम्नलिखित में से कौन सा दाएँ से पाँचवाँ होगा?",
+        "op_en": [
+            "3",
+            "L",
+            "2",
+            "S"
+        ],
+        "op_hi": [
+            "3",
+            "L",
+            "2",
+            "S"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>1. The given series is: H J $ 4 L ? 2 3 T A @ + C ? > $ D 6 9 3 K M N > & S X # 9 & @ $ % K L<br>2. Drop all symbols ($, ?, @, +, ?, >, $, >, &, #, &, @, $, %): H J 4 L 2 3 T A C D 6 9 3 K M N S X 9 K L<br>3. We need to find the 5th element from the right end of this new series.<br>4. New series from right: L(1st), K(2nd), 9(3rd), X(4th), S(5th)...<br>5. The 5th element from the right is S.<br><br><b>Solution (HI):</b><br>1. दी गई श्रृंखला है: H J $ 4 L ? 2 3 T A @ + C ? > $ D 6 9 3 K M N > & S X # 9 & @ $ % K L<br>2. सभी प्रतीकों ($, ?, @, +, ?, >, $, >, &, #, &, @, $, %) को हटा दें: H J 4 L 2 3 T A C D 6 9 3 K M N S X 9 K L<br>3. हमें इस नई श्रृंखला के दाएँ छोर से 5वाँ तत्व खोजना है।<br>4. दाएँ से नई श्रृंखला: L(पहला), K(दूसरा), 9(तीसरा), X(चौथा), S(पाँचवाँ)...<br>5. दाएँ से 5वाँ तत्व S है।<br><br><b>Short Trick:</b><br>Instead of writing the whole new series, just count 5 elements (letters/numbers only) from the right end. L (1), K (2), % (skip), $ (skip), @ (skip), & (skip), 9 (3), # (skip), X (4), S (5). The 5th is S."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Syllogism",
+        "difficulty": "Easy",
+        "q_en": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statement(s).<br><br><b>Statements:</b><br>Some watermelons are fruits.<br>Some fruits are grapes.<br><br><b>Conclusions:</b><br>(I) Some watermelons are grapes.<br>(II) All grapes are fruits.",
+        "q_hi": "दिए गए कथनों और निष्कर्षों को ध्यानपूर्वक पढ़ें। यह मानते हुए कि कथनों में दी गई जानकारी सत्य है, भले ही यह सामान्य रूप से ज्ञात तथ्यों से भिन्न प्रतीत होती हो, तय करें कि दिए गए निष्कर्षों में से कौन सा/से तार्किक रूप से कथनों का अनुसरण करता है/करते हैं।<br><br><b>कथन:</b><br>कुछ तरबूज फल हैं。<br>कुछ फल अंगूर हैं।<br><br><b>निष्कर्ष:</b><br>(I) कुछ तरबूज अंगूर हैं।<br>(II) सभी अंगूर फल हैं।",
+        "op_en": [
+            "Only conclusion (I) follows",
+            "Both conclusions (I) and (II) follow",
+            "Only conclusion (II) follows",
+            "Neither conclusion (I) nor (II) follows"
+        ],
+        "op_hi": [
+            "केवल निष्कर्ष (I) अनुसरण करता है",
+            "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं",
+            "केवल निष्कर्ष (II) अनुसरण करता है",
+            "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>1. Draw Venn diagrams.<br>2. Statement 1: \"Some watermelons are fruits\" means the 'watermelons' circle and 'fruits' circle intersect.<br>3. Statement 2: \"Some fruits are grapes\" means the 'fruits' circle and 'grapes' circle intersect.<br>4. Conclusion (I): \"Some watermelons are grapes\". There is no direct relation given between watermelons and grapes. They may or may not intersect. Hence, this conclusion does not definitely follow.<br>5. Conclusion (II): \"All grapes are fruits\". The statement only says 'some' fruits are grapes, which means 'some' grapes are fruits. It does not mean 'all' grapes are fruits. Hence, this conclusion does not follow.<br>6. Therefore, neither conclusion (I) nor (II) follows.<br><br><b>Solution (HI):</b><br>1. वेन आरेख बनाएं।<br>2. कथन 1: \"कुछ तरबूज फल हैं\" का अर्थ है कि 'तरबूज' और 'फल' के वृत्त एक-दूसरे को काटते हैं।<br>3. कथन 2: \"कुछ फल अंगूर हैं\" का अर्थ है कि 'फल' और 'अंगूर' के वृत्त एक-दूसरे को काटते हैं।<br>4. निष्कर्ष (I): \"कुछ तरबूज अंगूर हैं\"। तरबूज और अंगूर के बीच कोई सीधा संबंध नहीं दिया गया है। वे एक-दूसरे को काट भी सकते हैं और नहीं भी। इसलिए, यह निष्कर्ष निश्चित रूप से अनुसरण नहीं करता है।<br>5. निष्कर्ष (II): \"सभी अंगूर फल हैं\"। कथन केवल यह कहता है कि 'कुछ' फल अंगूर हैं, जिसका अर्थ है 'कुछ' अंगूर फल हैं। इसका यह अर्थ नहीं है कि 'सभी' अंगूर फल हैं। इसलिए, यह निष्कर्ष अनुसरण नहीं करता है।<br>6. अतः, न तो निष्कर्ष (I) और न ही निष्कर्ष (II) अनुसरण करता है।<br><br><b>Short Trick:</b><br>Two 'Some' statements never yield a definite conclusion connecting the extreme terms (Watermelons and Grapes). Also, 'Some A are B' does not imply 'All B are A'. Both conclusions fail instantly."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Analogy",
+        "difficulty": "Medium",
+        "q_en": "In the following triads, each group of letters is related to the subsequent one following a certain logic. Select from the given options, the one which follows the same logic.<br><br>NAIL - ALIN - LIAN<br>BLUE - LEUB - EULB",
+        "q_hi": "निम्नलिखित त्रिकों में, अक्षरों का प्रत्येक समूह एक निश्चित तर्क के अनुसार बाद वाले से संबंधित है। दिए गए विकल्पों में से उस विकल्प का चयन करें जो समान तर्क का अनुसरण करता है।<br><br>NAIL - ALIN - LIAN<br>BLUE - LEUB - EULB",
+        "op_en": [
+            "FROG - RGOF - GORF",
+            "FIVE - IFVE - EIVF",
+            "VAST - AVST - TASV",
+            "FRET - FERT - TERF"
+        ],
+        "op_hi": [
+            "FROG - RGOF - GORF",
+            "FIVE - IFVE - EIVF",
+            "VAST - AVST - TASV",
+            "FRET - FERT - TERF"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>1. Analyze the logic in NAIL - ALIN - LIAN:<br>- NAIL (1234) &rarr; ALIN (2431): 2nd letter first, 4th letter second, 3rd letter third, 1st letter last. N(1) A(2) I(3) L(4) &rarr; A(2) L(4) I(3) N(1).<br>- Let's check BLUE - LEUB: B(1) L(2) U(3) E(4) &rarr; L(2) E(4) U(3) B(1). Pattern 2431 matches!<br>- Now check NAIL to LIAN.<br>- NAIL(1234) &rarr; LIAN(4321): Complete reversal! Let's check BLUE &rarr; EULB. B(1)L(2)U(3)E(4) &rarr; E(4)U(3)L(2)B(1). Matches!<br>- So logic is: Word, Word arranged as 2431, Word reversed (4321).<br>2. Check Option 1: FROG (1234).<br>- 2431 arrangement: R(2) G(4) O(3) F(1) &rarr; RGOF. Matches 2nd term!<br>- 4321 arrangement: G(4) O(3) R(2) F(1) &rarr; GORF. Matches 3rd term!<br>- Thus, FROG - RGOF - GORF is correct.<br><br><b>Solution (HI):</b><br>1. NAIL - ALIN - LIAN में तर्क का विश्लेषण करें:<br>- NAIL (1234) &rarr; ALIN (2431): दूसरा अक्षर पहले, चौथा अक्षर दूसरे, तीसरा अक्षर तीसरे, पहला अक्षर अंत में। N(1) A(2) I(3) L(4) &rarr; A(2) L(4) I(3) N(1)। क्रम: 2431.<br>- BLUE - LEUB की जाँच करें: B(1) L(2) U(3) E(4) &rarr; L(2) E(4) U(3) B(1)। 2431 पैटर्न मेल खाता है!<br>- अब NAIL से LIAN की जाँच करें।<br>- NAIL(1234) &rarr; LIAN(4321): पूर्ण उलटाव! BLUE &rarr; EULB की जाँच करें। B(1)L(2)U(3)E(4) &rarr; E(4)U(3)L(2)B(1)। मेल खाता है!<br>- अतः तर्क है: शब्द, शब्द 2431 के रूप में व्यवस्थित, शब्द उल्टा (4321)।<br>2. विकल्प 1 की जाँच करें: FROG (1234)।<br>- 2431 व्यवस्था: R(2) G(4) O(3) F(1) &rarr; RGOF। दूसरा पद मेल खाता है!<br>- 4321 व्यवस्था: G(4) O(3) R(2) F(1) &rarr; GORF। तीसरा पद मेल खाता है!<br>- इस प्रकार, FROG - RGOF - GORF सही है。<br><br><b>Short Trick:</b><br>The third word is simply the reverse of the first word (NAIL &rarr; LIAN). Look for this in the options. FROG &rarr; GORF (Yes), FIVE &rarr; EVIF (No), VAST &rarr; TSAV (No), FRET &rarr; TERF (Yes). Now check 2nd word for FROG and FRET. FROG &rarr; RGOF (2431, matches NAIL &rarr; ALIN). FRET &rarr; FERT (1423, no match). Option 1 is correct."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Letter Series",
+        "difficulty": "Medium",
+        "q_en": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?<br><br>LRC, IUZ, FXW, CAT, ZDQ, ?",
+        "q_hi": "अंग्रेजी वर्णमाला क्रम के आधार पर दी गई श्रृंखला में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आना चाहिए?<br><br>LRC, IUZ, FXW, CAT, ZDQ, ?",
+        "op_en": [
+            "WGN",
+            "UHM",
+            "VGO",
+            "UHN"
+        ],
+        "op_hi": [
+            "WGN",
+            "UHM",
+            "VGO",
+            "UHN"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>1. Analyze the pattern in each letter position.<br>2. 1st letters: L(12), I(9), F(6), C(3), Z(26)... Pattern is -3. So, Z(26) - 3 = W(23).<br>3. 2nd letters: R(18), U(21), X(24), A(27 or 1), D(4)... Pattern is +3. So, D(4) + 3 = G(7).<br>4. 3rd letters: C(3), Z(26), W(23), T(20), Q(17)... Pattern is -3. (C to Z is -3 since C is 29). So, Q(17) - 3 = N(14).<br>5. Combining them, the next term is WGN.<br><br><b>Solution (HI):</b><br>1. प्रत्येक अक्षर की स्थिति में पैटर्न का विश्लेषण करें।<br>2. पहले अक्षर: L(12), I(9), F(6), C(3), Z(26)... पैटर्न -3 है। अतः, Z(26) - 3 = W(23).<br>3. दूसरे अक्षर: R(18), U(21), X(24), A(27 या 1), D(4)... पैटर्न +3 है। अतः, D(4) + 3 = G(7).<br>4. तीसरे अक्षर: C(3), Z(26), W(23), T(20), Q(17)... पैटर्न -3 है। (C से Z -3 है क्योंकि C, 29 है)। अतः, Q(17) - 3 = N(14).<br>5. इन्हें मिलाने पर, अगला पद WGN होगा।<br><br><b>Short Trick:</b><br>Check first letters: L(-3)&rarr;I(-3)&rarr;F(-3)&rarr;C(-3)&rarr;Z(-3)&rarr;W. Only option 1 starts with W. Answer is WGN."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Syllogism",
+        "difficulty": "Medium",
+        "q_en": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusion(s) logically follow(s) from the statements.<br><br><b>Statements:</b><br>All peas are onions.<br>All onions are carrots.<br>No carrot is a tomato.<br><br><b>Conclusions:</b><br>(I) No pea is a tomato.<br>(II) No onion is a tomato.",
+        "q_hi": "दिए गए कथनों और निष्कर्षों को ध्यानपूर्वक पढ़ें। यह मानते हुए कि कथनों में दी गई जानकारी सत्य है, भले ही यह सामान्य रूप से ज्ञात तथ्यों से भिन्न प्रतीत होती हो, तय करें कि दिए गए निष्कर्षों में से कौन सा/से तार्किक रूप से कथनों का अनुसरण करता है/करते हैं।<br><br><b>कथन:</b><br>सभी मटर प्याज हैं।<br>सभी प्याज गाजर हैं।<br>कोई भी गाजर टमाटर नहीं है।<br><br><b>निष्कर्ष:</b><br>(I) कोई भी मटर टमाटर नहीं है।<br>(II) कोई भी प्याज टमाटर नहीं है।",
+        "op_en": [
+            "Only conclusion (II) follows.",
+            "Only conclusion (I) follows.",
+            "Neither conclusion (I) nor (II) follows.",
+            "Both conclusions (I) and (II) follow."
+        ],
+        "op_hi": [
+            "केवल निष्कर्ष (II) अनुसरण करता है।",
+            "केवल निष्कर्ष (I) अनुसरण करता है।",
+            "न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है।",
+            "निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>1. Draw Venn diagrams based on the statements.<br>2. \"All peas are onions\": Draw 'peas' circle inside 'onions' circle.<br>3. \"All onions are carrots\": Draw 'onions' circle inside 'carrots' circle. So, 'peas' is inside 'onions', which is inside 'carrots'.<br>4. \"No carrot is a tomato\": Draw 'tomato' circle completely separate from the 'carrots' circle.<br>5. Conclusion (I) \"No pea is a tomato\": Since 'peas' are entirely within 'carrots', and no 'carrot' is a 'tomato', it is impossible for a 'pea' to be a 'tomato'. Thus, this conclusion is true.<br>6. Conclusion (II) \"No onion is a tomato\": Since 'onions' are entirely within 'carrots', and no 'carrot' is a 'tomato', it is impossible for an 'onion' to be a 'tomato'. Thus, this conclusion is also true.<br>7. Therefore, both conclusions (I) and (II) follow.<br><br><b>Solution (HI):</b><br>1. कथनों के आधार पर वेन आरेख बनाएं।<br>2. \"सभी मटर प्याज हैं\": 'मटर' का वृत्त 'प्याज' के वृत्त के अंदर बनाएं।<br>3. \"सभी प्याज गाजर हैं\": 'प्याज' का वृत्त 'गाजर' के वृत्त के अंदर बनाएं। अतः, 'मटर' 'प्याज' के अंदर है, जो 'गाजर' के अंदर है।<br>4. \"कोई भी गाजर टमाटर नहीं है\": 'टमाटर' का वृत्त 'गाजर' के वृत्त से पूरी तरह अलग बनाएं।<br>5. निष्कर्ष (I) \"कोई भी मटर टमाटर नहीं है\": चूंकि 'मटर' पूरी तरह से 'गाजर' के अंदर हैं, और कोई भी 'गाजर' 'टमाटर' नहीं है, इसलिए किसी 'मटर' का 'टमाटर' होना असंभव है। इस प्रकार, यह निष्कर्ष सत्य है।<br>6. निष्कर्ष (II) \"कोई भी प्याज टमाटर नहीं है\": चूंकि 'प्याज' पूरी तरह से 'गाजर' के अंदर हैं, और कोई भी 'गाजर' 'टमाटर' नहीं है, इसलिए किसी 'प्याज' का 'टमाटर' होना असंभव है। इस प्रकार, यह निष्कर्ष भी सत्य है।<br>7. अतः, निष्कर्ष (I) और (II) दोनों अनुसरण करते हैं।<br><br><b>Short Trick:</b><br>P &sub; O &sub; C. C &cap; T = &empty;. Since P and O are subsets of C, and C has no overlap with T, then P and O also have no overlap with T. Both 'No P is T' and 'No O is T' are correct."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Analogy",
+        "difficulty": "Medium",
+        "q_en": "In the following triads, each group of letters is related to the subsequent one following a certain logic. Select from the given options, the one which follows the same logic.<br><br>CARE - ERAC - AREC<br>SELF - FLES - ELFS",
+        "q_hi": "निम्नलिखित त्रिकों में, अक्षरों का प्रत्येक समूह एक निश्चित तर्क के अनुसार बाद वाले से संबंधित है। दिए गए विकल्पों में से उस विकल्प का चयन करें जो समान तर्क का अनुसरण करता है।<br><br>CARE - ERAC - AREC<br>SELF - FLES - ELFS",
+        "op_en": [
+            "HIKE - EKIH - IKEH",
+            "LIME - MILE - LEMI",
+            "SORT - TROS - OSTR",
+            "LIMB - LBIM - BLIM"
+        ],
+        "op_hi": [
+            "HIKE - EKIH - IKEH",
+            "LIME - MILE - LEMI",
+            "SORT - TROS - OSTR",
+            "LIMB - LBIM - BLIM"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>1. Analyze the pattern in the first triad: CARE - ERAC - AREC.<br>Let the positions of the letters in the first word CARE be 1(C), 2(A), 3(R), 4(E).<br>Second word: ERAC is formed by reversing the first word (positions 4, 3, 2, 1).<br>Third word: AREC is formed by taking the 2nd, 3rd, 4th, and 1st letters of the first word (positions 2, 3, 4, 1).<br>2. Check the second triad: SELF - FLES - ELFS.<br>SELF (1234) &rarr; FLES (4321, Reverse of SELF) &rarr; ELFS (2341, E=2, L=3, F=4, S=1). Pattern matches perfectly.<br>3. Check the given options:<br>Option 1: HIKE - EKIH (Reverse 4321, Correct) - IKEH (2341, Correct).<br>Option 2: LIME - MILE (Not a perfect reverse, reverse is EMIL).<br>Option 3: SORT - TROS (Reverse 4321, Correct) - OSTR (2134, Incorrect).<br>Option 4: LIMB - LBIM (Not a reverse).<br>Thus, Option 1 follows the same logic.<br><br><b>Solution (HI):</b><br>1. पहले त्रिक में पैटर्न का विश्लेषण करें: CARE - ERAC - AREC.<br>मान लें कि पहले शब्द CARE में अक्षरों की स्थिति 1(C), 2(A), 3(R), 4(E) है।<br>दूसरा शब्द: ERAC पहले शब्द को उलटने (स्थितियाँ 4, 3, 2, 1) से बनता है।<br>तीसरा शब्द: AREC पहले शब्द के दूसरे, तीसरे, चौथे और पहले अक्षरों (स्थितियाँ 2, 3, 4, 1) को लेकर बनता है।<br>2. दूसरे त्रिक की जाँच करें: SELF - FLES - ELFS.<br>SELF (1234) &rarr; FLES (4321, SELF का उल्टा) &rarr; ELFS (2341, E=2, L=3, F=4, S=1)। पैटर्न पूरी तरह से मेल खाता है।<br>3. दिए गए विकल्पों की जाँच करें:<br>विकल्प 1: HIKE - EKIH (उल्टा 4321, सही) - IKEH (2341, सही)।<br>विकल्प 2: LIME - MILE (उल्टा नहीं है)।<br>विकल्प 3: SORT - TROS (उल्टा 4321, सही) - OSTR (2134, गलत)।<br>विकल्प 4: LIMB - LBIM (उल्टा नहीं है)।<br>अतः, विकल्प 1 समान तर्क का अनुसरण करता है।<br><br><b>Short Trick:</b><br>Identify the arrangement logic based on letter positions. Word 1 (1234) &rarr; Word 2 is completely reversed (4321) &rarr; Word 3 takes the first letter to the end (2341). Test this on HIKE: HIKE reversed is EKIH, and shifting 'H' to the end gives IKEH. Option 1 is correct."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Letter Series",
+        "difficulty": "Easy",
+        "q_en": "What should come in place of the question mark (?) in the given series based on the English alphabetical order?<br><br>ODD QIG SNJ USM ?",
+        "q_hi": "अंग्रेजी वर्णमाला क्रम के आधार पर दी गई श्रृंखला में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आना चाहिए?<br><br>ODD QIG SNJ USM ?",
+        "op_en": [
+            "PWX",
+            "WXP",
+            "WMZ",
+            "UYX"
+        ],
+        "op_hi": [
+            "PWX",
+            "WXP",
+            "WMZ",
+            "UYX"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>1. Analyze the series letter by letter.<br>2. First letters: O(15) &rarr; Q(17) &rarr; S(19) &rarr; U(21) &rarr; ?<br>The pattern is +2. So, U(21) + 2 = W(23).<br>3. Second letters: D(4) &rarr; I(9) &rarr; N(14) &rarr; S(19) &rarr; ?<br>The pattern is +5. So, S(19) + 5 = X(24).<br>4. Third letters: D(4) &rarr; G(7) &rarr; J(10) &rarr; M(13) &rarr; ?<br>The pattern is +3. So, M(13) + 3 = P(16).<br>5. Combining them, the next term is WXP.<br><br><b>Solution (HI):</b><br>1. श्रृंखला का अक्षर दर अक्षर विश्लेषण करें।<br>2. पहले अक्षर: O(15) &rarr; Q(17) &rarr; S(19) &rarr; U(21) &rarr; ?<br>पैटर्न +2 है। अतः, U(21) + 2 = W(23).<br>3. दूसरे अक्षर: D(4) &rarr; I(9) &rarr; N(14) &rarr; S(19) &rarr; ?<br>पैटर्न +5 है। अतः, S(19) + 5 = X(24).<br>4. तीसरे अक्षर: D(4) &rarr; G(7) &rarr; J(10) &rarr; M(13) &rarr; ?<br>पैटर्न +3 है। अतः, M(13) + 3 = P(16).<br>5. इन्हें मिलाने पर, अगला पद WXP होगा।<br><br><b>Short Trick:</b><br>Check the pattern for each position: 1st letter goes +2 (O, Q, S, U, W), 2nd letter goes +5 (D, I, N, S, X), 3rd letter goes +3 (D, G, J, M, P). The result is WXP."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Analogy",
+        "difficulty": "Medium",
+        "q_en": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::?<br><br># : UYE :: GJN : %",
+        "q_hi": "निम्नलिखित में से कौन सा अक्षर-समूह # और % को प्रतिस्थापित करेगा ताकि :: के बाईं ओर के अक्षर-समूह युग्म के बीच जो पैटर्न और संबंध है, वही :: के दाईं ओर भी हो?<br><br># : UYE :: GJN : %",
+        "op_en": [
+            "# = UWB, % = LMQ",
+            "# = UYA, % = LRP",
+            "# = TWA, % = HLR",
+            "# = TZB, % = HMQ"
+        ],
+        "op_hi": [
+            "# = UWB, % = LMQ",
+            "# = UYA, % = LRP",
+            "# = TWA, % = HLR",
+            "# = TZB, % = HMQ"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>1. Let's substitute the options and check which one follows a consistent logical pattern for both pairs (Left pair and Right pair).<br>2. Let's check Option 3: # = TWA, % = HLR.<br>The analogy becomes: TWA : UYE :: GJN : HLR<br>3. Left Pair pattern (TWA to UYE):<br>T(20) + 1 = U(21)<br>W(23) + 2 = Y(25)<br>A(1) + 4 = E(5)<br>The logic is +1, +2, +4.<br>4. Right Pair pattern (GJN to HLR):<br>G(7) + 1 = H(8)<br>J(10) + 2 = L(12)<br>N(14) + 4 = R(18)<br>The logic is +1, +2, +4.<br>5. Since both pairs follow the exact same (+1, +2, +4) pattern, Option 3 is the correct answer.<br><br><b>Solution (HI):</b><br>1. आइए विकल्पों को प्रतिस्थापित करें और जाँचें कि कौन सा दोनों युग्मों (बाएँ युग्म और दाएँ युग्म) के लिए एक सुसंगत तार्किक पैटर्न का अनुसरण करता है।<br>2. आइए विकल्प 3 की जाँच करें: # = TWA, % = HLR.<br>सादृश्य बन जाता है: TWA : UYE :: GJN : HLR<br>3. बाएँ युग्म का पैटर्न (TWA से UYE):<br>T(20) + 1 = U(21)<br>W(23) + 2 = Y(25)<br>A(1) + 4 = E(5)<br>तर्क +1, +2, +4 है।<br>4. दाएँ युग्म का पैटर्न (GJN से HLR):<br>G(7) + 1 = H(8)<br>J(10) + 2 = L(12)<br>N(14) + 4 = R(18)<br>तर्क +1, +2, +4 है।<br>5. चूँकि दोनों युग्म बिल्कुल समान (+1, +2, +4) पैटर्न का अनुसरण करते हैं, इसलिए विकल्प 3 सही उत्तर है।<br><br><b>Short Trick:</b><br>Check the pattern from Option 3. T(+1) = U, W(+2) = Y, A(+4) = E. Apply the same to GJN: G(+1) = H, J(+2) = L, N(+4) = R. It perfectly gives HLR. The pattern matches."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Numeric Operations",
+        "difficulty": "Easy",
+        "q_en": "If 2 is subtracted from each odd digit and 1 is added to each even digit in the number 675327953627, what will be the sum of the digits which are second from the left and second from the right in the new number thus formed?",
+        "q_hi": "यदि संख्या 675327953627 में प्रत्येक विषम अंक से 2 घटाया जाता है और प्रत्येक सम अंक में 1 जोड़ा जाता है, तो इस प्रकार बनी नई संख्या में बाएँ से दूसरे और दाएँ से दूसरे अंकों का योग क्या होगा?",
+        "op_en": [
+            "10",
+            "7",
+            "9",
+            "8"
+        ],
+        "op_hi": [
+            "10",
+            "7",
+            "9",
+            "8"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>1. Original Number: 6 7 5 3 2 7 9 5 3 6 2 7<br>2. Rule: Even digit + 1, Odd digit - 2.<br>3. Let's apply the rule to the relevant digits only to save time.<br>4. The digit second from the left is '7' (which is odd). So, 7 - 2 = 5.<br>5. The digit second from the right is '2' (which is even). So, 2 + 1 = 3.<br>6. Sum of these two new digits = 5 + 3 = 8.<br><br><b>Solution (HI):</b><br>1. मूल संख्या: 6 7 5 3 2 7 9 5 3 6 2 7<br>2. नियम: सम अंक + 1, विषम अंक - 2।<br>3. समय बचाने के लिए आइए केवल प्रासंगिक अंकों पर नियम लागू करें।<br>4. बाएँ से दूसरा अंक '7' (जो विषम है) है। अतः, 7 - 2 = 5.<br>5. दाएँ से दूसरा अंक '2' (जो सम है) है। अतः, 2 + 1 = 3.<br>6. इन दो नए अंकों का योग = 5 + 3 = 8.<br><br><b>Short Trick:</b><br>Identify the targets directly: 2nd from left is 7 (odd &rarr; 7-2 = 5). 2nd from right is 2 (even &rarr; 2+1 = 3). Sum = 5 + 3 = 8."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Mathematical Operations",
+        "difficulty": "Easy",
+        "q_en": "If 'A' stands for '&divide;', 'B' stands for '&times;', 'C' stands for '+' and 'D' stands for '-', what will come in place of the question mark (?) in the following equation?<br><br>34 B 6 C 369 A 41 D 33 = ?",
+        "q_hi": "यदि 'A' का अर्थ '&divide;' है, 'B' का अर्थ '&times;' है, 'C' का अर्थ '+' है और 'D' का अर्थ '-' है, तो निम्नलिखित समीकरण में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आएगा?<br><br>34 B 6 C 369 A 41 D 33 = ?",
+        "op_en": [
+            "171",
+            "184",
+            "180",
+            "175"
+        ],
+        "op_hi": [
+            "171",
+            "184",
+            "180",
+            "175"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>1. Given Equation: 34 B 6 C 369 A 41 D 33 = ?<br>2. Substitute the letters with mathematical signs:<br>34 &times; 6 + 369 &divide; 41 - 33 = ?<br>3. Apply BODMAS rule:<br>- Division first: 369 &divide; 41 = 9<br>Equation becomes: 34 &times; 6 + 9 - 33<br>- Multiplication next: 34 &times; 6 = 204<br>Equation becomes: 204 + 9 - 33<br>- Addition and Subtraction: 213 - 33 = 180<br>4. Thus, the answer is 180.<br><br><b>Solution (HI):</b><br>1. दिया गया समीकरण: 34 B 6 C 369 A 41 D 33 = ?<br>2. अक्षरों को गणितीय चिह्नों से बदलें:<br>34 &times; 6 + 369 &divide; 41 - 33 = ?<br>3. BODMAS नियम लागू करें:<br>- सबसे पहले भाग: 369 &divide; 41 = 9<br>समीकरण बन जाता है: 34 &times; 6 + 9 - 33<br>- इसके बाद गुणा: 34 &times; 6 = 204<br>समीकरण बन जाता है: 204 + 9 - 33<br>- जोड़ और घटाव: 213 - 33 = 180<br>4. अतः उत्तर 180 है।<br><br><b>Short Trick:</b><br>Solve mentally using BODMAS: 369/41 is 9. 34*6 is 204. 204 + 9 - 33 = 213 - 33 = 180."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Mathematical Operations",
+        "difficulty": "Easy",
+        "q_en": "If + means -, - means &times;, &times; means &divide;, and &divide; means +, then what will come in place of the question mark (?) in the following equation?<br><br>21 &times; 3 &divide; 7 - 2 + 20 = ?",
+        "q_hi": "यदि + का अर्थ - है, - का अर्थ &times; है, &times; का अर्थ &divide; है, और &divide; का अर्थ + है, तो निम्नलिखित समीकरण में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आएगा?<br><br>21 &times; 3 &divide; 7 - 2 + 20 = ?",
+        "op_en": [
+            "4",
+            "1",
+            "9",
+            "7"
+        ],
+        "op_hi": [
+            "4",
+            "1",
+            "9",
+            "7"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>1. Given Equation: 21 &times; 3 &divide; 7 - 2 + 20 = ?<br>2. Substitute the signs according to the given rules:<br>+ becomes -<br>- becomes &times;<br>&times; becomes &divide;<br>&divide; becomes +<br>New Equation: 21 &divide; 3 + 7 &times; 2 - 20 = ?<br>3. Apply BODMAS rule:<br>- Division: 21 &divide; 3 = 7<br>- Multiplication: 7 &times; 2 = 14<br>- Addition & Subtraction: 7 + 14 - 20 = 21 - 20 = 1<br>4. The answer is 1.<br><br><b>Solution (HI):</b><br>1. दिया गया समीकरण: 21 &times; 3 &divide; 7 - 2 + 20 = ?<br>2. दिए गए नियमों के अनुसार चिह्नों को बदलें:<br>+ बन जाता है -<br>- बन जाता है &times;<br>&times; बन जाता है &divide;<br>&divide; बन जाता है +<br>नया समीकरण: 21 &divide; 3 + 7 &times; 2 - 20 = ?<br>3. BODMAS नियम लागू करें:<br>- भाग: 21 &divide; 3 = 7<br>- गुणा: 7 &times; 2 = 14<br>- जोड़ और घटाव: 7 + 14 - 20 = 21 - 20 = 1<br>4. उत्तर 1 है।<br><br><b>Short Trick:</b><br>Direct substitution and mental math: (21/3) + (7*2) - 20 = 7 + 14 - 20 = 1."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Number Analogy",
+        "difficulty": "Easy",
+        "q_en": "66 is related to 36 following a certain logic. Following the same logic, 84 is related to 54. To which of the given options is 95 related, following the same logic?<br><br>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 - Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)",
+        "q_hi": "66 एक निश्चित तर्क का अनुसरण करते हुए 36 से संबंधित है। उसी तर्क का अनुसरण करते हुए, 84, 54 से संबंधित है। उसी तर्क का अनुसरण करते हुए, 95 दिए गए विकल्पों में से किससे संबंधित है?<br><br>(नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना, पूर्ण संख्याओं पर संचालन किया जाना चाहिए। उदाहरण के लिए 13 - 13 पर जोड़ने/घटाने/गुणा करने जैसे संचालन किए जा सकते हैं। 13 को 1 और 3 में तोड़ना और फिर 1 और 3 पर गणितीय संचालन करने की अनुमति नहीं है।)",
+        "op_en": [
+            "55",
+            "45",
+            "75",
+            "65"
+        ],
+        "op_hi": [
+            "55",
+            "45",
+            "75",
+            "65"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>1. Let's find the difference between the numbers in the given pairs.<br>2. First pair: 66 and 36 &rarr; 66 - 36 = 30. So, 66 - 30 = 36.<br>3. Second pair: 84 and 54 &rarr; 84 - 54 = 30. So, 84 - 30 = 54.<br>4. The logic is: Subtract 30 from the first number to get the second number.<br>5. Applying the same logic to 95: 95 - 30 = 65.<br>6. Therefore, 95 is related to 65.<br><br><b>Solution (HI):</b><br>1. आइए दिए गए युग्मों में संख्याओं के बीच का अंतर ज्ञात करें।<br>2. पहला युग्म: 66 और 36 &rarr; 66 - 36 = 30. अतः, 66 - 30 = 36.<br>3. दूसरा युग्म: 84 और 54 &rarr; 84 - 54 = 30. अतः, 84 - 30 = 54.<br>4. तर्क यह है: दूसरी संख्या प्राप्त करने के लिए पहली संख्या में से 30 घटाएँ।<br>5. 95 पर यही तर्क लागू करने पर: 95 - 30 = 65.<br>6. इसलिए, 95, 65 से संबंधित है।<br><br><b>Short Trick:</b><br>Notice a constant difference: 66 &rarr; 36 is -30. 84 &rarr; 54 is -30. Simply calculate 95 - 30 = 65."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Numeric Operations",
+        "difficulty": "Easy",
+        "q_en": "If 1 is added to each even digit and 1 is subtracted from each odd digit in the number 8629475, what will be the difference between the highest and lowest digits in the new number thus formed?",
+        "q_hi": "यदि संख्या 8629475 में प्रत्येक सम अंक में 1 जोड़ा जाता है और प्रत्येक विषम अंक से 1 घटाया जाता है, तो इस प्रकार बनी नई संख्या में सबसे बड़े और सबसे छोटे अंकों के बीच का अंतर क्या होगा?",
+        "op_en": [
+            "7",
+            "8",
+            "6",
+            "5"
+        ],
+        "op_hi": [
+            "7",
+            "8",
+            "6",
+            "5"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>1. Original Number: 8 6 2 9 4 7 5<br>2. Rule: Add 1 to even digits, subtract 1 from odd digits.<br>3. Applying the rule:<br>- 8 (even) + 1 = 9<br>- 6 (even) + 1 = 7<br>- 2 (even) + 1 = 3<br>- 9 (odd) - 1 = 8<br>- 4 (even) + 1 = 5<br>- 7 (odd) - 1 = 6<br>- 5 (odd) - 1 = 4<br>4. The new number formed is: 9 7 3 8 5 6 4<br>5. The highest digit in the new number is 9.<br>6. The lowest digit in the new number is 3.<br>7. Difference = 9 - 3 = 6.<br><br><b>Solution (HI):</b><br>1. मूल संख्या: 8 6 2 9 4 7 5<br>2. नियम: सम अंकों में 1 जोड़ें, विषम अंकों से 1 घटाएँ।<br>3. नियम लागू करने पर:<br>- 8 (सम) + 1 = 9<br>- 6 (सम) + 1 = 7<br>- 2 (सम) + 1 = 3<br>- 9 (विषम) - 1 = 8<br>- 4 (सम) + 1 = 5<br>- 7 (विषम) - 1 = 6<br>- 5 (विषम) - 1 = 4<br>4. बनी नई संख्या है: 9 7 3 8 5 6 4<br>5. नई संख्या में सबसे बड़ा अंक 9 है।<br>6. नई संख्या में सबसे छोटा अंक 3 है।<br>7. अंतर = 9 - 3 = 6.<br><br><b>Short Trick:</b><br>Apply rules directly: 8&rarr;9 (Highest possible), 2&rarr;3 (Lowest possible). Check others quickly, none is >9 or <3. Difference: 9 - 3 = 6."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Number Set Analogy",
+        "difficulty": "Medium",
+        "q_en": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?<br>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 - Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)<br><br>11 - 12 - 24 - 20<br>9 - 10 - 20 - 16",
+        "q_hi": "नीचे संख्याओं के दो सेट दिए गए हैं। संख्याओं के प्रत्येक सेट में, पहली संख्या पर कुछ गणितीय संक्रिया(एँ) दूसरी संख्या देती है। इसी तरह, दूसरी संख्या पर कुछ गणितीय संक्रिया(एँ) तीसरी संख्या देती है और इसी तरह। दिए गए विकल्पों में से कौन सा दिए गए सेटों के समान संक्रियाओं के सेट का अनुसरण करता है?<br>(नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना, पूर्ण संख्याओं पर संचालन किया जाना चाहिए। उदाहरण के लिए 13 - 13 पर जोड़ने/घटाने/गुणा करने जैसे संचालन किए जा सकते हैं। 13 को 1 और 3 में तोड़ना और फिर 1 और 3 पर गणितीय संचालन करने की अनुमति नहीं है।)<br><br>11 - 12 - 24 - 20<br>9 - 10 - 20 - 16",
+        "op_en": [
+            "4 - 8 - 10 - 5",
+            "2 - 3 - 6 - 2",
+            "7 - 9 - 10 - 6",
+            "5 - 6 - 12 - 10"
+        ],
+        "op_hi": [
+            "4 - 8 - 10 - 5",
+            "2 - 3 - 6 - 2",
+            "7 - 9 - 10 - 6",
+            "5 - 6 - 12 - 10"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>1. Analyze the pattern in the first set: 11 - 12 - 24 - 20<br>- 11 + 1 = 12<br>- 12 &times; 2 = 24<br>- 24 - 4 = 20<br>The pattern of operations is: +1, &times;2, -4.<br>2. Check if the second set follows the same pattern: 9 - 10 - 20 - 16<br>- 9 + 1 = 10<br>- 10 &times; 2 = 20<br>- 20 - 4 = 16<br>The pattern (+1, &times;2, -4) is confirmed.<br>3. Check the given options for the same pattern:<br>- Option 1: 4 + 4 = 8 (Incorrect pattern)<br>- Option 2: 2 + 1 = 3; 3 &times; 2 = 6; 6 - 4 = 2. (Follows the pattern exactly!)<br>- Option 3: 7 + 2 = 9 (Incorrect pattern)<br>- Option 4: 5 + 1 = 6; 6 &times; 2 = 12; 12 - 2 = 10 (Incorrect last step, should be -4)<br>4. Therefore, Option 2 is the correct answer.<br><br><b>Solution (HI):</b><br>1. पहले सेट में पैटर्न का विश्लेषण करें: 11 - 12 - 24 - 20<br>- 11 + 1 = 12<br>- 12 &times; 2 = 24<br>- 24 - 4 = 20<br>संक्रियाओं का पैटर्न है: +1, &times;2, -4.<br>2. जाँचें कि क्या दूसरा सेट भी इसी पैटर्न का अनुसरण करता है: 9 - 10 - 20 - 16<br>- 9 + 1 = 10<br>- 10 &times; 2 = 20<br>- 20 - 4 = 16<br>पैटर्न (+1, &times;2, -4) की पुष्टि हो गई।<br>3. समान पैटर्न के लिए दिए गए विकल्पों की जाँच करें:<br>- विकल्प 1: 4 + 4 = 8 (गलत पैटर्न)<br>- विकल्प 2: 2 + 1 = 3; 3 &times; 2 = 6; 6 - 4 = 2. (पैटर्न का पूरी तरह से अनुसरण करता है!)<br>- विकल्प 3: 7 + 2 = 9 (गलत पैटर्न)<br>- विकल्प 4: 5 + 1 = 6; 6 &times; 2 = 12; 12 - 2 = 10 (अंतिम चरण गलत है, -4 होना चाहिए)<br>4. इसलिए, विकल्प 2 सही उत्तर है।<br><br><b>Short Trick:</b><br>Identify the operations: +1, &times;2, -4. Test the options mentally. Option 2: 2+1=3, 3*2=6, 6-4=2. Matches."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Number Set Analogy",
+        "difficulty": "Easy",
+        "q_en": "Two sets of numbers are given below. In each set of numbers, certain mathematical operation(s) on the first number results in the second number. Similarly, certain mathematical operation(s) on the second number results in the third number and so on. Which of the given options follows the same set of operations as in the given sets?<br>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 - Operations on 13 such as adding / subtracting /multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)<br><br>96 - 81 - 61 - 36 ; 118 - 103 - 83 - 58",
+        "q_hi": "नीचे संख्याओं के दो सेट दिए गए हैं। संख्याओं के प्रत्येक सेट में, पहली संख्या पर कुछ गणितीय संक्रिया(एँ) दूसरी संख्या देती है। इसी तरह, दूसरी संख्या पर कुछ गणितीय संक्रिया(एँ) तीसरी संख्या देती है और इसी तरह। दिए गए विकल्पों में से कौन सा दिए गए सेटों के समान संक्रियाओं के सेट का अनुसरण करता है?<br>(नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना, पूर्ण संख्याओं पर संचालन किया जाना चाहिए। उदाहरण के लिए 13 - 13 पर जोड़ने/घटाने/गुणा करने जैसे संचालन किए जा सकते हैं। 13 को 1 और 3 में तोड़ना और फिर 1 और 3 पर गणितीय संचालन करने की अनुमति नहीं है।)<br><br>96 - 81 - 61 - 36 ; 118 - 103 - 83 - 58",
+        "op_en": [
+            "125 - 110 - 90 - 55",
+            "78 - 63 - 33 - 8",
+            "80 - 65 - 45 - 20",
+            "100 - 85 - 65 - 50"
+        ],
+        "op_hi": [
+            "125 - 110 - 90 - 55",
+            "78 - 63 - 33 - 8",
+            "80 - 65 - 45 - 20",
+            "100 - 85 - 65 - 50"
+        ],
+        "ans": 3,
+        "solution": "<b>Solution (EN):</b><br>1. Analyze the pattern in the first set: 96 - 81 - 61 - 36<br>- Difference between 1st and 2nd term: 96 - 81 = 15 (&rarr; -15)<br>- Difference between 2nd and 3rd term: 81 - 61 = 20 (&rarr; -20)<br>- Difference between 3rd and 4th term: 61 - 36 = 25 (&rarr; -25)<br>The pattern is subtracting consecutive multiples of 5: -15, -20, -25.<br>2. Check if the second set follows this pattern: 118 - 103 - 83 - 58<br>- 118 - 103 = 15 (&rarr; -15)<br>- 103 - 83 = 20 (&rarr; -20)<br>- 83 - 58 = 25 (&rarr; -25)<br>The pattern (-15, -20, -25) is confirmed.<br>3. Check the options for the same pattern:<br>- Option 1: 125 - 110 = 15; 110 - 90 = 20; 90 - 55 = 35. (Incorrect last difference)<br>- Option 2: 78 - 63 = 15; 63 - 33 = 30. (Incorrect second difference)<br>- Option 3: 80 - 65 = 15; 65 - 45 = 20; 45 - 20 = 25. (Correct! Follows -15, -20, -25)<br>- Option 4: 100 - 85 = 15; 85 - 65 = 20; 65 - 50 = 15. (Incorrect last difference)<br>4. Thus, Option 3 is correct.<br><br><b>Solution (HI):</b><br>1. पहले सेट में पैटर्न का विश्लेषण करें: 96 - 81 - 61 - 36<br>- पहले और दूसरे पद के बीच का अंतर: 96 - 81 = 15 (&rarr; -15)<br>- दूसरे और तीसरे पद के बीच का अंतर: 81 - 61 = 20 (&rarr; -20)<br>- तीसरे और चौथे पद के बीच का अंतर: 61 - 36 = 25 (&rarr; -25)<br>पैटर्न 5 के लगातार गुणकों को घटाने का है: -15, -20, -25.<br>2. जाँचें कि क्या दूसरा सेट भी इस पैटर्न का अनुसरण करता है: 118 - 103 - 83 - 58<br>- 118 - 103 = 15 (&rarr; -15)<br>- 103 - 83 = 20 (&rarr; -20)<br>- 83 - 58 = 25 (&rarr; -25)<br>पैटर्न (-15, -20, -25) की पुष्टि हो गई।<br>3. समान पैटर्न के लिए विकल्पों की जाँच करें:<br>- विकल्प 1: 125 - 110 = 15; 110 - 90 = 20; 90 - 55 = 35. (अंतिम अंतर गलत है)<br>- विकल्प 2: 78 - 63 = 15; 63 - 33 = 30. (दूसरा अंतर गलत है)<br>- विकल्प 3: 80 - 65 = 15; 65 - 45 = 20; 45 - 20 = 25. (सही! -15, -20, -25 का अनुसरण करता है)<br>- विकल्प 4: 100 - 85 = 15; 85 - 65 = 20; 65 - 50 = 15. (अंतिम अंतर गलत है)<br>4. अतः, विकल्प 3 सही है।<br><br><b>Short Trick:</b><br>Find the successive differences: -15, -20, -25. Check the options. Option 3 differences: (80-65=15), (65-45=20), (45-20=25). Perfect match."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Number Analogy",
+        "difficulty": "Easy",
+        "q_en": "In the following number-pairs, the second number is obtained by applying certain mathematical operations to the first number. Select the set in which the numbers are related in the same way as are the numbers of the following sets.<br>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 - Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)<br><br>8 - 32<br>5 - 20",
+        "q_hi": "निम्नलिखित संख्या-युग्मों में, दूसरी संख्या पहली संख्या पर कुछ गणितीय संक्रियाएँ लागू करके प्राप्त की जाती है। उस सेट का चयन करें जिसमें संख्याएँ उसी तरह से संबंधित हैं जैसे निम्नलिखित सेटों की संख्याएँ हैं।<br>(नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना, पूर्ण संख्याओं पर संचालन किया जाना चाहिए। उदाहरण के लिए 13 - 13 पर जोड़ने/घटाने/गुणा करने जैसे संचालन किए जा सकते हैं। 13 को 1 और 3 में तोड़ना और फिर 1 और 3 पर गणितीय संचालन करने की अनुमति नहीं है।)<br><br>8 - 32<br>5 - 20",
+        "op_en": [
+            "16 - 32",
+            "20 - 100",
+            "9 - 45",
+            "11 - 44"
+        ],
+        "op_hi": [
+            "16 - 32",
+            "20 - 100",
+            "9 - 45",
+            "11 - 44"
+        ],
+        "ans": 4,
+        "solution": "<b>Solution (EN):</b><br>1. Analyze the logic in the given pairs.<br>2. First pair: $8 - 32 \\rightarrow 8 \\times 4 = 32$.<br>3. Second pair: $5 - 20 \\rightarrow 5 \\times 4 = 20$.<br>4. The logic is that the second number is 4 times the first number ($x \\times 4 = y$).<br>5. Check the options:<br>Option 1: $16 \\times 4 = 64 \\neq 32$.<br>Option 2: $20 \\times 4 = 80 \\neq 100$.<br>Option 3: $9 \\times 4 = 36 \\neq 45$.<br>Option 4: $11 \\times 4 = 44$. (Follows the same logic)<br>6. Therefore, the correct option is $11 - 44$.<br><br><b>Solution (HI):</b><br>1. दिए गए युग्मों में तर्क का विश्लेषण करें।<br>2. पहला युग्म: $8 - 32 \\rightarrow 8 \\times 4 = 32$.<br>3. दूसरा युग्म: $5 - 20 \\rightarrow 5 \\times 4 = 20$.<br>4. तर्क यह है कि दूसरी संख्या पहली संख्या की 4 गुना है ($x \\times 4 = y$).<br>5. विकल्पों की जाँच करें:<br>विकल्प 1: $16 \\times 4 = 64 \\neq 32$.<br>विकल्प 2: $20 \\times 4 = 80 \\neq 100$.<br>विकल्प 3: $9 \\times 4 = 36 \\neq 45$.<br>विकल्प 4: $11 \\times 4 = 44$. (समान तर्क का अनुसरण करता है)<br>6. अतः, सही विकल्प 11 - 44 है।<br><br><b>Short Trick:</b><br>Identify the multiplier: $32 / 8 = 4$ and $20 / 5 = 4$. Check options for a $\\times 4$ relationship. $11 \\times 4 = 44$. Option 4 is correct."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Number Series",
+        "difficulty": "Easy",
+        "q_en": "What should come in place of the question mark (?) in the given series?<br><br>708 718 729 741 754 ?",
+        "q_hi": "दी गई श्रृंखला में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आना चाहिए?<br><br>708 718 729 741 754 ?",
+        "op_en": [
+            "764",
+            "768",
+            "772",
+            "770"
+        ],
+        "op_hi": [
+            "764",
+            "768",
+            "772",
+            "770"
+        ],
+        "ans": 2,
+        "solution": "<b>Solution (EN):</b><br>1. Calculate the difference between consecutive terms in the series:<br>$718 - 708 = 10$<br>$729 - 718 = 11$<br>$741 - 729 = 12$<br>$754 - 741 = 13$<br>2. The differences form a sequence: $+10, +11, +12, +13$.<br>3. The next difference should be $+14$.<br>4. Adding 14 to the last term: $754 + 14 = 768$.<br>5. Therefore, the next term in the series is 768.<br><br><b>Solution (HI):</b><br>1. श्रृंखला में लगातार पदों के बीच के अंतर की गणना करें:<br>$718 - 708 = 10$<br>$729 - 718 = 11$<br>$741 - 729 = 12$<br>$754 - 741 = 13$<br>2. अंतर एक क्रम बनाते हैं: $+10, +11, +12, +13$.<br>3. अगला अंतर $+14$ होना चाहिए।<br>4. अंतिम पद में 14 जोड़ने पर: $754 + 14 = 768$.<br>5. इसलिए, श्रृंखला में अगला पद 768 है।<br><br><b>Short Trick:</b><br>The differences are increasing by 1 ($+10, +11, +12, +13$). Next difference is $+14$. $754 + 14 = 768$."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Mathematical Operations",
+        "difficulty": "Easy",
+        "q_en": "If 'A' stands for '&divide;', 'B' stands for '&times;', 'C' stands for '+' and 'D' stands for '-', then what will come in place of the question mark (?) in the following equation?<br><br>42 C 42 D 4 A 14 B 21 = ?",
+        "q_hi": "यदि 'A' का अर्थ '&divide;' है, 'B' का अर्थ '&times;' है, 'C' का अर्थ '+' है और 'D' का अर्थ '-' है, तो निम्नलिखित समीकरण में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आएगा?<br><br>42 C 42 D 4 A 14 B 21 = ?",
+        "op_en": [
+            "78",
+            "79",
+            "80",
+            "76"
+        ],
+        "op_hi": [
+            "78",
+            "79",
+            "80",
+            "76"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>1. Given Equation: 42 C 42 D 4 A 14 B 21 = ?<br>2. Substitute the letters with mathematical signs:<br>42 + 42 - 4 &divide; 14 &times; 21 = ?<br>3. Apply BODMAS rule:<br>- Division: 4 &divide; 14 = 4/14 = 2/7<br>- Multiplication: (2/7) &times; 21 = 2 &times; 3 = 6<br>Equation becomes: 42 + 42 - 6<br>- Addition & Subtraction: 84 - 6 = 78<br>4. The answer is 78.<br><br><b>Solution (HI):</b><br>1. दिया गया समीकरण: 42 C 42 D 4 A 14 B 21 = ?<br>2. अक्षरों को गणितीय चिह्नों से बदलें:<br>42 + 42 - 4 &divide; 14 &times; 21 = ?<br>3. BODMAS नियम लागू करें:<br>- भाग: 4 &divide; 14 = 4/14 = 2/7<br>- गुणा: (2/7) &times; 21 = 2 &times; 3 = 6<br>समीकरण बन जाता है: 42 + 42 - 6<br>- जोड़ और घटाव: 84 - 6 = 78<br>4. उत्तर 78 है।<br><br><b>Short Trick:</b><br>Mentally solve the multiplication/division block: 4/14 * 21 = 2 * 3 = 6. Then simply calculate 42 + 42 - 6 = 84 - 6 = 78."
+    },
+    {
+        "section": "General intelligence and Reasoning Ability",
+        "topic": "Number Set Analogy",
+        "difficulty": "Easy",
+        "q_en": "Below are given two sets of numbers. In each set of numbers, certain mathematical operation(s) on the first number result(s) in the second number. Similarly, certain mathematical operation(s) on the second number result(s) in the third number and so on. Which of the given options follows the same set of operations as in the given sets?<br>(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 - Operations on 13 such as adding/subtracting/multiplying to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)<br><br>5 - 6 - 36 - 37 ; 1 - 2 - 4 - 5",
+        "q_hi": "नीचे संख्याओं के दो सेट दिए गए हैं। संख्याओं के प्रत्येक सेट में, पहली संख्या पर कुछ गणितीय संक्रिया(एँ) दूसरी संख्या देती है। इसी तरह, दूसरी संख्या पर कुछ गणितीय संक्रिया(एँ) तीसरी संख्या देती है और इसी तरह। दिए गए विकल्पों में से कौन सा दिए गए सेटों के समान संक्रियाओं के सेट का अनुसरण करता है?<br>(नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना, पूर्ण संख्याओं पर संचालन किया जाना चाहिए। उदाहरण के लिए 13 - 13 पर जोड़ने/घटाने/गुणा करने जैसे संचालन किए जा सकते हैं। 13 को 1 और 3 में तोड़ना और फिर 1 और 3 पर गणितीय संचालन करने की अनुमति नहीं है।)<br><br>5 - 6 - 36 - 37 ; 1 - 2 - 4 - 5",
+        "op_en": [
+            "7 - 8 - 64 - 65",
+            "12 - 144 - 145 - 146",
+            "10 - 11 - 121 - 120",
+            "4 - 5 - 25 - 30"
+        ],
+        "op_hi": [
+            "7 - 8 - 64 - 65",
+            "12 - 144 - 145 - 146",
+            "10 - 11 - 121 - 120",
+            "4 - 5 - 25 - 30"
+        ],
+        "ans": 1,
+        "solution": "<b>Solution (EN):</b><br>1. Analyze the pattern in the first set: 5 - 6 - 36 - 37<br>- 5 + 1 = 6<br>- 6<sup>2</sup> = 36<br>- 36 + 1 = 37<br>The pattern is: +1, square the number, +1.<br>2. Check if the second set follows this pattern: 1 - 2 - 4 - 5<br>- 1 + 1 = 2<br>- 2<sup>2</sup> = 4<br>- 4 + 1 = 5<br>The pattern is confirmed.<br>3. Check the given options:<br>- Option 1: 7 + 1 = 8; 8<sup>2</sup> = 64; 64 + 1 = 65. (Follows the pattern exactly!)<br>- Option 2: 12 + 1 = 13 &ne; 144.<br>- Option 3: 10 + 1 = 11; 11<sup>2</sup> = 121; 121 + 1 = 122 &ne; 120.<br>- Option 4: 4 + 1 = 5; 5<sup>2</sup> = 25; 25 + 1 = 26 &ne; 30.<br>4. Option 1 is the correct answer.<br><br><b>Solution (HI):</b><br>1. पहले सेट में पैटर्न का विश्लेषण करें: 5 - 6 - 36 - 37<br>- 5 + 1 = 6<br>- 6<sup>2</sup> = 36<br>- 36 + 1 = 37<br>पैटर्न है: +1, संख्या का वर्ग, +1.<br>2. जाँचें कि क्या दूसरा सेट भी इस पैटर्न का अनुसरण करता है: 1 - 2 - 4 - 5<br>- 1 + 1 = 2<br>- 2<sup>2</sup> = 4<br>- 4 + 1 = 5<br>पैटर्न की पुष्टि हो गई।<br>3. दिए गए विकल्पों की जाँच करें:<br>- विकल्प 1: 7 + 1 = 8; 8<sup>2</sup> = 64; 64 + 1 = 65. (पैटर्न का पूरी तरह से अनुसरण करता है!)<br>- विकल्प 2: 12 + 1 = 13 &ne; 144.<br>- विकल्प 3: 10 + 1 = 11; 11<sup>2</sup> = 121; 121 + 1 = 122 &ne; 120.<br>- विकल्प 4: 4 + 1 = 5; 5<sup>2</sup> = 25; 25 + 1 = 26 &ne; 30.<br>4. विकल्प 1 सही उत्तर है。<br><br><b>Short Trick:</b><br>The sequence logic is x, (x+1), (x+1)<sup>2</sup>, (x+1)<sup>2</sup>+1. Look at Option 1: 7, 8, 64, 65. It's a perfect match."
+    }
+]
